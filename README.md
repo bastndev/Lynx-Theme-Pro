@@ -1,23 +1,26 @@
 # Lynx Theme [2025](https://lynxjs.org/)
 
 <p align="center">
-  <img src=".github/VScode.png" alt="VSCode" width="100%">
+    <img src=".github/VScode.webp" alt="VSCode Capture" width="100%">
 </p>
+
 
 # Installation
 1. Open your terminal
-2. Execute `Lynx Theme`
+2. Execute `ext install bastndev.lynx-theme`
 
 <!-- ## Manually -->
 
-
 ## Contributors
 
-Here is the project link if you want to collaborate [Lynx-Theme](https://github.com/bastndev/Lynx-Theme).
+Here is the project link if you want to collaborate: [Lynx-Theme](https://github.com/bastndev/Lynx-Theme).
 
-[![@bastndev](https://github.com/bastndev.png?size=98)](https://github.com/bastndev) |
-:---: |
-[Gohit bastian](https://www.bastndev.com/) |
+<a href="https://github.com/bastndev">
+  <img src="https://github.com/bastndev.png?size=100" width="100" style="border-radius: 8px;">
+</a>
+
+**[Gohit Bastian](https://www.bastndev.com/)**
+
 
 ## About Me
 
