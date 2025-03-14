@@ -1,14 +1,17 @@
 {
   "name": "lynx-theme",
+  "version": "0.0.2",
   "displayName": "Lynx Theme",
-  "description": "Available for: VSCode, Cursor-AI, Trae-AI & Windsurf...",
-  "version": "0.0.1",
+  "description": "Available now: VSCode, Cursor-AI, Trae-AI & Windsurf - 雨...",
+  "publisher": "bastndev",
+  "license": "MIT",
   "engines": {
-    "vscode": "^1.98.0"
+    "vscode": "^1.43.0"
   },
   "categories": [
     "Themes"
   ],
+  "icon":".github/logo.png",
   "contributes": {
     "themes": [
       {
@@ -18,15 +21,19 @@
       }
     ]
   },
-  "icon":".github/logo.png",
   "author": {
     "name": "Gohit Bastian",
     "email": "gobasdev@gmail.com",
     "url": "https://www.bastndev.com"
   },
   "repository": {
-    "url": "https://github.com/bastndev/Lynx-Theme",
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/bastndev/Lynx-Theme"
   },
-  "publisher": "bastndev"
+  "keywords": [
+    "lynx-theme",
+    "dark",
+    "theme",
+    "color-theme"
+  ]
 }
