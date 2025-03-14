@@ -1,0 +1,32 @@
+{
+  "name": "lynx-theme",
+  "displayName": "Lynx Theme",
+  "description": "Available for: VSCode, Cursor-AI, Trae-AI & Windsurf...",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lynx Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lynx Theme-color-theme.json"
+      }
+    ]
+  },
+  "icon":".github/logo.png",
+  "author": {
+    "name": "Gohit Bastian",
+    "email": "gobasdev@gmail.com",
+    "url": "https://www.bastndev.com"
+  },
+  "repository": {
+    "url": "https://github.com/jorgegarba/extension-codigo-vs.git",
+    "type": "git"
+  },
+  "publisher": "bastndev"
+}
