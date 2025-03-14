@@ -25,12 +25,13 @@
 		//ctrl+shift+p
 		"quickInputList.focusBackground": "#13ff3e60",
 		"list.highlightForeground": "#5fc05c",
-		"focusBorder": "#13ff3e",
-		// "widget.border": "#13ff3e",
-		"list.activeSelectionBackground": "#13ff3e",
-		"list.activeSelectionForeground": "#fbfbfb",
+		"focusBorder": "#0a0a0a",
+
+		// --- "widget.border": "#13ff3e",
+		"list.activeSelectionBackground": "#13ff3e35",
+		"list.activeSelectionForeground": "#ffffff",
 		"list.inactiveSelectionBackground": "#000000",
-		
+
 		"titleBar.activeBackground": "#0a0a0a",
 		"titleBar.activeForeground": "#d0d0d0",
 		"titleBar.border": "#0a0a0a",
@@ -126,6 +127,7 @@
 		"gitDecoration.untrackedResourceForeground": "#475e7e90",
 		"gitDecoration.addedResourceForeground":"#13ff3e",
 		
+		// sugestion
 		"editorSuggestWidget.background": "#101010",
 		"editorSuggestWidget.border": "#13ff3ec0",
 		"editorSuggestWidget.foreground": "#eeffff",
@@ -155,7 +157,7 @@
 		"editorHoverWidget.border": "#13ff3e",
 		"editorHoverWidget.foreground": "#eeffff",
 		"editorHoverWidget.statusBarBackground": "#282828",
-
+		
 		"progressBar.background":"#13ff3e",
 
 		// --- SYNTAX
