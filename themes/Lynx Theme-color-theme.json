@@ -1,17 +1,18 @@
 {
 	"name": "Lynx Theme",
 	"colors": {
-		// --- ALL
+		// --- -- - Activity Bar
 		"activityBar.background": "#0a0a0a",
+		"activityBar.foreground": "#eeffff",
 		"activityBar.border": "#0a0a0a",
 		"activityBar.activeBorder": "#5fc05c",
-		"activityBar.foreground": "#eeffff",
 		"activityBarBadge.background": "#5fc05c",
 		"activityBarBadge.foreground": "#ffffff",
 
+		// --- -- - Side Bar
 		"sideBar.background": "#0a0a0a",
-		"sideBar.border": "#0a0a0a",
 		"sideBar.foreground": "#616161",
+		"sideBar.border": "#0a0a0a",
 		"sideBarSectionHeader.background": "#101010",
 		"sideBarSectionHeader.border": "#282828",
 		"sideBarTitle.foreground": "#ffffff",
@@ -22,44 +23,7 @@
 		"list.dropBackground":"#000000",
 		"tree.indentGuidesStroke":"#f3f3f34d",
 
-		//ctrl+shift+p
-		"quickInputList.focusBackground": "#13ff3e60",
-		"list.highlightForeground": "#5fc05c",
-		"focusBorder": "#0a0a0a",
-
-		// --- "widget.border": "#13ff3e",
-		"list.activeSelectionBackground": "#13ff3e35",
-		"list.activeSelectionForeground": "#ffffff",
-		"list.inactiveSelectionBackground": "#000000",
-
-		"titleBar.activeBackground": "#0a0a0a",
-		"titleBar.activeForeground": "#d0d0d0",
-		"titleBar.border": "#0a0a0a",
-		"titleBar.inactiveBackground": "#101010",
-		"titleBar.inactiveForeground": "#616161",
-
-		"menu.background": "#0a0a0a",
-		"menu.foreground": "#eeffff",
-		"menu.selectionBackground": "#00000050",
-		"menu.selectionBorder": "#00000030",
-		"menu.selectionForeground": "#26f21e",
-		"menu.separatorBackground": "#eeffff",
-		"menubar.selectionBackground": "#00000030",
-		"menubar.selectionBorder": "#00000030",
-		"menubar.selectionForeground": "#5fc05c",
-
-		"button.background": "#5fc05c",
-		"button.foreground": "#000000",
-		"textLink.foreground":"#13ff3e",
-
-		"editorWidget.background": "#0a0a0a",
-		"editorWidget.border": "#13ff3e", //Widget
-		"editorWidget.resizeBorder": "#5c6bc0",
-		"input.background": "#101010",
-		"input.border": "#0a0a0a",
-		"input.foreground": "#eeffff",
-		
-		// Terminal
+		// --- -- -Status Bar
 		"statusBar.background": "#0a0a0a",
 		"statusBar.foreground": "#616161",
 		"statusBar.border": "#42414160",
@@ -71,7 +35,25 @@
 		"statusBar.noFolderBackground": "#101010",
 		"statusBarItem.activeBackground": "#f0717880",
 		"statusBarItem.remoteForeground": "#000000",
-		
+
+		// --- -- - Title Bar
+		"titleBar.activeBackground": "#0a0a0a",
+		"titleBar.activeForeground": "#d0d0d0",
+		"titleBar.border": "#0a0a0a",
+		"titleBar.inactiveBackground": "#101010",
+		"titleBar.inactiveForeground": "#616161",
+
+		// --- -- - Buttons
+		"button.background": "#5fc05c",
+		"button.foreground": "#000000",
+		"textLink.foreground":"#13ff3e",
+
+		//ctrl+shift+p | Inputs
+		"quickInputList.focusBackground": "#13ff3e60",
+		"list.highlightForeground": "#5fc05c",
+		"focusBorder": "#0a0a0a",
+
+		// --- -- - Panel Terminal & Text
 		"panel.background": "#0a0a0a",
 		"panel.border": "#58585860",
 		"panelTitle.activeBorder": "#5fc05c",
@@ -95,31 +77,42 @@
 		"terminal.ansiYellow": "#ffcb6b",
 		"terminalCursor.background": "#000000",
 		"terminalCursor.foreground": "#ffcb6b",
-		
+
+		// --- -- - Tabs Header
 		"editorGroupHeader.tabsBackground":"#0a0a0a",
 		"tab.activeBackground":"#2c2c2c",
 		"tab.hoverBackground":"#1f1f1f",
-		// "tab.hoverForeground":"#c5c5c5",
 		"tab.activeForeground":"#ffffff",
 		"tab.inactiveBackground":"#0a0a0a",
 		"tab.border":"#0a0a0a",
 
-		"breadcrumb.activeSelectionForeground": "#5fc05c",
+		// --- -- - Breadcrumb
 		"breadcrumb.background": "#101010",
-		"breadcrumb.focusForeground": "#eeffff",
 		"breadcrumb.foreground": "#616161",
 		"breadcrumbPicker.background": "#101010",
+		"breadcrumb.focusForeground": "#eeffff",
+		"breadcrumb.activeSelectionForeground": "#5fc05c",
 
-		"scrollbar.shadow": "#00000030",
-		"scrollbarSlider.activeBackground": "#5fc05c50",
+		// --- -- - Scrollbar
 		"scrollbarSlider.background": "#eeffff10",
+		"scrollbarSlider.activeBackground": "#5fc05c50",
 		"scrollbarSlider.hoverBackground": "#eeffff20",
+		"scrollbar.shadow": "#00000030",
 
-		"notificationLink.foreground": "#5fc05c",
+		// --- -- - Editor Widgets
+		"editorWidget.background": "#0a0a0a",
+		"editorWidget.border": "#13ff3e", //Widget
+		"editorWidget.resizeBorder": "#5c6bc0",
+		"input.background": "#101010",
+		"input.border": "#0a0a0a",
+		"input.foreground": "#eeffff",
+
+		// --- -- - Notifications
 		"notifications.background": "#101010",
+		"notificationLink.foreground": "#5fc05c",
 		"notifications.foreground": "#eeffff",
 
-		//--- GIT
+		//--- GIT Decoration
 		"gitDecoration.modifiedResourceForeground": "#82de7fc2",
 		"gitDecoration.conflictingResourceForeground": "#00a1fe90",
 		"gitDecoration.deletedResourceForeground": "#f07177f5",
@@ -127,14 +120,7 @@
 		"gitDecoration.untrackedResourceForeground": "#475e7e90",
 		"gitDecoration.addedResourceForeground":"#13ff3e",
 		
-		// sugestion
-		"editorSuggestWidget.background": "#101010",
-		"editorSuggestWidget.border": "#13ff3ec0",
-		"editorSuggestWidget.foreground": "#eeffff",
-		"editorSuggestWidget.highlightForeground": "#5fc05c",
-		"editorSuggestWidget.selectedBackground": "#49d75963",
-		
-		// --- Editor CODE
+		// TODO: EDITOR CODE
 		"editor.background": "#0a0a0a",
 		"editor.foreground": "#eeffff",
 		"editor.findMatchBackground": "#000000",
@@ -151,16 +137,53 @@
 		"editor.wordHighlightStrongBackground": "#c3e88d30",
 		"editorOverviewRuler.border": "#0a0a0a",
 
+		// --- -- -Diff Editor
 		// "diffEditor.insertedTextBackground": "#18d87f14",
 		// "diffEditor.removedTextBackground": "#ff9cad00",
+		 
+		// --- -- - Market navigation
+		//=== === === === === === == == =
 
+		// --- -- - Merge Conflicts
+		//=== === === === === === == == =
+
+		// --- -- - Suggest widget
+		"editorSuggestWidget.background": "#101010",
+		"editorSuggestWidget.border": "#13ff3ec0",
+		"editorSuggestWidget.foreground": "#eeffff",
+		"editorSuggestWidget.highlightForeground": "#5fc05c",
+		"editorSuggestWidget.selectedBackground": "#49d75963",
+
+		// --- -- - Editor hover widget
 		"editorHoverWidget.border": "#13ff3e",
 		"editorHoverWidget.foreground": "#eeffff",
 		"editorHoverWidget.statusBarBackground": "#282828",
-		
+
+		// --- -- - Peek view editor
+		//=== === === === === === == == =
+
+		// TODO: PLUS ↓ ↓ ↓ ↓ ↓ ↓  ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ 
+		// --- -- - PLUS - progress bar 
 		"progressBar.background":"#13ff3e",
 
-		// --- SYNTAX
+		// --- -- - PLUS - Click & select 
+		"list.activeSelectionBackground": "#13ff3e35",
+		"list.activeSelectionForeground": "#ffffff",
+		"list.inactiveSelectionBackground": "#000000",
+
+		// --- -- - Menu Top Bar & all menu
+		"menu.background": "#0a0a0a",
+		"menu.foreground": "#eeffff",
+		"menu.selectionBackground": "#00000050",
+		"menu.selectionBorder": "#00000030",
+		"menu.selectionForeground": "#26f21e",
+		"menu.separatorBackground": "#eeffff",
+		"menubar.selectionBackground": "#00000030",
+		"menubar.selectionBorder": "#00000030",
+		"menubar.selectionForeground": "#5fc05c",
+
+
+		// TODO: SYNTAX
 	},
 	"tokenColors": [
 		{

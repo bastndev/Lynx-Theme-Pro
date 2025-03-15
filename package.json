@@ -1,8 +1,8 @@
 {
   "name": "lynx-theme",
-  "version": "0.0.2",
+  "version": "0.0.8",
   "displayName": "Lynx Theme",
-  "description": "Available now: VSCode, Cursor-AI, Trae-AI & Windsurf - 雨...",
+  "description": "Available now: VSCode, Cursor-AI, Windsurf & ''Trae-AI'' - 雨...",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
