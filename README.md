@@ -26,4 +26,4 @@ Here is the project link if you want to collaborate: [[>_ ] code](https://github
 * [Youtube](https://www.youtube.com/@bastndev) - For more content about Lynx and programming,
 
 
-**Enjoy!**
+**Enjoy!!**
