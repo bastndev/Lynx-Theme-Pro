@@ -1,8 +1,7 @@
 # [Lynx](https://lynxjs.org/) Theme 2025
 
-<p align="center">
-    <img src=".github/theme-img.webp" alt="VSCode Capture" width="100%">
-</p>
+![Screenshot](https://raw.githubusercontent.com/bastndev/Lynx-Theme/refs/heads/main/.github/theme-img.webp)
+
 
 
 # Installation
