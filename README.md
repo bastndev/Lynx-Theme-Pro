@@ -3,7 +3,6 @@
 ![Screenshot](https://raw.githubusercontent.com/bastndev/Lynx-Theme/refs/heads/main/.github/theme-img.webp)
 
 
-
 # Installation
 1. Open (Ctrl+P)
 2. paste `ext install bastndev.lynx-theme`
