@@ -1,25 +1,22 @@
-# Lynx Theme [2025](https://lynxjs.org/)
+# [Lynx](https://lynxjs.org/) Theme 2025
 
 <p align="center">
-    <img src=".github/VScode.webp" alt="VSCode Capture" width="100%">
+    <img src=".github/theme-img.webp" alt="VSCode Capture" width="100%">
 </p>
 
 
 # Installation
-1. Open your terminal
-2. Execute `ext install bastndev.lynx-theme`
+1. Open (Ctrl+P)
+2. paste `ext install bastndev.lynx-theme`
 
-<!-- ## Manually -->
 
 ## Contributors
 
-Here is the project link if you want to collaborate: [Lynx-Theme](https://github.com/bastndev/Lynx-Theme).
+Here is the project link if you want to collaborate: [[>_ ] code](https://github.com/bastndev/Lynx-Theme).
 
-<a href="https://github.com/bastndev">
-  <img src="https://github.com/bastndev.png?size=100" width="100" style="border-radius: 8px;">
-</a>
-
-**[Gohit Bastian](https://www.bastndev.com/)**
+| [![bastndev](https://github.com/bastndev.png?size=100)](https://github.com/bastndev)      |
+|:----------------------------------------------------------------------------------------: |
+| **[Gohit Bastian](https://github.com/bastndev)**                                          |
 
 
 ## About Me
@@ -28,7 +25,5 @@ Here is the project link if you want to collaborate: [Lynx-Theme](https://github
 * [Discord](https://discord.com/invite/bgzvzP6aZH) - Best for hanging out with the community.
 * [Youtube](https://www.youtube.com/@bastndev) - For more content about Lynx and programming,
 
-<!-- # License -->
-<!--  -->
 
-**Enjoy!**
+**Enjoy!!**
