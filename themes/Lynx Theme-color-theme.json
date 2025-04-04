@@ -1,15 +1,15 @@
 {
 	"name": "Lynx Theme",
 	"colors": {
-		// --- -- - Activity Bar
+		// --- -- -MARK: Activity Bar
 		"activityBar.background": "#0a0a0a",
 		"activityBar.foreground": "#eeffff",
 		"activityBar.border": "#0a0a0a",
 		"activityBar.activeBorder": "#5fc05c",
 		"activityBarBadge.background": "#5fc05c",
-		"activityBarBadge.foreground": "#ffffff",
+		"activityBarBadge.foreground": "#000000",
 
-		// --- -- - Side Bar
+		// --- -- -MARK: Side Bar
 		"sideBar.background": "#0a0a0a",
 		"sideBar.foreground": "#616161",
 		"sideBar.border": "#0a0a0a",
@@ -21,9 +21,9 @@
 		"list.hoverBackground":"#00000098",
 		"list.hoverForeground": "#cccccc",
 		"list.dropBackground":"#000000",
-		"tree.indentGuidesStroke":"#f3f3f34d",
+		"tree.indentGuidesStroke":"#88ff004d",
 
-		// --- -- -Status Bar
+		// --- -- -MARK: Status Bar
 		"statusBar.background": "#0a0a0a",
 		"statusBar.foreground": "#616161",
 		"statusBar.border": "#42414160",
@@ -36,14 +36,14 @@
 		"statusBarItem.activeBackground": "#f0717880",
 		"statusBarItem.remoteForeground": "#000000",
 
-		// --- -- - Title Bar
+		// --- -- -MARK: Title Bar
 		"titleBar.activeBackground": "#0a0a0a",
 		"titleBar.activeForeground": "#d0d0d0",
 		"titleBar.border": "#0a0a0a",
 		"titleBar.inactiveBackground": "#101010",
 		"titleBar.inactiveForeground": "#616161",
 
-		// --- -- - Buttons
+		// --- -- -MARK: Buttons
 		"button.background": "#5fc05c",
 		"button.foreground": "#000000",
 		"textLink.foreground":"#13ff3e",
@@ -53,7 +53,7 @@
 		"list.highlightForeground": "#5fc05c",
 		"focusBorder": "#0a0a0a",
 
-		// --- -- - Panel Terminal & Text
+		// --- -- -MARK: Panel Terminal & Text
 		"panel.background": "#0a0a0a",
 		"panel.border": "#58585860",
 		"panelTitle.activeBorder": "#5fc05c",
@@ -78,28 +78,29 @@
 		"terminalCursor.background": "#000000",
 		"terminalCursor.foreground": "#ffcb6b",
 
-		// --- -- - Tabs Header
+		// --- -- -MARK: Tabs Header
 		"editorGroupHeader.tabsBackground":"#0a0a0a",
 		"tab.activeBackground":"#2c2c2c",
 		"tab.hoverBackground":"#1f1f1f",
 		"tab.activeForeground":"#ffffff",
 		"tab.inactiveBackground":"#0a0a0a",
 		"tab.border":"#0a0a0a",
+		"tab.activeBorder": "#13ff3e",
 
-		// --- -- - Breadcrumb
+		// --- -- -MARK: Breadcrumb
 		"breadcrumb.background": "#101010",
 		"breadcrumb.foreground": "#616161",
 		"breadcrumbPicker.background": "#101010",
 		"breadcrumb.focusForeground": "#eeffff",
 		"breadcrumb.activeSelectionForeground": "#5fc05c",
 
-		// --- -- - Scrollbar
+		// --- -- -MARK: Scrollbar
 		"scrollbarSlider.background": "#eeffff10",
 		"scrollbarSlider.activeBackground": "#5fc05c50",
 		"scrollbarSlider.hoverBackground": "#eeffff20",
 		"scrollbar.shadow": "#00000030",
 
-		// --- -- - Editor Widgets
+		// --- -- -MARK: Editor Widgets
 		"editorWidget.background": "#0a0a0a",
 		"editorWidget.border": "#13ff3e", //Widget
 		"editorWidget.resizeBorder": "#5c6bc0",
@@ -107,18 +108,21 @@
 		"input.border": "#0a0a0a",
 		"input.foreground": "#eeffff",
 
-		// --- -- - Notifications
+		// --- -- -MARK: Notifications
 		"notifications.background": "#101010",
 		"notificationLink.foreground": "#5fc05c",
 		"notifications.foreground": "#eeffff",
 
-		//--- GIT Decoration
-		"gitDecoration.modifiedResourceForeground": "#82de7fc2",
+		//--- -- -MARK: GIT Decoration
+		"gitDecoration.modifiedResourceForeground": "#66be8b",
 		"gitDecoration.conflictingResourceForeground": "#00a1fe90",
 		"gitDecoration.deletedResourceForeground": "#f07177f5",
 		"gitDecoration.ignoredResourceForeground": "#61616190",
-		"gitDecoration.untrackedResourceForeground": "#475e7e90",
-		"gitDecoration.addedResourceForeground":"#13ff3e",
+		"gitDecoration.untrackedResourceForeground":  "#21f21a",
+		"gitDecoration.addedResourceForeground": "#13ff3e",// Color
+		"gitDecoration.stageModifiedResourceForeground": "#82de7fc2", 
+		"gitDecoration.stageDeletedResourceForeground": "#f07177f5", 
+		"gitDecoration.submoduleResourceForeground": "#82de7fc2", 
 		
 		// TODO: EDITOR CODE
 		"editor.background": "#0a0a0a",
@@ -147,7 +151,7 @@
 		// --- -- - Merge Conflicts
 		//=== === === === === === == == =
 
-		// --- -- - Suggest widget
+		// --- -- -MARK: Suggest widget
 		"editorSuggestWidget.background": "#101010",
 		"editorSuggestWidget.border": "#13ff3ec0",
 		"editorSuggestWidget.foreground": "#eeffff",
@@ -162,7 +166,7 @@
 		// --- -- - Peek view editor
 		//=== === === === === === == == =
 
-		// TODO: PLUS ↓ ↓ ↓ ↓ ↓ ↓  ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ 
+		// TODO: MARK: PLUS ↓ ↓ ↓ ↓ ↓ ↓  ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ 
 		// --- -- - PLUS - progress bar 
 		"progressBar.background":"#13ff3e",
 
