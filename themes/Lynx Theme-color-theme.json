@@ -85,7 +85,7 @@
 		"tab.activeForeground":"#ffffff",
 		"tab.inactiveBackground":"#0a0a0a",
 		"tab.border":"#0a0a0a",
-		"tab.activeBorder": "#13ff3e",
+		"tab.activeBorder": "#2c2c2c",
 
 		// --- -- -MARK: Breadcrumb
 		"breadcrumb.background": "#101010",
@@ -120,9 +120,12 @@
 		"gitDecoration.ignoredResourceForeground": "#61616190",
 		"gitDecoration.untrackedResourceForeground":  "#21f21a",
 		"gitDecoration.addedResourceForeground": "#13ff3e",// Color
-		"gitDecoration.stageModifiedResourceForeground": "#82de7fc2", 
-		"gitDecoration.stageDeletedResourceForeground": "#f07177f5", 
-		"gitDecoration.submoduleResourceForeground": "#82de7fc2", 
+		"gitDecoration.stageModifiedResourceForeground": "#ffcb6b", 
+		"gitDecoration.stageDeletedResourceForeground":  "#ffcb6b", 
+		"gitDecoration.submoduleResourceForeground": "#ffcb6b",  
+		"gitDecoration.renamedResourceForeground": "#ffee6b",
+		
+
 		
 		// TODO: EDITOR CODE
 		"editor.background": "#0a0a0a",
