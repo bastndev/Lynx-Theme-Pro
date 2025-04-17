@@ -119,11 +119,11 @@
 		"gitDecoration.deletedResourceForeground": "#f07177f5",
 		"gitDecoration.ignoredResourceForeground": "#61616190",
 		"gitDecoration.untrackedResourceForeground":  "#21f21a",
-		"gitDecoration.addedResourceForeground": "#13ff3e",// Color
 		"gitDecoration.stageModifiedResourceForeground": "#ffcb6b", 
 		"gitDecoration.stageDeletedResourceForeground":  "#ffcb6b", 
 		"gitDecoration.submoduleResourceForeground": "#ffcb6b",  
 		"gitDecoration.renamedResourceForeground": "#ffee6b",
+		"gitDecoration.addedResourceForeground": "#ffee6b",
 		
 
 		
