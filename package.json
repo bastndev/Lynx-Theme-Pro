@@ -1,8 +1,8 @@
 {
   "name": "lynx-theme",
-  "version": "0.1.2",
   "displayName": "Lynx Theme",
   "description": "Available now: VSCode, Cursor-AI, Windsurf & ''Trae-AI'' - 雨...",
+  "version": "0.2.0",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
@@ -11,29 +11,55 @@
   "categories": [
     "Themes"
   ],
-  "icon":".github/logo.png",
-  "contributes": {
-    "themes": [
-      {
-        "label": "Lynx Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Lynx Theme-color-theme.json"
-      }
-    ]
+  "keywords": [
+    "lynx",
+    "theme",
+    "color theme",
+    "dark theme",
+    "light theme",
+    "yellow theme",
+    "ghibli",
+    "11:11",
+    "vscode theme",
+    "editor theme",
+    "colorful",
+    "custom themes",
+    "productivity",
+    "customization",
+    "windows",
+    "linux",
+    "macos"
+  ],
+  "icon": ".github/logo.png",
+  "galleryBanner": {
+    "color": "#0a0a0a",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/bastndev/Lynx-Theme#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bastndev/Lynx-Theme"
+  },
+  "bugs": {
+    "url": "https://github.com/bastndev/Lynx-Theme/issues"
   },
   "author": {
     "name": "Gohit Bastian",
     "email": "gobasdev@gmail.com",
     "url": "https://www.bastndev.com"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bastndev/Lynx-Theme"
-  },
-  "keywords": [
-    "lynx-theme",
-    "dark",
-    "theme",
-    "color-theme"
-  ]
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lynx Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lynx-Dark-theme.json"
+      },
+      {
+        "label": "Lynx Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/Lynx-Light-theme.json"
+      }
+    ]
+  }
 }
