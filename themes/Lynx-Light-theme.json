@@ -1,0 +1,25 @@
+{
+  "name": "Lynx Light Theme",
+  "type": "light",
+  "colors": {
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#333333",
+    "activityBar.border": "#e0e0e0",
+    "activityBar.activeBorder": "#5fc05c",
+    "activityBarBadge.background": "#5fc05c",
+    "activityBarBadge.foreground": "#ffffff",
+
+    "sideBar.background": "#f5f5f5",
+    "sideBar.foreground": "#555555",
+    "sideBar.border": "#e0e0e0",
+    "sideBarSectionHeader.background": "#e8e8e8",
+    "sideBarSectionHeader.border": "#dcdcdc",
+    "sideBarTitle.foreground": "#111111",
+    "sideBarSectionHeader.foreground": "#444444",
+    "list.inactiveSelectionForeground": "#222222",
+    "list.hoverBackground": "#e0e0e0",
+    "list.hoverForeground": "#111111",
+    "list.dropBackground": "#d0d0d0",
+    "tree.indentGuidesStroke": "#a0a0a0"
+  }
+}
