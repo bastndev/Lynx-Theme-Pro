@@ -1,8 +1,8 @@
 {
   "name": "lynx-theme",
   "displayName": "Lynx Theme",
-  "description": "Available now: VSCode, Cursor-AI, Windsurf & ''Trae-AI'' - 雨...",
-  "version": "0.2.0",
+  "description": "Available now: VSCode, Cursor-AI, Windsurf, Trae-AI & (firebase.Studio) - 雨...",
+  "version": "0.2.1",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
@@ -50,11 +50,6 @@
   },
   "contributes": {
     "themes": [
-      {
-        "label": "Lynx Dark Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Lynx-Dark-theme.json"
-      },
       {
         "label": "Lynx Theme Light",
         "uiTheme": "vs",
