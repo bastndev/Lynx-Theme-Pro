@@ -1,7 +1,10 @@
 {
   "$schema": "vscode://schemas/color-theme",
+  "semanticClass": "lynx-dark-theme",
+  "semanticHighlighting": true,
   "name": "Lynx Dark Theme",
   "type": "dark",
+
   "colors": {
     "activityBar.background": "#0a0a0a",
     "activityBar.foreground": "#eeffff",

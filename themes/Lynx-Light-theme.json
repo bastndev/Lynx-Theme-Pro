@@ -1,7 +1,10 @@
 {
   "$schema": "vscode://schemas/color-theme",
+  "semanticClass": "lynx-light-theme",
+  "semanticHighlighting": true,
   "name": "Lynx Light theme",
   "type": "light",
+
   "colors": {
     "editor.background": "#f5f5f5",
     "editor.foreground": "#333333",
