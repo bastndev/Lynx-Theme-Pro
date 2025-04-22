@@ -51,7 +51,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Lynx Theme Light",
+        "label": "Lynx Light Theme",
         "uiTheme": "vs",
         "path": "./themes/Lynx-Light-theme.json"
       }
