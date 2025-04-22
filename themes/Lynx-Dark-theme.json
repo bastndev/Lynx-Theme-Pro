@@ -19,7 +19,7 @@
     "menu.foreground": "#eeffff",
     "menu.selectionBackground": "#00000050",
     "menu.selectionBorder": "#00000030",
-    "menu.selectionForeground": "#26f21e",
+    "menu.selectionForeground": "#13ff3e",
     "menu.separatorBackground": "#eeffff",
     "menubar.selectionBackground": "#00000030",
     "menubar.selectionBorder": "#00000030",
@@ -108,8 +108,8 @@
     "scrollbarSlider.activeBackground": "#5fc05c50",
     "scrollbar.shadow": "#00000030",
 
-    // --- -- - Editor Line Number
-    "editorLineNumber.activeForeground": "#ffffff",
+    // --- -- - Editor Line Number - LEFT
+    "editorLineNumber.activeForeground": "#66be8b",
     "editorLineNumber.foreground": "#5fc05c50",
 
     // --- -- - Editor Widgets - MID
@@ -132,23 +132,27 @@
     "editorSuggestWidget.highlightForeground": "#5fc05c",
     "editorSuggestWidget.selectedBackground": "#49d75963",
 
-    // TODO: AI - copilot ect MARK: THREE-3
-    "foreground": "#5fc05c",
-    "descriptionForeground": "#5fc05c",
-    "disabledForeground": "#5fc05c",
-
-    // --- -- -Diff Editor
+    // --- -- - Editor Diff git
     // "diffEditor.insertedTextBackground": "#18d87f14",
     // "diffEditor.removedTextBackground": "#ff9cad00",
 
-    // --- -- - Market navigation
-    //=== === === === === === == == =
-
-    // --- -- - Merge Conflicts
-    //=== === === === === === == == =
-
-    // --- -- - Peek view editor
-    //=== === === === === === == == =
+    // TODO: AI - copilot -AI MARK: THREE-3
+    "icon.foreground": "#13ff3e",
+    "disabledForeground": "#8c8c8c",
+    "chat.requestBorder": "#13ff3e",
+    "chat.avatarBackground": "#000000",
+    "chat.avatarForeground": "#5fc05c",
+    // --- future here AI
+    // ---
+    // ---
+    // ---
+    // ---
+    // ---
+    // ---
+    // ---
+    // ---
+    // ---
+    // ---
 
     // TODO: MARK: PLUS
     // --- -- - progress bar
