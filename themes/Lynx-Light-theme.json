@@ -40,11 +40,11 @@
 
     // --- -- - Side Bar
     "sideBar.background": "#f0f0f0", // Ai and Side bar background
-    "sideBar.foreground": "#616161", // Text vscode all
+    "sideBar.foreground": "#000000", // Text vscode all (explorer text now black)
     "sideBar.border": "#f0f0f0",
     "sideBarSectionHeader.background": "#fdfdfd",
     "sideBarSectionHeader.border": "#282828",
-    "sideBarTitle.foreground": "#ffffff",
+    "sideBarTitle.foreground": "#13ff3e",
     "sideBarSectionHeader.foreground": "#bcbcbc",
     "list.inactiveSelectionForeground": "#ffffff",
     "list.hoverBackground": "#00000098",
