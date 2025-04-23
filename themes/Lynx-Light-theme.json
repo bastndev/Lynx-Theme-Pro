@@ -6,9 +6,205 @@
   "type": "light",
 
   "colors": {
-    "editor.background": "#f5f5f5",
-    "editor.foreground": "#333333",
-    "list.activeSelectionIconForeground": "#fff"
+    // TODO: Menu Status Bar MARK: - TOP
+    "titleBar.activeBackground": "#f0f0f0",
+    "titleBar.activeForeground": "#000000",
+    "titleBar.border": "#f0f0f0",
+    "titleBar.inactiveBackground": "#fdfdfd",
+    "titleBar.inactiveForeground": "#000000",
+
+    // --- -- - Menu Click & select
+    "menu.border": "#26f21e",
+    "menu.background": "#fdfdfd",
+    "menu.foreground": "#eeffff",
+    "menu.selectionBackground": "#00000050",
+    "menu.selectionBorder": "#00000030",
+    "menu.selectionForeground": "#13ff3e",
+    "menu.separatorBackground": "#eeffff",
+    "menubar.selectionBackground": "#00000030",
+    "menubar.selectionBorder": "#00000030",
+    "menubar.selectionForeground": "#5fc05c",
+
+    // --- -- - Menu hover - click & select
+    "list.activeSelectionBackground": "#13ff3e35",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.inactiveSelectionBackground": "#000000",
+
+    // TODO: Activity Bar MARK: ONE-1
+    "activityBar.background": "#f0f0f0",
+    "activityBar.foreground": "#eeffff",
+    "activityBar.border": "#f0f0f0",
+    "activityBar.activeBorder": "#5fc05c",
+    "activityBarBadge.background": "#5fc05c",
+    "activityBarBadge.foreground": "#000000",
+
+    // --- -- - Side Bar
+    "sideBar.background": "#f0f0f0", // Ai and Side bar background
+    "sideBar.foreground": "#616161", // Text vscode all
+    "sideBar.border": "#f0f0f0",
+    "sideBarSectionHeader.background": "#fdfdfd",
+    "sideBarSectionHeader.border": "#282828",
+    "sideBarTitle.foreground": "#ffffff",
+    "sideBarSectionHeader.foreground": "#bcbcbc",
+    "list.inactiveSelectionForeground": "#ffffff",
+    "list.hoverBackground": "#00000098",
+    "list.hoverForeground": "#cccccc",
+    "list.dropBackground": "#000000",
+    "tree.indentGuidesStroke": "#88ff004d",
+
+    // --- -- - Buttons
+    "button.background": "#5fc05c",
+    "button.foreground": "#000000",
+    "textLink.foreground": "#13ff3e",
+
+    //--- -- - GIT Decoration
+    "gitDecoration.modifiedResourceForeground": "#66be8b",
+    "gitDecoration.conflictingResourceForeground": "#00a1fe90",
+    "gitDecoration.deletedResourceForeground": "#f07177f5",
+    "gitDecoration.ignoredResourceForeground": "#61616190",
+    "gitDecoration.untrackedResourceForeground": "#21f21a",
+    "gitDecoration.stageModifiedResourceForeground": "#ffcb6b",
+    "gitDecoration.stageDeletedResourceForeground": "#ffcb6b",
+    "gitDecoration.submoduleResourceForeground": "#ffcb6b",
+    "gitDecoration.renamedResourceForeground": "#ffee6b",
+    "gitDecoration.addedResourceForeground": "#ffee6b",
+
+    // TODO: EDITOR CODE MARK: TWO-2
+    "editor.background": "#f0f0f0",
+    "editor.foreground": "#eeffff",
+    "editor.findMatchBackground": "#000000",
+    "editor.findMatchBorder": "#c07c5c",
+    "editor.findMatchHighlightBackground": "#00000050",
+    "editor.findMatchHighlightBorder": "#ef000004",
+    "editor.findRangeHighlightBackground": "#ffcb6b30",
+    "editor.lineHighlightBackground": "#00000070",
+    "editor.lineHighlightBorder": "#f4101000",
+    "editor.rangeHighlightBackground": "#29c7ee0d",
+    "editor.selectionBackground": "#61616150",
+    "editor.selectionHighlightBackground": "#ffcc0020",
+    "editor.wordHighlightBackground": "#ff9cac30",
+    "editor.wordHighlightStrongBackground": "#c3e88d30",
+    "editorOverviewRuler.border": "#f0f0f0",
+
+    // --- -- - Tabs Header - TOP
+    "editorGroupHeader.tabsBackground": "#f0f0f0",
+    "tab.activeBackground": "#ffffff",
+    "tab.hoverBackground": "#d1d1d1", // hover
+    "tab.activeForeground": "#878787", // Text color active tab
+    "tab.inactiveBackground": "#f0f0f0",
+    "tab.border": "#f0f0f0",
+    "tab.activeBorder": "#fdfdfd",
+
+    // --- -- - Breadcrumb second-Header
+    "breadcrumb.background": "#fdfdfd",
+    "breadcrumb.foreground": "#616161",
+    "breadcrumbPicker.background": "#fdfdfd",
+    "breadcrumb.focusForeground": "#5fc05c",
+    "breadcrumb.activeSelectionForeground": "#5fc05c",
+
+    // --- -- - Scrollbar - RIGHT
+    "scrollbarSlider.background": "#388e3622",
+    "scrollbarSlider.hoverBackground": "#5fc05c50",
+    "scrollbarSlider.activeBackground": "#5fc05c50",
+    "scrollbar.shadow": "#00000030",
+
+    // --- -- - Editor Line Number - LEFT
+    "editorLineNumber.activeForeground": "#66be8b",
+    "editorLineNumber.foreground": "#5fc05c50",
+
+    // --- -- - Editor Widgets - MID
+    "editorWidget.background": "#fdfdfd",
+    "editorWidget.border": "#13ff3e", //Widget
+    "editorWidget.resizeBorder": "#5c6bc0",
+    "input.background": "#fdfdfd",
+    "input.border": "#f0f0f0",
+    "input.foreground": "#eeffff",
+
+    // --- -- - Editor hover widget
+    "editorHoverWidget.border": "#13ff3e",
+    "editorHoverWidget.foreground": "#eeffff",
+    "editorHoverWidget.statusBarBackground": "#282828",
+
+    // --- -- - Editor Suggest widget
+    "editorSuggestWidget.background": "#fdfdfd",
+    "editorSuggestWidget.border": "#13ff3ec0",
+    "editorSuggestWidget.foreground": "#eeffff",
+    "editorSuggestWidget.highlightForeground": "#5fc05c",
+    "editorSuggestWidget.selectedBackground": "#49d75963",
+
+    // --- -- - Editor Diff git
+    // "diffEditor.insertedTextBackground": "#18d87f14",
+    // "diffEditor.removedTextBackground": "#ff9cad00",
+
+    // TODO: AI - copilot -AI MARK: THREE-3
+    "icon.foreground": "#13ff3e",
+    "disabledForeground": "#8c8c8c",
+    "chat.requestBorder": "#13ff3e",
+    "chat.avatarBackground": "#000000",
+    "chat.avatarForeground": "#5fc05c",
+    // --- future here AI
+    // ---
+    // ---
+    // ---
+    // ---
+    // ---
+    // ---
+    // ---
+    // ---
+    // ---
+    // ---
+
+    // TODO: MARK: PLUS
+    // --- -- - progress bar
+    "progressBar.background": "#13ff3e",
+
+    //ctrl+shift+p | Inputs
+    "quickInputList.focusBackground": "#13ff3e60",
+    "list.highlightForeground": "#5fc05c",
+    "focusBorder": "#fdfdfd",
+
+    // --- -- - Panel Terminal & Text BOTTOM
+    "panel.background": "#f0f0f0",
+    "panel.border": "#58585860",
+    "panelTitle.activeBorder": "#5fc05c",
+    "panelTitle.activeForeground": "#ffffff",
+    "panelTitle.inactiveForeground": "#eeffff",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiBlue": "#5fc05c",
+    "terminal.ansiBrightBlack": "#545454",
+    "terminal.ansiBrightBlue": "#62cdff",
+    "terminal.ansiBrightCyan": "#00d0e7",
+    "terminal.ansiBrightGreen": "#0dff00",
+    "terminal.ansiBrightMagenta": "#c792ea",
+    "terminal.ansiBrightRed": "#ed0a3f",
+    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiBrightYellow": "#ffcb6b",
+    "terminal.ansiCyan": "#00a5d1",
+    "terminal.ansiGreen": "#0dff00",
+    "terminal.ansiMagenta": "#c792ea",
+    "terminal.ansiRed": "#ff3e48",
+    "terminal.ansiWhite": "#ffffff",
+    "terminal.ansiYellow": "#ffcb6b",
+    "terminalCursor.background": "#000000",
+    "terminalCursor.foreground": "#ffcb6b",
+
+    // --- -- - Notifications
+    "notifications.background": "#fdfdfd",
+    "notificationLink.foreground": "#5fc05c",
+    "notifications.foreground": "#eeffff",
+
+    // TODO:Status Bar MARK: - BOTTOM
+    "statusBar.background": "#f0f0f0",
+    "statusBar.foreground": "#616161",
+    "statusBar.border": "#42414160",
+    "statusBarItem.hoverBackground": "#54545420",
+    "statusBarItem.hoverForeground": "#5fc05c",
+    "statusBarItem.remoteBackground": "#5fc05c",
+    "statusBar.debuggingBackground": "#0d0d0d",
+    "statusBar.debuggingForeground": "#ffffff",
+    "statusBar.noFolderBackground": "#fdfdfd",
+    "statusBarItem.activeBackground": "#f0717880",
+    "statusBarItem.remoteForeground": "#000000"
   },
   "tokenColors": [
     {
