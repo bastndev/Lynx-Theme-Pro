@@ -103,18 +103,18 @@
     "breadcrumb.activeSelectionForeground": "#5fc05c",
 
     // --- -- - Scrollbar - RIGHT
-    "scrollbarSlider.background": "#388e3622",
-    "scrollbarSlider.hoverBackground": "#5fc05c50",
-    "scrollbarSlider.activeBackground": "#5fc05c50",
+    "scrollbarSlider.background": "#7b7b7b22",
+    "scrollbarSlider.hoverBackground": "#b5b4b422",
+    "scrollbarSlider.activeBackground": "#ffeded22",
     "scrollbar.shadow": "#00000030",
 
     // --- -- - Editor Line Number - LEFT
-    "editorLineNumber.activeForeground": "#66be8b",
-    "editorLineNumber.foreground": "#5fc05c50",
+    "editorLineNumber.activeForeground": "#ffffff",
+    // "editorLineNumber.foreground": "#5fc05c50",
 
     // --- -- - Editor Widgets - MID
     "editorWidget.background": "#101010",
-    "editorWidget.border": "#13ff3e", //Widget
+    "editorWidget.border": "#13ff3e",
     "editorWidget.resizeBorder": "#5c6bc0",
     "input.background": "#101010",
     "input.border": "#050505",
@@ -137,11 +137,11 @@
     // "diffEditor.removedTextBackground": "#ff9cad00",
 
     // TODO: AI - copilot -AI MARK: THREE-3
-    "icon.foreground": "#13ff3e",
+    // "icon.foreground": "#13ff3e",
     "disabledForeground": "#8c8c8c",
-    "chat.requestBorder": "#13ff3e",
+    // "chat.requestBorder": "#13ff3e",
     "chat.avatarBackground": "#000000",
-    "chat.avatarForeground": "#5fc05c",
+    // "chat.avatarForeground": "#5fc05c",
     // --- future here AI
     // ---
     // ---
