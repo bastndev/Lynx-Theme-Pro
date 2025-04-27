@@ -1,8 +1,8 @@
 {
   "name": "lynx-theme",
-  "displayName": "Lynx Theme",
-  "description": "Available now: VSCode, Cursor-AI, Windsurf & ''Trae-AI'' - 雨...",
-  "version": "0.2.0",
+  "displayName": "Lynx Delia Theme",
+  "description": "Available now: VSCode, Cursor-AI, Windsurf, Trae-AI & (firebase.Studio) - 谢谢妈妈",
+  "version": "0.2.3",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
@@ -56,7 +56,7 @@
         "path": "./themes/Lynx-Dark-theme.json"
       },
       {
-        "label": "Lynx Theme Light",
+        "label": "Lynx Light Theme",
         "uiTheme": "vs",
         "path": "./themes/Lynx-Light-theme.json"
       }

@@ -1,17 +1,47 @@
 {
+  "$schema": "vscode://schemas/color-theme",
+  "semanticClass": "lynx-dark-theme",
+  "semanticHighlighting": true,
   "name": "Lynx Dark Theme",
   "type": "dark",
+
   "colors": {
-    "activityBar.background": "#0a0a0a",
+    // TODO: Menu Status Bar MARK: - TOP
+    "titleBar.activeBackground": "#050505",
+    "titleBar.activeForeground": "#d0d0d0",
+    "titleBar.border": "#050505",
+    "titleBar.inactiveBackground": "#101010",
+    "titleBar.inactiveForeground": "#616161",
+
+    // --- -- - Menu Click & select
+    "menu.border": "#26f21e",
+    "menu.background": "#101010",
+    "menu.foreground": "#eeffff",
+    "menu.selectionBackground": "#00000050",
+    "menu.selectionBorder": "#00000030",
+    "menu.selectionForeground": "#13ff3e",
+    "menu.separatorBackground": "#eeffff",
+    "menubar.selectionBackground": "#00000030",
+    "menubar.selectionBorder": "#00000030",
+    "menubar.selectionForeground": "#5fc05c",
+
+    // --- -- - Menu hover - click & select
+    "list.activeSelectionBackground": "#13ff3e35",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.inactiveSelectionBackground": "#000000",
+
+    // TODO: Activity Bar MARK: ONE-1
+    "activityBar.background": "#050505",
     "activityBar.foreground": "#eeffff",
-    "activityBar.border": "#0a0a0a",
+    "activityBar.border": "#050505",
     "activityBar.activeBorder": "#5fc05c",
     "activityBarBadge.background": "#5fc05c",
     "activityBarBadge.foreground": "#000000",
 
-    "sideBar.background": "#0a0a0a",
-    "sideBar.foreground": "#616161",
-    "sideBar.border": "#0a0a0a",
+    // --- -- - Side Bar
+    "sideBar.background": "#050505", // Ai and Side bar background
+    "sideBar.foreground": "#616161", // Text vscode all
+    "sideBar.border": "#050505",
     "sideBarSectionHeader.background": "#101010",
     "sideBarSectionHeader.border": "#282828",
     "sideBarTitle.foreground": "#ffffff",
@@ -22,33 +52,119 @@
     "list.dropBackground": "#000000",
     "tree.indentGuidesStroke": "#88ff004d",
 
-    "statusBar.background": "#0a0a0a",
-    "statusBar.foreground": "#616161",
-    "statusBar.border": "#42414160",
-    "statusBarItem.hoverBackground": "#54545420",
-    "statusBarItem.hoverForeground": "#ffffff",
-    "statusBarItem.remoteBackground": "#5fc05c",
-    "statusBar.debuggingBackground": "#0d0d0d",
-    "statusBar.debuggingForeground": "#ffffff",
-    "statusBar.noFolderBackground": "#101010",
-    "statusBarItem.activeBackground": "#f0717880",
-    "statusBarItem.remoteForeground": "#000000",
-
-    "titleBar.activeBackground": "#0a0a0a",
-    "titleBar.activeForeground": "#d0d0d0",
-    "titleBar.border": "#0a0a0a",
-    "titleBar.inactiveBackground": "#101010",
-    "titleBar.inactiveForeground": "#616161",
-
+    // --- -- - Buttons
     "button.background": "#5fc05c",
     "button.foreground": "#000000",
     "textLink.foreground": "#13ff3e",
 
+    //--- -- - GIT Decoration
+    "gitDecoration.modifiedResourceForeground": "#66be8b",
+    "gitDecoration.conflictingResourceForeground": "#00a1fe90",
+    "gitDecoration.deletedResourceForeground": "#f07177f5",
+    "gitDecoration.ignoredResourceForeground": "#61616190",
+    "gitDecoration.untrackedResourceForeground": "#21f21a",
+    "gitDecoration.stageModifiedResourceForeground": "#ffcb6b",
+    "gitDecoration.stageDeletedResourceForeground": "#ffcb6b",
+    "gitDecoration.submoduleResourceForeground": "#ffcb6b",
+    "gitDecoration.renamedResourceForeground": "#ffee6b",
+    "gitDecoration.addedResourceForeground": "#ffee6b",
+
+    // TODO: EDITOR CODE MARK: TWO-2
+    "editor.background": "#050505",
+    "editor.foreground": "#eeffff",
+    "editor.findMatchBackground": "#000000",
+    "editor.findMatchBorder": "#c07c5c",
+    "editor.findMatchHighlightBackground": "#00000050",
+    "editor.findMatchHighlightBorder": "#ef000004",
+    "editor.findRangeHighlightBackground": "#ffcb6b30",
+    "editor.lineHighlightBackground": "#00000070",
+    "editor.lineHighlightBorder": "#f4101000",
+    "editor.rangeHighlightBackground": "#29c7ee0d",
+    "editor.selectionBackground": "#61616150",
+    "editor.selectionHighlightBackground": "#ffcc0020",
+    "editor.wordHighlightBackground": "#ff9cac30",
+    "editor.wordHighlightStrongBackground": "#c3e88d30",
+    "editorOverviewRuler.border": "#050505",
+
+    // --- -- - Tabs Header - TOP
+    "editorGroupHeader.tabsBackground": "#050505",
+    "tab.activeBackground": "#101010",
+    "tab.hoverBackground": "#1f2220", // hover
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveBackground": "#050505",
+    "tab.border": "#050505",
+    "tab.activeBorder": "#101010",
+
+    // --- -- - Breadcrumb second-Header
+    "breadcrumb.background": "#101010",
+    "breadcrumb.foreground": "#616161",
+    "breadcrumbPicker.background": "#101010",
+    "breadcrumb.focusForeground": "#5fc05c",
+    "breadcrumb.activeSelectionForeground": "#5fc05c",
+
+    // --- -- - Scrollbar - RIGHT
+    "scrollbarSlider.background": "#7b7b7b22",
+    "scrollbarSlider.hoverBackground": "#b5b4b422",
+    "scrollbarSlider.activeBackground": "#ffeded22",
+    "scrollbar.shadow": "#00000030",
+
+    // --- -- - Editor Line Number - LEFT
+    "editorLineNumber.activeForeground": "#ffffff",
+    // "editorLineNumber.foreground": "#5fc05c50",
+
+    // --- -- - Editor Widgets - MID
+    "editorWidget.background": "#101010",
+    "editorWidget.border": "#13ff3e",
+    "editorWidget.resizeBorder": "#5c6bc0",
+    "input.background": "#101010",
+    "input.border": "#050505",
+    "input.foreground": "#eeffff",
+
+    // --- -- - Editor hover widget
+    "editorHoverWidget.border": "#13ff3e",
+    "editorHoverWidget.foreground": "#eeffff",
+    "editorHoverWidget.statusBarBackground": "#282828",
+
+    // --- -- - Editor Suggest widget
+    "editorSuggestWidget.background": "#101010",
+    "editorSuggestWidget.border": "#13ff3ec0",
+    "editorSuggestWidget.foreground": "#eeffff",
+    "editorSuggestWidget.highlightForeground": "#5fc05c",
+    "editorSuggestWidget.selectedBackground": "#49d75963",
+
+    // --- -- - Editor Diff git
+    // "diffEditor.insertedTextBackground": "#18d87f14",
+    // "diffEditor.removedTextBackground": "#ff9cad00",
+
+    // TODO: AI - copilot -AI MARK: THREE-3
+    // "icon.foreground": "#13ff3e",
+    "disabledForeground": "#8c8c8c",
+    // "chat.requestBorder": "#13ff3e",
+    "chat.avatarBackground": "#000000",
+    // "chat.avatarForeground": "#5fc05c",
+    // --- future here AI
+    // ---
+    // ---
+    // ---
+    // ---
+    // ---
+    // ---
+    // ---
+    // ---
+    // ---
+    // ---
+
+    // TODO: MARK: PLUS
+    // --- -- - progress bar
+    "progressBar.background": "#13ff3e",
+
+    //ctrl+shift+p | Inputs
     "quickInputList.focusBackground": "#13ff3e60",
     "list.highlightForeground": "#5fc05c",
-    "focusBorder": "#0a0a0a",
+    "focusBorder": "#101010",
 
-    "panel.background": "#0a0a0a",
+    // --- -- - Panel Terminal & Text BOTTOM
+    "panel.background": "#050505",
     "panel.border": "#58585860",
     "panelTitle.activeBorder": "#5fc05c",
     "panelTitle.activeForeground": "#ffffff",
@@ -72,88 +188,23 @@
     "terminalCursor.background": "#000000",
     "terminalCursor.foreground": "#ffcb6b",
 
-    "editorGroupHeader.tabsBackground": "#0a0a0a",
-    "tab.activeBackground": "#2c2c2c",
-    "tab.hoverBackground": "#1f1f1f",
-    "tab.activeForeground": "#ffffff",
-    "tab.inactiveBackground": "#0a0a0a",
-    "tab.border": "#0a0a0a",
-    "tab.activeBorder": "#2c2c2c",
-
-    "breadcrumb.background": "#101010",
-    "breadcrumb.foreground": "#616161",
-    "breadcrumbPicker.background": "#101010",
-    "breadcrumb.focusForeground": "#eeffff",
-    "breadcrumb.activeSelectionForeground": "#5fc05c",
-
-    "scrollbarSlider.background": "#eeffff10",
-    "scrollbarSlider.activeBackground": "#5fc05c50",
-    "scrollbarSlider.hoverBackground": "#eeffff20",
-    "scrollbar.shadow": "#00000030",
-
-    "editorWidget.background": "#0a0a0a",
-    "editorWidget.border": "#13ff3e",
-    "editorWidget.resizeBorder": "#5c6bc0",
-    "input.background": "#101010",
-    "input.border": "#0a0a0a",
-    "input.foreground": "#eeffff",
-
+    // --- -- - Notifications
     "notifications.background": "#101010",
     "notificationLink.foreground": "#5fc05c",
     "notifications.foreground": "#eeffff",
 
-    "gitDecoration.modifiedResourceForeground": "#66be8b",
-    "gitDecoration.conflictingResourceForeground": "#00a1fe90",
-    "gitDecoration.deletedResourceForeground": "#f07177f5",
-    "gitDecoration.ignoredResourceForeground": "#61616190",
-    "gitDecoration.untrackedResourceForeground": "#21f21a",
-    "gitDecoration.stageModifiedResourceForeground": "#ffcb6b",
-    "gitDecoration.stageDeletedResourceForeground": "#ffcb6b",
-    "gitDecoration.submoduleResourceForeground": "#ffcb6b",
-    "gitDecoration.renamedResourceForeground": "#ffee6b",
-    "gitDecoration.addedResourceForeground": "#ffee6b",
-
-    "editor.background": "#0a0a0a",
-    "editor.foreground": "#eeffff",
-    "editor.findMatchBackground": "#000000",
-    "editor.findMatchBorder": "#c07c5c",
-    "editor.findMatchHighlightBackground": "#00000050",
-    "editor.findMatchHighlightBorder": "#ef000004",
-    "editor.findRangeHighlightBackground": "#ffcb6b30",
-    "editor.lineHighlightBackground": "#00000070",
-    "editor.lineHighlightBorder": "#f4101000",
-    "editor.rangeHighlightBackground": "#29c7ee0d",
-    "editor.selectionBackground": "#61616150",
-    "editor.selectionHighlightBackground": "#ffcc0020",
-    "editor.wordHighlightBackground": "#ff9cac30",
-    "editor.wordHighlightStrongBackground": "#c3e88d30",
-    "editorOverviewRuler.border": "#0a0a0a",
-
-    "editorSuggestWidget.background": "#101010",
-    "editorSuggestWidget.border": "#13ff3ec0",
-    "editorSuggestWidget.foreground": "#eeffff",
-    "editorSuggestWidget.highlightForeground": "#5fc05c",
-    "editorSuggestWidget.selectedBackground": "#49d75963",
-
-    "editorHoverWidget.border": "#13ff3e",
-    "editorHoverWidget.foreground": "#eeffff",
-    "editorHoverWidget.statusBarBackground": "#282828",
-
-    "progressBar.background": "#13ff3e",
-
-    "list.activeSelectionBackground": "#13ff3e35",
-    "list.activeSelectionForeground": "#ffffff",
-    "list.inactiveSelectionBackground": "#000000",
-
-    "menu.background": "#0a0a0a",
-    "menu.foreground": "#eeffff",
-    "menu.selectionBackground": "#00000050",
-    "menu.selectionBorder": "#00000030",
-    "menu.selectionForeground": "#26f21e",
-    "menu.separatorBackground": "#eeffff",
-    "menubar.selectionBackground": "#00000030",
-    "menubar.selectionBorder": "#00000030",
-    "menubar.selectionForeground": "#5fc05c"
+    // TODO:Status Bar MARK: - BOTTOM
+    "statusBar.background": "#050505",
+    "statusBar.foreground": "#616161",
+    "statusBar.border": "#42414160",
+    "statusBarItem.hoverBackground": "#54545420",
+    "statusBarItem.hoverForeground": "#5fc05c",
+    "statusBarItem.remoteBackground": "#5fc05c",
+    "statusBar.debuggingBackground": "#0d0d0d",
+    "statusBar.debuggingForeground": "#ffffff",
+    "statusBar.noFolderBackground": "#101010",
+    "statusBarItem.activeBackground": "#f0717880",
+    "statusBarItem.remoteForeground": "#000000"
   },
   "tokenColors": [
     {
