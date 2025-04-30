@@ -12,6 +12,7 @@
     "titleBar.border": "#eaeaea",
     "titleBar.inactiveBackground": "#eaeaea",
     "titleBar.inactiveForeground": "#000000",
+    "commandCenter.background": "#ffffff", // background top box mid
 
     // --- -- - Menu Click & select
     "menu.border": "#26f21e",
@@ -29,7 +30,7 @@
     "list.activeSelectionForeground": "#000000", // Text select - 1
     "list.inactiveSelectionBackground": "#ffffff", // Text select - 2
     "list.inactiveSelectionForeground": "#000000", //background select -1
-    "list.activeSelectionBackground": "#ffffff35", // background select - 2 //TODO:
+    "list.activeSelectionBackground": "#ffffff", // background select - 2
 
     // TODO: Activity Bar MARK: ONE-1
     "activityBar.background": "#eaeaea",
@@ -43,8 +44,8 @@
     "sideBar.background": "#eaeaea", // Ai and Side bar background
     "sideBar.foreground": "#616161", // Text vscode all
     "sideBar.border": "#eaeaea",
-    "sideBarSectionHeader.background": "#ffffff",
-    "sideBarSectionHeader.border": "#282828",
+    "sideBarSectionHeader.background": "#ffffff", //LINE bg
+    "sideBarSectionHeader.border": "#9a9a9a", //LINE
     "sideBarTitle.foreground": "#282828", //Explorer
     "sideBarSectionHeader.foreground": "#949494", //Css text
 
@@ -71,14 +72,14 @@
     "gitDecoration.addedResourceForeground": "#ffee6b",
 
     // TODO: EDITOR CODE MARK: TWO-2
-    "editor.background": "#eaeaea",
+    "editor.background": "#ffffff",
     "editor.foreground": "#eeffff",
     "editor.findMatchBackground": "#000000",
     "editor.findMatchBorder": "#c07c5c",
     "editor.findMatchHighlightBackground": "#00000050",
     "editor.findMatchHighlightBorder": "#ef000004",
     "editor.findRangeHighlightBackground": "#ffcb6b30",
-    "editor.lineHighlightBackground": "#00000070",
+    "editor.lineHighlightBackground": "#f0ecd0", // LINE background
     "editor.lineHighlightBorder": "#f4101000",
     "editor.rangeHighlightBackground": "#29c7ee0d",
     "editor.selectionBackground": "#61616150",
@@ -111,7 +112,7 @@
 
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground": "#000000",
-    "editorLineNumber.foreground": "#0000007e",
+    "editorLineNumber.foreground": "#2727277e",
 
     // --- -- - Editor Widgets - MID
     "editorWidget.background": "#101010",
@@ -137,13 +138,15 @@
 
     // TODO: AI - copilot -AI MARK: THREE-3
     "input.background": "#ffffff", // HERE COLOR WHITE ----
-    // "input.border": "#cb0d0d",
+    "focusBorder": "#9a9a9a", // Border
+    "editorCursor.foreground": "#646464", // Line point
     "input.foreground": "#000000",
-
-    // "icon.foreground": "#13ff3e",
-    "disabledForeground": "#8c8c8c",
-    // "chat.requestBorder": "#13ff3e",
+    "disabledForeground": "#9a9a9a",
     "chat.avatarBackground": "#000000",
+
+    // "input.border": "#cb0d0d",
+    // "icon.foreground": "#13ff3e",
+    // "chat.requestBorder": "#13ff3e",
     // "chat.avatarForeground": "#5fc05c",
     // --- future here AI
     // ---
@@ -164,7 +167,6 @@
     //ctrl+shift+p | Inputs
     "quickInputList.focusBackground": "#13ff3e60",
     "list.highlightForeground": "#5fc05c",
-    "focusBorder": "#101010",
 
     // --- -- - Panel Terminal & Text BOTTOM
     "panel.background": "#eaeaea",
@@ -200,14 +202,18 @@
     "statusBar.background": "#eaeaea",
     "statusBar.foreground": "#616161",
     "statusBar.border": "#42414160",
+    // "button.hoverBackground": "#87d085",
     "statusBarItem.hoverBackground": "#54545420",
-    "statusBarItem.hoverForeground": "#5fc05c",
-    "statusBarItem.remoteBackground": "#5fc05c",
+    "statusBarItem.hoverForeground": "#000000",
     "statusBar.debuggingBackground": "#0d0d0d",
     "statusBar.debuggingForeground": "#ffffff",
     "statusBar.noFolderBackground": "#101010",
     "statusBarItem.activeBackground": "#f0717880",
-    "statusBarItem.remoteForeground": "#000000"
+
+    "statusBarItem.remoteBackground": "#5fc05c", // Esquina bg
+    "statusBarItem.remoteForeground": "#2a2a2a" // Esquina logo
+
+    // "list.activeSelectionBackground": "#00a7f5",
   },
   "tokenColors": [
     {
