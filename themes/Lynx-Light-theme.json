@@ -84,8 +84,8 @@
     "editor.findMatchHighlightBackground": "#00000050",
     "editor.findMatchHighlightBorder": "#ef000004",
     "editor.findRangeHighlightBackground": "#ffcb6b30",
-    "editor.lineHighlightBackground": "#ededed", // LINE background
-    "editor.lineHighlightBorder": "#f4101000",
+    "editor.lineHighlightBackground": "#ffffff", // LINE background
+    "editor.lineHighlightBorder": "#ececec",
     "editor.rangeHighlightBackground": "#29c7ee0d",
     "editor.selectionBackground": "#61616150",
     "editor.selectionHighlightBackground": "#ffcc0020",
@@ -295,7 +295,8 @@
         "meta.function-call",
         "variable.function",
         "support.function",
-        "keyword.other.special-method"
+        "keyword.other.special-method",
+        "meta.property-value"
       ],
       "settings": {
         "foreground": "#0753f6" //transparent color
