@@ -26,12 +26,6 @@
     "menubar.selectionBorder": "#00000030",
     "menubar.selectionForeground": "#000000", // Hover TOP text 1
 
-    // --- -- - Menu hover - click & select = RIGHT
-    "list.activeSelectionForeground": "#000000", // Text select - 1
-    "list.inactiveSelectionBackground": "#ffffff", // Text select - 2
-    "list.inactiveSelectionForeground": "#000000", //background select -1
-    "list.activeSelectionBackground": "#ffffff", // background select - 2
-
     "list.hoverBackground": "#c6c6c6",
     "list.hoverForeground": "#1d1d1d", // Text select
     "list.dropBackground": "#000000",
@@ -44,6 +38,12 @@
     "activityBar.activeBorder": "#5fc05c",
     "activityBarBadge.background": "#5fc05c",
     "activityBarBadge.foreground": "#000000",
+
+    // --- -- - Menu hover - click & select = RIGHT
+    "list.activeSelectionForeground": "#000000", // Text select - 1
+    "list.inactiveSelectionBackground": "#ffffff", // Text select - 2
+    "list.inactiveSelectionForeground": "#000000", //background select -1
+    "list.activeSelectionBackground": "#ffffff", // background select - 2
 
     // --- -- - Side Bar
     "sideBar.background": "#eaeaea", // Ai and Side bar background
@@ -61,7 +61,7 @@
 
     // --- -- - Editor hover widget  1 and 2
     "editorHoverWidget.border": "#13ff3e",
-    "editorHoverWidget.foreground": "#000000",
+    "editorHoverWidget.foreground": "#313131",
     "editorHoverWidget.statusBarBackground": "#282828",
 
     //--- -- - GIT Decoration
@@ -95,7 +95,7 @@
 
     // --- -- - Tabs Header - TOP
     "editorGroupHeader.tabsBackground": "#eaeaea",
-    "tab.activeBackground": "#ffffff",
+    "tab.activeBackground": "#ffffff", // bg select second line
     "tab.hoverBackground": "#dedede", // hover
     "tab.activeForeground": "#000000",
     "tab.inactiveBackground": "#eaeaea",
@@ -103,16 +103,16 @@
     "tab.activeBorder": "#ffffff",
 
     // --- -- - Breadcrumb second-Header
-    "breadcrumb.background": "#ffffff",
+    "breadcrumb.background": "#ffffff", // bg second line
     "breadcrumb.foreground": "#616161",
     "breadcrumbPicker.background": "#101010",
     "breadcrumb.focusForeground": "#000000",
     "breadcrumb.activeSelectionForeground": "#5fc05c",
 
     // --- -- - Scrollbar - RIGHT
-    "scrollbarSlider.background": "#82828222",
-    "scrollbarSlider.hoverBackground": "#27272722",
-    "scrollbarSlider.activeBackground": "#27272722",
+    "scrollbarSlider.background": "#00000049", // Scroll bar small and large
+    "scrollbarSlider.hoverBackground": "#0000006b",
+    "scrollbarSlider.activeBackground": "#00000067",
     "scrollbar.shadow": "#00000030",
 
     // --- -- - Editor Line Number - LEFT
@@ -132,13 +132,13 @@
 
     // TODO: AI - copilot -AI MARK: THREE-3
     "input.background": "#ffffff", // bg color
-    "focusBorder": "#646464", // Border - AI and box 1
+    "focusBorder": "#343434", // Border - AI and box 1
     "editorCursor.foreground": "#646464", // Line point
     "input.foreground": "#000000",
     "disabledForeground": "#9a9a9a",
-    "chat.avatarBackground": "#ffffff",
+    "chat.avatarBackground": "#ffffff", //TODO:
 
-    // "input.border": "#cb0d0d",
+    "input.border": "#b2b2b2",
     // "icon.foreground": "#13ff3e",
     // "chat.requestBorder": "#13ff3e",
     // "chat.avatarForeground": "#5fc05c",
