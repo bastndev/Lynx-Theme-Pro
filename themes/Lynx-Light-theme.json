@@ -32,6 +32,11 @@
     "list.inactiveSelectionForeground": "#000000", //background select -1
     "list.activeSelectionBackground": "#ffffff", // background select - 2
 
+    "list.hoverBackground": "#c6c6c6",
+    "list.hoverForeground": "#1d1d1d", // Text select
+    "list.dropBackground": "#000000",
+    "tree.indentGuidesStroke": "#88ff004d",
+
     // TODO: Activity Bar MARK: ONE-1
     "activityBar.background": "#eaeaea",
     "activityBar.foreground": "#eeffff",
@@ -49,15 +54,15 @@
     "sideBarTitle.foreground": "#282828", //Explorer
     "sideBarSectionHeader.foreground": "#949494", //Css text
 
-    "list.hoverBackground": "#00000098",
-    "list.hoverForeground": "#cccccc",
-    "list.dropBackground": "#000000",
-    "tree.indentGuidesStroke": "#88ff004d",
-
     // --- -- - Buttons
     "button.background": "#5fc05c",
     "button.foreground": "#000000",
     "textLink.foreground": "#13ff3e",
+
+    // --- -- - Editor hover widget  1 and 2
+    "editorHoverWidget.border": "#13ff3e",
+    "editorHoverWidget.foreground": "#000000",
+    "editorHoverWidget.statusBarBackground": "#282828",
 
     //--- -- - GIT Decoration
     "gitDecoration.modifiedResourceForeground": "#66be8b",
@@ -79,7 +84,7 @@
     "editor.findMatchHighlightBackground": "#00000050",
     "editor.findMatchHighlightBorder": "#ef000004",
     "editor.findRangeHighlightBackground": "#ffcb6b30",
-    "editor.lineHighlightBackground": "#f0ecd0", // LINE background
+    "editor.lineHighlightBackground": "#ededed", // LINE background
     "editor.lineHighlightBorder": "#f4101000",
     "editor.rangeHighlightBackground": "#29c7ee0d",
     "editor.selectionBackground": "#61616150",
@@ -114,17 +119,6 @@
     "editorLineNumber.activeForeground": "#000000",
     "editorLineNumber.foreground": "#2727277e",
 
-    // --- -- - Editor Widgets - MID
-    "editorWidget.background": "#101010",
-    "editorWidget.border": "#13ff3e",
-    "editorWidget.resizeBorder": "#5c6bc0",
-    // "input.background": "#101010",---
-
-    // --- -- - Editor hover widget
-    "editorHoverWidget.border": "#13ff3e",
-    "editorHoverWidget.foreground": "#eeffff",
-    "editorHoverWidget.statusBarBackground": "#282828",
-
     // --- -- - Editor Suggest widget
     "editorSuggestWidget.background": "#101010",
     "editorSuggestWidget.border": "#13ff3ec0",
@@ -138,11 +132,11 @@
 
     // TODO: AI - copilot -AI MARK: THREE-3
     "input.background": "#ffffff", // HERE COLOR WHITE ----
-    "focusBorder": "#9a9a9a", // Border
+    "focusBorder": "#b8b7b7", // Border - AI and box 1
     "editorCursor.foreground": "#646464", // Line point
     "input.foreground": "#000000",
     "disabledForeground": "#9a9a9a",
-    "chat.avatarBackground": "#000000",
+    "chat.avatarBackground": "#ffffff",
 
     // "input.border": "#cb0d0d",
     // "icon.foreground": "#13ff3e",
@@ -166,7 +160,12 @@
 
     //ctrl+shift+p | Inputs
     "quickInputList.focusBackground": "#13ff3e60",
-    "list.highlightForeground": "#5fc05c",
+    "list.highlightForeground": "#5c77c0",
+    "editorWidget.background": "#ffffff", //background
+    // --- -- - Editor Widgets - MID
+    "editorWidget.border": "#13ff3e",
+    "editorWidget.resizeBorder": "#5c6bc0",
+    // "input.background": "#101010",---
 
     // --- -- - Panel Terminal & Text BOTTOM
     "panel.background": "#eaeaea",
@@ -200,8 +199,8 @@
 
     // TODO:Status Bar MARK: - BOTTOM
     "statusBar.background": "#eaeaea",
-    "statusBar.foreground": "#616161",
-    "statusBar.border": "#42414160",
+    "statusBar.foreground": "#616161", // txt color
+    "statusBar.border": "#42414160", // line border
     // "button.hoverBackground": "#87d085",
     "statusBarItem.hoverBackground": "#54545420",
     "statusBarItem.hoverForeground": "#000000",
@@ -211,8 +210,8 @@
     "statusBarItem.activeBackground": "#f0717880",
 
     "statusBarItem.remoteBackground": "#5fc05c", // Esquina bg
-    "statusBarItem.remoteForeground": "#2a2a2a" // Esquina logo
-
+    "statusBarItem.remoteForeground": "#2a2a2a", // Esquina logo
+    "statusBarItem.prominentBackground": "#ffffff" //bg bot box
     // "list.activeSelectionBackground": "#00a7f5",
   },
   "tokenColors": [
