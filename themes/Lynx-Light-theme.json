@@ -47,12 +47,12 @@
 
     // --- -- - Side Bar
     "sideBar.background": "#eaeaea", // Ai and Side bar background
-    "sideBar.foreground": "#616161", // Text vscode all
-    "sideBar.border": "#eaeaea",
+    "sideBar.foreground": "#3d3d3d", // Text vscode all
+    "sideBar.border": "#eaeaea", //LINE
     "sideBarSectionHeader.background": "#ffffff", //LINE bg
-    "sideBarSectionHeader.border": "#9a9a9a", //LINE
+    "sideBarSectionHeader.border": "#eaeaea", //LINE
     "sideBarTitle.foreground": "#282828", //Explorer
-    "sideBarSectionHeader.foreground": "#949494", //Css text
+    "sideBarSectionHeader.foreground": "#151515", //Css text and BOT txt
 
     // --- -- - Buttons
     "button.background": "#5fc05c",
@@ -77,7 +77,7 @@
     "gitDecoration.addedResourceForeground": "#ffee6b",
 
     // TODO: EDITOR CODE MARK: TWO-2
-    "editor.background": "#ffffff",
+    "editor.background": "#f4f4f4",
     "editor.foreground": "#eeffff",
     "editor.findMatchBackground": "#000000",
     "editor.findMatchBorder": "#c07c5c",
@@ -119,10 +119,10 @@
     "editorLineNumber.activeForeground": "#000000",
     "editorLineNumber.foreground": "#2727277e",
 
-    // --- -- - Editor Suggest widget
-    "editorSuggestWidget.background": "#101010",
+    // --- -- - Editor Suggest widget MID
+    "editorSuggestWidget.background": "#eeffff",
+    "editorSuggestWidget.foreground": "#101010",
     "editorSuggestWidget.border": "#13ff3ec0",
-    "editorSuggestWidget.foreground": "#eeffff",
     "editorSuggestWidget.highlightForeground": "#5fc05c",
     "editorSuggestWidget.selectedBackground": "#49d75963",
 
@@ -131,8 +131,8 @@
     // "diffEditor.removedTextBackground": "#ff9cad00",
 
     // TODO: AI - copilot -AI MARK: THREE-3
-    "input.background": "#ffffff", // HERE COLOR WHITE ----
-    "focusBorder": "#b8b7b7", // Border - AI and box 1
+    "input.background": "#ffffff", // bg color
+    "focusBorder": "#646464", // Border - AI and box 1
     "editorCursor.foreground": "#646464", // Line point
     "input.foreground": "#000000",
     "disabledForeground": "#9a9a9a",
@@ -162,6 +162,7 @@
     "quickInputList.focusBackground": "#13ff3e60",
     "list.highlightForeground": "#5c77c0",
     "editorWidget.background": "#ffffff", //background
+
     // --- -- - Editor Widgets - MID
     "editorWidget.border": "#13ff3e",
     "editorWidget.resizeBorder": "#5c6bc0",
@@ -193,9 +194,9 @@
     "terminalCursor.foreground": "#ffcb6b",
 
     // --- -- - Notifications
-    "notifications.background": "#101010",
+    "notifications.background": "#ffffff",
+    "notifications.foreground": "#000000",
     "notificationLink.foreground": "#5fc05c",
-    "notifications.foreground": "#eeffff",
 
     // TODO:Status Bar MARK: - BOTTOM
     "statusBar.background": "#eaeaea",
@@ -263,7 +264,6 @@
       "scope": [
         "keyword.control",
         "constant.other.color",
-        "punctuation",
         "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
@@ -274,7 +274,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#ffcb6b"
+        "foreground": "#1281d6" // point & # hashtag
       }
     },
     {
@@ -298,7 +298,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#0753f6" //transparent color
       }
     },
     {
@@ -328,7 +328,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#ff5100" // Body or instruction
       }
     },
     {
@@ -380,7 +380,7 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "#000000" // HERE css black 1 instruction
       }
     },
     {
@@ -422,9 +422,9 @@
     },
     {
       "name": "Attributes",
-      "scope": ["entity.other.attribute-name"],
+      "scope": ["entity.other.attribute-name", "punctuation"],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#8700f5" // root & hashtag
       }
     },
     {
@@ -442,7 +442,7 @@
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class"],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#1281d6" // text of point
       }
     },
     {
