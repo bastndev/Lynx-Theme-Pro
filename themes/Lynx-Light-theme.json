@@ -21,7 +21,7 @@
     "menu.selectionBackground": "#00000050",
     "menu.selectionBorder": "#00000030",
     "menu.selectionForeground": "#ffffff", //Active click color
-    "menu.separatorBackground": "#eeffff",
+    "menu.separatorBackground": "#23cf6b",
     "menubar.selectionBackground": "#00000030",
     "menubar.selectionBorder": "#00000030",
     "menubar.selectionForeground": "#000000", // Hover TOP text 1
@@ -33,7 +33,7 @@
 
     // TODO: Activity Bar MARK: ONE-1
     "activityBar.background": "#eaeaea",
-    "activityBar.foreground": "#eeffff",
+    "activityBar.foreground": "#111",
     "activityBar.border": "#eaeaea",
     "activityBar.activeBorder": "#5fc05c",
     "activityBarBadge.background": "#5fc05c",
@@ -78,7 +78,7 @@
 
     // TODO: EDITOR CODE MARK: TWO-2
     "editor.background": "#f4f4f4",
-    "editor.foreground": "#eeffff",
+    "editor.foreground": "#000000", // HERE STORE text
     "editor.findMatchBackground": "#000000",
     "editor.findMatchBorder": "#c07c5c",
     "editor.findMatchHighlightBackground": "#00000050",
@@ -120,7 +120,7 @@
     "editorLineNumber.foreground": "#2727277e",
 
     // --- -- - Editor Suggest widget MID
-    "editorSuggestWidget.background": "#eeffff",
+    "editorSuggestWidget.background": "#ffffff",
     "editorSuggestWidget.foreground": "#101010",
     "editorSuggestWidget.border": "#13ff3ec0",
     "editorSuggestWidget.highlightForeground": "#5fc05c",
@@ -172,8 +172,8 @@
     "panel.background": "#eaeaea",
     "panel.border": "#58585860",
     "panelTitle.activeBorder": "#5fc05c",
-    "panelTitle.activeForeground": "#ffffff",
-    "panelTitle.inactiveForeground": "#eeffff",
+    "panelTitle.activeForeground": "#008f1d",
+    "panelTitle.inactiveForeground": "#111", // Title panel
     "terminal.ansiBlack": "#000000",
     "terminal.ansiBlue": "#5fc05c",
     "terminal.ansiBrightBlack": "#545454",
