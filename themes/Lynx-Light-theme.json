@@ -256,7 +256,7 @@
       "name": "Meta Tag",
       "scope": ["meta.tag"],
       "settings": {
-        "foreground": "#272727" // Text Text
+        "foreground": "#212121" // Text Text
       }
     },
     {
@@ -273,14 +273,14 @@
         "punctuation.definition.tag"
       ],
       "settings": {
-        "foreground": "#0091ff" // point & # hashtag & </> ---- FIXME:
+        "foreground": "#0a6f8d" // point & # hashtag & </>
       }
     },
     {
       "name": "</>",
       "scope": ["keyword.control"],
       "settings": {
-        "foreground": "#c8ad20"
+        "foreground": "#1c38a8"
       }
     },
     {
@@ -312,7 +312,7 @@
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#00d7ff"
+        "foreground": "#0bc163"
       }
     },
     {
@@ -350,7 +350,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#008f1d"
+        "foreground": "#1d6910"
       }
     },
     {
