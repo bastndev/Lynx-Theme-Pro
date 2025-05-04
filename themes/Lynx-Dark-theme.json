@@ -38,6 +38,8 @@
     "activityBar.activeBorder": "#5fc05c",
     "activityBarBadge.background": "#5fc05c",
     "activityBarBadge.foreground": "#000000",
+    "activityBarTop.foreground": "#e1e1e1", // Select icon
+    "activityBarTop.inactiveForeground": "#393939", // No selection icon
 
     // --- -- - Side Bar
     "sideBar.background": "#050505", // Ai and Side bar background
