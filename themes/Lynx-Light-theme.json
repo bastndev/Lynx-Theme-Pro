@@ -37,7 +37,7 @@
     "activityBar.border": "#eaeaea",
     "activityBar.activeBorder": "#5fc05c",
     "activityBarBadge.background": "#5fc05c",
-    "activityBarBadge.foreground": "#000000",
+    "activityBarBadge.foreground": "#ffffff",
 
     // --- -- - Menu hover - click & select = RIGHT
     "list.activeSelectionForeground": "#000000", // Text select - 1
@@ -136,7 +136,7 @@
     "editorCursor.foreground": "#646464", // Line point
     "input.foreground": "#000000",
     "disabledForeground": "#9a9a9a",
-    "chat.avatarBackground": "#ffffff", //TODO:
+    "chat.avatarBackground": "#ffffff",
 
     "input.border": "#b2b2b2",
     // "icon.foreground": "#13ff3e",
@@ -221,7 +221,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#575757"
+        "foreground": "#808080" // Message TODO or commentary
       }
     },
     {
@@ -256,25 +256,31 @@
       "name": "Meta Tag",
       "scope": ["meta.tag"],
       "settings": {
-        "foreground": "#fafafa"
+        "foreground": "#272727" // Text Text
       }
     },
     {
       "name": "Operator, Misc",
       "scope": [
-        "keyword.control",
         "constant.other.color",
-        "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
         "punctuation.section.embedded",
         "keyword.other.template",
-        "keyword.other.substitution"
+        "keyword.other.substitution",
+        "punctuation.definition.tag"
       ],
       "settings": {
-        "foreground": "#1281d6" // point & # hashtag
+        "foreground": "#0091ff" // point & # hashtag & </> ---- FIXME:
+      }
+    },
+    {
+      "name": "</>",
+      "scope": ["keyword.control"],
+      "settings": {
+        "foreground": "#c8ad20"
       }
     },
     {
@@ -299,7 +305,7 @@
         "meta.property-value"
       ],
       "settings": {
-        "foreground": "#0753f6" //transparent color
+        "foreground": "#7307f6" //transparent color
       }
     },
     {
@@ -344,7 +350,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#00ff88"
+        "foreground": "#008f1d"
       }
     },
     {
