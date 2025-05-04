@@ -12,6 +12,7 @@
     "titleBar.border": "#050505",
     "titleBar.inactiveBackground": "#101010",
     "titleBar.inactiveForeground": "#616161",
+    "commandCenter.background": "#101010",
 
     // --- -- - Menu Click & select
     "menu.border": "#26f21e",
@@ -103,14 +104,14 @@
     "breadcrumb.activeSelectionForeground": "#5fc05c",
 
     // --- -- - Scrollbar - RIGHT
-    "scrollbarSlider.background": "#7b7b7b22",
-    "scrollbarSlider.hoverBackground": "#b5b4b422",
-    "scrollbarSlider.activeBackground": "#ffeded22",
+    "scrollbarSlider.background": "#d0d0d027",
+    "scrollbarSlider.hoverBackground": "#d0d0d03d",
+    "scrollbarSlider.activeBackground": "#d0d0d03d",
     "scrollbar.shadow": "#00000030",
 
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground": "#ffffff",
-    // "editorLineNumber.foreground": "#5fc05c50",
+    "editorLineNumber.foreground": "#515151",
 
     // --- -- - Editor Widgets - MID
     "editorWidget.background": "#101010",
@@ -118,7 +119,7 @@
     "editorWidget.resizeBorder": "#5c6bc0",
     "input.background": "#101010",
     "input.border": "#050505",
-    "input.foreground": "#eeffff",
+    // "input.foreground": "#eeffff",
 
     // --- -- - Editor hover widget
     "editorHoverWidget.border": "#13ff3e",
@@ -137,10 +138,13 @@
     // "diffEditor.removedTextBackground": "#ff9cad00",
 
     // TODO: AI - copilot -AI MARK: THREE-3
-    // "icon.foreground": "#13ff3e",
-    "disabledForeground": "#8c8c8c",
-    // "chat.requestBorder": "#13ff3e",
+    "chat.avatarForeground": "#ffffff",
     "chat.avatarBackground": "#000000",
+    "disabledForeground": "#8c8c8c",
+    "input.foreground": "#ffffff",
+    "editorCursor.foreground": "#646464", // Line point
+    // "icon.foreground": "#13ff3e",
+    // "chat.requestBorder": "#13ff3e",
     // "chat.avatarForeground": "#5fc05c",
     // --- future here AI
     // ---
