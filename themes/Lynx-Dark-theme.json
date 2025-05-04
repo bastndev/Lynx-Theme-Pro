@@ -44,9 +44,9 @@
     // --- -- - Side Bar
     "sideBar.background": "#050505", // Ai and Side bar background
     "sideBar.foreground": "#616161", // Text vscode all
-    "sideBar.border": "#050505",
+    "sideBar.border": "#050505", // Line right and left
     "sideBarSectionHeader.background": "#101010",
-    "sideBarSectionHeader.border": "#282828",
+    "sideBarSectionHeader.border": "#050505", // Line top
     "sideBarTitle.foreground": "#ffffff",
     "sideBarSectionHeader.foreground": "#bcbcbc",
     "list.inactiveSelectionForeground": "#ffffff",
