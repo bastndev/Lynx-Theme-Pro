@@ -142,8 +142,9 @@
     "chat.avatarBackground": "#000000",
     "disabledForeground": "#8c8c8c",
     "input.foreground": "#ffffff",
-    "editorCursor.foreground": "#646464", // Line point
-    // "icon.foreground": "#13ff3e",
+    "editorCursor.foreground": "#8c8c8c", // Line point
+    "icon.foreground": "#e8e8e8",
+    "foreground": "#ffffff",
     // "chat.requestBorder": "#13ff3e",
     // "chat.avatarForeground": "#5fc05c",
     // --- future here AI
