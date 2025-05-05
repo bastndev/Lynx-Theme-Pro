@@ -52,7 +52,7 @@
     "themes": [
       {
         "label": "Lynx Dark Theme",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs",
         "path": "./themes/Lynx-Dark-theme.json"
       },
       {

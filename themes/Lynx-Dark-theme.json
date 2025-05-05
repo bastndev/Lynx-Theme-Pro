@@ -12,6 +12,7 @@
     "titleBar.border": "#050505",
     "titleBar.inactiveBackground": "#101010",
     "titleBar.inactiveForeground": "#616161",
+    "commandCenter.background": "#101010",
 
     // --- -- - Menu Click & select
     "menu.border": "#26f21e",
@@ -37,13 +38,15 @@
     "activityBar.activeBorder": "#5fc05c",
     "activityBarBadge.background": "#5fc05c",
     "activityBarBadge.foreground": "#000000",
+    "activityBarTop.foreground": "#e1e1e1", // Select icon
+    "activityBarTop.inactiveForeground": "#393939", // No selection icon
 
     // --- -- - Side Bar
     "sideBar.background": "#050505", // Ai and Side bar background
     "sideBar.foreground": "#616161", // Text vscode all
-    "sideBar.border": "#050505",
+    "sideBar.border": "#050505", // Line right and left
     "sideBarSectionHeader.background": "#101010",
-    "sideBarSectionHeader.border": "#282828",
+    "sideBarSectionHeader.border": "#050505", // Line top
     "sideBarTitle.foreground": "#ffffff",
     "sideBarSectionHeader.foreground": "#bcbcbc",
     "list.inactiveSelectionForeground": "#ffffff",
@@ -103,14 +106,14 @@
     "breadcrumb.activeSelectionForeground": "#5fc05c",
 
     // --- -- - Scrollbar - RIGHT
-    "scrollbarSlider.background": "#7b7b7b22",
-    "scrollbarSlider.hoverBackground": "#b5b4b422",
-    "scrollbarSlider.activeBackground": "#ffeded22",
+    "scrollbarSlider.background": "#d0d0d027",
+    "scrollbarSlider.hoverBackground": "#d0d0d03d",
+    "scrollbarSlider.activeBackground": "#d0d0d03d",
     "scrollbar.shadow": "#00000030",
 
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground": "#ffffff",
-    // "editorLineNumber.foreground": "#5fc05c50",
+    "editorLineNumber.foreground": "#515151",
 
     // --- -- - Editor Widgets - MID
     "editorWidget.background": "#101010",
@@ -118,7 +121,7 @@
     "editorWidget.resizeBorder": "#5c6bc0",
     "input.background": "#101010",
     "input.border": "#050505",
-    "input.foreground": "#eeffff",
+    // "input.foreground": "#eeffff",
 
     // --- -- - Editor hover widget
     "editorHoverWidget.border": "#13ff3e",
@@ -137,10 +140,14 @@
     // "diffEditor.removedTextBackground": "#ff9cad00",
 
     // TODO: AI - copilot -AI MARK: THREE-3
-    // "icon.foreground": "#13ff3e",
-    "disabledForeground": "#8c8c8c",
-    // "chat.requestBorder": "#13ff3e",
+    "chat.avatarForeground": "#ffffff",
     "chat.avatarBackground": "#000000",
+    "disabledForeground": "#8c8c8c",
+    "input.foreground": "#ffffff",
+    "editorCursor.foreground": "#8c8c8c", // Line point
+    "icon.foreground": "#e8e8e8",
+    "foreground": "#ffffff",
+    // "chat.requestBorder": "#13ff3e",
     // "chat.avatarForeground": "#5fc05c",
     // --- future here AI
     // ---
@@ -162,13 +169,14 @@
     "quickInputList.focusBackground": "#13ff3e60",
     "list.highlightForeground": "#5fc05c",
     "focusBorder": "#101010",
+    "keybindingLabel.foreground": "#fefefe",
 
     // --- -- - Panel Terminal & Text BOTTOM
     "panel.background": "#050505",
     "panel.border": "#58585860",
     "panelTitle.activeBorder": "#5fc05c",
-    "panelTitle.activeForeground": "#ffffff",
-    "panelTitle.inactiveForeground": "#eeffff",
+    "panelTitle.activeForeground": "#ffffff", // Select panel txt
+    "panelTitle.inactiveForeground": "#909090",
     "terminal.ansiBlack": "#000000",
     "terminal.ansiBlue": "#5fc05c",
     "terminal.ansiBrightBlack": "#545454",
