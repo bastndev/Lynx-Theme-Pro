@@ -169,6 +169,7 @@
     "quickInputList.focusBackground": "#13ff3e60",
     "list.highlightForeground": "#5fc05c",
     "focusBorder": "#101010",
+    "keybindingLabel.foreground": "#fefefe",
 
     // --- -- - Panel Terminal & Text BOTTOM
     "panel.background": "#050505",
