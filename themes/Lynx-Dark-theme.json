@@ -15,13 +15,13 @@
     "commandCenter.background": "#101010",
 
     // --- -- - Menu Click & select
-    "menu.border": "#26f21e",
+    "menu.border": "#101010",
     "menu.background": "#101010",
     "menu.foreground": "#eeffff",
     "menu.selectionBackground": "#00000050",
     "menu.selectionBorder": "#00000030",
     "menu.selectionForeground": "#13ff3e",
-    "menu.separatorBackground": "#eeffff",
+    "menu.separatorBackground": "#bebcbc", //Line
     "menubar.selectionBackground": "#00000030",
     "menubar.selectionBorder": "#00000030",
     "menubar.selectionForeground": "#5fc05c",
@@ -174,7 +174,7 @@
     "keybindingLabel.foreground": "#fefefe",
     "keybindingLabel.background": "#000000",
     "keybindingLabel.border": "#101010",
-    "keybindingLabel.bottomBorder": "#000000",
+    "keybindingLabel.bottomBorder": "#000000", //FIXME: change color line
 
     // --- -- - Panel Terminal & Text BOTTOM
     "panel.background": "#050505",
