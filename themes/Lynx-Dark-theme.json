@@ -71,6 +71,7 @@
     "gitDecoration.submoduleResourceForeground": "#ffcb6b",
     "gitDecoration.renamedResourceForeground": "#ffee6b",
     "gitDecoration.addedResourceForeground": "#ffee6b",
+    "editorGhostText.foreground": "#717171", // git commit txt
 
     // TODO: EDITOR CODE MARK: TWO-2
     "editor.background": "#050505",
