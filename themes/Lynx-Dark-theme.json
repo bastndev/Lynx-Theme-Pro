@@ -172,6 +172,9 @@
     "list.highlightForeground": "#5fc05c",
     "focusBorder": "#101010",
     "keybindingLabel.foreground": "#fefefe",
+    "keybindingLabel.background": "#000000",
+    "keybindingLabel.border": "#101010",
+    "keybindingLabel.bottomBorder": "#000000",
 
     // --- -- - Panel Terminal & Text BOTTOM
     "panel.background": "#050505",
