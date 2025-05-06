@@ -207,6 +207,9 @@
     "dropdown.border": "#303030",
     "dropdown.foreground": "#ffffff",
 
+    // --- -- - Market place vscode txt color
+    "textPreformat.foreground": "#ffd45f",
+
     // TODO:Status Bar MARK: - BOTTOM
     "statusBar.background": "#050505",
     "statusBar.foreground": "#616161",
