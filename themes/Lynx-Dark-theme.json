@@ -201,6 +201,12 @@
     "notificationLink.foreground": "#5fc05c",
     "notifications.foreground": "#eeffff",
 
+    // --- -- - Editor Group & Dropdown Controls
+    "debugToolBar.background": "#101010",
+    "dropdown.background": "#101010",
+    "dropdown.border": "#303030",
+    "dropdown.foreground": "#ffffff",
+
     // TODO:Status Bar MARK: - BOTTOM
     "statusBar.background": "#050505",
     "statusBar.foreground": "#616161",
