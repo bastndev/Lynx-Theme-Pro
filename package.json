@@ -2,7 +2,7 @@
   "name": "lynx-theme",
   "displayName": "Lynx Theme",
   "description": "Available now: VSCode, Cursor-AI, Windsurf, Trae-AI & (firebase.Studio) - 谢谢妈妈",
-  "version": "0.3.3",
+  "version": "0.5.0",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
@@ -51,14 +51,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Lynx Dark Theme",
+        "label": "Lynx Ghibli Theme",
         "uiTheme": "vs",
-        "path": "./themes/Lynx-Dark-theme.json"
-      },
-      {
-        "label": "Lynx Light Theme",
-        "uiTheme": "vs",
-        "path": "./themes/Lynx-Light-theme.json"
+        "path": "./themes/Lynx-Ghibli-theme.json"
       }
     ]
   }
