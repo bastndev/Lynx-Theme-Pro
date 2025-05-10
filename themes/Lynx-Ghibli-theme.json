@@ -9,19 +9,19 @@
     // TODO: Menu Status Bar MARK: - TOP
     "titleBar.activeBackground": "#ebe3a8",
     "titleBar.activeForeground": "#474747", // TOP text 1
-    "titleBar.border": "#ebe3a8",
+    "titleBar.border": "#d2c38f", //LINE
     "titleBar.inactiveBackground": "#ebe3a8",
     "titleBar.inactiveForeground": "#000000",
     "commandCenter.background": "#fcffd5", // background top box mid
 
     // --- -- - Menu Click & select
-    "menu.border": "#26f21e",
+    "menu.border": "#d2c38f", // Border Line
     "menu.background": "#ebe3a8",
     "menu.foreground": "#000000",
     "menu.selectionBackground": "#00000050",
     "menu.selectionBorder": "#00000030",
-    "menu.selectionForeground": "#fcffd5", //Active click color
-    "menu.separatorBackground": "#23cf6b",
+    "menu.selectionForeground": "#ffffff", //Active click color
+    "menu.separatorBackground": "#d2c38f", //Border Line
     "menubar.selectionBackground": "#00000030",
     "menubar.selectionBorder": "#00000030",
     "menubar.selectionForeground": "#000000", // Hover TOP text 1
