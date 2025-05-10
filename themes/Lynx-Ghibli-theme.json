@@ -38,6 +38,8 @@
     "activityBar.activeBorder": "#5fc05c",
     "activityBarBadge.background": "#5fc05c",
     "activityBarBadge.foreground": "#fcffd5",
+    "activityBarTop.foreground": "#000000", // Select icon
+    "activityBarTop.inactiveForeground": "#605f5f", // No selection icon
 
     // --- -- - Menu hover - click & select = RIGHT
     "list.activeSelectionForeground": "#000000", // Text select - 1
