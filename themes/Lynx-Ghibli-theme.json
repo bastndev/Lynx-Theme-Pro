@@ -120,11 +120,12 @@
     "editorLineNumber.foreground": "#2727277e",
 
     // --- -- - Editor Suggest widget MID
-    "editorSuggestWidget.background": "#fcffd5",
+    "editorSuggestWidget.background": "#e6dfa2", //bg suggestion
     "editorSuggestWidget.foreground": "#101010",
     "editorSuggestWidget.border": "#13ff3ec0",
     "editorSuggestWidget.highlightForeground": "#5fc05c",
     "editorSuggestWidget.selectedBackground": "#49d75963",
+    "editorHoverWidget.background": "#e6dfa2", // bg check information
 
     // --- -- - Editor Diff git
     // "diffEditor.insertedTextBackground": "#18d87f14",
