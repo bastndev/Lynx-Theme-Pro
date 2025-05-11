@@ -72,11 +72,11 @@
     "gitDecoration.deletedResourceForeground": "#f07177f5",
     "gitDecoration.ignoredResourceForeground": "#61616190",
     "gitDecoration.untrackedResourceForeground": "#21f21a",
-    "gitDecoration.stageModifiedResourceForeground": "#ffcb6b",
-    "gitDecoration.stageDeletedResourceForeground": "#ffcb6b",
-    "gitDecoration.submoduleResourceForeground": "#ffcb6b",
-    "gitDecoration.renamedResourceForeground": "#ffee6b",
-    "gitDecoration.addedResourceForeground": "#ffee6b",
+    "gitDecoration.stageModifiedResourceForeground": "#ff3300",
+    "gitDecoration.stageDeletedResourceForeground": "#ff3300",
+    "gitDecoration.submoduleResourceForeground": "#ff3300",
+    "gitDecoration.renamedResourceForeground": "#fa5228",
+    "gitDecoration.addedResourceForeground": "#fa5228",
 
     // TODO: EDITOR CODE MARK: TWO-2
     "editor.background": "#f0ecb9",
@@ -543,7 +543,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#ff3300"
       }
     },
     {
