@@ -1,8 +1,8 @@
 {
   "name": "lynx-theme",
-  "displayName": "Lynx Delia Theme",
+  "displayName": "Lynx Theme",
   "description": "Available now: VSCode, Cursor-AI, Windsurf, Trae-AI & (firebase.Studio) - 谢谢妈妈",
-  "version": "0.3.1",
+  "version": "0.5.2",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
@@ -59,6 +59,11 @@
         "label": "Lynx Light Theme",
         "uiTheme": "vs",
         "path": "./themes/Lynx-Light-theme.json"
+      },
+      {
+        "label": "Lynx Ghibli Theme",
+        "uiTheme": "vs",
+        "path": "./themes/Lynx-Ghibli-theme.json"
       }
     ]
   }

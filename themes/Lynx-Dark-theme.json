@@ -15,13 +15,13 @@
     "commandCenter.background": "#101010",
 
     // --- -- - Menu Click & select
-    "menu.border": "#26f21e",
+    "menu.border": "#101010",
     "menu.background": "#101010",
     "menu.foreground": "#eeffff",
     "menu.selectionBackground": "#00000050",
     "menu.selectionBorder": "#00000030",
     "menu.selectionForeground": "#13ff3e",
-    "menu.separatorBackground": "#eeffff",
+    "menu.separatorBackground": "#bebcbc", //Line
     "menubar.selectionBackground": "#00000030",
     "menubar.selectionBorder": "#00000030",
     "menubar.selectionForeground": "#5fc05c",
@@ -39,7 +39,7 @@
     "activityBarBadge.background": "#5fc05c",
     "activityBarBadge.foreground": "#000000",
     "activityBarTop.foreground": "#e1e1e1", // Select icon
-    "activityBarTop.inactiveForeground": "#393939", // No selection icon
+    "activityBarTop.inactiveForeground": "#605f5f", // No selection icon
 
     // --- -- - Side Bar
     "sideBar.background": "#050505", // Ai and Side bar background
@@ -71,6 +71,7 @@
     "gitDecoration.submoduleResourceForeground": "#ffcb6b",
     "gitDecoration.renamedResourceForeground": "#ffee6b",
     "gitDecoration.addedResourceForeground": "#ffee6b",
+    "editorGhostText.foreground": "#717171", // git commit txt
 
     // TODO: EDITOR CODE MARK: TWO-2
     "editor.background": "#050505",
@@ -104,6 +105,7 @@
     "breadcrumbPicker.background": "#101010",
     "breadcrumb.focusForeground": "#5fc05c",
     "breadcrumb.activeSelectionForeground": "#5fc05c",
+    "editorStickyScrollHover.background": "#000000", // Select hover before white now black
 
     // --- -- - Scrollbar - RIGHT
     "scrollbarSlider.background": "#d0d0d027",
@@ -170,6 +172,9 @@
     "list.highlightForeground": "#5fc05c",
     "focusBorder": "#101010",
     "keybindingLabel.foreground": "#fefefe",
+    "keybindingLabel.background": "#000000",
+    "keybindingLabel.border": "#101010",
+    "keybindingLabel.bottomBorder": "#000000", //FIXME: change color line
 
     // --- -- - Panel Terminal & Text BOTTOM
     "panel.background": "#050505",
@@ -200,6 +205,16 @@
     "notifications.background": "#101010",
     "notificationLink.foreground": "#5fc05c",
     "notifications.foreground": "#eeffff",
+
+    // --- -- - Editor Group & Dropdown Controls
+    "debugToolBar.background": "#101010",
+    "dropdown.background": "#101010",
+    "dropdown.border": "#232323",
+    "dropdown.foreground": "#ffffff",
+    // "debugToolBar.border": "#131313",// border debug optional
+
+    // --- -- - Market place vscode txt color
+    "textPreformat.foreground": "#ffd45f",
 
     // TODO:Status Bar MARK: - BOTTOM
     "statusBar.background": "#050505",
