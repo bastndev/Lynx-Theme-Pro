@@ -224,7 +224,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#808080" // Message TODO or commentary
+        "foreground": "#69727e"
       }
     },
     {
