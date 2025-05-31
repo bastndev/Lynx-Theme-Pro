@@ -59,7 +59,6 @@
     // --- -- - Buttons
     "button.background": "#5fc05c",
     "button.foreground": "#000000",
-    "textLink.foreground": "#13ff3e",
 
     // --- -- - Editor hover widget  1 and 2
     "editorHoverWidget.border": "#13ff3e",
@@ -202,7 +201,8 @@
     "notificationLink.foreground": "#5fc05c",
 
     // --- -- - Market place vscode txt color
-    "textPreformat.foreground": "#ffd45f",
+    "textPreformat.foreground": "#f05800",
+    "textLink.foreground": "#038c43",
 
     // TODO:Status Bar MARK: - BOTTOM
     "statusBar.background": "#ebe3a8",
@@ -227,7 +227,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#808080" // Message TODO or commentary
+        "foreground": "#69727e"
       }
     },
     {
