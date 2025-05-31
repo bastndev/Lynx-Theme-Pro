@@ -57,7 +57,6 @@
     // --- -- - Buttons
     "button.background": "#5fc05c",
     "button.foreground": "#000000",
-    "textLink.foreground": "#13ff3e",
 
     // --- -- - Editor hover widget  1 and 2
     "editorHoverWidget.border": "#13ff3e",
@@ -200,6 +199,7 @@
 
     // --- -- - Market place vscode txt color
     "textPreformat.foreground": "#f05800",
+    "textLink.foreground": "#038c43",
 
     // TODO:Status Bar MARK: - BOTTOM
     "statusBar.background": "#eaeaea",
