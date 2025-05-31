@@ -224,7 +224,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic bold",
-        "foreground": "#515151"
+        "foreground": "#69727e"
       }
     },
     {
