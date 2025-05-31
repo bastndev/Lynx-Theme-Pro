@@ -2,7 +2,7 @@
   "name": "lynx-theme",
   "displayName": "Lynx Theme",
   "description": "Available now: VSCode, Cursor-AI, Windsurf, Trae-AI & (firebase.Studio) - 谢谢妈妈",
-  "version": "0.5.2",
+  "version": "0.5.5",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
@@ -30,7 +30,7 @@
     "linux",
     "macos"
   ],
-  "icon": ".github/logo.png",
+  "icon": "assets/icon.png",
   "galleryBanner": {
     "color": "#0a0a0a",
     "theme": "dark"
