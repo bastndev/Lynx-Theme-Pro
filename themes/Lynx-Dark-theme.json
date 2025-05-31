@@ -227,7 +227,11 @@
     "statusBar.debuggingForeground": "#ffffff",
     "statusBar.noFolderBackground": "#101010",
     "statusBarItem.activeBackground": "#f0717880",
-    "statusBarItem.remoteForeground": "#000000"
+    "statusBarItem.remoteForeground": "#000000",
+
+    // --- -- - BG store vscode
+    "textBlockQuote.background": "#000000",
+    "textBlockQuote.border": "#232323"
   },
   "tokenColors": [
     {
