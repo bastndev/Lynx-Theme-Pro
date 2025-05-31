@@ -1,14 +1,14 @@
-![Screenshot](https://raw.githubusercontent.com/bastndev/Lynx-Theme/refs/heads/main/.github/theme-img.webp)
+![Screenshot](https://raw.githubusercontent.com/bastndev/Lynx-Theme/refs/heads/main/assets/images/LynxTheme.png)
 
 <p align="center">
     <a href="https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-theme">
-        <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=FFFFFF&colorB=1B5E20&color=1B5E20&labelColor=FFFFFF&label=VERSION" alt="Version">
+        <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=FFF9E1&colorB=1B5E20&color=1B5E20&labelColor=FFF9E1&label=VERSION" alt="Version">
     </a>&nbsp;
     <a href="https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-theme">
-        <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=FFFFFF&colorB=1B5E20&color=1B5E20&labelColor=FFFFFF&label=Rating" alt="Rating">
+        <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=FFF9E1&colorB=1B5E20&color=1B5E20&labelColor=FFF9E1&label=Rating" alt="Rating">
     </a>&nbsp;
     <a href="https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-theme">
-        <img src="https://vsmarketplacebadges.dev/installs-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=FFFFFF&colorB=1B5E20&color=1B5E20&labelColor=FFFFFF&label=Installs" alt="Installs">
+        <img src="https://vsmarketplacebadges.dev/installs-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=FFF9E1&colorB=1B5E20&color=1B5E20&labelColor=FFF9E1&label=Installs" alt="Installs">
     </a>
 </p>
 
