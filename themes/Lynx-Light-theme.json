@@ -228,7 +228,7 @@
     "statusBarItem.prominentBackground":       "#ffffff",      // Bottom box background
 
     // TODO: -  BG store vscode MARK:[+]
-    "textBlockQuote.background":               "#f5f5f5",      // Block quote background
+    "textBlockQuote.background":               "#ffffff",      // Block quote background
     "textBlockQuote.border":                   "#cccccc",      // Block quote border LEFT
 
     // --- -- - BG message error
