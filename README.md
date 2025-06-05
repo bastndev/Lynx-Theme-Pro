@@ -1,4 +1,4 @@
-e.png)
+![Screenshot](https://raw.githubusercontent.com/bastndev/Lynx-Theme/refs/heads/main/assets/images/LynxTheme.png)
 
 <p align="center">
     <a href="https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-theme"><img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=FFF4C1&colorB=00933b&label=VERSION" alt="Version"></a>&nbsp;
