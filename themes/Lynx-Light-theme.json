@@ -124,11 +124,12 @@
     "editorLineNumber.foreground":           "#2727277e",    // Line numbers
 
     // --- -- - Editor Suggest widget MID
-    "editorSuggestWidget.background": "#ffffff",
-    "editorSuggestWidget.foreground": "#101010",
-    "editorSuggestWidget.border": "#13ff3ec0",
-    "editorSuggestWidget.highlightForeground": "#5fc05c",
-    "editorSuggestWidget.selectedBackground": "#49d75963",
+    "editorSuggestWidget.background":            "#ffffff",      // bg suggestion
+    "editorSuggestWidget.foreground":            "#101010",      // Suggest widget text
+    "editorSuggestWidget.border":                "#13ff3ec0",    // Suggest widget border
+    "editorSuggestWidget.highlightForeground":   "#5fc05c",      // Highlighted suggestion text
+    "editorSuggestWidget.selectedBackground":    "#49d75963",    // Selected suggestion background
+    "editorHoverWidget.background":              "#ffffff",      // bg check information
 
     // --- -- - Editor Diff git
     // "diffEditor.insertedTextBackground": "#18d87f14",

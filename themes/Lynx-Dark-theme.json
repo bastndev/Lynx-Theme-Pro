@@ -123,6 +123,14 @@
     "editorLineNumber.activeForeground": "#ffffff",   // Active line number
     "editorLineNumber.foreground":       "#515151",   // Line numbers
 
+    // --- -- - Editor Suggest widget MID
+    "editorSuggestWidget.background":           "#101010",   // bg suggestion
+    "editorSuggestWidget.foreground":           "#eeffff",   // Suggestion widget text
+    "editorSuggestWidget.border":               "#13ff3ec0", // Suggestion widget border
+    "editorSuggestWidget.highlightForeground":  "#5fc05c",   // Highlighted suggestion text
+    "editorSuggestWidget.selectedBackground":   "#49d75963", // Selected suggestion background
+    "editorHoverWidget.background":             "#101010",   // bg check information
+
     // --- -- - Editor Widgets - MID
     "editorWidget.background": "#101010",
     "editorWidget.border": "#13ff3e",
@@ -131,14 +139,6 @@
     "input.border": "#050505",
     // "input.foreground": "#eeffff",
 
-
-
-    // --- -- - Editor Suggest widget
-    "editorSuggestWidget.background": "#101010",
-    "editorSuggestWidget.border": "#13ff3ec0",
-    "editorSuggestWidget.foreground": "#eeffff",
-    "editorSuggestWidget.highlightForeground": "#5fc05c",
-    "editorSuggestWidget.selectedBackground": "#49d75963",
 
     // --- -- - Editor Diff git
     // "diffEditor.insertedTextBackground": "#18d87f14",
