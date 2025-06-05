@@ -31,6 +31,7 @@
     "list.dropBackground": "#000000",         // Drop background
     "tree.indentGuidesStroke": "#88ff004d",   // Tree guide lines
 
+    
     // TODO: Activity Bar MARK: [ONE-1]
     "activityBar.background": "#eaeaea",
     "activityBar.foreground": "#111",

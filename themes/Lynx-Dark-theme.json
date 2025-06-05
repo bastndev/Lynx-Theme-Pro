@@ -31,11 +31,7 @@
     "list.dropBackground": "#000000",          // Drop background
     "tree.indentGuidesStroke": "#88ff004d",    // Tree guide lines
 
-    // --- -- - Menu hover - click & select
-    "list.activeSelectionBackground": "#13ff3e35",
-    "list.activeSelectionForeground": "#ffffff",
-    "list.inactiveSelectionBackground": "#000000",
-
+    
     // TODO: Activity Bar MARK: [ONE-1]
     "activityBar.background": "#050505",
     "activityBar.foreground": "#eeffff",
@@ -45,6 +41,11 @@
     "activityBarBadge.foreground": "#000000",
     "activityBarTop.foreground": "#e1e1e1", // Select icon
     "activityBarTop.inactiveForeground": "#605f5f", // No selection icon
+
+    // --- -- - Menu hover - click & select = RIGHT
+    "list.activeSelectionBackground": "#13ff3e35",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.inactiveSelectionBackground": "#000000",
 
     // --- -- - Side Bar
     "sideBar.background": "#050505", // Ai and Side bar background
