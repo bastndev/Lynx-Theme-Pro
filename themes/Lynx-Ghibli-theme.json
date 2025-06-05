@@ -146,16 +146,16 @@
     "icon.foreground":             "#1e1e1e",    // Icon color
     "chat.avatarForeground":       "#000000",    // Chat avatar text
     "foreground":                  "#000000",    // Default text color
-    
+
     "input.border":                "#b2b2b2",    // Input border color
-    // "chat.requestBorder":       "#13ff3e",    // Chat request border
-    // "chat.avatarForeground":    "#5fc05c",    // Chat avatar foreground alt
+    // "chat.requestBorder":       "#13ff3e",      // Chat request border
+    // "chat.avatarForeground":    "#5fc05c",      // Chat avatar foreground alt
     // --- future here AI
     // -
 
     // TODO: MARK: PLUS
     // --- -- - progress bar
-    "progressBar.background": "#13ff3e",
+    "progressBar.background": "#13ff3e",         // Progress bar background
 
     //ctrl+shift+p | Inputs
     "quickInputList.focusBackground": "#13ff3e60",
