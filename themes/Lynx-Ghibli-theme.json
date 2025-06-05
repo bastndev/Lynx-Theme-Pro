@@ -231,8 +231,8 @@
 
 
     // TODO: -  BG store vscode MARK:[+]
-    "textBlockQuote.background": "#000000",
-    "textBlockQuote.border": "#232323",
+    "textBlockQuote.background":           "#ffffff",    // Block quote background
+    "textBlockQuote.border":               "#d2c38f",    // Block quote border LEFT
 
     // --- -- - BG message error
     "inputValidation.errorBackground": "#000000",
