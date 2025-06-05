@@ -106,12 +106,12 @@
     "tab.activeBorder":                      "#101010",   // Active tab border
 
     // --- -- - Breadcrumb second-Header
-    "breadcrumb.background": "#101010",
-    "breadcrumb.foreground": "#616161",
-    "breadcrumbPicker.background": "#101010",
-    "breadcrumb.focusForeground": "#5fc05c",
-    "breadcrumb.activeSelectionForeground": "#5fc05c",
-    "editorStickyScrollHover.background": "#000000", // Select hover before white now black
+    "breadcrumb.background":                "#101010",   // bg second line
+    "breadcrumb.foreground":                "#616161",   // Breadcrumb text
+    "breadcrumbPicker.background":          "#101010",   // Breadcrumb picker background
+    "breadcrumb.focusForeground":           "#5fc05c",   // Breadcrumb focus text
+    "breadcrumb.activeSelectionForeground": "#5fc05c",   // Breadcrumb active selection text
+    "editorStickyScrollHover.background":   "#000000",   // Select hover before white now black
 
     // --- -- - Scrollbar - RIGHT
     "scrollbarSlider.background": "#d0d0d027",
