@@ -26,10 +26,10 @@
     "menubar.selectionBorder": "#00000030",     // Menubar selection border
     "menubar.selectionForeground": "#000000",   // Hover TOP text 1
 
-    "list.hoverBackground": "#c6c6c6",
-    "list.hoverForeground": "#1d1d1d", // Text select
-    "list.dropBackground": "#000000",
-    "tree.indentGuidesStroke": "#88ff004d",
+    "list.hoverBackground": "#c6c6c6",        // Hover background
+    "list.hoverForeground": "#1d1d1d",        // Text select
+    "list.dropBackground": "#000000",         // Drop background
+    "tree.indentGuidesStroke": "#88ff004d",   // Tree guide lines
 
     // TODO: Activity Bar MARK: [ONE-1]
     "activityBar.background": "#eaeaea",

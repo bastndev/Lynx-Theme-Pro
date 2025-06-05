@@ -26,6 +26,11 @@
     "menubar.selectionBorder": "#00000030",     // Menubar selection border
     "menubar.selectionForeground": "#5fc05c",   // Hover TOP text 1
 
+    "list.hoverBackground": "#00000098",       // Hover background
+    "list.hoverForeground": "#cccccc",         // Text select
+    "list.dropBackground": "#000000",          // Drop background
+    "tree.indentGuidesStroke": "#88ff004d",    // Tree guide lines
+
     // --- -- - Menu hover - click & select
     "list.activeSelectionBackground": "#13ff3e35",
     "list.activeSelectionForeground": "#ffffff",
@@ -50,10 +55,7 @@
     "sideBarTitle.foreground": "#ffffff",
     "sideBarSectionHeader.foreground": "#bcbcbc",
     "list.inactiveSelectionForeground": "#ffffff",
-    "list.hoverBackground": "#00000098",
-    "list.hoverForeground": "#cccccc",
-    "list.dropBackground": "#000000",
-    "tree.indentGuidesStroke": "#88ff004d",
+
 
     // --- -- - Buttons
     "button.background": "#5fc05c",
