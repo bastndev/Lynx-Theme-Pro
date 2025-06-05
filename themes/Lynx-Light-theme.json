@@ -120,8 +120,8 @@
     "scrollbar.shadow":                        "#00000030",      // Scroll bar shadow
 
     // --- -- - Editor Line Number - LEFT
-    "editorLineNumber.activeForeground": "#000000",
-    "editorLineNumber.foreground": "#2727277e",
+    "editorLineNumber.activeForeground":     "#000000",      // Active line number
+    "editorLineNumber.foreground":           "#2727277e",    // Line numbers
 
     // --- -- - Editor Suggest widget MID
     "editorSuggestWidget.background": "#ffffff",
