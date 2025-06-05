@@ -214,17 +214,20 @@
 
 
     // TODO:Status Bar MARK: - [BOTTOM]
-    "statusBar.background": "#050505",
-    "statusBar.foreground": "#616161",
-    "statusBar.border": "#42414160",
-    "statusBarItem.hoverBackground": "#54545420",
-    "statusBarItem.hoverForeground": "#5fc05c",
-    "statusBarItem.remoteBackground": "#5fc05c",
-    "statusBar.debuggingBackground": "#0d0d0d",
-    "statusBar.debuggingForeground": "#ffffff",
-    "statusBar.noFolderBackground": "#101010",
-    "statusBarItem.activeBackground": "#f0717880",
-    "statusBarItem.remoteForeground": "#000000",
+    "statusBar.background":               "#050505",   // Status bar background
+    "statusBar.foreground":               "#616161",   // Status bar text color
+    "statusBar.border":                   "#42414160", // Status bar line border
+    "statusBarItem.hoverBackground":      "#54545420", // Status bar item hover background
+    "statusBarItem.hoverForeground":      "#5fc05c",   // Status bar item hover text
+    "statusBar.debuggingBackground":      "#0d0d0d",   // Status bar debugging background
+    "statusBar.debuggingForeground":      "#ffffff",   // Status bar debugging text
+    "statusBar.noFolderBackground":       "#101010",   // Status bar no folder background
+    "statusBarItem.activeBackground":     "#f0717880", // Status bar active item background
+    
+    "statusBarItem.remoteBackground":     "#5fc05c",   // Remote corner background
+    "statusBarItem.remoteForeground":     "#000000",   // Remote corner logo
+    "statusBarItem.prominentBackground":  "#5fc05c",   // Bottom box background
+
 
     // --- -- - BG store vscode
     "textBlockQuote.background": "#000000",

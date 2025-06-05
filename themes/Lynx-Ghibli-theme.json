@@ -205,6 +205,7 @@
     "textPreformat.foreground":       "#f05800",        // Preformatted text
     "textLink.foreground":            "#038c43",        // Text links color
 
+    // --- -- - Editor Group & Dropdown Controls
     "debugToolBar.background":               "#fcffd5",   // Debug toolbar background
     "dropdown.background":                   "#fcffd5",   // Dropdown background
     "dropdown.border":                       "#d2c38f",   // Dropdown border
@@ -213,21 +214,19 @@
 
 
     // TODO:Status Bar MARK: - [BOTTOM]
-    "statusBar.background": "#ebe3a8",
-    "statusBar.foreground": "#616161", // txt color
-    "statusBar.border": "#42414160", // line border
-    // "button.hoverBackground": "#87d085",
-    "statusBarItem.hoverBackground": "#54545420",
-    "statusBarItem.hoverForeground": "#000000",
-    "statusBar.debuggingBackground": "#0d0d0d",
-    "statusBar.debuggingForeground": "#fcffd5",
-    "statusBar.noFolderBackground": "#101010",
-    "statusBarItem.activeBackground": "#f0717880",
-
-    "statusBarItem.remoteBackground": "#5fc05c", // Esquina bg
-    "statusBarItem.remoteForeground": "#2a2a2a", // Esquina logo
-    "statusBarItem.prominentBackground": "#fcffd5", //bg bot box
-    // "list.activeSelectionBackground": "#00a7f5",
+    "statusBar.background":               "#ebe3a8",   // Status bar background
+    "statusBar.foreground":               "#616161",   // Status bar text color
+    "statusBar.border":                   "#42414160", // Status bar line border
+    "statusBarItem.hoverBackground":      "#54545420", // Status bar item hover background
+    "statusBarItem.hoverForeground":      "#000000",   // Status bar item hover text
+    "statusBar.debuggingBackground":      "#0d0d0d",   // Status bar debugging background
+    "statusBar.debuggingForeground":      "#fcffd5",   // Status bar debugging text
+    "statusBar.noFolderBackground":       "#101010",   // Status bar no folder background
+    "statusBarItem.activeBackground":     "#f0717880", // Status bar active item background
+    
+    "statusBarItem.remoteBackground":     "#5fc05c",   // Remote corner background
+    "statusBarItem.remoteForeground":     "#2a2a2a",   // Remote corner logo
+    "statusBarItem.prominentBackground":  "#fcffd5",   // Bottom box background
 
     // --- -- - BG {} and () and []
     "editorBracketHighlight.foreground1": "#7f00fe",
