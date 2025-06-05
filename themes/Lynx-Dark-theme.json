@@ -166,12 +166,10 @@
     "quickInputList.focusBackground":         "#13ff3e60",   // Focus background
     "list.highlightForeground":               "#5fc05c",     // Highlight text color
 
-
-    //ctrl+shift+p | Inputs
-    "keybindingLabel.foreground": "#fefefe",
-    "keybindingLabel.background": "#000000",
-    "keybindingLabel.border": "#101010",
-    "keybindingLabel.bottomBorder": "#000000", //FIXME: change color line
+    "keybindingLabel.foreground":             "#fefefe",     // Keybinding label text
+    "keybindingLabel.background":             "#000000",     // Keybinding label background
+    "keybindingLabel.border":                 "#101010",     // Keybinding label border
+    "keybindingLabel.bottomBorder":           "#000000",     // Keybinding label bottom border
 
     // --- -- - Panel Terminal & Text BOTTOM
     "panel.background": "#050505",

@@ -162,9 +162,14 @@
     "progressBar.background": "#13ff3e",         // Progress bar background
 
     //ctrl+shift+p | Inputs
-    "editorWidget.background":         "#fcffd5",    // background
-    "quickInputList.focusBackground":  "#13ff3e60",  // Focus background
-    "list.highlightForeground":        "#5c77c0",    // Highlight text color
+    "editorWidget.background":             "#fcffd5",    // background
+    "quickInputList.focusBackground":      "#13ff3e60",  // Focus background
+    "list.highlightForeground":            "#5c77c0",    // Highlight text color
+
+    "keybindingLabel.foreground":          "#fefefe",     // Keybinding label text
+    "keybindingLabel.background":          "#000000",     // Keybinding label background
+    "keybindingLabel.border":              "#101010",     // Keybinding label border
+    "keybindingLabel.bottomBorder":        "#000000",     // Keybinding label bottom border
 
     // --- -- - Panel Terminal & Text BOTTOM
     "panel.background": "#ebe3a8",
