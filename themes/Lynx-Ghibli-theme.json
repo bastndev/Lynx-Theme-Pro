@@ -57,27 +57,28 @@
     "sideBarSectionHeader.foreground":   "#151515",   // Css text and BOT txt
 
     // --- -- - Buttons
-    "button.background": "#5fc05c",    // Button background
-    "button.foreground": "#000000",    // Button text
+    "button.background":                        "#5fc05c",    // Button background
+    "button.foreground":                        "#000000",    // Button text
 
     // --- -- - Editor hover widget  1 and 2
-    "editorHoverWidget.border": "#13ff3e",                // Hover widget border
-    "editorHoverWidget.foreground": "#313131",            // Hover widget text
-    "editorHoverWidget.statusBarBackground": "#282828",   // Hover widget status bar bg
+    "editorHoverWidget.border":                 "#13ff3e",    // Hover widget border
+    "editorHoverWidget.foreground":             "#313131",    // Hover widget text
+    "editorHoverWidget.statusBarBackground":    "#282828",    // Hover widget status bar bg
 
     //--- -- - GIT Decoration
-    "gitDecoration.modifiedResourceForeground": "#66be8b",           // Modified file
-    "gitDecoration.conflictingResourceForeground": "#00a1fe90",      // Merge conflict
-    "gitDecoration.deletedResourceForeground": "#f07177f5",          // Deleted file
-    "gitDecoration.ignoredResourceForeground": "#61616190",          // Ignored file
-    "gitDecoration.untrackedResourceForeground": "#21f21a",          // Untracked file
-    "gitDecoration.stageModifiedResourceForeground": "#ff3300",      // Staged modified
-    "gitDecoration.stageDeletedResourceForeground": "#ff3300",       // Staged deleted
-    "gitDecoration.submoduleResourceForeground": "#ff3300",          // Submodule
-    "gitDecoration.renamedResourceForeground": "#fa5228",            // Renamed file
-    "gitDecoration.addedResourceForeground": "#fa5228",              // Added file
-    "editorGhostText.foreground": "#717171",                         // git commit txt
+    "gitDecoration.modifiedResourceForeground":         "#66be8b",    // Modified file
+    "gitDecoration.conflictingResourceForeground":      "#00a1fe90",  // Merge conflict
+    "gitDecoration.deletedResourceForeground":          "#f07177f5",  // Deleted file
+    "gitDecoration.ignoredResourceForeground":          "#61616190",  // Ignored file
+    "gitDecoration.untrackedResourceForeground":        "#21f21a",    // Untracked file
+    "gitDecoration.stageModifiedResourceForeground":    "#ff3300",    // Staged modified
+    "gitDecoration.stageDeletedResourceForeground":     "#ff3300",    // Staged deleted
+    "gitDecoration.submoduleResourceForeground":        "#ff3300",    // Submodule
+    "gitDecoration.renamedResourceForeground":          "#fa5228",    // Renamed file
+    "gitDecoration.addedResourceForeground":            "#fa5228",    // Added file
+    "editorGhostText.foreground":                       "#717171",    // git commit txt
 
+    
     // TODO: EDITOR CODE MARK: TWO-2
     "editor.background": "#f0ecb9",
     "editor.foreground": "#000000", // HERE STORE text
