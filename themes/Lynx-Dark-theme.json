@@ -80,21 +80,21 @@
 
 
     // TODO: EDITOR CODE MARK: [TWO-2]
-    "editor.background": "#050505",
-    "editor.foreground": "#eeffff",
-    "editor.findMatchBackground": "#000000",
-    "editor.findMatchBorder": "#c07c5c",
-    "editor.findMatchHighlightBackground": "#00000050",
-    "editor.findMatchHighlightBorder": "#ef000004",
-    "editor.findRangeHighlightBackground": "#ffcb6b30",
-    "editor.lineHighlightBackground": "#00000070",
-    "editor.lineHighlightBorder": "#f4101000",
-    "editor.rangeHighlightBackground": "#29c7ee0d",
-    "editor.selectionBackground": "#61616150",
-    "editor.selectionHighlightBackground": "#ffcc0020",
-    "editor.wordHighlightBackground": "#ff9cac30",
-    "editor.wordHighlightStrongBackground": "#c3e88d30",
-    "editorOverviewRuler.border": "#050505",
+    "editor.background":                   "#050505",      // Editor background
+    "editor.foreground":                   "#eeffff",      // Editor [STORE ]text
+    "editor.findMatchBackground":          "#000000",      // Find match background
+    "editor.findMatchBorder":              "#c07c5c",      // Find match border
+    "editor.findMatchHighlightBackground": "#00000050",    // Find match highlight background
+    "editor.findMatchHighlightBorder":     "#ef000004",    // Find match highlight border
+    "editor.findRangeHighlightBackground": "#ffcb6b30",    // Find range highlight background
+    "editor.lineHighlightBackground":      "#00000070",    // Line highlight background
+    "editor.lineHighlightBorder":          "#f4101000",    // Line highlight border
+    "editor.rangeHighlightBackground":     "#29c7ee0d",    // Range highlight background
+    "editor.selectionBackground":          "#61616150",    // Selection background
+    "editor.selectionHighlightBackground": "#ffcc0020",    // Selection highlight background
+    "editor.wordHighlightBackground":      "#ff9cac30",    // Word highlight background
+    "editor.wordHighlightStrongBackground":"#c3e88d30",    // Word highlight strong background
+    "editorOverviewRuler.border":          "#050505",      // Overview ruler border
 
     // --- -- - Tabs Header - TOP
     "editorGroupHeader.tabsBackground": "#050505",
