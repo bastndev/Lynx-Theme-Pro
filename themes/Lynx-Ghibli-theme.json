@@ -218,8 +218,16 @@
 
     "statusBarItem.remoteBackground": "#5fc05c", // Esquina bg
     "statusBarItem.remoteForeground": "#2a2a2a", // Esquina logo
-    "statusBarItem.prominentBackground": "#fcffd5" //bg bot box
+    "statusBarItem.prominentBackground": "#fcffd5", //bg bot box
     // "list.activeSelectionBackground": "#00a7f5",
+
+    // --- -- - BG {} and () and []
+    "editorBracketHighlight.foreground1": "#7f00fe",
+    "editorBracketHighlight.foreground2": "#da70d6",
+    "editorBracketHighlight.foreground3": "#07a5de",
+    "editorBracketHighlight.foreground4": "#7f00fe",
+    "editorBracketHighlight.foreground5": "#009a48",
+    "editorBracketHighlight.foreground6": "#943c00"
   },
   "tokenColors": [
     {
@@ -228,6 +236,22 @@
       "settings": {
         "fontStyle": "italic bold",
         "foreground": "#69727e"
+      }
+    },
+    {
+      "name": "Operators and Punctuation",
+      "scope": [
+        "keyword.operator",
+        "keyword.operator.assignment",
+        "keyword.operator.arithmetic",
+        "keyword.operator.logical",
+        "keyword.operator.comparison",
+        "punctuation.separator",
+        "punctuation.terminator",
+        "punctuation.accessor"
+      ],
+      "settings": {
+        "foreground": "#000000"
       }
     },
     {
@@ -372,7 +396,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#bb7d0a"
       }
     },
     {
@@ -543,7 +567,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#ff3300"
+        "foreground": "#fa6a27"
       }
     },
     {
