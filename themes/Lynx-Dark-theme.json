@@ -235,9 +235,9 @@
     "textBlockQuote.border":               "#232323",   // Block quote border LEFT
 
     // --- -- - BG message error
-    "inputValidation.errorBackground": "#000000",
-    "inputValidation.errorForeground": "#ff6666",
-    "inputValidation.errorBorder": "#ff0000",
+    "inputValidation.errorBackground":       "#000000",   // Error message background
+    "inputValidation.errorForeground":       "#ff6666",   // Error message text
+    "inputValidation.errorBorder":           "#ff0000",   // Error message border
 
     // --- -- - BG {} and () and []
     "editorBracketHighlight.foreground1": "#ffd700",
