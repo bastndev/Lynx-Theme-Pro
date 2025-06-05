@@ -97,13 +97,13 @@
     "editorOverviewRuler.border":          "#050505",      // Overview ruler border
 
     // --- -- - Tabs Header - TOP
-    "editorGroupHeader.tabsBackground": "#050505",
-    "tab.activeBackground": "#101010",
-    "tab.hoverBackground": "#1f2220", // hover
-    "tab.activeForeground": "#ffffff",
-    "tab.inactiveBackground": "#050505",
-    "tab.border": "#050505",
-    "tab.activeBorder": "#101010",
+    "editorGroupHeader.tabsBackground":      "#050505",   // Tabs header background
+    "tab.activeBackground":                  "#101010",   // bg select second line
+    "tab.hoverBackground":                   "#1f2220",   // hover
+    "tab.activeForeground":                  "#ffffff",   // Active tab text
+    "tab.inactiveBackground":                "#050505",   // Inactive tab background
+    "tab.border":                            "#050505",   // Tab border
+    "tab.activeBorder":                      "#101010",   // Active tab border
 
     // --- -- - Breadcrumb second-Header
     "breadcrumb.background": "#101010",
