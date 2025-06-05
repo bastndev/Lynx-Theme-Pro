@@ -131,20 +131,12 @@
     "editorSuggestWidget.selectedBackground":   "#49d75963", // Selected suggestion background
     "editorHoverWidget.background":             "#101010",   // bg check information
 
-    // --- -- - Editor Widgets - MID
-    "editorWidget.background": "#101010",
-    "editorWidget.border": "#13ff3e",
-    "editorWidget.resizeBorder": "#5c6bc0",
-    "input.background": "#101010",
-    "input.border": "#050505",
-    // "input.foreground": "#eeffff",
-
-
     // --- -- - Editor Diff git
     // "diffEditor.insertedTextBackground": "#18d87f14",
     // "diffEditor.removedTextBackground": "#ff9cad00",
 
     // TODO: AI - copilot -AI MARK: THREE-3
+    "input.background": "#101010",
     "chat.avatarForeground": "#ffffff",
     "chat.avatarBackground": "#000000",
     "disabledForeground": "#8c8c8c",
@@ -152,6 +144,8 @@
     "editorCursor.foreground": "#8c8c8c", // Line point
     "icon.foreground": "#e8e8e8",
     "foreground": "#ffffff",
+
+    "input.border": "#050505",
     // "chat.requestBorder": "#13ff3e",
     // "chat.avatarForeground": "#5fc05c",
     // --- future here AI
@@ -169,6 +163,13 @@
     // TODO: MARK: PLUS
     // --- -- - progress bar
     "progressBar.background": "#13ff3e",
+    
+    //ctrl+shift+p | Inputs
+    "editorWidget.background": "#101010",
+
+    // --- -- - Editor Widgets - MID
+    "editorWidget.border": "#13ff3e",
+    "editorWidget.resizeBorder": "#5c6bc0",
 
     //ctrl+shift+p | Inputs
     "quickInputList.focusBackground": "#13ff3e60",
