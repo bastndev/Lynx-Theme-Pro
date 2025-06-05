@@ -230,7 +230,7 @@
     "statusBarItem.prominentBackground":  "#000000",   // Bottom box background
 
 
-    // --- -- - BG store vscode
+    // TODO: -  BG store vscode MARK:[+]
     "textBlockQuote.background": "#000000",
     "textBlockQuote.border": "#232323",
 

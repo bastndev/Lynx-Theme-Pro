@@ -229,6 +229,16 @@
     "statusBarItem.remoteForeground":     "#2a2a2a",   // Remote corner logo
     "statusBarItem.prominentBackground":  "#ffffff",   // Bottom box background
 
+
+    // TODO: -  BG store vscode MARK:[+]
+    "textBlockQuote.background": "#000000",
+    "textBlockQuote.border": "#232323",
+
+    // --- -- - BG message error
+    "inputValidation.errorBackground": "#000000",
+    "inputValidation.errorForeground": "#ff6666",
+    "inputValidation.errorBorder": "#ff0000",
+
     // --- -- - BG {} and () and []
     "editorBracketHighlight.foreground1": "#7f00fe",
     "editorBracketHighlight.foreground2": "#da70d6",
