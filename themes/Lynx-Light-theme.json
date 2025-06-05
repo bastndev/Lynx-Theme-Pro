@@ -131,6 +131,10 @@
     "editorSuggestWidget.selectedBackground":    "#49d75963",    // Selected suggestion background
     "editorHoverWidget.background":              "#ffffff",      // bg check information
 
+    // --- -- - Editor Widgets - MID
+    "editorWidget.border":        "#13ff3e",      // Widget border
+    "editorWidget.resizeBorder":  "#5c6bc0",      // Widget resize border
+
     // --- -- - Editor Diff git
     // "diffEditor.insertedTextBackground": "#18d87f14",
     // "diffEditor.removedTextBackground": "#ff9cad00",
@@ -161,11 +165,6 @@
     "editorWidget.background":                "#ffffff",      // background
     "quickInputList.focusBackground":         "#13ff3e60",    // Focus background
     "list.highlightForeground":               "#5c77c0",      // Highlight text color
-
-    // --- -- - Editor Widgets - MID
-    "editorWidget.border": "#13ff3e",
-    "editorWidget.resizeBorder": "#5c6bc0",
-    // "input.background": "#101010",---
 
     // --- -- - Panel Terminal & Text BOTTOM
     "panel.background": "#eaeaea",
