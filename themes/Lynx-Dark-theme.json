@@ -135,30 +135,23 @@
     // "diffEditor.insertedTextBackground": "#18d87f14",
     // "diffEditor.removedTextBackground": "#ff9cad00",
 
-    // TODO: AI - copilot -AI MARK: THREE-3
-    "input.background": "#101010",
-    "chat.avatarForeground": "#ffffff",
-    "chat.avatarBackground": "#000000",
-    "disabledForeground": "#8c8c8c",
-    "input.foreground": "#ffffff",
-    "editorCursor.foreground": "#8c8c8c", // Line point
-    "icon.foreground": "#e8e8e8",
-    "foreground": "#ffffff",
+    // TODO: AI - copilot -AI MARK: [THREE-3]
+    "input.background":                    "#101010",   // bg color
+    "focusBorder":                         "#101010",   // Border - AI and box 1
+    "editorCursor.foreground":             "#8c8c8c",   // Line point
+    "input.foreground":                    "#ffffff",   // Input text color
+    "disabledForeground":                  "#8c8c8c",   // Disabled text color
+    "chat.avatarBackground":               "#000000",   // Chat avatar background
 
-    "input.border": "#050505",
-    // "chat.requestBorder": "#13ff3e",
-    // "chat.avatarForeground": "#5fc05c",
+    "icon.foreground":                     "#e8e8e8",   // Icon color
+    "chat.avatarForeground":               "#ffffff",   // Chat avatar text color
+    "foreground":                          "#ffffff",   // General text color
+    
+    "input.border":                        "#050505",   // Input border color
+    // "chat.requestBorder":               "#13ff3e",     // Chat request border
+    // "chat.avatarForeground":            "#5fc05c",     // Chat avatar foreground alt
     // --- future here AI
-    // ---
-    // ---
-    // ---
-    // ---
-    // ---
-    // ---
-    // ---
-    // ---
-    // ---
-    // ---
+    // -
 
     // TODO: MARK: PLUS
     // --- -- - progress bar
@@ -174,7 +167,6 @@
     //ctrl+shift+p | Inputs
     "quickInputList.focusBackground": "#13ff3e60",
     "list.highlightForeground": "#5fc05c",
-    "focusBorder": "#101010",
     "keybindingLabel.foreground": "#fefefe",
     "keybindingLabel.background": "#000000",
     "keybindingLabel.border": "#101010",
