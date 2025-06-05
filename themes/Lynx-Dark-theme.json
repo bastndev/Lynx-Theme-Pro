@@ -47,16 +47,15 @@
     "list.activeSelectionForeground": "#ffffff",    // Active text color
     "list.inactiveSelectionForeground": "#ffffff",  // Inactive text color
     "list.inactiveSelectionBackground": "#000000",  // Inactive background
-    
 
     // --- -- - Side Bar
-    "sideBar.background": "#050505", // Ai and Side bar background
-    "sideBar.foreground": "#616161", // Text vscode all
-    "sideBar.border": "#050505", // Line right and left
-    "sideBarSectionHeader.background": "#101010",
-    "sideBarSectionHeader.border": "#050505", // Line top
-    "sideBarTitle.foreground": "#ffffff",
-    "sideBarSectionHeader.foreground": "#bcbcbc",
+    "sideBar.background":                "#050505",   // Ai and Side bar background
+    "sideBar.foreground":                "#616161",   // Text vscode all
+    "sideBar.border":                    "#050505",   // Line right and left
+    "sideBarSectionHeader.background":   "#101010",   // LINE bg
+    "sideBarSectionHeader.border":       "#050505",   // Line top
+    "sideBarTitle.foreground":           "#ffffff",   // Explorer
+    "sideBarSectionHeader.foreground":   "#bcbcbc",   // Css text and BOT txt
 
 
     // --- -- - Buttons
