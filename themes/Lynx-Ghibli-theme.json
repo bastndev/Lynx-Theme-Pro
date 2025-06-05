@@ -57,8 +57,8 @@
     "sideBarSectionHeader.foreground":   "#151515",   // Css text and BOT txt
 
     // --- -- - Buttons
-    "button.background": "#5fc05c",
-    "button.foreground": "#000000",
+    "button.background": "#5fc05c",    // Button background
+    "button.foreground": "#000000",    // Button text
 
     // --- -- - Editor hover widget  1 and 2
     "editorHoverWidget.border": "#13ff3e",
