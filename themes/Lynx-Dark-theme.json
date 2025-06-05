@@ -197,9 +197,9 @@
     "terminalCursor.foreground":              "#ffcb6b",   // Terminal cursor foreground
 
     // --- -- - Notifications
-    "notifications.background": "#101010",
-    "notificationLink.foreground": "#5fc05c",
-    "notifications.foreground": "#eeffff",
+    "notifications.background":               "#101010",   // Notification background
+    "notifications.foreground":               "#eeffff",   // Notification text
+    "notificationLink.foreground":            "#5fc05c",   // Notification link color
 
     // --- -- - Market place vscode txt color
     "textPreformat.foreground": "#ffd45f",
