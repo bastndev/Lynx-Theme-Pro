@@ -202,10 +202,17 @@
     "notificationLink.foreground":       "#5fc05c",    // Notification link color
 
     // --- -- - Market place vscode txt color
-    "textPreformat.foreground":       "#f05800",    // Preformatted text
-    "textLink.foreground":            "#038c43",    // Text links color
+    "textPreformat.foreground":       "#f05800",        // Preformatted text
+    "textLink.foreground":            "#038c43",        // Text links color
 
-    // TODO:Status Bar MARK: - BOTTOM
+    "debugToolBar.background":               "#fcffd5",   // Debug toolbar background
+    "dropdown.background":                   "#fcffd5",   // Dropdown background
+    "dropdown.border":                       "#d2c38f",   // Dropdown border
+    "dropdown.foreground":                   "#000000",   // Dropdown text color
+    // "debugToolBar.border":                "#d2c38f",     // Border debug optional
+
+
+    // TODO:Status Bar MARK: - [BOTTOM]
     "statusBar.background": "#ebe3a8",
     "statusBar.foreground": "#616161", // txt color
     "statusBar.border": "#42414160", // line border

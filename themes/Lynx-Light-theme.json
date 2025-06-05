@@ -205,7 +205,14 @@
     "textPreformat.foreground":               "#f05800",      // Preformatted text
     "textLink.foreground":                    "#038c43",      // Link text color
 
-    // TODO:Status Bar MARK: - BOTTOM
+    "debugToolBar.background":               "#ffffff",       // Debug toolbar background
+    "dropdown.background":                   "#ffffff",       // Dropdown background
+    "dropdown.border":                       "#cccccc",       // Dropdown border
+    "dropdown.foreground":                   "#000000",       // Dropdown text color
+    // "debugToolBar.border":                "#dddddd",         // Border debug optional
+
+
+    // TODO:Status Bar MARK: - [BOTTOM]
     "statusBar.background": "#eaeaea",
     "statusBar.foreground": "#616161", // txt color
     "statusBar.border": "#42414160", // line border
