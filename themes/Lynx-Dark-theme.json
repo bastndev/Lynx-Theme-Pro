@@ -6,32 +6,32 @@
   "type": "dark",
 
   "colors": {
-    // TODO: Menu Status Bar MARK: - TOP
-    "titleBar.activeBackground": "#050505", // Background
-    "titleBar.activeForeground": "#d0d0d0", // TOP text 1
-    "titleBar.border": "#050505", //LINE
+    // TODO: Menu Status Bar MARK: - [TOP]
+    "titleBar.activeBackground": "#050505",   // Background
+    "titleBar.activeForeground": "#d0d0d0",   // TOP text 1
+    "titleBar.border": "#050505",             // LINE
     "titleBar.inactiveBackground": "#101010", // Inactive window title
     "titleBar.inactiveForeground": "#616161", // Inactive title text
-    "commandCenter.background": "#101010", // background top box mid
+    "commandCenter.background": "#101010",    // Background top box mid
 
-    // --- -- - Menu Click & select
-    "menu.border": "#101010",
-    "menu.background": "#101010",
-    "menu.foreground": "#eeffff",
-    "menu.selectionBackground": "#00000050",
-    "menu.selectionBorder": "#00000030",
-    "menu.selectionForeground": "#13ff3e",
-    "menu.separatorBackground": "#bebcbc", //Line
-    "menubar.selectionBackground": "#00000030",
-    "menubar.selectionBorder": "#00000030",
-    "menubar.selectionForeground": "#5fc05c",
+    // --- -- - Menu Click & select  
+    "menu.background": "#101010", // Menu background
+    "menu.foreground": "#eeffff", // Menu text
+    "menu.border": "#101010", // Border line
+    "menu.selectionBackground": "#00000050", // Selected item background
+    "menu.selectionBorder": "#00000030", // Selected item border
+    "menu.selectionForeground": "#13ff3e", // Active click color
+    "menu.separatorBackground": "#bebcbc", // Separator line
+    "menubar.selectionBackground": "#00000030", // Menubar selection background
+    "menubar.selectionBorder": "#00000030", // Menubar selection border
+    "menubar.selectionForeground": "#5fc05c", // Hover TOP text 1
 
     // --- -- - Menu hover - click & select
     "list.activeSelectionBackground": "#13ff3e35",
     "list.activeSelectionForeground": "#ffffff",
     "list.inactiveSelectionBackground": "#000000",
 
-    // TODO: Activity Bar MARK: ONE-1
+    // TODO: Activity Bar MARK: [ONE-1]
     "activityBar.background": "#050505",
     "activityBar.foreground": "#eeffff",
     "activityBar.border": "#050505",

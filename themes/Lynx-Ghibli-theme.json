@@ -6,18 +6,18 @@
   "type": "dark",
 
   "colors": {
-    // TODO: Menu Status Bar MARK: - TOP
-    "titleBar.activeBackground": "#ebe3a8", // Background
-    "titleBar.activeForeground": "#474747", // TOP text 1
-    "titleBar.border": "#d2c38f", //LINE
+    // TODO: Menu Status Bar MARK: - [TOP]
+    "titleBar.activeBackground": "#ebe3a8",   // Background
+    "titleBar.activeForeground": "#474747",   // TOP text 1
+    "titleBar.border": "#d2c38f",             // LINE
     "titleBar.inactiveBackground": "#ebe3a8", // Inactive window title
     "titleBar.inactiveForeground": "#000000", // Inactive title text
-    "commandCenter.background": "#fcffd5", // background top box mid
+    "commandCenter.background": "#fcffd5",    // Background top box mid
 
     // --- -- - Menu Click & select
-    "menu.border": "#d2c38f", // Border Line
     "menu.background": "#ebe3a8",
     "menu.foreground": "#000000",
+    "menu.border": "#d2c38f", // Border Line
     "menu.selectionBackground": "#00000050",
     "menu.selectionBorder": "#00000030",
     "menu.selectionForeground": "#ffffff", //Active click color
@@ -31,7 +31,7 @@
     "list.dropBackground": "#000000",
     "tree.indentGuidesStroke": "#88ff004d",
 
-    // TODO: Activity Bar MARK: ONE-1
+    // TODO: Activity Bar MARK: [ONE-1]
     "activityBar.background": "#ebe3a8",
     "activityBar.foreground": "#111",
     "activityBar.border": "#ebe3a8",

@@ -6,22 +6,22 @@
   "type": "dark",
 
   "colors": {
-    // TODO: Menu Status Bar MARK: - TOP
-    "titleBar.activeBackground": "#eaeaea", // Background
-    "titleBar.activeForeground": "#474747", // TOP text 1
-    "titleBar.border": "#eaeaea", //LINE
+    // TODO: Menu Status Bar MARK: - [TOP]
+    "titleBar.activeBackground": "#eaeaea",   // Background
+    "titleBar.activeForeground": "#474747",   // TOP text 1
+    "titleBar.border": "#eaeaea",             // LINE
     "titleBar.inactiveBackground": "#eaeaea", // Inactive window title
     "titleBar.inactiveForeground": "#000000", // Inactive title text
-    "commandCenter.background": "#ffffff", // background top box mid
+    "commandCenter.background": "#ffffff",    // Background top box mid
 
     // --- -- - Menu Click & select
-    "menu.border": "#26f21e",
     "menu.background": "#eaeaea",
     "menu.foreground": "#000000",
+    "menu.border": "#26f21e", // Border Line
     "menu.selectionBackground": "#00000050",
     "menu.selectionBorder": "#00000030",
     "menu.selectionForeground": "#ffffff", //Active click color
-    "menu.separatorBackground": "#23cf6b",
+    "menu.separatorBackground": "#23cf6b", //Border Line
     "menubar.selectionBackground": "#00000030",
     "menubar.selectionBorder": "#00000030",
     "menubar.selectionForeground": "#000000", // Hover TOP text 1
@@ -31,7 +31,7 @@
     "list.dropBackground": "#000000",
     "tree.indentGuidesStroke": "#88ff004d",
 
-    // TODO: Activity Bar MARK: ONE-1
+    // TODO: Activity Bar MARK: [ONE-1]
     "activityBar.background": "#eaeaea",
     "activityBar.foreground": "#111",
     "activityBar.border": "#eaeaea",
