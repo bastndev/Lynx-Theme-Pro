@@ -43,9 +43,11 @@
     "activityBarTop.inactiveForeground": "#605f5f", // No selection icon
 
     // --- -- - Menu hover - click & select = RIGHT
-    "list.activeSelectionBackground": "#13ff3e35",
-    "list.activeSelectionForeground": "#ffffff",
-    "list.inactiveSelectionBackground": "#000000",
+    "list.activeSelectionBackground": "#13ff3e35",  // Active background
+    "list.activeSelectionForeground": "#ffffff",    // Active text color
+    "list.inactiveSelectionForeground": "#ffffff",  // Inactive text color
+    "list.inactiveSelectionBackground": "#000000",  // Inactive background
+    
 
     // --- -- - Side Bar
     "sideBar.background": "#050505", // Ai and Side bar background
@@ -55,7 +57,6 @@
     "sideBarSectionHeader.border": "#050505", // Line top
     "sideBarTitle.foreground": "#ffffff",
     "sideBarSectionHeader.foreground": "#bcbcbc",
-    "list.inactiveSelectionForeground": "#ffffff",
 
 
     // --- -- - Buttons
