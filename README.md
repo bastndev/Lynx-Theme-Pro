@@ -35,9 +35,9 @@ ext install lynx-theme
 
 Here is the project link if you want to collaborate: [[>\_ ] code](https://github.com/bastndev/Lynx-theme).
 
-| [![bastndev](https://github.com/bastndev.png?size=100)](https://github.com/bastndev) |
-| :----------------------------------------------------------------------------------: |
-|                   **[Gohit Bastian](https://github.com/bastndev)**                   |
+| [![bastndev](https://github.com/bastndev.png?size=100)](https://www.bastndev.com) |
+| :-------------------------------------------------------------------------------: |
+|                 **[Gohit Bastian](https://github.com/bastndev)**                  |
 
 ## About Me
 
