@@ -225,6 +225,7 @@
     "statusBarItem.activeBackground":     "#f0717880", // Status bar active item background
 
     "statusBarItem.remoteBackground":     "#5fc05c",   // Remote corner background
+    "statusBarItem.remoteHoverForeground": "#313131",  // Hover corner logo
     "statusBarItem.remoteForeground":     "#2a2a2a",   // Remote corner logo
     "statusBarItem.prominentBackground":  "#ffffff",   // Bottom box background
 

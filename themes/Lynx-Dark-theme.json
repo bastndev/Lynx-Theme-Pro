@@ -225,8 +225,9 @@
     "statusBarItem.activeBackground":     "#f0717880", // Status bar active item background
     
     "statusBarItem.remoteBackground":     "#5fc05c",   // Remote corner background
+    "statusBarItem.remoteHoverForeground": "#313131",  // Hover corner logo
     "statusBarItem.remoteForeground":     "#000000",   // Remote corner logo
-    "statusBarItem.prominentBackground":  "#5fc05c",   // Bottom box background
+    "statusBarItem.prominentBackground":  "#000000",   // Bottom box background
 
 
     // --- -- - BG store vscode
