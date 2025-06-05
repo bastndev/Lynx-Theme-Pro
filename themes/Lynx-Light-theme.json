@@ -202,8 +202,8 @@
     "notificationLink.foreground":            "#5fc05c",      // Notification link color
 
     // --- -- - Market place vscode txt color
-    "textPreformat.foreground": "#f05800",
-    "textLink.foreground": "#038c43",
+    "textPreformat.foreground":               "#f05800",      // Preformatted text
+    "textLink.foreground":                    "#038c43",      // Link text color
 
     // TODO:Status Bar MARK: - BOTTOM
     "statusBar.background": "#eaeaea",
