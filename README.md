@@ -28,7 +28,7 @@ Launch _Quick Open_
 Paste the following command and press `Enter`:
 
 ```
-ext install lynx-theme
+ext install bastndev.lynx-theme
 ```
 
 ## Contributors
