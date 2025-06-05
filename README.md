@@ -11,7 +11,7 @@
         <img src="https://vsmarketplacebadges.dev/installs-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=FFF4C1&colorB=00933b&label=INSTALLS" alt="Installs" style="color:gray;">
     </a>&nbsp;
     <a href="https://github.com/sponsors/bastndev">
-        <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme/main/assets/images/sponsor.png" width="30px" alt="Sponsor">
+        <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme/main/assets/images/sponsor.png" width="30px" alt="Sponsor Github">
     </a>
 </p>
 
@@ -28,16 +28,16 @@ Launch _Quick Open_
 Paste the following command and press `Enter`:
 
 ```
-ext install lynx-theme
+ext install bastndev.lynx-theme
 ```
 
 ## Contributors
 
 Here is the project link if you want to collaborate: [[>\_ ] code](https://github.com/bastndev/Lynx-theme).
 
-| [![bastndev](https://github.com/bastndev.png?size=100)](https://github.com/bastndev) |
-| :----------------------------------------------------------------------------------: |
-|                   **[Gohit Bastian](https://github.com/bastndev)**                   |
+| [![bastndev](https://github.com/bastndev.png?size=100)](https://www.bastndev.com) |
+| :-------------------------------------------------------------------------------: |
+|                 **[Gohit Bastian](https://github.com/bastndev)**                  |
 
 ## About Me
 
