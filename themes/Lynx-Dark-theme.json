@@ -78,8 +78,8 @@
     "gitDecoration.addedResourceForeground":           "#ffee6b",    // Added files
     "editorGhostText.foreground":                      "#717171",    // git commit txt
 
-    
-    // TODO: EDITOR CODE MARK: TWO-2
+
+    // TODO: EDITOR CODE MARK: [TWO-2]
     "editor.background": "#050505",
     "editor.foreground": "#eeffff",
     "editor.findMatchBackground": "#000000",
