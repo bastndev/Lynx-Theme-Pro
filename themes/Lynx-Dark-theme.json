@@ -60,6 +60,11 @@
     "button.background": "#5fc05c",    // Button background
     "button.foreground": "#000000",    // Button text
 
+     // --- -- - Editor hover widget
+    "editorHoverWidget.border": "#13ff3e",                // Hover widget border
+    "editorHoverWidget.foreground": "#eeffff",            // Hover widget text
+    "editorHoverWidget.statusBarBackground": "#282828",   // Hover widget status bar bg
+
     //--- -- - GIT Decoration
     "gitDecoration.modifiedResourceForeground": "#66be8b",
     "gitDecoration.conflictingResourceForeground": "#00a1fe90",
@@ -125,10 +130,7 @@
     "input.border": "#050505",
     // "input.foreground": "#eeffff",
 
-    // --- -- - Editor hover widget
-    "editorHoverWidget.border": "#13ff3e",
-    "editorHoverWidget.foreground": "#eeffff",
-    "editorHoverWidget.statusBarBackground": "#282828",
+
 
     // --- -- - Editor Suggest widget
     "editorSuggestWidget.background": "#101010",

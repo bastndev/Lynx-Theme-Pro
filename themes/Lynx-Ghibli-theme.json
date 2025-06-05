@@ -61,9 +61,9 @@
     "button.foreground": "#000000",    // Button text
 
     // --- -- - Editor hover widget  1 and 2
-    "editorHoverWidget.border": "#13ff3e",
-    "editorHoverWidget.foreground": "#313131",
-    "editorHoverWidget.statusBarBackground": "#282828",
+    "editorHoverWidget.border": "#13ff3e",                // Hover widget border
+    "editorHoverWidget.foreground": "#313131",            // Hover widget text
+    "editorHoverWidget.statusBarBackground": "#282828",   // Hover widget status bar bg
 
     //--- -- - GIT Decoration
     "gitDecoration.modifiedResourceForeground": "#66be8b",
