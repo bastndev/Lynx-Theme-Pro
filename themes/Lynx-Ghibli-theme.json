@@ -7,11 +7,11 @@
 
   "colors": {
     // TODO: Menu Status Bar MARK: - TOP
-    "titleBar.activeBackground": "#ebe3a8",
+    "titleBar.activeBackground": "#ebe3a8", // Background
     "titleBar.activeForeground": "#474747", // TOP text 1
     "titleBar.border": "#d2c38f", //LINE
-    "titleBar.inactiveBackground": "#ebe3a8",
-    "titleBar.inactiveForeground": "#000000",
+    "titleBar.inactiveBackground": "#ebe3a8", // Inactive window title
+    "titleBar.inactiveForeground": "#000000", // Inactive title text
     "commandCenter.background": "#fcffd5", // background top box mid
 
     // --- -- - Menu Click & select
