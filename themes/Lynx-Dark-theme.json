@@ -15,16 +15,16 @@
     "commandCenter.background": "#101010",    // Background top box mid
 
     // --- -- - Menu Click & select  
-    "menu.background": "#101010", // Menu background
-    "menu.foreground": "#eeffff", // Menu text
-    "menu.border": "#101010", // Border line
-    "menu.selectionBackground": "#00000050", // Selected item background
-    "menu.selectionBorder": "#00000030", // Selected item border
-    "menu.selectionForeground": "#13ff3e", // Active click color
-    "menu.separatorBackground": "#bebcbc", // Separator line
+    "menu.background": "#101010",               // Menu background
+    "menu.foreground": "#eeffff",               // Menu text
+    "menu.border": "#101010",                   // Border line
+    "menu.selectionBackground": "#00000050",    // Selected item background
+    "menu.selectionBorder": "#00000030",        // Selected item border
+    "menu.selectionForeground": "#13ff3e",      // Active click color
+    "menu.separatorBackground": "#bebcbc",      // Separator line
     "menubar.selectionBackground": "#00000030", // Menubar selection background
-    "menubar.selectionBorder": "#00000030", // Menubar selection border
-    "menubar.selectionForeground": "#5fc05c", // Hover TOP text 1
+    "menubar.selectionBorder": "#00000030",     // Menubar selection border
+    "menubar.selectionForeground": "#5fc05c",   // Hover TOP text 1
 
     // --- -- - Menu hover - click & select
     "list.activeSelectionBackground": "#13ff3e35",
