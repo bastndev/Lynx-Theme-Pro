@@ -31,15 +31,15 @@
     "list.dropBackground": "#000000",          // Drop background
     "tree.indentGuidesStroke": "#88ff004d",    // Tree guide lines
 
-    
+
     // TODO: Activity Bar MARK: [ONE-1]
-    "activityBar.background": "#ebe3a8",
-    "activityBar.foreground": "#111",
-    "activityBar.border": "#ebe3a8",
-    "activityBar.activeBorder": "#5fc05c",
-    "activityBarBadge.background": "#5fc05c",
-    "activityBarBadge.foreground": "#fcffd5",
-    "activityBarTop.foreground": "#000000", // Select icon
+    "activityBar.background": "#ebe3a8",            // Activity bar background
+    "activityBar.foreground": "#111",               // Activity bar text
+    "activityBar.border": "#ebe3a8",                // Activity bar border
+    "activityBar.activeBorder": "#5fc05c",          // Active item border
+    "activityBarBadge.background": "#5fc05c",       // Badge background
+    "activityBarBadge.foreground": "#fcffd5",       // Badge text
+    "activityBarTop.foreground": "#000000",         // Select icon
     "activityBarTop.inactiveForeground": "#605f5f", // No selection icon
 
     // --- -- - Menu hover - click & select = RIGHT
