@@ -158,15 +158,16 @@
     "progressBar.background": "#13ff3e",                // Progress bar background
     
     //ctrl+shift+p | Inputs
-    "editorWidget.background": "#101010",
+    "editorWidget.background":                "#101010",     // Background
+    "quickInputList.focusBackground":         "#13ff3e60",   // Focus background
+    "list.highlightForeground":               "#5fc05c",     // Highlight text color
 
     // --- -- - Editor Widgets - MID
     "editorWidget.border": "#13ff3e",
     "editorWidget.resizeBorder": "#5c6bc0",
 
     //ctrl+shift+p | Inputs
-    "quickInputList.focusBackground": "#13ff3e60",
-    "list.highlightForeground": "#5fc05c",
+
     "keybindingLabel.foreground": "#fefefe",
     "keybindingLabel.background": "#000000",
     "keybindingLabel.border": "#101010",
