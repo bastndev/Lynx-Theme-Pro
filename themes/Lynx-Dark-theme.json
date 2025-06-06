@@ -200,9 +200,9 @@
     "notifications.foreground":              "#eeffff",    // Notification text
     "notificationLink.foreground":           "#5fc05c",    // Notification link color
 
-    // --- -- - Market place vscode txt color
+    // --- -- - Market place VScode txt color
     "textPreformat.foreground":              "#ffd45f",    // Preformatted text
-    "textLink.foreground":                   "#038c43",    // Link text color
+    "textLink.foreground":                   "#13ff3e",    // Link text color
 
     // --- -- - Editor Group & Dropdown Controls
     "debugToolBar.background":               "#101010",    // Debug toolbar background
@@ -244,9 +244,6 @@
     "editorBracketHighlight.foreground4":    "#ffd700",    // Bracket highlight color 4
     "editorBracketHighlight.foreground5":    "#fb3460",    // Bracket highlight color 5
     "editorBracketHighlight.foreground6":    "#07a5de",     // Bracket highlight color 6
-
-    // "textBlockQuote.background": "#000000",
-    // "textBlockQuote.border": "#B30000", 
   },
   "tokenColors": [
     {
