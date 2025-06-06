@@ -230,6 +230,7 @@
     // TODO: -  BG store vscode MARK:[+]
     "textBlockQuote.background":            "#f8ffd4",    // Block quote background
     "textBlockQuote.border":                "#d2c38f",    // Block quote border LEFT
+    "textCodeBlock.background":             "#f8ffd4",    // Code block background 
 
     // --- BG message error
     "inputValidation.errorBackground":      "#ffebee",    // Error message background
@@ -655,7 +656,7 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#1b1c23"
       }
     },
     {
