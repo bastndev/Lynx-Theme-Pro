@@ -200,7 +200,7 @@
     "notifications.foreground":             "#000000",    // Notification text
     "notificationLink.foreground":          "#5fc05c",    // Notification link color
 
-    // --- Market place vscode txt color
+    // --- Market place VScode txt color
     "textPreformat.foreground":             "#f05800",    // Preformatted text
     "textLink.foreground":                  "#038c43",    // Text links color
 
