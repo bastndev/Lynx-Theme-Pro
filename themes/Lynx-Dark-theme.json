@@ -29,8 +29,7 @@
     "list.hoverBackground":                  "#00000098",  // Hover background
     "list.hoverForeground":                  "#cccccc",    // Text select
     "list.dropBackground":                   "#000000",    // Drop background
-    "tree.indentGuidesStroke":               "#88ff004d",  // Tree guide lines
-
+    
     // TODO: Activity Bar MARK: [ONE-1]
     "activityBar.background":                "#17181a",    // Activity bar background
     "activityBar.foreground":                "#eeffff",    // Activity bar text
@@ -41,6 +40,7 @@
     "activityBarTop.foreground":             "#e1e1e1",    // Select icon
     "activityBarTop.inactiveForeground":     "#605f5f",    // No selection icon
     "list.warningForeground":                "#9c6f1c",    // Warning text color
+    "tree.indentGuidesStroke":               "#5db68748",  // Line guide Folder
 
     // --- -- - Menu hover - click & select = RIGHT
     "list.activeSelectionBackground":        "#13ff3e35",  // Active background
