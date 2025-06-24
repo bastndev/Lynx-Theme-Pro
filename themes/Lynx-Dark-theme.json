@@ -7,9 +7,9 @@
 
   "colors": {
     // TODO: Menu Status Bar MARK: - [TOP]
-    "titleBar.activeBackground":             "#171717",    // Background
+    "titleBar.activeBackground":             "#17181a",    // Background
     "titleBar.activeForeground":             "#d0d0d0",    // TOP text 1
-    "titleBar.border":                       "#171717",    // LINE
+    "titleBar.border":                       "#17181a",    // LINE
     "titleBar.inactiveBackground":           "#101010",    // Inactive window title
     "titleBar.inactiveForeground":           "#616161",    // Inactive title text
     "commandCenter.background":              "#101010",    // Background top box mid
@@ -32,9 +32,9 @@
     "tree.indentGuidesStroke":               "#88ff004d",  // Tree guide lines
 
     // TODO: Activity Bar MARK: [ONE-1]
-    "activityBar.background":                "#171717",    // Activity bar background
+    "activityBar.background":                "#17181a",    // Activity bar background
     "activityBar.foreground":                "#eeffff",    // Activity bar text
-    "activityBar.border":                    "#171717",    // Activity bar border
+    "activityBar.border":                    "#17181a",    // Activity bar border
     "activityBar.activeBorder":              "#5fc05c",    // Active item border
     "activityBarBadge.background":           "#5db687",    // Badge background
     "activityBarBadge.foreground":           "#000000",    // Badge text
@@ -48,11 +48,11 @@
     "list.inactiveSelectionBackground":      "#000000",    // Inactive background
 
     // --- -- - Side Bar
-    "sideBar.background":                    "#171717",    // Ai and Side bar background
+    "sideBar.background":                    "#17181a",    // Ai and Side bar background
     "sideBar.foreground":                    "#616161",    // Text vscode all
-    "sideBar.border":                        "#171717",    // Line right and left
+    "sideBar.border":                        "#17181a",    // Line right and left
     "sideBarSectionHeader.background":       "#101010",    // LINE bg
-    "sideBarSectionHeader.border":           "#171717",    // Line top
+    "sideBarSectionHeader.border":           "#17181a",    // Line top
     "sideBarTitle.foreground":               "#ffffff",    // Explorer
     "sideBarSectionHeader.foreground":       "#bcbcbc",    // Css text and BOT txt
 
@@ -79,7 +79,7 @@
     "editorGhostText.foreground":                    "#717171",    // git commit txt
 
     // TODO: EDITOR CODE MARK: [TWO-2]
-    "editor.background":                     "#171717",    // Editor background
+    "editor.background":                     "#17181a",    // Editor background
     "editor.foreground":                     "#eeffff",    // Editor [STORE ]text
     "editor.findMatchBackground":            "#000000",    // Find match background
     "editor.findMatchBorder":                "#c07c5c",    // Find match border
@@ -93,15 +93,15 @@
     "editor.selectionHighlightBackground":   "#ffcc0020",  // Selection highlight background
     "editor.wordHighlightBackground":        "#ff9cac30",  // Word highlight background
     "editor.wordHighlightStrongBackground":  "#c3e88d30",  // Word highlight strong background
-    "editorOverviewRuler.border":            "#171717",    // Overview ruler border
+    "editorOverviewRuler.border":            "#17181a",    // Overview ruler border
 
     // --- -- - Tabs Header - TOP
-    "editorGroupHeader.tabsBackground":      "#171717",    // Tabs header background
+    "editorGroupHeader.tabsBackground":      "#17181a",    // Tabs header background
     "tab.activeBackground":                  "#101010",    // bg select second line
     "tab.hoverBackground":                   "#1f2220",    // hover
     "tab.activeForeground":                  "#ffffff",    // Active tab text
-    "tab.inactiveBackground":                "#171717",    // Inactive tab background
-    "tab.border":                            "#171717",    // Tab border
+    "tab.inactiveBackground":                "#17181a",    // Inactive tab background
+    "tab.border":                            "#17181a",    // Tab border
     "tab.activeBorder":                      "#101010",    // Active tab border
 
     // --- -- - Breadcrumb second-Header
@@ -150,7 +150,7 @@
     "chat.avatarForeground":                 "#ffffff",    // Chat avatar text color
     "foreground":                            "#ffffff",    // General text color
     
-    "input.border":                          "#171717",    // Input border color
+    "input.border":                          "#17181a",    // Input border color
     // "chat.requestBorder":                 "#13ff3e",    // Chat request border
     // "chat.avatarForeground":              "#5fc05c",    // Chat avatar foreground alt
     // --- future here AI
@@ -171,7 +171,7 @@
     "keybindingLabel.bottomBorder":          "#000000",    // Keybinding label bottom border
 
     // --- -- - Panel Terminal & Text BOTTOM
-    "panel.background":                      "#171717",    // Panel background
+    "panel.background":                      "#17181a",    // Panel background
     "panel.border":                          "#58585860",  // Panel border
     "panelTitle.activeBorder":               "#5fc05c",    // Active panel title border
     "panelTitle.activeForeground":           "#ffffff",    // Active panel title text
@@ -212,7 +212,7 @@
     // "debugToolBar.border":                "#131313",    // Border debug optional
 
     // TODO:Status Bar MARK: - [BOTTOM]
-    "statusBar.background":                  "#171717",    // Status bar background
+    "statusBar.background":                  "#17181a",    // Status bar background
     "statusBar.foreground":                  "#616161",    // Status bar text color
     "statusBar.border":                      "#42414160",  // Status bar line border
     "statusBarItem.hoverBackground":         "#54545420",  // Status bar item hover background
