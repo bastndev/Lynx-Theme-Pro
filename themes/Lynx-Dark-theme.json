@@ -50,7 +50,7 @@
 
     // --- -- - Side Bar
     "sideBar.background":                    "#17181a",    // Ai and Side bar background
-    "sideBar.foreground":                    "#616161",    // Text vscode all
+    "sideBar.foreground":                    "#a2a9b5d5",  // Text vscode all
     "sideBar.border":                        "#17181a",    // Line right and left
     "sideBarSectionHeader.background":       "#101010",    // LINE bg
     "sideBarSectionHeader.border":           "#17181a",    // Line top
