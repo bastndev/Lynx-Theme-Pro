@@ -40,6 +40,7 @@
     "activityBarBadge.foreground":           "#000000",    // Badge text
     "activityBarTop.foreground":             "#e1e1e1",    // Select icon
     "activityBarTop.inactiveForeground":     "#605f5f",    // No selection icon
+    "list.warningForeground":                "#9c6f1c",    // Warning text color
 
     // --- -- - Menu hover - click & select = RIGHT
     "list.activeSelectionBackground":        "#13ff3e35",  // Active background
