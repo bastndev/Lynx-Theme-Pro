@@ -321,7 +321,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#ffcb6b"
+        "foreground": "#ef952b" // here change
       }
     },
     {
@@ -406,7 +406,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#ef952b"
       }
     },
     {
