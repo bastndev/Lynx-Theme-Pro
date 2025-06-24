@@ -7,9 +7,9 @@
 
   "colors": {
     // TODO: Menu Status Bar MARK: - [TOP]
-    "titleBar.activeBackground":             "#050505",    // Background
+    "titleBar.activeBackground":             "#17181a",    // Background
     "titleBar.activeForeground":             "#d0d0d0",    // TOP text 1
-    "titleBar.border":                       "#050505",    // LINE
+    "titleBar.border":                       "#17181a",    // LINE
     "titleBar.inactiveBackground":           "#101010",    // Inactive window title
     "titleBar.inactiveForeground":           "#616161",    // Inactive title text
     "commandCenter.background":              "#101010",    // Background top box mid
@@ -29,17 +29,18 @@
     "list.hoverBackground":                  "#00000098",  // Hover background
     "list.hoverForeground":                  "#cccccc",    // Text select
     "list.dropBackground":                   "#000000",    // Drop background
-    "tree.indentGuidesStroke":               "#88ff004d",  // Tree guide lines
-
+    
     // TODO: Activity Bar MARK: [ONE-1]
-    "activityBar.background":                "#050505",    // Activity bar background
+    "activityBar.background":                "#17181a",    // Activity bar background
     "activityBar.foreground":                "#eeffff",    // Activity bar text
-    "activityBar.border":                    "#050505",    // Activity bar border
+    "activityBar.border":                    "#17181a",    // Activity bar border
     "activityBar.activeBorder":              "#5fc05c",    // Active item border
-    "activityBarBadge.background":           "#5fc05c",    // Badge background
+    "activityBarBadge.background":           "#5db687",    // Badge background
     "activityBarBadge.foreground":           "#000000",    // Badge text
     "activityBarTop.foreground":             "#e1e1e1",    // Select icon
     "activityBarTop.inactiveForeground":     "#605f5f",    // No selection icon
+    "list.warningForeground":                "#9c6f1c",    // Warning text color
+    "tree.indentGuidesStroke":               "#5db68748",  // Line guide Folder
 
     // --- -- - Menu hover - click & select = RIGHT
     "list.activeSelectionBackground":        "#13ff3e35",  // Active background
@@ -48,11 +49,11 @@
     "list.inactiveSelectionBackground":      "#000000",    // Inactive background
 
     // --- -- - Side Bar
-    "sideBar.background":                    "#050505",    // Ai and Side bar background
-    "sideBar.foreground":                    "#616161",    // Text vscode all
-    "sideBar.border":                        "#050505",    // Line right and left
+    "sideBar.background":                    "#17181a",    // Ai and Side bar background
+    "sideBar.foreground":                    "#a2a9b5d5",  // Text vscode all
+    "sideBar.border":                        "#17181a",    // Line right and left
     "sideBarSectionHeader.background":       "#101010",    // LINE bg
-    "sideBarSectionHeader.border":           "#050505",    // Line top
+    "sideBarSectionHeader.border":           "#17181a",    // Line top
     "sideBarTitle.foreground":               "#ffffff",    // Explorer
     "sideBarSectionHeader.foreground":       "#bcbcbc",    // Css text and BOT txt
 
@@ -79,7 +80,7 @@
     "editorGhostText.foreground":                    "#717171",    // git commit txt
 
     // TODO: EDITOR CODE MARK: [TWO-2]
-    "editor.background":                     "#050505",    // Editor background
+    "editor.background":                     "#17181a",    // Editor background
     "editor.foreground":                     "#eeffff",    // Editor [STORE ]text
     "editor.findMatchBackground":            "#000000",    // Find match background
     "editor.findMatchBorder":                "#c07c5c",    // Find match border
@@ -93,15 +94,15 @@
     "editor.selectionHighlightBackground":   "#ffcc0020",  // Selection highlight background
     "editor.wordHighlightBackground":        "#ff9cac30",  // Word highlight background
     "editor.wordHighlightStrongBackground":  "#c3e88d30",  // Word highlight strong background
-    "editorOverviewRuler.border":            "#050505",    // Overview ruler border
+    "editorOverviewRuler.border":            "#17181a",    // Overview ruler border
 
     // --- -- - Tabs Header - TOP
-    "editorGroupHeader.tabsBackground":      "#050505",    // Tabs header background
+    "editorGroupHeader.tabsBackground":      "#17181a",    // Tabs header background
     "tab.activeBackground":                  "#101010",    // bg select second line
     "tab.hoverBackground":                   "#1f2220",    // hover
     "tab.activeForeground":                  "#ffffff",    // Active tab text
-    "tab.inactiveBackground":                "#050505",    // Inactive tab background
-    "tab.border":                            "#050505",    // Tab border
+    "tab.inactiveBackground":                "#17181a",    // Inactive tab background
+    "tab.border":                            "#17181a",    // Tab border
     "tab.activeBorder":                      "#101010",    // Active tab border
 
     // --- -- - Breadcrumb second-Header
@@ -150,8 +151,8 @@
     "chat.avatarForeground":                 "#ffffff",    // Chat avatar text color
     "foreground":                            "#ffffff",    // General text color
     
-    "input.border":                          "#050505",    // Input border color
-    // "chat.requestBorder":                 "#13ff3e",    // Chat request border
+    "input.border":                          "#17181a",    // Input border color
+    "chat.requestBorder":                    "#343639",    // Chat request border
     // "chat.avatarForeground":              "#5fc05c",    // Chat avatar foreground alt
     // --- future here AI
     // - 
@@ -171,7 +172,7 @@
     "keybindingLabel.bottomBorder":          "#000000",    // Keybinding label bottom border
 
     // --- -- - Panel Terminal & Text BOTTOM
-    "panel.background":                      "#050505",    // Panel background
+    "panel.background":                      "#17181a",    // Panel background
     "panel.border":                          "#58585860",  // Panel border
     "panelTitle.activeBorder":               "#5fc05c",    // Active panel title border
     "panelTitle.activeForeground":           "#ffffff",    // Active panel title text
@@ -212,7 +213,7 @@
     // "debugToolBar.border":                "#131313",    // Border debug optional
 
     // TODO:Status Bar MARK: - [BOTTOM]
-    "statusBar.background":                  "#050505",    // Status bar background
+    "statusBar.background":                  "#17181a",    // Status bar background
     "statusBar.foreground":                  "#616161",    // Status bar text color
     "statusBar.border":                      "#42414160",  // Status bar line border
     "statusBarItem.hoverBackground":         "#54545420",  // Status bar item hover background
@@ -222,7 +223,7 @@
     "statusBar.noFolderBackground":          "#101010",    // Status bar no folder background
     "statusBarItem.activeBackground":        "#f0717880",  // Status bar active item background
     
-    "statusBarItem.remoteBackground":        "#5fc05c",    // Remote corner background
+    "statusBarItem.remoteBackground":        "#5db687",    // Remote corner background
     "statusBarItem.remoteHoverForeground":   "#313131",    // Hover corner logo
     "statusBarItem.remoteForeground":        "#000000",    // Remote corner logo
     "statusBarItem.prominentBackground":     "#000000",    // Bottom box background
@@ -251,7 +252,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic bold",
-        "foreground": "#69727e"
+        "foreground": "#818181"
       }
     },
     {
@@ -321,7 +322,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#ffcb6b"
+        "foreground": "#ef952b"
       }
     },
     {
@@ -332,7 +333,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#f94b70"
+        "foreground": "#e43279"
       }
     },
     {
@@ -390,7 +391,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#00ff88"
+        "foreground": "#048b6b"
       }
     },
     {
@@ -406,7 +407,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#ef952b"
       }
     },
     {
@@ -568,7 +569,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#f5953c"
       }
     },
     {
@@ -577,7 +578,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#C792EA"
       }
     },
     {
@@ -586,7 +587,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#6cbff7"
       }
     },
     {
@@ -650,7 +651,7 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#ffffffea"
       }
     },
     {

@@ -29,7 +29,6 @@
     "list.hoverBackground":                 "#c6c6c6",    // Hover background
     "list.hoverForeground":                 "#1d1d1d",    // Text select
     "list.dropBackground":                  "#000000",    // Drop background
-    "tree.indentGuidesStroke":              "#88ff004d",  // Tree guide lines
 
     // TODO: Activity Bar MARK: [ONE-1]
     "activityBar.background":               "#ebe3a8",    // Activity bar background
@@ -40,6 +39,8 @@
     "activityBarBadge.foreground":          "#fcffd5",    // Badge text
     "activityBarTop.foreground":            "#000000",    // Select icon
     "activityBarTop.inactiveForeground":    "#605f5f",    // No selection icon
+    "list.warningForeground":               "#9c6f1c",    // Warning text color
+    "tree.indentGuidesStroke":              "#5abf63",    // Line guide Folder
 
     // --- Menu hover - click & select = RIGHT
     "list.activeSelectionBackground":       "#fcffd5",    // Active background
@@ -574,7 +575,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#fa6a27"
       }
     },
     {
@@ -583,7 +584,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#fa6a27"
+        "foreground": "#dc71d3"
       }
     },
     {
@@ -592,7 +593,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#1aacd8"
       }
     },
     {
@@ -663,7 +664,7 @@
       "name": "Markdown - Markup Raw Inline",
       "scope": ["text.html.markdown markup.inline.raw.markdown"],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#6cbff7"
       }
     },
     {
