@@ -152,7 +152,7 @@
     "foreground":                            "#ffffff",    // General text color
     
     "input.border":                          "#17181a",    // Input border color
-    // "chat.requestBorder":                 "#13ff3e",    // Chat request border
+    "chat.requestBorder":                    "#343639",    // Chat request border
     // "chat.avatarForeground":              "#5fc05c",    // Chat avatar foreground alt
     // --- future here AI
     // - 
