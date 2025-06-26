@@ -41,12 +41,13 @@
     "activityBarTop.inactiveForeground":     "#605f5f",    // No selection icon
     "list.warningForeground":                "#9c6f1c",    // Warning text color
     "tree.indentGuidesStroke":               "#5db68748",  // Line guide Folder
-
+    
     // --- -- - Menu hover - click & select = RIGHT
     "list.activeSelectionBackground":        "#13ff3e35",  // Active background
     "list.activeSelectionForeground":        "#ffffff",    // Active text color
     "list.inactiveSelectionForeground":      "#ffffff",    // Inactive text color
     "list.inactiveSelectionBackground":      "#000000",    // Inactive background
+    "contrastActiveBorder":                  "#ffffff5a",  // contrast active border
 
     // --- -- - Side Bar
     "sideBar.background":                    "#0d0d0d",    // Ai and Side bar background
