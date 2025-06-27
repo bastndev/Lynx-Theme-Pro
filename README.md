@@ -1,4 +1,10 @@
-[![Screenshot](https://raw.githubusercontent.com/bastndev/Lynx-Theme/refs/heads/main/assets/images/LynxTheme.png)](https://github.com/bastndev/Lynx-Theme)
+<div align="center">
+  <a href="https://dev.to/bastndev"><img src="assets/svg/left.svg" width="11.5%" alt="Dev.to"></a>
+  <a href="https://codepen.io/bastndev"><img src="assets/svg/mid.svg" width="65%" alt="CodePen"></a>
+  <a href="https://dev.to/bastndev"><img src="assets/svg/right.svg" width="12%" alt="Dev.to"></a>
+</div>
+
+</br>
 
 <p align="center">
     <a href="https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-theme"><img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=FFF4C1&colorB=00933b&label=VERSION" alt="Version"></a>&nbsp;
