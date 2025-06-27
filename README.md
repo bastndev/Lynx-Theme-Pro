@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://dev.to/bastndev"><img src="assets/svg/left.svg" width="11.5%" alt="Dev.to"></a>
-  <a href="https://codepen.io/bastndev"><img src="assets/svg/mid.svg" width="65%" alt="CodePen"></a>
+  <a href="https://codepen.io/bastndev"><img src="assets/images/on2.png" width="65%" alt="CodePen"></a>
   <a href="https://dev.to/bastndev"><img src="assets/svg/right.svg" width="12%" alt="Dev.to"></a>
 </div>
 
