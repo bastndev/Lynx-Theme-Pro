@@ -1,5 +1,7 @@
 <div align="center">
-  <a href="https://github.com/bastndev/Lynx-Theme"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme/refs/heads/main/assets/images/banner.png" width="100%" alt="CodePen"></a>
+  <a href="https://github.com/bastndev/Lynx-Theme"><img src="assets/svg/left.svg" width="14%" alt="Dev.to"></a>
+  <a href="https://github.com/bastndev/Lynx-Theme"><img src="assets/images/on1.png" width="70%" alt="CodePen"></a>
+  <a href="https://github.com/bastndev/Lynx-Theme"><img src="assets/svg/right.svg" width="14%" alt="Dev.to"></a>
 </div>
 
 </br>
