@@ -47,6 +47,7 @@
     "list.activeSelectionForeground":        "#000000",      // Active text color
     "list.inactiveSelectionForeground":      "#000000",      // Inactive text color
     "list.inactiveSelectionBackground":      "#ffffff",      // Inactive background
+    "contrastActiveBorder":                  "#000000",    // contrast active border
 
     // --- -- - Side Bar
     "sideBar.background":                    "#eaeaea",      // Ai and Side bar background

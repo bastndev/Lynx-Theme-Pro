@@ -4,6 +4,10 @@
   <a href="https://github.com/bastndev/Lynx-Theme"><img src="assets/svg/right.svg" width="14%" alt="Dev.to"></a>
 </div>
 
+<!-- <div align="center">
+  <a href="https://github.com/bastndev/Lynx-Theme"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme/refs/heads/main/assets/images/banner.png" width="100%" alt="CodePen"></a>
+</div> -->
+
 </br>
 
 <p align="center">
