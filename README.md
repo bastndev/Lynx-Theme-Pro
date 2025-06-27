@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/bastndev/Lynx-Theme"><img src="assets/images/banner.png" width="100%" alt="CodePen"></a>
+  <a href="https://github.com/bastndev/Lynx-Theme"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme/refs/heads/main/assets/images/banner.png" width="100%" alt="CodePen"></a>
 </div>
 
 </br>
