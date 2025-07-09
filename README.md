@@ -37,17 +37,17 @@ Here is the project link if you want to collaborate: [[>\_ ] code](https://githu
 
 ## About Me
 
-- 🐦 [X](https://twitter.com/bastndev) - For questions and discussions.
-- 💬 [Discord](https://discord.com/invite/bgzvzP6aZH) - For community interaction.
-- ▶️ [Youtube](https://www.youtube.com/@bastndev) - For content about Lynx and programming.
+- [🐦 X](https://twitter.com/bastndev) - For questions and discussions.
+- 🔴 [Youtube](https://www.youtube.com/@bastndev?sub_confirmation=1) - Code, Software and development insights.
+- 💼 [Linkedin](https://www.linkedin.com/in/bastndev) - Professional networking and career updates.
 
 </br>
 
-| Icon                                                                                                                                                                                                                                 | Name                                                                  | Description                                                                                                                                     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-js-snippets/0.2.0/1745166683713/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-js-snippets) | [Lynx-js Snippets .tsx](https://github.com/bastndev/Lynx-js-Snippets) | A powerful collection of Lynx.js snippets (for TypeScript & React) that speeds up common coding patterns.                                       |
-| [![](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/bracket-lynx/0.2.0/1748219628473/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.bracket-lynx)         | [Bracket-Lynx](https://github.com/bastndev/Bracket-Lynx)              | A modern, feature-rich toolkit for VS Code, designed to enhance productivity with advanced integrations and customization options.              |
-| [![](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynxjs-pack/0.1.8/1745206864969/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynxjs-pack)           | [LynxJS Pack](https://github.com/bastndev/LynxJs-Packge)              | An all‑in‑one toolkit for LynxJS mobile/web development—bundles keymap, snippets & AI tools like Cursor AI, Windsurf, Trae AI, Firebase Studio. |
+| Icon | Name | Description |
+| :--: | :--: | ----------- |
+| [![](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-js-snippets/0.2.0/1745166683713/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-js-snippets) | [Lynx-js Snippets .tsx](https://github.com/bastndev/Lynx-js-Snippets) | A powerful collection of Lynx.js snippets (for TypeScript & React) that speeds up common coding patterns. |
+| [![](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/bracket-lynx/0.2.0/1748219628473/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.bracket-lynx) | [Bracket-Lynx](https://github.com/bastndev/Bracket-Lynx) | A modern, feature-rich toolkit for VS Code, designed to enhance productivity with advanced integrations and customization options. |
+| [![](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynxjs-pack/0.1.8/1745206864969/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynxjs-pack) | [LynxJS Pack](https://github.com/bastndev/LynxJs-Packge) | An all‑in‑one toolkit for LynxJS mobile/web development—bundles keymap, snippets & AI tools like Cursor AI, Windsurf, Trae AI, Firebase Studio. |
 
 **Enjoy 🎉 your new keybindings! Suggestions or feedback? [Open an issue](https://github.com/bastndev/Lynx-Theme/issues) or contribute.  
 [MORE](https://marketplace.visualstudio.com/publishers/bastndev)**
