@@ -35,7 +35,7 @@
     "activityBar.foreground":               "#111",       // Activity bar text
     "activityBar.border":                   "#efe8d6",    // Activity bar border
     "activityBar.activeBorder":             "#5fc05c",    // Active item border
-    "activityBarBadge.background":          "#5fc05c",    // Badge background
+    "activityBarBadge.background":          "#166925",    // Badge background
     "activityBarBadge.foreground":          "#dad2c3",    // Badge text
     "activityBarTop.foreground":            "#000000",    // Select icon
     "activityBarTop.inactiveForeground":    "#605f5f",    // No selection icon
@@ -72,7 +72,7 @@
     "gitDecoration.conflictingResourceForeground":   "#00a1fe90",  // Merge conflict
     "gitDecoration.deletedResourceForeground":       "#f07177f5",  // Deleted file
     "gitDecoration.ignoredResourceForeground":       "#61616190",  // Ignored file
-    "gitDecoration.untrackedResourceForeground":     "#21f21a",    // Untracked file
+    "gitDecoration.untrackedResourceForeground":     "#0c9407",    // Untracked file
     "gitDecoration.stageModifiedResourceForeground": "#ff3300",    // Staged modified
     "gitDecoration.stageDeletedResourceForeground":  "#ff3300",    // Staged deleted
     "gitDecoration.submoduleResourceForeground":     "#ff3300",    // Submodule
