@@ -140,7 +140,7 @@
     // "diffEditor.insertedTextBackground":  "#18d87f14",
     // "diffEditor.removedTextBackground":   "#ff9cad00",
 
-    // TODO: AI - copilot -AI MARK: [THREE-3]
+    // TODO: copilot -AI MARK: [THREE-3-AI]
     "input.background":                      "#101010",    // bg color
     "focusBorder":                           "#101010",    // Border - AI and box 1
     "editorCursor.foreground":               "#8c8c8c",    // Line point
