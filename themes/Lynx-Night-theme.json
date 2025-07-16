@@ -128,10 +128,10 @@
     "widget.border":                         "#2a2e33",    // General widget border
     "widget.shadow":                         "#00000050",  // Widget shadow
 
-    // TODO: Input Controls MARK: [THREE-3]
-    "input.background":                      "#192124",    // Input background
-    "input.foreground":                      "#c9d1d9",    // Input text color
-    "input.border":                          "#2a2e33",    // Input border color
+    // TODO: Input Controls MARK: [THREE-3-AI]
+    "input.background":                      "#13191c",    // Input background
+    "input.foreground":                      "#ffffff",    // Input text color
+    "input.border":                          "#192124",    // Input border color
     "input.placeholderForeground":           "#6b7280",    // Input placeholder text
     "focusBorder":                           "#6b8fa3",    // Focus border
     "editorCursor.foreground":               "#6b8fa3",    // Cursor color

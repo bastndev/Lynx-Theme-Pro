@@ -142,9 +142,13 @@
 
     // TODO: copilot -AI MARK: [THREE-3-AI]
     "input.background":                      "#080808",    // bg color
+    "input.foreground":                      "#ffffff",    // Input text color
+    "input.border":                          "#141414",    // Input border color
+    "input.placeholderForeground":           "#6b7280",    // Input placeholder text
     "focusBorder":                           "#080808",    // Border - AI and box 1
     "editorCursor.foreground":               "#8c8c8c",    // Line point
-    "input.foreground":                      "#ffffff",    // Input text color
+
+    
     "disabledForeground":                    "#8c8c8c",    // Disabled text color
     "chat.avatarBackground":                 "#000000",    // Chat avatar background
 
@@ -152,7 +156,6 @@
     "chat.avatarForeground":                 "#ffffff",    // Chat avatar text color
     "foreground":                            "#ffffff",    // General text color
     
-    "input.border":                          "#0d0d0d",    // Input border color
     "chat.requestBorder":                    "#343639",    // Chat request border
     // "chat.avatarForeground":              "#5fc05c",    // Chat avatar foreground alt
     // --- future here AI
@@ -160,7 +163,7 @@
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
-    "progressBar.background":                "#13ff3e",    // Progress bar background
+    "progressBar.background":                "#e64b1b",    // Progress bar background
     
     //ctrl+shift+p | Inputs
     "editorWidget.background":               "#080808",    // Background
