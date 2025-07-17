@@ -250,8 +250,8 @@
     "statusBar.background":                  "#192124",    // Status bar background
     "statusBar.foreground":                  "#c9d1d9",    // Status bar text color
     "statusBar.border":                      "#192124",    // Status bar border
-    "statusBar.debuggingBackground":         "#F39C12",    // Status bar debugging background
-    "statusBar.debuggingForeground":         "#192124",    // Status bar debugging text
+    "statusBar.debuggingBackground":         "#080808",    // Status bar debugging background
+    "statusBar.debuggingForeground":         "#ffffff",    // Status bar debugging text
     "statusBar.noFolderBackground":          "#192124",    // Status bar no folder background
     "statusBar.noFolderForeground":          "#c9d1d9",    // Status bar no folder text
     "statusBarItem.hoverBackground":         "#3a4a55",    // Status bar item hover background
