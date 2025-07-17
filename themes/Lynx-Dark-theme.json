@@ -142,9 +142,9 @@
     "editorSuggestWidget.selectedBackground":"#49d75963",  // Selected suggestion background
     "editorHoverWidget.background":          "#080808",    // bg check information
 
-    // --- -- - Editor Widgets - MID
+    // --- -- - Editor Widgets - MID + AI
     "editorWidget.resizeBorder":             "#5c6bc0",    // Widget resize border
-    "editorWidget.border":                   "#13ff3e",    // Widget border
+    "editorWidget.border":                   "#57b689",    // Widget border +AI
     "widget.border":                         "#2a2e33",    // General widget border
     "widget.shadow":                         "#00000050",  // Widget shadow
 
