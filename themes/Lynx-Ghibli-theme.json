@@ -61,9 +61,9 @@
     "sideBarSectionHeader.foreground":       "#0d692a",    // Css text and BOT txt
 
     // --- -- - Buttons
-    "button.background":                     "#5fc05c",    // Button background
+    "button.background":                     "#479671",    // Button background
     "button.foreground":                     "#000000",    // Button text
-    "button.hoverBackground":                "#479671",    // Button hover
+    "button.hoverBackground":                "#5fc05c",    // Button hover
     "toolbar.hoverBackground":               "#c6c6c6",    // button hover background
 
     // --- -- - Editor hover widget
@@ -171,7 +171,7 @@
     "editorWidget.foreground":               "#000000",    // AI Select text & ctrl+p
 
     "peekViewTitleDescription.foreground":   "#038c43",    // Select copilot
-    "editorGutter.addedBackground":          "#18d87f",    // Added lines background
+    "editorGutter.addedBackground":          "#ffffff",    // Added lines background
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
