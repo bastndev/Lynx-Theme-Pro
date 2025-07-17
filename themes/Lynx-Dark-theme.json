@@ -221,19 +221,19 @@
     "terminalCursor.foreground":             "#ffcb6b",    // Terminal cursor foreground
     "terminal.selectionBackground":          "#0567f1",    // Terminal selection background
 
-    // --- -- - Notifications
-    "notifications.background":              "#080808",    // Notification background
+// --- -- - Notifications
+    "notifications.background":              "#000000",    // Notification background
     "notifications.foreground":              "#eeffff",    // Notification text
     "notifications.border":                  "#2a2e33",    // Notification border
     "notificationCenter.border":             "#2a2e33",    // Notification center border
     "notificationCenterHeader.background":   "#192124",    // Notification center header background
     "notificationCenterHeader.foreground":   "#4ECDC4",    // Notification center header text
     "notificationToast.border":              "#2a2e33",    // Notification toast border
-    "notificationsErrorIcon.foreground":     "#c78a7a",    // Error notification icon
-    "notificationsWarningIcon.foreground":   "#F39C12",    // Warning notification icon
-    "notificationsInfoIcon.foreground":      "#4ECDC4",    // Info notification icon
-    "notificationLink.foreground":           "#5fc05c",    // Notification link color
-
+    "notificationsErrorIcon.foreground":     "#ff4757",    // Error notification icon 
+    "notificationsWarningIcon.foreground":   "#ffa502",    // Warning notification icon 
+    "notificationsInfoIcon.foreground":      "#1b73e8",    // Info notification icon 
+    "notificationLink.foreground":           "#2ed573",    // Notification link color
+    
     // --- -- - Market place VScode txt color
     "textPreformat.foreground":              "#ffd45f",    // Preformatted text
     "textLink.foreground":                   "#13ff3e",    // Link text color
