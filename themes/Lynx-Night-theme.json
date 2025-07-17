@@ -125,9 +125,9 @@
     "editorStickyScrollHover.background":    "#000000",    // Select hover before white now black
 
     // --- -- - Scrollbar - RIGHT
-    "scrollbarSlider.background":            "#2a354040",  // Scroll bar small and large
-    "scrollbarSlider.hoverBackground":       "#2a354060",  // Hover background
-    "scrollbarSlider.activeBackground":      "#2a354080",  // Active background
+    "scrollbarSlider.background":            "#678fa240",  // Scroll bar small and large
+    "scrollbarSlider.hoverBackground":       "#79a5b960",  // Hover background
+    "scrollbarSlider.activeBackground":      "#70a09650",  // Active background
     "scrollbar.shadow":                      "#00000050",  // Shadow
 
     // --- -- - Editor Line Number - LEFT
