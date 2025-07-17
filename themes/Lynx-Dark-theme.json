@@ -250,7 +250,7 @@
     "statusBar.background":                  "#0d0d0d",    // Status bar background
     "statusBar.foreground":                  "#616161",    // Status bar text color
     "statusBar.border":                      "#42414160",  // Status bar line border
-    "statusBar.debuggingBackground":         "#0d0d0d",    // Status bar debugging background
+    "statusBar.debuggingBackground":         "#000000",    // Status bar debugging background
     "statusBar.debuggingForeground":         "#ffffff",    // Status bar debugging text
     "statusBar.noFolderBackground":          "#080808",    // Status bar no folder background
     "statusBar.noFolderForeground":          "#616161",    // Status bar no folder text
