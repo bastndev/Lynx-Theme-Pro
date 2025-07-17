@@ -244,7 +244,7 @@
     "dropdown.border":                       "#232323",    // Dropdown border
     "dropdown.listBackground":               "#192124",    // Dropdown list background
     "debugToolBar.background":               "#080808",    // Debug toolbar background
-    // "debugToolBar.border":                "#131313",    // Border debug optional
+    "debugToolBar.border":                   "#212122",    // Border debug optional
 
     // TODO:Status Bar MARK: - [BOTTOM]
     "statusBar.background":                  "#0d0d0d",    // Status bar background
