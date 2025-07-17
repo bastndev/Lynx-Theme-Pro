@@ -12,7 +12,7 @@
     "titleBar.border":                       "#192124",    // LINE
     "titleBar.inactiveBackground":           "#192124",    // Inactive window title
     "titleBar.inactiveForeground":           "#6b7280",    // Inactive title text
-    "commandCenter.background":              "#080808",    // Background top box mid
+    "commandCenter.background":              "#12191c",    // Background top box mid
 
     // --- -- - Menu Click & select  
     "menu.background":                       "#192124",    // Menu background
