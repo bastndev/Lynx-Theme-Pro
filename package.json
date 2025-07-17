@@ -55,7 +55,6 @@
   },
   "contributes": {
     "themes": [
-
       {
         "label": "GHIBLI - (Lynx theme)",
         "uiTheme": "vs",

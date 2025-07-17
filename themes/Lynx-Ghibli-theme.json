@@ -145,7 +145,7 @@
     // --- -- - Editor Widgets - MID + AI
     "editorWidget.resizeBorder":             "#5c6bc0",    // Widget resize border
     "editorWidget.border":                   "#13ff3e",    // Widget border +AI
-    "widget.border":                         "#13ff3e",    // General widget border
+    "widget.border":                         "#cccccc",    // General widget border
     "widget.shadow":                         "#00000050",  // Widget shadow
 
     // --- -- - Editor Diff git
