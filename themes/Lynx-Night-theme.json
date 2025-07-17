@@ -73,14 +73,14 @@
     "editorHoverWidget.statusBarBackground": "#282828",    // Hover widget status bar bg
 
     //--- -- - GIT Decoration
-    "gitDecoration.modifiedResourceForeground":      "#F39C12",    // Modified files
-    "gitDecoration.conflictingResourceForeground":   "#c78a7a",    // Merge conflicts
-    "gitDecoration.deletedResourceForeground":       "#c78a7a",    // Deleted files
-    "gitDecoration.ignoredResourceForeground":       "#4a5568",    // Ignored files
-    "gitDecoration.untrackedResourceForeground":     "#8FBC8F",    // Untracked files
-    "gitDecoration.stageModifiedResourceForeground": "#F39C12",    // Staged modified files
-    "gitDecoration.stageDeletedResourceForeground":  "#c78a7a",    // Staged deleted files
-    "gitDecoration.submoduleResourceForeground":     "#4ECDC4",    // Submodules
+    "gitDecoration.modifiedResourceForeground":      "#66be8b",    // Modified files
+    "gitDecoration.conflictingResourceForeground":   "#00a1fe90",  // Merge conflicts
+    "gitDecoration.deletedResourceForeground":       "#f07177f5",  // Deleted files
+    "gitDecoration.ignoredResourceForeground":       "#61616190",  // Ignored files
+    "gitDecoration.untrackedResourceForeground":     "#21f21a",    // Untracked files
+    "gitDecoration.stageModifiedResourceForeground": "#ffcb6b",    // Staged modified files
+    "gitDecoration.stageDeletedResourceForeground":  "#ffcb6b",    // Staged deleted files
+    "gitDecoration.submoduleResourceForeground":     "#ffcb6b",    // Submodules
     "gitDecoration.renamedResourceForeground":       "#ffee6b",    // Renamed files
     "gitDecoration.addedResourceForeground":         "#ffee6b",    // Added files
     "editorGhostText.foreground":                    "#717171",    // git commit txt
