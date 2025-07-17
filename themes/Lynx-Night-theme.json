@@ -101,7 +101,6 @@
     "editor.wordHighlightStrongBackground":  "#4ECDC430",  // Word highlight strong background
     "editorOverviewRuler.border":            "#0d0d0d",    // Overview ruler border
     "editor.selectionHighlightBackground":   "#ffcc0020",  // Selection highlight background
-    // "editorWhitespace.foreground":           "#384142",    // point and lines
 
     // --- -- - Tabs Header - TOP
     "editorGroupHeader.tabsBackground":      "#192124",    // Tabs header background
@@ -152,8 +151,8 @@
     "widget.shadow":                         "#00000050",  // Widget shadow
 
     // --- -- - Editor Diff git
-    // "diffEditor.insertedTextBackground":  "#18d87f14",
-    // "diffEditor.removedTextBackground":   "#ff9cad00",
+    "diffEditor.insertedTextBackground":  "#00b7ff63",
+    "diffEditor.removedTextBackground":   "#ff00552c",
 
     // TODO: Input Controls MARK: [THREE-3-AI]
     "input.background":                      "#13191c",    // Input background

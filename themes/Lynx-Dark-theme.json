@@ -65,9 +65,10 @@
     "button.foreground":                     "#000000",    // Button text
     "button.hoverBackground":                "#8e4ec6",    // Button hover
     "button.border":                         "#9B59B6",    // Button border
+    "toolbar.hoverBackground":               "#ffffff4b",    // button hover background
 
     // --- -- - Editor hover widget
-    "editorHoverWidget.border":              "#13ff3e",    // Hover widget border
+    "editorHoverWidget.border":              "#000000",    // Hover widget border
     "editorHoverWidget.foreground":          "#eeffff",    // Hover widget text
     "editorHoverWidget.statusBarBackground": "#282828",    // Hover widget status bar bg
 
@@ -150,8 +151,8 @@
     "widget.shadow":                         "#00000050",  // Widget shadow
 
     // --- -- - Editor Diff git
-    // "diffEditor.insertedTextBackground":  "#18d87f14",
-    // "diffEditor.removedTextBackground":   "#ff9cad00",
+    "diffEditor.insertedTextBackground":  "#00b7ff63",
+    "diffEditor.removedTextBackground":   "#ff00552c",
 
     // TODO: copilot -AI MARK: [THREE-3-AI]
     "input.background":                      "#080808",    // bg color
@@ -169,13 +170,12 @@
     "foreground":                            "#ffffff",    // General text color
     
     "chat.requestBorder":                    "#343639",    // Chat request border
-    // "chat.avatarForeground":              "#5fc05c",    // Chat avatar foreground alt
-    // --- future here AI
-    // - 
+    "editorWidget.foreground":               "#e9e9e9",    // AI Select text & ctrl+p
+    "peekViewTitleDescription.foreground":   "#13ff3e",    // Select copilot
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
-    "progressBar.background":                "#9B59B6",    // Progress bar background
+    "progressBar.background":                "#13ff3e",    // Progress bar background
     
     //ctrl+shift+p | Inputs
     "editorWidget.background":               "#080808",    // Background
@@ -267,6 +267,9 @@
     "textBlockQuote.border":                 "#232323",    // Block quote border LEFT
     "textCodeBlock.background":              "#000000",    // Code block background 
 
+    // ---- -- - Selection BG
+    "selection.background":                  "#19573a",    // selection background
+
     // --- -- - BG message error
     "inputValidation.errorBackground":       "#000000",    // Error message background
     "inputValidation.errorForeground":       "#ff6666",    // Error message text
@@ -282,8 +285,8 @@
     "editorBracketHighlight.unexpectedBracket.foreground": "#c78a7a", // Unexpected bracket color
     "editorBracketMatch.background":         "#3a4a5540",  // Bracket match background
     "editorBracketMatch.border":             "#6b8fa3",    // Bracket match border
-
   },
+
   "tokenColors": [
     {
       "name": "Comment",
