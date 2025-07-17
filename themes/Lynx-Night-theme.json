@@ -34,7 +34,7 @@
     "activityBar.background":                "#192124",    // Activity bar background
     "activityBar.foreground":                "#c9d1d9",    // Activity bar text
     "activityBar.border":                    "#192124",    // Activity bar border
-    "activityBar.inactiveForeground":        "#6b7280",    // No selection icon
+    "activityBarTop.inactiveForeground":     "#6b7280",    // No selection icon
     "activityBarBadge.background":           "#6b8fa3",    // Badge background
     "activityBarBadge.foreground":           "#ffffff",    // Badge text
     "activityBar.activeBorder":              "#5fc05c",    // Active item border
@@ -52,7 +52,7 @@
     "contrastActiveBorder":                  "#ffffff5a",  // contrast active border
 
     // --- -- - Side Bar
-    "sideBar.background":                    "#192124",    // Side bar background
+    "sideBar.background":                    "#192124",    // Ai and Side bar background
     "sideBar.foreground":                    "#c9d1d9",    // Text vscode all
     "sideBar.border":                        "#192124",    // LINE RIGHT & LEFT
     "sideBarSectionHeader.background":       "#12191c",    // LINE bg
@@ -86,7 +86,7 @@
 
     // TODO: EDITOR CODE MARK: [TWO-2]
     "editor.background":                     "#192124",    // Editor background
-    "editor.foreground":                     "#c9d1d9",    // Editor text
+    "editor.foreground":                     "#c9d1d9",    // Editor [STORE] text
     "editor.findMatchBackground":            "#9B59B630",  // Find match background
     "editor.findMatchBorder":                "#c07c5c",    // Find match border
     "editor.findMatchHighlightBackground":   "#9B59B620",  // Find match highlight background
@@ -152,7 +152,7 @@
     "diffEditor.insertedTextBackground":  "#00b7ff63",
     "diffEditor.removedTextBackground":   "#ff00552c",
 
-    // TODO: Input Controls MARK: [THREE-3-AI]
+    // TODO: copilot -AI MARK: [THREE-3-AI]
     "input.background":                      "#13191c",    // Input background
     "input.foreground":                      "#ffffff",    // Input text color
     "input.border":                          "#192124",    // Input border color

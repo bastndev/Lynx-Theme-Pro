@@ -54,7 +54,7 @@
     // --- -- - Side Bar
     "sideBar.background":                    "#0d0d0d",    // Ai and Side bar background
     "sideBar.foreground":                    "#a2a9b5d5",  // Text vscode all
-    "sideBar.border":                        "#141414",  // LINE RIGHT & LEFT
+    "sideBar.border":                        "#141414",    // LINE RIGHT & LEFT
     "sideBarSectionHeader.background":       "#080808",    // LINE bg
     "sideBarSectionHeader.border":           "#0d0d0d",    // Line top
     "sideBarTitle.foreground":               "#ffffff",    // Explorer
@@ -86,7 +86,7 @@
 
     // TODO: EDITOR CODE MARK: [TWO-2]
     "editor.background":                     "#0d0d0d",    // Editor background
-    "editor.foreground":                     "#eeffff",    // Editor [STORE ]text
+    "editor.foreground":                     "#eeffff",    // Editor [STORE] text
     "editor.findMatchBackground":            "#000000",    // Find match background
     "editor.findMatchBorder":                "#c07c5c",    // Find match border
     "editor.findMatchHighlightBackground":   "#00000050",  // Find match highlight background
@@ -138,9 +138,9 @@
     "editorSuggestWidget.background":         "#080808",    // bg suggestion
     "editorSuggestWidget.foreground":         "#eeffff",    // Suggestion widget text
     "editorSuggestWidget.border":             "#13ff3ec0",  // Suggestion widget border
-    "editorSuggestWidget.highlightForeground":"#5fc05c",   // Highlighted suggestion text
-    "editorSuggestWidget.selectedBackground":"#49d75963",  // Selected suggestion background
-    "editorHoverWidget.background":          "#080808",    // bg check information
+    "editorSuggestWidget.highlightForeground":"#5fc05c",    // Highlighted suggestion text
+    "editorSuggestWidget.selectedBackground" :"#49d75963",  // Selected suggestion background
+    "editorHoverWidget.background":           "#080808",    // bg check information
 
     // --- -- - Editor Widgets - MID + AI
     "editorWidget.resizeBorder":             "#5c6bc0",    // Widget resize border
@@ -282,9 +282,9 @@
     "editorBracketHighlight.foreground4":    "#ffd700",    // Bracket highlight color 4
     "editorBracketHighlight.foreground5":    "#fb3460",    // Bracket highlight color 5
     "editorBracketHighlight.foreground6":    "#07a5de",     // Bracket highlight color 6
-    "editorBracketHighlight.unexpectedBracket.foreground": "#c78a7a", // Unexpected bracket color
     "editorBracketMatch.background":         "#3a4a5540",  // Bracket match background
     "editorBracketMatch.border":             "#6b8fa3",    // Bracket match border    
+    "editorBracketHighlight.unexpectedBracket.foreground": "#c78a7a", // Unexpected bracket color
   },
 
   "tokenColors": [
