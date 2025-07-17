@@ -255,9 +255,9 @@
     "statusBarItem.hoverBackground":         "#54545420",  // Status bar item hover background
     "statusBarItem.hoverForeground":         "#5fc05c",    // Status bar item hover text
     "statusBarItem.activeBackground":        "#f0717880",  // Status bar active item background
-    "statusBarItem.remoteBackground":        "#5db687",    // Remote corner background
-    "statusBarItem.remoteForeground":        "#000000",    // Remote corner logo
-    "statusBarItem.remoteHoverForeground":   "#313131",    // Hover corner logo
+    "statusBarItem.remoteBackground":        "#0d0d0d",    // Remote corner background
+    "statusBarItem.remoteForeground":        "#57b689",    // Remote corner logo
+    "statusBarItem.remoteHoverForeground":   "#13ff3e",    // Hover corner logo
     "statusBarItem.prominentBackground":     "#000000",    // Bottom box background
 
     // TODO: -  BG store vscode MARK:[+]

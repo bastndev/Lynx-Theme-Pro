@@ -257,7 +257,7 @@
     "statusBarItem.activeBackground":        "#3a4a55",    // Status bar item active background
     "statusBarItem.remoteBackground":        "#192124",    // Remote status background
     "statusBarItem.remoteForeground":        "#4ECDC4",    // Remote status text
-    "statusBarItem.remoteHoverForeground":   "#313131",    // Hover corner logo
+    "statusBarItem.remoteHoverForeground":   "#05fff3",    // Hover corner logo
     "statusBarItem.prominentBackground":     "#000000",    // Bottom box background
 
     // TODO: -  BG store vscode MARK:[+]
