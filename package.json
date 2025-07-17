@@ -56,11 +56,6 @@
   "contributes": {
     "themes": [
       {
-        "label": "DARK (Lynx theme)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Lynx-Dark-theme.json"
-      },
-      {
         "label": "NIGHT (Lynx theme)",
         "uiTheme": "vs-dark",
         "path": "./themes/Lynx-Night-theme.json"
