@@ -108,7 +108,6 @@
     "tab.activeBackground":                  "#080808",    // bg select second line
     "tab.activeForeground":                  "#ffffff",    // Active tab text
     "tab.activeBorder":                      "#080808",    // Active tab border
-    "tab.activeBorderTop":                   "#8FBC8F",    // Active tab top border
     "tab.inactiveBackground":                "#0d0d0d",    // Inactive tab background
     "tab.inactiveForeground":                "#6b7280",    // Inactive tab text
     "tab.border":                            "#0d0d0d",    // Tab border

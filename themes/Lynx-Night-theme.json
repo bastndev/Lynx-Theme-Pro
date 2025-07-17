@@ -108,7 +108,6 @@
     "tab.activeBackground":                  "#192124",    // Active tab background
     "tab.activeForeground":                  "#c9d1d9",    // Active tab text
     "tab.activeBorder":                      "#192124",    // Active tab border
-    "tab.activeBorderTop":                   "#182124",    // Active tab top border
     "tab.inactiveBackground":                "#192124",    // Inactive tab background
     "tab.inactiveForeground":                "#6b7280",    // Inactive tab text
     "tab.border":                            "#192124",    // Tab border
