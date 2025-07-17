@@ -128,7 +128,7 @@
     "scrollbarSlider.background":            "#d0d0d027",  // Scroll bar small and large
     "scrollbarSlider.hoverBackground":       "#d0d0d03d",  // Hover background
     "scrollbarSlider.activeBackground":      "#ededee48",  // Active background
-    "scrollbar.shadow":                      "#00000030",  // Shadow
+    "scrollbar.shadow":                      "#252525f1",  // Shadow
 
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground":     "#ffffff",    // Active line number
