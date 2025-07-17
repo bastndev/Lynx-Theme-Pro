@@ -88,8 +88,8 @@
     "editor.background":                     "#f4f4f4",      // Editor background
     "editor.foreground":                     "#000000",      // Editor [STORE] text
     "editor.findMatchBackground":            "#ffffff",      // Find match background
-    "editor.findMatchBorder":                "#5fc05c",      // Find match border
-    "editor.findMatchHighlightBackground":   "#ffffff50",    // Find match highlight background
+    "editor.findMatchBorder":                "#c07c5c",      // Find match border
+    "editor.findMatchHighlightBackground":   "#d6862be3",    // Find match highlight background
     "editor.findMatchHighlightBorder":       "#cccccc04",    // Find match highlight border
     "editor.findRangeHighlightBackground":   "#ffcb6b30",    // Find range highlight background
     "editor.lineHighlightBackground":        "#ffffff70",    // Line highlight background
