@@ -58,7 +58,7 @@
     "sideBarSectionHeader.background":       "#080808",    // LINE bg
     "sideBarSectionHeader.border":           "#0d0d0d",    // Line top
     "sideBarTitle.foreground":               "#ffffff",    // Explorer
-    "sideBarSectionHeader.foreground":       "#bcbcbc",    // Css text and BOT txt
+    "sideBarSectionHeader.foreground":       "#57b689",    // Css text and BOT txt
 
     // --- -- - Buttons
     "button.background":                     "#57b689",    // Button background
@@ -144,7 +144,7 @@
 
     // --- -- - Editor Widgets - MID + AI
     "editorWidget.resizeBorder":             "#5c6bc0",    // Widget resize border
-    "editorWidget.border":                   "#57b689",    // Widget border +AI
+    "editorWidget.border":                   "#2a2e33",    // Widget border +AI
     "widget.border":                         "#2a2e33",    // General widget border
     "widget.shadow":                         "#00000050",  // Widget shadow
 
@@ -157,7 +157,7 @@
     "input.foreground":                      "#ffffff",    // Input text color
     "input.border":                          "#141414",    // Input border color
     "input.placeholderForeground":           "#6b7280",    // Input placeholder text
-    "focusBorder":                           "#272727",    // Border - AI and box 1
+    "focusBorder":                           "#57b689",    // Border - AI and box 1
     "editorCursor.foreground":               "#8c8c8c",    // Line point
 
     "disabledForeground":                    "#8c8c8c",    // Disabled text color
