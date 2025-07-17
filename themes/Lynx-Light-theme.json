@@ -229,10 +229,10 @@
     "notificationCenterHeader.background":   "#f4f4f4",      // Notification center header background
     "notificationCenterHeader.foreground":   "#2a2a2a",      // Notification center header text
     "notificationToast.border":              "#cccccc",      // Notification toast border
-    "notificationsErrorIcon.foreground":     "#c78a7a",      // Error notification icon
-    "notificationsWarningIcon.foreground":   "#F39C12",      // Warning notification icon
-    "notificationsInfoIcon.foreground":      "#5fc05c",      // Info notification icon
-    "notificationLink.foreground":           "#5fc05c",      // Notification link color
+    "notificationsErrorIcon.foreground":     "#ff4757",    // Error notification icon 
+    "notificationsWarningIcon.foreground":   "#ffa502",    // Warning notification icon 
+    "notificationsInfoIcon.foreground":      "#1bbfe8",    // Info notification icon 
+    "notificationLink.foreground":           "#2ed573",    // Notification link color
 
     // --- -- - Market place VScode txt color
     "textPreformat.foreground":              "#f05800",      // Preformatted text
