@@ -56,11 +56,7 @@
   "contributes": {
     "themes": [
 
-      {
-        "label": "LIGHT (Lynx theme)",
-        "uiTheme": "vs",
-        "path": "./themes/Lynx-Light-theme.json"
-      },
+
       {
         "label": "GHIBLI - (Lynx theme)",
         "uiTheme": "vs",
