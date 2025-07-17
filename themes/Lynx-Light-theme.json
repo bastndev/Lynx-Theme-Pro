@@ -4,6 +4,7 @@
   "semanticHighlighting": true,
   "name": "Lynx Dark Theme",
   "type": "dark",
+  
   "colors": {
     // TODO: Menu Status Bar MARK: - [TOP]
     "titleBar.activeBackground":             "#eaeaea",      // Background
@@ -60,9 +61,9 @@
     "sideBarSectionHeader.foreground":       "#2a2a2a",      // Css text and BOT txt
 
     // --- -- - Buttons
-    "button.background":                     "#5fc05c",      // Button background
+    "button.background":                     "#57b689",      // Button background
     "button.foreground":                     "#ffffff",      // Button text
-    "button.hoverBackground":                "#4da84a",      // Button hover
+    "button.hoverBackground":                "#479671",      // Button hover
     "toolbar.hoverBackground":               "#00000020",    // button hover background
 
     // --- -- - Editor hover widget
@@ -75,7 +76,7 @@
     "gitDecoration.conflictingResourceForeground":   "#00a1fe90",  // Merge conflicts
     "gitDecoration.deletedResourceForeground":       "#f07177f5",  // Deleted files
     "gitDecoration.ignoredResourceForeground":       "#61616190",  // Ignored files
-    "gitDecoration.untrackedResourceForeground":     "#21f21a",    // Untracked files
+    "gitDecoration.untrackedResourceForeground":     "#008c47",    // Untracked files
     "gitDecoration.stageModifiedResourceForeground": "#ffcb6b",    // Staged modified files
     "gitDecoration.stageDeletedResourceForeground":  "#ffcb6b",    // Staged deleted files
     "gitDecoration.submoduleResourceForeground":     "#ffcb6b",    // Submodules
@@ -156,7 +157,7 @@
     "input.foreground":                      "#000000",      // Input text color
     "input.border":                          "#cccccc",      // Input border color
     "input.placeholderForeground":           "#777777",      // Input placeholder text
-    "focusBorder":                           "#5fc05c",      // Border - AI and box 1
+    "focusBorder":                           "#3d3d3d",      // Border - AI and box 1
     "editorCursor.foreground":               "#646464",      // Line point
 
     "disabledForeground":                    "#888888",      // Disabled text color
@@ -243,21 +244,22 @@
     "dropdown.border":                       "#cccccc",      // Dropdown border
     "dropdown.listBackground":               "#f4f4f4",      // Dropdown list background
     "debugToolBar.background":               "#ffffff",      // Debug toolbar background
+    "debugToolBar.border":                   "#212122",    // Border debug optional
 
     // TODO:Status Bar MARK: - [BOTTOM]
     "statusBar.background":                  "#eaeaea",      // Status bar background
     "statusBar.foreground":                  "#616161",      // Status bar text color
     "statusBar.border":                      "#cccccc60",    // Status bar line border
-    "statusBar.debuggingBackground":         "#eaeaea",      // Status bar debugging background
+    "statusBar.debuggingBackground":         "#ffffff",      // Status bar debugging background
     "statusBar.debuggingForeground":         "#000000",      // Status bar debugging text
     "statusBar.noFolderBackground":          "#ffffff",      // Status bar no folder background
     "statusBar.noFolderForeground":          "#616161",      // Status bar no folder text
     "statusBarItem.hoverBackground":         "#dddddd20",    // Status bar item hover background
     "statusBarItem.hoverForeground":         "#000000",      // Status bar item hover text
     "statusBarItem.activeBackground":        "#f0717880",    // Status bar active item background
-    "statusBarItem.remoteBackground":        "#5fc05c",      // Remote corner background
-    "statusBarItem.remoteForeground":        "#ffffff",      // Remote corner logo-ICON
-    "statusBarItem.remoteHoverForeground":   "#000000",      // Hover corner logo-ICON
+    "statusBarItem.remoteBackground":        "#eaeaea",      // Remote corner background
+    "statusBarItem.remoteForeground":        "#479671",      // Remote corner logo-ICON
+    "statusBarItem.remoteHoverForeground":   "#13ff3e",      // Hover corner logo-ICON
     "statusBarItem.prominentBackground":     "#ffffff",      // Bottom box background
 
     // TODO: -  BG store vscode MARK:[+]
@@ -283,7 +285,7 @@
     "editorBracketMatch.background":         "#cccccc40",    // Bracket match background
     "editorBracketMatch.border":             "#666666",      // Bracket match border    
     "editorBracketHighlight.unexpectedBracket.foreground": "#c78a7a", // Unexpected bracket color
-    },
+  },
 
   "tokenColors": [
     {
