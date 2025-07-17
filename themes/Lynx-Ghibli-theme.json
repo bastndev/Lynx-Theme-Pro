@@ -58,7 +58,7 @@
     "sideBarSectionHeader.background":       "#dad2c3",    // LINE bg
     "sideBarSectionHeader.border":           "#d2c38f",    // Line top
     "sideBarTitle.foreground":               "#282828",    // Explorer
-    "sideBarSectionHeader.foreground":       "#151515",    // Css text and BOT txt
+    "sideBarSectionHeader.foreground":       "#0d692a",    // Css text and BOT txt
 
     // --- -- - Buttons
     "button.background":                     "#5fc05c",    // Button background
