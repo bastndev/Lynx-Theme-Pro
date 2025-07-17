@@ -284,9 +284,7 @@
     "editorBracketHighlight.foreground6":    "#07a5de",     // Bracket highlight color 6
     "editorBracketHighlight.unexpectedBracket.foreground": "#c78a7a", // Unexpected bracket color
     "editorBracketMatch.background":         "#3a4a5540",  // Bracket match background
-    "editorBracketMatch.border":             "#6b8fa3",    // Bracket match border
-
-    
+    "editorBracketMatch.border":             "#6b8fa3",    // Bracket match border    
   },
 
   "tokenColors": [
