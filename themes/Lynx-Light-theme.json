@@ -170,7 +170,7 @@
     "chat.requestBorder":                    "#cccccc",      // Chat request border
     "editorWidget.foreground":               "#000000",      // AI Select text & ctrl+p
 
-    "peekViewTitleDescription.foreground":   "#5fc05c",      // Select copilot
+    "peekViewTitleDescription.foreground":   "#45aa80",      // Select copilot
     "editorGutter.addedBackground":          "#ffffff",      // Added lines background
 
     // TODO: MARK: [PLUS]
