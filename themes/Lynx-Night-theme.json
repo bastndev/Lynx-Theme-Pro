@@ -168,8 +168,10 @@
     "foreground":                            "#ffffff",    // General text color
     
     "chat.requestBorder":                    "#343639",    // Chat request border
-    "editorWidget.foreground":               "#e9e9e9",    // AI Txt -----
+    "editorWidget.foreground":               "#e9e9e9",    // AI Select text & ctrl+p
+
     "peekViewTitleDescription.foreground":   "#13ff3e",    // Select copilot
+    "editorGutter.addedBackground":          "#b8bb26",    // Added lines background
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
