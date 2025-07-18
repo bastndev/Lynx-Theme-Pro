@@ -364,7 +364,7 @@
         "foreground": "#DEA048"
       }
     },
-        {
+    {
       "name": "Css color #number",
       "scope": [
         "punctuation",
