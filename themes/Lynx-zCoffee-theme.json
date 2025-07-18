@@ -105,8 +105,8 @@
     "editorGroupHeader.tabsBackground":      "#231514",    // Tabs header background
     "editorGroupHeader.tabsBorder":          "#2d251f20",  // Tabs header border
     "tab.activeBackground":                  "#1d1516",    // bg select second line
-    "tab.activeForeground":                  "#ffd0bb",    // Active tab text
-    "tab.activeBorder":                      "#e8e8e8",    // Active tab border
+    "tab.activeForeground":                  "#ffffff",    // Active tab text
+    "tab.activeBorder":                      "#241514",    // Active tab border
     "tab.inactiveBackground":                "#231514",    // Inactive tab background
     "tab.inactiveForeground":                "#a0a0a0",    // Inactive tab text
     "tab.border":                            "#231514",    // Tab border
