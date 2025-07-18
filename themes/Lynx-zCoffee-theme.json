@@ -171,7 +171,7 @@
     "editorWidget.foreground":               "#ffffff",    // AI Select text & ctrl+p
 
     "peekViewTitleDescription.foreground":   "#b64b41",    // Select copilot
-    "editorGutter.addedBackground":          "#cfa67a",    // Added lines background
+    "editorGutter.addedBackground":          "#cfa67a",    // Added lines background ===
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
