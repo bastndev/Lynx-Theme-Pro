@@ -61,14 +61,14 @@
         "path": "./themes/Lynx-Dark-theme.json"
       },
       {
-        "label": "NIGHT (Lynx theme)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Lynx-Night-theme.json"
-      },
-      {
         "label": "LIGHT (Lynx theme)",
         "uiTheme": "vs",
         "path": "./themes/Lynx-Light-theme.json"
+      },
+      {
+        "label": "NIGHT (Lynx theme)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lynx-Night-theme.json"
       },
       {
         "label": "GHIBLI - (Lynx theme)",
