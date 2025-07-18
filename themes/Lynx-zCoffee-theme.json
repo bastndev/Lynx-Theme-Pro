@@ -89,7 +89,7 @@
     "editor.foreground":                     "#ffd0bb",    // Editor [STORE] text
     "editor.findMatchBackground":            "#4d412f60",  // Find match background
     "editor.findMatchBorder":                "#c9935a",    // Find match border
-    "editor.findMatchHighlightBackground":   "#c9935a40",  // Find match highlight background
+    "editor.findMatchHighlightBackground":   "#6e5f4ed7",  // Find match highlight background
     "editor.findMatchHighlightBorder":       "#c9935a",    // Find match highlight border
     "editor.findRangeHighlightBackground":   "#d4a57430",  // Find range highlight background
     "editor.lineHighlightBackground":        "#1a161250",  // Line highlight background
@@ -171,7 +171,7 @@
     "editorWidget.foreground":               "#ffffff",    // AI Select text & ctrl+p
 
     "peekViewTitleDescription.foreground":   "#b64b41",    // Select copilot
-    "editorGutter.addedBackground":          "#cfa67a",    // Added lines background ===
+    "editorGutter.addedBackground":          "#241514",    // Added lines background ===
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
