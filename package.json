@@ -73,7 +73,12 @@
       {
         "label": "GHIBLI - (Lynx theme)",
         "uiTheme": "vs",
-        "path": "./themes/Lynx-Ghibli-theme.json"
+        "path": "./themes/Lynx-xGhibli-theme.json"
+      },
+      {
+        "label": "COFFEE - (Lynx theme)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lynx-zCoffee-theme.json"
       }
     ]
   }
