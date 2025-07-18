@@ -72,7 +72,7 @@
     "editorHoverWidget.statusBarBackground": "#282828",    // Hover widget status bar bg
 
     //--- -- - GIT Decoration
-    "gitDecoration.modifiedResourceForeground":      "#66be8b",    // Modified files
+    "gitDecoration.modifiedResourceForeground":      "#3B9460",    // Modified files
     "gitDecoration.conflictingResourceForeground":   "#00a1fe90",  // Merge conflicts
     "gitDecoration.deletedResourceForeground":       "#f07177f5",  // Deleted files
     "gitDecoration.ignoredResourceForeground":       "#61616190",  // Ignored files
