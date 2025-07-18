@@ -488,7 +488,7 @@
       "scope": ["variable.language"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#fdfff1"
+        "foreground": "#c0c1b5"
       }
     },
     {
@@ -601,7 +601,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#fdfff1"
+        "foreground": "#ac5a4e"
       }
     },
     {
@@ -610,7 +610,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#fdfff1"
+        "foreground": "#ac5a4e"
       }
     },
     {
@@ -619,7 +619,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#fdfff1"
+        "foreground": "#db7666"
       }
     },
     {
