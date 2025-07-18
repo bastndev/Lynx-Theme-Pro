@@ -9,7 +9,7 @@
     // TODO: Menu Status Bar MARK: - [TOP]
     "titleBar.activeBackground":             "#efe8d6",    // Background
     "titleBar.activeForeground":             "#474747",    // TOP text 1
-    "titleBar.border":                       "#d2c38f",    // LINE
+    "titleBar.border":                       "#f0e8d7",    // LINE
     "titleBar.inactiveBackground":           "#efe8d6",    // Inactive window title
     "titleBar.inactiveForeground":           "#000000",    // Inactive title text
     "commandCenter.background":              "#dad2c3",    // Background top box mid
@@ -56,7 +56,7 @@
     "sideBar.foreground":                    "#3d3d3d",    // Text vscode all
     "sideBar.border":                        "#f0e8d7",    // LINE RIGHT & LEFT
     "sideBarSectionHeader.background":       "#dad2c3",    // LINE bg
-    "sideBarSectionHeader.border":           "#d2c38f",    // Line top
+    "sideBarSectionHeader.border":           "#f0e8d7",    // Line top
     "sideBarTitle.foreground":               "#282828",    // Explorer
     "sideBarSectionHeader.foreground":       "#0d692a",    // Css text and BOT txt
 
