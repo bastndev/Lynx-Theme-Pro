@@ -64,7 +64,7 @@
     "button.background":                     "#6b8fa3",    // Button background
     "button.foreground":                     "#ffffff",    // Button text
     "button.hoverBackground":                "#5b798a",    // Button hover
-    "toolbar.hoverBackground":               "#12191c",    // button hover background
+    "toolbar.hoverBackground":               "#3b4b52",    // button hover background
 
     // --- -- - Editor hover widget
     "editorHoverWidget.border":              "#2a2e33",    // Hover widget border
