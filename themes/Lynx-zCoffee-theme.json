@@ -54,11 +54,11 @@
     // --- -- - Side Bar
     "sideBar.background":                    "#231514",    // Ai and Side bar background
     "sideBar.foreground":                    "#d0d0d0",    // Text vscode all
-    "sideBar.border":                        "#2d251f20",  // LINE RIGHT & LEFT
+    "sideBar.border":                        "#311d1c",  // LINE RIGHT & LEFT
     "sideBarSectionHeader.background":       "#1d1516",    // LINE bg
     "sideBarSectionHeader.border":           "#2d251f20",  // Line top
     "sideBarTitle.foreground":               "#ffd0bb",    // Explorer
-    "sideBarSectionHeader.foreground":       "#d0d0d0",    // Css text and BOT txt
+    "sideBarSectionHeader.foreground":       "#ac5a4e",    // Css text and BOT txt
 
     // --- -- - Buttons
     "button.background":                     "#a85a4c",    // Button background
@@ -131,7 +131,7 @@
     "scrollbar.shadow":                      "#00000050",  // Shadow
 
     // --- -- - Editor Line Number - LEFT
-    "editorLineNumber.activeForeground":     "#ffd0bb",    // Active line number
+    "editorLineNumber.activeForeground":     "#e0e0e0",    // Active line number
     "editorLineNumber.foreground":           "#8a756230",  // Line numbers
 
     // --- -- - Editor Suggest widget MID
