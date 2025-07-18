@@ -54,7 +54,7 @@
     // --- -- - Side Bar
     "sideBar.background":                    "#eaeaea",      // Ai and Side bar background
     "sideBar.foreground":                    "#3d3d3d",      // Text vscode all
-    "sideBar.border":                        "#cccccc",      // LINE RIGHT & LEFT
+    "sideBar.border":                        "#eaeaea",      // LINE RIGHT & LEFT
     "sideBarSectionHeader.background":       "#ffffff",      // LINE bg
     "sideBarSectionHeader.border":           "#eaeaea",      // Line top
     "sideBarTitle.foreground":               "#000000",      // Explorer
