@@ -347,12 +347,10 @@
         "foreground": "#fafafa"
       }
     },
-    {
+        {
       "name": "Operator, Misc",
       "scope": [
         "keyword.control",
-        "constant.other.color",
-        "punctuation",
         "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
@@ -364,6 +362,16 @@
       ],
       "settings": {
         "foreground": "#DEA048"
+      }
+    },
+        {
+      "name": "Css color #number",
+      "scope": [
+        "punctuation",
+        "constant.other.color",
+      ],
+      "settings": {
+        "foreground": "#919288"
       }
     },
     {
@@ -383,7 +391,6 @@
         "entity.name.function",
         "meta.function-call",
         "variable.function",
-        "support.function",
         "keyword.other.special-method"
       ],
       "settings": {
@@ -394,7 +401,7 @@
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#00d7ff"
+        "foreground": "#1bc7d7"
       }
     },
     {
@@ -417,7 +424,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#ae81ff"
       }
     },
     {
@@ -469,7 +476,7 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "#fdfff1"
       }
     },
     {
@@ -529,9 +536,9 @@
     },
     {
       "name": "CSS Classes",
-      "scope": ["entity.other.attribute-name.class"],
+      "scope": ["entity.other.attribute-name.class","support.function"],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#a6e22e"
       }
     },
     {
