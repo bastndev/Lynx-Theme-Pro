@@ -45,7 +45,7 @@
     // --- -- - Menu hover - click & select = RIGHT
     "list.activeSelectionBackground":        "#1d1516",    // Active background
     "list.activeSelectionForeground":        "#fdfdfd",    // Active text color
-    "list.inactiveSelectionForeground":      "#ffd0bb",    // Inactive text color
+    "list.inactiveSelectionForeground":      "#ffffff",    // Inactive text color
     "list.inactiveSelectionBackground":      "#1d1516",    // Inactive background
     "list.focusBackground":                  "#2e2419",    // Focus background
     "list.focusForeground":                  "#ffffff",    // Focus text
