@@ -8,7 +8,7 @@
   "colors": {
     // TODO: Menu Status Bar MARK: - [TOP]
     "titleBar.activeBackground":             "#231514",    // Background
-    "titleBar.activeForeground":             "#ffd0bb",    // TOP text 1
+    "titleBar.activeForeground":             "#f5d6c8",    // TOP text 1
     "titleBar.border":                       "#2d251f20",  // LINE
     "titleBar.inactiveBackground":           "#231514",    // Inactive window title
     "titleBar.inactiveForeground":           "#a0a0a0",    // Inactive title text
@@ -18,9 +18,9 @@
     "menu.background":                       "#231514",    // Menu background
     "menu.foreground":                       "#ffd0bb",    // Menu text
     "menu.border":                           "#2d251f20",  // Border line
-    "menu.selectionBackground":              "#3d322740",  // Selected item background
+    "menu.selectionBackground":              "#140f0d",  // Selected item background
     "menu.selectionForeground":              "#ffffff",    // Active click color
-    "menu.separatorBackground":              "#2d251f20",  // Separator line
+    "menu.separatorBackground":              "#665d5b",  // Separator line
     "menubar.selectionBackground":           "#3d322730",  // Menubar selection background
     "menubar.selectionForeground":           "#ffffff",    // Hover TOP text 1
     "menu.selectionBorder":                  "#2d251f20",  // Selected item border
