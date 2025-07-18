@@ -68,7 +68,7 @@
 
     // --- -- - Editor hover widget
     "editorHoverWidget.border":              "#4d412f20",  // Hover widget border
-    "editorHoverWidget.foreground":          "#ffffff",    // Hover widget text
+    "editorHoverWidget.foreground":          "#ffffff",    // Hover widget text ------------------
     "editorHoverWidget.statusBarBackground": "#231514",    // Hover widget status bar bg
 
     //--- -- - GIT Decoration
@@ -170,7 +170,7 @@
     "chat.requestBorder":                    "#4d412f20",  // Chat request border
     "editorWidget.foreground":               "#ffffff",    // AI Select text & ctrl+p
 
-    "peekViewTitleDescription.foreground":   "#ffffff",    // Select copilot
+    "peekViewTitleDescription.foreground":   "#b64b41",    // Select copilot
     "editorGutter.addedBackground":          "#cfa67a",    // Added lines background
 
     // TODO: MARK: [PLUS]
@@ -235,8 +235,8 @@
     "notificationLink.foreground":           "#ffffff",    // Notification link color
 
     // --- -- - Market place VScode txt color
-    "textPreformat.foreground":              "#ffffff",    // Preformatted text
-    "textLink.foreground":                   "#ffffff",    // Link text color
+    "textPreformat.foreground":              "#bf4e43",    // Preformatted text
+    "textLink.foreground":                   "#bf4e43",    // Link text color
 
     // --- -- - Editor Group & Dropdown Controls
     "dropdown.background":                   "#1d1516",    // Dropdown background
