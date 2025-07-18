@@ -144,7 +144,7 @@
 
     // --- -- - Editor Widgets - MID + AI
     "editorWidget.resizeBorder":             "#5c6bc0",    // Widget resize border
-    "editorWidget.border":                   "#13ff3e",    // Widget border +AI
+    "editorWidget.border":                   "#fff6e5",    // Widget border +AI
     "widget.border":                         "#cccccc",    // General widget border
     "widget.shadow":                         "#00000050",  // Widget shadow
 
@@ -157,7 +157,7 @@
     "input.foreground":                      "#000000",    // Input text color
     "input.border":                          "#b2b2b2",    // Input border color
     "input.placeholderForeground":           "#9a9a9a",    // Input placeholder text
-    "focusBorder":                           "#0d692a",    // Border - AI and box 1
+    "focusBorder":                           "#c0b184",    // Border - AI and box 1
     "editorCursor.foreground":               "#646464",    // Line point
 
     "disabledForeground":                    "#9a9a9a",    // Disabled text color
@@ -171,7 +171,7 @@
     "editorWidget.foreground":               "#000000",    // AI Select text & ctrl+p
 
     "peekViewTitleDescription.foreground":   "#038c43",    // Select copilot
-    "editorGutter.addedBackground":          "#ffffff",    // Added lines background ===
+    "editorGutter.addedBackground":          "#fff6e5",    // Added lines background ===
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
