@@ -18,7 +18,7 @@
     "menu.background":                       "#231514",    // Menu background
     "menu.foreground":                       "#ffd0bb",    // Menu text
     "menu.border":                           "#2d251f20",  // Border line
-    "menu.selectionBackground":              "#140f0d",  // Selected item background
+    "menu.selectionBackground":              "#180F11",  // Selected item background
     "menu.selectionForeground":              "#ffffff",    // Active click color
     "menu.separatorBackground":              "#665d5b",  // Separator line
     "menubar.selectionBackground":           "#3d322730",  // Menubar selection background
