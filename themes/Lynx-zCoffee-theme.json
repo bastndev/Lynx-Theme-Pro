@@ -19,15 +19,15 @@
     "menu.foreground":                       "#ffd0bb",    // Menu text
     "menu.border":                           "#2d251f20",  // Border line
     "menu.selectionBackground":              "#3d322740",  // Selected item background
-    "menu.selectionForeground":              "#ffffff",    // Active click color - HOVER
+    "menu.selectionForeground":              "#ffffff",    // Active click color
     "menu.separatorBackground":              "#2d251f20",  // Separator line
     "menubar.selectionBackground":           "#3d322730",  // Menubar selection background
-    "menubar.selectionForeground":           "#ffffff",    // Hover TOP text 1 - HOVER
+    "menubar.selectionForeground":           "#ffffff",    // Hover TOP text 1
     "menu.selectionBorder":                  "#2d251f20",  // Selected item border
     "menubar.selectionBorder":               "#2d251f20",  // Menubar selection border
 
     "list.hoverBackground":                  "#1d1516",    // Hover background
-    "list.hoverForeground":                  "#ffffff",    // Text select - HOVER
+    "list.hoverForeground":                  "#ffffff",    // Text select
     "list.dropBackground":                   "#000000",    // Drop background
     
     // TODO: Activity Bar MARK: [ONE-1]
@@ -48,7 +48,7 @@
     "list.inactiveSelectionForeground":      "#ffd0bb",    // Inactive text color
     "list.inactiveSelectionBackground":      "#1d1516",    // Inactive background
     "list.focusBackground":                  "#2e2419",    // Focus background
-    "list.focusForeground":                  "#ffffff",    // Focus text - HOVER
+    "list.focusForeground":                  "#ffffff",    // Focus text
     "contrastActiveBorder":                  "#e8e8e8",    // contrast active border
 
     // --- -- - Side Bar
@@ -68,7 +68,7 @@
 
     // --- -- - Editor hover widget
     "editorHoverWidget.border":              "#4d412f20",  // Hover widget border
-    "editorHoverWidget.foreground":          "#ffffff",    // Hover widget text - HOVER
+    "editorHoverWidget.foreground":          "#ffffff",    // Hover widget text
     "editorHoverWidget.statusBarBackground": "#231514",    // Hover widget status bar bg
 
     //--- -- - GIT Decoration
@@ -111,7 +111,7 @@
     "tab.inactiveForeground":                "#a0a0a0",    // Inactive tab text
     "tab.border":                            "#231514",    // Tab border
     "tab.hoverBackground":                   "#1d1516",    // hover
-    "tab.hoverForeground":                   "#ffffff",    // Tab hover text - HOVER
+    "tab.hoverForeground":                   "#ffffff",    // Tab hover text
     "tab.hoverBorder":                       "#4d412f20",  // Tab hover border
     "tab.unfocusedActiveForeground":         "#d0d0d0",    // Unfocused active tab text
     "tab.unfocusedInactiveForeground":       "#a0a0a0",    // Unfocused inactive tab text
@@ -120,8 +120,8 @@
     "breadcrumb.background":                 "#1d1516",    // bg second line
     "breadcrumb.foreground":                 "#d0d0d0",    // Breadcrumb text
     "breadcrumbPicker.background":           "#1d1516",    // Breadcrumb picker background
-    "breadcrumb.focusForeground":            "#ffffff",    // Breadcrumb focus text - HOVER
-    "breadcrumb.activeSelectionForeground":  "#ffffff",    // Breadcrumb active selection text - HOVER
+    "breadcrumb.focusForeground":            "#ffffff",    // Breadcrumb focus text
+    "breadcrumb.activeSelectionForeground":  "#ffffff",    // Breadcrumb active selection text
     "editorStickyScrollHover.background":    "#2e2419",    // Select hover
 
     // --- -- - Scrollbar - RIGHT
@@ -138,7 +138,7 @@
     "editorSuggestWidget.background":         "#1d1516",    // bg suggestion
     "editorSuggestWidget.foreground":         "#ffd0bb",    // Suggestion widget text
     "editorSuggestWidget.border":             "#4d412f20",  // Suggestion widget border
-    "editorSuggestWidget.highlightForeground":"#ffffff",    // Highlighted suggestion text - HOVER
+    "editorSuggestWidget.highlightForeground":"#ffffff",    // Highlighted suggestion text
     "editorSuggestWidget.selectedBackground" :"#4d412f60",  // Selected suggestion background
     "editorHoverWidget.background":           "#1d1516",    // bg check information
 
@@ -168,9 +168,9 @@
     "foreground":                            "#ffd0bb",    // General text color
     
     "chat.requestBorder":                    "#4d412f20",  // Chat request border
-    "editorWidget.foreground":               "#ffffff",    // AI Select text & ctrl+p - HOVER
+    "editorWidget.foreground":               "#ffffff",    // AI Select text & ctrl+p
 
-    "peekViewTitleDescription.foreground":   "#ffffff",    // Select copilot - HOVER
+    "peekViewTitleDescription.foreground":   "#ffffff",    // Select copilot
     "editorGutter.addedBackground":          "#cfa67a",    // Added lines background
 
     // TODO: MARK: [PLUS]
@@ -180,7 +180,7 @@
     //ctrl+shift+p | Inputs
     "editorWidget.background":               "#1d1516",    // Background
     "quickInputList.focusBackground":        "#4d412f60",  // Focus background
-    "list.highlightForeground":              "#ffffff",    // Highlight text color - HOVER
+    "list.highlightForeground":              "#ffffff",    // Highlight text color
 
     "keybindingLabel.foreground":            "#ffffff",    // Keybinding label text
     "keybindingLabel.background":            "#a67c52",    // Keybinding label background
@@ -232,11 +232,11 @@
     "notificationsErrorIcon.foreground":     "#d47373",    // Error notification icon 
     "notificationsWarningIcon.foreground":   "#c9b35a",    // Warning notification icon 
     "notificationsInfoIcon.foreground":      "#7ba3d4",    // Info notification icon 
-    "notificationLink.foreground":           "#ffffff",    // Notification link color - HOVER
+    "notificationLink.foreground":           "#ffffff",    // Notification link color
 
     // --- -- - Market place VScode txt color
-    "textPreformat.foreground":              "#ffffff",    // Preformatted text - HOVER
-    "textLink.foreground":                   "#ffffff",    // Link text color - HOVER
+    "textPreformat.foreground":              "#ffffff",    // Preformatted text
+    "textLink.foreground":                   "#ffffff",    // Link text color
 
     // --- -- - Editor Group & Dropdown Controls
     "dropdown.background":                   "#1d1516",    // Dropdown background
@@ -255,7 +255,7 @@
     "statusBar.noFolderBackground":          "#231514",    // Status bar no folder background
     "statusBar.noFolderForeground":          "#d0d0d0",    // Status bar no folder text
     "statusBarItem.hoverBackground":         "#4d412f40",  // Status bar item hover background
-    "statusBarItem.hoverForeground":         "#ffffff",    // Status bar item hover text - HOVER 
+    "statusBarItem.hoverForeground":         "#ffffff",    // Status bar item hover text 
     "statusBarItem.activeBackground":        "#4d412f80",  // Status bar active item background
     "statusBarItem.remoteBackground":        "#241514",    // Remote corner background
     "statusBarItem.remoteForeground":        "#ac5a4e",    // Remote corner logo-ICON
