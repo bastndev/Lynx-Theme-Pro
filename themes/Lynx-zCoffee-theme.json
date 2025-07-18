@@ -157,7 +157,7 @@
     "input.foreground":                      "#ffffff",    // Input text color
     "input.border":                          "#4d412f20",  // Input border color
     "input.placeholderForeground":           "#a0a0a0",    // Input placeholder text
-    "focusBorder":                           "#c9935a",    // Border - AI and box 1
+    "focusBorder":                           "#6E312A",    // Border - AI and box 1
     "editorCursor.foreground":               "#ffd0bb",    // Line point
 
     "disabledForeground":                    "#a0a0a0",    // Disabled text color
