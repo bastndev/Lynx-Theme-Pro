@@ -68,7 +68,7 @@
 
     // --- -- - Editor hover widget
     "editorHoverWidget.border":              "#4d412f20",  // Hover widget border
-    "editorHoverWidget.foreground":          "#ffffff",    // Hover widget text ------------------
+    "editorHoverWidget.foreground":          "#ffffff",    // Hover widget text
     "editorHoverWidget.statusBarBackground": "#231514",    // Hover widget status bar bg
 
     //--- -- - GIT Decoration
@@ -165,7 +165,7 @@
 
     "icon.foreground":                       "#ffd0bb",    // Icon color
     "chat.avatarForeground":                 "#ffd0bb",    // Chat avatar text color
-    "foreground":                            "#ffd0bb",    // General text color
+    "foreground":                            "#ffffff",    // General text color
     
     "chat.requestBorder":                    "#4d412f20",  // Chat request border
     "editorWidget.foreground":               "#ffffff",    // AI Select text & ctrl+p
