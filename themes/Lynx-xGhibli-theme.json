@@ -64,7 +64,7 @@
     "button.background":                     "#479671",    // Button background
     "button.foreground":                     "#000000",    // Button text
     "button.hoverBackground":                "#5fc05c",    // Button hover
-    "toolbar.hoverBackground":               "#c6c6c6",    // button hover background
+    "toolbar.hoverBackground":               "#fdf6e6",    // button hover background
 
     // --- -- - Editor hover widget
     "editorHoverWidget.border":              "#cccccc",    // Hover widget border
@@ -268,7 +268,7 @@
     "textCodeBlock.background":              "#f8ffd4",    // Code block background 
 
     // ---- -- - Selection BG
-    "selection.background":                  "#c6c6c6",    // selection background
+    "selection.background":                  "#fdf6e6",    // selection background
 
     // --- -- - BG message error
     "inputValidation.errorBackground":       "#ffebee",    // Error message background
