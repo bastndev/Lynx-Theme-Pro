@@ -1,8 +1,8 @@
 {
   "name": "lynx-theme",
-  "displayName": "Lynx Theme",
-  "description": "Available now: VSCode, Cursor-AI, Windsurf, Trae-AI & (firebase.Studio) - 雨",
-  "version": "1.9.0",
+  "displayName": "Lynx Theme Pro",
+  "description": "Available now: Dark Mode, Light Mode, Night Mode, Ghibli Mode, Coffee or Halloween Mode 雨",
+  "version": "1.9.5",
   "publisher": "bastndev",
   "license": "MIT",
   "preview": true,
@@ -13,27 +13,27 @@
     "Themes"
   ],
   "keywords": [
+    "lynx theme",
     "lynx",
-    "theme",
+    "tema VSCode",
+    "VS Code",
     "color theme",
     "dark theme",
     "light theme",
-    "yellow theme",
-    "vscode theme",
-    "editor theme",
-    "AI-theme",
-    "cursor-ai",
-    "ghibli",
-    "11:11",
-    "colorful",
-    "custom themes",
+    "dark mode",
+    "light mode",
+    "night mode",
+    "ghibli mode",
+    "coffee mode",
+    "halloween theme",
+    "modern theme",
+    "colorful theme",
+    "custom theme",
+    "personalization",
     "productivity",
-    "customization",
-    "windows",
-    "linux",
-    "macos",
-    "dark",
-    "light"
+    "Windows",
+    "Linux",
+    "macOS"
   ],
   "icon": "assets/icon.png",
   "galleryBanner": {
@@ -56,24 +56,29 @@
   "contributes": {
     "themes": [
       {
-        "label": "DARK (Lynx theme)",
+        "label": "1. DARK (Lynx Theme Pro)",
         "uiTheme": "vs-dark",
         "path": "./themes/Lynx-Dark-theme.json"
       },
       {
-        "label": "LIGHT (Lynx theme)",
+        "label": "2. LIGHT (Lynx Theme Pro)",
         "uiTheme": "vs",
         "path": "./themes/Lynx-Light-theme.json"
       },
       {
-        "label": "NIGHT (Lynx theme)",
+        "label": "3. NIGHT (Lynx Theme Pro)",
         "uiTheme": "vs-dark",
         "path": "./themes/Lynx-Night-theme.json"
       },
       {
-        "label": "GHIBLI - (Lynx theme)",
+        "label": "4. GHIBLI (Lynx Theme Pro)",
         "uiTheme": "vs",
-        "path": "./themes/Lynx-Ghibli-theme.json"
+        "path": "./themes/Lynx-xGhibli-theme.json"
+      },
+      {
+        "label": "5. COFFEE (Lynx Theme Pro)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lynx-zCoffee-theme.json"
       }
     ]
   }
