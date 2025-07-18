@@ -351,6 +351,7 @@
       "name": "Operator, Misc",
       "scope": [
         "keyword.control",
+        "constant.other.color",
         "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
@@ -391,6 +392,7 @@
         "entity.name.function",
         "meta.function-call",
         "variable.function",
+        "support.function",
         "keyword.other.special-method"
       ],
       "settings": {
