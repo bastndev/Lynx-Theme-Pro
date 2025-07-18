@@ -53,7 +53,7 @@
 
     // --- -- - Side Bar
     "sideBar.background":                    "#231514",    // Ai and Side bar background
-    "sideBar.foreground":                    "#fbccba",    // Text vscode all
+    "sideBar.foreground":                    "#ffd0bb",    // Text vscode all
     "sideBar.border":                        "#311d1c",    // LINE RIGHT & LEFT
     "sideBarSectionHeader.background":       "#1d1516",    // LINE bg
     "sideBarSectionHeader.border":           "#2d251f20",  // Line top
@@ -154,7 +154,7 @@
 
     // TODO: copilot -AI MARK: [THREE-3-AI]
     "input.background":                      "#1d1516",    // bg color
-    "input.foreground":                      "#ffd0bb",    // Input text color
+    "input.foreground":                      "#ffffff",    // Input text color
     "input.border":                          "#4d412f20",  // Input border color
     "input.placeholderForeground":           "#a0a0a0",    // Input placeholder text
     "focusBorder":                           "#c9935a",    // Border - AI and box 1
