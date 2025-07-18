@@ -44,20 +44,20 @@
     
     // --- -- - Menu hover - click & select = RIGHT
     "list.activeSelectionBackground":        "#1d1516",    // Active background
-    "list.activeSelectionForeground":        "#ffd0bb",    // Active text color
+    "list.activeSelectionForeground":        "#fdfdfd",    // Active text color
     "list.inactiveSelectionForeground":      "#ffd0bb",    // Inactive text color
     "list.inactiveSelectionBackground":      "#1d1516",    // Inactive background
     "list.focusBackground":                  "#2e2419",    // Focus background
     "list.focusForeground":                  "#ffffff",    // Focus text
-    "contrastActiveBorder":                  "#ffffff5a",    // contrast active border
+    "contrastActiveBorder":                  "#ffffff5a",  // contrast active border
 
     // --- -- - Side Bar
     "sideBar.background":                    "#231514",    // Ai and Side bar background
-    "sideBar.foreground":                    "#d0d0d0",    // Text vscode all
-    "sideBar.border":                        "#311d1c",  // LINE RIGHT & LEFT
+    "sideBar.foreground":                    "#fbccba",    // Text vscode all
+    "sideBar.border":                        "#311d1c",    // LINE RIGHT & LEFT
     "sideBarSectionHeader.background":       "#1d1516",    // LINE bg
     "sideBarSectionHeader.border":           "#2d251f20",  // Line top
-    "sideBarTitle.foreground":               "#ffd0bb",    // Explorer
+    "sideBarTitle.foreground":               "#ffffff",    // Explorer
     "sideBarSectionHeader.foreground":       "#BA4E3F",    // Css text and BOT txt
 
     // --- -- - Buttons
