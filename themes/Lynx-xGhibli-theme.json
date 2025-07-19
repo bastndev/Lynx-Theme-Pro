@@ -286,6 +286,7 @@
     "editorBracketMatch.border":             "#009a48",    // Bracket match border    
     "editorBracketHighlight.unexpectedBracket.foreground": "#c62828", // Unexpected bracket color
     },
+    
     "tokenColors": [
     {
       "name": "Comment",
