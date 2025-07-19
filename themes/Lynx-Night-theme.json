@@ -316,7 +316,7 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#008cff"
+        "foreground": "#9de4ce"
       }
     },
     {
@@ -363,7 +363,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#DEA048"
+        "foreground": "#FFFF40C3"
       }
     },
     {
