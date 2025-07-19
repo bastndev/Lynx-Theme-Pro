@@ -58,13 +58,13 @@
     "sideBarSectionHeader.background":       "#1d1516",    // LINE bg
     "sideBarSectionHeader.border":           "#2d251f20",  // Line top
     "sideBarTitle.foreground":               "#ffffff",    // Explorer
-    "sideBarSectionHeader.foreground":       "#BA4E3F",    // Css text and BOT txt
+    "sideBarSectionHeader.foreground":       "#ac5a4e",    // Css text and BOT txt
 
     // --- -- - Buttons
     "button.background":                     "#a85a4c",    // Button background
     "button.foreground":                     "#ffffff",    // Button text
     "button.hoverBackground":                "#914b3f",    // Button hover
-    "toolbar.hoverBackground":               "#1d1516",    // button hover background
+    "toolbar.hoverBackground":               "#914b3fd0",    // button hover background
 
     // --- -- - Editor hover widget
     "editorHoverWidget.border":              "#4d412f20",  // Hover widget border
@@ -89,7 +89,7 @@
     "editor.foreground":                     "#ffd0bb",    // Editor [STORE] text
     "editor.findMatchBackground":            "#4d412f60",  // Find match background
     "editor.findMatchBorder":                "#c9935a",    // Find match border
-    "editor.findMatchHighlightBackground":   "#c9935a40",  // Find match highlight background
+    "editor.findMatchHighlightBackground":   "#6e5f4ed7",  // Find match highlight background
     "editor.findMatchHighlightBorder":       "#c9935a",    // Find match highlight border
     "editor.findRangeHighlightBackground":   "#d4a57430",  // Find range highlight background
     "editor.lineHighlightBackground":        "#1a161250",  // Line highlight background
@@ -167,11 +167,11 @@
     "chat.avatarForeground":                 "#ffd0bb",    // Chat avatar text color
     "foreground":                            "#ffffff",    // General text color
     
-    "chat.requestBorder":                    "#4d412f20",  // Chat request border
+    "chat.requestBorder":                    "#b05a5088",  // Chat request border
     "editorWidget.foreground":               "#ffffff",    // AI Select text & ctrl+p
 
     "peekViewTitleDescription.foreground":   "#b64b41",    // Select copilot
-    "editorGutter.addedBackground":          "#cfa67a",    // Added lines background ===
+    "editorGutter.addedBackground":          "#241514",    // Added lines background ===
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
@@ -268,7 +268,7 @@
     "textCodeBlock.background":              "#1d1516",    // Code block background 
 
     // ---- -- - Selection BG
-    "selection.background":                  "#4d412f60",  // selection background
+    "selection.background":                  "#914b3fd0",  // selection background
 
     // --- -- - BG message error
     "inputValidation.errorBackground":       "#2e1f1a",    // Error message background
@@ -478,7 +478,7 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#f5d6c8"
+        "foreground": "#b05a50"
       }
     },
     {

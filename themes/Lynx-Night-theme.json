@@ -44,7 +44,7 @@
     
     // --- -- - Menu hover - click & select = RIGHT
     "list.activeSelectionBackground":        "#3a4a55",    // Active background
-    "list.activeSelectionForeground":        "#c9d1d9",    // Active text color
+    "list.activeSelectionForeground":        "#ffffff",    // Active text color
     "list.inactiveSelectionForeground":      "#c9d1d9",    // Inactive text color
     "list.inactiveSelectionBackground":      "#252e38",    // Inactive background
     "list.focusBackground":                  "#3a4a55",    // Focus background
@@ -53,7 +53,7 @@
 
     // --- -- - Side Bar
     "sideBar.background":                    "#192124",    // Ai and Side bar background
-    "sideBar.foreground":                    "#c9d1d9",    // Text vscode all
+    "sideBar.foreground":                    "#828991",    // Text vscode all
     "sideBar.border":                        "#192124",    // LINE RIGHT & LEFT
     "sideBarSectionHeader.background":       "#12191c",    // LINE bg
     "sideBarSectionHeader.border":           "#192124",    // Line top
@@ -61,10 +61,10 @@
     "sideBarSectionHeader.foreground":       "#37b8b0",    // Css text and BOT txt
 
     // --- -- - Buttons
-    "button.background":                     "#135b5c",    // Button background
+    "button.background":                     "#6b8fa3",    // Button background
     "button.foreground":                     "#ffffff",    // Button text
-    "button.hoverBackground":                "#1e797a",    // Button hover
-    "toolbar.hoverBackground":               "#12191c",    // button hover background
+    "button.hoverBackground":                "#5b798a",    // Button hover
+    "toolbar.hoverBackground":               "#3b4b52",    // button hover background
 
     // --- -- - Editor hover widget
     "editorHoverWidget.border":              "#2a2e33",    // Hover widget border
@@ -89,7 +89,7 @@
     "editor.foreground":                     "#c9d1d9",    // Editor [STORE] text
     "editor.findMatchBackground":            "#9B59B630",  // Find match background
     "editor.findMatchBorder":                "#c07c5c",    // Find match border
-    "editor.findMatchHighlightBackground":   "#d6862be3",  // Find match highlight background
+    "editor.findMatchHighlightBackground":   "#6e4515e3",  // Find match highlight background
     "editor.findMatchHighlightBorder":       "#ef000004",  // Find match highlight border
     "editor.findRangeHighlightBackground":   "#ffcb6b30",  // Find range highlight background
     "editor.lineHighlightBackground":        "#00000070",  // Line highlight background
@@ -171,7 +171,7 @@
     "editorWidget.foreground":               "#e9e9e9",    // AI Select text & ctrl+p
 
     "peekViewTitleDescription.foreground":   "#13ff3e",    // Select copilot
-    "editorGutter.addedBackground":          "#ffffff",    // Added lines background ===
+    "editorGutter.addedBackground":          "#182124",    // Added lines background ===
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
@@ -268,7 +268,7 @@
     "textCodeBlock.background":              "#000000",    // Code block background 
 
     // ---- -- - Selection BG
-    "selection.background":                  "#6b8fa3",    // selection background
+    "selection.background":                  "#567281",    // selection background
 
     // --- -- - BG message error
     "inputValidation.errorBackground":       "#E91E6320",  // Error message background
@@ -293,7 +293,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic bold",
-        "foreground": "#818181"
+        "foreground": "#8C8C8C"
       }
     },
     {
@@ -316,7 +316,7 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#008cff"
+        "foreground": "#9de4ce"
       }
     },
     {
@@ -363,7 +363,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#DEA048"
+        "foreground": "#FFFF40C3"
       }
     },
     {
