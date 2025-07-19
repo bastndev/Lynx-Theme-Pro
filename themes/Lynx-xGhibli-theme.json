@@ -3,7 +3,7 @@
   "semanticClass": "lynx-ghibli-theme",
   "semanticHighlighting": true,
   "name": "Lynx Ghibli Theme",
-  "type": "dark",
+  "type": "light",
 
   "colors": {
     // TODO: Menu Status Bar MARK: - [TOP]
@@ -286,7 +286,8 @@
     "editorBracketMatch.border":             "#009a48",    // Bracket match border    
     "editorBracketHighlight.unexpectedBracket.foreground": "#c62828", // Unexpected bracket color
     },
-    "tokenColors": [
+    
+  "tokenColors": [
     {
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
@@ -346,28 +347,33 @@
         "foreground": "#24292e"
       }
     },
-    {
+        {
       "name": "Operator, Misc",
       "scope": [
+        "keyword.control",
         "constant.other.color",
+        "punctuation",
+        "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
         "punctuation.section.embedded",
         "keyword.other.template",
-        "keyword.other.substitution",
-        "punctuation.definition.tag"
+        "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#0550ae"
+        "foreground": "#8c43ee"
       }
     },
     {
-      "name": "</>",
-      "scope": ["keyword.control"],
+      "name": "Css color #number",
+      "scope": [
+        "punctuation",
+        "constant.other.color",
+      ],
       "settings": {
-        "foreground": "#8250df"
+        "foreground": "#6a737d"
       }
     },
     {
@@ -388,8 +394,7 @@
         "meta.function-call",
         "variable.function",
         "support.function",
-        "keyword.other.special-method",
-        "meta.property-value"
+        "keyword.other.special-method"
       ],
       "settings": {
         "foreground": "#8250df"
@@ -516,7 +521,7 @@
     },
     {
       "name": "Attributes",
-      "scope": ["entity.other.attribute-name", "punctuation"],
+      "scope": ["entity.other.attribute-name"],
       "settings": {
         "foreground": "#6f42c1"
       }
@@ -534,7 +539,7 @@
     },
     {
       "name": "CSS Classes",
-      "scope": ["entity.other.attribute-name.class"],
+      "scope": ["entity.other.attribute-name.class","support.function"],
       "settings": {
         "foreground": "#0969da"
       }

@@ -369,6 +369,7 @@
     {
       "name": "Css color #number",
       "scope": [
+        "punctuation",
         "constant.other.color"
       ],
       "settings": {
