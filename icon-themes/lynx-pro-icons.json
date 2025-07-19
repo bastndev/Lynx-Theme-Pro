@@ -1,5 +1,8 @@
 {
     "iconDefinitions": {
+        "flutter": {
+            "iconPath": "../assets/icons/flutter.svg"
+        },
         "git": {
             "iconPath": "../assets/icons/git.svg"
         },
@@ -9686,6 +9689,7 @@
     "rootFolderNames": {},
     "rootFolderNamesExpanded": {},
     "fileExtensions": {
+        "metadata": "flutter",
         "60": "slint",
         "htm": "html",
         "xhtml": "html",

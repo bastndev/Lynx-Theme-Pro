@@ -1,0 +1,19 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 316 317" width="316" height="317">
+	<title>flutter1</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(32.355,11.655,-19.841,55.078,152.8,247.15)">
+			<stop offset="0" stop-color="#000000" stop-opacity="1"/>
+			<stop offset="1" stop-color="#000000" stop-opacity="0"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: #47c5fb } 
+		.s1 { fill: #00569e } 
+		.s2 { fill: #00b5f8 } 
+		.s3 { opacity: .8;fill: url(#g1) } 
+	</style>
+	<path class="s0" d="m188 0l-158 158 49 48 206-206zm-1 145l-85 85 49 50 49-49 85-86z"/>
+	<path class="s1" d="m151 280l37 37h97l-85-86z"/>
+	<path class="s2" d="m102 230l48-48 50 49-49 49z"/>
+	<path class="s3" d="m151 280l41-14 4-31z"/>
+</svg>
