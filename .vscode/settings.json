@@ -1,10 +1,34 @@
 {
   "cSpell.words": [
+    "advpl",
+    "applescript",
+    "autoit",
     "bastndev",
+    "bazel",
+    "browserlist",
+    "cloudfoundry",
+    "codeowners",
+    "coldfusion",
+    "dhall",
     "Esquina",
     "ghibli",
     "Gohit",
+    "haml",
+    "haxe",
+    "imba",
+    "livescript",
+    "mdsvex",
+    "mjml",
+    "moonscript",
+    "ngrx",
+    "opam",
+    "purescript",
+    "stackblitz",
     "tema",
-    "Trae"
+    "tlpp",
+    "Trae",
+    "wakatime",
+    "webhint",
+    "wepy"
   ]
 }
