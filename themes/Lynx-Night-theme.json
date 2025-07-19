@@ -44,7 +44,7 @@
     
     // --- -- - Menu hover - click & select = RIGHT
     "list.activeSelectionBackground":        "#3a4a55",    // Active background
-    "list.activeSelectionForeground":        "#c9d1d9",    // Active text color
+    "list.activeSelectionForeground":        "#ffffff",    // Active text color
     "list.inactiveSelectionForeground":      "#c9d1d9",    // Inactive text color
     "list.inactiveSelectionBackground":      "#252e38",    // Inactive background
     "list.focusBackground":                  "#3a4a55",    // Focus background
@@ -53,7 +53,7 @@
 
     // --- -- - Side Bar
     "sideBar.background":                    "#192124",    // Ai and Side bar background
-    "sideBar.foreground":                    "#c9d1d9",    // Text vscode all
+    "sideBar.foreground":                    "#828991",    // Text vscode all
     "sideBar.border":                        "#192124",    // LINE RIGHT & LEFT
     "sideBarSectionHeader.background":       "#12191c",    // LINE bg
     "sideBarSectionHeader.border":           "#192124",    // Line top
