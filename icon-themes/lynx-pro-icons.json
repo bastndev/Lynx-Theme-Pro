@@ -1,8 +1,5 @@
 {
     "iconDefinitions": {
-        "flutter": {
-            "iconPath": "../assets/icons/flutter.svg"
-        },
         "git": {
             "iconPath": "../assets/icons/git.svg"
         },
@@ -2758,10 +2755,10 @@
             "iconPath": "../assets/icons/folder-private-open.svg"
         },
         "folder-linux": {
-            "iconPath": "../assets/icons/folder-linux.svg"
+            "iconPath": "../assets/icons/linux-folder.svg"
         },
         "folder-linux-open": {
-            "iconPath": "../assets/icons/folder-linux-open.svg"
+            "iconPath": "../assets/icons/linux-folder-open.svg"
         },
         "folder-windows": {
             "iconPath": "../assets/icons/folder-windows.svg"
@@ -3362,6 +3359,9 @@
         },
         "folder-root-open": {
             "iconPath": "../assets/icons/folder-root-open.svg"
+        },
+        "flutter": {
+            "iconPath": "../assets/icons/flutter.svg"
         }
     },
     "folderNames": {
