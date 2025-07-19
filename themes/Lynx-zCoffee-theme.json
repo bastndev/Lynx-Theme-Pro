@@ -167,7 +167,7 @@
     "chat.avatarForeground":                 "#ffd0bb",    // Chat avatar text color
     "foreground":                            "#ffffff",    // General text color
     
-    "chat.requestBorder":                    "#4d412f20",  // Chat request border
+    "chat.requestBorder":                    "#b05a5088",  // Chat request border
     "editorWidget.foreground":               "#ffffff",    // AI Select text & ctrl+p
 
     "peekViewTitleDescription.foreground":   "#b64b41",    // Select copilot
