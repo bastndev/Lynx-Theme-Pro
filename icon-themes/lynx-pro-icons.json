@@ -3407,8 +3407,13 @@
         },
         "state-folder-open": {
             "iconPath": "../assets/icons/state-folder-open.svg"
+        },
+        "lynx-file": {
+            "iconPath": "../assets/icons/lynx-file.svg"
+        },
+        "lynx-config-file": {
+            "iconPath": "../assets/icons/lynx-config-file.svg"
         }
-        
     },
     "folderNames": {
         "state":"state-folder",
