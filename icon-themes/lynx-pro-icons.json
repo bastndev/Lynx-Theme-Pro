@@ -3247,7 +3247,7 @@
             "iconPath": "../assets/icons/folder-lefthook-open.svg"
         },
         "folder-bloc": {
-            "iconPath": "../assets/icons/folder-bloc.svg"
+            "iconPath": "../assets/icons/bloc-folder.svg"
         },
         "folder-bloc-open": {
             "iconPath": "../assets/icons/folder-bloc-open.svg"
@@ -3362,6 +3362,9 @@
         },
         "flutter": {
             "iconPath": "../assets/icons/flutter.svg"
+        },
+        "bloc-file": {
+            "iconPath": "../assets/icons/bloc-file.svg"
         }
     },
     "folderNames": {
@@ -9689,6 +9692,7 @@
     "rootFolderNames": {},
     "rootFolderNamesExpanded": {},
     "fileExtensions": {
+        "bloc.dart": "bloc-file",
         "metadata": "flutter",
         "60": "slint",
         "htm": "html",
