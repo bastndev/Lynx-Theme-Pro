@@ -2863,10 +2863,10 @@
             "iconPath": "../assets/icons/folder-pipe-open.svg"
         },
         "folder-svg": {
-            "iconPath": "../assets/icons/folder-svg.svg"
+            "iconPath": "../assets/icons/svg-folder.svg"
         },
         "folder-svg-open": {
-            "iconPath": "../assets/icons/folder-svg-open.svg"
+            "iconPath": "../assets/icons/svg-folder-open.svg"
         },
         "folder-vuex-store": {
             "iconPath": "../assets/icons/folder-vuex-store.svg"
