@@ -84,7 +84,7 @@
     "iconThemes": [
       {
         "id": "lynx-pro",
-        "label": "Lynx Pro Icons",
+        "label": "Lynx Icons Pro",
         "path": "./icon-themes/lynx-pro-icons.json"
       }
     ]
