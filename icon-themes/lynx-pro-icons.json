@@ -28,7 +28,7 @@
             "iconPath": "../assets/icons/diff.svg"
         },
         "json": {
-            "iconPath": "../assets/icons/json.svg"
+            "iconPath": "../assets/icons/json-file.svg"
         },
         "blink": {
             "iconPath": "../assets/icons/blink.svg"
