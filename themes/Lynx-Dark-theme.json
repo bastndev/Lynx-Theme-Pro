@@ -363,7 +363,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#DEA048"
+        "foreground": "#FFCB6B"
       }
     },
     {
@@ -532,7 +532,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#eac533"
+        "foreground": "#9170d3"
       }
     },
     {
