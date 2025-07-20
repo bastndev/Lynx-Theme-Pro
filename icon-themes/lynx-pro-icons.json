@@ -3413,6 +3413,9 @@
         },
         "lynx-config-file": {
             "iconPath": "../assets/icons/lynx-config-file.svg"
+        },
+        "lynx-config-file-dark": {
+            "iconPath": "../assets/icons/lynx-config-file-dark.svg"
         }
     },
     "folderNames": {
@@ -12986,6 +12989,7 @@
             "zeabur": "zeabur_light"
         },
         "fileNames": {
+            "lynx.config.ts": "lynx-config-file-dark",
             "sconstruct": "scons_light",
             "sconscript": "scons_light",
             "scsub": "scons_light",
