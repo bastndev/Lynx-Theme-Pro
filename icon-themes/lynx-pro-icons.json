@@ -592,7 +592,7 @@
             "iconPath": "../assets/icons/keystatic.svg"
         },
         "font": {
-            "iconPath": "../assets/icons/font.svg"
+            "iconPath": "../assets/icons/font-file.svg"
         },
         "lib": {
             "iconPath": "../assets/icons/lib.svg"
