@@ -83,6 +83,7 @@
     "gitDecoration.renamedResourceForeground":       "#fa5228",    // Renamed files
     "gitDecoration.addedResourceForeground":         "#fa5228",    // Added files
     "editorGhostText.foreground":                    "#717171",    // git commit txt
+    "editorGutter.modifiedBackground":               "#ff0000",    // LINE red in left - number-right    
 
     // TODO: EDITOR CODE MARK: [TWO-2]
     "editor.background":                     "#fef6e4",    // Editor background
