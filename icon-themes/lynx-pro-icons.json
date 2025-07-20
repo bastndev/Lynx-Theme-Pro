@@ -49,7 +49,7 @@
             "iconPath": "../assets/icons/javascript.svg"
         },
         "typescript": {
-            "iconPath": "../assets/icons/typescript.svg"
+            "iconPath": "../assets/icons/typescript-file.svg"
         },
         "scala": {
             "iconPath": "../assets/icons/scala.svg"
