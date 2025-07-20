@@ -1414,7 +1414,7 @@
             "iconPath": "../assets/icons/pipeline.svg"
         },
         "vite": {
-            "iconPath": "../assets/icons/vite.svg"
+            "iconPath": "../assets/icons/vite-file.svg"
         },
         "vitest": {
             "iconPath": "../assets/icons/vitest.svg"
