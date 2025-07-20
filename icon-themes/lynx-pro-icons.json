@@ -514,7 +514,7 @@
             "iconPath": "../assets/icons/markojs.svg"
         },
         "astro": {
-            "iconPath": "../assets/icons/astro.svg"
+            "iconPath": "../assets/icons/astro-file.svg"
         },
         "astro-config": {
             "iconPath": "../assets/icons/astro-config.svg"
