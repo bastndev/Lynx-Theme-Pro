@@ -3372,6 +3372,9 @@
         "riverpod-file": {
             "iconPath": "../assets/icons/riverpod-file.svg"
         },
+        "mobx-file": {
+            "iconPath": "../assets/icons/mobx-file.svg"
+        },
         "state-file": {
             "iconPath": "../assets/icons/state-file.svg"
         },
@@ -3386,9 +3389,6 @@
         },
         "getx-folder-open": {
             "iconPath": "../assets/icons/getx-folder-open.svg"
-        },
-        "mobx-file": {
-            "iconPath": "../assets/icons/mobx-file.svg"
         },
         "mobx-folder": {
             "iconPath": "../assets/icons/mobx-folder.svg"
