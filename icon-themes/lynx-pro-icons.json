@@ -3374,10 +3374,20 @@
         },
         "getx-folder-open": {
             "iconPath": "../assets/icons/getx-folder-open.svg"
+        },
+        "mobx-file": {
+            "iconPath": "../assets/icons/mobx-file.svg"
+        },
+        "mobx-folder": {
+            "iconPath": "../assets/icons/mobx-folder.svg"
+        },
+        "mobx-folder-open": {
+            "iconPath": "../assets/icons/mobx-folder-open.svg"
         }
     },
     "folderNames": {
-        
+        "mobx":"mobx-folder",
+        "getx":"getx-folder",
         "rust": "folder-rust",
         ".rust": "folder-rust",
         "_rust": "folder-rust",
@@ -6539,6 +6549,8 @@
         "__blender-models__": "folder-blender"
     },
     "folderNamesExpanded": {
+        "mobx": "mobx-folder-open",
+        "getx": "getx-folder-open",
         "rust": "folder-rust-open",
         ".rust": "folder-rust-open",
         "_rust": "folder-rust-open",
@@ -9702,6 +9714,7 @@
     "rootFolderNames": {},
     "rootFolderNamesExpanded": {},
     "fileExtensions": {
+        "mobx.dart": "mobx-file",
         "getx.dart": "getx-file",
         "bloc.dart": "bloc-file",
         "metadata": "flutter-file",
