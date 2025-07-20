@@ -364,7 +364,7 @@
             "iconPath": "../assets/icons/lock.svg"
         },
         "svg": {
-            "iconPath": "../assets/icons/svg.svg"
+            "iconPath": "../assets/icons/svg-file.svg"
         },
         "swift": {
             "iconPath": "../assets/icons/swift.svg"
