@@ -10862,6 +10862,7 @@
         "blend2": "blender"
     },
     "fileNames": {
+        "main.lynx.bundle": "lynx",
         "lynx.config.ts": "lynx-config-file",
         ".pug-lintrc": "pug",
         ".pug-lintrc.js": "pug",
@@ -12992,6 +12993,7 @@
             "zeabur": "zeabur_light"
         },
         "fileNames": {
+            "main.lynx.bundle": "lynx-dark",
             "lynx.config.ts": "lynx-config-file-dark",
             "sconstruct": "scons_light",
             "sconscript": "scons_light",
