@@ -415,7 +415,7 @@
       }
     },
     {
-      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "name": "Number, Constant, Function Argument, Embedded",
       "scope": [
         "constant.numeric",
         "constant.language",
@@ -428,6 +428,15 @@
       ],
       "settings": {
         "foreground": "#EA580C"
+      }
+    },
+    {
+      "name": "Tag Attribute",
+      "scope": [
+        "keyword.other.unit",
+      ],
+      "settings": {
+        "foreground": "#7e868e"
       }
     },
     {

@@ -415,7 +415,7 @@
       }
     },
     {
-      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "name": "Number, Constant, Function Argument, Embedded",
       "scope": [
         "constant.numeric",
         "constant.language",
@@ -428,6 +428,15 @@
       ],
       "settings": {
         "foreground": "#0550ae"
+      }
+    },
+        {
+      "name": "Tag Attribute",
+      "scope": [
+        "keyword.other.unit",
+      ],
+      "settings": {
+        "foreground": "#7e868e"
       }
     },
     {
@@ -541,7 +550,7 @@
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class","support.function"],
       "settings": {
-        "foreground": "#0969da"
+        "foreground": "#38a0aa"
       }
     },
     {
