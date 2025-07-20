@@ -550,7 +550,7 @@
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class","support.function"],
       "settings": {
-        "foreground": "#c27b4c"
+        "foreground": "#dd854b"
       }
     },
     {
