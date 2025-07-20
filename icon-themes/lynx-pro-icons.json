@@ -10856,6 +10856,7 @@
         "blend2": "blender"
     },
     "fileNames": {
+        "lynx.config.ts": "lynx-config-file",
         ".pug-lintrc": "pug",
         ".pug-lintrc.js": "pug",
         ".pug-lintrc.json": "pug",
