@@ -3360,14 +3360,24 @@
         "folder-root-open": {
             "iconPath": "../assets/icons/folder-root-open.svg"
         },
-        "flutter": {
-            "iconPath": "../assets/icons/flutter.svg"
+        "flutter-file": {
+            "iconPath": "../assets/icons/flutter-folder.svg"
         },
         "bloc-file": {
             "iconPath": "../assets/icons/bloc-file.svg"
+        },
+        "getx-file": {
+            "iconPath": "../assets/icons/getx-file.svg"
+        },
+        "getx-folder": {
+            "iconPath": "../assets/icons/getx-folder.svg"
+        },
+        "getx-folder-open": {
+            "iconPath": "../assets/icons/getx-folder-open.svg"
         }
     },
     "folderNames": {
+        
         "rust": "folder-rust",
         ".rust": "folder-rust",
         "_rust": "folder-rust",
@@ -9692,8 +9702,9 @@
     "rootFolderNames": {},
     "rootFolderNamesExpanded": {},
     "fileExtensions": {
+        "getx.dart": "getx-file",
         "bloc.dart": "bloc-file",
-        "metadata": "flutter",
+        "metadata": "flutter-file",
         "60": "slint",
         "htm": "html",
         "xhtml": "html",
