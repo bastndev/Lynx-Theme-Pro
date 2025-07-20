@@ -3369,6 +3369,12 @@
         "getx-file": {
             "iconPath": "../assets/icons/getx-file.svg"
         },
+        "riverpod-file": {
+            "iconPath": "../assets/icons/riverpod-file.svg"
+        },
+        "service-file": {
+            "iconPath": "../assets/icons/service-file.svg"
+        },
         "getx-folder": {
             "iconPath": "../assets/icons/getx-folder.svg"
         },
@@ -3383,9 +3389,6 @@
         },
         "mobx-folder-open": {
             "iconPath": "../assets/icons/mobx-folder-open.svg"
-        },
-        "riverpod-file": {
-            "iconPath": "../assets/icons/riverpod-file.svg"
         },
         "riverpod-folder": {
             "iconPath": "../assets/icons/riverpod-folder.svg"
@@ -9725,6 +9728,7 @@
     "rootFolderNames": {},
     "rootFolderNamesExpanded": {},
     "fileExtensions": {
+        "service.dart":"service-file",
         "riverpod.dart": "riverpod-file",
         "mobx.dart": "mobx-file",
         "getx.dart": "getx-file",
