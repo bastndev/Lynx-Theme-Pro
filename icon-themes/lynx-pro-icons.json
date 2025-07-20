@@ -3408,8 +3408,11 @@
         "state-folder-open": {
             "iconPath": "../assets/icons/state-folder-open.svg"
         },
-        "lynx-file": {
+        "lynx": {
             "iconPath": "../assets/icons/lynx-file.svg"
+        },
+        "lynx-dark": {
+            "iconPath": "../assets/icons/lynx-file-dark.svg"
         },
         "lynx-config-file": {
             "iconPath": "../assets/icons/lynx-config-file.svg"
