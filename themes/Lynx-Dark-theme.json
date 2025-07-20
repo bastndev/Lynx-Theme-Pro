@@ -427,7 +427,16 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#ae81ff"
+        "foreground": "#018466"
+      }
+    },
+        {
+      "name": "Tag Attribute",
+      "scope": [
+        "keyword.other.unit",
+      ],
+      "settings": {
+        "foreground": "#7e868e"
       }
     },
     {
@@ -479,7 +488,7 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#fdfff1"
+        "foreground": "#cacccf"
       }
     },
     {
@@ -541,7 +550,7 @@
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class","support.function"],
       "settings": {
-        "foreground": "#a6e22e"
+        "foreground": "#c27b4c"
       }
     },
     {
