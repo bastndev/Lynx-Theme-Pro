@@ -3372,11 +3372,14 @@
         "riverpod-file": {
             "iconPath": "../assets/icons/riverpod-file.svg"
         },
+        "state-file": {
+            "iconPath": "../assets/icons/state-file.svg"
+        },
         "service-file": {
             "iconPath": "../assets/icons/service-file.svg"
         },
-        "state-file": {
-            "iconPath": "../assets/icons/state-file.svg"
+        "module-file": {
+            "iconPath": "../assets/icons/module-file.svg"
         },
         "getx-folder": {
             "iconPath": "../assets/icons/getx-folder.svg"
@@ -9740,6 +9743,7 @@
     "rootFolderNames": {},
     "rootFolderNamesExpanded": {},
     "fileExtensions": {
+        "module.dart": "module-file",
         "state.dart": "state-file",
         "service.dart":"service-file",
         "riverpod.dart": "riverpod-file",
