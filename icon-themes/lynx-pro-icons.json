@@ -517,7 +517,7 @@
             "iconPath": "../assets/icons/astro-file.svg"
         },
         "astro-config": {
-            "iconPath": "../assets/icons/astro-config.svg"
+            "iconPath": "../assets/icons/astro-config-file.svg"
         },
         "vscode": {
             "iconPath": "../assets/icons/vscode.svg"
