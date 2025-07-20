@@ -106,7 +106,7 @@
             "iconPath": "../assets/icons/less.svg"
         },
         "css": {
-            "iconPath": "../assets/icons/css.svg"
+            "iconPath": "../assets/icons/css-file.svg"
         },
         "visualstudio": {
             "iconPath": "../assets/icons/visualstudio.svg"
