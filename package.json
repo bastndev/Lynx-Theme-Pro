@@ -2,7 +2,7 @@
   "name": "lynx-theme",
   "displayName": "Lynx Theme Pro",
   "description": "Available now: Dark Mode, Light Mode, Night Mode, Ghibli Mode, Coffee or Halloween Mode 雨",
-  "version": "1.9.7",
+  "version": "1.9.8",
   "publisher": "bastndev",
   "license": "MIT",
   "preview": true,
@@ -79,6 +79,13 @@
         "label": "5. COFFEE (Lynx Theme Pro)",
         "uiTheme": "vs-dark",
         "path": "./themes/Lynx-zCoffee-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "lynx-pro",
+        "label": "Lynx Icons Pro",
+        "path": "./icon-themes/lynx-pro-icons.json"
       }
     ]
   }
