@@ -478,6 +478,17 @@
       }
     },
     {
+      "name": "CSS ID Selector",
+      "scope": [
+        "entity.other.attribute-name.id.css",
+        "entity.other.attribute-name.id",
+        "punctuation.definition.entity.css"
+      ],
+      "settings": {
+        "foreground": "#d4a927"
+      }
+    },
+    {
       "name": "CSS Class and Support",
       "scope": [
         "source.css support.type.property-name",

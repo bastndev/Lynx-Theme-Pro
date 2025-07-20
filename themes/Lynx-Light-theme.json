@@ -427,7 +427,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#EA580C"
+        "foreground": "#04644f"
       }
     },
     {
@@ -475,6 +475,17 @@
       "scope": ["support.type"],
       "settings": {
         "foreground": "#0891B2"
+      }
+    },
+    {
+      "name": "CSS ID Selector",
+      "scope": [
+        "entity.other.attribute-name.id.css",
+        "entity.other.attribute-name.id",
+        "punctuation.definition.entity.css"
+      ],
+      "settings": {
+        "foreground": "#EA580C"
       }
     },
     {
