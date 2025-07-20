@@ -40,7 +40,7 @@
             "iconPath": "../assets/icons/razor.svg"
         },
         "python": {
-            "iconPath": "../assets/icons/python.svg"
+            "iconPath": "../assets/icons/python-file.svg"
         },
         "mojo": {
             "iconPath": "../assets/icons/mojo.svg"
