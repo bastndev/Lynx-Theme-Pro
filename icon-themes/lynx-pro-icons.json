@@ -3383,9 +3383,19 @@
         },
         "mobx-folder-open": {
             "iconPath": "../assets/icons/mobx-folder-open.svg"
+        },
+        "riverpod-file": {
+            "iconPath": "../assets/icons/riverpod-file.svg"
+        },
+        "riverpod-folder": {
+            "iconPath": "../assets/icons/riverpod-folder.svg"
+        },
+        "riverpod-folder-open": {
+            "iconPath": "../assets/icons/riverpod-folder-open.svg"
         }
     },
     "folderNames": {
+        "riverpod":"riverpod-folder",
         "mobx":"mobx-folder",
         "getx":"getx-folder",
         "rust": "folder-rust",
@@ -6549,6 +6559,7 @@
         "__blender-models__": "folder-blender"
     },
     "folderNamesExpanded": {
+        "riverpod": "riverpod-folder-open",
         "mobx": "mobx-folder-open",
         "getx": "getx-folder-open",
         "rust": "folder-rust-open",
@@ -9714,6 +9725,7 @@
     "rootFolderNames": {},
     "rootFolderNamesExpanded": {},
     "fileExtensions": {
+        "riverpod.dart": "riverpod-file",
         "mobx.dart": "mobx-file",
         "getx.dart": "getx-file",
         "bloc.dart": "bloc-file",
