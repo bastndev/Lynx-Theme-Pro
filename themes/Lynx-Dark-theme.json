@@ -532,7 +532,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#9d78e6"
+        "foreground": "#eac533"
       }
     },
     {
