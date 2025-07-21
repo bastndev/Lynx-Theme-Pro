@@ -52,11 +52,27 @@
   "bugs": {
     "url": "https://github.com/bastndev/Lynx-Theme/issues"
   },
+  "qna": "https://github.com/bastndev/Lynx-Theme/discussions",
   "author": {
     "name": "Gohit Bastian",
     "email": "gobasdev@gmail.com",
     "url": "https://www.bastndev.com"
   },
+  "sponsor": {
+    "url": "https://github.com/sponsors/bastndev"
+  },
+  "badges": [
+    {
+      "url": "https://img.shields.io/visual-studio-marketplace/d/bastndev.lynx-theme",
+      "href": "https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-theme",
+      "description": "Downloads"
+    },
+    {
+      "url": "https://img.shields.io/visual-studio-marketplace/r/bastndev.lynx-theme",
+      "href": "https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-theme",
+      "description": "Rating"
+    }
+  ],
   "contributes": {
     "themes": [
       {
