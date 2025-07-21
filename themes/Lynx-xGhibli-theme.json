@@ -804,7 +804,8 @@
       "name": "Markup - Quote",
       "scope": ["markup.quote"],
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": "italic",
+        "foreground": "#00DFB5"
       }
     },
     {
