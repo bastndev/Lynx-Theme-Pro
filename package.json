@@ -62,11 +62,6 @@
         "path": "./themes/Lynx-Light-theme.json"
       },
       {
-        "label": "3. NIGHT (Lynx Theme Pro)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Lynx-Night-theme.json"
-      },
-      {
         "label": "4. GHIBLI (Lynx Theme Pro)",
         "uiTheme": "vs",
         "path": "./themes/Lynx-xGhibli-theme.json"
