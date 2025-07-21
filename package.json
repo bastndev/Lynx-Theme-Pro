@@ -1,12 +1,12 @@
 {
   "name": "lynx-theme",
   "displayName": "Lynx Theme Pro",
-  "description": "Available now: Dark Mode, Light Mode, Night Mode, Ghibli Mode, Coffee or Halloween Mode 雨",
+  "description": "A comprehensive VS Code theme collection with 5+ modes: Dark, Light, Night, Ghibli, and Coffee. Professional color schemes designed for enhanced productivity and visual comfort.",
   "version": "2.0.0",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
-    "vscode": "^1.43.0"
+    "vscode": "^1.74.0"
   },
   "categories": [
     "Themes"
@@ -14,25 +14,30 @@
   "keywords": [
     "lynx theme",
     "lynx",
-    "tema VSCode",
-    "VS Code",
     "color theme",
     "dark theme",
     "light theme",
-    "dark mode",
-    "light mode",
-    "night mode",
-    "ghibli mode",
-    "coffee mode",
-    "halloween theme",
+    "night theme",
+    "ghibli theme",
+    "coffee theme",
     "modern theme",
-    "colorful theme",
-    "custom theme",
-    "personalization",
+    "professional theme",
     "productivity",
-    "Windows",
-    "Linux",
-    "macOS"
+    "eye-friendly",
+    "developer theme",
+    "code editor theme",
+    "visual studio code",
+    "vscode theme",
+    "programming theme",
+    "syntax highlighting",
+    "ui theme",
+    "multiple themes",
+    "cursor-ai",
+    "windsurft",
+    "trae-ai",
+    "kiro",
+    "firebase studio",
+    "bastndev"
   ],
   "icon": "assets/icon.png",
   "galleryBanner": {
