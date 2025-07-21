@@ -83,6 +83,8 @@
     "gitDecoration.renamedResourceForeground":       "#ffee6b",    // Renamed files
     "gitDecoration.addedResourceForeground":         "#ffee6b",    // Added files
     "editorGhostText.foreground":                    "#717171",    // git commit txt
+    "editorGutter.deletedBackground":                "#ff0000",    // Delete code
+    "editorGutter.modifiedBackground":               "#07daffb7",  // Warning color
 
     // TODO: EDITOR CODE MARK: [TWO-2]
     "editor.background":                     "#231514",    // Editor background
@@ -171,7 +173,7 @@
     "editorWidget.foreground":               "#ffffff",    // AI Select text & ctrl+p
 
     "peekViewTitleDescription.foreground":   "#b64b41",    // Select copilot
-    "editorGutter.addedBackground":          "#241514",    // Added lines background ===
+    "editorGutter.addedBackground":          "#13ff3e21",    // Added lines background ===
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
@@ -415,7 +417,7 @@
       }
     },
     {
-      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "name": "Number, Constant, Function Argument, Embedded",
       "scope": [
         "constant.numeric",
         "constant.language",
@@ -428,6 +430,15 @@
       ],
       "settings": {
         "foreground": "#9f7a47"
+      }
+    },
+    {
+      "name": "Tag Attribute",
+      "scope": [
+        "keyword.other.unit",
+      ],
+      "settings": {
+        "foreground": "#923d34"
       }
     },
     {
@@ -464,6 +475,17 @@
     {
       "name": "Entity Types",
       "scope": ["support.type"],
+      "settings": {
+        "foreground": "#7fb3d3"
+      }
+    },
+    {
+      "name": "CSS ID Selector",
+      "scope": [
+        "entity.other.attribute-name.id.css",
+        "entity.other.attribute-name.id",
+        "punctuation.definition.entity.css"
+      ],
       "settings": {
         "foreground": "#7fb3d3"
       }
@@ -523,7 +545,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#7fb3d3"
+        "foreground": "#7859bc"
       }
     },
     {
@@ -782,7 +804,8 @@
       "name": "Markup - Quote",
       "scope": ["markup.quote"],
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": "italic",
+        "foreground": "#00DFB5"
       }
     },
     {

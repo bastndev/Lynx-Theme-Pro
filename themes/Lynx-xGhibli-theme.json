@@ -63,7 +63,7 @@
     // --- -- - Buttons
     "button.background":                     "#479671",    // Button background
     "button.foreground":                     "#000000",    // Button text
-    "button.hoverBackground":                "#5fc05c",    // Button hover
+    "button.hoverBackground":                "#43ad7c",    // Button hover
     "toolbar.hoverBackground":               "#fdf6e6",    // button hover background
 
     // --- -- - Editor hover widget
@@ -83,6 +83,8 @@
     "gitDecoration.renamedResourceForeground":       "#fa5228",    // Renamed files
     "gitDecoration.addedResourceForeground":         "#fa5228",    // Added files
     "editorGhostText.foreground":                    "#717171",    // git commit txt
+    "editorGutter.deletedBackground":                "#ff0000",    // Delete code
+    "editorGutter.modifiedBackground":               "#07daffb7",  // Warning color  
 
     // TODO: EDITOR CODE MARK: [TWO-2]
     "editor.background":                     "#fef6e4",    // Editor background
@@ -171,7 +173,7 @@
     "editorWidget.foreground":               "#000000",    // AI Select text & ctrl+p
 
     "peekViewTitleDescription.foreground":   "#038c43",    // Select copilot
-    "editorGutter.addedBackground":          "#fff6e5",    // Added lines background ===
+    "editorGutter.addedBackground":          "#13ff3e21",  // Added lines background ===
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
@@ -415,7 +417,7 @@
       }
     },
     {
-      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "name": "Number, Constant, Function Argument, Embedded",
       "scope": [
         "constant.numeric",
         "constant.language",
@@ -428,6 +430,15 @@
       ],
       "settings": {
         "foreground": "#0550ae"
+      }
+    },
+        {
+      "name": "Tag Attribute",
+      "scope": [
+        "keyword.other.unit",
+      ],
+      "settings": {
+        "foreground": "#7e868e"
       }
     },
     {
@@ -466,6 +477,17 @@
       "scope": ["support.type"],
       "settings": {
         "foreground": "#6f42c1"
+      }
+    },
+    {
+      "name": "CSS ID Selector",
+      "scope": [
+        "entity.other.attribute-name.id.css",
+        "entity.other.attribute-name.id",
+        "punctuation.definition.entity.css"
+      ],
+      "settings": {
+        "foreground": "#d4a927"
       }
     },
     {
@@ -541,7 +563,7 @@
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class","support.function"],
       "settings": {
-        "foreground": "#0969da"
+        "foreground": "#38a0aa"
       }
     },
     {
@@ -782,7 +804,8 @@
       "name": "Markup - Quote",
       "scope": ["markup.quote"],
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": "italic",
+        "foreground": "#00DFB5"
       }
     },
     {

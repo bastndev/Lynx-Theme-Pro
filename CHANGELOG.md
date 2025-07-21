@@ -12,7 +12,7 @@ It includes 6 beautiful variants: Dark Mode, Light Mode, Night Mode, Ghibli Mode
 One-time registration.
 ---------------------
 
-Discover more extensions designed to enhance your development experience, and explore tools that combine functionality and style to take your workflow to the next level: https://bastndev.com/vscode
+Discover more extensions designed to enhance your development experience, and explore tools that combine functionality and style to take your workflow to the next level: bastndev.com/vscode
 
 #### Changelog
 
@@ -28,7 +28,7 @@ Discover more extensions designed to enhance your development experience, and ex
 
 - [fix] Refactor code 
 - [add] Prettier
-- [Better] Readme.md
+- [Better] Readme
 
 ## 0.6.0 (31-05-24)
 

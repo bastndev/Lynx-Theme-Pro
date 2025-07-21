@@ -83,6 +83,8 @@
     "gitDecoration.renamedResourceForeground":       "#ffee6b",    // Renamed files
     "gitDecoration.addedResourceForeground":         "#ffee6b",    // Added files
     "editorGhostText.foreground":                    "#717171",    // git commit txt
+    "editorGutter.deletedBackground":                "#ff0000",    // Delete code
+    "editorGutter.modifiedBackground":               "#07daffb7",  // Warning color
 
     // TODO: EDITOR CODE MARK: [TWO-2]
     "editor.background":                     "#0d0d0d",    // Editor background
@@ -171,7 +173,7 @@
     "editorWidget.foreground":               "#e9e9e9",    // AI Select text & ctrl+p
 
     "peekViewTitleDescription.foreground":   "#13ff3e",    // Select copilot
-    "editorGutter.addedBackground":          "#0d0d0d",    // Added lines background ===
+    "editorGutter.addedBackground":          "#13ff3e21",  // Added lines background ===
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
@@ -363,7 +365,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#DEA048"
+        "foreground": "#FFCB6B"
       }
     },
     {
@@ -373,7 +375,7 @@
         "constant.other.color",
       ],
       "settings": {
-        "foreground": "#919288"
+        "foreground": "#efc547"
       }
     },
     {
@@ -415,7 +417,7 @@
       }
     },
     {
-      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "name": "Number, Constant, Function Argument, Embedded",
       "scope": [
         "constant.numeric",
         "constant.language",
@@ -427,7 +429,16 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#ae81ff"
+        "foreground": "#018466"
+      }
+    },
+    {
+      "name": "Tag Attribute",
+      "scope": [
+        "keyword.other.unit",
+      ],
+      "settings": {
+        "foreground": "#7e868e"
       }
     },
     {
@@ -458,7 +469,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#DEA048"
+        "foreground": "#E49C2F"
       }
     },
     {
@@ -466,6 +477,17 @@
       "scope": ["support.type"],
       "settings": {
         "foreground": "#B2CCD6"
+      }
+    },
+    {
+      "name": "CSS ID Selector",
+      "scope": [
+        "entity.other.attribute-name.id.css",
+        "entity.other.attribute-name.id",
+        "punctuation.definition.entity.css"
+      ],
+      "settings": {
+        "foreground": "#efc547"
       }
     },
     {
@@ -479,7 +501,7 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#fdfff1"
+        "foreground": "#cacccf"
       }
     },
     {
@@ -523,7 +545,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#9170d3"
       }
     },
     {
@@ -541,7 +563,7 @@
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class","support.function"],
       "settings": {
-        "foreground": "#a6e22e"
+        "foreground": "#dd854b"
       }
     },
     {
@@ -782,7 +804,8 @@
       "name": "Markup - Quote",
       "scope": ["markup.quote"],
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": "italic",
+        "foreground": "#00DFB5"
       }
     },
     {
