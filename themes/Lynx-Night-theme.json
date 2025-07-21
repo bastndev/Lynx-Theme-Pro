@@ -461,15 +461,15 @@
         "entity.name",
         "support.type",
         "support.class",
-        "meta.use.php",
         "support.other.namespace.use.php",
+        "meta.use.php",
         "support.other.namespace.php",
         "punctuation.definition.tag",
         "markup.changed.git_gutter",
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#DEA048"
+        "foreground": "#dfca6c"
       }
     },
     {
