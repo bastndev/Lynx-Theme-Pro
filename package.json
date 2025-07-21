@@ -2,10 +2,9 @@
   "name": "lynx-theme",
   "displayName": "Lynx Theme Pro",
   "description": "Available now: Dark Mode, Light Mode, Night Mode, Ghibli Mode, Coffee or Halloween Mode 雨",
-  "version": "1.9.9",
+  "version": "2.0.0",
   "publisher": "bastndev",
   "license": "MIT",
-  "preview": true,
   "engines": {
     "vscode": "^1.43.0"
   },

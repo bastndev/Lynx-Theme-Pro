@@ -16,6 +16,10 @@ Discover more extensions designed to enhance your development experience, and ex
 
 #### Changelog
 
+## 2.0.0 (18-06-2025)
+- [ADD] Icons
+- [fix] Night Theme Refactor 
+
 ## 1.9.6 (18-06-2025)
 
 - [new] Lynx Coffee Theme Pro
