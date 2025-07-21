@@ -63,7 +63,7 @@
     // --- -- - Buttons
     "button.background":                     "#479671",    // Button background
     "button.foreground":                     "#000000",    // Button text
-    "button.hoverBackground":                "#5fc05c",    // Button hover
+    "button.hoverBackground":                "#43ad7c",    // Button hover
     "toolbar.hoverBackground":               "#fdf6e6",    // button hover background
 
     // --- -- - Editor hover widget
@@ -83,7 +83,8 @@
     "gitDecoration.renamedResourceForeground":       "#fa5228",    // Renamed files
     "gitDecoration.addedResourceForeground":         "#fa5228",    // Added files
     "editorGhostText.foreground":                    "#717171",    // git commit txt
-    "editorGutter.modifiedBackground":               "#ff0000",    // LINE red in left - number-right    
+    "editorGutter.deletedBackground":                "#ff0000",    // Delete code
+    "editorGutter.modifiedBackground":               "#07daffb7",  // Warning color  
 
     // TODO: EDITOR CODE MARK: [TWO-2]
     "editor.background":                     "#fef6e4",    // Editor background
@@ -172,7 +173,7 @@
     "editorWidget.foreground":               "#000000",    // AI Select text & ctrl+p
 
     "peekViewTitleDescription.foreground":   "#038c43",    // Select copilot
-    "editorGutter.addedBackground":          "#fff6e5",    // Added lines background ===
+    "editorGutter.addedBackground":          "#13ff3e21",  // Added lines background ===
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
