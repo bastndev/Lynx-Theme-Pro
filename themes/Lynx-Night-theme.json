@@ -83,7 +83,8 @@
     "gitDecoration.renamedResourceForeground":       "#ffee6b",    // Renamed files
     "gitDecoration.addedResourceForeground":         "#ffee6b",    // Added files
     "editorGhostText.foreground":                    "#717171",    // git commit txt
-    "editorGutter.modifiedBackground":               "#ff0000",    // LINE red in left - number-right
+    "editorGutter.deletedBackground":                "#ff0000",    // Delete code
+    "editorGutter.modifiedBackground":               "#07daffb7",  // Warning color
 
     // TODO: EDITOR CODE MARK: [TWO-2]
     "editor.background":                     "#192124",    // Editor background
@@ -172,7 +173,7 @@
     "editorWidget.foreground":               "#e9e9e9",    // AI Select text & ctrl+p
 
     "peekViewTitleDescription.foreground":   "#13ff3e",    // Select copilot
-    "editorGutter.addedBackground":          "#182124",    // Added lines background ===
+    "editorGutter.addedBackground":          "#50b68c34",    // Added lines background ===
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
