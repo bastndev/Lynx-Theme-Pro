@@ -1,16 +1,14 @@
 {
   "name": "lynx-theme",
   "displayName": "Lynx Theme Pro",
-  "description": "A comprehensive VS Code theme collection with 5+ modes: Dark, Light, Night, Ghibli, and Coffee. Professional color schemes designed for enhanced productivity and visual comfort.",
+  "description": "Available now: VSCode, Cursor, Windsurf, Trae.ai, Kiro & (Firebase Studio)... 雨 ",
   "version": "2.0.0",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
     "vscode": "^1.74.0"
   },
-  "categories": [
-    "Themes"
-  ],
+  "categories": ["Themes", "Other"],
   "keywords": [
     "lynx theme",
     "lynx",
@@ -32,12 +30,13 @@
     "syntax highlighting",
     "ui theme",
     "multiple themes",
-    "cursor-ai",
+    "vscode",
+    "cursor",
     "windsurf",
-    "trae-ai",
+    "trae.ai",
     "kiro",
     "firebase studio",
-    "bastndev"
+    "2025"
   ],
   "icon": "assets/icon.png",
   "galleryBanner": {
@@ -52,11 +51,10 @@
   "bugs": {
     "url": "https://github.com/bastndev/Lynx-Theme/issues"
   },
-  "qna": "https://github.com/bastndev/Lynx-Theme/discussions",
   "author": {
     "name": "Gohit Bastian",
     "email": "gobasdev@gmail.com",
-    "url": "https://www.bastndev.com"
+    "url": "https://bastndev.com"
   },
   "sponsor": {
     "url": "https://github.com/sponsors/bastndev"
