@@ -57,19 +57,9 @@
     "themes": [
 
       {
-        "label": "2. LIGHT (Lynx Theme Pro)",
-        "uiTheme": "vs",
-        "path": "./themes/Lynx-Light-theme.json"
-      },
-      {
         "label": "4. GHIBLI (Lynx Theme Pro)",
         "uiTheme": "vs",
         "path": "./themes/Lynx-xGhibli-theme.json"
-      },
-      {
-        "label": "5. COFFEE (Lynx Theme Pro)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Lynx-zCoffee-theme.json"
       }
     ],
     "iconThemes": [
