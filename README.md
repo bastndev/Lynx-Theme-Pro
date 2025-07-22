@@ -2,8 +2,6 @@
   <a href="https://github.com/bastndev/Lynx-Theme/releases/tag/v1.2.5"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme/refs/heads/main/assets/images/banner.png" width="100%" alt="CodePen"></a>
 </div>
 
-</br>
-
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-theme"><img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=e3d8a5&colorB=00933b&label=VERSION" alt="Version"></a>&nbsp;
   <a href="https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-theme"><img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=e3d8a5&colorB=00933b&label=RATING" alt="Rating"></a>&nbsp;
