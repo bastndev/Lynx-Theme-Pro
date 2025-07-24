@@ -40,7 +40,7 @@ Whether you want to improve existing themes, create new ones, add icons, or enha
 
 - **Press `F5`** to launch a new VS Code window with your theme loaded
 - **Alternative**: If you have "Lynx Keymap Pro" extension, press `Alt+P`
-- Test with different file types: **TypeScript**, **Python**, **Rust**, **Dart**
+- Test with different file types: **TypeScript**, **Python**, **Dart**, **Rust**
 
 ### Making Changes
 
@@ -116,8 +116,8 @@ When creating your PR, please include:
 Before submitting, please test with:
 - ✅ **TypeScript** files  
 - ✅ **Python** files
-- ✅ **Rust** files
 - ✅ **Dart** files
+- ✅ **Rust** files
 - ✅ Different UI elements (sidebar, editor, terminal)
 - ✅ Both file explorer and code syntax highlighting
 
@@ -139,7 +139,6 @@ When creating themes, please respect the existing structure and formatting. The 
 
 ## Getting Help 🆘
 
-- **Questions?** Open a [Discussion](https://github.com/bastndev/Lynx-Theme-Pro/discussions)
 - **Bugs?** Create an [Issue](https://github.com/bastndev/Lynx-Theme-Pro/issues)
 - **Need inspiration?** Check out the existing themes and the [VS Code theme documentation](https://code.visualstudio.com/api/extension-guides/color-theme)
 
