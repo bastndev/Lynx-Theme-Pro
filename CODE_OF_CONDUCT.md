@@ -4,7 +4,7 @@
 
 Lynx Theme Pro is committed to providing a welcoming and inclusive environment for all contributors and users. We believe that a great development experience comes from a community built on respect, collaboration, and mutual support.
 
-We welcome contributions from developers of all skill levels and backgrounds, whether you're reporting bugs, suggesting improvements, contributing code, sharing screenshots, or helping with documentation.
+We welcome contributions from developers of all skill levels and backgrounds.
 
 ## Our Standards
 
@@ -52,11 +52,3 @@ I am committed to respecting the privacy of anyone who reports an issue in good 
 ## Scope
 
 This Code of Conduct applies to all project spaces, including GitHub issues, pull requests, discussions, and any other forums where our community interacts. It also applies when representing the project in public spaces.
-
-## Contact
-
-For questions about this Code of Conduct or to report concerns, please contact: gobasdev@gmail.com
-
----
-
-*This Code of Conduct is inspired by best practices from the open source community and adapted specifically for the Lynx Theme Pro project.*
