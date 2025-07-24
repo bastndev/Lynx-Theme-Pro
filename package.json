@@ -1,7 +1,7 @@
 {
   "name": "lynx-theme",
   "displayName": "Lynx Theme Pro",
-  "description": "Available now: VSCode, Cursor, Windsurf, Trae.ai, Kiro & (Firebase Studio)... 雨 ",
+  "description": "𝙰𝚟𝚊𝚒𝚕𝚊𝚋𝚕𝚎 𝚗𝚘𝚠: VSCode • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
   "version": "2.0.2",
   "publisher": "bastndev",
   "license": "MIT",
@@ -12,12 +12,6 @@
   "keywords": [
     "lynx theme",
     "lynx",
-    "color theme",
-    "dark theme",
-    "light theme",
-    "night theme",
-    "ghibli theme",
-    "coffee theme",
     "modern theme",
     "professional theme",
     "productivity",
