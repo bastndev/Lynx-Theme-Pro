@@ -11,7 +11,7 @@ A complete and versatile theme collection designed for optimal coding experience
 - **Professional Design**: Thoughtfully crafted for extended coding sessions
 - **One-time Registration**: Simple activation process
 
-Discover more extensions at [bastndev.com/vscode](https://bastndev.com/vscode)
+Discover more extensions at [bastndev.com/extensions](https://bastndev.com/extensions)
 
 ---
 
