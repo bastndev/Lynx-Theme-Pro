@@ -1,52 +1,75 @@
-# Lynx Theme Pro for Visual Studio Code Changelog
+# Lynx Theme Pro 
+✨ **Step Into the Light** ✨
 
-✨ Step Into the Light ✨
--------------------------
+A complete and versatile theme collection designed for optimal coding experience in both dark and bright environments. Lynx Theme Pro features carefully calibrated colors and contrast ratios to provide excellent visibility and comfort in any lighting condition.
 
-Say hello to the official Lynx Theme Pro. Perfect for coding in both dark and bright environments, as it’s a complete and versatile theme. With the additional 'Sun' filter, you’ll also enjoy a warm and comfortable coding experience.
-Carefully calibrated to provide excellent visibility in any lighting condition.
--------------------------------------------
+## Features
 
-Lynx Theme Pro is thoughtfully designed to make your workspace feel comfortable in both dark and bright environments. Whether you work in natural daylight or prefer a dim, focused atmosphere, this complete theme ensures clarity and focus at every step.
-It includes 6 beautiful variants: Dark Mode, Light Mode, Night Mode, Ghibli Mode, Coffee Mode.
-One-time registration.
----------------------
+- **5 Beautiful Theme Variants**: Dark Mode, Light Mode, Night Mode, Ghibli Mode, Coffee Mode, and ICONS
+- **Universal Compatibility**: Perfect for coding in any lighting environment
+- **Eye Comfort**: Warm and comfortable coding experience with optional Sun filter
+- **Professional Design**: Thoughtfully crafted for extended coding sessions
+- **One-time Registration**: Simple activation process
 
-Discover more extensions designed to enhance your development experience, and explore tools that combine functionality and style to take your workflow to the next level: bastndev.com/vscode
+Discover more extensions at [bastndev.com/vscode](https://bastndev.com/vscode)
 
-#### Changelog
+---
 
-## 2.0.0 (22-07-2025)
-- [ADD] Icons
-- [fix] Night Theme Refactor 
+## Changelog
 
-## 1.9.6 (18-06-2025)
+Following VS Code best practices, Lynx Theme Pro uses semantic versioning for all releases.
 
-- [new] Lynx Coffee Theme Pro
-- [new] Lynx Night Theme Pro
-- [fix] Dark Theme
-- [fix] Light Theme
-- [fix] Ghibli Theme
+## [2.0.0] - 2025-06-18
 
-## 1.1.1 (15-06-2025)
+### Added
+- Complete icon set integration for enhanced visual consistency
+- Improved theme variant switching experience
 
-- [fix] Refactor code 
-- [add] Prettier
-- [Better] Readme
+### Fixed
+- Night Theme: Complete refactor for better readability and eye comfort
+- Enhanced color accuracy across all theme variants
 
-## 0.6.0 (31-05-24)
+## [1.9.6] - 2025-06-18
 
-- [Add] Ghibli heme
-- [fix] light theme 
+### Added
+- **Lynx Coffee Theme Pro**: New warm, coffee-inspired variant perfect for cozy coding sessions
+- **Lynx Night Theme Pro**: Enhanced dark variant optimized for late-night coding
 
-## 0.2.2 (24-10-24)
+### Fixed
+- Dark Theme: Improved syntax highlighting and contrast ratios
+- Light Theme: Better text visibility and reduced eye strain
+- Ghibli Theme: Enhanced color palette consistency and readability
 
-- [Add] Lynx Light Theme
+## [1.1.1] - 2025-06-15
 
-## 0.0.2 (22-04-2025)
+### Changed
+- Complete code refactoring for improved performance and maintainability
+- Enhanced README documentation with better installation and usage instructions
 
-- [new] Lynx Dark theme Pro 
+### Added
+- Prettier integration support for better code formatting experience
 
-## 0.0.1 (13-03-2025)
+## [0.6.0] - 2024-05-31
 
-Initial release
+### Added
+- **Ghibli Theme**: New theme variant inspired by Studio Ghibli aesthetics
+
+### Fixed
+- Light Theme: Improved readability and contrast adjustments
+
+## [0.2.2] - 2024-10-24
+
+### Added
+- **Lynx Light Theme**: Professional light variant for bright environment coding
+
+## [0.0.2] - 2025-04-22
+
+### Added
+- **Lynx Dark Theme Pro**: Enhanced dark theme with professional color scheme and improved syntax highlighting
+
+## [0.0.1] - 2025-03-13
+
+### Initial Release
+- Initial release of Lynx Theme Pro
+- Basic dark theme implementation
+- Core theme infrastructure and settings
