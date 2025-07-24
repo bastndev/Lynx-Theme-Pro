@@ -3,9 +3,9 @@
 </div>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-theme"><img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=e3d8a5&colorB=00933b&label=VERSION" alt="Version"></a>&nbsp;
-  <a href="https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-theme"><img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=e3d8a5&colorB=00933b&label=RATING" alt="Rating"></a>&nbsp;
-  <a href="https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-theme"><img src="https://vsmarketplacebadges.dev/installs-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=e3d8a5&colorB=00933b&label=INSTALLS" alt="Installs"></a>&nbsp;
+  <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=e3d8a5&colorB=00933b&label=VERSION" alt="Version">&nbsp;
+  <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=e3d8a5&colorB=00933b&label=RATING" alt="Rating">&nbsp;
+  <img src="https://vsmarketplacebadges.dev/installs-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=e3d8a5&colorB=00933b&label=INSTALLS" alt="Installs">&nbsp;
   <a href="https://github.com/bastndev/Lynx-Theme-Pro"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
 </p>
 
