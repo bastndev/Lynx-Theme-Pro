@@ -346,7 +346,7 @@
       "name": "Meta Tag",
       "scope": ["meta.tag"],
       "settings": {
-        "foreground": "#24292e"
+        "foreground": "#000000"
       }
     },
         {
@@ -453,7 +453,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#0a3069"
+        "foreground": "#3ca10c"
       }
     },
     {
@@ -545,7 +545,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#6f42c1"
+        "foreground": "#c142a6"
       }
     },
     {
