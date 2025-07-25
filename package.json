@@ -2,34 +2,23 @@
   "name": "lynx-theme",
   "displayName": "Lynx Theme Pro",
   "description": "Available now: VSCode • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
-  "version": "2.0.8",
+  "version": "2.1.0",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
     "vscode": "^1.74.0"
   },
-  "categories": ["Themes", "Other"],
+  "categories": ["Themes"],
   "keywords": [
-    "lynx theme",
-    "lynx",
-    "modern theme",
-    "professional theme",
+    "color-theme",
+    "dark-theme",
+    "light-theme",
+    "night-theme",
+    "ghibli-theme",
+    "coffee-theme",
+    "Icons",
     "productivity",
     "eye-friendly",
-    "developer theme",
-    "code editor theme",
-    "visual studio code",
-    "vscode theme",
-    "programming theme",
-    "syntax highlighting",
-    "ui theme",
-    "multiple themes",
-    "vscode",
-    "cursor",
-    "windsurf",
-    "trae.ai",
-    "kiro",
-    "firebase studio",
     "2025"
   ],
   "icon": "assets/icon.png",
@@ -85,7 +74,7 @@
       {
         "id": "lynx-pro",
         "label": "Lynx Icons",
-        "path": "./icon-themes/lynx-pro-icons.json"
+        "path": "./icon-themes/lynx-icons.json"
       }
     ]
   }
