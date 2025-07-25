@@ -8,18 +8,17 @@
   "engines": {
     "vscode": "^1.74.0"
   },
-  "categories": ["Themes", "Other"],
+  "categories": ["Themes"],
   "keywords": [
-    "Color Theme",
-    "Five Theme",
-    "Icons + Theme",
+    "color-theme",
+    "dark-theme",
+    "light-theme",
+    "night-theme",
+    "ghibli-theme",
+    "coffee-theme",
+    "Icons",
     "productivity",
     "eye-friendly",
-    "Dark Theme",
-    "Light Theme",
-    "Night Theme",
-    "Ghibli Theme",
-    "Coffee theme",
     "2025"
   ],
   "icon": "assets/icon.png",
