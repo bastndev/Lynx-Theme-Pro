@@ -67,13 +67,18 @@
       {
         "label": "5. COFFEE (Lynx Theme Pro)",
         "uiTheme": "vs-dark",
-        "path": "./themes/Lynx-zCoffee-theme.json"
+        "path": "./themes/Lynx-yCoffee-theme.json"
+      },
+      {
+        "label": "6. KIRO (Lynx Theme Pro)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lynx-zKiro-theme.json"
       }
     ],
     "iconThemes": [
       {
         "id": "lynx-pro",
-        "label": "Lynx Icons",
+        "label": "Lynx ICONS",
         "path": "./icon-themes/lynx-icons.json"
       }
     ]
