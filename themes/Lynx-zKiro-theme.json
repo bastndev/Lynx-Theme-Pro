@@ -105,13 +105,14 @@
 
     // --- -- - Tabs Header - TOP
     "editorGroupHeader.tabsBackground":      "#28242e",    // Tabs header background
-    "editorGroupHeader.tabsBorder":          "#28242e",    // Tabs header border line horizontal
+    "editorGroupHeader.tabsBorder":          "#524c5c",    // Tabs header border line horizontal
     "tab.activeBackground":                  "#28242e",    // bg select second line
     "tab.activeForeground":                  "#ffffff",    // Active tab text
+    "tab.activeBorderTop":                   "#b080ff",    // Active tab border top
     "tab.activeBorder":                      "#211d25",    // Active tab border
     "tab.inactiveBackground":                "#28242e",    // Inactive tab background
     "tab.inactiveForeground":                "#938f9b",    // Inactive tab text
-    "tab.border":                            "#28242e",    // Tab border Vertical
+    "tab.border":                            "#524c5c",    // Tab border Vertical
     "tab.hoverBackground":                   "#352f3d",    // hover
     "tab.hoverForeground":                   "#ffffff",    // Tab hover text
     "tab.hoverBorder":                       "#4a464f",    // Tab hover border
