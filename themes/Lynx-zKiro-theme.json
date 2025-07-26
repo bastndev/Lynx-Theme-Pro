@@ -174,7 +174,7 @@
     "editorWidget.foreground":               "#ffffff",    // AI Select text & ctrl+p
 
     "peekViewTitleDescription.foreground":   "#b080ff",    // Select copilot
-    "editorGutter.addedBackground":          "#80ffb5bf",  // Added lines background ===
+    "editorGutter.addedBackground":          "#13ff3e21",  // Added lines background ===
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
@@ -202,27 +202,27 @@
     "panelSectionHeader.foreground":         "#b080ff",    // Panel section header text
 
     // --- -- - Terminal colors
-    "terminal.background":                   "#211d25",    // Terminal background
-    "terminal.foreground":                   "#ffffff",    // Terminal text
-    "terminal.ansiBlack":                    "#19161d",    // Terminal black color
-    "terminal.ansiBlue":                     "#8dc8fb",    // Terminal blue color
-    "terminal.ansiBrightBlack":              "#ffffff40",  // Terminal bright black color
-    "terminal.ansiBrightBlue":               "#8dc8fb",    // Terminal bright blue color
-    "terminal.ansiBrightCyan":               "#80f4ff",    // Terminal bright cyan color
-    "terminal.ansiBrightGreen":              "#80ffb5",    // Terminal bright green color
-    "terminal.ansiBrightMagenta":            "#8e47ff",    // Terminal bright magenta color
-    "terminal.ansiBrightRed":                "#ff8080",    // Terminal bright red color
+    "terminal.background":                   "#0a0a0a",    // Terminal background
+    "terminal.foreground":                   "#c9d1d9",    // Terminal text
+    "terminal.ansiBlack":                    "#000000",    // Terminal black color
+    "terminal.ansiBlue":                     "#5fc05c",    // Terminal blue color
+    "terminal.ansiBrightBlack":              "#545454",    // Terminal bright black color
+    "terminal.ansiBrightBlue":               "#62cdff",    // Terminal bright blue color
+    "terminal.ansiBrightCyan":               "#00d0e7",    // Terminal bright cyan color
+    "terminal.ansiBrightGreen":              "#0dff00",    // Terminal bright green color
+    "terminal.ansiBrightMagenta":            "#c792ea",    // Terminal bright magenta color
+    "terminal.ansiBrightRed":                "#ed0a3f",    // Terminal bright red color
     "terminal.ansiBrightWhite":              "#ffffff",    // Terminal bright white color
-    "terminal.ansiBrightYellow":             "#fff2b3",    // Terminal bright yellow color
-    "terminal.ansiCyan":                     "#80f4ff",    // Terminal cyan color
-    "terminal.ansiGreen":                    "#80ffb5",    // Terminal green color
-    "terminal.ansiMagenta":                  "#8e47ff",    // Terminal magenta color
-    "terminal.ansiRed":                      "#ff8080",    // Terminal red color
+    "terminal.ansiBrightYellow":             "#ffcb6b",    // Terminal bright yellow color
+    "terminal.ansiCyan":                     "#00a5d1",    // Terminal cyan color
+    "terminal.ansiGreen":                    "#0dff00",    // Terminal green color
+    "terminal.ansiMagenta":                  "#c792ea",    // Terminal magenta color
+    "terminal.ansiRed":                      "#ff3e48",    // Terminal red color
     "terminal.ansiWhite":                    "#ffffff",    // Terminal white color
-    "terminal.ansiYellow":                   "#fff2b3",    // Terminal yellow color
-    "terminalCursor.background":             "#19161d",    // Terminal cursor background
-    "terminalCursor.foreground":             "#b080ff",    // Terminal cursor foreground
-    "terminal.selectionBackground":          "#b080ff20",  // Terminal selection background
+    "terminal.ansiYellow":                   "#ffcb6b",    // Terminal yellow color
+    "terminalCursor.background":             "#000000",    // Terminal cursor background
+    "terminalCursor.foreground":             "#ffcb6b",    // Terminal cursor foreground
+    "terminal.selectionBackground":          "#0567f1",    // Terminal selection background
 
 // --- -- - Notifications
     "notifications.background":              "#28242e",    // Notification background
