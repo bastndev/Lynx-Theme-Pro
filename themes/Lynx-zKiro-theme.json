@@ -105,13 +105,13 @@
 
     // --- -- - Tabs Header - TOP
     "editorGroupHeader.tabsBackground":      "#28242e",    // Tabs header background
-    "editorGroupHeader.tabsBorder":          "#4a464f",    // Tabs header border
+    "editorGroupHeader.tabsBorder":          "#28242e",    // Tabs header border line horizontal
     "tab.activeBackground":                  "#28242e",    // bg select second line
     "tab.activeForeground":                  "#ffffff",    // Active tab text
     "tab.activeBorder":                      "#211d25",    // Active tab border
     "tab.inactiveBackground":                "#28242e",    // Inactive tab background
     "tab.inactiveForeground":                "#938f9b",    // Inactive tab text
-    "tab.border":                            "#4a464f",    // Tab border
+    "tab.border":                            "#28242e",    // Tab border Vertical
     "tab.hoverBackground":                   "#352f3d",    // hover
     "tab.hoverForeground":                   "#ffffff",    // Tab hover text
     "tab.hoverBorder":                       "#4a464f",    // Tab hover border
@@ -287,6 +287,7 @@
     "editorBracketMatch.background":         "#b080ff20",  // Bracket match background
     "editorBracketMatch.border":             "#b080ff",    // Bracket match border    
     "editorBracketHighlight.unexpectedBracket.foreground": "#ff8080", // Unexpected bracket color
+    
   },
 
   "tokenColors": [
