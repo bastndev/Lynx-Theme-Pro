@@ -56,7 +56,7 @@
     "sideBar.foreground":                    "#ffffff",    // Text vscode all
     "sideBar.border":                        "#211d25",    // LINE RIGHT & LEFT
     "sideBarSectionHeader.background":       "#211d25",    // LINE bg
-    "sideBarSectionHeader.border":           "#352f3d",    // Line top
+    "sideBarSectionHeader.border":           "#211d25",    // Line top
     "sideBarTitle.foreground":               "#ffffff",    // Explorer
     "sideBarSectionHeader.foreground":       "#b080ff",    // Css text and BOT txt
 
