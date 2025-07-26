@@ -271,7 +271,7 @@
     "textCodeBlock.background":              "#19161d",    // Code block background 
 
     // ---- -- - Selection BG
-    "selection.background":                  "#b080ff20",  // selection background
+    "selection.background":                  "#5f0ae793",  // selection background
 
     // --- -- - BG message error
     "inputValidation.errorBackground":       "#ff8080",    // Error message background
