@@ -19,6 +19,17 @@ Discover more extensions at [bastndev.com/extensions](https://bastndev.com/exten
 
 Following VS Code best practices, Lynx Theme Pro uses semantic versioning for all releases.
 
+## [2.1.1] - 2025-07-26
+
+### Added
+- **Lynx KIRO Theme**: New theme inspired by KIRO aesthetics, designed to provide a unique and modern coding experience.
+
+### Changed
+- Minor documentation update to include the new Lynx KIRO theme.
+
+### Fixed
+- Minor formatting corrections in configuration files.
+
 ## [2.1.0] - 2025-07-25
 
 ### Fixed

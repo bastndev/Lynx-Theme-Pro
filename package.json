@@ -2,7 +2,7 @@
   "name": "lynx-theme",
   "displayName": "Lynx Theme Pro",
   "description": "Available now: VSCode • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
@@ -16,6 +16,7 @@
     "night-theme",
     "ghibli-theme",
     "coffee-theme",
+    "kiro-theme",
     "Icons",
     "productivity",
     "eye-friendly",
@@ -67,13 +68,18 @@
       {
         "label": "5. COFFEE (Lynx Theme Pro)",
         "uiTheme": "vs-dark",
-        "path": "./themes/Lynx-zCoffee-theme.json"
+        "path": "./themes/Lynx-yCoffee-theme.json"
+      },
+      {
+        "label": "6. KIRO (Lynx Theme Pro)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lynx-zKiro-theme.json"
       }
     ],
     "iconThemes": [
       {
         "id": "lynx-pro",
-        "label": "Lynx Icons",
+        "label": "Lynx ICONS",
         "path": "./icon-themes/lynx-icons.json"
       }
     ]
