@@ -53,7 +53,7 @@
 
     // --- -- - Side Bar
     "sideBar.background":                    "#211d25",    // Ai and Side bar background
-    "sideBar.foreground":                    "#ffffff",    // Text vscode all
+    "sideBar.foreground":                    "#a2a9b5",    // Text vscode all
     "sideBar.border":                        "#211d25",    // LINE RIGHT & LEFT
     "sideBarSectionHeader.background":       "#211d25",    // LINE bg
     "sideBarSectionHeader.border":           "#211d25",    // Line top
@@ -72,19 +72,19 @@
     "editorHoverWidget.statusBarBackground": "#352f3d",    // Hover widget status bar bg
 
     //--- -- - GIT Decoration
-    "gitDecoration.modifiedResourceForeground":      "#ffcf99",    // Modified files
-    "gitDecoration.conflictingResourceForeground":   "#ff8080",    // Merge conflicts
-    "gitDecoration.deletedResourceForeground":       "#dfffb3",    // Deleted files
-    "gitDecoration.ignoredResourceForeground":       "#938f9b",    // Ignored files
-    "gitDecoration.untrackedResourceForeground":     "#80ffb5",    // Untracked files
-    "gitDecoration.stageModifiedResourceForeground": "#ffcf99",    // Staged modified files
-    "gitDecoration.stageDeletedResourceForeground":  "#dfffb3",    // Staged deleted files
-    "gitDecoration.submoduleResourceForeground":     "#8e47ff",    // Submodules
-    "gitDecoration.renamedResourceForeground":       "#fff2b3",    // Renamed files
-    "gitDecoration.addedResourceForeground":         "#80ffb5",    // Added files
-    "editorGhostText.foreground":                    "#938f9b",    // git commit txt
-    "editorGutter.deletedBackground":                "#ff8080bf",  // Delete code
-    "editorGutter.modifiedBackground":               "#b080ffbf",  // Warning color
+    "gitDecoration.modifiedResourceForeground":      "#66be8b",    // Modified files
+    "gitDecoration.conflictingResourceForeground":   "#00a1fe90",  // Merge conflicts
+    "gitDecoration.deletedResourceForeground":       "#f07177f5",  // Deleted files
+    "gitDecoration.ignoredResourceForeground":       "#616161f6",  // Ignored files
+    "gitDecoration.untrackedResourceForeground":     "#21f21a",    // Untracked files
+    "gitDecoration.stageModifiedResourceForeground": "#ffcb6b",    // Staged modified files
+    "gitDecoration.stageDeletedResourceForeground":  "#ffcb6b",    // Staged deleted files
+    "gitDecoration.submoduleResourceForeground":     "#ffcb6b",    // Submodules
+    "gitDecoration.renamedResourceForeground":       "#ffee6b",    // Renamed files
+    "gitDecoration.addedResourceForeground":         "#ffee6b",    // Added files
+    "editorGhostText.foreground":                    "#717171",    // git commit txt
+    "editorGutter.deletedBackground":                "#ff0000",    // Delete code
+    "editorGutter.modifiedBackground":               "#07daffb7",  // Warning color
 
     // TODO: EDITOR CODE MARK: [TWO-2]
     "editor.background":                     "#211d25",    // Editor background
