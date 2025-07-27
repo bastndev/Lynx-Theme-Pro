@@ -154,8 +154,8 @@
     "widget.shadow":                         "#00000050",  // Widget shadow
 
     // --- -- - Editor Diff git
-    "diffEditor.insertedTextBackground":  "#00b7ff63",
-    "diffEditor.removedTextBackground":   "#ff00552c",
+    "diffEditor.insertedTextBackground":    "#00b7ff63",   // Inserted text background
+    "diffEditor.removedTextBackground":     "#ff00552c",   // Removed text background
 
     // TODO: COPILOT -AI MARK: [THREE-3]-[AI]
     "input.background":                      "#080808",    // bg color
