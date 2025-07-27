@@ -4,9 +4,9 @@
   "semanticHighlighting": true,
   "name": "Lynx Dark Theme",
   "type": "dark",
-
+  
   "colors": {
-    // TODO: Menu Status Bar MARK: - [TOP]
+    // TODO: MENU STATUS BAR MARK: - [TOP]
     "titleBar.activeBackground":             "#0d0d0d",    // Background
     "titleBar.activeForeground":             "#d0d0d0",    // TOP text 1
     "titleBar.border":                       "#0d0d0d",    // LINE
@@ -30,7 +30,7 @@
     "list.hoverForeground":                  "#cccccc",    // Text select
     "list.dropBackground":                   "#000000",    // Drop background
     
-    // TODO: Activity Bar MARK: [ONE-1]
+    // TODO: ACTIVITY BAR MARK: [ONE-1]
     "activityBar.background":                "#0d0d0d",    // Activity bar background
     "activityBar.foreground":                "#eeffff",    // Activity bar text
     "activityBar.border":                    "#0d0d0d",    // Activity bar border
@@ -88,7 +88,7 @@
     "editorGutter.deletedBackground":                "#ff0000",    // Delete code
     "editorGutter.modifiedBackground":               "#07daffb7",  // Warning color
  
-    // TODO: Code editor MARK: [TWO-2]
+    // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#0d0d0d",    // Editor background
     "editor.foreground":                     "#eeffff",    // Editor [STORE] text
     "editor.findMatchBackground":            "#000000",    // Find match background
@@ -157,7 +157,7 @@
     "diffEditor.insertedTextBackground":  "#00b7ff63",
     "diffEditor.removedTextBackground":   "#ff00552c",
 
-    // TODO: Copilot -AI MARK: [THREE-3-AI]
+    // TODO: COPILOT -AI MARK: [THREE-3-AI]
     "input.background":                      "#080808",    // bg color
     "input.foreground":                      "#ffffff",    // Input text color
     "input.border":                          "#141414",    // Input border color
@@ -251,7 +251,7 @@
     "debugToolBar.background":               "#080808",    // Debug toolbar background
     "debugToolBar.border":                   "#212122",    // Border debug optional
 
-    // TODO: Status Bar MARK: - [BOTTOM]
+    // TODO: STATUS BAR MARK: - [BOTTOM]
     "statusBar.background":                  "#0d0d0d",    // Status bar background
     "statusBar.foreground":                  "#616161",    // Status bar text color
     "statusBar.border":                      "#42414160",  // Status bar line border
@@ -267,7 +267,7 @@
     "statusBarItem.remoteHoverForeground":   "#13ff3e",    // Hover corner logo-ICON
     "statusBarItem.prominentBackground":     "#352f3d",    // Bottom box background
 
-    // TODO: -  BG store vscode MARK:[+]
+    // TODO: -  BG STORE VSCODE MARK:[+]
     "textBlockQuote.background":             "#000000",    // Block quote background
     "textBlockQuote.border":                 "#232323",    // Block quote border LEFT
     "textCodeBlock.background":              "#000000",    // Code block background 
