@@ -6,15 +6,13 @@
   "type": "dark",
 
   "colors": {
-    // ========================================
-    // TITLE BAR & COMMAND CENTER
-    // ========================================
-    "titleBar.activeBackground":             "#0d0d0d",
-    "titleBar.activeForeground":             "#d0d0d0",
-    "titleBar.border":                       "#0d0d0d",
-    "titleBar.inactiveBackground":           "#080808",
-    "titleBar.inactiveForeground":           "#616161",
-    "commandCenter.background":              "#080808",
+    // TODO: Menu Status Bar MARK: - [TOP]
+    "titleBar.activeBackground":             "#0d0d0d",    // Background
+    "titleBar.activeForeground":             "#d0d0d0",    // TOP text 1
+    "titleBar.border":                       "#0d0d0d",    // LINE
+    "titleBar.inactiveBackground":           "#080808",    // Inactive window title
+    "titleBar.inactiveForeground":           "#616161",    // Inactive title text
+    "commandCenter.background":              "#080808",    // Background top box mid
 
     // --- -- - Menu Click & select  
     "menu.background":                       "#080808",    // Menu background
