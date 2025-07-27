@@ -257,17 +257,17 @@
     "statusBar.background":                  "#0d0d0d",    // Status bar background
     "statusBar.foreground":                  "#616161",    // Status bar text color
     "statusBar.border":                      "#42414160",  // Status bar line border
-    "statusBar.debuggingBackground":         "#000000",    // Status bar debugging background
+    "statusBar.debuggingBackground":         "#57b68a09",  // Status bar debugging background
     "statusBar.debuggingForeground":         "#ffffff",    // Status bar debugging text
-    "statusBar.noFolderBackground":          "#080808",    // Status bar no folder background
-    "statusBar.noFolderForeground":          "#616161",    // Status bar no folder text
-    "statusBarItem.hoverBackground":         "#54545420",  // Status bar item hover background
-    "statusBarItem.hoverForeground":         "#5fc05c",    // Status bar item hover text
-    "statusBarItem.activeBackground":        "#f0717880",  // Status bar active item background
-    "statusBarItem.remoteBackground":        "#0d0d0d",    // Remote corner background
+    "statusBar.noFolderBackground":          "#00000000",  // Status bar no folder background
+    "statusBar.noFolderForeground":          "#938f9b",    // Status bar no folder text
+    "statusBarItem.hoverBackground":         "#ffffff13",  // Status bar item hover background
+    "statusBarItem.hoverForeground":         "#ffffff",    // Status bar item hover text
+    "statusBarItem.activeBackground":        "#57b68a09",  // Status bar active item background
+    "statusBarItem.remoteBackground":        "#00000000",  // Remote corner background
     "statusBarItem.remoteForeground":        "#57b689",    // Remote corner logo-ICON
     "statusBarItem.remoteHoverForeground":   "#13ff3e",    // Hover corner logo-ICON
-    "statusBarItem.prominentBackground":     "#000000",    // Bottom box background
+    "statusBarItem.prominentBackground":     "#352f3d",    // Bottom box background
 
     // TODO: -  BG store vscode MARK:[+]
     "textBlockQuote.background":             "#000000",    // Block quote background
