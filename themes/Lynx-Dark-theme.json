@@ -53,7 +53,7 @@
     "list.inactiveSelectionBackground":      "#000000",    // Inactive background
     "list.focusBackground":                  "#3a4a55",    // Focus background
     "list.focusForeground":                  "#c9d1d9",    // Focus text
-    "contrastActiveBorder":                  "#ffffff5a",  // contrast active border
+    "contrastActiveBorder":                  "#d3060600",  // contrast active border -----
 
     // --- -- - Side Bar
     "sideBar.background":                    "#0d0d0d",    // Ai and Side bar background
@@ -89,7 +89,7 @@
     "editorGhostText.foreground":                    "#717171",    // git commit txt
     "editorGutter.deletedBackground":                "#ff0000",    // Delete code
     "editorGutter.modifiedBackground":               "#07daffb7",  // Warning color
-
+ 
     // TODO: EDITOR CODE MARK: [TWO-2]
     "editor.background":                     "#0d0d0d",    // Editor background
     "editor.foreground":                     "#eeffff",    // Editor [STORE] text
@@ -109,13 +109,14 @@
 
     // --- -- - Tabs Header - TOP
     "editorGroupHeader.tabsBackground":      "#0d0d0d",    // Tabs header background
-    "editorGroupHeader.tabsBorder":          "#192124",    // Tabs header border
-    "tab.activeBackground":                  "#080808",    // bg select second line
+    "editorGroupHeader.tabsBorder":          "#192124",    // Tabs header border line horizontal
+    "tab.border":                            "#192124",    // Tab border Vertical
+    "tab.activeBackground":                  "#000000",    // bg select file 
+    "tab.activeBorderTop":                   "#57b689",    // Active tab border top
     "tab.activeForeground":                  "#ffffff",    // Active tab text
     "tab.activeBorder":                      "#080808",    // Active tab border
     "tab.inactiveBackground":                "#0d0d0d",    // Inactive tab background
     "tab.inactiveForeground":                "#6b7280",    // Inactive tab text
-    "tab.border":                            "#0d0d0d",    // Tab border
     "tab.hoverBackground":                   "#1f2220",    // hover
     "tab.hoverForeground":                   "#c9d1d9",    // Tab hover text
     "tab.hoverBorder":                       "#192124",    // Tab hover border
@@ -123,7 +124,7 @@
     "tab.unfocusedInactiveForeground":       "#4a5568",    // Unfocused inactive tab text
 
     // --- -- - Breadcrumb second-Header
-    "breadcrumb.background":                 "#080808",    // bg second line
+    "breadcrumb.background":                 "#000000",    // bg second line
     "breadcrumb.foreground":                 "#616161",    // Breadcrumb text
     "breadcrumbPicker.background":           "#080808",    // Breadcrumb picker background
     "breadcrumb.focusForeground":            "#5fc05c",    // Breadcrumb focus text
