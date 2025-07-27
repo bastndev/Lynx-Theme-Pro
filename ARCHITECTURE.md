@@ -24,57 +24,101 @@ When a user activates the **Lynx Theme Pro** extension in VS Code:
 ```mermaid
 graph TB
     subgraph "📦 Lynx Theme Pro Extension"
-        A[package.json<br/>📋 Main Configuration] --> B[Contributes]
+        direction TB
+        A[package.json<br/>📋 Main Configuration]
         
-        B --> C[🎨 Themes]
-        B --> D[🎯 Icon Themes]
+        subgraph "🔧 Core Structure"
+            direction LR
+            B[Contributes] --> C[🎨 Themes]
+            B --> D[🎯 Icon Themes]
+        end
         
-        subgraph "🎨 Color Themes"
-            C --> E[[Lynx-Dark-theme.json<br/>🌙 Dark Theme]]
-            C --> F[[Lynx-Light-theme.json<br/>☀️ Light Theme]]
-            C --> G[[Lynx-Night-theme.json<br/>🌃 Night Theme]]
-            C --> H[[Lynx-xGhibli-theme.json<br/>🌸 Ghibli Theme]]
-            C --> I[[Lynx-yCoffee-theme.json<br/>☕ Coffee Theme]]
-            C --> J[[Lynx-zKiro-theme.json<br/>🤖 Kiro Theme]]
+        subgraph "🎨 Color Themes Collection"
+            direction TB
+            E[Lynx-Dark-theme.json<br/>🌙 Dark Theme]
+            F[Lynx-Light-theme.json<br/>☀️ Light Theme]
+            G[Lynx-Night-theme.json<br/>🌃 Night Theme]
+            H[Lynx-xGhibli-theme.json<br/>🌸 Ghibli Theme]
+            I[Lynx-yCoffee-theme.json<br/>☕ Coffee Theme]
+            J[Lynx-zKiro-theme.json<br/>🤖 Kiro Theme]
         end
         
         subgraph "🎯 Icon System"
-            D --> K[[lynx-icons.json<br/>📁 Icon Configuration]]
-            K --> L[[assets/icons/<br/>🎨 SVG Collection]]
+            direction TB
+            K[lynx-icons.json<br/>📁 Icon Configuration]
+            L[assets/icons/<br/>🎨 SVG Collection]
             
-            L --> M[📄 File Icons<br/>500+ file icons]
-            L --> N[📁 Folder Icons<br/>100+ folder icons]
-            L --> O[🔧 Special Icons<br/>Specialized icons]
+            subgraph "📦 Icon Categories"
+                direction LR
+                M[📄 File Icons<br/>500+ types]
+                N[📁 Folder Icons<br/>100+ variants]
+                O[🔧 Special Icons<br/>Specialized]
+            end
         end
         
-        subgraph "📚 Documentation & Assets"
-            P[[README.md<br/>📖 Documentation]]
-            Q[[CONTRIBUTING.md<br/>🤝 Contribution Guide]]
-            R[[assets/images/<br/>🖼️ Visual Resources]]
-            S[[CHANGELOG.md<br/>📝 Change History]]
+        subgraph "📚 Documentation & Resources"
+            direction LR
+            P[README.md<br/>📖 Documentation]
+            Q[CONTRIBUTING.md<br/>🤝 Guide]
+            R[assets/images/<br/>🖼️ Resources]
+            S[CHANGELOG.md<br/>📝 History]
         end
     end
     
-    subgraph "🎯 VS Code Integration"
-        T[VS Code Extension Host]
-        U[Theme Engine]
-        V[Icon Theme Engine]
-        W[User Interface]
+    subgraph "🎯 VS Code Integration Layer"
+        direction TB
+        T[VS Code Extension Host<br/>🏠 Runtime Environment]
+        
+        subgraph "⚙️ Engine Systems"
+            direction LR
+            U[Theme Engine<br/>🎨 Color Processing]
+            V[Icon Theme Engine<br/>📁 Icon Processing]
+        end
+        
+        W[User Interface<br/>👤 Visual Output]
     end
     
-    A --> T
-    E --> U
-    F --> U
-    G --> U
-    H --> U
-    I --> U
-    J --> U
-    K --> V
+    %% Main connections
+    A --> B
+    C --> E
+    C --> F
+    C --> G
+    C --> H
+    C --> I
+    C --> J
+    D --> K
+    K --> L
+    L --> M
+    L --> N
+    L --> O
+    
+    %% Integration connections
+    A -.-> T
+    E -.-> U
+    F -.-> U
+    G -.-> U
+    H -.-> U
+    I -.-> U
+    J -.-> U
+    K -.-> V
     U --> W
     V --> W
+    T --> U
+    T --> V
     
-    style A fill:#ff6b6b,stroke:#333,stroke-width:2px,color:#fff
-    style C fill:#4ecdc4,stroke:#333,stroke-width:2px,color:#fff
-    style D fill:#45b7d1,stroke:#333,stroke-width:2px,color:#fff
-    style K fill:#96ceb4,stroke:#333,stroke-width:2px,color:#fff
-    style W fill:#feca57,stroke:#333,stroke-width:2px,color:#000
+    %% Styling
+    classDef mainConfig fill:#ff6b6b,stroke:#333,stroke-width:2px,color:#fff
+    classDef themes fill:#4ecdc4,stroke:#333,stroke-width:2px,color:#fff
+    classDef icons fill:#45b7d1,stroke:#333,stroke-width:2px,color:#fff
+    classDef engine fill:#96ceb4,stroke:#333,stroke-width:2px,color:#fff
+    classDef output fill:#feca57,stroke:#333,stroke-width:2px,color:#000
+    classDef docs fill:#a8e6cf,stroke:#333,stroke-width:2px,color:#000
+    
+    class A mainConfig
+    class C,E,F,G,H,I,J themes
+    class D,K,L,M,N,O icons
+    class U,V engine
+    class W output
+    class P,Q,R,S docs
+
+```
