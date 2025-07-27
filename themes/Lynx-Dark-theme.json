@@ -88,7 +88,7 @@
     "editorGutter.deletedBackground":                "#ff0000",    // Delete code
     "editorGutter.modifiedBackground":               "#07daffb7",  // Warning color
  
-    // TODO: EDITOR CODE MARK: [TWO-2]
+    // TODO: Code editor MARK: [TWO-2]
     "editor.background":                     "#0d0d0d",    // Editor background
     "editor.foreground":                     "#eeffff",    // Editor [STORE] text
     "editor.findMatchBackground":            "#000000",    // Find match background
@@ -157,7 +157,7 @@
     "diffEditor.insertedTextBackground":  "#00b7ff63",
     "diffEditor.removedTextBackground":   "#ff00552c",
 
-    // TODO: copilot -AI MARK: [THREE-3-AI]
+    // TODO: Copilot -AI MARK: [THREE-3-AI]
     "input.background":                      "#080808",    // bg color
     "input.foreground":                      "#ffffff",    // Input text color
     "input.border":                          "#141414",    // Input border color
@@ -251,7 +251,7 @@
     "debugToolBar.background":               "#080808",    // Debug toolbar background
     "debugToolBar.border":                   "#212122",    // Border debug optional
 
-    // TODO:Status Bar MARK: - [BOTTOM]
+    // TODO: Status Bar MARK: - [BOTTOM]
     "statusBar.background":                  "#0d0d0d",    // Status bar background
     "statusBar.foreground":                  "#616161",    // Status bar text color
     "statusBar.border":                      "#42414160",  // Status bar line border
@@ -291,9 +291,7 @@
     "editorBracketMatch.border":             "#6b8fa3",    // Bracket match border 
     "editorBracketHighlight.unexpectedBracket.foreground": "#c78a7a",  // Unexpected bracket color
 
-    // ========================================
-    // MODERN VS CODE FEATURES
-    // ========================================
+    // TODO: MODERN VS CODE FEATURES MARK: [MODERN]
     "editorInlayHint.background":            "#00000030",
     "editorInlayHint.foreground":            "#8c8c8c",
     "editorInlayHint.typeForeground":        "#8c8c8c",
