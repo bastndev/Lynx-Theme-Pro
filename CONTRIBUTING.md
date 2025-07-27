@@ -6,6 +6,16 @@ Thank you for your interest in contributing to **Lynx Theme Pro**! We're excited
 
 Whether you want to improve existing themes, create new ones, add icons, or enhance documentation, your contributions are valuable and welcome.
 
+## Understanding the Project 🏗️
+
+Before diving into contributions, we recommend reading our [**Architecture Documentation**](https://github.com/bastndev/Lynx-Theme-Pro/blob/main/ARCHITECTURE.md) to understand:
+- How the extension works internally
+- The relationship between themes, icons, and VS Code
+- File organization and naming conventions
+- The overall project structure
+
+This will help you make more effective contributions and understand where your changes fit in the bigger picture.
+
 ## Getting Started 🚀
 
 ### Prerequisites
@@ -67,6 +77,8 @@ Whether you want to improve existing themes, create new ones, add icons, or enha
 
 **Structure**: Follow the existing theme structure. You can use any existing theme as a template.
 
+> 💡 **Sorting tip**: For display order control in VS Code, you can use prefixes like `x`, `y`, `z` (e.g., `Lynx-xOcean-theme.json`). See the [Architecture guide](https://github.com/bastndev/Lynx-Theme-Pro/blob/main/ARCHITECTURE.md) for more details.
+
 ### 2. Improving Existing Themes
 
 You can enhance any of our current themes:
@@ -74,7 +86,8 @@ You can enhance any of our current themes:
 - **Lynx Light** (`Lynx-Light-theme.json`)
 - **Lynx Night** (`Lynx-Night-theme.json`)
 - **Lynx Ghibli** (`Lynx-xGhibli-theme.json`)
-- **Lynx Coffee** (`Lynx-zCoffee-theme.json`)
+- **Lynx Coffee** (`Lynx-yCoffee-theme.json`)
+- **Lynx Kiro** (`Lynx-zKiro-theme.json`)
 
 ### 3. Adding Icons
 
@@ -94,6 +107,15 @@ You can enhance any of our current themes:
 - `fileNames`: Specific file names
 - `languageIds`: Programming language identifiers
 - `light`/`highContrast`: Theme variants
+
+### 4. Documentation Improvements
+
+We welcome improvements to:
+- **README.md** - Main project documentation
+- **CONTRIBUTING.md** - This guide
+- **ARCHITECTURE.md** - Technical architecture documentation
+- **CHANGELOG.md** - Version history
+- Code comments and inline documentation
 
 ## Submitting Your Contribution 🎯
 
@@ -140,6 +162,7 @@ When creating themes, please respect the existing structure and formatting. The 
 ## Getting Help 🆘
 
 - **Bugs?** Create an [Issue](https://github.com/bastndev/Lynx-Theme-Pro/issues)
+- **Architecture questions?** Check the [Architecture documentation](https://github.com/bastndev/Lynx-Theme-Pro/blob/main/ARCHITECTURE.md)
 - **Need inspiration?** Check out the existing themes and the [VS Code theme documentation](https://code.visualstudio.com/api/extension-guides/color-theme)
 
 ## Code of Conduct 📋
