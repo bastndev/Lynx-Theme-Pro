@@ -4,7 +4,7 @@
   "semanticHighlighting": true,
   "name": "Lynx Dark Theme",
   "type": "dark",
-  
+
   "colors": {
     // TODO: MENU STATUS BAR MARK: - [TOP]
     "titleBar.activeBackground":             "#0d0d0d",    // Background
@@ -157,7 +157,7 @@
     "diffEditor.insertedTextBackground":  "#00b7ff63",
     "diffEditor.removedTextBackground":   "#ff00552c",
 
-    // TODO: COPILOT -AI MARK: [THREE-3-AI]
+    // TODO: COPILOT -AI MARK: [THREE-3]-[AI]
     "input.background":                      "#080808",    // bg color
     "input.foreground":                      "#ffffff",    // Input text color
     "input.border":                          "#141414",    // Input border color
@@ -291,72 +291,72 @@
     "editorBracketMatch.border":             "#6b8fa3",    // Bracket match border 
     "editorBracketHighlight.unexpectedBracket.foreground": "#c78a7a",  // Unexpected bracket color
 
-    // TODO: MODERN VS CODE FEATURES MARK: [MODERN]
-    "editorInlayHint.background":            "#00000030",
-    "editorInlayHint.foreground":            "#8c8c8c",
-    "editorInlayHint.typeForeground":        "#8c8c8c",
-    "editorInlayHint.typeBackground":        "#00000030",
-    "editorInlayHint.parameterForeground":   "#8c8c8c",
-    "editorInlayHint.parameterBackground":   "#00000030",
+    // TODO: INLAY HINTS | VSCODE FEATURES MARK: [MODERN]
+    "editorInlayHint.background":            "#00000030",   // Inlay hint background
+    "editorInlayHint.foreground":            "#8c8c8c",     // Inlay hint text
+    "editorInlayHint.typeForeground":        "#8c8c8c",     // Inlay hint type text
+    "editorInlayHint.typeBackground":        "#00000030",   // Inlay hint type background
+    "editorInlayHint.parameterForeground":   "#8c8c8c",     // Inlay hint parameter text
+    "editorInlayHint.parameterBackground":   "#00000030",   // Inlay hint parameter background
     
-    // Sticky scroll
-    "editorStickyScroll.background":         "#080808",
-    "editorStickyScroll.border":             "#141414",
+    // --- -- - Sticky Scroll
+    "editorStickyScroll.background":         "#080808",     // Sticky scroll background
+    "editorStickyScroll.border":             "#141414",     // Sticky scroll border
     
-    // Testing
-    "testing.iconFailed":                    "#ff4757",
-    "testing.iconErrored":                   "#ffa502",
-    "testing.iconPassed":                    "#2ed573",
-    "testing.iconQueued":                    "#ffcb6b",
-    "testing.iconSkipped":                   "#8c8c8c",
-    "testing.iconUnset":                     "#616161",
-    "testing.peekBorder":                    "#57b689",
-    "testing.peekHeaderBackground":          "#080808",
-    "testing.message.error.lineBackground": "#ff475720",
+    // --- -- - Testing
+    "testing.iconFailed":                    "#ff4757",     // Test failed icon
+    "testing.iconErrored":                   "#ffa502",     // Test errored icon
+    "testing.iconPassed":                    "#2ed573",     // Test passed icon
+    "testing.iconQueued":                    "#ffcb6b",     // Test queued icon
+    "testing.iconSkipped":                   "#8c8c8c",     // Test skipped icon
+    "testing.iconUnset":                     "#616161",     // Test unset icon
+    "testing.peekBorder":                    "#57b689",     // Test peek border
+    "testing.peekHeaderBackground":          "#080808",     // Test peek header background
+    "testing.message.error.lineBackground":  "#ff475720",   // Test error line background
     
-    // Merge conflicts
-    "merge.currentHeaderBackground":         "#13ff3e30",
-    "merge.currentContentBackground":        "#13ff3e15",
-    "merge.incomingHeaderBackground":        "#82aaff30",
-    "merge.incomingContentBackground":       "#82aaff15",
-    "merge.border":                          "#57b689",
-    "merge.commonContentBackground":         "#ffcb6b15",
-    "merge.commonHeaderBackground":          "#ffcb6b30",
+    // --- -- - Merge Conflicts
+    "merge.currentHeaderBackground":         "#13ff3e30",   // Current header background
+    "merge.currentContentBackground":        "#13ff3e15",   // Current content background
+    "merge.incomingHeaderBackground":        "#82aaff30",   // Incoming header background
+    "merge.incomingContentBackground":       "#82aaff15",   // Incoming content background
+    "merge.border":                          "#57b689",     // Merge border
+    "merge.commonContentBackground":         "#ffcb6b15",   // Common content background
+    "merge.commonHeaderBackground":          "#ffcb6b30",   // Common header background
     
-    // Symbol icons
-    "symbolIcon.arrayForeground":            "#ffcb6b",
-    "symbolIcon.booleanForeground":          "#ff9cac",
-    "symbolIcon.classForeground":            "#e49c2f",
-    "symbolIcon.colorForeground":            "#c792ea",
-    "symbolIcon.constantForeground":         "#018466",
-    "symbolIcon.constructorForeground":      "#82aaff",
-    "symbolIcon.enumeratorForeground":       "#ffcb6b",
-    "symbolIcon.enumeratorMemberForeground": "#c3e88d",
-    "symbolIcon.eventForeground":            "#ff5370",
-    "symbolIcon.fieldForeground":            "#008cff",
-    "symbolIcon.fileForeground":             "#eeffff",
-    "symbolIcon.folderForeground":           "#ffcb6b",
-    "symbolIcon.functionForeground":         "#82aaff",
-    "symbolIcon.interfaceForeground":        "#0fc5ed",
-    "symbolIcon.keyForeground":              "#c792ea",
-    "symbolIcon.keywordForeground":          "#f88141",
-    "symbolIcon.methodForeground":           "#82aaff",
-    "symbolIcon.moduleForeground":           "#ffcb6b",
-    "symbolIcon.namespaceForeground":        "#ffcb6b",
-    "symbolIcon.nullForeground":             "#ff5370",
-    "symbolIcon.numberForeground":           "#018466",
-    "symbolIcon.objectForeground":           "#ffcb6b",
-    "symbolIcon.operatorForeground":         "#89ddff",
-    "symbolIcon.packageForeground":          "#ffcb6b",
-    "symbolIcon.propertyForeground":         "#008cff",
-    "symbolIcon.referenceForeground":        "#f07178",
-    "symbolIcon.snippetForeground":          "#c3e88d",
-    "symbolIcon.stringForeground":           "#048b6b",
-    "symbolIcon.structForeground":           "#82aaff",
-    "symbolIcon.textForeground":             "#eeffff",
-    "symbolIcon.typeParameterForeground":    "#89ddff",
-    "symbolIcon.unitForeground":             "#89ddff",
-    "symbolIcon.variableForeground":         "#008cff"
+    // --- -- - Symbol Icons
+    "symbolIcon.arrayForeground":            "#ffcb6b",     // Array icon
+    "symbolIcon.booleanForeground":          "#ff9cac",     // Boolean icon
+    "symbolIcon.classForeground":            "#e49c2f",     // Class icon
+    "symbolIcon.colorForeground":            "#c792ea",     // Color icon
+    "symbolIcon.constantForeground":         "#018466",     // Constant icon
+    "symbolIcon.constructorForeground":      "#82aaff",     // Constructor icon
+    "symbolIcon.enumeratorForeground":       "#ffcb6b",     // Enumerator icon
+    "symbolIcon.enumeratorMemberForeground": "#c3e88d",     // Enumerator member icon
+    "symbolIcon.eventForeground":            "#ff5370",     // Event icon
+    "symbolIcon.fieldForeground":            "#008cff",     // Field icon
+    "symbolIcon.fileForeground":             "#eeffff",     // File icon
+    "symbolIcon.folderForeground":           "#ffcb6b",     // Folder icon
+    "symbolIcon.functionForeground":         "#82aaff",     // Function icon
+    "symbolIcon.interfaceForeground":        "#0fc5ed",     // Interface icon
+    "symbolIcon.keyForeground":              "#c792ea",     // Key icon
+    "symbolIcon.keywordForeground":          "#f88141",     // Keyword icon
+    "symbolIcon.methodForeground":           "#82aaff",     // Method icon
+    "symbolIcon.moduleForeground":           "#ffcb6b",     // Module icon
+    "symbolIcon.namespaceForeground":        "#ffcb6b",     // Namespace icon
+    "symbolIcon.nullForeground":             "#ff5370",     // Null icon
+    "symbolIcon.numberForeground":           "#018466",     // Number icon
+    "symbolIcon.objectForeground":           "#ffcb6b",     // Object icon
+    "symbolIcon.operatorForeground":         "#89ddff",     // Operator icon
+    "symbolIcon.packageForeground":          "#ffcb6b",     // Package icon
+    "symbolIcon.propertyForeground":         "#008cff",     // Property icon
+    "symbolIcon.referenceForeground":        "#f07178",     // Reference icon
+    "symbolIcon.snippetForeground":          "#c3e88d",     // Snippet icon
+    "symbolIcon.stringForeground":           "#048b6b",     // String icon
+    "symbolIcon.structForeground":           "#82aaff",     // Struct icon
+    "symbolIcon.textForeground":             "#eeffff",     // Text icon
+    "symbolIcon.typeParameterForeground":    "#89ddff",     // Type parameter icon
+    "symbolIcon.unitForeground":             "#89ddff",     // Unit icon
+    "symbolIcon.variableForeground":         "#008cff"      // Variable icon
   },
 
   "semanticTokenColors": {
