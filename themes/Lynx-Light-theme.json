@@ -185,8 +185,8 @@
     "list.highlightForeground":              "#5fc05c",      // Highlight text color
 
     "keybindingLabel.foreground":            "#000000",      // Keybinding label text
-    "keybindingLabel.background":            "#ffffff",      // Keybinding label background
-    "keybindingLabel.border":                "#cccccc",      // Keybinding label border
+    "keybindingLabel.background":            "#eaeaea",      // Keybinding label background
+    "keybindingLabel.border":                "#cccccc00",      // Keybinding label border
     "keybindingLabel.bottomBorder":          "#cccccc",      // Keybinding label bottom border
 
     // --- -- - Panel Terminal & Text BOTTOM

@@ -186,8 +186,8 @@
 
     "keybindingLabel.foreground":            "#ffffff",    // Keybinding label text
     "keybindingLabel.background":            "#a67c52",    // Keybinding label background
-    "keybindingLabel.border":                "#4d412f20",  // Keybinding label border
-    "keybindingLabel.bottomBorder":          "#4d412f20",  // Keybinding label bottom border
+    "keybindingLabel.border":                "#4d412f00",  // Keybinding label border
+    "keybindingLabel.bottomBorder":          "#a67c52",  // Keybinding label bottom border
 
     // --- -- - Panel Terminal & Text BOTTOM
     "panel.background":                      "#231514",    // Panel background

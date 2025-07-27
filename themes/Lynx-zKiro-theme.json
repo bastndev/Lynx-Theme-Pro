@@ -185,10 +185,10 @@
     "quickInputList.focusBackground":        "#352f3d",    // Focus background
     "list.highlightForeground":              "#b080ff",    // Highlight text color
 
-    "keybindingLabel.foreground":            "#938f9b",    // Keybinding label text
-    "keybindingLabel.background":            "#ffffff1a",  // Keybinding label background
+    "keybindingLabel.foreground":            "#ffffff",    // Keybinding label text
+    "keybindingLabel.background":            "#6e6775",  // Keybinding label background
     "keybindingLabel.border":                "#00000000",  // Keybinding label border
-    "keybindingLabel.bottomBorder":          "#ffffff1a",  // Keybinding label bottom border
+    "keybindingLabel.bottomBorder":          "#000000",  // Keybinding label bottom border
 
     // --- -- - Panel Terminal & Text BOTTOM
     "panel.background":                      "#211d25",    // Panel background
