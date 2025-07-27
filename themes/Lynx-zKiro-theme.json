@@ -279,15 +279,16 @@
     "inputValidation.errorBorder":           "#ff8080",    // Error message border
 
     // --- -- - BG {} and () and []
-    "editorBracketHighlight.foreground1":    "#ffcf99",    // Bracket highlight color 1
-    "editorBracketHighlight.foreground2":    "#fff2b3",    // Bracket highlight color 2
-    "editorBracketHighlight.foreground3":    "#dfffb3",    // Bracket highlight color 3
-    "editorBracketHighlight.foreground4":    "#8dc8fb",    // Bracket highlight color 4
-    "editorBracketHighlight.foreground5":    "#8e47ff",    // Bracket highlight color 5
-    "editorBracketHighlight.foreground6":    "#80f4ff",    // Bracket highlight color 6
-    "editorBracketMatch.background":         "#b080ff20",  // Bracket match background
-    "editorBracketMatch.border":             "#b080ff",    // Bracket match border    
-    "editorBracketHighlight.unexpectedBracket.foreground": "#ff8080", // Unexpected bracket color
+    "editorBracketHighlight.foreground1":    "#ffd700",    // Bracket highlight color 1
+    "editorBracketHighlight.foreground2":    "#da70d6",    // Bracket highlight color 2
+    "editorBracketHighlight.foreground3":    "#1362e0",    // Bracket highlight color 3
+    "editorBracketHighlight.foreground4":    "#ffd700",    // Bracket highlight color 4
+    "editorBracketHighlight.foreground5":    "#fb3460",    // Bracket highlight color 5
+    "editorBracketHighlight.foreground6":    "#07a5de",    // Bracket highlight color 6
+    "editorBracketMatch.background":         "#3a4a5540",  // Bracket match background
+    "editorBracketMatch.border":             "#6b8fa3",    // Bracket match border 
+    "editorBracketHighlight.unexpectedBracket.foreground": "#c78a7a",  // Unexpected bracket color
+
   },
   
 "tokenColors": [
