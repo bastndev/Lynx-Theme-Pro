@@ -24,6 +24,7 @@
     "ngrx",
     "opam",
     "purescript",
+    "readwrite",
     "stackblitz",
     "tema",
     "tlpp",
@@ -31,5 +32,6 @@
     "wakatime",
     "webhint",
     "wepy"
-  ]
+  ],
+  "kiroAgent.configureMCP": "Disabled"
 }

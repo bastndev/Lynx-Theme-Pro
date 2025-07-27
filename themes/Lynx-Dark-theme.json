@@ -6,13 +6,15 @@
   "type": "dark",
 
   "colors": {
-    // TODO: Menu Status Bar MARK: - [TOP]
-    "titleBar.activeBackground":             "#0d0d0d",    // Background
-    "titleBar.activeForeground":             "#d0d0d0",    // TOP text 1
-    "titleBar.border":                       "#0d0d0d",    // LINE
-    "titleBar.inactiveBackground":           "#080808",    // Inactive window title
-    "titleBar.inactiveForeground":           "#616161",    // Inactive title text
-    "commandCenter.background":              "#080808",    // Background top box mid
+    // ========================================
+    // TITLE BAR & COMMAND CENTER
+    // ========================================
+    "titleBar.activeBackground":             "#0d0d0d",
+    "titleBar.activeForeground":             "#d0d0d0",
+    "titleBar.border":                       "#0d0d0d",
+    "titleBar.inactiveBackground":           "#080808",
+    "titleBar.inactiveForeground":           "#616161",
+    "commandCenter.background":              "#080808",
 
     // --- -- - Menu Click & select  
     "menu.background":                       "#080808",    // Menu background
@@ -38,8 +40,10 @@
     "activityBarBadge.background":           "#5db687",    // Badge background
     "activityBarBadge.foreground":           "#000000",    // Badge text
     "activityBar.activeBorder":              "#5fc05c",    // Active item border
-    "activityBarTop.foreground":             "#e1e1e1",    // Select icon
-    "list.warningForeground":                "#9c6f1c",    // Warning text color
+    "activityBarTop.foreground":             "#57b689",    // Select icon
+    "list.warningForeground":                "#ffcb6b",    // Warning text color (improved visibility)
+    "list.errorForeground":                  "#ff5370",    // Error text color
+    "list.invalidItemForeground":            "#ff5370",    // Invalid item color
     "tree.indentGuidesStroke":               "#5db68748",  // Line guide Folder
     
     // --- -- - Menu hover - click & select = RIGHT
@@ -94,9 +98,9 @@
     "editor.findMatchHighlightBackground":   "#6e4515e3",  // Find match highlight background
     "editor.findMatchHighlightBorder":       "#ef000004",  // Find match highlight border
     "editor.findRangeHighlightBackground":   "#ffcb6b30",  // Find range highlight background
-    "editor.lineHighlightBackground":        "#00000070",  // Line highlight background
-    "editor.lineHighlightBorder":            "#f4101000",  // Line highlight border
-    "editor.selectionBackground":            "#61616150",  // Selection background
+    "editor.lineHighlightBackground":        "#ffffff08",  // Line highlight background (improved contrast)
+    "editor.lineHighlightBorder":            "#ffffff10",  // Line highlight border (visible)
+    "editor.selectionBackground":            "#57b68950",  // Selection background (theme consistent)
     "editor.rangeHighlightBackground":       "#29c7ee0d",  // Range highlight background
     "editor.wordHighlightBackground":        "#ff9cac30",  // Word highlight background
     "editor.wordHighlightStrongBackground":  "#c3e88d30",  // Word highlight strong background
@@ -204,7 +208,7 @@
     "terminal.background":                   "#0a0a0a",    // Terminal background
     "terminal.foreground":                   "#c9d1d9",    // Terminal text
     "terminal.ansiBlack":                    "#000000",    // Terminal black color
-    "terminal.ansiBlue":                     "#5fc05c",    // Terminal blue color
+    "terminal.ansiBlue":                     "#82aaff",    // Terminal blue color (proper blue)
     "terminal.ansiBrightBlack":              "#545454",    // Terminal bright black color
     "terminal.ansiBrightBlue":               "#62cdff",    // Terminal bright blue color
     "terminal.ansiBrightCyan":               "#00d0e7",    // Terminal bright cyan color
@@ -285,8 +289,95 @@
     "editorBracketHighlight.foreground5":    "#fb3460",    // Bracket highlight color 5
     "editorBracketHighlight.foreground6":    "#07a5de",     // Bracket highlight color 6
     "editorBracketMatch.background":         "#3a4a5540",  // Bracket match background
-    "editorBracketMatch.border":             "#6b8fa3",    // Bracket match border    
-    "editorBracketHighlight.unexpectedBracket.foreground": "#c78a7a", // Unexpected bracket color
+    "editorBracketMatch.border":             "#6b8fa3",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#c78a7a",
+
+    // ========================================
+    // MODERN VS CODE FEATURES
+    // ========================================
+    "editorInlayHint.background":            "#00000030",
+    "editorInlayHint.foreground":            "#8c8c8c",
+    "editorInlayHint.typeForeground":        "#8c8c8c",
+    "editorInlayHint.typeBackground":        "#00000030",
+    "editorInlayHint.parameterForeground":   "#8c8c8c",
+    "editorInlayHint.parameterBackground":   "#00000030",
+    
+    // Sticky scroll
+    "editorStickyScroll.background":         "#080808",
+    "editorStickyScroll.border":             "#141414",
+    
+    // Testing
+    "testing.iconFailed":                    "#ff4757",
+    "testing.iconErrored":                   "#ffa502",
+    "testing.iconPassed":                    "#2ed573",
+    "testing.iconQueued":                    "#ffcb6b",
+    "testing.iconSkipped":                   "#8c8c8c",
+    "testing.iconUnset":                     "#616161",
+    "testing.peekBorder":                    "#57b689",
+    "testing.peekHeaderBackground":          "#080808",
+    "testing.message.error.lineBackground": "#ff475720",
+    
+    // Merge conflicts
+    "merge.currentHeaderBackground":         "#13ff3e30",
+    "merge.currentContentBackground":        "#13ff3e15",
+    "merge.incomingHeaderBackground":        "#82aaff30",
+    "merge.incomingContentBackground":       "#82aaff15",
+    "merge.border":                          "#57b689",
+    "merge.commonContentBackground":         "#ffcb6b15",
+    "merge.commonHeaderBackground":          "#ffcb6b30",
+    
+    // Symbol icons
+    "symbolIcon.arrayForeground":            "#ffcb6b",
+    "symbolIcon.booleanForeground":          "#ff9cac",
+    "symbolIcon.classForeground":            "#e49c2f",
+    "symbolIcon.colorForeground":            "#c792ea",
+    "symbolIcon.constantForeground":         "#018466",
+    "symbolIcon.constructorForeground":      "#82aaff",
+    "symbolIcon.enumeratorForeground":       "#ffcb6b",
+    "symbolIcon.enumeratorMemberForeground": "#c3e88d",
+    "symbolIcon.eventForeground":            "#ff5370",
+    "symbolIcon.fieldForeground":            "#008cff",
+    "symbolIcon.fileForeground":             "#eeffff",
+    "symbolIcon.folderForeground":           "#ffcb6b",
+    "symbolIcon.functionForeground":         "#82aaff",
+    "symbolIcon.interfaceForeground":        "#0fc5ed",
+    "symbolIcon.keyForeground":              "#c792ea",
+    "symbolIcon.keywordForeground":          "#f88141",
+    "symbolIcon.methodForeground":           "#82aaff",
+    "symbolIcon.moduleForeground":           "#ffcb6b",
+    "symbolIcon.namespaceForeground":        "#ffcb6b",
+    "symbolIcon.nullForeground":             "#ff5370",
+    "symbolIcon.numberForeground":           "#018466",
+    "symbolIcon.objectForeground":           "#ffcb6b",
+    "symbolIcon.operatorForeground":         "#89ddff",
+    "symbolIcon.packageForeground":          "#ffcb6b",
+    "symbolIcon.propertyForeground":         "#008cff",
+    "symbolIcon.referenceForeground":        "#f07178",
+    "symbolIcon.snippetForeground":          "#c3e88d",
+    "symbolIcon.stringForeground":           "#048b6b",
+    "symbolIcon.structForeground":           "#82aaff",
+    "symbolIcon.textForeground":             "#eeffff",
+    "symbolIcon.typeParameterForeground":    "#89ddff",
+    "symbolIcon.unitForeground":             "#89ddff",
+    "symbolIcon.variableForeground":         "#008cff"
+  },
+
+  "semanticTokenColors": {
+    "namespace": "#ffcb6b",
+    "property": "#008cff",
+    "interface": "#0fc5ed",
+    "type": "#e49c2f",
+    "class": "#e49c2f",
+    "enum": "#ffcb6b",
+    "function": "#82aaff",
+    "method": "#82aaff",
+    "macro": "#c792ea",
+    "variable": "#008cff",
+    "variable.readonly": "#89ddff",
+    "parameter": "#f07178",
+    "property.readonly": "#89ddff",
+    "enumMember": "#c3e88d",
+    "event": "#ff5370"
   },
 
   "tokenColors": [
@@ -316,7 +407,12 @@
     },
     {
       "name": "Variables",
-      "scope": ["variable", "string constant.other.placeholder"],
+      "scope": [
+        "variable", 
+        "string constant.other.placeholder",
+        "variable.other.readwrite",
+        "variable.other.object"
+      ],
       "settings": {
         "foreground": "#008cff"
       }
