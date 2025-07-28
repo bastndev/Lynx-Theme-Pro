@@ -9,7 +9,6 @@
     // TODO: MENU STATUS BAR MARK: - [TOP]
     "titleBar.activeBackground":             "#19161d",    // - Title bar bg 
     "titleBar.activeForeground":             "#ffffff",    // - Title bar text 
-    "titleBar.border":                       "#00000000",  // - Title bar border
     "titleBar.inactiveBackground":           "#00000000",  // - Title bar bg
     "titleBar.inactiveForeground":           "#938f9b",    // - Title bar text 
     "commandCenter.background":              "#28242e",    // - Command Center bg
@@ -56,9 +55,7 @@
     // --- -- - Side Bar
     "sideBar.background":                    "#211d25",    // - Ai and Side bar bg
     "sideBar.foreground":                    "#a2a9b5",    // - Text vscode all
-    "sideBar.border":                        "#211d25",    // - LINE RIGHT & LEFT
     "sideBarSectionHeader.background":       "#211d25",    // - LINE bg
-    "sideBarSectionHeader.border":           "#211d25",    // - Line top
     "sideBarTitle.foreground":               "#ffffff",    // - Explorer
     "sideBarSectionHeader.foreground":       "#b080ff",    // - Css text and BOT txt
 
@@ -133,7 +130,6 @@
     "scrollbarSlider.hoverBackground":       "#ffffff4d",  // - Hover bg
     "scrollbarSlider.activeBackground":      "#ffffff66",  // - Active bg
     "scrollbar.shadow":                      "#19161d",    // - Shadow
-    "editorOverviewRuler.border":            "#ededee48",  // - Overview ruler border LINE |-
 
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground":     "#ffffff",    // - Active line number
@@ -257,7 +253,6 @@
     // TODO: STATUS BAR MARK: - [BOTTOM]
     "statusBar.background":                  "#211d25",    // - Status bar bg
     "statusBar.foreground":                  "#938f9b",    // - Status bar text color
-    "statusBar.border":                      "#00000000",  // - Status bar LINE border
     "statusBar.debuggingBackground":         "#8e47ff40",  // - Status bar debugging bg
     "statusBar.debuggingForeground":         "#ffffff",    // - Status bar debugging text
     "statusBar.noFolderBackground":          "#00000000",  // - Status bar no folder bg
@@ -274,6 +269,13 @@
     "textBlockQuote.background":             "#19161d",    // - Block quote bg
     "textBlockQuote.border":                 "#4a464f",    // - Block quote border LEFT
     "textCodeBlock.background":              "#19161d",    // - Code block bg 
+
+    // ---- -- - LINES
+    "titleBar.border":                       "#0d0d0d",    // - Title bar LINE TOP -T-
+    "sideBarSectionHeader.border":           "#0d0d0d",    // - Line top bottom right or left =T=
+    "sideBar.border":                        "#141414",    // - LINE RIGHT & LEFT |-|
+    "editorOverviewRuler.border":            "#ededee48",  // - Overview ruler border LINE  ||-
+    "statusBar.border":                      "#00000000",  // - Status bar LINE border (Bottom)
 
     // ---- -- - Selection BG
     "selection.background":                  "#5f0ae793",  // - selection bg
