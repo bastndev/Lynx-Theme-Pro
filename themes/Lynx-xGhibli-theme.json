@@ -6,7 +6,7 @@
   "type": "light",
 
   "colors": {
-    // TODO: Menu Status Bar MARK: - [TOP]
+    // TODO: MENU STATUS BAR MARK: - [TOP]
     "titleBar.activeBackground":             "#efe8d6",    // Background
     "titleBar.activeForeground":             "#474747",    // TOP text 1
     "titleBar.border":                       "#f0e8d7",    // LINE
@@ -30,7 +30,7 @@
     "list.hoverForeground":                  "#1d1d1d",    // Text select
     "list.dropBackground":                   "#000000",    // Drop background
     
-    // TODO: Activity Bar MARK: [ONE-1]
+    // TODO: ACTIVITY BAR MARK: [ONE-1]
     "activityBar.background":                "#efe8d6",    // Activity bar background
     "activityBar.foreground":                "#111",       // Activity bar text
     "activityBar.border":                    "#efe8d6",    // Activity bar border
@@ -39,7 +39,9 @@
     "activityBarBadge.foreground":           "#dad2c3",    // Badge text
     "activityBar.activeBorder":              "#5fc05c",    // Active item border
     "activityBarTop.foreground":             "#000000",    // Select icon
-    "list.warningForeground":                "#9c6f1c",    // Warning text color
+    "list.warningForeground":                "#9c6f1c",    // Warning text color (improved visibility)
+    "list.errorForeground":                  "#da3633",    // Error text color
+    "list.invalidItemForeground":            "#da3633",    // Invalid item color
     "tree.indentGuidesStroke":               "#5abf63",    // Line guide Folder
     
     // --- -- - Menu hover - click & select = RIGHT
@@ -86,7 +88,7 @@
     "editorGutter.deletedBackground":                "#ff0000",    // Delete code
     "editorGutter.modifiedBackground":               "#07daffb7",  // Warning color  
 
-    // TODO: EDITOR CODE MARK: [TWO-2]
+    // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#fef6e4",    // Editor background
     "editor.foreground":                     "#000000",    // Editor [STORE] text
     "editor.findMatchBackground":            "#000000",    // Find match background
@@ -94,24 +96,25 @@
     "editor.findMatchHighlightBackground":   "#d6862be3",  // Find match highlight background
     "editor.findMatchHighlightBorder":       "#ef000004",  // Find match highlight border
     "editor.findRangeHighlightBackground":   "#ffcb6b30",  // Find range highlight background
-    "editor.lineHighlightBackground":        "#dad2c3",    // Line highlight background
-    "editor.lineHighlightBorder":            "#ececec",    // Line highlight border
-    "editor.selectionBackground":            "#61616150",  // Selection background
+    "editor.lineHighlightBackground":        "#dad2c3",    // Line highlight background (improved contrast)
+    "editor.lineHighlightBorder":            "#ececec",    // Line highlight border (visible)
+    "editor.selectionBackground":            "#61616150",  // Selection background (theme consistent)
     "editor.rangeHighlightBackground":       "#29c7ee0d",  // Range highlight background
     "editor.wordHighlightBackground":        "#ff9cac30",  // Word highlight background
     "editor.wordHighlightStrongBackground":  "#c3e88d30",  // Word highlight strong background
-    "editorOverviewRuler.border":            "#efe8d6",    // Overview ruler border
+    "editorOverviewRuler.border":            "#efe8d6",    // Line Overview ruler border
     "editor.selectionHighlightBackground":   "#ffcc0020",  // Selection highlight background
 
     // --- -- - Tabs Header - TOP
     "editorGroupHeader.tabsBackground":      "#efe8d6",    // Tabs header background
-    "editorGroupHeader.tabsBorder":          "#d2c38f",    // Tabs header border
-    "tab.activeBackground":                  "#dad2c3",    // bg select second line
+    "editorGroupHeader.tabsBorder":          "#d2c38f",    // Tabs header border line horizontal
+    "tab.border":                            "#d2c38f",    // Tab border Vertical
+    "tab.activeBackground":                  "#dad2c3",    // bg select file 
+    "tab.activeBorderTop":                   "#038c43",    // Active tab border top
     "tab.activeForeground":                  "#000000",    // Active tab text
     "tab.activeBorder":                      "#dad2c3",    // Active tab border
     "tab.inactiveBackground":                "#efe8d6",    // Inactive tab background
     "tab.inactiveForeground":                "#6b7280",    // Inactive tab text
-    "tab.border":                            "#efe8d6",    // Tab border
     "tab.hoverBackground":                   "#dedede",    // hover
     "tab.hoverForeground":                   "#1d1d1d",    // Tab hover text
     "tab.hoverBorder":                       "#d2c38f",    // Tab hover border
@@ -285,9 +288,94 @@
     "editorBracketHighlight.foreground5":    "#009a48",    // Bracket highlight color 5
     "editorBracketHighlight.foreground6":    "#943c00",    // Bracket highlight color 6
     "editorBracketMatch.background":         "#c6c6c660",  // Bracket match background
-    "editorBracketMatch.border":             "#009a48",    // Bracket match border    
-    "editorBracketHighlight.unexpectedBracket.foreground": "#c62828", // Unexpected bracket color
-    },
+    "editorBracketMatch.border":             "#009a48",    // Bracket match border 
+    "editorBracketHighlight.unexpectedBracket.foreground": "#c62828",  // Unexpected bracket color
+
+    // TODO: INLAY HINTS | VSCODE FEATURES MARK: [MODERN]
+    "editorInlayHint.background":            "#fff6e530",  // Inlay hint background
+    "editorInlayHint.foreground":            "#8c8c8c",    // Inlay hint text
+    "editorInlayHint.typeForeground":        "#8c8c8c",    // Inlay hint type text
+    "editorInlayHint.typeBackground":        "#fff6e530",  // Inlay hint type background
+    "editorInlayHint.parameterForeground":   "#8c8c8c",    // Inlay hint parameter text
+    "editorInlayHint.parameterBackground":   "#fff6e530",  // Inlay hint parameter background
+    
+    // --- -- - Sticky Scroll
+    "editorStickyScroll.background":         "#dad2c3",    // Sticky scroll background
+    "editorStickyScroll.border":             "#d2c38f",    // Sticky scroll border
+    
+    // --- -- - Testing
+    "testing.iconFailed":                    "#da3633",    // Test failed icon
+    "testing.iconErrored":                   "#953800",    // Test errored icon
+    "testing.iconPassed":                    "#116329",    // Test passed icon
+    "testing.iconQueued":                    "#953800",    // Test queued icon
+    "testing.iconSkipped":                   "#8c8c8c",    // Test skipped icon
+    "testing.iconUnset":                     "#616161",    // Test unset icon
+    "testing.peekBorder":                    "#038c43",    // Test peek border
+    "testing.peekHeaderBackground":          "#dad2c3",    // Test peek header background
+    "testing.message.error.lineBackground":  "#da363320",  // Test error line background
+    
+    // --- -- - Merge Conflicts
+    "merge.currentHeaderBackground":         "#11632930",  // Current header background
+    "merge.currentContentBackground":        "#11632915",  // Current content background
+    "merge.incomingHeaderBackground":        "#825df30",   // Incoming header background
+    "merge.incomingContentBackground":       "#825df15",   // Incoming content background
+    "merge.border":                          "#038c43",    // Merge border
+    "merge.commonContentBackground":         "#95380015",  // Common content background
+    "merge.commonHeaderBackground":          "#95380030",  // Common header background
+    
+    // --- -- - Symbol Icons
+    "symbolIcon.arrayForeground":            "#953800",    // Array icon
+    "symbolIcon.booleanForeground":          "#da3633",    // Boolean icon
+    "symbolIcon.classForeground":            "#953800",    // Class icon
+    "symbolIcon.colorForeground":            "#8250df",    // Color icon
+    "symbolIcon.constantForeground":         "#0550ae",    // Constant icon
+    "symbolIcon.constructorForeground":      "#8250df",    // Constructor icon
+    "symbolIcon.enumeratorForeground":       "#953800",    // Enumerator icon
+    "symbolIcon.enumeratorMemberForeground": "#116329",    // Enumerator member icon
+    "symbolIcon.eventForeground":            "#da3633",    // Event icon
+    "symbolIcon.fieldForeground":            "#0969da",    // Field icon
+    "symbolIcon.fileForeground":             "#000000",    // File icon
+    "symbolIcon.folderForeground":           "#953800",    // Folder icon
+    "symbolIcon.functionForeground":         "#8250df",    // Function icon
+    "symbolIcon.interfaceForeground":        "#6f42c1",    // Interface icon
+    "symbolIcon.keyForeground":              "#8250df",    // Key icon
+    "symbolIcon.keywordForeground":          "#953800",    // Keyword icon
+    "symbolIcon.methodForeground":           "#8250df",    // Method icon
+    "symbolIcon.moduleForeground":           "#953800",    // Module icon
+    "symbolIcon.namespaceForeground":        "#953800",    // Namespace icon
+    "symbolIcon.nullForeground":             "#da3633",    // Null icon
+    "symbolIcon.numberForeground":           "#0550ae",    // Number icon
+    "symbolIcon.objectForeground":           "#953800",    // Object icon
+    "symbolIcon.operatorForeground":         "#24292e",    // Operator icon
+    "symbolIcon.packageForeground":          "#953800",    // Package icon
+    "symbolIcon.propertyForeground":         "#0969da",    // Property icon
+    "symbolIcon.referenceForeground":        "#cf222e",    // Reference icon
+    "symbolIcon.snippetForeground":          "#116329",    // Snippet icon
+    "symbolIcon.stringForeground":           "#23ab98",    // String icon
+    "symbolIcon.structForeground":           "#8250df",    // Struct icon
+    "symbolIcon.textForeground":             "#000000",    // Text icon
+    "symbolIcon.typeParameterForeground":    "#24292e",    // Type parameter icon
+    "symbolIcon.unitForeground":             "#24292e",    // Unit icon
+    "symbolIcon.variableForeground":         "#0969da"     // Variable icon
+  },
+
+  "semanticTokenColors": {
+    "namespace": "#953800",
+    "property": "#0969da",
+    "interface": "#6f42c1",
+    "type": "#953800",
+    "class": "#953800",
+    "enum": "#953800",
+    "function": "#8250df",
+    "method": "#8250df",
+    "macro": "#8250df",
+    "variable": "#0969da",
+    "variable.readonly": "#24292e",
+    "parameter": "#cf222e",
+    "property.readonly": "#24292e",
+    "enumMember": "#116329",
+    "event": "#da3633"
+  },
     
   "tokenColors": [
     {
