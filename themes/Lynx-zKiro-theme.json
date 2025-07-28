@@ -380,7 +380,6 @@
     "function": "#9999ff",
     "method": "#9999ff",
     "macro": "#b366ff",
-    // "variable": "#66f7ff",
     "parameter": "#ff6b7d",
     "property.readonly": "#ffffff",
     "enumMember": "#66ffcc",
