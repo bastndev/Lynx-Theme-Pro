@@ -91,17 +91,17 @@
     // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#0d0d0d",    // Editor background
     "editor.foreground":                     "#eeffff",    // Editor [STORE] text
-    "editor.findMatchBackground":            "#000000",    // Find match background
-    "editor.findMatchBorder":                "#c07c5c",    // Find match border
-    "editor.findMatchHighlightBackground":   "#6e4515e3",  // Find match highlight background
-    "editor.findMatchHighlightBorder":       "#ef000004",  // Find match highlight border
-    "editor.findRangeHighlightBackground":   "#ffcb6b30",  // Find range highlight background
+    "editor.findMatchBackground":            "#82aaff40",  // Find match background
+    "editor.findMatchBorder":                "#82aaff",    // Find match border
+    "editor.findMatchHighlightBackground":   "#82aaff20",  // Find match highlight background
+    "editor.findMatchHighlightBorder":       "#82aaff60",  // Find match highlight border
+    "editor.findRangeHighlightBackground":   "#ffcb6b20",  // Find range highlight background
     "editor.lineHighlightBackground":        "#ffffff08",  // Line highlight background (improved contrast)
     "editor.lineHighlightBorder":            "#ffffff10",  // Line highlight border (visible)
     "editor.selectionBackground":            "#57b68950",  // Selection background (theme consistent)
     "editor.rangeHighlightBackground":       "#29c7ee0d",  // Range highlight background
-    "editor.wordHighlightBackground":        "#ff9cac30",  // Word highlight background
-    "editor.wordHighlightStrongBackground":  "#c3e88d30",  // Word highlight strong background
+    "editor.wordHighlightBackground":        "#ffcb6b25",  // Word highlight background
+    "editor.wordHighlightStrongBackground":  "#82aaff25",  // Word highlight strong background
     "editorOverviewRuler.border":            "#0d0d0d",    // Overview ruler border
     "editor.selectionHighlightBackground":   "#ffcc0020",  // Selection highlight background
 
@@ -123,7 +123,7 @@
 
     // --- -- - Breadcrumb second-Header
     "breadcrumb.background":                 "#000000",    // bg second line
-    "breadcrumb.foreground":                 "#616161",    // Breadcrumb text
+    "breadcrumb.foreground":                 "#8c8c8c",    // Breadcrumb text
     "breadcrumbPicker.background":           "#080808",    // Breadcrumb picker background
     "breadcrumb.focusForeground":            "#5fc05c",    // Breadcrumb focus text
     "breadcrumb.activeSelectionForeground":  "#5fc05c",    // Breadcrumb active selection text
@@ -137,7 +137,7 @@
 
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground":     "#ffffff",    // Active line number
-    "editorLineNumber.foreground":           "#515151",    // Line numbers
+    "editorLineNumber.foreground":           "#6b7280",    // Line numbers
 
     // --- -- - Editor Suggest widget MID
     "editorSuggestWidget.background":         "#080808",    // bg suggestion
@@ -148,14 +148,17 @@
     "editorHoverWidget.background":           "#080808",    // bg check information
 
     // --- -- - Editor Widgets - MID + AI
-    "editorWidget.resizeBorder":             "#5c6bc0",    // Widget resize border
+    "editorWidget.resizeBorder":             "#57b689",    // Widget resize border
     "editorWidget.border":                   "#2a2e33",    // Widget border +AI
     "widget.border":                         "#2a2e33",    // General widget border
     "widget.shadow":                         "#00000050",  // Widget shadow
 
     // --- -- - Editor Diff git
-    "diffEditor.insertedTextBackground":    "#00b7ff63",   // Inserted text background
-    "diffEditor.removedTextBackground":     "#ff00552c",   // Removed text background
+    "diffEditor.insertedTextBackground":    "#c3e88d20",   // Inserted text background
+    "diffEditor.removedTextBackground":     "#ff537020",   // Removed text background
+    "diffEditor.insertedLineBackground":    "#c3e88d10",   // Inserted line background
+    "diffEditor.removedLineBackground":     "#ff537010",   // Removed line background
+    "diffEditor.diagonalFill":              "#ffffff20",   // Diagonal fill
 
     // TODO: COPILOT -AI MARK: [THREE-3]-[AI]
     "input.background":                      "#080808",    // bg color
@@ -211,15 +214,15 @@
     "terminal.ansiBrightBlack":              "#545454",    // Terminal bright black color
     "terminal.ansiBrightBlue":               "#62cdff",    // Terminal bright blue color
     "terminal.ansiBrightCyan":               "#00d0e7",    // Terminal bright cyan color
-    "terminal.ansiBrightGreen":              "#0dff00",    // Terminal bright green color
+    "terminal.ansiBrightGreen":              "#c3e88d",    // Terminal bright green color
     "terminal.ansiBrightMagenta":            "#c792ea",    // Terminal bright magenta color
     "terminal.ansiBrightRed":                "#ed0a3f",    // Terminal bright red color
     "terminal.ansiBrightWhite":              "#ffffff",    // Terminal bright white color
     "terminal.ansiBrightYellow":             "#ffcb6b",    // Terminal bright yellow color
     "terminal.ansiCyan":                     "#00a5d1",    // Terminal cyan color
-    "terminal.ansiGreen":                    "#0dff00",    // Terminal green color
+    "terminal.ansiGreen":                    "#c3e88d",    // Terminal green color
     "terminal.ansiMagenta":                  "#c792ea",    // Terminal magenta color
-    "terminal.ansiRed":                      "#ff3e48",    // Terminal red color
+    "terminal.ansiRed":                      "#ff5370",    // Terminal red color
     "terminal.ansiWhite":                    "#ffffff",    // Terminal white color
     "terminal.ansiYellow":                   "#ffcb6b",    // Terminal yellow color
     "terminalCursor.background":             "#000000",    // Terminal cursor background
@@ -276,17 +279,23 @@
     "selection.background":                  "#19573a",    // selection background
 
     // --- -- - BG message error
-    "inputValidation.errorBackground":       "#000000",    // Error message background
-    "inputValidation.errorForeground":       "#ff6666",    // Error message text
-    "inputValidation.errorBorder":           "#ff0000",    // Error message border
+    "inputValidation.errorBackground":       "#ff537020",  // Error message background
+    "inputValidation.errorForeground":       "#ff5370",    // Error message text
+    "inputValidation.errorBorder":           "#ff5370",    // Error message border
+    "inputValidation.warningBackground":     "#ffcb6b20",  // Warning message background
+    "inputValidation.warningForeground":     "#ffcb6b",    // Warning message text
+    "inputValidation.warningBorder":         "#ffcb6b",    // Warning message border
+    "inputValidation.infoBackground":        "#82aaff20",  // Info message background
+    "inputValidation.infoForeground":        "#82aaff",    // Info message text
+    "inputValidation.infoBorder":            "#82aaff",    // Info message border
 
     // --- -- - BG {} and () and []
-    "editorBracketHighlight.foreground1":    "#ffd700",    // Bracket highlight color 1
-    "editorBracketHighlight.foreground2":    "#da70d6",    // Bracket highlight color 2
-    "editorBracketHighlight.foreground3":    "#1362e0",    // Bracket highlight color 3
-    "editorBracketHighlight.foreground4":    "#ffd700",    // Bracket highlight color 4
-    "editorBracketHighlight.foreground5":    "#fb3460",    // Bracket highlight color 5
-    "editorBracketHighlight.foreground6":    "#07a5de",    // Bracket highlight color 6
+    "editorBracketHighlight.foreground1":    "#ffcb6b",    // Bracket highlight color 1
+    "editorBracketHighlight.foreground2":    "#c792ea",    // Bracket highlight color 2
+    "editorBracketHighlight.foreground3":    "#82aaff",    // Bracket highlight color 3
+    "editorBracketHighlight.foreground4":    "#f78c6c",    // Bracket highlight color 4
+    "editorBracketHighlight.foreground5":    "#ff9cac",    // Bracket highlight color 5
+    "editorBracketHighlight.foreground6":    "#89ddff",    // Bracket highlight color 6
     "editorBracketMatch.background":         "#3a4a5540",  // Bracket match background
     "editorBracketMatch.border":             "#6b8fa3",    // Bracket match border 
     "editorBracketHighlight.unexpectedBracket.foreground": "#c78a7a",  // Unexpected bracket color
@@ -328,7 +337,7 @@
     "symbolIcon.booleanForeground":          "#ff9cac",    // Boolean icon
     "symbolIcon.classForeground":            "#e49c2f",    // Class icon
     "symbolIcon.colorForeground":            "#c792ea",    // Color icon
-    "symbolIcon.constantForeground":         "#018466",    // Constant icon
+    "symbolIcon.constantForeground":         "#f78c6c",    // Constant icon
     "symbolIcon.constructorForeground":      "#82aaff",    // Constructor icon
     "symbolIcon.enumeratorForeground":       "#ffcb6b",    // Enumerator icon
     "symbolIcon.enumeratorMemberForeground": "#c3e88d",    // Enumerator member icon
@@ -344,14 +353,14 @@
     "symbolIcon.moduleForeground":           "#ffcb6b",    // Module icon
     "symbolIcon.namespaceForeground":        "#ffcb6b",    // Namespace icon
     "symbolIcon.nullForeground":             "#ff5370",    // Null icon
-    "symbolIcon.numberForeground":           "#018466",    // Number icon
+    "symbolIcon.numberForeground":           "#f78c6c",    // Number icon
     "symbolIcon.objectForeground":           "#ffcb6b",    // Object icon
     "symbolIcon.operatorForeground":         "#89ddff",    // Operator icon
     "symbolIcon.packageForeground":          "#ffcb6b",    // Package icon
     "symbolIcon.propertyForeground":         "#008cff",    // Property icon
     "symbolIcon.referenceForeground":        "#f07178",    // Reference icon
     "symbolIcon.snippetForeground":          "#c3e88d",    // Snippet icon
-    "symbolIcon.stringForeground":           "#048b6b",    // String icon
+    "symbolIcon.stringForeground":           "#c3e88d",    // String icon
     "symbolIcon.structForeground":           "#82aaff",    // Struct icon
     "symbolIcon.textForeground":             "#eeffff",    // Text icon
     "symbolIcon.typeParameterForeground":    "#89ddff",    // Type parameter icon
@@ -374,7 +383,20 @@
     "parameter": "#f07178",
     "property.readonly": "#89ddff",
     "enumMember": "#c3e88d",
-    "event": "#ff5370"
+    "event": "#ff5370",
+    "decorator": "#c792ea",
+    "typeParameter": "#89ddff",
+    "label": "#ffcb6b",
+    "keyword": "#f88141",
+    "string": "#c3e88d",
+    "number": "#f78c6c",
+    "regexp": "#f78c6c",
+    "operator": "#89ddff",
+    "comment": "#8c8c8c",
+    "struct": "#82aaff",
+    "selfKeyword": "#ff5370",
+    "builtinType": "#89ddff",
+    "generic": "#89ddff"
   },
 
   "tokenColors": [
