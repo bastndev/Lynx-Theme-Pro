@@ -4,38 +4,38 @@
   "semanticHighlighting": true,
   "name": "Lynx Dark Theme",
   "type": "dark",
-
+  
   "colors": {
     // TODO: MENU STATUS BAR MARK: - [TOP]
-    "titleBar.activeBackground":             "#0d0d0d",    // - Title bar background 
+    "titleBar.activeBackground":             "#0d0d0d",    // - Title bar bg 
     "titleBar.activeForeground":             "#ffffff",    // - Title bar text 
     "titleBar.border":                       "#0d0d0d",    // - Title bar border
-    "titleBar.inactiveBackground":           "#080808",    // - Title bar background
+    "titleBar.inactiveBackground":           "#080808",    // - Title bar bg
     "titleBar.inactiveForeground":           "#616161",    // - Title bar text 
-    "commandCenter.background":              "#080808",    // - Command Center background
+    "commandCenter.background":              "#080808",    // - Command Center bg
 
     // --- -- - Menu Click & select  
-    "menu.background":                       "#080808",    // - Menu background
+    "menu.background":                       "#080808",    // - Menu bg
     "menu.foreground":                       "#eeffff",    // - Menu text
     "menu.border":                           "#080808",    // - Border line
-    "menu.selectionBackground":              "#00000050",  // - Selected item background
+    "menu.selectionBackground":              "#00000050",  // - Selected item bg
     "menu.selectionForeground":              "#57b689",    // - Active click color
     "menu.separatorBackground":              "#bebcbc",    // - Separator line
-    "menubar.selectionBackground":           "#00000030",  // - Menubar selection background
+    "menubar.selectionBackground":           "#00000030",  // - Menubar selection bg
     "menubar.selectionForeground":           "#5fc05c",    // - Hover TOP text 1
     "menu.selectionBorder":                  "#00000030",  // - Selected item border
     "menubar.selectionBorder":               "#00000030",  // - Menubar selection border
 
-    "list.hoverBackground":                  "#00000098",  // - Hover background
+    "list.hoverBackground":                  "#00000098",  // - Hover bg
     "list.hoverForeground":                  "#cccccc",    // - Text select
-    "list.dropBackground":                   "#000000",    // - Drop background
+    "list.dropBackground":                   "#000000",    // - Drop bg
     
     // TODO: ACTIVITY BAR MARK: [ONE-1]
-    "activityBar.background":                "#0d0d0d",    // - Activity bar background
+    "activityBar.background":                "#0d0d0d",    // - Activity bar bg
     "activityBar.foreground":                "#eeffff",    // - Activity bar text
     "activityBar.border":                    "#0d0d0d",    // - Activity bar border
     "activityBarTop.inactiveForeground":     "#605f5f",    // - No selection icon
-    "activityBarBadge.background":           "#5db687",    // - Badge background
+    "activityBarBadge.background":           "#5db687",    // - Badge bg
     "activityBarBadge.foreground":           "#000000",    // - Badge text
     "activityBar.activeBorder":              "#5fc05c",    // - Active item border
     "activityBarTop.foreground":             "#57b689",    // - Select icon
@@ -45,16 +45,16 @@
     "tree.indentGuidesStroke":               "#5db68748",  // - Line guide Folder
     
     // --- -- - Menu hover - click & select = RIGHT
-    "list.activeSelectionBackground":        "#57b68935",  // - Active background
+    "list.activeSelectionBackground":        "#57b68935",  // - Active bg
     "list.activeSelectionForeground":        "#ffffff",    // - Active text color
     "list.inactiveSelectionForeground":      "#ffffff",    // - Inactive text color
-    "list.inactiveSelectionBackground":      "#000000",    // - Inactive background
-    "list.focusBackground":                  "#3a4a55",    // - Focus background
+    "list.inactiveSelectionBackground":      "#000000",    // - Inactive bg
+    "list.focusBackground":                  "#3a4a55",    // - Focus bg
     "list.focusForeground":                  "#c9d1d9",    // - Focus text
     "contrastActiveBorder":                  "#00000000",  // - contrast active border BOX-----
 
     // --- -- - Side Bar
-    "sideBar.background":                    "#0d0d0d",    // - Ai and Side bar background
+    "sideBar.background":                    "#0d0d0d",    // - Ai and Side bar bg
     "sideBar.foreground":                    "#a2a9b5d5",  // - Text vscode all
     "sideBar.border":                        "#141414",    // - LINE RIGHT & LEFT
     "sideBarSectionHeader.background":       "#080808",    // - LINE bg
@@ -63,10 +63,10 @@
     "sideBarSectionHeader.foreground":       "#57b689",    // - Css text and BOT txt
 
     // --- -- - Buttons
-    "button.background":                     "#57b689",    // - Button background
+    "button.background":                     "#57b689",    // - Button bg
     "button.foreground":                     "#000000",    // - Button text
     "button.hoverBackground":                "#479671",    // - Button hover
-    "toolbar.hoverBackground":               "#ffffff4b",  // - button hover background
+    "toolbar.hoverBackground":               "#ffffff4b",  // - button hover bg
 
     // --- -- - Editor hover widget
     "editorHoverWidget.border":              "#212122",    // - Hover widget border
@@ -89,31 +89,31 @@
     "editorGutter.modifiedBackground":               "#07daffb7",  // - Warning color
  
     // TODO: CODE EDITOR MARK: [TWO-2]
-    "editor.background":                     "#0d0d0d",    // - Editor background
+    "editor.background":                     "#0d0d0d",    // - Editor bg
     "editor.foreground":                     "#eeffff",    // - Editor [STORE] text
-    "editor.findMatchBackground":            "#82aaff40",  // - Find match background
+    "editor.findMatchBackground":            "#82aaff40",  // - Find match bg
     "editor.findMatchBorder":                "#82aaff",    // - Find match border
-    "editor.findMatchHighlightBackground":   "#82aaff20",  // - Find match highlight background
+    "editor.findMatchHighlightBackground":   "#82aaff20",  // - Find match highlight bg
     "editor.findMatchHighlightBorder":       "#82aaff60",  // - Find match highlight border
-    "editor.findRangeHighlightBackground":   "#ffcb6b20",  // - Find range highlight background
-    "editor.lineHighlightBackground":        "#ffffff08",  // - Line highlight background (improved contrast)
+    "editor.findRangeHighlightBackground":   "#ffcb6b20",  // - Find range highlight bg
+    "editor.lineHighlightBackground":        "#ffffff08",  // - Line highlight bg (improved contrast)
     "editor.lineHighlightBorder":            "#ffffff10",  // - Line highlight border (visible)
-    "editor.selectionBackground":            "#57b68950",  // - Selection background (theme consistent)
-    "editor.rangeHighlightBackground":       "#29c7ee0d",  // - Range highlight background
-    "editor.wordHighlightBackground":        "#ffcb6b25",  // - Word highlight background
-    "editor.wordHighlightStrongBackground":  "#82aaff25",  // - Word highlight strong background
+    "editor.selectionBackground":            "#57b68950",  // - Selection bg (theme consistent)
+    "editor.rangeHighlightBackground":       "#29c7ee0d",  // - Range highlight bg
+    "editor.wordHighlightBackground":        "#ffcb6b25",  // - Word highlight bg
+    "editor.wordHighlightStrongBackground":  "#82aaff25",  // - Word highlight strong bg
     "editorOverviewRuler.border":            "#0d0d0d",    // - Overview ruler border
-    "editor.selectionHighlightBackground":   "#ffcc0020",  // - Selection highlight background
+    "editor.selectionHighlightBackground":   "#ffcc0020",  // - Selection highlight bg
 
     // --- -- - Tabs Header - TOP
-    "editorGroupHeader.tabsBackground":      "#0d0d0d",    // - Tabs header background
+    "editorGroupHeader.tabsBackground":      "#0d0d0d",    // - Tabs header bg
     "editorGroupHeader.tabsBorder":          "#192124",    // - Tabs header border line horizontal
     "tab.border":                            "#192124",    // - Tab border Vertical
     "tab.activeBackground":                  "#000000",    // - bg select file 
     "tab.activeBorderTop":                   "#57b689",    // - Active tab border top
     "tab.activeForeground":                  "#ffffff",    // - Active tab text
     "tab.activeBorder":                      "#080808",    // - Active tab border
-    "tab.inactiveBackground":                "#0d0d0d",    // - Inactive tab background
+    "tab.inactiveBackground":                "#0d0d0d",    // - Inactive tab bg
     "tab.inactiveForeground":                "#6b7280",    // - Inactive tab text
     "tab.hoverBackground":                   "#1f2220",    // - hover
     "tab.hoverForeground":                   "#c9d1d9",    // - Tab hover text
@@ -124,15 +124,15 @@
     // --- -- - Breadcrumb second-Header
     "breadcrumb.background":                 "#000000",    // - bg second line
     "breadcrumb.foreground":                 "#8c8c8c",    // - Breadcrumb text
-    "breadcrumbPicker.background":           "#080808",    // - Breadcrumb picker background
+    "breadcrumbPicker.background":           "#080808",    // - Breadcrumb picker bg
     "breadcrumb.focusForeground":            "#5fc05c",    // - Breadcrumb focus text
     "breadcrumb.activeSelectionForeground":  "#5fc05c",    // - Breadcrumb active selection text
     "editorStickyScrollHover.background":    "#000000",    // - Select hover before white now black
 
     // --- -- - Scrollbar - RIGHT
     "scrollbarSlider.background":            "#d0d0d027",  // - Scroll bar small and large
-    "scrollbarSlider.hoverBackground":       "#d0d0d03d",  // - Hover background
-    "scrollbarSlider.activeBackground":      "#ededee48",  // - Active background
+    "scrollbarSlider.hoverBackground":       "#d0d0d03d",  // - Hover bg
+    "scrollbarSlider.activeBackground":      "#ededee48",  // - Active bg
     "scrollbar.shadow":                      "#252525f1",  // - Shadow
 
     // --- -- - Editor Line Number - LEFT
@@ -144,7 +144,7 @@
     "editorSuggestWidget.foreground":         "#eeffff",    // - Suggestion widget text
     "editorSuggestWidget.border":             "#57b689",    // - Suggestion widget border
     "editorSuggestWidget.highlightForeground":"#5fc05c",    // - Highlighted suggestion text
-    "editorSuggestWidget.selectedBackground" :"#57b68963",  // - Selected suggestion background
+    "editorSuggestWidget.selectedBackground" :"#57b68963",  // - Selected suggestion bg
     "editorHoverWidget.background":           "#080808",    // - bg check information
 
     // --- -- - Editor Widgets - MID + AI
@@ -154,10 +154,10 @@
     "widget.shadow":                         "#00000050",  // - Widget shadow
 
     // --- -- - Editor Diff git
-    "diffEditor.insertedTextBackground":    "#c3e88d20",   // - Inserted text background
-    "diffEditor.removedTextBackground":     "#ff537020",   // - Removed text background
-    "diffEditor.insertedLineBackground":    "#c3e88d10",   // - Inserted line background
-    "diffEditor.removedLineBackground":     "#ff537010",   // - Removed line background
+    "diffEditor.insertedTextBackground":    "#c3e88d20",   // - Inserted text bg
+    "diffEditor.removedTextBackground":     "#ff537020",   // - Removed text bg
+    "diffEditor.insertedLineBackground":    "#c3e88d10",   // - Inserted line bg
+    "diffEditor.removedLineBackground":     "#ff537010",   // - Removed line bg
     "diffEditor.diagonalFill":              "#ffffff20",   // - Diagonal fill
 
     // TODO: COPILOT -AI MARK: [THREE-3]-[AI]
@@ -169,7 +169,7 @@
     "editorCursor.foreground":               "#8c8c8c",    // - Line point
 
     "disabledForeground":                    "#8c8c8c",    // - Disabled text color
-    "chat.avatarBackground":                 "#000000",    // - Chat avatar background
+    "chat.avatarBackground":                 "#000000",    // - Chat avatar bg
 
     "icon.foreground":                       "#e8e8e8",    // - Icon color
     "chat.avatarForeground":                 "#ffffff",    // - Chat avatar text color
@@ -179,35 +179,35 @@
     "editorWidget.foreground":               "#e9e9e9",    // - AI Select text & ctrl+p
 
     "peekViewTitleDescription.foreground":   "#57b689",    // - Select copilot
-    "editorGutter.addedBackground":          "#57b68930",  // - Added lines background ===
+    "editorGutter.addedBackground":          "#57b68930",  // - Added lines bg ===
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
-    "progressBar.background":                "#13ff3e",    // - Progress bar background
+    "progressBar.background":                "#13ff3e",    // - Progress bar bg
     
     //ctrl+shift+p | Inputs
-    "editorWidget.background":               "#080808",    // - Background
-    "quickInputList.focusBackground":        "#57b68960",  // - Focus background
+    "editorWidget.background":               "#080808",    // - bg
+    "quickInputList.focusBackground":        "#57b68960",  // - Focus bg
     "list.highlightForeground":              "#5fc05c",    // - Highlight text color
 
     "keybindingLabel.foreground":            "#fefefe",    // - Keybinding label text
-    "keybindingLabel.background":            "#63686e",    // - Keybinding label background
+    "keybindingLabel.background":            "#63686e",    // - Keybinding label bg
     "keybindingLabel.border":                "#08080800",  // - Keybinding label border
     "keybindingLabel.bottomBorder":          "#000000",    // - Keybinding label bottom border
 
     // --- -- - Panel Terminal & Text BOTTOM
-    "panel.background":                      "#0d0d0d",    // - Panel background
+    "panel.background":                      "#0d0d0d",    // - Panel bg
     "panel.border":                          "#58585860",  // - Panel border
     "panelTitle.activeBorder":               "#5fc05c",    // - Active panel title border
     "panelTitle.activeForeground":           "#ffffff",    // - Active panel title text
     "panelTitle.inactiveForeground":         "#909090",    // - Title panel
     "panelSection.border":                   "#2a2e33",    // - Panel section border
-    "panelSection.dropBackground":           "#4ECDC430",  // - Panel section drop background
-    "panelSectionHeader.background":         "#192124",    // - Panel section header background
+    "panelSection.dropBackground":           "#4ECDC430",  // - Panel section drop bg
+    "panelSectionHeader.background":         "#192124",    // - Panel section header bg
     "panelSectionHeader.foreground":         "#4ECDC4",    // - Panel section header text
 
     // --- -- - Terminal colors
-    "terminal.background":                   "#0a0a0a",    // - Terminal background
+    "terminal.background":                   "#0a0a0a",    // - Terminal bg
     "terminal.foreground":                   "#c9d1d9",    // - Terminal text
     "terminal.ansiBlack":                    "#000000",    // - Terminal black color
     "terminal.ansiBlue":                     "#5fc05c",    // - Terminal blue color
@@ -225,16 +225,16 @@
     "terminal.ansiRed":                      "#ff3e48",    // - Terminal red color
     "terminal.ansiWhite":                    "#ffffff",    // - Terminal white color
     "terminal.ansiYellow":                   "#ffcb6b",    // - Terminal yellow color
-    "terminalCursor.background":             "#000000",    // - Terminal cursor background
+    "terminalCursor.background":             "#000000",    // - Terminal cursor bg
     "terminalCursor.foreground":             "#ffcb6b",    // - Terminal cursor foreground
-    "terminal.selectionBackground":          "#0567f1",    // - Terminal selection background
+    "terminal.selectionBackground":          "#0567f1",    // - Terminal selection bg
 
     // --- -- - Notifications
-    "notifications.background":              "#000000",    // - Notification background
+    "notifications.background":              "#000000",    // - Notification bg
     "notifications.foreground":              "#eeffff",    // - Notification text
     "notifications.border":                  "#2a2e33",    // - Notification border
     "notificationCenter.border":             "#2a2e33",    // - Notification center border
-    "notificationCenterHeader.background":   "#192124",    // - Notification center header background
+    "notificationCenterHeader.background":   "#192124",    // - Notification center header bg
     "notificationCenterHeader.foreground":   "#4ECDC4",    // - Notification center header text
     "notificationToast.border":              "#2a2e33",    // - Notification toast border
     "notificationsErrorIcon.foreground":     "#ff4757",    // - Error notification icon 
@@ -247,45 +247,45 @@
     "textLink.foreground":                   "#13ff3e",    // - Link text color
 
     // --- -- - Editor Group & Dropdown Controls
-    "dropdown.background":                   "#080808",    // - Dropdown background
+    "dropdown.background":                   "#080808",    // - Dropdown bg
     "dropdown.foreground":                   "#ffffff",    // - Dropdown text color
     "dropdown.border":                       "#232323",    // - Dropdown border
-    "debugToolBar.background":               "#272b2a",    // - Debug toolbar background-bg
-    "dropdown.listBackground":               "#192124",    // - Dropdown list background
+    "debugToolBar.background":               "#272b2a",    // - Debug toolbar bg-bg
+    "dropdown.listBackground":               "#192124",    // - Dropdown list bg
     "debugToolBar.border":                   "#212122",    // - Border debug optional
 
     // TODO: STATUS BAR MARK: - [BOTTOM]
-    "statusBar.background":                  "#0d0d0d",    // - Status bar background
+    "statusBar.background":                  "#0d0d0d",    // - Status bar bg
     "statusBar.foreground":                  "#616161",    // - Status bar text color
     "statusBar.border":                      "#42414160",  // - Status bar line border
-    "statusBar.debuggingBackground":         "#57b68a09",  // - Status bar debugging background
+    "statusBar.debuggingBackground":         "#57b68a09",  // - Status bar debugging bg
     "statusBar.debuggingForeground":         "#ffffff",    // - Status bar debugging text
-    "statusBar.noFolderBackground":          "#00000000",  // - Status bar no folder background
+    "statusBar.noFolderBackground":          "#00000000",  // - Status bar no folder bg
     "statusBar.noFolderForeground":          "#938f9b",    // - Status bar no folder text
-    "statusBarItem.hoverBackground":         "#0d0d0d",    // - Status bar item hover background
+    "statusBarItem.hoverBackground":         "#0d0d0d",    // - Status bar item hover bg
     "statusBarItem.hoverForeground":         "#ffffff",    // - Status bar item hover text
-    "statusBarItem.activeBackground":        "#57b68a09",  // - Status bar active item background
-    "statusBarItem.remoteBackground":        "#00000000",  // - Remote corner background
+    "statusBarItem.activeBackground":        "#57b68a09",  // - Status bar active item bg
+    "statusBarItem.remoteBackground":        "#00000000",  // - Remote corner bg
     "statusBarItem.remoteForeground":        "#57b689",    // - Remote corner logo-ICON
     "statusBarItem.remoteHoverForeground":   "#57b689",    // - Hover corner logo-ICON
-    "statusBarItem.prominentBackground":     "#352f3d",    // - Bottom box background
+    "statusBarItem.prominentBackground":     "#352f3d",    // - Bottom box bg
 
     // TODO: -  BG STORE VSCODE MARK:[+]
-    "textBlockQuote.background":             "#000000",    // - Block quote background
+    "textBlockQuote.background":             "#000000",    // - Block quote bg
     "textBlockQuote.border":                 "#232323",    // - Block quote border LEFT
-    "textCodeBlock.background":              "#000000",    // - Code block background 
+    "textCodeBlock.background":              "#000000",    // - Code block bg 
 
     // ---- -- - Selection BG
-    "selection.background":                  "#19573a",    // - selection background
+    "selection.background":                  "#19573a",    // - selection bg
 
     // --- -- - BG message error
-    "inputValidation.errorBackground":       "#ff537020",  // - Error message background
+    "inputValidation.errorBackground":       "#ff537020",  // - Error message bg
     "inputValidation.errorForeground":       "#ff5370",    // - Error message text
     "inputValidation.errorBorder":           "#ff5370",    // - Error message border
-    "inputValidation.warningBackground":     "#ffcb6b20",  // - Warning message background
+    "inputValidation.warningBackground":     "#ffcb6b20",  // - Warning message bg
     "inputValidation.warningForeground":     "#ffcb6b",    // - Warning message text
     "inputValidation.warningBorder":         "#ffcb6b",    // - Warning message border
-    "inputValidation.infoBackground":        "#82aaff20",  // - Info message background
+    "inputValidation.infoBackground":        "#82aaff20",  // - Info message bg
     "inputValidation.infoForeground":        "#82aaff",    // - Info message text
     "inputValidation.infoBorder":            "#82aaff",    // - Info message border
 
@@ -296,20 +296,20 @@
     "editorBracketHighlight.foreground4":    "#f78c6c",    // - Bracket highlight color 4
     "editorBracketHighlight.foreground5":    "#ff9cac",    // - Bracket highlight color 5
     "editorBracketHighlight.foreground6":    "#89ddff",    // - Bracket highlight color 6
-    "editorBracketMatch.background":         "#3a4a5540",  // - Bracket match background
+    "editorBracketMatch.background":         "#3a4a5540",  // - Bracket match bg
     "editorBracketMatch.border":             "#6b8fa3",    // - Bracket match border 
     "editorBracketHighlight.unexpectedBracket.foreground": "#c78a7a",  // Unexpected bracket color
 
     // TODO: INLAY HINTS | VSCODE FEATURES MARK: [MODERN]
-    "editorInlayHint.background":            "#00000030",  // - Inlay hint background
+    "editorInlayHint.background":            "#00000030",  // - Inlay hint bg
     "editorInlayHint.foreground":            "#8c8c8c",    // - Inlay hint text
     "editorInlayHint.typeForeground":        "#8c8c8c",    // - Inlay hint type text
-    "editorInlayHint.typeBackground":        "#00000030",  // - Inlay hint type background
+    "editorInlayHint.typeBackground":        "#00000030",  // - Inlay hint type bg
     "editorInlayHint.parameterForeground":   "#8c8c8c",    // - Inlay hint parameter text
-    "editorInlayHint.parameterBackground":   "#00000030",  // - Inlay hint parameter background
+    "editorInlayHint.parameterBackground":   "#00000030",  // - Inlay hint parameter bg
     
     // --- -- - Sticky Scroll
-    "editorStickyScroll.background":         "#080808",    // - Sticky scroll background
+    "editorStickyScroll.background":         "#080808",    // - Sticky scroll bg
     "editorStickyScroll.border":             "#141414",    // - Sticky scroll border
     
     // --- -- - Testing
@@ -320,17 +320,17 @@
     "testing.iconSkipped":                   "#8c8c8c",    // - Test skipped icon
     "testing.iconUnset":                     "#616161",    // - Test unset icon
     "testing.peekBorder":                    "#57b689",    // - Test peek border
-    "testing.peekHeaderBackground":          "#080808",    // - Test peek header background
-    "testing.message.error.lineBackground":  "#ff475720",  // - Test error line background
+    "testing.peekHeaderBackground":          "#080808",    // - Test peek header bg
+    "testing.message.error.lineBackground":  "#ff475720",  // - Test error line bg
     
     // --- -- - Merge Conflicts
-    "merge.currentHeaderBackground":         "#57b68930",  // - Current header background
-    "merge.currentContentBackground":        "#57b68915",  // - Current content background
-    "merge.incomingHeaderBackground":        "#82aaff30",  // - Incoming header background
-    "merge.incomingContentBackground":       "#82aaff15",  // - Incoming content background
+    "merge.currentHeaderBackground":         "#57b68930",  // - Current header bg
+    "merge.currentContentBackground":        "#57b68915",  // - Current content bg
+    "merge.incomingHeaderBackground":        "#82aaff30",  // - Incoming header bg
+    "merge.incomingContentBackground":       "#82aaff15",  // - Incoming content bg
     "merge.border":                          "#57b689",    // - Merge border
-    "merge.commonContentBackground":         "#ffcb6b15",  // - Common content background
-    "merge.commonHeaderBackground":          "#ffcb6b30",  // - Common header background
+    "merge.commonContentBackground":         "#ffcb6b15",  // - Common content bg
+    "merge.commonHeaderBackground":          "#ffcb6b30",  // - Common header bg
     
     // --- -- - Symbol Icons
     "symbolIcon.arrayForeground":            "#ffcb6b",    // - Array icon
