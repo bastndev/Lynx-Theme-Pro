@@ -329,6 +329,7 @@
     "merge.currentHeaderBackground":         "#11632930",  // - Current header bg
     "merge.currentContentBackground":        "#11632915",  // - Current content bg
     "merge.incomingHeaderBackground":        "#82aaff30",  // - Incoming header bg
+    "merge.incomingContentBackground":       "#5fc05c15",  // - Incoming content bg
     "merge.border":                          "#038c43",    // - Merge border
     "merge.commonContentBackground":         "#95380015",  // - Common content bg
     "merge.commonHeaderBackground":          "#95380030",  // - Common header bg
