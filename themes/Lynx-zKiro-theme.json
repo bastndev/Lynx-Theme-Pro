@@ -262,7 +262,7 @@
     "statusBarItem.prominentBackground":     "#352f3d",    // - Bottom box bg
     
     // --- -- - Market place VScode txt color
-    "textPreformat.foreground":              "#938f9b",    // - Preformatted text
+    "textPreformat.foreground":              "#ffd45f",    // - Preformatted text
     "textLink.foreground":                   "#b080ff",    // - Link text color
 
     // TODO: -  BG STORE VSCODE MARK:[+]
