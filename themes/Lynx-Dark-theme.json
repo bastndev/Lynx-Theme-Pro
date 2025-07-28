@@ -133,7 +133,7 @@
     "scrollbarSlider.hoverBackground":       "#d0d0d03d",  // - Hover bg
     "scrollbarSlider.activeBackground":      "#ededee48",  // - Active bg
     "scrollbar.shadow":                      "#252525f1",  // - Shadow
-    "editorOverviewRuler.border":            "#ededee48",  // - Overview ruler border LINE  |-|
+    "editorOverviewRuler.border":            "#ededee48",  // - Overview ruler border LINE  |-
 
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground":     "#ffffff",    // - Active line number
