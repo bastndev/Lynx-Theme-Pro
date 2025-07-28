@@ -381,7 +381,6 @@
     "method": "#afb6ff",
     "macro": "#c2a0fd",
     "variable": "#80f4ff",
-    "variable.readonly": "#ffffffcc",
     "parameter": "#f07178",
     "property.readonly": "#ffffffcc",
     "enumMember": "#80ffb5",
