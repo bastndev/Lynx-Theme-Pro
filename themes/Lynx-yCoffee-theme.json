@@ -51,7 +51,7 @@
     "list.inactiveSelectionBackground":      "#1d1516",    // Inactive background
     "list.focusBackground":                  "#2e2419",    // Focus background
     "list.focusForeground":                  "#ffffff",    // Focus text
-    "contrastActiveBorder":                  "#ffffff5a",  // contrast active border
+    "contrastActiveBorder":                  "#00000000",  // contrast active border
 
     // --- -- - Side Bar
     "sideBar.background":                    "#231514",    // Ai and Side bar background
