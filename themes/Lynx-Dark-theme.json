@@ -257,7 +257,7 @@
     // TODO: STATUS BAR MARK: - [BOTTOM]
     "statusBar.background":                  "#0d0d0d",    // - Status bar bg
     "statusBar.foreground":                  "#616161",    // - Status bar text color
-    "statusBar.border":                      "#42414160",  // - Status bar line border
+    "statusBar.border":                      "#00000000",  // - Status bar line border (Bottom)
     "statusBar.debuggingBackground":         "#57b68a09",  // - Status bar debugging bg
     "statusBar.debuggingForeground":         "#ffffff",    // - Status bar debugging text
     "statusBar.noFolderBackground":          "#00000000",  // - Status bar no folder bg
