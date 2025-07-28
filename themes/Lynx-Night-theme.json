@@ -203,27 +203,27 @@
     "panelSectionHeader.foreground":         "#4ECDC4",    // - Panel section header text
 
     // --- -- - Terminal colors
-    "terminal.background":                   "#171e21",    // - Terminal bg
+    "terminal.background":                   "#12191c",    // - Terminal bg
     "terminal.foreground":                   "#c9d1d9",    // - Terminal text
     "terminal.ansiBlack":                    "#000000",    // - Terminal black color
     "terminal.ansiBlue":                     "#5fc05c",    // - Terminal blue color
     "terminal.ansiBrightBlack":              "#545454",    // - Terminal bright black color
     "terminal.ansiBrightBlue":               "#62cdff",    // - Terminal bright blue color
     "terminal.ansiBrightCyan":               "#00d0e7",    // - Terminal bright cyan color
-    "terminal.ansiBrightGreen":              "#0dff00",    // - Terminal bright green color
+    "terminal.ansiBrightGreen":              "#13ff3e",    // - Terminal bright green color
     "terminal.ansiBrightMagenta":            "#c792ea",    // - Terminal bright magenta color
     "terminal.ansiBrightRed":                "#ed0a3f",    // - Terminal bright red color
     "terminal.ansiBrightWhite":              "#ffffff",    // - Terminal bright white color
     "terminal.ansiBrightYellow":             "#ffcb6b",    // - Terminal bright yellow color
     "terminal.ansiCyan":                     "#00a5d1",    // - Terminal cyan color
-    "terminal.ansiGreen":                    "#0dff00",    // - Terminal green color
+    "terminal.ansiGreen":                    "#57b689",    // - Terminal green color
     "terminal.ansiMagenta":                  "#c792ea",    // - Terminal magenta color
     "terminal.ansiRed":                      "#ff3e48",    // - Terminal red color
     "terminal.ansiWhite":                    "#ffffff",    // - Terminal white color
     "terminal.ansiYellow":                   "#ffcb6b",    // - Terminal yellow color
     "terminalCursor.background":             "#000000",    // - Terminal cursor bg
     "terminalCursor.foreground":             "#ffcb6b",    // - Terminal cursor foreground
-    "terminal.selectionBackground":          "#2d3540",    // - Terminal selection bg
+    "terminal.selectionBackground":          "#0567f1",    // - Terminal selection bg
 
     // --- -- - Notifications
     "notifications.background":              "#080808",    // - Notification bg
