@@ -237,10 +237,6 @@
     "notificationsWarningIcon.foreground":   "#ffa502",    // - Warning notification icon 
     "notificationsInfoIcon.foreground":      "#1b73e8",    // - Info notification icon 
     "notificationLink.foreground":           "#2ed573",    // - Notification link color
-    
-    // --- -- - Market place VScode txt color
-    "textPreformat.foreground":              "#ffd45f",    // - Preformatted text
-    "textLink.foreground":                   "#13ff3e",    // - Link text color
 
     // --- -- - Editor Group & Dropdown Controls
     "dropdown.background":                   "#161F24",    // - Dropdown bg
@@ -264,7 +260,11 @@
     "statusBarItem.remoteForeground":        "#57b689",    // - Remote corner logo-ICON
     "statusBarItem.remoteHoverForeground":   "#57b689",    // - Hover corner logo-ICON
     "statusBarItem.prominentBackground":     "#352f3d",    // - Bottom box bg
-
+    
+    // --- -- - Market place VScode txt color
+    "textPreformat.foreground":              "#ffd45f",    // - Preformatted text
+    "textLink.foreground":                   "#13ff3e",    // - Link text color
+    
     // TODO: -  BG STORE VSCODE MARK:[+]
     "textBlockQuote.background":             "#000000",    // - Block quote bg
     "textBlockQuote.border":                 "#232323",    // - Block quote border LEFT
