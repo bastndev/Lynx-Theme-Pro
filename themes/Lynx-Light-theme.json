@@ -255,12 +255,12 @@
     "statusBar.foreground":                  "#616161",    // - Status bar text color
     "statusBar.debuggingBackground":         "#ffffff",    // - Status bar debugging bg
     "statusBar.debuggingForeground":         "#000000",    // - Status bar debugging text
-    "statusBar.noFolderBackground":          "#ffffff",    // - Status bar no folder bg
-    "statusBar.noFolderForeground":          "#616161",    // - Status bar no folder text
-    "statusBarItem.hoverBackground":         "#dddddd20",  // - Status bar item hover bg
+    "statusBar.noFolderBackground":          "#00000000",    // - Status bar no folder bg
+    "statusBar.noFolderForeground":          "#61616f",    // - Status bar no folder text
+    "statusBarItem.hoverBackground":         "#00000000",  // - Status bar item hover bg
     "statusBarItem.hoverForeground":         "#000000",    // - Status bar item hover text
     "statusBarItem.activeBackground":        "#f0717880",  // - Status bar active item bg
-    "statusBarItem.remoteBackground":        "#eaeaea",    // - Remote corner bg
+    "statusBarItem.remoteBackground":        "#00000000",  // - Remote corner bg
     "statusBarItem.remoteForeground":        "#479671",    // - Remote corner logo-ICON
     "statusBarItem.remoteHoverForeground":   "#13ff3e",    // - Hover corner logo-ICON
     "statusBarItem.prominentBackground":     "#ffffff",    // - Bottom box bg
