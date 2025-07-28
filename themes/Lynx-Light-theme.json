@@ -102,7 +102,6 @@
     "editor.rangeHighlightBackground":       "#29c7ee0d",  // - Range highlight bg
     "editor.wordHighlightBackground":        "#ff9cac30",  // - Word highlight bg
     "editor.wordHighlightStrongBackground":  "#c3e88d30",  // - Word highlight strong bg
-    "editorOverviewRuler.border":            "#eaeaea",    // - Overview ruler border
     "editor.selectionHighlightBackground":   "#ffcc0020",  // - Selection highlight bg
 
     // --- -- - Tabs Header - TOP
@@ -134,6 +133,7 @@
     "scrollbarSlider.hoverBackground":       "#0000003d",  // - Hover bg
     "scrollbarSlider.activeBackground":      "#00000048",  // - Active bg
     "scrollbar.shadow":                      "#00000030",  // - Shadow
+    "editorOverviewRuler.border":            "#ededee48",  // - Overview ruler border  |-|
 
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground":     "#000000",    // - Active line number
