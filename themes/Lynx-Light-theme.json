@@ -255,7 +255,7 @@
     "statusBar.foreground":                  "#616161",    // - Status bar text color
     "statusBar.debuggingBackground":         "#ffffff",    // - Status bar debugging bg
     "statusBar.debuggingForeground":         "#000000",    // - Status bar debugging text
-    "statusBar.noFolderBackground":          "#00000000",    // - Status bar no folder bg
+    "statusBar.noFolderBackground":          "#00000000",  // - Status bar box bg HOVER
     "statusBar.noFolderForeground":          "#61616f",    // - Status bar no folder text
     "statusBarItem.hoverBackground":         "#eaeaea",  // - Status bar item hover bg
     "statusBarItem.hoverForeground":         "#000000",    // - Status bar item hover text
