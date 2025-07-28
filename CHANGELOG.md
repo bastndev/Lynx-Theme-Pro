@@ -19,6 +19,21 @@ Discover more extensions at [bastndev.com/extensions](https://bastndev.com/exten
 
 Following VS Code best practices, Lynx Theme Pro uses semantic versioning for all releases.
 
+## [2.5.0] - 2025-07-28
+
+### Changed
+- Refactored codebase for improved structure and readability.
+- Added more descriptive comments throughout the code.
+- Reorganized code sections for better maintainability.
+
+### Changed
+- Refactored all theme variants for improved consistency, readability, and overall user experience.
+- Enhanced and fine-tuned each of the 6 themes with additional improvements and optimizations.
+
+### Added
+- Added `ARCHITECTURE.md` to document the project's structure and design decisions.
+- Added `CODE_OF_CONDUCT.md` and `CONTRIBUTING.md` files to guide community contributions and maintain project standards.
+
 ## [2.1.1] - 2025-07-26
 
 ### Added

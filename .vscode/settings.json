@@ -18,12 +18,14 @@
     "imba",
     "kiro",
     "livescript",
+    "localname",
     "mdsvex",
     "mjml",
     "moonscript",
     "ngrx",
     "opam",
     "purescript",
+    "readwrite",
     "stackblitz",
     "tema",
     "tlpp",
@@ -31,5 +33,6 @@
     "wakatime",
     "webhint",
     "wepy"
-  ]
+  ],
+  "kiroAgent.configureMCP": "Disabled"
 }
