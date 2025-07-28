@@ -246,10 +246,10 @@
     // --- -- - Editor Group & Dropdown Controls
     "dropdown.background":                   "#dad2c3",    // - Dropdown bg
     "dropdown.foreground":                   "#000000",    // - Dropdown text color
-    "dropdown.border":                       "#d2c48f",    // - Dropdown border
-    "debugToolBar.background":               "#e4dbb0",    // - Debug toolbar bg-bg
+    "dropdown.border":                       "#d2c38f",    // - Dropdown border 
+    "debugToolBar.background":               "#e4dbb0",    // - Debug toolbar bg
     "dropdown.listBackground":               "#efe8d6",    // - Dropdown list bg
-    "debugToolBar.border":                   "#d2c38f",    // - Border debug optional
+    "debugToolBar.border":                   "#d2c38f",    // - Border debug
 
     // TODO: STATUS BAR MARK: - [BOTTOM]
     "statusBar.background":                  "#efe8d6",    // - Status bar bg
