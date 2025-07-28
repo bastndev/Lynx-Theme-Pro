@@ -194,7 +194,7 @@
     // --- -- - Panel Terminal & Text BOTTOM
     "panel.background":                      "#211d25",    // - Panel bg
     "panel.border":                          "#00000000",  // - Panel border
-    "panelTitle.activeBorder":               "#00000000",  // - Active panel title border
+    "panelTitle.activeBorder":               "#b080ff",  // - Active panel title border
     "panelTitle.activeForeground":           "#ffffff",    // - Active panel title text
     "panelTitle.inactiveForeground":         "#938f9b",    // - Title panel
     "panelSection.border":                   "#4a464f",    // - Panel section border
