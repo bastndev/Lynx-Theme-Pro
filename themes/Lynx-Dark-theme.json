@@ -7,12 +7,12 @@
 
   "colors": {
     // TODO: MENU STATUS BAR MARK: - [TOP]
-    "titleBar.activeBackground":             "#0d0d0d",    // - Background
-    "titleBar.activeForeground":             "#ffffff",    // - TOP text 1
-    "titleBar.border":                       "#0d0d0d",    // - LINE
-    "titleBar.inactiveBackground":           "#080808",    // - Inactive window title
-    "titleBar.inactiveForeground":           "#616161",    // - Inactive title text
-    "commandCenter.background":              "#080808",    // - Background top box mid
+    "titleBar.activeBackground":             "#0d0d0d",    // - Title bar background 
+    "titleBar.activeForeground":             "#ffffff",    // - Title bar text 
+    "titleBar.border":                       "#0d0d0d",    // - Title bar border
+    "titleBar.inactiveBackground":           "#080808",    // - Title bar background
+    "titleBar.inactiveForeground":           "#616161",    // - Title bar text 
+    "commandCenter.background":              "#080808",    // - Command Center background
 
     // --- -- - Menu Click & select  
     "menu.background":                       "#080808",    // - Menu background
