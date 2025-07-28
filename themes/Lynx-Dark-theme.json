@@ -387,6 +387,7 @@
   },
   
   "tokenColors": [
+    // ===== COMMENTS =====
     {
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
