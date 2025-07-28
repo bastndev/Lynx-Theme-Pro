@@ -271,11 +271,11 @@
     "textCodeBlock.background":              "#000000",    // - Code block bg 
 
     // ---- -- - LINES
-    "titleBar.border":                       "#0d0d0d",    // - Title bar LINE TOP -T-
-    "sideBarSectionHeader.border":           "#0d0d0d",    // - Line top bottom right or left =T=
-    "sideBar.border":                        "#141414",    // - LINE RIGHT & LEFT |-|
-    "editorOverviewRuler.border":            "#ededee48",  // - Overview ruler border LINE  ||-
-    "statusBar.border":                      "#00000000",  // - Status bar LINE border (Bottom)
+    "titleBar.border":                       "#00000000",    // - Title bar LINE TOP -T-
+    "sideBarSectionHeader.border":           "#00000000",    // - Line top bottom right or left =T=
+    "sideBar.border":                        "#2222227c",    // - LINE RIGHT & LEFT |-|
+    "editorOverviewRuler.border":            "#00000000",    // - Overview ruler border LINE  ||-
+    "statusBar.border":                      "#00000000",    // - Status bar LINE border (Bottom)
 
     // ---- -- - Selection BG
     "selection.background":                  "#567281",    // - selection bg
