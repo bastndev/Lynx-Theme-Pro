@@ -371,7 +371,7 @@
   "semanticTokenColors": {
     "namespace": "#ffcb6b",
     "property": "#008cff",
-    "interface": "#0fc5ed",
+    "interface": "#26d0ce",
     "type": "#e49c2f",
     "class": "#e49c2f",
     "enum": "#ffcb6b",
