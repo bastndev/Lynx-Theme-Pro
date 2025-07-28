@@ -84,7 +84,6 @@
     "editorGhostText.foreground":                    "#717171",    // - git commit txt
     "editorGutter.deletedBackground":                "#ff0000",    // - Delete code
     "editorGutter.modifiedBackground":               "#07daffb7",  // - Warning color  
-
  
     // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#fef6e4",    // - Editor bg
