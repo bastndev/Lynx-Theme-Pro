@@ -102,14 +102,14 @@
     "editor.selectionHighlightBackground":   "#00000000",  // - Selection highlight bg
 
     // --- -- - Tabs Header - TOP
-    "editorGroupHeader.tabsBackground":      "#28242e",    // - Tabs header bg
+    "editorGroupHeader.tabsBackground":      "#211d25",    // - Tabs header bg
     "editorGroupHeader.tabsBorder":          "#524c5c",    // - Tabs header border line horizontal
     "tab.border":                            "#524c5c",    // - Tab border Vertical
     "tab.activeBackground":                  "#28242e",    // - bg select file 
     "tab.activeBorderTop":                   "#b080ff",    // - Active tab border top
     "tab.activeForeground":                  "#ffffff",    // - Active tab text
     "tab.activeBorder":                      "#211d25",    // - Active tab border
-    "tab.inactiveBackground":                "#28242e",    // - Inactive tab bg
+    "tab.inactiveBackground":                "#211d25",    // - Inactive tab bg
     "tab.inactiveForeground":                "#938f9b",    // - Inactive tab text
     "tab.hoverBackground":                   "#352f3d",    // - hover
     "tab.hoverForeground":                   "#ffffff",    // - Tab hover text
