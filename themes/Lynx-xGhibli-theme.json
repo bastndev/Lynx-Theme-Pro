@@ -134,7 +134,7 @@
     "scrollbarSlider.hoverBackground":       "#0000006b",  // - Hover bg
     "scrollbarSlider.activeBackground":      "#00000067",  // - Active bg
     "scrollbar.shadow":                      "#00000030",  // - Shadow
-    "editorOverviewRuler.border":            "#ededee48",  // - Overview ruler border  |-|
+    "editorOverviewRuler.border":            "#ededee48",  // - Overview ruler border LINE |-|
 
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground":     "#000000",    // - Active line number
@@ -258,7 +258,7 @@
     // TODO: STATUS BAR MARK: - [BOTTOM]
     "statusBar.background":                  "#efe8d6",    // - Status bar bg
     "statusBar.foreground":                  "#616161",    // - Status bar text color
-    "statusBar.border":                      "#42414160",  // - Status bar line border
+    "statusBar.border":                      "#42414160",  // - Status bar LINE border
     "statusBar.debuggingBackground":         "#dbd2c4",    // - Status bar debugging bg
     "statusBar.debuggingForeground":         "#000000",    // - Status bar debugging text
     "statusBar.noFolderBackground":          "#efe8d6",    // - Status bar no folder bg
