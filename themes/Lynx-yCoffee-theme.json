@@ -263,7 +263,7 @@
 
     // --- -- - Market place VScode txt color
     "textPreformat.foreground":              "#fc8277",    // - Preformatted text
-    "textLink.foreground":                   "#29db06",    // - Link text color
+    "textLink.foreground":                   "#a2554a",    // - Link text color
 
     // TODO: -  BG STORE VSCODE MARK:[+]
     "textBlockQuote.background":             "#170F10",    // - Block quote bg
