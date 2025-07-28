@@ -8,7 +8,7 @@
   "colors": {
     // TODO: MENU STATUS BAR MARK: - [TOP]
     "titleBar.activeBackground":             "#0d0d0d",    // Background
-    "titleBar.activeForeground":             "#d0d0d0",    // TOP text 1
+    "titleBar.activeForeground":             "#ffffff",    // TOP text 1
     "titleBar.border":                       "#0d0d0d",    // LINE
     "titleBar.inactiveBackground":           "#080808",    // Inactive window title
     "titleBar.inactiveForeground":           "#616161",    // Inactive title text
@@ -19,7 +19,7 @@
     "menu.foreground":                       "#eeffff",    // Menu text
     "menu.border":                           "#080808",    // Border line
     "menu.selectionBackground":              "#00000050",  // Selected item background
-    "menu.selectionForeground":              "#13ff3e",    // Active click color
+    "menu.selectionForeground":              "#57b689",    // Active click color
     "menu.separatorBackground":              "#bebcbc",    // Separator line
     "menubar.selectionBackground":           "#00000030",  // Menubar selection background
     "menubar.selectionForeground":           "#5fc05c",    // Hover TOP text 1
@@ -45,7 +45,7 @@
     "tree.indentGuidesStroke":               "#5db68748",  // Line guide Folder
     
     // --- -- - Menu hover - click & select = RIGHT
-    "list.activeSelectionBackground":        "#13ff3e35",  // Active background
+    "list.activeSelectionBackground":        "#57b68935",  // Active background
     "list.activeSelectionForeground":        "#ffffff",    // Active text color
     "list.inactiveSelectionForeground":      "#ffffff",    // Inactive text color
     "list.inactiveSelectionBackground":      "#000000",    // Inactive background
@@ -74,11 +74,11 @@
     "editorHoverWidget.statusBarBackground": "#282828",    // Hover widget status bar bg
 
     //--- -- - GIT Decoration
-    "gitDecoration.modifiedResourceForeground":      "#66be8b",    // Modified files
+    "gitDecoration.modifiedResourceForeground":      "#57b689",    // Modified files
     "gitDecoration.conflictingResourceForeground":   "#00a1fe90",  // Merge conflicts
     "gitDecoration.deletedResourceForeground":       "#f07177f5",  // Deleted files
     "gitDecoration.ignoredResourceForeground":       "#61616190",  // Ignored files
-    "gitDecoration.untrackedResourceForeground":     "#21f21a",    // Untracked files
+    "gitDecoration.untrackedResourceForeground":     "#13ff3e",    // Untracked files
     "gitDecoration.stageModifiedResourceForeground": "#ffcb6b",    // Staged modified files
     "gitDecoration.stageDeletedResourceForeground":  "#ffcb6b",    // Staged deleted files
     "gitDecoration.submoduleResourceForeground":     "#ffcb6b",    // Submodules
@@ -142,9 +142,9 @@
     // --- -- - Editor Suggest widget MID
     "editorSuggestWidget.background":         "#080808",    // bg suggestion
     "editorSuggestWidget.foreground":         "#eeffff",    // Suggestion widget text
-    "editorSuggestWidget.border":             "#13ff3ec0",  // Suggestion widget border
+    "editorSuggestWidget.border":             "#57b689",    // Suggestion widget border
     "editorSuggestWidget.highlightForeground":"#5fc05c",    // Highlighted suggestion text
-    "editorSuggestWidget.selectedBackground" :"#49d75963",  // Selected suggestion background
+    "editorSuggestWidget.selectedBackground" :"#57b68963",  // Selected suggestion background
     "editorHoverWidget.background":           "#080808",    // bg check information
 
     // --- -- - Editor Widgets - MID + AI
@@ -178,8 +178,8 @@
     "chat.requestBorder":                    "#343639",    // Chat request border
     "editorWidget.foreground":               "#e9e9e9",    // AI Select text & ctrl+p
 
-    "peekViewTitleDescription.foreground":   "#13ff3e",    // Select copilot
-    "editorGutter.addedBackground":          "#13ff3e21",  // Added lines background ===
+    "peekViewTitleDescription.foreground":   "#57b689",    // Select copilot
+    "editorGutter.addedBackground":          "#57b68930",  // Added lines background ===
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
@@ -187,7 +187,7 @@
     
     //ctrl+shift+p | Inputs
     "editorWidget.background":               "#080808",    // Background
-    "quickInputList.focusBackground":        "#13ff3e60",  // Focus background
+    "quickInputList.focusBackground":        "#57b68960",  // Focus background
     "list.highlightForeground":              "#5fc05c",    // Highlight text color
 
     "keybindingLabel.foreground":            "#fefefe",    // Keybinding label text
@@ -214,13 +214,13 @@
     "terminal.ansiBrightBlack":              "#545454",    // Terminal bright black color
     "terminal.ansiBrightBlue":               "#62cdff",    // Terminal bright blue color
     "terminal.ansiBrightCyan":               "#00d0e7",    // Terminal bright cyan color
-    "terminal.ansiBrightGreen":              "#0dff00",    // Terminal bright green color
+    "terminal.ansiBrightGreen":              "#13ff3e",    // Terminal bright green color
     "terminal.ansiBrightMagenta":            "#c792ea",    // Terminal bright magenta color
     "terminal.ansiBrightRed":                "#ed0a3f",    // Terminal bright red color
     "terminal.ansiBrightWhite":              "#ffffff",    // Terminal bright white color
     "terminal.ansiBrightYellow":             "#ffcb6b",    // Terminal bright yellow color
     "terminal.ansiCyan":                     "#00a5d1",    // Terminal cyan color
-    "terminal.ansiGreen":                    "#0dff00",    // Terminal green color
+    "terminal.ansiGreen":                    "#57b689",    // Terminal green color
     "terminal.ansiMagenta":                  "#c792ea",    // Terminal magenta color
     "terminal.ansiRed":                      "#ff3e48",    // Terminal red color
     "terminal.ansiWhite":                    "#ffffff",    // Terminal white color
@@ -240,7 +240,7 @@
     "notificationsErrorIcon.foreground":     "#ff4757",    // Error notification icon 
     "notificationsWarningIcon.foreground":   "#ffa502",    // Warning notification icon 
     "notificationsInfoIcon.foreground":      "#1b73e8",    // Info notification icon 
-    "notificationLink.foreground":           "#2ed573",    // Notification link color
+    "notificationLink.foreground":           "#57b689",    // Notification link color
     
     // --- -- - Market place VScode txt color
     "textPreformat.foreground":              "#ffd45f",    // Preformatted text
@@ -267,7 +267,7 @@
     "statusBarItem.activeBackground":        "#57b68a09",  // Status bar active item background
     "statusBarItem.remoteBackground":        "#00000000",  // Remote corner background
     "statusBarItem.remoteForeground":        "#57b689",    // Remote corner logo-ICON
-    "statusBarItem.remoteHoverForeground":   "#13ff3e",    // Hover corner logo-ICON
+    "statusBarItem.remoteHoverForeground":   "#57b689",    // Hover corner logo-ICON
     "statusBarItem.prominentBackground":     "#352f3d",    // Bottom box background
 
     // TODO: -  BG STORE VSCODE MARK:[+]
@@ -315,7 +315,7 @@
     // --- -- - Testing
     "testing.iconFailed":                    "#ff4757",    // Test failed icon
     "testing.iconErrored":                   "#ffa502",    // Test errored icon
-    "testing.iconPassed":                    "#2ed573",    // Test passed icon
+    "testing.iconPassed":                    "#57b689",    // Test passed icon
     "testing.iconQueued":                    "#ffcb6b",    // Test queued icon
     "testing.iconSkipped":                   "#8c8c8c",    // Test skipped icon
     "testing.iconUnset":                     "#616161",    // Test unset icon
@@ -324,8 +324,8 @@
     "testing.message.error.lineBackground":  "#ff475720",  // Test error line background
     
     // --- -- - Merge Conflicts
-    "merge.currentHeaderBackground":         "#13ff3e30",  // Current header background
-    "merge.currentContentBackground":        "#13ff3e15",  // Current content background
+    "merge.currentHeaderBackground":         "#57b68930",  // Current header background
+    "merge.currentContentBackground":        "#57b68915",  // Current content background
     "merge.incomingHeaderBackground":        "#82aaff30",  // Incoming header background
     "merge.incomingContentBackground":       "#82aaff15",  // Incoming content background
     "merge.border":                          "#57b689",    // Merge border
