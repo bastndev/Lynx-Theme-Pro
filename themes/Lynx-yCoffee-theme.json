@@ -203,7 +203,7 @@
     "panelSectionHeader.foreground":         "#97c93d",    // - Panel section header text
 
     // --- -- - Terminal colors
-    "terminal.background":                   "#1a1a1a",    // - Terminal bg
+    "terminal.background":                   "#170f10",    // - Terminal bg
     "terminal.foreground":                   "#ffffff",    // - Terminal text
     "terminal.ansiBlack":                    "#000000",    // - Terminal black color
     "terminal.ansiBlue":                     "#c9935a",    // - Terminal blue color
