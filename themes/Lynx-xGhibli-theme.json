@@ -246,22 +246,22 @@
     // --- -- - Editor Group & Dropdown Controls
     "dropdown.background":                   "#dad2c3",    // - Dropdown bg
     "dropdown.foreground":                   "#000000",    // - Dropdown text color
-    "dropdown.border":                       "#d2c38f",    // - Dropdown border
-    "debugToolBar.background":               "#dad2c3",    // - Debug toolbar bg-bg
+    "dropdown.border":                       "#d2c48f",    // - Dropdown border
+    "debugToolBar.background":               "#e4dbb0",    // - Debug toolbar bg-bg
     "dropdown.listBackground":               "#efe8d6",    // - Dropdown list bg
     "debugToolBar.border":                   "#d2c38f",    // - Border debug optional
 
     // TODO: STATUS BAR MARK: - [BOTTOM]
     "statusBar.background":                  "#efe8d6",    // - Status bar bg
     "statusBar.foreground":                  "#616161",    // - Status bar text color
-    "statusBar.debuggingBackground":         "#dbd2c4",    // - Status bar debugging bg
+    "statusBar.debuggingBackground":         "#e4dbb0",    // - Status bar debugging bg
     "statusBar.debuggingForeground":         "#000000",    // - Status bar debugging text
     "statusBar.noFolderBackground":          "#efe8d6",    // - Status bar no folder bg
     "statusBar.noFolderForeground":          "#616161",    // - Status bar no folder text
-    "statusBarItem.hoverBackground":         "#54545420",  // - Status bar item hover bg
+    "statusBarItem.hoverBackground":         "#00000000",  // - Status bar item hover bg
     "statusBarItem.hoverForeground":         "#000000",    // - Status bar item hover text
     "statusBarItem.activeBackground":        "#f0717880",  // - Status bar active item bg
-    "statusBarItem.remoteBackground":        "#f0e8d7",    // - Remote corner bg
+    "statusBarItem.remoteBackground":        "#00000000",  // - Remote corner bg
     "statusBarItem.remoteForeground":        "#038c43",    // - Remote corner logo-ICON
     "statusBarItem.remoteHoverForeground":   "#0dff00",    // - Hover corner logo-ICON
     "statusBarItem.prominentBackground":     "#dad2c3",    // - Bottom box bg
