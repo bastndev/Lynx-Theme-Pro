@@ -88,11 +88,6 @@
     // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#211d25",    // - Editor bg
     "editor.foreground":                     "#ffffff",    // - Editor [STORE] text
-    "editor.findMatchBackground":            "#19161d",    // - Find match bg ---|
-    "editor.findMatchBorder":                "#b080ff",    // - Find match border
-    "editor.findMatchHighlightBackground":   "#b080ff40",  // - Find match highlight bg
-    "editor.findMatchHighlightBorder":       "#b080ff",    // - Find match highlight border
-    "editor.findRangeHighlightBackground":   "#8dc8fb20",  // - Find range highlight bg ---|
     "editor.lineHighlightBackground":        "#ffffff0d",  // - Line highlight bg (improved contrast)
     "editor.lineHighlightBorder":            "#00000000",  // - Line highlight border (visible)
     "editor.selectionBackground":            "#b080ff20",  // - Selection bg (theme consistent)
@@ -278,7 +273,17 @@
     "statusBar.border":                      "#00000000",    // - Status bar LINE border (Bottom)
 
     // ---- -- - Selection BG
-    "selection.background":                  "#5f0ae793",  // - selection bg
+    "selection.background":                        "#5f0ae793",  // - selection bg
+
+    "editor.findMatchBackground":                  "#19161d",    // - Find match bg ---|
+    "editor.findMatchBorder":                      "#b080ff",    // - Find match border
+    "editor.findMatchHighlightBackground":         "#b080ff40",  // - Find match highlight bg
+    "editor.findMatchHighlightBorder":             "#b080ff",    // - Find match highlight border
+    "editor.findRangeHighlightBackground":         "#8dc8fb20",  // - Find range highlight bg ---|
+
+    "editorOverviewRuler.findMatchForeground":     "#b080fffa",  // - Mini map overview ruler ---|
+    "minimap.findMatchHighlight":                  "#b180ffc4",  // - Mini map Find match
+    "editorOverviewRuler.rangeHighlightForeground":"#8dc8fbfa",  // - Mini map overview ruler ---|
 
     // --- -- - BG message error
     "inputValidation.errorBackground":       "#ff8080",    // - Error message bg
