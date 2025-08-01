@@ -84,15 +84,10 @@
     "editorGhostText.foreground":                    "#8a7562",    // - git commit txt
     "editorGutter.deletedBackground":                "#d47373",    // - Delete code
     "editorGutter.modifiedBackground":               "#c9935ab7",  // - Warning color
- 
+    
     // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#231514",    // - Editor bg
     "editor.foreground":                     "#ffd0bb",    // - Editor [STORE] text
-    "editor.findMatchBackground":            "#c9935a40",  // - Find match bg ---|
-    "editor.findMatchBorder":                "#c9935a",    // - Find match border
-    "editor.findMatchHighlightBackground":   "#c9935a20",  // - Find match highlight bg
-    "editor.findMatchHighlightBorder":       "#c9935a60",  // - Find match highlight border
-    "editor.findRangeHighlightBackground":   "#d4a57420",  // - Find range highlight bg ---|
     "editor.lineHighlightBackground":        "#ffffff08",  // - Line highlight bg (improved contrast)
     "editor.lineHighlightBorder":            "#ffffff10",  // - Line highlight border (visible)
     "editor.selectionBackground":            "#a85a4c50",  // - Selection bg (theme consistent)
@@ -278,7 +273,17 @@
     "statusBar.border":                      "#00000000",    // - Status bar LINE border (Bottom)
 
     // ---- -- - Selection BG
-    "selection.background":                  "#914b3f",    // - selection bg
+    "selection.background":                        "#914b3f",    // - selection bg
+
+    "editor.findMatchBackground":                  "#4a6b9cbb",  // - Find match bg ---|
+    "editor.findMatchBorder":                      "#6b87c4",    // - Find match border
+    "editor.findMatchHighlightBackground":         "#2d4773d0",  // - Find match highlight bg
+    "editor.findMatchHighlightBorder":             "#7ba0d9",    // - Find match highlight border
+    "editor.findRangeHighlightBackground":         "#6b87c430",  // - Find range highlight bg ---|
+
+    "editorOverviewRuler.findMatchForeground":     "#6b87c4fd",  // - Mini map overview ruler ---|
+    "minimap.findMatchHighlight":                  "#4a6b9cbb",  // - Mini map Find match
+    "editorOverviewRuler.rangeHighlightForeground":"#7ba1d9fd",  // - Mini map overview ruler ---|
 
     // --- -- - BG message error
     "inputValidation.errorBackground":       "#d4737320",  // - Error message bg
