@@ -27,7 +27,7 @@ ext install bastndev.lynx-theme
 
 ## Contributors
 
-Here is the project link if you want to collaborate: [[>\_ㅤ]](https://github.com/bastndev/Lynx-Theme-Pro/blob/main/CONTRIBUTING.md).
+If you want to contribute, check the guidelines: [[>\_ㅤ]](https://github.com/bastndev/Lynx-Theme-Pro/blob/main/CONTRIBUTING.md).
 
 | [![bastndev](https://github.com/bastndev.png?size=100)](https://www.bastndev.com) |
 | :-------------------------------------------------------------------------------: |
