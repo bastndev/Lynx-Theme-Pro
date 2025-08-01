@@ -29,7 +29,7 @@ We strive to create a positive environment where everyone can contribute effecti
 
 We value all forms of contribution to Lynx Theme Pro, including:
 - Bug reports and feature requests
-- Code improvements and fixes  
+- Code improvements and fixes   
 - Documentation updates and clarifications
 - Screenshots and usage examples
 - Translations and accessibility improvements
@@ -40,6 +40,19 @@ For detailed guidelines on how to contribute, please see our [Contributing Guide
 ## Enforcement
 
 As the maintainer of this project, I am committed to fairly enforcing this Code of Conduct. If you experience or witness behavior that violates these guidelines, please report it to gobasdev@gmail.com.
+
+**Important: Email Subject Line Format**
+
+**When contacting the maintainer, please include the project name in your email subject line using this format:**
+
+**Subject: [Lynx Theme Pro] - [Brief description of your message]**
+
+**Examples:**
+* `[Lynx Theme Pro] - Code of Conduct Violation Report`
+* `[Lynx Theme Pro] - Project Collaboration Inquiry`
+* `[Lynx Theme Pro] - General Project Discussion`
+
+This helps ensure your message is properly categorized and receives prompt attention, especially since the maintainer manages multiple open source projects.
 
 All reports will be handled confidentially and investigated promptly. Depending on the severity and context, responses may include:
 
