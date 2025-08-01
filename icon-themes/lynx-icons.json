@@ -3431,9 +3431,17 @@
         },
         "folder-notification-open": {
             "iconPath": "../assets/icons/folder-notification-open.svg"
+        }, 
+        "folder-keymaps": {
+            "iconPath": "../assets/icons/folder-keymaps.svg"
+        },
+        "folder-keymaps-open": {
+            "iconPath": "../assets/icons/folder-keymaps-open.svg"
         }
     },
     "folderNames": {
+        "keymaps":"folder-keymaps",
+        "keymap":"folder-keymaps",
         "notifications":"folder-notification",
         "notification":"folder-notification",
         "state":"state-folder",
@@ -6601,6 +6609,8 @@
         "__blender-models__": "folder-blender"
     },
     "folderNamesExpanded": {
+        "keymaps":"folder-keymaps-open",
+        "keymap":"folder-keymaps-open",
         "notifications":"folder-notification-open",
         "notification":"folder-notification-open",
         "state": "state-folder-open",
