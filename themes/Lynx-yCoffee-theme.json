@@ -88,11 +88,11 @@
     // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#231514",    // - Editor bg
     "editor.foreground":                     "#ffd0bb",    // - Editor [STORE] text
-    "editor.findMatchBackground":            "#c9935a40",  // - Find match bg
+    "editor.findMatchBackground":            "#c9935a40",  // - Find match bg ---|
     "editor.findMatchBorder":                "#c9935a",    // - Find match border
     "editor.findMatchHighlightBackground":   "#c9935a20",  // - Find match highlight bg
     "editor.findMatchHighlightBorder":       "#c9935a60",  // - Find match highlight border
-    "editor.findRangeHighlightBackground":   "#d4a57420",  // - Find range highlight bg
+    "editor.findRangeHighlightBackground":   "#d4a57420",  // - Find range highlight bg ---|
     "editor.lineHighlightBackground":        "#ffffff08",  // - Line highlight bg (improved contrast)
     "editor.lineHighlightBorder":            "#ffffff10",  // - Line highlight border (visible)
     "editor.selectionBackground":            "#a85a4c50",  // - Selection bg (theme consistent)
