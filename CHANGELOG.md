@@ -22,12 +22,12 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 ## [2.6.0] - 2025-08-01  
 
 ### Improved
-- Enhanced scrollbar colors for better visibility and user experience:
+ - Enhanced scrollbar colors for better visibility and user experience:
  - Updated scrollbar slider background with improved transparency
  - Refined hover and active states for smoother interactions
  - Optimized shadow effects for better depth perception
-
-- Improved editor find/search functionality colors:
+ ---
+ - Improved editor find/search functionality colors:
  - Enhanced find match background and border colors for better contrast
  - Refined find match highlight colors for improved readability
  - Optimized find range highlight background for clearer selection visibility
