@@ -3425,9 +3425,17 @@
         },
         "lynx-config-file-dark": {
             "iconPath": "../assets/icons/lynx-config-file-dark.svg"
+        },
+        "folder-notification": {
+            "iconPath": "../assets/icons/folder-notification.svg"
+        },
+        "folder-notification-open": {
+            "iconPath": "../assets/icons/folder-notification-open.svg"
         }
     },
     "folderNames": {
+        "notifications":"folder-notification",
+        "notification":"folder-notification",
         "state":"state-folder",
         "riverpod":"riverpod-folder",
         "mobx":"mobx-folder",
@@ -6593,6 +6601,8 @@
         "__blender-models__": "folder-blender"
     },
     "folderNamesExpanded": {
+        "notifications":"folder-notification-open",
+        "notification":"folder-notification-open",
         "state": "state-folder-open",
         "riverpod": "riverpod-folder-open",
         "mobx": "mobx-folder-open",
