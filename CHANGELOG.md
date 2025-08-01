@@ -19,6 +19,25 @@ Discover more extensions at [bastndev.com/extensions](https://bastndev.com/exten
 
 Following VS Code best practices, Lynx Theme Pro uses semantic versioning for all releases.
 
+## [2.6.0] - 2025-08-01  
+
+### Improved
+- Enhanced scrollbar colors for better visibility and user experience:
+ - Updated scrollbar slider background with improved transparency
+ - Refined hover and active states for smoother interactions
+ - Optimized shadow effects for better depth perception
+
+- Improved editor find/search functionality colors:
+ - Enhanced find match background and border colors for better contrast
+ - Refined find match highlight colors for improved readability
+ - Optimized find range highlight background for clearer selection visibility
+
+### Added
+- New minimap and overview ruler enhancements:
+ - `editorOverviewRuler.findMatchForeground`
+ - `minimap.findMatchHighlight`
+ - `editorOverviewRuler.rangeHighlightForeground`
+
 ## [2.5.0] - 2025-07-28
 
 ### Changed
