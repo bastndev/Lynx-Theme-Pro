@@ -366,6 +366,9 @@
         "svg": {
             "iconPath": "../assets/icons/svg-file.svg"
         },
+        "svg-light": {
+            "iconPath": "../assets/icons/svg-file-light.svg"
+        },
         "swift": {
             "iconPath": "../assets/icons/swift.svg"
         },
@@ -12991,6 +12994,7 @@
     },
     "light": {
         "fileExtensions": {
+            "svg":"svg-light",
             "astro": "astro-light",
             "blink": "blink_light",
             "jinja": "jinja_light",
