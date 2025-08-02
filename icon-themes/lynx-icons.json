@@ -48,8 +48,14 @@
     "javascript": {
       "iconPath": "../assets/icons/javascript-file.svg"
     },
+    "javascript-light": {
+      "iconPath": "../assets/icons/javascript.svg"
+    },
     "typescript": {
       "iconPath": "../assets/icons/typescript-file.svg"
+    },
+    "typescript-light": {
+      "iconPath": "../assets/icons/typescript.svg"
     },
     "scala": {
       "iconPath": "../assets/icons/scala.svg"
@@ -13199,7 +13205,9 @@
     "languageIds": {
       "toml": "toml_light",
       "systemd-conf": "systemd_light",
-      "systemd-unit-file": "systemd_light"
+      "systemd-unit-file": "systemd_light",
+      "typescript": "typescript-light",
+      "ets": "typescript-light"
     },
     "folderNames": {
       "jinja": "folder-jinja_light",
