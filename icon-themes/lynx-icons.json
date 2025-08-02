@@ -13207,7 +13207,10 @@
       "systemd-conf": "systemd_light",
       "systemd-unit-file": "systemd_light",
       "typescript": "typescript-light",
-      "ets": "typescript-light"
+      "ets": "typescript-light",
+      "javascript": "javascript-light",
+      "esx": "javascript-light",
+      "mjs": "javascript-light"
     },
     "folderNames": {
       "jinja": "folder-jinja_light",
