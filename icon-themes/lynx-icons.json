@@ -46,7 +46,7 @@
       "iconPath": "../assets/icons/mojo.svg"
     },
     "javascript": {
-      "iconPath": "../assets/icons/javascript.svg"
+      "iconPath": "../assets/icons/javascript-file.svg"
     },
     "typescript": {
       "iconPath": "../assets/icons/typescript-file.svg"
