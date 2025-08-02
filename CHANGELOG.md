@@ -19,6 +19,16 @@ Discover more extensions at [bastndev.com/extensions](https://bastndev.com/exten
 
 Following VS Code best practices, Lynx Theme Pro uses semantic versioning for all releases.
 
+## [2.7.0] - 2025-08-02
+
+### Changed
+- Updated Lynxjs icons to higher quality SVG versions for improved clarity and scalability
+- Changed the "JS" or "JavaScript" logo to a new, modern design
+
+### Added
+- Introduced dark mode support for AstroJS/Astro for a better coding experience in low-light environments
+- Added a new dark mode icon for "SVG" to enhance visibility in dark themes
+
 ## [2.6.0] - 2025-08-01
 
 ### Improved
