@@ -24,6 +24,9 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 ### Added
 - New folder icon for directories named `gif` and `gifs`, improving visual identification of folders containing GIF files
 
+### Changed
+- Made the folder icon for "icon/icons" more turquoise, updating its color from blue for better distinction
+
 ## [2.7.1] - 2025-08-02
 
 ### Changed
