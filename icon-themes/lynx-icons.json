@@ -1938,6 +1938,12 @@
     "folder-images-open": {
       "iconPath": "../assets/icons/folder-images-open.svg"
     },
+    "folder-gif": {
+      "iconPath": "../assets/icons/folder-gif.svg"
+    },
+    "folder-gif-open": {
+      "iconPath": "../assets/icons/folder-gif-open.svg"
+    },
     "folder-scripts": {
       "iconPath": "../assets/icons/folder-scripts.svg"
     },
@@ -3458,6 +3464,8 @@
     }
   },
   "folderNames": {
+    "gifs": "folder-gif",
+    "gif": "folder-gif",
     "keymaps": "folder-keymaps",
     "keymap": "folder-keymaps",
     "notifications": "folder-notification",
@@ -6627,6 +6635,8 @@
     "__blender-models__": "folder-blender"
   },
   "folderNamesExpanded": {
+    "gifs": "folder-gif-open",
+    "gif": "folder-gif-open",
     "keymaps": "folder-keymaps-open",
     "keymap": "folder-keymaps-open",
     "notifications": "folder-notification-open",

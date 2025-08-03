@@ -1,0 +1,17 @@
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <path d="M14.483 6H4.721a1 1 0 0 0-.949.684L2 12V5h12a1 1 0 0 0-1-1H7.562a1 1 0 0 1-.64-.232l-.644-.536A1 1 0 0 0 5.638 3H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h11l2.403-5.606A1 1 0 0 0 14.483 6" fill="#66808dff" />
+    
+    <!-- 5 colored blocks aligned horizontally and double height in the bottom right corner -->
+    <g transform="translate(6.5,9.5)">
+        <!-- Red block -->
+        <rect x="0" y="0" width="1.5" height="3" fill="#FF0000"/>
+        <!-- Yellow block -->
+        <rect x="1.5" y="0" width="1.5" height="3" fill="#FFFF00"/>
+        <!-- Black block -->
+        <rect x="3" y="0" width="1.5" height="3" fill="#000000"/>
+        <!-- Green block -->
+        <rect x="4.5" y="0" width="1.5" height="3" fill="#00FF00"/>
+        <!-- Purple block -->
+        <rect x="6" y="0" width="1.5" height="3" fill="#800080"/>
+    </g>
+</svg>
