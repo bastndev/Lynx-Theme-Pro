@@ -19,6 +19,11 @@ Discover more extensions at [bastndev.com/extensions](https://bastndev.com/exten
 
 Following VS Code best practices, Lynx Theme Pro uses semantic versioning for all releases.
 
+## [2.7.2] - 2025-08-03
+
+### Added
+- New folder icon for directories named `gif` and `gifs`, improving visual identification of folders containing GIF files
+
 ## [2.7.1] - 2025-08-02
 
 ### Changed
