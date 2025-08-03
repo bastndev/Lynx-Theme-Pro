@@ -492,6 +492,9 @@
     "image": {
       "iconPath": "../assets/icons/image-file.svg"
     },
+    "gif": {
+      "iconPath": "../assets/icons/gif-file.svg"
+    },
     "palette": {
       "iconPath": "../assets/icons/palette.svg"
     },
@@ -9872,7 +9875,7 @@
     "png": "image",
     "jpeg": "image",
     "jpg": "image",
-    "gif": "image",
+    "gif": "gif",
     "ico": "image",
     "tif": "image",
     "tiff": "image",
