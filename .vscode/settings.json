@@ -35,5 +35,4 @@
     "webhint",
     "wepy"
   ],
-  "kiroAgent.configureMCP": "Disabled"
 }
