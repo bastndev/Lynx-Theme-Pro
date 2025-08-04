@@ -217,7 +217,7 @@
     "terminal.ansiWhite":                    "#ffffff",    // - Terminal white color
     "terminal.ansiYellow":                   "#ffcb6b",    // - Terminal yellow color
     "terminalCursor.background":             "#000000",    // - Terminal cursor bg
-    "terminalCursor.foreground":             "#ffcb6b",    // - Terminal cursor foreground
+    "terminalCursor.foreground":             "#57b689",    // - Terminal cursor foreground
     "terminal.selectionBackground":          "#0567f1",    // - Terminal selection bg
 
     // --- -- - Notifications
