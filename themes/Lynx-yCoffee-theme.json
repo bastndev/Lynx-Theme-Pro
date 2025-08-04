@@ -217,7 +217,7 @@
     "terminal.ansiWhite":                    "#ffffff",    // - Terminal white color
     "terminal.ansiYellow":                   "#c9935a",    // - Terminal yellow color
     "terminalCursor.background":             "#000000",    // - Terminal cursor bg
-    "terminalCursor.foreground":             "#c9935a",    // - Terminal cursor foreground
+    "terminalCursor.foreground":             "#a85a4c",    // - Terminal cursor foreground
     "terminal.selectionBackground":          "#0567f1",    // - Terminal selection bg
 
     // --- -- - Notifications
@@ -523,7 +523,7 @@
       }
     },
 
-    // ===== STRINGS =====
+    // ===== STRINGS / IMPORT=====
     {
       "name": "String, Symbols, Inherited Class, Markup Heading",
       "scope": [

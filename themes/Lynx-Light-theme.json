@@ -37,7 +37,7 @@
     "activityBarBadge.background":           "#479671",    // - Badge bg
     "activityBarBadge.foreground":           "#ffffff",    // - Badge text
     "activityBar.activeBorder":              "#5fc05c",    // - Active item border
-    "activityBarTop.foreground":             "#000000",    // - Select icon
+    "activityBarTop.foreground":             "#009a48",    // - Select icon
     "list.warningForeground":                "#e3751c",    // - Warning text color (improved visibility)
     "list.errorForeground":                  "#dc2626",    // - Error text color
     "list.invalidItemForeground":            "#dc2626",    // - Invalid item color
@@ -217,7 +217,7 @@
     "terminal.ansiWhite":                    "#ffffff",    // - Terminal white color
     "terminal.ansiYellow":                   "#ffcb6b",    // - Terminal yellow color
     "terminalCursor.background":             "#000000",    // - Terminal cursor bg
-    "terminalCursor.foreground":             "#ffcb6b",    // - Terminal cursor foreground
+    "terminalCursor.foreground":             "#5fc05c",    // - Terminal cursor foreground
     "terminal.selectionBackground":          "#0567f1",    // - Terminal selection bg
 
     // --- -- - Notifications
@@ -523,7 +523,7 @@
       }
     },
 
-    // ===== STRINGS =====
+    // ===== STRINGS / IMPORT=====
     {
       "name": "String, Symbols, Inherited Class, Markup Heading",
       "scope": [

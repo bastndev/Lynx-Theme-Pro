@@ -19,6 +19,18 @@ Discover more extensions at [bastndev.com/extensions](https://bastndev.com/exten
 
 Following VS Code best practices, Lynx Theme Pro uses semantic versioning for all releases.
 
+## [2.7.3] - 2025-08-03
+
+### Changed
+- Updated `"terminalCursor.foreground"` color to green (`#57b689`) for improved visibility in all theme variants:
+  - Lynx Dark Theme Pro
+  - Lynx Light Theme Pro
+  - Lynx Night Theme Pro
+  - Lynx Ghibli Theme Pro
+  - Lynx Coffee Theme Pro
+  - Lynx KIRO Theme Pro
+- The terminal cursor now adapts to a consistent green shade across all six themes for better contrast and user experience
+
 ## [2.7.2] - 2025-08-03
 
 ### Added
