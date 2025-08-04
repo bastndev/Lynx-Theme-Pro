@@ -285,7 +285,6 @@
     "minimap.findMatchHighlight":                  "#e6a547e3",  // - Mini map Find match
     "editorOverviewRuler.rangeHighlightForeground":"#ffcc66fa",  // - Mini map overview ruler ---|
 
-
     // --- -- - BG message error
     "inputValidation.errorBackground":       "#ffebee",    // - Error message bg
     "inputValidation.errorForeground":       "#c62828",    // - Error message text
