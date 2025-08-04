@@ -523,7 +523,7 @@
       }
     },
 
-    // ===== STRINGS =====
+    // ===== STRINGS / IMPORT=====
     {
       "name": "String, Symbols, Inherited Class, Markup Heading",
       "scope": [
