@@ -12855,7 +12855,7 @@
     "aspnetcorerazor": "razor",
     "python": "python",
     "mojo": "mojo",
-    "javascript": "javascript",
+    "javascript": "js",
     "typescript": "typescript",
     "ets": "typescript",
     "scala": "scala",
