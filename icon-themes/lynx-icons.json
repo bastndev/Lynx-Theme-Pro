@@ -45,6 +45,9 @@
     "mojo": {
       "iconPath": "../assets/icons/mojo.svg"
     },
+    "js": {
+      "iconPath": "../assets/icons/js.svg"
+    },
     "javascript": {
       "iconPath": "../assets/icons/javascript-file.svg"
     },
