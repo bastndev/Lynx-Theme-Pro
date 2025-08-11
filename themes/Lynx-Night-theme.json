@@ -977,7 +977,7 @@
       "scope": ["markup.underline"],
       "settings": {
         "fontStyle": "underline",
-        "foreground": "#dcb659"
+        "foreground": "#567a8f"
       }
     },
     {
