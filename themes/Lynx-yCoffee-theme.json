@@ -244,7 +244,7 @@
     // TODO: STATUS BAR MARK: - [BOTTOM]
     "statusBar.background":                  "#231514",    // - Status bar bg
     "statusBar.foreground":                  "#a0a0a0",    // - Status bar text color
-    "statusBar.debuggingBackground":         "#70382f",    // - Status bar debugging bg
+    "statusBar.debuggingBackground":         "#70382f",    // - Status bar debugging bg___
     "statusBar.debuggingForeground":         "#ffffff",    // - Status bar debugging text
     "statusBar.noFolderBackground":          "#00000000",  // - Status bar box bg -HOVER
     "statusBarItem.hoverBackground":         "#170F10",    // - Status bar hover bg -Text
@@ -398,7 +398,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic bold",
-        "foreground": "#8a7562"
+        "foreground": "#aaaaaa"
       }
     },
 

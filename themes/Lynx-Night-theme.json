@@ -244,7 +244,7 @@
     // TODO: STATUS BAR MARK: - [BOTTOM]
     "statusBar.background":                  "#161F24",    // - Status bar bg
     "statusBar.foreground":                  "#616161",    // - Status bar text color
-    "statusBar.debuggingBackground":         "#3a4a55",    // - Status bar debugging bg
+    "statusBar.debuggingBackground":         "#3a4a55",    // - Status bar debugging bg___
     "statusBar.debuggingForeground":         "#ffffff",    // - Status bar debugging text
     "statusBar.noFolderBackground":          "#00000000",  // - Status bar box bg -HOVER
     "statusBarItem.hoverBackground":         "#151f24",    // - Status bar hover bg -Text
@@ -977,7 +977,7 @@
       "scope": ["markup.underline"],
       "settings": {
         "fontStyle": "underline",
-        "foreground": "#dcb659"
+        "foreground": "#567a8f"
       }
     },
     {
