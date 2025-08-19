@@ -74,6 +74,11 @@
         "label": "6. KIRO (Lynx Theme Pro)",
         "uiTheme": "vs-dark",
         "path": "./themes/Lynx-zKiro-theme.json"
+      },
+      {
+        "label": "7. NVIM (Lynx Theme Pro)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lynx-NVIM-theme.json"
       }
     ],
     "iconThemes": [
