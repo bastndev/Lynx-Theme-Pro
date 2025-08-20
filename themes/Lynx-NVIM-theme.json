@@ -277,10 +277,12 @@
 
     "editor.findMatchBackground":                  "#4da5c9bb", // - Find match bg ---|
     "editor.findMatchBorder":                      "#4da5c9",   // - Find match border
+    "editor.findMatchHighlightBackground":         "#6e4515d0", // - Find match highlight bg
+    "editor.findMatchHighlightBorder":             "#d4906f",   // - Find match highlight border
     "editor.findRangeHighlightBackground":         "#4da5c930", // - Find range highlight bg ---|
 
     "editorOverviewRuler.findMatchForeground":     "#4da5c9fa", // - Mini map overview ruler ---|
-    "minimap.findMatchHighlight":                  "#56b97ff3",   // - Mini map Find match
+    "minimap.findMatchHighlight":                  "#56b97ff3", // - Mini map Find match
     "editorOverviewRuler.rangeHighlightForeground":"#4da5c9fa", // - Mini map overview ruler ---|
 
     // --- -- - BG message error
