@@ -141,7 +141,6 @@
     // --- -- - Editor Widgets - MID + AI
     "editorWidget.resizeBorder":             "#4da5c9",    // - Widget resize border
     "editorWidget.border":                   "#2c2f32",    // - Widget border +AI
-    // "editorWidget.background":               "#0a42e9",    // - Widget background------
     "widget.border":                         "#2c2f32",    // - General widget border
     "widget.shadow":                         "#00000050",  // - Widget shadow
 
