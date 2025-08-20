@@ -398,7 +398,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic bold",
-        "foreground": "#737373"
+        "foreground": "#b1b1b1"
       }
     },
 
