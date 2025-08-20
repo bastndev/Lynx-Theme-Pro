@@ -50,7 +50,6 @@
     "list.inactiveSelectionBackground":      "#35363a",    // - Inactive bg
     "list.focusBackground":                  "#3D4043",    // - Focus bg
     "list.focusForeground":                  "#dcdcdc",    // - Focus text
-    "list.focusAndSelectionOutline":         "#4da5c9",    // - Focus and selection outline
     "contrastActiveBorder":                  "#00000000",  // - contrast active border BOX-----
 
     // --- -- - Side Bar
@@ -92,8 +91,10 @@
     "editor.lineHighlightBackground":        "#ffffff08",  // - Line highlight bg (improved contrast)
     "editor.lineHighlightBorder":            "#ffffff10",  // - Line highlight border (visible)
     "editor.selectionBackground":            "#444444",    // - Selection bg (theme consistent)
-    "editor.selectionForeground":            "#f0f0f0",    // - Selection text
     "editor.rangeHighlightBackground":       "#29c7ee0d",  // - Range highlight bg
+    "editor.wordHighlightBackground":        "#ffcb6b25",  // - Word highlight bg
+    "editor.wordHighlightStrongBackground":  "#82aaff25",  // - Word highlight strong bg
+    "editor.selectionHighlightBackground":   "#ffcc0020",  // - Selection highlight bg
 
     // --- -- - Tabs Header - TOP
     "editorGroupHeader.tabsBackground":      "#202124",    // - Tabs header bg
