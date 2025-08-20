@@ -103,7 +103,7 @@
     "tab.activeBackground":                  "#24272A",    // - bg select file 
     "tab.activeBorderTop":                   "#4da5c9",    // - Active tab border top
     "tab.activeForeground":                  "#f0f0f0",    // - Active tab text
-    "tab.activeBorder":                      "#4da5c9",    // - Active tab border
+    "tab.activeBorder":                      "#24272a",    // - Active tab border
     "tab.inactiveBackground":                "#2c2f32",    // - Inactive tab bg
     "tab.inactiveForeground":                "#6b7280",    // - Inactive tab text
     "tab.hoverBackground":                   "#3D4043",    // - hover
