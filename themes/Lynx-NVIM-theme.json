@@ -237,14 +237,14 @@
     "dropdown.background":                   "#202124",    // - Dropdown bg
     "dropdown.foreground":                   "#f0f0f0",    // - Dropdown text color
     "dropdown.border":                       "#2c2f32",    // - Dropdown border
-    "debugToolBar.background":               "#2c2f32",    // - Debug toolbar bg-bg
+    "debugToolBar.background":               "#00a1f142",    // - Debug toolbar bg-bg
     "dropdown.listBackground":               "#2c2f32",    // - Dropdown list bg
     "debugToolBar.border":                   "#2c2f32",    // - Border debug optional
 
     // TODO: STATUS BAR MARK: - [BOTTOM]
     "statusBar.background":                  "#202124",    // - Status bar bg
     "statusBar.foreground":                  "#616161",    // - Status bar text color
-    "statusBar.debuggingBackground":         "#2d4a3b",    // - Status bar debugging bg___
+    "statusBar.debuggingBackground":         "#00a1f18c",    // - Status bar debugging bg___
     "statusBar.debuggingForeground":         "#f0f0f0",    // - Status bar debugging text
     "statusBar.noFolderBackground":          "#202124",    // - Status bar box bg -HOVER
     "statusBarItem.hoverBackground":         "#3D4043",    // - Status bar hover bg -Text
@@ -273,7 +273,7 @@
     "statusBar.border":                      "#00000000",    // - Status bar LINE border (Bottom)
 
     // ---- -- - Selection BG
-    "selection.background":                        "#35363a",   // - selection bg
+    "selection.background":                        "#00a1f142",   // - selection bg
 
     "editor.findMatchBackground":                  "#4da5c9bb", // - Find match bg ---|
     "editor.findMatchBorder":                      "#4da5c9",   // - Find match border
