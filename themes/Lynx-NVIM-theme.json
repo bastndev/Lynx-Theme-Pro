@@ -141,7 +141,7 @@
     // --- -- - Editor Widgets - MID + AI
     "editorWidget.resizeBorder":             "#4da5c9",    // - Widget resize border
     "editorWidget.border":                   "#2c2f32",    // - Widget border +AI
-    "editorWidget.background":               "#202124",    // - Widget background
+    // "editorWidget.background":               "#0a42e9",    // - Widget background------
     "widget.border":                         "#2c2f32",    // - General widget border
     "widget.shadow":                         "#00000050",  // - Widget shadow
 
@@ -172,15 +172,14 @@
 
     "peekViewTitleDescription.foreground":   "#4da5c9",    // - Select copilot
     "editorGutter.addedBackground":          "#56b97f30",  // - Added lines bg ===
-    "editorWarning.foreground":              "#f4433c",    // - Editor warning
-    "editorInfo.foreground":                 "#56b97f",    // - Editor info
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
     "progressBar.background":                "#4da5c9",    // - Progress bar bg
     
     //ctrl+shift+p | Inputs
-    "quickInputList.focusBackground":        "#35363a",    // - Focus bg
+    "editorWidget.background":               "#24272A",    // - bg
+    "quickInputList.focusBackground":        "#111213",    // - Focus bg
     "list.highlightForeground":              "#4da5c9",    // - Highlight text color
 
     "keybindingLabel.foreground":            "#f0f0f0",    // - Keybinding label text
