@@ -90,7 +90,7 @@
     "editor.foreground":                     "#dcdcdc",    // - Editor [STORE] text
     "editor.lineHighlightBackground":        "#ffffff08",  // - Line highlight bg (improved contrast)
     "editor.lineHighlightBorder":            "#ffffff10",  // - Line highlight border (visible)
-    "editor.selectionBackground":            "#1b3842e7",    // - Selection bg (theme consistent)
+    "editor.selectionBackground":            "#00a1f142",    // - Selection bg (theme consistent)
     "editor.rangeHighlightBackground":       "#29c7ee0d",  // - Range highlight bg
     "editor.wordHighlightBackground":        "#ffcb6b25",  // - Word highlight bg
     "editor.wordHighlightStrongBackground":  "#82aaff25",  // - Word highlight strong bg
