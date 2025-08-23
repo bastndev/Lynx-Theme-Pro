@@ -141,11 +141,11 @@
     // --- -- - Editor Suggest widget MID
     "editorSuggestWidget.background":         "#080808",    // - bg suggestion
     "editorSuggestWidget.foreground":         "#eeffff",    // - Suggestion widget text
-    "editorSuggestWidget.border":             "#57b689",    // - Suggestion widget border
-    "editorSuggestWidget.highlightForeground":"#5fc05c",    // - Highlighted suggestion text
+    "editorSuggestWidget.border":             "#0b0f0d",    // - Suggestion widget border
+    "editorSuggestWidget.highlightForeground":"#57b689",    // - Highlighted suggestion text
     "editorSuggestWidget.selectedBackground" :"#57b68963",  // - Selected suggestion bg
     "editorSuggestWidget.selectedForeground": "#ffffff",    // - Selected suggestion text
-    "editorSuggestWidget.focusHighlightForeground": "#5fc05c", // - Focus highlight
+    "editorSuggestWidget.focusHighlightForeground": "#13ff3e", // - Focus highlight
 
     // --- -- - Editor Widgets - MID + AI
     "editorWidget.resizeBorder":             "#57b689",    // - Widget resize border
