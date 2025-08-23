@@ -40,7 +40,7 @@
     "activityBar.activeBackground":          "#00A1F115",  // - Active item bg
     "activityBar.activeFocusBorder":         "#00D4FF",    // - Active item focus border
     "activityBarTop.foreground":             "#00A1F1",    // - Select icon
-    "list.warningForeground":                "#FFB366",    // - Warning text color (improved visibility)
+    "list.warningForeground":                "#FFB366",    // - Warning text color
     "list.errorForeground":                  "#FF6B6B",    // - Error text color
     "list.invalidItemForeground":            "#FF8A80",    // - Invalid item color
     "tree.indentGuidesStroke":               "#00A1F130",  // - Line guide Folder
@@ -98,7 +98,6 @@
     "editor.lineHighlightBackground":        "#ffffff06",  // - Line highlight bg (improved contrast)
     "editor.lineHighlightBorder":            "#ffffff08",  // - Line highlight border (visible)
     "editor.selectionBackground":            "#00A1F140",  // - Selection bg (theme consistent)
-    "editor.inactiveSelectionBackground":    "#00A1F120",  // - Inactive selection bg
     "editor.rangeHighlightBackground":       "#00A1F115",  // - Range highlight bg
     "editor.wordHighlightBackground":        "#FFB36625",  // - Word highlight bg
     "editor.wordHighlightStrongBackground":  "#00A1F130",  // - Word highlight strong bg
