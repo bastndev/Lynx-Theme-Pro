@@ -106,7 +106,7 @@
     // --- -- - Tabs Header - TOP
     "editorGroupHeader.tabsBackground":      "#211d25",    // - Tabs header bg
     "editorGroupHeader.tabsBorder":          "#524c5c",    // - Tabs header border line horizontal
-    "editorGroupHeader.border":              "#524c5c",    // - Editor group header border
+    "editorGroupHeader.border":              "#211d25",    // - Editor group header border
     "tab.border":                            "#524c5c",    // - Tab border Vertical
     "tab.activeBackground":                  "#28242e",    // - bg select file 
     "tab.activeBorderTop":                   "#b080ff",    // - Active tab border top
