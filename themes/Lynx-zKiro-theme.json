@@ -187,15 +187,20 @@
     // --- -- - progress bar
     "progressBar.background":                "#7138cc",    // - Progress bar bg
     
-    //ctrl+shift+p | Inputs
+    //ctrl+shift+p | Inputs & Quick Input
     "editorWidget.background":               "#28242e",    // - bg
     "quickInputList.focusBackground":        "#352f3d",    // - Focus bg
     "list.highlightForeground":              "#b080ff",    // - Highlight text color
-
+    
+    "quickInput.background":                 "#28242e",    // - Quick input bg
+    "quickInput.foreground":                 "#e6e1f0",    // - Quick input text
+    "quickInputList.focusIconForeground":    "#ffffff",    // - Focus icon
+    "quickInputList.focusForeground":        "#ffffff",    // - Focus text
+    
     "keybindingLabel.foreground":            "#ffffff",    // - Keybinding label text
     "keybindingLabel.background":            "#6e6775",    // - Keybinding label bg
-    "keybindingLabel.border":                "#00000000",  // - Keybinding label border
-    "keybindingLabel.bottomBorder":          "#000000",    // - Keybinding label bottom border
+    "keybindingLabel.border":                "#00000000",  // - Keybinding label border (transparent)
+    "keybindingLabel.bottomBorder":          "#b080ff",    // - Keybinding label bottom border (purple accent)
 
     // --- -- - Panel Terminal & Text BOTTOM
     "panel.background":                      "#211d25",    // - Panel bg
