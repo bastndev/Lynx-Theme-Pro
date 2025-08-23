@@ -71,19 +71,19 @@
     "editorHoverWidget.statusBarBackground": "#2c2f32",    // - Hover widget status bar bg
 
     //--- -- - GIT Decoration
-    "gitDecoration.modifiedResourceForeground":      "#9CCBD1",    // - Modified files
+    "gitDecoration.modifiedResourceForeground":      "#00d5f1",    // - Modified files
     "gitDecoration.conflictingResourceForeground":   "#00a1fe90",  // - Merge conflicts
-    "gitDecoration.deletedResourceForeground":       "#FF6347",    // - Deleted files
+    "gitDecoration.deletedResourceForeground":       "#f07177f5",  // - Deleted files
     "gitDecoration.ignoredResourceForeground":       "#61616190",  // - Ignored files
-    "gitDecoration.untrackedResourceForeground":     "#56b97f",    // - Untracked files
-    "gitDecoration.stageModifiedResourceForeground": "#9CCBD1",    // - Staged modified files
-    "gitDecoration.stageDeletedResourceForeground":  "#FF6347",    // - Staged deleted files
-    "gitDecoration.submoduleResourceForeground":     "#00A1F1",    // - Submodules
-    "gitDecoration.renamedResourceForeground":       "#00A1F1",    // - Renamed files
-    "gitDecoration.addedResourceForeground":         "#56b97f",    // - Added files
+    "gitDecoration.untrackedResourceForeground":     "#00A1F1",    // - Untracked files
+    "gitDecoration.stageModifiedResourceForeground": "#ffcb6b",    // - Staged modified files
+    "gitDecoration.stageDeletedResourceForeground":  "#ffcb6b",    // - Staged deleted files
+    "gitDecoration.submoduleResourceForeground":     "#ffcb6b",    // - Submodules
+    "gitDecoration.renamedResourceForeground":       "#ffcb6b",    // - Renamed files
+    "gitDecoration.addedResourceForeground":         "#ffcb6b",    // - Added files
     "editorGhostText.foreground":                    "#717171",    // - git commit txt
-    "editorGutter.deletedBackground":                "#FF6347",    // - Delete code
-    "editorGutter.modifiedBackground":               "#9CCBD1",    // - Warning color
+    "editorGutter.deletedBackground":                "#ff0000",    // - Delete code
+    "editorGutter.modifiedBackground":               "#07daffb7",  // - Warning color
  
     // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#202124",    // - Editor bg
