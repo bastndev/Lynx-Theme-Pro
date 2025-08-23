@@ -104,11 +104,11 @@
     "editor.selectionHighlightBackground":   "#00A1F125",  // - Selection highlight bg
 
     // --- -- - Tabs Header - TOP
-    "editorGroupHeader.tabsBackground":      "#16191c",    // - Tabs header bg
+    "editorGroupHeader.tabsBackground":      "#1a1d20",    // - Tabs header bg
     "editorGroupHeader.tabsBorder":          "#2a3038",    // - Tabs header border line horizontal
-    "editorGroupHeader.border":              "#2a3038",    // - Editor group header border
+    "editorGroupHeader.border":              "#15181c",    // - Editor group header border
     "tab.border":                            "#2a3038",    // - Tab border Vertical
-    "tab.activeBackground":                  "#1a1d20",    // - bg select file 
+    "tab.activeBackground":                  "#1d2327",    // - bg select file 
     "tab.activeBorderTop":                   "#00A1F1",    // - Active tab border top
     "tab.activeForeground":                  "#ffffff",    // - Active tab text
     "tab.activeBorder":                      "#1a1d20",    // - Active tab border
@@ -122,7 +122,7 @@
     "tab.lastPinnedBorder":                  "#00A1F1",    // - Pinned separator
 
     // --- -- - Breadcrumb second-Header
-    "breadcrumb.background":                 "#1a1d20",    // - bg second line
+    "breadcrumb.background":                 "#1d2327",    // - bg second line
     "breadcrumb.foreground":                 "#9aa0a6",    // - Breadcrumb text
     "breadcrumbPicker.background":           "#1e2327",    // - Breadcrumb picker bg
     "breadcrumb.focusForeground":            "#00A1F1",    // - Breadcrumb focus text
