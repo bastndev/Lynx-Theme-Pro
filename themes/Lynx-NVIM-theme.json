@@ -201,17 +201,17 @@
     "terminal.background":                   "#24272A",    // - Terminal bg
     "terminal.foreground":                   "#dcdcdc",    // - Terminal text
     "terminal.ansiBlack":                    "#000000",    // - Terminal black color
-    "terminal.ansiBlue":                     "#00A1F1",    // - Terminal blue color
+    "terminal.ansiBlue":                     "#57b6a1d3",    // - Terminal blue color
     "terminal.ansiBrightBlack":              "#545454",    // - Terminal bright black color
     "terminal.ansiBrightBlue":               "#62cdff",    // - Terminal bright blue color
     "terminal.ansiBrightCyan":               "#00d0e7",    // - Terminal bright cyan color
-    "terminal.ansiBrightGreen":              "#56b97f",    // - Terminal bright green color
+    "terminal.ansiBrightGreen":              "#00A1F1",    // - Terminal bright green color
     "terminal.ansiBrightMagenta":            "#c792ea",    // - Terminal bright magenta color
     "terminal.ansiBrightRed":                "#FF6347",    // - Terminal bright red color
     "terminal.ansiBrightWhite":              "#f0f0f0",    // - Terminal bright white color
     "terminal.ansiBrightYellow":             "#ffcb6b",    // - Terminal bright yellow color
-    "terminal.ansiCyan":                     "#00a5d1",    // - Terminal cyan color
-    "terminal.ansiGreen":                    "#56b97f",    // - Terminal green color
+    "terminal.ansiCyan":                     "#09d878",    // - Terminal cyan color
+    "terminal.ansiGreen":                    "#0b87ac",    // - Terminal green color
     "terminal.ansiMagenta":                  "#c792ea",    // - Terminal magenta color
     "terminal.ansiRed":                      "#FF6347",    // - Terminal red color
     "terminal.ansiWhite":                    "#f0f0f0",    // - Terminal white color
