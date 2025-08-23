@@ -52,6 +52,7 @@
     "list.inactiveSelectionBackground":      "#252e38",    // - Inactive bg
     "list.focusBackground":                  "#3a4a55",    // - Focus bg
     "list.focusForeground":                  "#c9d1d9",    // - Focus text
+    "list.focusOutline":                     "#37b8b0",    // - Focus outline
     "contrastActiveBorder":                  "#00000000",  // - contrast active border BOX-----
 
     // --- -- - Side Bar
