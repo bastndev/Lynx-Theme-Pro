@@ -40,7 +40,7 @@
     "activityBar.activeBackground":          "#57b68935",  // - Active item 
     "activityBar.activeFocusBorder":         "#5fc05c",    // - Active item focus border
     "activityBarTop.foreground":             "#57b689",    // - Select icon
-    "list.warningForeground":                "#ffcb6b",    // - Warning text color (improved visibility)
+    "list.warningForeground":                "#ffcb6b",    // - Warning text color
     "list.errorForeground":                  "#ff5370",    // - Error text color
     "list.invalidItemForeground":            "#ff5370",    // - Invalid item color
     "tree.indentGuidesStroke":               "#5db68748",  // - Line guide Folder

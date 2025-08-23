@@ -37,10 +37,10 @@
     "activityBarBadge.background":           "#a85a4c",    // - Badge bg
     "activityBarBadge.foreground":           "#ffffff",    // - Badge text
     "activityBar.activeBorder":              "#a85a4c",    // - Active item border
-    "activityBar.activeBackground":          "#170F10",    // - Active item (adapted to theme)
-    "activityBar.activeFocusBorder":         "#a85a4c",    // - Active item focus border (adapted to theme)
+    "activityBar.activeBackground":          "#170F10",    // - Active item
+    "activityBar.activeFocusBorder":         "#a85a4c",    // - Active item focus border
     "activityBarTop.foreground":             "#a85a4c",    // - Select icon
-    "list.warningForeground":                "#c9935a",    // - Warning text color (improved visibility)
+    "list.warningForeground":                "#c9935a",    // - Warning text color
     "list.errorForeground":                  "#d47373",    // - Error text color
     "list.invalidItemForeground":            "#d47373",    // - Invalid item color
     "tree.indentGuidesStroke":               "#a85a4c48",  // - Line guide Folder
