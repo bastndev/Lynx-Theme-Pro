@@ -82,16 +82,15 @@
     "gitDecoration.conflictingResourceForeground":   "#FF8A80",    // - Merge conflicts
     "gitDecoration.deletedResourceForeground":       "#FF6B6B",    // - Deleted files
     "gitDecoration.ignoredResourceForeground":       "#5f636880",  // - Ignored files
-    "gitDecoration.untrackedResourceForeground":     "#66BB6A",    // - Untracked files
-    "gitDecoration.stageModifiedResourceForeground": "#FFB366",    // - Staged modified files
-    "gitDecoration.stageDeletedResourceForeground":  "#FF8A80",    // - Staged deleted files
-    "gitDecoration.submoduleResourceForeground":     "#AB47BC",    // - Submodules
-    "gitDecoration.renamedResourceForeground":       "#29B6F6",    // - Renamed files
-    "gitDecoration.addedResourceForeground":         "#66BB6A",    // - Added files
-    "editorGhostText.foreground":                    "#6c7580",    // - git commit txt
-    "editorGutter.deletedBackground":                "#FF6B6B80",  // - Delete code
+    "gitDecoration.untrackedResourceForeground":     "#00A1F1",    // - Untracked files
+    "gitDecoration.stageModifiedResourceForeground": "#ffcb6b",    // - Staged modified files
+    "gitDecoration.stageDeletedResourceForeground":  "#ffcb6b",    // - Staged deleted files
+    "gitDecoration.submoduleResourceForeground":     "#ffcb6b",    // - Submodules
+    "gitDecoration.renamedResourceForeground":       "#ffcb6b",    // - Renamed files
+    "gitDecoration.addedResourceForeground":         "#ffcb6b",    // - Added files
+    "editorGhostText.foreground":                    "#717171",    // - git commit txt
+    "editorGutter.deletedBackground":                "#ff0000",    // - Delete code
     "editorGutter.modifiedBackground":               "#00A1F180",  // - Warning color
-    "editorGutter.addedBackground":                  "#66BB6A80",  // - Added lines bg
 
     // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#1a1d20",    // - Editor bg
@@ -182,6 +181,7 @@
     "icon.foreground":                       "#9aa0a6",    // - Icon color
     "foreground":                            "#d1d5db",    // - General text color
     "peekViewTitleDescription.foreground":   "#00A1F1",    // - Select copilot
+    "editorGutter.addedBackground":                  "#668bbb80",  // - Added lines bg
 
     // TODO: MARK: [PLUS]
     // --- -- - Progress bar
