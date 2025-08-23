@@ -119,7 +119,6 @@
     "tab.hoverBorder":                       "#2a3038",    // - Tab hover border
     "tab.unfocusedActiveForeground":         "#d1d5db",    // - Unfocused active tab text
     "tab.unfocusedInactiveForeground":       "#6c7580",    // - Unfocused inactive tab text
-    "tab.lastPinnedBorder":                  "#00A1F1",    // - Pinned separator
 
     // --- -- - Breadcrumb second-Header
     "breadcrumb.background":                 "#1d2327",    // - bg second line

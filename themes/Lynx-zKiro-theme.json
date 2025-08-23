@@ -144,6 +144,8 @@
     "editorSuggestWidget.border":             "#4a464f",    // - Suggestion widget border
     "editorSuggestWidget.highlightForeground":"#b080ff",    // - Highlighted suggestion text
     "editorSuggestWidget.selectedBackground" :"#352f3d",    // - Selected suggestion bg
+    "editorSuggestWidget.selectedForeground": "#ffffff",    // - Selected suggestion text
+    "editorSuggestWidget.focusHighlightForeground": "#b080ff", // - Focus highlight
 
     // --- -- - Editor Widgets - MID + AI
     "editorWidget.resizeBorder":             "#9e61ff",    // - Widget resize border
