@@ -180,6 +180,8 @@
 
     "peekViewTitleDescription.foreground":   "#b080ff",    // - Select copilot
     "editorGutter.addedBackground":          "#13ff3e21",  // - Added lines bg ===
+    "inputOption.activeBackground":          "#b080ff40",  // - Active option bg
+    "inputOption.activeForeground":          "#ffffff",    // - Active option text
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
