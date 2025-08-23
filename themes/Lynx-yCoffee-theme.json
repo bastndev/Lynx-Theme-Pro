@@ -74,6 +74,7 @@
     // --- -- - Editor hover widget
     "editorHoverWidget.border":              "#4d412f20",  // - Hover widget border
     "editorHoverWidget.foreground":          "#ffd0bb",    // - Hover widget text
+    "editorHoverWidget.background":          "#170F10",    // - bg check information
     "editorHoverWidget.statusBarBackground": "#231514",    // - Hover widget status bar bg
 
     //--- -- - GIT Decoration
@@ -142,7 +143,6 @@
     "editorSuggestWidget.border":             "#a85a4c",    // - Suggestion widget border
     "editorSuggestWidget.highlightForeground":"#c9935a",    // - Highlighted suggestion text
     "editorSuggestWidget.selectedBackground" :"#a85a4c63",  // - Selected suggestion bg
-    "editorHoverWidget.background":           "#170F10",    // - bg check information
 
     // --- -- - Editor Widgets - MID + AI
     "editorWidget.resizeBorder":             "#a85a4c",    // - Widget resize border

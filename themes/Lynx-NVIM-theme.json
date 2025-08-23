@@ -77,7 +77,7 @@
     "editorHoverWidget.background":          "#1e2327",    // - bg check information
     "editorHoverWidget.statusBarBackground": "#16191c",    // - Hover widget status bar bg
 
-    //--- -- - GIT Decoration (More modern and cohesive colors)
+    //--- -- - GIT Decoration
     "gitDecoration.modifiedResourceForeground":      "#00D4FF",    // - Modified files
     "gitDecoration.conflictingResourceForeground":   "#FF8A80",    // - Merge conflicts
     "gitDecoration.deletedResourceForeground":       "#FF6B6B",    // - Deleted files
