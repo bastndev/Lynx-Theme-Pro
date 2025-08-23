@@ -999,6 +999,9 @@
     "prettier": {
       "iconPath": "../assets/icons/prettier.svg"
     },
+    "prettier-file": {
+      "iconPath": "../assets/icons/prettier-file.svg"
+    },
     "renovate": {
       "iconPath": "../assets/icons/renovate.svg"
     },
@@ -11948,7 +11951,7 @@
     "prettier.config.ts": "prettier",
     "prettier.config.mts": "prettier",
     "prettier.config.cts": "prettier",
-    ".prettierignore": "prettier",
+    ".prettierignore": "prettier-file",
     ".renovaterc": "renovate",
     ".renovaterc.json": "renovate",
     "renovate-config.json": "renovate",
