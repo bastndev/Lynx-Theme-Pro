@@ -58,11 +58,9 @@
     // --- -- - Side Bar
     "sideBar.background":                    "#1a1d20",    // - Ai and Side bar bg
     "sideBar.foreground":                    "#d1d5db",    // - Text vscode all
-    "sideBar.border":                        "#2a3038",    // - LINE RIGHT & LEFT |-|
     "sideBarSectionHeader.background":       "#1e2327",    // - right bot bg
     "sideBarTitle.foreground":               "#f5f7fa",    // - Explorer
     "sideBarSectionHeader.foreground":       "#00A1F1",    // - Css text and BOT txt
-    "sideBarSectionHeader.border":           "#2a3038",    // - Line top bottom right or left =T=
 
     // --- -- - Buttons
     "button.background":                     "#00A1F1",    // - Button bg
@@ -261,7 +259,6 @@
     // TODO: STATUS BAR MARK: - [BOTTOM]
     "statusBar.background":                  "#16191c",    // - Status bar bg
     "statusBar.foreground":                  "#9aa0a6",    // - Status bar text color
-    "statusBar.border":                      "#2a3038",    // - Status bar LINE border (Bottom)
     "statusBar.debuggingBackground":         "#00A1F1",    // - Status bar debugging bg___
     "statusBar.debuggingForeground":         "#ffffff",    // - Status bar debugging text
     "statusBar.noFolderBackground":          "#16191c",    // - Status bar box bg -HOVER
@@ -285,6 +282,13 @@
     "textBlockQuote.background":             "#1e2327",    // - Block quote bg
     "textBlockQuote.border":                 "#00A1F1",    // - Block quote border LEFT
     "textCodeBlock.background":              "#16191c",    // - Code block bg 
+
+    // ---- -- - LINES
+    "titleBar.border":                       "#00000000",    // - Title bar LINE TOP -T-
+    "sideBarSectionHeader.border":           "#00000000",    // - Line top bottom right or left =T=
+    "sideBar.border":                        "#2222227c",    // - LINE RIGHT & LEFT |-|
+    "editorOverviewRuler.border":            "#00000000",    // - Overview ruler border LINE  ||-
+    "statusBar.border":                      "#00000000",    // - Status bar LINE border (Bottom)
 
     // ---- -- - Selection BG
     "selection.background":                        "#00A1F140",   // - selection bg

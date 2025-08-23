@@ -66,6 +66,9 @@
     "button.background":                     "#57b689",    // - Button bg
     "button.foreground":                     "#ffffff",    // - Button text
     "button.hoverBackground":                "#479671",    // - Button hover
+    "button.secondaryBackground":            "#ffffff",    // - Secondary button bg 
+    "button.secondaryForeground":            "#008c47",    // - Secondary button text
+    "button.secondaryHoverBackground":       "#eaeaea",    // - Secondary button hover
     "toolbar.hoverBackground":               "#00000020",  // - button hover bg
 
     // --- -- - Editor hover widget
