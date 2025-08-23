@@ -141,7 +141,7 @@
     // --- -- - Editor Suggest widget MID
     "editorSuggestWidget.background":         "#1e2327",    // - bg suggestion
     "editorSuggestWidget.foreground":         "#d1d5db",    // - Suggestion widget text
-    "editorSuggestWidget.border":             "#00A1F1",    // - Suggestion widget border
+    "editorSuggestWidget.border":             "#161a1d",    // - Suggestion widget border
     "editorSuggestWidget.highlightForeground":"#00A1F1",    // - Highlighted suggestion text
     "editorSuggestWidget.selectedBackground": "#00A1F140",  // - Selected suggestion bg
     "editorSuggestWidget.selectedForeground": "#ffffff",    // - Selected suggestion text
