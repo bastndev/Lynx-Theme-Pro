@@ -189,7 +189,7 @@
     
     //ctrl+shift+p | Inputs & Quick Input
     "editorWidget.background":               "#dad2c3",    // - bg
-    "quickInputList.focusBackground":        "#04801d91",  // - Focus bg
+    "quickInputList.focusBackground":        "#419673e3",  // - Focus bg
     "list.highlightForeground":              "#5c77c0",    // - Highlight text color
     
     "quickInput.background":                 "#dad2c3",    // - Quick input bg
@@ -200,7 +200,7 @@
     "keybindingLabel.foreground":            "#000000",    // - Keybinding label text
     "keybindingLabel.background":            "#fff6e5",    // - Keybinding label bg
     "keybindingLabel.border":                "#10101000",  // - Keybinding label border (transparent)
-    "keybindingLabel.bottomBorder":          "#008f1d",    // - Keybinding label bottom border (blue accent)
+    "keybindingLabel.bottomBorder":          "#5fc05c",    // - Keybinding label bottom border (blue accent)
 
     // --- -- - Panel Terminal & Text BOTTOM
     "panel.background":                      "#efe8d6",    // - Panel bg
