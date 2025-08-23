@@ -37,6 +37,8 @@
     "activityBarBadge.background":           "#5db687",    // - Badge bg
     "activityBarBadge.foreground":           "#000000",    // - Badge text
     "activityBar.activeBorder":              "#5fc05c",    // - Active item border
+    "activityBar.activeBackground":          "#57b68935",  // - Active item 
+    "activityBar.activeFocusBorder":         "#5fc05c",    // - Active item focus border
     "activityBarTop.foreground":             "#57b689",    // - Select icon
     "list.warningForeground":                "#ffcb6b",    // - Warning text color (improved visibility)
     "list.errorForeground":                  "#ff5370",    // - Error text color

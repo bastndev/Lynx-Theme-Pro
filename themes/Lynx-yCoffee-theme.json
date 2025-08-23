@@ -36,7 +36,9 @@
     "activityBarTop.inactiveForeground":     "#a0a0a0",    // - No selection icon
     "activityBarBadge.background":           "#a85a4c",    // - Badge bg
     "activityBarBadge.foreground":           "#ffffff",    // - Badge text
-    "activityBar.activeBorder":              "#c9935a",    // - Active item border
+    "activityBar.activeBorder":              "#a85a4c",    // - Active item border
+    "activityBar.activeBackground":          "#170F10",    // - Active item (adapted to theme)
+    "activityBar.activeFocusBorder":         "#a85a4c",    // - Active item focus border (adapted to theme)
     "activityBarTop.foreground":             "#a85a4c",    // - Select icon
     "list.warningForeground":                "#c9935a",    // - Warning text color (improved visibility)
     "list.errorForeground":                  "#d47373",    // - Error text color
