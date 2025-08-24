@@ -289,7 +289,7 @@
     "editorOverviewRuler.border":            "#00000000",    // - Overview ruler border LINE  ||-
     "statusBar.border":                      "#00000000",    // - Status bar LINE border (Bottom)
 
-    // ---- -- - Selection BG
+    // ---- -- - Selection BG - ctrl+F
     "selection.background":                       "#5fc05c4a",  // - selection bg
 
     "editor.findMatchBackground":                 "#ffffff",    // - Find match bg ---|
