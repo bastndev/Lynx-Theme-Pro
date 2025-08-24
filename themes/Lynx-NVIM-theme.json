@@ -205,7 +205,6 @@
     // --- -- - Panel Terminal & Text BOTTOM
     "panel.background":                      "#1a1d20",    // - Panel bg
     "panel.border":                          "#2a3038",    // - Panel border
-    "panel.dropBorder":                      "#00A1F1",    // - Panel section drop bg
     "panelTitle.activeBorder":               "#00A1F1",    // - Active panel title border
     "panelTitle.activeForeground":           "#ffffff",    // - Active panel title text
     "panelTitle.inactiveForeground":         "#9aa0a6",    // - Title panel
@@ -214,7 +213,7 @@
     "panelSectionHeader.background":         "#1e2327",    // - Panel section header bg
     "panelSectionHeader.foreground":         "#00A1F1",    // - Panel section header text
 
-    // --- -- - Terminal colors (Modern and cohesive palette)
+    // --- -- - Terminal colors
     "terminal.background":                   "#1a1d20",    // - Terminal bg
     "terminal.foreground":                   "#d1d5db",    // - Terminal text
     "terminal.ansiBlack":                    "#16191c",    // - Terminal black color
