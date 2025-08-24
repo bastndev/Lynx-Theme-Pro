@@ -13,7 +13,7 @@
     "titleBar.inactiveForeground":           "#6c7580",    // - Title bar text 
     "commandCenter.background":              "#16191c",    // - Command Center bg
 
-    // --- -- - Menu Click & select  
+    // --- -- - Menu Click & select
     "menu.background":                       "#1a1d20",    // - Menu bg
     "menu.foreground":                       "#f5f7fa",    // - Menu text
     "menu.border":                           "#2a3038",    // - Border line
