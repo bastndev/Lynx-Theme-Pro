@@ -199,8 +199,8 @@
     
     "keybindingLabel.foreground":            "#fefefe",    // - Keybinding label text
     "keybindingLabel.background":            "#63686e",    // - Keybinding label bg
-    "keybindingLabel.border":                "#08080800",  // - Keybinding label border (transparent)
-    "keybindingLabel.bottomBorder":          "#5fc05c",    // - Keybinding label bottom border (accent color)
+    "keybindingLabel.border":                "#08080800",  // - Keybinding label border
+    "keybindingLabel.bottomBorder":          "#5fc05c",    // - Keybinding label bottom border
 
     // --- -- - Panel Terminal & Text BOTTOM
     "panel.background":                      "#0d0d0d",    // - Panel bg
@@ -333,7 +333,7 @@
     "editorBracketHighlight.foreground6":    "#89ddff",    // - Bracket highlight color 6
     "editorBracketMatch.background":         "#3a4a5540",  // - Bracket match bg
     "editorBracketMatch.border":             "#6b8fa3",    // - Bracket match border 
-    "editorBracketHighlight.unexpectedBracket.foreground": "#c78a7a",  // Unexpected bracket color
+    "editorBracketHighlight.unexpectedBracket.foreground": "#c78a7a",  // - Unexpected bracket color
 
     // TODO: INLAY HINTS | VSCODE FEATURES MARK: [MODERN]
     "editorInlayHint.background":            "#00000030",  // - Inlay hint bg

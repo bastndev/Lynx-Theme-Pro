@@ -303,7 +303,7 @@
     "editorOverviewRuler.findMatchForeground":     "#00A1F1fa",  // - Mini map overview ruler ---|
     "editorOverviewRuler.rangeHighlightForeground":"#00A1F1fa",  // - Mini map overview ruler ---|
 
-    "minimap.background":                          "#16191c",    // Minimap bg
+    "minimap.background":                          "#1a1d20",    // Minimap bg
     "minimap.errorHighlight":                      "#FF6B6B",    // Error highlight
     "minimap.warningHighlight":                    "#FFB366",    // Warning highlight
     "minimap.findMatchHighlight":                  "#00A1F1bb",  // - Mini map Find match
