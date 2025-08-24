@@ -302,7 +302,7 @@
     "minimap.findMatchHighlight":                  "#00A1F1bb",    // - Mini map Find match
     "editorOverviewRuler.rangeHighlightForeground":"#00A1F1fa",    // - Mini map overview ruler ---|
 
-    // --- -- - Input Validation
+    // --- -- - BG message error
     "inputValidation.errorBackground":       "#FF6B6B20",  // - Error message bg
     "inputValidation.errorForeground":       "#FF6B6B",    // - Error message text
     "inputValidation.errorBorder":           "#FF6B6B",    // - Error message border
