@@ -292,16 +292,15 @@
     // ---- -- - Selection BG
     "selection.background":                        "#00A1F140",   // - selection bg
 
-    // ---- -- - Find & Search
     "editor.findMatchBackground":                  "#00A1F160",  // - Find match bg ---|
     "editor.findMatchBorder":                      "#00A1F1",    // - Find match border
     "editor.findMatchHighlightBackground":         "#FFB36630",  // - Find match highlight bg
     "editor.findMatchHighlightBorder":             "#FFB366",    // - Find match highlight border
     "editor.findRangeHighlightBackground":         "#00A1F130",  // - Find range highlight bg ---|
 
-    "editorOverviewRuler.findMatchForeground":     "#00A1F1",    // - Mini map overview ruler ---|
-    "minimap.findMatchHighlight":                  "#00A1F1",    // - Mini map Find match
-    "editorOverviewRuler.rangeHighlightForeground":"#00A1F1",    // - Mini map overview ruler ---|
+    "editorOverviewRuler.findMatchForeground":     "#00A1F1fa",    // - Mini map overview ruler ---|
+    "minimap.findMatchHighlight":                  "#00A1F1bb",    // - Mini map Find match
+    "editorOverviewRuler.rangeHighlightForeground":"#00A1F1fa",    // - Mini map overview ruler ---|
 
     // --- -- - Input Validation
     "inputValidation.errorBackground":       "#FF6B6B20",  // - Error message bg
