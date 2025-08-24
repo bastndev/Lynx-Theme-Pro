@@ -425,14 +425,14 @@
     "minimapSlider.activeBackground":        "#2a303880",  // Slider active
     
     // --- -- - Extensions & Marketplace
-    "extensionButton.prominentBackground":   "#00A1F1",    // Install button
-    "extensionButton.prominentForeground":   "#ffffff",    // Install text
-    "extensionButton.prominentHoverBackground": "#0088CC", // Install hover
-    "extensionBadge.remoteForeground":       "#ffffff",    // Remote text
-    "extensionIcon.starForeground":          "#FFB366",    // Star rating
+    // "extensionButton.prominentBackground":   "#00A1F1",    // Install button
+    // "extensionButton.prominentForeground":   "#ffffff",    // Install text
+    // "extensionButton.prominentHoverBackground": "#0088CC", // Install hover
+    // "extensionBadge.remoteForeground":       "#ffffff",    // Remote text
+    // "extensionIcon.starForeground":          "#FFB366",    // Star rating
 
-    "extensionIcon.preReleaseForeground":    "#AB47BC",    // Pre-release
-    "extensionIcon.sponsorForeground":       "#FF6B6B",    // Sponsor
+    // "extensionIcon.preReleaseForeground":    "#AB47BC",    // Pre-release
+    // "extensionIcon.sponsorForeground":       "#FF6B6B",    // Sponsor
     
     // --- -- - Settings UI
     "settings.headerForeground":             "#ffffff",    // Settings headers
@@ -452,13 +452,11 @@
     "settings.numberInputBorder":            "#2a3038",    // Number input border
     
     // --- -- - Welcome Page
-    "welcomePage.background":                "#1a1d20",    // Welcome bg
-    "welcomePage.buttonBackground":          "#00A1F1",    // Welcome button
-    "welcomePage.buttonHoverBackground":     "#0088CC",    // Button hover
-    "welcomePage.tileBackground":            "#1e2327",    // Tile bg
-    "welcomePage.tileHoverBackground":       "#2a3038",    // Tile hover
-    "welcomePage.tileBorder":                "#2a3038",    // Tile border
-    "walkThrough.embeddedEditorBackground":  "#1a1d20",    // Embedded editor
+    // "welcomePage.background":                "#1a1d20",    // Welcome bg
+    // "welcomePage.tileBackground":            "#1e2327",    // Tile bg
+    // "welcomePage.tileHoverBackground":       "#2a3038",    // Tile hover
+    // "welcomePage.tileBorder":                "#2a3038",    // Tile border
+    // "walkThrough.embeddedEditorBackground":  "#1a1d20",    // Embedded editor
     
     // --- -- - Problems Panel
     "problemsErrorIcon.foreground":          "#FF6B6B",    // Error icon
@@ -466,11 +464,11 @@
     "problemsInfoIcon.foreground":           "#00A1F1",    // Info icon
     
     // --- -- - Search
-    "searchEditor.findMatchBackground":      "#00A1F160",  // Search match
-    "searchEditor.findMatchBorder":          "#00A1F1",    // Search match border
-    "searchEditor.textInputBorder":          "#2a3038",    // Search input border
+    // "searchEditor.findMatchBackground":      "#AB47BC",  // Search match
+    // "searchEditor.findMatchBorder":          "#AB47BC",    // Search match border
+    // "searchEditor.textInputBorder":          "#AB47BC",    // Search input border
     
-    // --- -- - Charts (for extensions)
+    // --- -- - Charts (for extensions) Git-> Github
     "charts.foreground":                     "#d1d5db",    // Chart text
     "charts.lines":                          "#2a3038",    // Chart lines
     "charts.red":                            "#FF6B6B",    // Chart red
@@ -481,13 +479,13 @@
     "charts.purple":                         "#AB47BC",    // Chart purple
     
     // --- -- - Keybinding Editor
-    "keybindingTable.headerBackground":      "#1e2327",    // Table header bg
-    "keybindingTable.rowsBackground":        "#1a1d20",    // Table rows bg
+    // "keybindingTable.headerBackground":      "#1e2327",    // Table header bg
+    // "keybindingTable.rowsBackground":        "#1a1d20",    // Table rows bg
     
-    // --- -- - Integrated Terminal Tabs
-    "terminal.tab.activeBorder":             "#00A1F1",    // Active terminal tab
-    "terminal.ansiBrightBlack":              "#3a4046",    // Bright black
-    "terminal.ansiBrightWhite":              "#ffffff",    // Bright white
+    // // --- -- - Integrated Terminal Tabs
+    // "terminal.tab.activeBorder":             "#f10014",    // Active terminal tab
+    // "terminal.ansiBrightBlack":              "#3a4046",    // Bright black
+    // "terminal.ansiBrightWhite":              "#ffffff",    // Bright white
     
     // --- -- - Editor Groups
     "editorGroup.border":                    "#2a3038",    // Group border
@@ -496,7 +494,7 @@
     "editorGroup.focusedEmptyBorder":        "#00A1F1",    // Focused empty border
     "editorGroupHeader.noTabsBackground":    "#16191c",    // No tabs bg
     
-    // --- -- - Peek View
+    // --- -- - Peek View - f12
     "peekView.border":                       "#00A1F1",    // Peek view border
     "peekViewEditor.background":             "#1e2327",    // Peek editor bg
     "peekViewEditor.matchHighlightBackground": "#00A1F140", // Match highlight
@@ -511,35 +509,15 @@
     "peekViewTitle.background":              "#16191c",    // Title bg
     "peekViewTitleLabel.foreground":         "#ffffff",    // Title text
     
-    // --- -- - Rulers
-    "editorRuler.foreground":                "#2a3038",    // Editor ruler
-    
-    // --- -- - Code Lens
-    "editorCodeLens.foreground":             "#9aa0a6",    // Code lens text
-    
-    // --- -- - Lightbulb (Quick Fix)
-    "editorLightBulb.foreground":            "#FFB366",    // Lightbulb icon
-    "editorLightBulbAutoFix.foreground":     "#66BB6A",    // Auto fix bulb
-    
-    // --- -- - Gutter Icons
-    "editorGutter.background":               "#1a1d20",    // Gutter background
-    "editorGutter.commentRangeForeground":   "#9aa0a6",    // Comment range
-    "editorGutter.foldingControlForeground": "#9aa0a6",    // Folding control
-    
-    // --- -- - Markers
-    "editorMarkerNavigation.background":     "#1e2327",    // Marker navigation
-    "editorMarkerNavigationError.background": "#FF6B6B20", // Error marker
-    "editorMarkerNavigationWarning.background": "#FFB36620", // Warning marker
-    "editorMarkerNavigationInfo.background": "#00A1F120",  // Info marker
-    
+
     // --- -- - Integrated Terminal
-    "terminal.border":                       "#2a3038",    // Terminal border
-    "terminal.dropBackground":               "#00A1F120",  // Terminal drop
-    "terminal.findMatchBackground":          "#00A1F140",  // Terminal find
-    "terminal.findMatchBorder":              "#00A1F1",    // Terminal find border
-    "terminal.findMatchHighlightBackground": "#FFB36630",  // Find highlight
-    "terminal.findMatchHighlightBorder":     "#FFB366",    // Highlight border
-    "terminal.hoverHighlightBackground":     "#2a3038",    // Hover highlight
+    // "terminal.border":                       "#2a3038",    // Terminal border
+    // "terminal.dropBackground":               "#00A1F120",  // Terminal drop
+    // "terminal.findMatchBackground":          "#00A1F140",  // Terminal find
+    // "terminal.findMatchBorder":              "#00A1F1",    // Terminal find border
+    // "terminal.findMatchHighlightBackground": "#FFB36630",  // Find highlight
+    // "terminal.findMatchHighlightBorder":     "#FFB366",    // Highlight border
+    // "terminal.hoverHighlightBackground":     "#2a3038",    // Hover highlight
     
     // --- -- - Debug
     "debugIcon.breakpointForeground":        "#FF6B6B",    // Breakpoint
@@ -571,29 +549,7 @@
     "editorCommentsWidget.unresolvedBorder": "#FFB366",    // Unresolved comment
     "editorCommentsWidget.rangeBackground":  "#00A1F115",  // Comment range
     "editorCommentsWidget.rangeBorder":      "#00A1F1",    // Range border
-    
-    // --- -- - Notebook (Jupyter)
-    "notebook.editorBackground":             "#1a1d20",    // Notebook editor
-    "notebook.cellBorderColor":              "#2a3038",    // Cell border
-    "notebook.cellHoverBackground":          "#2a3038",    // Cell hover
-    "notebook.cellInsertionIndicator":       "#00A1F1",    // Insertion indicator
-    "notebook.cellStatusBarItemHoverBackground": "#2a3038", // Status bar hover
-    "notebook.cellToolbarSeparator":         "#2a3038",    // Toolbar separator
-    "notebook.focusedCellBackground":        "#1e2327",    // Focused cell
-    "notebook.focusedCellBorder":            "#00A1F1",    // Focused cell border
-    "notebook.focusedEditorBorder":          "#00A1F1",    // Focused editor border
-    "notebook.inactiveFocusedCellBorder":    "#2a3038",    // Inactive focused
-    "notebook.outputContainerBackgroundColor": "#16191c",  // Output container
-    "notebook.outputContainerBorderColor":   "#2a3038",    // Output border
-    "notebook.selectedCellBackground":       "#1e2327",    // Selected cell
-    "notebook.selectedCellBorder":           "#00A1F1",    // Selected border
-    "notebook.symbolHighlightBackground":    "#00A1F140",  // Symbol highlight
-    "notebookScrollbarSlider.activeBackground": "#00A1F180", // Active scrollbar
-    "notebookScrollbarSlider.background":    "#00A1F140",  // Scrollbar bg
-    "notebookScrollbarSlider.hoverBackground": "#00A1F160", // Scrollbar hover
-    "notebookStatusErrorIcon.foreground":    "#FF6B6B",    // Status error
-    "notebookStatusRunningIcon.foreground":  "#00A1F1",    // Status running
-    "notebookStatusSuccessIcon.foreground":  "#66BB6A",    // Status success
+
     
     // --- -- - Banner
     "banner.background":                     "#00A1F1",    // Banner bg
