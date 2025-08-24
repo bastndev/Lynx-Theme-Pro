@@ -182,7 +182,7 @@
     "editorGutter.addedBackground":          "#668bbb80",  // - Added lines bg ===
     "inputOption.activeBackground":          "#00A1F140",  // - Active option bg
     "inputOption.activeForeground":          "#ffffff",    // - Active option text
-    
+
     // TODO: MARK: [PLUS]
     // --- -- - Progress bar
     "progressBar.background":                "#00A1F1",    // - Progress bar bg
