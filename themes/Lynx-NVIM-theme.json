@@ -253,24 +253,24 @@
     "dropdown.background":                   "#1e2327",    // - Dropdown bg
     "dropdown.foreground":                   "#f5f7fa",    // - Dropdown text color
     "dropdown.border":                       "#2a3038",    // - Dropdown border
-    "debugToolBar.background":               "#1e2327",    // - Debug toolbar bg-bg
+    "debugToolBar.background":               "#172e3b",    // - Debug toolbar bg-bg
     "dropdown.listBackground":               "#16191c",    // - Dropdown list bg
     "debugToolBar.border":                   "#2a3038",    // - Border debug optional
 
     // TODO: STATUS BAR MARK: - [BOTTOM]
     "statusBar.background":                  "#16191c",    // - Status bar bg
-    "statusBar.foreground":                  "#9aa0a6",    // - Status bar text color
-    "statusBar.debuggingBackground":         "#00A1F1",    // - Status bar debugging bg___
+    "statusBar.foreground":                  "#616161",    // - Status bar text color
+    "statusBar.debuggingBackground":         "#172e3b",    // - Status bar debugging bg___
     "statusBar.debuggingForeground":         "#ffffff",    // - Status bar debugging text
-    "statusBar.noFolderBackground":          "#16191c",    // - Status bar box bg -HOVER
-    "statusBarItem.hoverBackground":         "#2a3038",    // - Status bar hover bg -Text
-    "statusBar.noFolderForeground":          "#9aa0a6",    // - Status bar no folder text
-    "statusBarItem.hoverForeground":         "#f5f7fa",    // - Status bar item hover text
-    "statusBarItem.activeBackground":        "#00A1F140",  // - Status bar active item bg
-    "statusBarItem.remoteBackground":        "#00A1F1",    // - Remote corner bg
-    "statusBarItem.remoteForeground":        "#ffffff",    // - Remote corner logo-ICON
-    "statusBarItem.remoteHoverBackground":   "#0088CC",    // - Hover corner logo-ICON
-    "statusBarItem.prominentBackground":     "#1e2327",    // - Bottom box bg
+    "statusBar.noFolderBackground":          "#00000000",  // - Status bar box bg -HOVER
+    "statusBarItem.hoverBackground":         "#0a0a0a",    // - Status bar hover bg -Text
+    "statusBar.noFolderForeground":          "#938f9b",    // - Status bar no folder text
+    "statusBarItem.hoverForeground":         "#ffffff",    // - Status bar item hover text
+    "statusBarItem.activeBackground":        "#57b68a09",  // - Status bar active item bg
+    "statusBarItem.remoteBackground":        "#00000000",  // - Remote corner bg
+    "statusBarItem.remoteForeground":        "#00a1ed",    // - Remote corner logo-ICON
+    "statusBarItem.remoteHoverForeground":   "#00a1ed",    // - Hover corner logo-ICON
+    "statusBarItem.prominentBackground":     "#352f3d",    // - Bottom box bg
 
     // --- -- - Market place VScode
     "textPreformat.foreground":              "#00A1F1",    // - Preformatted text
