@@ -430,9 +430,9 @@
     "charts.lines":                          "#2a4a2a",    // Chart lines
     "charts.red":                            "#fa0815",    // Chart RED
     "charts.blue":                           "#57b689",    // Chart --- -- -
-    "charts.yellow":                         "#fdd647",    // Chart yellow
-    "charts.orange":                         "#ff9971",    // Chart orange
+    "charts.yellow":                         "#FFD700",    // Chart YELLOW
     "charts.green":                          "#13ff3e",    // Chart GREEN
+    "charts.orange":                         "#ff9971",    // Chart orange
     "charts.purple":                         "#c4a5ff",    // Chart purple
     
     // --- -- - Editor Groups
