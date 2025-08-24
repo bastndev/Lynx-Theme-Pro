@@ -338,61 +338,61 @@
     "editorStickyScroll.shadow":             "#00000040",  // - Sticky scroll shadow
     
     // --- -- - Testing
-    "testing.iconFailed":                    "#FF6B6B",    // Test failed
-    "testing.iconErrored":                   "#FFB366",    // Test errored
-    "testing.iconPassed":                    "#66BB6A",    // Test passed
-    "testing.iconQueued":                    "#00A1F1",    // Test queued
-    "testing.iconSkipped":                   "#9aa0a6",    // Test skipped
-    "testing.iconUnset":                     "#6c7580",    // Test unset
-    "testing.peekBorder":                    "#00A1F1",    // Test peek border
-    "testing.peekHeaderBackground":          "#1e2327",    // Test peek header
-    "testing.message.error.lineBackground":  "#FF6B6B20",  // Test error line
+    "testing.iconFailed":                    "#FF6B6B",    // - Test failed icon
+    "testing.iconErrored":                   "#FFB366",    // - Test errored icon
+    "testing.iconPassed":                    "#66BB6A",    // - Test passed icon
+    "testing.iconQueued":                    "#00A1F1",    // - Test queued icon
+    "testing.iconSkipped":                   "#9aa0a6",    // - Test skipped icon
+    "testing.iconUnset":                     "#6c7580",    // - Test unset icon
+    "testing.peekBorder":                    "#00A1F1",    // - Test peek border
+    "testing.peekHeaderBackground":          "#1e2327",    // - Test peek header bg
+    "testing.message.error.lineBackground":  "#FF6B6B20",  // - Test error line bg
     
     // --- -- - Merge Conflicts
-    "merge.currentHeaderBackground":         "#66BB6A30",  // Current header
-    "merge.currentContentBackground":        "#66BB6A15",  // Current content
-    "merge.incomingHeaderBackground":        "#00A1F130",  // Incoming header
-    "merge.incomingContentBackground":       "#00A1F115",  // Incoming content
-    "merge.border":                          "#00A1F1",    // Merge border
-    "merge.commonContentBackground":         "#FFB36615",  // Common content
-    "merge.commonHeaderBackground":          "#FFB36630",  // Common header
+    "merge.currentHeaderBackground":         "#66BB6A30",  // - Current header bg
+    "merge.currentContentBackground":        "#66BB6A15",  // - Current content bg
+    "merge.incomingHeaderBackground":        "#00A1F130",  // - Incoming header bg
+    "merge.incomingContentBackground":       "#00A1F115",  // - Incoming content bg
+    "merge.border":                          "#00A1F1",    // - Merge border
+    "merge.commonContentBackground":         "#FFB36615",  // - Common content bg
+    "merge.commonHeaderBackground":          "#FFB36630",  // - Common header bg
     
-    // --- -- - Symbol Icons (Paleta cohesiva)
-    "symbolIcon.arrayForeground":            "#FFB366",    // Array
-    "symbolIcon.booleanForeground":          "#FF6B6B",    // Boolean
-    "symbolIcon.classForeground":            "#AB47BC",    // Class
-    "symbolIcon.colorForeground":            "#29B6F6",    // Color
-    "symbolIcon.constantForeground":         "#66BB6A",    // Constant
-    "symbolIcon.constructorForeground":      "#00A1F1",    // Constructor
-    "symbolIcon.enumeratorForeground":       "#FFB366",    // Enumerator
-    "symbolIcon.enumeratorMemberForeground": "#66BB6A",    // Enum member
-    "symbolIcon.eventForeground":            "#FF6B6B",    // Event
-    "symbolIcon.fieldForeground":            "#00A1F1",    // Field
-    "symbolIcon.fileForeground":             "#f5f7fa",    // File
-    "symbolIcon.folderForeground":           "#FFB366",    // Folder
-    "symbolIcon.functionForeground":         "#00A1F1",    // Function
-    "symbolIcon.interfaceForeground":        "#00A1F1",    // Interface
-    "symbolIcon.keyForeground":              "#AB47BC",    // Key
-    "symbolIcon.keywordForeground":          "#29B6F6",    // Keyword
-    "symbolIcon.methodForeground":           "#00A1F1",    // Method
-    "symbolIcon.moduleForeground":           "#FFB366",    // Module
-    "symbolIcon.namespaceForeground":        "#FFB366",    // Namespace
-    "symbolIcon.nullForeground":             "#FF6B6B",    // Null
-    "symbolIcon.numberForeground":           "#66BB6A",    // Number
-    "symbolIcon.objectForeground":           "#FFB366",    // Object
-    "symbolIcon.operatorForeground":         "#29B6F6",    // Operator
-    "symbolIcon.packageForeground":          "#FFB366",    // Package
-    "symbolIcon.propertyForeground":         "#00A1F1",    // Property
-    "symbolIcon.referenceForeground":        "#AB47BC",    // Reference
-    "symbolIcon.snippetForeground":          "#66BB6A",    // Snippet
-    "symbolIcon.stringForeground":           "#66BB6A",    // String
-    "symbolIcon.structForeground":           "#00A1F1",    // Struct
-    "symbolIcon.textForeground":             "#f5f7fa",    // Text
-    "symbolIcon.typeParameterForeground":    "#29B6F6",    // Type parameter
-    "symbolIcon.unitForeground":             "#29B6F6",    // Unit
-    "symbolIcon.variableForeground":         "#00A1F1",    // Variable
+    // --- -- - Symbol Icons
+    "symbolIcon.arrayForeground":            "#FFB366",    // - Array icon
+    "symbolIcon.booleanForeground":          "#FF6B6B",    // - Boolean icon
+    "symbolIcon.classForeground":            "#AB47BC",    // - Class icon
+    "symbolIcon.colorForeground":            "#29B6F6",    // - Color icon
+    "symbolIcon.constantForeground":         "#66BB6A",    // - Constant icon
+    "symbolIcon.constructorForeground":      "#00A1F1",    // - Constructor icon
+    "symbolIcon.enumeratorForeground":       "#FFB366",    // - Enumerator icon
+    "symbolIcon.enumeratorMemberForeground": "#66BB6A",    // - Enumerator member icon
+    "symbolIcon.eventForeground":            "#FF6B6B",    // - Event icon
+    "symbolIcon.fieldForeground":            "#00A1F1",    // - Field icon
+    "symbolIcon.fileForeground":             "#f5f7fa",    // - File icon
+    "symbolIcon.folderForeground":           "#FFB366",    // - Folder icon
+    "symbolIcon.functionForeground":         "#00A1F1",    // - Function icon
+    "symbolIcon.interfaceForeground":        "#00A1F1",    // - Interface icon
+    "symbolIcon.keyForeground":              "#AB47BC",    // - Key icon
+    "symbolIcon.keywordForeground":          "#29B6F6",    // - Keyword icon
+    "symbolIcon.methodForeground":           "#00A1F1",    // - Method icon
+    "symbolIcon.moduleForeground":           "#FFB366",    // - Module icon
+    "symbolIcon.namespaceForeground":        "#FFB366",    // - Namespace icon
+    "symbolIcon.nullForeground":             "#FF6B6B",    // - Null icon
+    "symbolIcon.numberForeground":           "#66BB6A",    // - Number icon
+    "symbolIcon.objectForeground":           "#FFB366",    // - Object icon
+    "symbolIcon.operatorForeground":         "#29B6F6",    // - Operator icon
+    "symbolIcon.packageForeground":          "#FFB366",    // - Package icon
+    "symbolIcon.propertyForeground":         "#00A1F1",    // - Property icon
+    "symbolIcon.referenceForeground":        "#AB47BC",    // - Reference icon
+    "symbolIcon.snippetForeground":          "#66BB6A",    // - Snippet icon
+    "symbolIcon.stringForeground":           "#66BB6A",    // - String icon
+    "symbolIcon.structForeground":           "#00A1F1",    // - Struct icon
+    "symbolIcon.textForeground":             "#f5f7fa",    // - Text icon
+    "symbolIcon.typeParameterForeground":    "#29B6F6",    // - Type parameter icon
+    "symbolIcon.unitForeground":             "#29B6F6",    // - Unit icon
+    "symbolIcon.variableForeground":         "#00A1F1",    // - Variable icon
 
-    // --- -- - Adicionales para mejor experiencia moderna
+    // --- -- - TODO: Additional for better modern experience
     "editorError.foreground":                "#FF6B6B",    // Error squiggles
     "editorWarning.foreground":              "#FFB366",    // Warning squiggles
     "editorInfo.foreground":                 "#00A1F1",    // Info squiggles
