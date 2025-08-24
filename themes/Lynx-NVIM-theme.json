@@ -275,7 +275,7 @@
     // --- -- - Market place VScode txt color
     "extensionIcon.verifiedForeground":      "#00A1F1",    // - Verified icon
     "textPreformat.foreground":              "#FFD700",    // - Preformatted text
-    "textLink.foreground":                   "#00D4FF",    // - Link text color
+    "textLink.foreground":                   "#00A1F1",    // - Link text color - Status Bar
     "textLink.activeForeground":             "#00A1F1",    // - Active link color
 
     // TODO: -  BG STORE VSCODE MARK:[+]
