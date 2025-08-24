@@ -21,7 +21,7 @@
     "menu.selectionForeground":              "#00A1F1",    // - Active click color
     "menu.separatorBackground":              "#2a3441",    // - Separator line
     "menubar.selectionBackground":           "#00A1F115",  // - Menubar selection bg
-    "menubar.selectionForeground":           "#00A1F1",    // - Hover TOP text
+    "menubar.selectionForeground":           "#00A1F1",    // - Hover TOP text 1
     "menu.selectionBorder":                  "#00A1F180",  // - Selected item border
     "menubar.selectionBorder":               "#00A1F160",  // - Menubar selection border
 
