@@ -403,8 +403,7 @@
     "symbolIcon.unitForeground":             "#29B6F6",    // - Unit icon
     "symbolIcon.variableForeground":         "#00A1F1",    // - Variable icon
 
-    // --- -- - TODO: Additional for better modern MARK:[2.0]
-    // --- -- - Settings UI
+    // --- -- - TODO: Settings UI | Additional MARK:[2.0]
     "settings.headerForeground":             "#ffffff",    // Settings headers
     "settings.modifiedItemIndicator":        "#00A1F1",    // Modified setting
     "settings.dropdownBackground":           "#1e2327",    // Dropdown bg
