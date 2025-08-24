@@ -307,7 +307,7 @@
     "minimap.errorHighlight":                      "#ff6b73",    // Error highlight
     "minimap.warningHighlight":                    "#f5d76e",    // Warning highlight
     "minimap.findMatchHighlight":                  "#5bb380cc",  // - Mini map Find match
-    "minimap.selectionHighlight":                  "#7de895a0",  // Selection
+    "minimap.selectionHighlight":                  "#7de89560",  // Selection
 
     "minimapSlider.background":                    "#57b68940",  // Slider bg
     "minimapSlider.hoverBackground":               "#57b68950",  // Slider hover
