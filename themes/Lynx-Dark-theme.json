@@ -13,17 +13,17 @@
     "titleBar.inactiveForeground":           "#616161",    // - Title bar text 
     "commandCenter.background":              "#080808",    // - Command Center bg
 
-    // --- -- - Menu Click & select  
-    "menu.background":                       "#080808",    // - Menu bg
-    "menu.foreground":                       "#eeffff",    // - Menu text
-    "menu.border":                           "#080808",    // - Border line
-    "menu.selectionBackground":              "#00000050",  // - Selected item bg
-    "menu.selectionForeground":              "#57b689",    // - Active click color
-    "menu.separatorBackground":              "#bebcbc",    // - Separator line
-    "menubar.selectionBackground":           "#00000030",  // - Menubar selection bg
+    // --- -- - Menu Click & select       
+    "menu.background":                       "#0d1510",    // - Menu bg
+    "menu.foreground":                       "#e8f5e8",    // - Menu text
+    "menu.border":                           "#1a2d1a",    // - Border line
+    "menu.selectionBackground":              "#57b68940",  // - Selected item bg
+    "menu.selectionForeground":              "#5fc05c",    // - Active click color
+    "menu.separatorBackground":              "#2a4a2a",    // - Separator line
+    "menubar.selectionBackground":           "#57b68920",  // - Menubar selection bg
     "menubar.selectionForeground":           "#5fc05c",    // - Hover TOP text 1
-    "menu.selectionBorder":                  "#00000030",  // - Selected item border
-    "menubar.selectionBorder":               "#00000030",  // - Menubar selection border
+    "menu.selectionBorder":                  "#57b689",    // - Selected item border
+    "menubar.selectionBorder":               "#57b689",    // - Menubar selection border
 
     "list.hoverBackground":                  "#00000098",  // - Hover bg
     "list.hoverForeground":                  "#cccccc",    // - Text select
