@@ -393,29 +393,12 @@
     "symbolIcon.unitForeground":             "#29B6F6",    // - Unit icon
     "symbolIcon.variableForeground":         "#00A1F1",    // - Variable icon
 
-    // --- -- - TODO: Additional for better modern experience
-    // "editorError.foreground":                "#FF6B6B",    // Error squiggles
-    // "editorWarning.foreground":              "#FFB366",    // Warning squiggles
-    // "editorInfo.foreground":                 "#00A1F1",    // Info squiggles
-    // "editorHint.foreground":                 "#9aa0a6",    // Hint squiggles
-    
-    // --- -- - Overview Ruler (Minimap)
-    // "editorOverviewRuler.background":        "#16191c",    // Overview ruler bg
-    // "editorOverviewRuler.errorForeground":   "#FF6B6B",    // Error en ruler
-    // "editorOverviewRuler.warningForeground": "#FFB366",    // Warning en ruler
-    // "editorOverviewRuler.infoForeground":    "#00A1F1",    // Info en ruler
-    // "editorOverviewRuler.bracketMatchForeground": "#00A1F1", // Bracket match
-    // "editorOverviewRuler.wordHighlightForeground": "#FFB366", // Word highlight
-    // "editorOverviewRuler.wordHighlightStrongForeground": "#00A1F1", // Strong highlight
-    // "editorOverviewRuler.modifiedForeground": "#00A1F1",   // Modified lines
-    // "editorOverviewRuler.addedForeground":   "#66BB6A",    // Added lines
-    // "editorOverviewRuler.deletedForeground": "#FF6B6B",    // Deleted lines
-    
+    // --- -- - TODO: Additional for better modern MARK:[2.0]
     // --- -- - Minimap
     "minimap.background":                    "#16191c",    // Minimap bg
     "minimap.errorHighlight":                "#FF6B6B",    // Error highlight
     "minimap.warningHighlight":              "#FFB366",    // Warning highlight
-    "minimap.selectionOccurrenceHighlight": "#00A1F140",  // Selection highlight
+    "minimap.selectionOccurrenceHighlight":  "#00A1F140",  // Selection highlight
     "minimap.selectionHighlight":            "#00A1F160",  // Selection
     "minimapGutter.addedBackground":         "#66BB6A",    // Added gutter
     "minimapGutter.modifiedBackground":      "#00A1F1",    // Modified gutter
@@ -423,17 +406,7 @@
     "minimapSlider.background":              "#2a303840",  // Slider bg
     "minimapSlider.hoverBackground":         "#2a303860",  // Slider hover
     "minimapSlider.activeBackground":        "#2a303880",  // Slider active
-    
-    // --- -- - Extensions & Marketplace
-    // "extensionButton.prominentBackground":   "#00A1F1",    // Install button
-    // "extensionButton.prominentForeground":   "#ffffff",    // Install text
-    // "extensionButton.prominentHoverBackground": "#0088CC", // Install hover
-    // "extensionBadge.remoteForeground":       "#ffffff",    // Remote text
-    // "extensionIcon.starForeground":          "#FFB366",    // Star rating
 
-    // "extensionIcon.preReleaseForeground":    "#AB47BC",    // Pre-release
-    // "extensionIcon.sponsorForeground":       "#FF6B6B",    // Sponsor
-    
     // --- -- - Settings UI
     "settings.headerForeground":             "#ffffff",    // Settings headers
     "settings.modifiedItemIndicator":        "#00A1F1",    // Modified setting
@@ -450,24 +423,12 @@
     "settings.numberInputBackground":        "#1e2327",    // Number input bg
     "settings.numberInputForeground":        "#f5f7fa",    // Number input text
     "settings.numberInputBorder":            "#2a3038",    // Number input border
-    
-    // --- -- - Welcome Page
-    // "welcomePage.background":                "#1a1d20",    // Welcome bg
-    // "welcomePage.tileBackground":            "#1e2327",    // Tile bg
-    // "welcomePage.tileHoverBackground":       "#2a3038",    // Tile hover
-    // "welcomePage.tileBorder":                "#2a3038",    // Tile border
-    // "walkThrough.embeddedEditorBackground":  "#1a1d20",    // Embedded editor
-    
+
     // --- -- - Problems Panel
     "problemsErrorIcon.foreground":          "#FF6B6B",    // Error icon
     "problemsWarningIcon.foreground":        "#FFB366",    // Warning icon
     "problemsInfoIcon.foreground":           "#00A1F1",    // Info icon
-    
-    // --- -- - Search
-    // "searchEditor.findMatchBackground":      "#AB47BC",  // Search match
-    // "searchEditor.findMatchBorder":          "#AB47BC",    // Search match border
-    // "searchEditor.textInputBorder":          "#AB47BC",    // Search input border
-    
+
     // --- -- - Charts (for extensions) Git-> Github
     "charts.foreground":                     "#d1d5db",    // Chart text
     "charts.lines":                          "#2a3038",    // Chart lines
@@ -478,15 +439,6 @@
     "charts.green":                          "#66BB6A",    // Chart green
     "charts.purple":                         "#AB47BC",    // Chart purple
     
-    // --- -- - Keybinding Editor
-    // "keybindingTable.headerBackground":      "#1e2327",    // Table header bg
-    // "keybindingTable.rowsBackground":        "#1a1d20",    // Table rows bg
-    
-    // // --- -- - Integrated Terminal Tabs
-    // "terminal.tab.activeBorder":             "#f10014",    // Active terminal tab
-    // "terminal.ansiBrightBlack":              "#3a4046",    // Bright black
-    // "terminal.ansiBrightWhite":              "#ffffff",    // Bright white
-    
     // --- -- - Editor Groups
     "editorGroup.border":                    "#2a3038",    // Group border
     "editorGroup.dropBackground":            "#00A1F120",  // Drop background
@@ -495,62 +447,25 @@
     "editorGroupHeader.noTabsBackground":    "#16191c",    // No tabs bg
     
     // --- -- - Peek View - f12
-    "peekView.border":                       "#00A1F1",    // Peek view border
-    "peekViewEditor.background":             "#1e2327",    // Peek editor bg
+    "peekView.border":                         "#00A1F1",    // Peek view border
+    "peekViewEditor.background":               "#1e2327",    // Peek editor bg
     "peekViewEditor.matchHighlightBackground": "#00A1F140", // Match highlight
-    "peekViewEditor.matchHighlightBorder":   "#00A1F1",    // Match border
-    "peekViewEditorGutter.background":       "#1e2327",    // Peek gutter
-    "peekViewResult.background":             "#1a1d20",    // Peek result bg
-    "peekViewResult.fileForeground":         "#f5f7fa",    // File text
-    "peekViewResult.lineForeground":         "#9aa0a6",    // Line text
+    "peekViewEditor.matchHighlightBorder":     "#00A1F1",    // Match border
+    "peekViewEditorGutter.background":         "#1e2327",    // Peek gutter
+    "peekViewResult.background":               "#1a1d20",    // Peek result bg
+    "peekViewResult.fileForeground":           "#f5f7fa",    // File text
+    "peekViewResult.lineForeground":           "#9aa0a6",    // Line text
     "peekViewResult.matchHighlightBackground": "#00A1F140", // Result highlight
-    "peekViewResult.selectionBackground":    "#2a3038",    // Selection bg
-    "peekViewResult.selectionForeground":    "#ffffff",    // Selection text
-    "peekViewTitle.background":              "#16191c",    // Title bg
-    "peekViewTitleLabel.foreground":         "#ffffff",    // Title text
-    
-
-    // --- -- - Integrated Terminal
-    // "terminal.border":                       "#2a3038",    // Terminal border
-    // "terminal.dropBackground":               "#00A1F120",  // Terminal drop
-    // "terminal.findMatchBackground":          "#00A1F140",  // Terminal find
-    // "terminal.findMatchBorder":              "#00A1F1",    // Terminal find border
-    // "terminal.findMatchHighlightBackground": "#FFB36630",  // Find highlight
-    // "terminal.findMatchHighlightBorder":     "#FFB366",    // Highlight border
-    // "terminal.hoverHighlightBackground":     "#2a3038",    // Hover highlight
+    "peekViewResult.selectionBackground":      "#2a3038",    // Selection bg
+    "peekViewResult.selectionForeground":      "#ffffff",    // Selection text
+    "peekViewTitle.background":                "#16191c",    // Title bg
+    "peekViewTitleLabel.foreground":           "#ffffff",    // Title text
     
     // --- -- - Debug
-    "debugIcon.breakpointForeground":        "#FF6B6B",    // Breakpoint
-    "debugIcon.breakpointDisabledForeground": "#9aa0a6",   // Disabled breakpoint
-    "debugIcon.breakpointUnverifiedForeground": "#FFB366", // Unverified breakpoint
-    "debugIcon.breakpointCurrentStackframeForeground": "#66BB6A", // Current frame
-    "debugIcon.breakpointStackframeForeground": "#00A1F1", // Stack frame
-    "debugIcon.startForeground":             "#66BB6A",    // Start debug
-    "debugIcon.pauseForeground":             "#FFB366",    // Pause debug
-    "debugIcon.stopForeground":              "#FF6B6B",    // Stop debug
-    "debugIcon.disconnectForeground":        "#FF6B6B",    // Disconnect
-    "debugIcon.restartForeground":           "#00A1F1",    // Restart
-    "debugIcon.stepOverForeground":          "#00A1F1",    // Step over
-    "debugIcon.stepIntoForeground":          "#00A1F1",    // Step into
-    "debugIcon.stepOutForeground":           "#00A1F1",    // Step out
-    "debugIcon.continueForeground":          "#66BB6A",    // Continue
-    "debugIcon.stepBackForeground":          "#AB47BC",    // Step back
-    "debugConsole.infoForeground":           "#00A1F1",    // Debug console info
-    "debugConsole.warningForeground":        "#FFB366",    // Debug console warning
-    "debugConsole.errorForeground":          "#FF6B6B",    // Debug console error
-    "debugConsole.sourceForeground":         "#AB47BC",    // Debug console source
-    "debugConsoleInputIcon.foreground":      "#f5f7fa",    // Debug input icon
-    
-    // --- -- - Source Control
-    "scm.providerBorder":                    "#2a3038",    // SCM provider border
-    
-    // --- -- - Comments
-    "editorCommentsWidget.resolvedBorder":   "#66BB6A",    // Resolved comment
-    "editorCommentsWidget.unresolvedBorder": "#FFB366",    // Unresolved comment
-    "editorCommentsWidget.rangeBackground":  "#00A1F115",  // Comment range
-    "editorCommentsWidget.rangeBorder":      "#00A1F1",    // Range border
+    "debugIcon.pauseForeground":             "#FFB366",    // Pause debug--
+    "debugIcon.stopForeground":              "#FF6B6B",    // Stop debug --
+    "debugIcon.restartForeground":           "#00A1F1",    // Restart --
 
-    
     // --- -- - Banner
     "banner.background":                     "#00A1F1",    // Banner bg
     "banner.foreground":                     "#ffffff",    // Banner text
