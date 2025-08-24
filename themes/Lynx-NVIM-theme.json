@@ -273,7 +273,8 @@
     "statusBarItem.prominentBackground":     "#352f3d",    // - Bottom box bg
 
     // --- -- - Market place VScode
-    "textPreformat.foreground":              "#00A1F1",    // - Preformatted text
+    "extensionIcon.verifiedForeground":      "#00A1F1",    // - Verified icon
+    "textPreformat.foreground":              "#ffd45f",    // - Preformatted text
     "textLink.foreground":                   "#00A1F1",    // - Link text color
     "textLink.activeForeground":             "#00D4FF",    // - Active link color
 
@@ -393,22 +394,22 @@
     "symbolIcon.variableForeground":         "#00A1F1",    // - Variable icon
 
     // --- -- - TODO: Additional for better modern experience
-    "editorError.foreground":                "#FF6B6B",    // Error squiggles
-    "editorWarning.foreground":              "#FFB366",    // Warning squiggles
-    "editorInfo.foreground":                 "#00A1F1",    // Info squiggles
-    "editorHint.foreground":                 "#9aa0a6",    // Hint squiggles
+    // "editorError.foreground":                "#FF6B6B",    // Error squiggles
+    // "editorWarning.foreground":              "#FFB366",    // Warning squiggles
+    // "editorInfo.foreground":                 "#00A1F1",    // Info squiggles
+    // "editorHint.foreground":                 "#9aa0a6",    // Hint squiggles
     
     // --- -- - Overview Ruler (Minimap)
-    "editorOverviewRuler.background":        "#16191c",    // Overview ruler bg
-    "editorOverviewRuler.errorForeground":   "#FF6B6B",    // Error en ruler
-    "editorOverviewRuler.warningForeground": "#FFB366",    // Warning en ruler
-    "editorOverviewRuler.infoForeground":    "#00A1F1",    // Info en ruler
-    "editorOverviewRuler.bracketMatchForeground": "#00A1F1", // Bracket match
-    "editorOverviewRuler.wordHighlightForeground": "#FFB366", // Word highlight
-    "editorOverviewRuler.wordHighlightStrongForeground": "#00A1F1", // Strong highlight
-    "editorOverviewRuler.modifiedForeground": "#00A1F1",   // Modified lines
-    "editorOverviewRuler.addedForeground":   "#66BB6A",    // Added lines
-    "editorOverviewRuler.deletedForeground": "#FF6B6B",    // Deleted lines
+    // "editorOverviewRuler.background":        "#16191c",    // Overview ruler bg
+    // "editorOverviewRuler.errorForeground":   "#FF6B6B",    // Error en ruler
+    // "editorOverviewRuler.warningForeground": "#FFB366",    // Warning en ruler
+    // "editorOverviewRuler.infoForeground":    "#00A1F1",    // Info en ruler
+    // "editorOverviewRuler.bracketMatchForeground": "#00A1F1", // Bracket match
+    // "editorOverviewRuler.wordHighlightForeground": "#FFB366", // Word highlight
+    // "editorOverviewRuler.wordHighlightStrongForeground": "#00A1F1", // Strong highlight
+    // "editorOverviewRuler.modifiedForeground": "#00A1F1",   // Modified lines
+    // "editorOverviewRuler.addedForeground":   "#66BB6A",    // Added lines
+    // "editorOverviewRuler.deletedForeground": "#FF6B6B",    // Deleted lines
     
     // --- -- - Minimap
     "minimap.background":                    "#16191c",    // Minimap bg
@@ -427,10 +428,9 @@
     "extensionButton.prominentBackground":   "#00A1F1",    // Install button
     "extensionButton.prominentForeground":   "#ffffff",    // Install text
     "extensionButton.prominentHoverBackground": "#0088CC", // Install hover
-    "extensionBadge.remoteBackground":       "#66BB6A",    // Remote badge
     "extensionBadge.remoteForeground":       "#ffffff",    // Remote text
     "extensionIcon.starForeground":          "#FFB366",    // Star rating
-    "extensionIcon.verifiedForeground":      "#66BB6A",    // Verified icon
+
     "extensionIcon.preReleaseForeground":    "#AB47BC",    // Pre-release
     "extensionIcon.sponsorForeground":       "#FF6B6B",    // Sponsor
     
@@ -486,8 +486,8 @@
     
     // --- -- - Integrated Terminal Tabs
     "terminal.tab.activeBorder":             "#00A1F1",    // Active terminal tab
-    "terminal.ansiBlackBright":              "#3a4046",    // Bright black
-    "terminal.ansiWhiteBright":              "#ffffff",    // Bright white
+    "terminal.ansiBrightBlack":              "#3a4046",    // Bright black
+    "terminal.ansiBrightWhite":              "#ffffff",    // Bright white
     
     // --- -- - Editor Groups
     "editorGroup.border":                    "#2a3038",    // Group border
