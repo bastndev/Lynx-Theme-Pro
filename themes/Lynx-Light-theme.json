@@ -69,7 +69,7 @@
     "button.secondaryBackground":            "#e5e5e5",    // - Secondary button bg
     "button.secondaryForeground":            "#479671",    // - Secondary button text
     "button.secondaryHoverBackground":       "#d9d9d9",    // - Secondary button hover
-    "toolbar.hoverBackground":               "#00000020",  // - button hover bg
+    "toolbar.hoverBackground":               "#f5faf5",    // - button hover bg
 
     // --- -- - Editor hover widget
     "editorHoverWidget.border":              "#c5d5c5",    // - Hover widget border
@@ -114,7 +114,7 @@
     "tab.activeBorder":                      "#f5faf5",    // - Active tab border
     "tab.inactiveBackground":                "#eaeaea",    // - Inactive tab bg
     "tab.inactiveForeground":                "#8a9a8a",    // - Inactive tab text
-    "tab.hoverBackground":                   "#e0f4e0",    // - hover
+    "tab.hoverBackground":                   "#eff5f0",    // - hover
     "tab.hoverForeground":                   "#2d3d2d",    // - Tab hover text
     "tab.hoverBorder":                       "#d0e0d4",    // - Tab hover border
     "tab.unfocusedActiveForeground":         "#6a7a6a",    // - Unfocused active tab text
