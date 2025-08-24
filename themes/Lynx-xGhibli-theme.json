@@ -268,13 +268,14 @@
     "statusBarItem.hoverForeground":         "#000000",    // - Status bar item hover text
     "statusBarItem.activeBackground":        "#f0717880",  // - Status bar active item bg
     "statusBarItem.remoteBackground":        "#00000000",  // - Remote corner bg
-    "statusBarItem.remoteForeground":        "#038c43",    // - Remote corner logo-ICON
-    "statusBarItem.remoteHoverForeground":   "#0dff00",    // - Hover corner logo-ICON
+    "statusBarItem.remoteForeground":        "#04b958",    // - Remote corner logo-ICON
+    "statusBarItem.remoteHoverForeground":   "#04b958",    // - Hover corner logo-ICON
     "statusBarItem.prominentBackground":     "#dad2c3",    // - Bottom box bg
     
     // --- -- - Market place VScode txt color
     "textPreformat.foreground":              "#f05800",    // - Preformatted text
     "textLink.foreground":                   "#038c43",    // - Link text color
+    "textLink.activeForeground":             "#18d66b",    // - Active link color
 
     // TODO: -  BG STORE VSCODE MARK:[+]
     "textBlockQuote.background":             "#f8ffd4",    // - Block quote bg
