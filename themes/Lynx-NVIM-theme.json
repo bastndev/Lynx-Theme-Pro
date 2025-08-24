@@ -276,7 +276,7 @@
     "extensionIcon.verifiedForeground":      "#00A1F1",    // - Verified icon
     "textPreformat.foreground":              "#FFD700",    // - Preformatted text
     "textLink.foreground":                   "#00A1F1",    // - Link text color - Status Bar
-    "textLink.activeForeground":             "#00A1F1",    // - Active link color
+    "textLink.activeForeground":             "#00D4FF",    // - Active link color
 
     // TODO: -  BG STORE VSCODE MARK:[+]
     "textBlockQuote.background":             "#2a3540",    // - Block quote bg
