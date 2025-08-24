@@ -395,7 +395,7 @@
 
     // --- -- - TODO: Additional for better modern MARK:[2.0]
     // --- -- - Minimap
-    "minimap.background":                    "#080808",    // Minimap bg
+    "minimap.background":                    "#0a0a0a",    // Minimap bg
     "minimap.errorHighlight":                "#FF6B6B",    // Error highlight
     "minimap.warningHighlight":              "#FFB366",    // Warning highlight
     "minimap.selectionOccurrenceHighlight":  "#00A1F140",  // Selection highlight
