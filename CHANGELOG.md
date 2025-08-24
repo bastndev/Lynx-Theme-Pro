@@ -19,6 +19,8 @@ Discover more extensions at [bastndev.com/extensions](https://bastndev.com/exten
 
 Following VS Code best practices, Lynx Theme Pro uses semantic versioning for all releases.
 
+## [2.0.0] - 2025-08-24
+
 ## [2.8.1] - 2025-08-11
 
 ### Improved
