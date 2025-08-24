@@ -391,7 +391,80 @@
     "symbolIcon.textForeground":             "#eeffff",    // - Text icon
     "symbolIcon.typeParameterForeground":    "#89ddff",    // - Type parameter icon
     "symbolIcon.unitForeground":             "#89ddff",    // - Unit icon
-    "symbolIcon.variableForeground":         "#008cff"     // - Variable icon
+    "symbolIcon.variableForeground":         "#008cff",     // - Variable icon
+
+    // --- -- - TODO: Additional for better modern MARK:[2.0]
+    // --- -- - Minimap
+    "minimap.background":                    "#16191c",    // Minimap bg
+    "minimap.errorHighlight":                "#FF6B6B",    // Error highlight
+    "minimap.warningHighlight":              "#FFB366",    // Warning highlight
+    "minimap.selectionOccurrenceHighlight":  "#00A1F140",  // Selection highlight
+    "minimap.selectionHighlight":            "#00A1F160",  // Selection
+    "minimapGutter.addedBackground":         "#66BB6A",    // Added gutter
+    "minimapGutter.modifiedBackground":      "#00A1F1",    // Modified gutter
+    "minimapGutter.deletedBackground":       "#FF6B6B",    // Deleted gutter
+    "minimapSlider.background":              "#2a303840",  // Slider bg
+    "minimapSlider.hoverBackground":         "#2a303860",  // Slider hover
+    "minimapSlider.activeBackground":        "#2a303880",  // Slider active
+
+    // --- -- - Settings UI
+    "settings.headerForeground":             "#ffffff",    // Settings headers
+    "settings.modifiedItemIndicator":        "#00A1F1",    // Modified setting
+    "settings.dropdownBackground":           "#1e2327",    // Dropdown bg
+    "settings.dropdownForeground":           "#f5f7fa",    // Dropdown text
+    "settings.dropdownBorder":               "#2a3038",    // Dropdown border
+    "settings.dropdownListBorder":           "#00A1F1",    // Dropdown list border
+    "settings.checkboxBackground":           "#1e2327",    // Checkbox bg
+    "settings.checkboxForeground":           "#00A1F1",    // Checkbox check
+    "settings.checkboxBorder":               "#2a3038",    // Checkbox border
+    "settings.textInputBackground":          "#1e2327",    // Text input bg
+    "settings.textInputForeground":          "#f5f7fa",    // Text input text
+    "settings.textInputBorder":              "#2a3038",    // Text input border
+    "settings.numberInputBackground":        "#1e2327",    // Number input bg
+    "settings.numberInputForeground":        "#f5f7fa",    // Number input text
+    "settings.numberInputBorder":            "#2a3038",    // Number input border
+
+    // --- -- - Problems Panel
+    "problemsErrorIcon.foreground":          "#FF6B6B",    // Error icon
+    "problemsWarningIcon.foreground":        "#FFB366",    // Warning icon
+    "problemsInfoIcon.foreground":           "#00A1F1",    // Info icon
+
+    // --- -- - Charts (for extensions) Git-> Github
+    "charts.foreground":                     "#d1d5db",    // Chart text
+    "charts.lines":                          "#2a3038",    // Chart lines
+    "charts.red":                            "#FF6B6B",    // Chart red
+    "charts.blue":                           "#00A1F1",    // Chart blue
+    "charts.yellow":                         "#FFB366",    // Chart yellow
+    "charts.orange":                         "#FFB366",    // Chart orange
+    "charts.green":                          "#66BB6A",    // Chart green
+    "charts.purple":                         "#AB47BC",    // Chart purple
+    
+    // --- -- - Editor Groups
+    "editorGroup.border":                    "#2a3038",    // Group border
+    "editorGroup.dropBackground":            "#00A1F120",  // Drop background
+    "editorGroup.emptyBackground":           "#1a1d20",    // Empty group
+    "editorGroup.focusedEmptyBorder":        "#00A1F1",    // Focused empty border
+    "editorGroupHeader.noTabsBackground":    "#16191c",    // No tabs bg
+    
+    // --- -- - Peek View - f12
+    "peekView.border":                         "#00A1F1",    // Peek view border
+    "peekViewEditor.background":               "#1e2327",    // Peek editor bg
+    "peekViewEditor.matchHighlightBackground": "#00A1F140", // Match highlight
+    "peekViewEditor.matchHighlightBorder":     "#00A1F1",    // Match border
+    "peekViewEditorGutter.background":         "#1e2327",    // Peek gutter
+    "peekViewResult.background":               "#1a1d20",    // Peek result bg
+    "peekViewResult.fileForeground":           "#f5f7fa",    // File text
+    "peekViewResult.lineForeground":           "#9aa0a6",    // Line text
+    "peekViewResult.matchHighlightBackground": "#00A1F140", // Result highlight
+    "peekViewResult.selectionBackground":      "#2a3038",    // Selection bg
+    "peekViewResult.selectionForeground":      "#ffffff",    // Selection text
+    "peekViewTitle.background":                "#16191c",    // Title bg
+    "peekViewTitleLabel.foreground":           "#ffffff",    // Title text
+    
+    // --- -- - Debug
+    "debugIcon.pauseForeground":             "#FFB366",    // Pause debug--
+    "debugIcon.stopForeground":              "#FF6B6B",    // Stop debug --
+    "debugIcon.restartForeground":           "#00A1F1",    // Restart --
   },
 
   "semanticTokenColors": {
