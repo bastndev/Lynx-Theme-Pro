@@ -74,7 +74,7 @@
     // --- -- - Editor hover widget
     "editorHoverWidget.border":              "#212122",    // - Hover widget border
     "editorHoverWidget.foreground":          "#eeffff",    // - Hover widget text
-    "editorHoverWidget.background":           "#080808",    // - bg check information
+    "editorHoverWidget.background":          "#080808",    // - bg check information
     "editorHoverWidget.statusBarBackground": "#282828",    // - Hover widget status bar bg
 
     //--- -- - GIT Decoration
@@ -299,9 +299,19 @@
     "editor.findMatchHighlightBorder":             "#d4906f",   // - Find match highlight border
     "editor.findRangeHighlightBackground":         "#c07c5c30", // - Find range highlight bg ---|
 
+    // --- -- - Minimap
     "editorOverviewRuler.findMatchForeground":     "#5cc485fa", // - Mini map overview ruler ---|
-    "minimap.findMatchHighlight":                  "#4a9c73bb", // - Mini map Find match
     "editorOverviewRuler.rangeHighlightForeground":"#6bd996fa", // - Mini map overview ruler ---|
+
+    "minimap.background":                          "#0a0a0a",    // Minimap bg
+    "minimap.errorHighlight":                      "#f81e4d",    // Error highlight
+    "minimap.warningHighlight":                    "#FFB366",    // Warning highlight
+    "minimap.findMatchHighlight":                  "#4a9c73bb",  // - Mini map Find match
+    "minimap.selectionHighlight":                  "#5cc48691",  // Selection
+
+    "minimapSlider.background":                    "#57b68930",  // Slider bg
+    "minimapSlider.hoverBackground":               "#57b68940",  // Slider hover
+    "minimapSlider.activeBackground":              "#57b68950",  // Slider active
 
     // --- -- - BG message error
     "inputValidation.errorBackground":       "#ff537020",  // - Error message bg
@@ -394,18 +404,6 @@
     "symbolIcon.variableForeground":         "#008cff",     // - Variable icon
 
     // --- -- - TODO: Additional for better modern MARK:[2.0]
-    // --- -- - Minimap
-    "minimap.background":                    "#0a0a0a",    // Minimap bg
-    "minimap.errorHighlight":                "#FF6B6B",    // Error highlight
-    "minimap.warningHighlight":              "#FFB366",    // Warning highlight
-    "minimap.selectionOccurrenceHighlight":  "#00A1F140",  // Selection highlight
-    "minimap.selectionHighlight":            "#00A1F160",  // Selection
-    "minimapGutter.addedBackground":         "#66BB6A",    // Added gutter
-    "minimapGutter.modifiedBackground":      "#00A1F1",    // Modified gutter
-    "minimapGutter.deletedBackground":       "#FF6B6B",    // Deleted gutter
-    "minimapSlider.background":              "#2a303840",  // Slider bg
-    "minimapSlider.hoverBackground":         "#2a303860",  // Slider hover
-    "minimapSlider.activeBackground":        "#2a303880",  // Slider active
 
     // --- -- - Settings UI
     "settings.headerForeground":             "#ffffff",    // Settings headers
