@@ -135,7 +135,7 @@
     "scrollbar.shadow":                      "#00000030",  // - Shadow
 
     // --- -- - Editor Line Number - LEFT
-    "editorLineNumber.activeForeground":     "#00A1F1",    // - Active line number
+    "editorLineNumber.activeForeground":     "#ffffff",    // - Active line number
     "editorLineNumber.foreground":           "#6c7580",    // - Line numbers
 
     // --- -- - Editor Suggest widget MID
