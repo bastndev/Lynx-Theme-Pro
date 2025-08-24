@@ -189,18 +189,18 @@
     
     //ctrl+shift+p | Inputs & Quick Input
     "editorWidget.background":               "#f5faf5",    // - bg
-    "quickInputList.focusBackground":        "#47967170",  // - Focus bg
-    "list.highlightForeground":              "#347534",    // - Highlight text color
+    "quickInputList.focusBackground":        "#5fc05c60",  // - Focus bg
+    "list.highlightForeground":              "#5fc05c",    // - Highlight text color
     
     "quickInput.background":                 "#f5faf5",    // - Quick input bg
-    "quickInput.foreground":                 "#2d2d2d",    // - Quick input text
+    "quickInput.foreground":                 "#1a1a1a",    // - Quick input text
     "quickInputList.focusIconForeground":    "#2d2d2d",    // - Focus icon
-    "quickInputList.focusForeground":        "#2d2d2d",    // - Focus text
+    "quickInputList.focusForeground":        "#1a1a1a",    // - Focus text
     
-    "keybindingLabel.foreground":            "#2d2d2d",    // - Keybinding label text
-    "keybindingLabel.background":            "#9aaa9a",    // - Keybinding label bg
-    "keybindingLabel.border":                "#f5f5f500",  // - Keybinding label border
-    "keybindingLabel.bottomBorder":          "#347534",    // - Keybinding label bottom border
+    "keybindingLabel.foreground":            "#000000",    // - Keybinding label text
+    "keybindingLabel.background":            "#eaeaea",    // - Keybinding label bg
+    "keybindingLabel.border":                "#cccccc00",  // - Keybinding label border
+    "keybindingLabel.bottomBorder":          "#5fc05c",    // - Keybinding label bottom border
 
     // --- -- - Panel Terminal & Text BOTTOM
     "panel.background":                      "#eaeaea",    // - Panel bg
