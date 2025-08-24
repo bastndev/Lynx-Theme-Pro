@@ -465,11 +465,6 @@
     "debugIcon.pauseForeground":             "#FFB366",    // Pause debug--
     "debugIcon.stopForeground":              "#FF6B6B",    // Stop debug --
     "debugIcon.restartForeground":           "#00A1F1",    // Restart --
-
-    // --- -- - Banner
-    "banner.background":                     "#00A1F1",    // Banner bg
-    "banner.foreground":                     "#ffffff",    // Banner text
-    "banner.iconForeground":                 "#ffffff"     // Banner icon
   },
 
   "semanticTokenColors": {
