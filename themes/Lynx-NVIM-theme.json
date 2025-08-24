@@ -299,9 +299,19 @@
     "editor.findMatchHighlightBorder":             "#FFB366",    // - Find match highlight border
     "editor.findRangeHighlightBackground":         "#00A1F130",  // - Find range highlight bg ---|
 
-    "editorOverviewRuler.findMatchForeground":     "#00A1F1fa",    // - Mini map overview ruler ---|
-    "minimap.findMatchHighlight":                  "#00A1F1bb",    // - Mini map Find match
-    "editorOverviewRuler.rangeHighlightForeground":"#00A1F1fa",    // - Mini map overview ruler ---|
+    // --- -- - Minimap
+    "editorOverviewRuler.findMatchForeground":     "#00A1F1fa",  // - Mini map overview ruler ---|
+    "editorOverviewRuler.rangeHighlightForeground":"#00A1F1fa",  // - Mini map overview ruler ---|
+
+    "minimap.background":                          "#16191c",    // Minimap bg
+    "minimap.errorHighlight":                      "#FF6B6B",    // Error highlight
+    "minimap.warningHighlight":                    "#FFB366",    // Warning highlight
+    "minimap.findMatchHighlight":                  "#00A1F1bb",  // - Mini map Find match
+    "minimap.selectionHighlight":                  "#00A1F160",  // Selection
+
+    "minimapSlider.background":                    "#00A1F130",  // Slider bg
+    "minimapSlider.hoverBackground":               "#00A1F140",  // Slider hover
+    "minimapSlider.activeBackground":              "#00A1F150",    // Slider active
 
     // --- -- - BG message error
     "inputValidation.errorBackground":       "#FF6B6B20",  // - Error message bg
@@ -394,19 +404,6 @@
     "symbolIcon.variableForeground":         "#00A1F1",    // - Variable icon
 
     // --- -- - TODO: Additional for better modern MARK:[2.0]
-    // --- -- - Minimap
-    "minimap.background":                    "#16191c",    // Minimap bg
-    "minimap.errorHighlight":                "#FF6B6B",    // Error highlight
-    "minimap.warningHighlight":              "#FFB366",    // Warning highlight
-    "minimap.selectionOccurrenceHighlight":  "#00A1F140",  // Selection highlight
-    "minimap.selectionHighlight":            "#00A1F160",  // Selection
-    "minimapGutter.addedBackground":         "#66BB6A",    // Added gutter
-    "minimapGutter.modifiedBackground":      "#00A1F1",    // Modified gutter
-    "minimapGutter.deletedBackground":       "#FF6B6B",    // Deleted gutter
-    "minimapSlider.background":              "#2a303840",  // Slider bg
-    "minimapSlider.hoverBackground":         "#2a303860",  // Slider hover
-    "minimapSlider.activeBackground":        "#2a303880",  // Slider active
-
     // --- -- - Settings UI
     "settings.headerForeground":             "#ffffff",    // Settings headers
     "settings.modifiedItemIndicator":        "#00A1F1",    // Modified setting
