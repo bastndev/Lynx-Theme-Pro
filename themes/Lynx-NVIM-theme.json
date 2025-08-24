@@ -313,7 +313,7 @@
     "inputValidation.infoForeground":        "#00A1F1",    // - Info message text
     "inputValidation.infoBorder":            "#00A1F1",    // - Info message border
 
-    // --- -- - Bracket Highlighting (More modern colors)
+    // --- -- - BG {} and () and []
     "editorBracketHighlight.foreground1":    "#00A1F1",    // - Bracket highlight color 1
     "editorBracketHighlight.foreground2":    "#AB47BC",    // - Bracket highlight color 2
     "editorBracketHighlight.foreground3":    "#66BB6A",    // - Bracket highlight color 3
@@ -324,13 +324,13 @@
     "editorBracketMatch.border":             "#00A1F1",    // - Bracket match border 
     "editorBracketHighlight.unexpectedBracket.foreground": "#FF6B6B",  // Unexpected bracket color
 
-    // TODO: INLAY HINTS | MODERN FEATURES MARK: [MODERN]
-    "editorInlayHint.background":            "#2a303850",  // Inlay hint bg
-    "editorInlayHint.foreground":            "#9aa0a6",    // Inlay hint text
-    "editorInlayHint.typeForeground":        "#00A1F1",    // Type hints
-    "editorInlayHint.typeBackground":        "#00A1F115",  // Type bg
-    "editorInlayHint.parameterForeground":   "#AB47BC",    // Parameter hints
-    "editorInlayHint.parameterBackground":   "#AB47BC15",  // Parameter bg
+    // TODO: INLAY HINTS | VSCODE FEATURES MARK: [MODERN]
+    "editorInlayHint.background":            "#2a303850",  // - Inlay hint bg
+    "editorInlayHint.foreground":            "#9aa0a6",    // - Inlay hint text
+    "editorInlayHint.typeForeground":        "#00A1F1",    // - Inlay hint type text
+    "editorInlayHint.typeBackground":        "#00A1F115",  // - Inlay hint type bg
+    "editorInlayHint.parameterForeground":   "#AB47BC",    // - Inlay hint parameter text
+    "editorInlayHint.parameterBackground":   "#AB47BC15",  // - Inlay hint parameter bg
     
     // --- -- - Sticky Scroll
     "editorStickyScroll.background":         "#1a1d20",    // Sticky scroll bg
