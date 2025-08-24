@@ -82,7 +82,7 @@
     "gitDecoration.conflictingResourceForeground":   "#4da6ff",    // - Merge conflicts
     "gitDecoration.deletedResourceForeground":       "#ff7a85",    // - Deleted files
     "gitDecoration.ignoredResourceForeground":       "#6a6a6a",    // - Ignored files
-    "gitDecoration.untrackedResourceForeground":     "#7de47d",    // - Untracked files
+    "gitDecoration.untrackedResourceForeground":     "#13ff3e",    // - Untracked files
     "gitDecoration.stageModifiedResourceForeground": "#f5d76e",    // - Staged modified files
     "gitDecoration.stageDeletedResourceForeground":  "#f5d76e",    // - Staged deleted files
     "gitDecoration.submoduleResourceForeground":     "#f5d76e",    // - Submodules
@@ -185,7 +185,7 @@
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
-    "progressBar.background":                "#7de47d",    // - Progress bar bg
+    "progressBar.background":                "#13ff3e",    // - Progress bar bg
     
     //ctrl+shift+p | Inputs & Quick Input
     "editorWidget.background":               "#101610",    // - bg
@@ -211,7 +211,7 @@
     "panelSection.border":                   "#2f4f33",    // - Panel section border
     "panelSection.dropBackground":           "#57b68940",  // - Panel section drop bg
     "panelSectionHeader.background":         "#1f2d24",    // - Panel section header bg
-    "panelSectionHeader.foreground":         "#7de47d",    // - Panel section header text
+    "panelSectionHeader.foreground":         "#13ff3e",    // - Panel section header text
 
     // --- -- - Terminal colors
     "terminal.background":                   "#0a0a0a",    // - Terminal bg
@@ -221,7 +221,7 @@
     "terminal.ansiBrightBlack":              "#5a5a5a",    // - Terminal bright black color
     "terminal.ansiBrightBlue":               "#7de8ff",    // - Terminal bright blue color
     "terminal.ansiBrightCyan":               "#4de5f7",    // - Terminal bright cyan color
-    "terminal.ansiBrightGreen":              "#7de47d",    // - Terminal bright green color
+    "terminal.ansiBrightGreen":              "#13ff3e",    // - Terminal bright green color
     "terminal.ansiBrightMagenta":            "#d4a5ff",    // - Terminal bright magenta color
     "terminal.ansiBrightRed":                "#ff7a85",    // - Terminal bright red color
     "terminal.ansiBrightWhite":              "#ffffff",    // - Terminal bright white color
@@ -242,7 +242,7 @@
     "notifications.border":                  "#2f4f33",    // - Notification border
     "notificationCenter.border":             "#2f4f33",    // - Notification center border
     "notificationCenterHeader.background":   "#1f2d24",    // - Notification center header bg
-    "notificationCenterHeader.foreground":   "#7de47d",    // - Notification center header text
+    "notificationCenterHeader.foreground":   "#13ff3e",    // - Notification center header text
     "notificationToast.border":              "#2f4f33",    // - Notification toast border
     "notificationsErrorIcon.foreground":     "#ff6b73",    // - Error notification icon 
     "notificationsWarningIcon.foreground":   "#f5d76e",    // - Warning notification icon 
@@ -273,9 +273,9 @@
     "statusBarItem.prominentBackground":     "#3a453d",    // - Bottom box bg
 
     // --- -- - Market place VScode txt color
-    "extensionIcon.verifiedForeground":      "#7de47d",    // - Verified icon
+    "extensionIcon.verifiedForeground":      "#13ff3e",    // - Verified icon
     "textPreformat.foreground":              "#f5d76e",    // - Preformatted text
-    "textLink.foreground":                   "#7de47d",    // - Link text color
+    "textLink.foreground":                   "#13ff3e",    // - Link text color
     "textLink.activeForeground":             "#57b689",    // - Active link color
 
     // TODO: -  BG STORE VSCODE MARK:[+]
@@ -373,7 +373,7 @@
     "symbolIcon.booleanForeground":          "#ff9971",    // - Boolean icon
     "symbolIcon.classForeground":            "#57b689",    // - Class icon
     "symbolIcon.colorForeground":            "#c4a5ff",    // - Color icon
-    "symbolIcon.constantForeground":         "#7de47d",    // - Constant icon
+    "symbolIcon.constantForeground":         "#13ff3e",    // - Constant icon
     "symbolIcon.constructorForeground":      "#4dc9ff",    // - Constructor icon
     "symbolIcon.enumeratorForeground":       "#f5d76e",    // - Enumerator icon
     "symbolIcon.enumeratorMemberForeground": "#6dd46a",    // - Enumerator member icon
@@ -389,7 +389,7 @@
     "symbolIcon.moduleForeground":           "#f5d76e",    // - Module icon
     "symbolIcon.namespaceForeground":        "#f5d76e",    // - Namespace icon
     "symbolIcon.nullForeground":             "#ff6b73",    // - Null icon
-    "symbolIcon.numberForeground":           "#7de47d",    // - Number icon
+    "symbolIcon.numberForeground":           "#13ff3e",    // - Number icon
     "symbolIcon.objectForeground":           "#f5d76e",    // - Object icon
     "symbolIcon.operatorForeground":         "#7de8ff",    // - Operator icon
     "symbolIcon.packageForeground":          "#f5d76e",    // - Package icon
