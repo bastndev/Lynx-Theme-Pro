@@ -273,7 +273,7 @@
     "statusBarItem.prominentBackground":     "#352f3d",    // - Bottom box bg
 
     // --- -- - Market place VScode
-    "extensionIcon.verifiedForeground":      "#00A1F1",    // - Verified icon
+    "extensionIcon.verifiedForeground":      "#38b6f0",    // - Verified icon
     "textPreformat.foreground":              "#ffd45f",    // - Preformatted text
     "textLink.foreground":                   "#00A1F1",    // - Link text color
     "textLink.activeForeground":             "#00D4FF",    // - Active link color
