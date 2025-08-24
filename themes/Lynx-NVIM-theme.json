@@ -425,14 +425,14 @@
     "problemsWarningIcon.foreground":        "#FFD700",    // Warning icon
     "problemsInfoIcon.foreground":           "#00A1F1",    // Info icon
 
-    // --- -- - Charts (for extensions) Git-> Github
+    // --- -- - Charts (for extensions) Git-> Github | EXTENSIONS
     "charts.foreground":                     "#e8f0f8",    // Chart text
     "charts.lines":                          "#3a4855",    // Chart lines
-    "charts.red":                            "#FF6B73",    // Chart red
-    "charts.blue":                           "#00A1F1",    // Chart blue
+    "charts.red":                            "#fa0815",    // Chart RED
+    "charts.blue":                           "#00A1F1",    // Chart --- -- -
     "charts.yellow":                         "#FFD700",    // Chart yellow
     "charts.orange":                         "#FF9971",    // Chart orange
-    "charts.green":                          "#00A1F1",    // Chart green
+    "charts.green":                          "#13ff3e",    // Chart GREEN
     "charts.purple":                         "#C4A5FF",    // Chart purple
     
     // --- -- - Editor Groups
