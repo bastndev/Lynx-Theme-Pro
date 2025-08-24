@@ -253,8 +253,8 @@
     "dropdown.background":                   "#1e2327",    // - Dropdown bg
     "dropdown.foreground":                   "#f5f7fa",    // - Dropdown text color
     "dropdown.border":                       "#2a3038",    // - Dropdown border
-    "dropdown.listBackground":               "#16191c",    // - Dropdown list bg
     "debugToolBar.background":               "#1e2327",    // - Debug toolbar bg-bg
+    "dropdown.listBackground":               "#16191c",    // - Dropdown list bg
     "debugToolBar.border":                   "#2a3038",    // - Border debug optional
 
     // TODO: STATUS BAR MARK: - [BOTTOM]
