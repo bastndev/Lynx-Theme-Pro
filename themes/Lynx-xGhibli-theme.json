@@ -14,16 +14,17 @@
     "commandCenter.background":              "#dad2c3",    // - Command Center bg
 
     // --- -- - Menu Click & select  
+// --- -- - Menu Click & select
     "menu.background":                       "#efe8d6",    // - Menu bg
-    "menu.foreground":                       "#000000",    // - Menu text
+    "menu.foreground":                       "#3d3520",    // - Menu text
     "menu.border":                           "#d2c38f",    // - Border line
-    "menu.selectionBackground":              "#00000050",  // - Selected item bg
-    "menu.selectionForeground":              "#ffffff",    // - Active click color
+    "menu.selectionBackground":              "#d2c38f50",  // - Selected item bg
+    "menu.selectionForeground":              "#3d3520",    // - Active click color
     "menu.separatorBackground":              "#d2c38f",    // - Separator line
-    "menubar.selectionBackground":           "#00000030",  // - Menubar selection bg
-    "menubar.selectionForeground":           "#000000",    // - Hover TOP text 1
-    "menu.selectionBorder":                  "#00000030",  // - Selected item border
-    "menubar.selectionBorder":               "#00000030",  // - Menubar selection border
+    "menubar.selectionBackground":           "#d2c38f30",  // - Menubar selection bg
+    "menubar.selectionForeground":           "#3d3520",    // - Hover TOP text 1
+    "menu.selectionBorder":                  "#d2c38f",    // - Selected item border
+    "menubar.selectionBorder":               "#d2c38f",    // - Menubar selection border
 
     "list.hoverBackground":                  "#c6c6c6",    // - Hover bg
     "list.hoverForeground":                  "#1d1d1d",    // - Text select
