@@ -108,7 +108,7 @@
     "editorGroupHeader.tabsBorder":          "#192124",    // - Tabs header border line horizontal
     "editorGroupHeader.border":              "#0b0f0d",    // - Editor group header border=_
     "tab.border":                            "#192124",    // - Tab border Vertical
-    "tab.activeBackground":                  "#000000",    // - bg select file 
+    "tab.activeBackground":                  "#080808",    // - bg select file 
     "tab.activeBorderTop":                   "#57b689",    // - Active tab border top
     "tab.activeForeground":                  "#ffffff",    // - Active tab text
     "tab.activeBorder":                      "#080808",    // - Active tab border
@@ -121,7 +121,7 @@
     "tab.unfocusedInactiveForeground":       "#4a5568",    // - Unfocused inactive tab text
 
     // --- -- - Breadcrumb second-Header
-    "breadcrumb.background":                 "#000000",    // - bg second line
+    "breadcrumb.background":                 "#080808",    // - bg second line
     "breadcrumb.foreground":                 "#8c8c8c",    // - Breadcrumb text
     "breadcrumbPicker.background":           "#080808",    // - Breadcrumb picker bg
     "breadcrumb.focusForeground":            "#5fc05c",    // - Breadcrumb focus text
@@ -395,7 +395,7 @@
 
     // --- -- - TODO: Additional for better modern MARK:[2.0]
     // --- -- - Minimap
-    "minimap.background":                    "#16191c",    // Minimap bg
+    "minimap.background":                    "#080808",    // Minimap bg
     "minimap.errorHighlight":                "#FF6B6B",    // Error highlight
     "minimap.warningHighlight":              "#FFB366",    // Warning highlight
     "minimap.selectionOccurrenceHighlight":  "#00A1F140",  // Selection highlight
