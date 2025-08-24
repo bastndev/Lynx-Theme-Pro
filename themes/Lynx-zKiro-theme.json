@@ -15,15 +15,15 @@
 
     // --- -- - Menu Click & select  
     "menu.background":                       "#28242e",    // - Menu bg
-    "menu.foreground":                       "#ffffff",    // - Menu text
+    "menu.foreground":                       "#e8e0ff",    // - Menu text
     "menu.border":                           "#28242e",    // - Border line
-    "menu.selectionBackground":              "#352f3d",    // - Selected item bg
+    "menu.selectionBackground":              "#8e47ff40",  // - Selected item bg
     "menu.selectionForeground":              "#b080ff",    // - Active click color
-    "menu.separatorBackground":              "#4a464f",    // - Separator line
-    "menubar.selectionBackground":           "#8e47ff40",  // - Menubar selection bg
+    "menu.separatorBackground":              "#423a4d",    // - Separator line
+    "menubar.selectionBackground":           "#8e47ff30",  // - Menubar selection bg
     "menubar.selectionForeground":           "#b080ff",    // - Hover TOP text 1
-    "menu.selectionBorder":                  "#8e47ff40",  // - Selected item border
-    "menubar.selectionBorder":               "#8e47ff40",  // - Menubar selection border
+    "menu.selectionBorder":                  "#8e47ff",    // - Selected item border
+    "menubar.selectionBorder":               "#8e47ff",    // - Menubar selection border
 
     "list.hoverBackground":                  "#ffffff0d",  // - Hover bg
     "list.hoverForeground":                  "#ffffff",    // - Text select
