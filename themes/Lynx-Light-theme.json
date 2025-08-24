@@ -299,9 +299,19 @@
     "editor.findMatchHighlightBorder":            "#d47356",    // - Find match highlight border
     "editor.findRangeHighlightBackground":        "#ffb79930",  // - Find range highlight bg ---|
 
-    "editorOverviewRuler.findMatchForeground":     "#ec8f72fa", // - Mini map overview ruler ---|
-    "minimap.findMatchHighlight":                  "#ec8f72e3", // - Mini map Find match
-    "editorOverviewRuler.rangeHighlightForeground":"#ffb799fa", // - Mini map overview ruler ---|
+    // --- -- - Minimap
+    "editorOverviewRuler.findMatchForeground":     "#16a249e8", // - Mini map overview ruler ---|
+    "editorOverviewRuler.rangeHighlightForeground":"#2564ebef", // - Mini map overview ruler ---|
+    
+    "minimap.background":                          "#eaeaea",    // Minimap bg
+    "minimap.errorHighlight":                      "#dc2626",    // Error highlight
+    "minimap.warningHighlight":                    "#d97706",    // Warning highlight
+    "minimap.findMatchHighlight":                  "#16a24930",  // - Mini map Find match
+    "minimap.selectionHighlight":                  "#5fc05c50",  // Selection
+
+    "minimapSlider.background":                    "#cccccc30",  // Slider bg
+    "minimapSlider.hoverBackground":               "#cccccc40",  // Slider hover
+    "minimapSlider.activeBackground":              "#cccccc50",  // Slider active
 
     // --- -- - BG message error
     "inputValidation.errorBackground":       "#ffe6e6",    // - Error message bg
