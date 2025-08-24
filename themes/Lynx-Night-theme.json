@@ -335,6 +335,7 @@
     // --- -- - Sticky Scroll
     "editorStickyScroll.background":         "#12191c",    // - Sticky scroll bg
     "editorStickyScroll.border":             "#2a2e33",    // - Sticky scroll border
+    "editorStickyScroll.shadow":             "#00000050",  // Sticky scroll shadow
     
     // --- -- - Testing
     "testing.iconFailed":                    "#ee4d7f",    // - Test failed icon

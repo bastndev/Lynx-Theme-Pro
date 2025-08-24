@@ -322,7 +322,7 @@
     "editorBracketHighlight.foreground6":    "#29B6F6",    // - Bracket highlight color 6
     "editorBracketMatch.background":         "#00A1F130",  // - Bracket match bg
     "editorBracketMatch.border":             "#00A1F1",    // - Bracket match border 
-    "editorBracketHighlight.unexpectedBracket.foreground": "#FF6B6B",  // Unexpected bracket color
+    "editorBracketHighlight.unexpectedBracket.foreground": "#FF6B6B",  // - Unexpected bracket color
 
     // TODO: INLAY HINTS | VSCODE FEATURES MARK: [MODERN]
     "editorInlayHint.background":            "#2a303850",  // - Inlay hint bg
