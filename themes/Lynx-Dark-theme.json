@@ -25,7 +25,7 @@
     "menu.selectionBorder":                  "#57b689",    // - Selected item border
     "menubar.selectionBorder":               "#57b689",    // - Menubar selection border
 
-    "list.hoverBackground":                  "#00000090",  // - Hover bg
+    "list.hoverBackground":                  "#192922ad",  // - Hover bg
     "list.hoverForeground":                  "#e0e0e0",    // - Text select
     "list.dropBackground":                   "#000000",    // - Drop bg
     
