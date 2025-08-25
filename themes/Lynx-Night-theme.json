@@ -190,7 +190,7 @@
     //ctrl+shift+p | Inputs & Quick Input
     "editorWidget.background":               "#0f1719",    // - bg
     "quickInputList.focusBackground":        "#37b8b070",  // - Focus bg
-    "list.highlightForeground":              "#37b8b0",    // - Highlight text color
+    "list.highlightForeground":              "#002c29",    // - Highlight text color
     
     "quickInput.background":                 "#0f1719",    // - Quick input bg
     "quickInput.foreground":                 "#f5f5f5",    // - Quick input text
