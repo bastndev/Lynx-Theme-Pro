@@ -291,7 +291,7 @@
     "statusBar.border":                      "#00000000",    // - Status bar LINE border (Bottom)
 
     // ---- -- - Selection BG - ctrl+F
-    "selection.background":                        "#2f5a3f",   // - selection bg
+    "selection.background":                        "#174748",   // - selection bg
 
     "editor.findMatchBackground":                  "#678fa2cc", // - Find match bg ---|
     "editor.findMatchBorder":                      "#37b8b0",   // - Find match border
