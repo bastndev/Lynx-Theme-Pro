@@ -263,13 +263,13 @@
     "statusBar.debuggingBackground":         "#eccfb6",    // - Status bar debugging bg___
     "statusBar.debuggingForeground":         "#4a3f35",    // - Status bar debugging text
     "statusBar.noFolderBackground":          "#00000000",  // - Status bar box bg -HOVER
-    "statusBarItem.hoverBackground":         "#f2e6d3",    // - Status bar hover bg -Text
+    "statusBarItem.hoverBackground":         "#fdf4e5",    // - Status bar hover bg -Text
     "statusBar.noFolderForeground":          "#8a7b6d",    // - Status bar no folder text
-    "statusBarItem.hoverForeground":         "#4a3f35",    // - Status bar item hover text
+    "statusBarItem.hoverForeground":         "#000000",    // - Status bar item hover text
     "statusBarItem.activeBackground":        "#c4a37380",  // - Status bar active item bg
     "statusBarItem.remoteBackground":        "#00000000",  // - Remote corner bg
-    "statusBarItem.remoteForeground":        "#8b7865",    // - Remote corner logo-ICON
-    "statusBarItem.remoteHoverForeground":   "#8b7865",    // - Hover corner logo-ICON
+    "statusBarItem.remoteForeground":        "#000000",    // - Remote corner logo-ICON
+    "statusBarItem.remoteHoverForeground":   "#000000",    // - Hover corner logo-ICON
     "statusBarItem.prominentBackground":     "#e8d5c4",    // - Bottom box bg
     
     // --- -- - Market place VScode txt color
