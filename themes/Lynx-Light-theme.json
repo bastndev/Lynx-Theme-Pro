@@ -65,7 +65,7 @@
     // --- -- - Buttons
     "button.background":                     "#479671",    // - Button bg
     "button.foreground":                     "#ffffff",    // - Button text
-    "button.hoverBackground":                "#347534",    // - Button hover
+    "button.hoverBackground":                "#408164",    // - Button hover
     "button.secondaryBackground":            "#e5e5e5",    // - Secondary button bg
     "button.secondaryForeground":            "#479671",    // - Secondary button text
     "button.secondaryHoverBackground":       "#d9d9d9",    // - Secondary button hover
