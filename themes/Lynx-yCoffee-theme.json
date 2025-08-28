@@ -428,10 +428,10 @@
     // --- -- - Charts (for extensions) Git-> Github | EXTENSIONS
     "charts.foreground":                     "#ffd0bb",    // Chart text
     "charts.lines":                          "#4d412f20",  // Chart lines
-    "charts.red":                            "#d47373",    // Chart RED
+    "charts.red":                            "#f5262f",    // Chart RED
     "charts.blue":                           "#fc8277",    // Chart --- -- -
-    "charts.yellow":                         "#c9935a",    // Chart YELLOW
-    "charts.green":                          "#97c93d",    // Chart GREEN
+    "charts.yellow":                         "#facc15",    // Chart YELLOW
+    "charts.green":                          "#22c55e",    // Chart GREEN
     "charts.orange":                         "#fc8277",    // Chart orange
     "charts.purple":                         "#7859bc",    // Chart purple
 
