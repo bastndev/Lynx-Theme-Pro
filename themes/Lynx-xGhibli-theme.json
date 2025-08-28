@@ -217,16 +217,16 @@
     "terminal.background":                   "#f8f0e5",    // - Terminal bg
     "terminal.foreground":                   "#6b5d4f",    // - Terminal text
     "terminal.ansiBlack":                    "#4a3f35",    // - Terminal black color
-    "terminal.ansiBlue":                     "#9db1c6",    // - Terminal blue color
+    "terminal.ansiBlue":                     "#27221d",    // - Terminal blue color
     "terminal.ansiBrightBlack":              "#8a7b6d",    // - Terminal bright black color
     "terminal.ansiBrightBlue":               "#b5c8d8",    // - Terminal bright blue color
     "terminal.ansiBrightCyan":               "#a8beb5",    // - Terminal bright cyan color
-    "terminal.ansiBrightGreen":              "#c4b598",    // - Terminal bright green color
+    "terminal.ansiBrightGreen":              "#d49d3a",    // - Terminal bright green color
     "terminal.ansiBrightMagenta":            "#d4bfa0",    // - Terminal bright magenta color
     "terminal.ansiBrightRed":                "#d4bfa0",    // - Terminal bright red color
     "terminal.ansiBrightWhite":              "#faf5ea",    // - Terminal bright white color
     "terminal.ansiBrightYellow":             "#dcc189",    // - Terminal bright yellow color
-    "terminal.ansiCyan":                     "#8fa598",    // - Terminal cyan color
+    "terminal.ansiCyan":                     "#d47f3a",    // - Terminal cyan color
     "terminal.ansiGreen":                    "#b19b7d",    // - Terminal green color
     "terminal.ansiMagenta":                  "#c4a894",    // - Terminal magenta color
     "terminal.ansiRed":                      "#b5836a",    // - Terminal red color
