@@ -15,7 +15,7 @@
 
     // --- -- - Menu Click & select  
     "menu.background":                       "#f2e6d3",    // - Menu bg
-    "menu.foreground":                       "#6b5d4f",    // - Menu text
+    "menu.foreground":                       "#443c33",    // - Menu text
     "menu.border":                           "#d4c4a8",    // - Border line
     "menu.selectionBackground":              "#e8d5c450",  // - Selected item bg
     "menu.selectionForeground":              "#6b5d4f",    // - Active click color
