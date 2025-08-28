@@ -93,7 +93,7 @@
     "editorGutter.modifiedBackground":               "#00A1F1",    // - Warning color
  
     // TODO: CODE EDITOR MARK: [TWO-2]
-    "editor.background":                     "#1a1d20",    // - Editor bg
+    "editor.background":                     "#1a1d21",    // - Editor bg
     "editor.foreground":                     "#ffffff",    // - Editor [STORE] text
     "editor.lineHighlightBackground":        "#ffffff0a",  // - Line highlight bg (improved contrast)
     "editor.lineHighlightBorder":            "#ffffff12",  // - Line highlight border (visible)
@@ -303,7 +303,7 @@
     "editorOverviewRuler.findMatchForeground":     "#00A1F180", // - Mini map overview ruler ---|
     "editorOverviewRuler.rangeHighlightForeground":"#00D4FF80", // - Mini map overview ruler ---|
 
-    "minimap.background":                          "#1a1f22",    // Minimap bg
+    "minimap.background":                          "#1a1d20",    // Minimap bg
     "minimap.errorHighlight":                      "#FF6B73",    // Error highlight
     "minimap.warningHighlight":                    "#FFD700",    // Warning highlight
     "minimap.findMatchHighlight":                  "#32bbffcc",  // - Mini map Find match
