@@ -4,7 +4,7 @@
   "semanticHighlighting": true,
   "name": "Lynx coffee Theme",
   "type": "dark",
-  
+
   "colors": {
     // TODO: MENU STATUS BAR MARK: - [TOP]
     "titleBar.activeBackground":             "#231514",    // - Title bar bg 
@@ -401,7 +401,66 @@
     "symbolIcon.textForeground":             "#ffd0bb",    // - Text icon
     "symbolIcon.typeParameterForeground":    "#b8a082",    // - Type parameter icon
     "symbolIcon.unitForeground":             "#b8a082",    // - Unit icon
-    "symbolIcon.variableForeground":         "#f5d6c8"     // - Variable icon
+    "symbolIcon.variableForeground":         "#f5d6c8",    // - Variable icon
+
+    // --- -- - TODO: Settings UI | Additional MARK:[2.0]
+    "settings.headerForeground":             "#ffffff",    // Settings headers
+    "settings.modifiedItemIndicator":        "#a85a4c",    // Modified setting
+    "settings.dropdownBackground":           "#170F10",    // Dropdown bg
+    "settings.dropdownForeground":           "#ffffff",    // Dropdown text
+    "settings.dropdownBorder":               "#4d412f20",  // Dropdown border
+    "settings.dropdownListBorder":           "#a85a4c",    // Dropdown list border
+    "settings.checkboxBackground":           "#170F10",    // Checkbox bg
+    "settings.checkboxForeground":           "#a85a4c",    // Checkbox check
+    "settings.checkboxBorder":               "#4d412f20",  // Checkbox border
+    "settings.textInputBackground":          "#170F10",    // Text input bg
+    "settings.textInputForeground":          "#ffffff",    // Text input text
+    "settings.textInputBorder":              "#4d412f20",  // Text input border
+    "settings.numberInputBackground":        "#170F10",    // Number input bg
+    "settings.numberInputForeground":        "#ffffff",    // Number input text
+    "settings.numberInputBorder":            "#4d412f20",  // Number input border
+
+    // --- -- - Problems Panel
+    "problemsErrorIcon.foreground":          "#d47373",    // Error icon
+    "problemsWarningIcon.foreground":        "#c9935a",    // Warning icon
+    "problemsInfoIcon.foreground":           "#7fb3d3",    // Info icon
+
+    // --- -- - Charts (for extensions) Git-> Github | EXTENSIONS
+    "charts.foreground":                     "#ffd0bb",    // Chart text
+    "charts.lines":                          "#4d412f20",  // Chart lines
+    "charts.red":                            "#d47373",    // Chart RED
+    "charts.blue":                           "#fc8277",    // Chart --- -- -
+    "charts.yellow":                         "#c9935a",    // Chart YELLOW
+    "charts.green":                          "#97c93d",    // Chart GREEN
+    "charts.orange":                         "#fc8277",    // Chart orange
+    "charts.purple":                         "#7859bc",    // Chart purple
+
+    // --- -- - Editor Groups
+    "editorGroup.border":                    "#4d412f20",  // Group border
+    "editorGroup.dropBackground":            "#a85a4c20",  // Drop background
+    "editorGroup.emptyBackground":           "#231514",    // Empty group
+    "editorGroup.focusedEmptyBorder":        "#a85a4c",    // Focused empty border
+    "editorGroupHeader.noTabsBackground":    "#170F10",    // No tabs bg
+
+    // --- -- - Peek View - f12
+    "peekView.border":                         "#a85a4c",    // Peek view border
+    "peekViewEditor.background":               "#170F10",    // Peek editor bg
+    "peekViewEditor.matchHighlightBackground": "#a85a4c40", // Match highlight
+    "peekViewEditor.matchHighlightBorder":     "#a85a4c",    // Match border
+    "peekViewEditorGutter.background":         "#170F10",    // Peek gutter
+    "peekViewResult.background":               "#231514",    // Peek result bg
+    "peekViewResult.fileForeground":           "#ffffff",    // File text
+    "peekViewResult.lineForeground":           "#a0a0a0",    // Line text
+    "peekViewResult.matchHighlightBackground": "#a85a4c40", // Result highlight
+    "peekViewResult.selectionBackground":      "#4d412f20",  // Selection bg
+    "peekViewResult.selectionForeground":      "#ffffff",    // Selection text
+    "peekViewTitle.background":                "#231514",    // Title bg
+    "peekViewTitleLabel.foreground":           "#ffffff",    // Title text
+
+    // --- -- - Debug
+    "debugIcon.pauseForeground":             "#c9935a",    // Pause debug--
+    "debugIcon.stopForeground":              "#d47373",    // Stop debug --
+    "debugIcon.restartForeground":           "#7fb3d3"     // Restart --
   },
 
   "semanticTokenColors": {
