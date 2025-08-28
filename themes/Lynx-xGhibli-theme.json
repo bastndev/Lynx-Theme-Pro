@@ -95,8 +95,8 @@
     // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#f5ead6",    // - Editor bg
     "editor.foreground":                     "#4a3f35",    // - Editor [STORE] text
-    "editor.lineHighlightBackground":        "#f2e6d3",    // - Line highlight bg (improved contrast)
-    "editor.lineHighlightBorder":            "#f5ead8",    // - Line highlight border (visible)
+    "editor.lineHighlightBackground":        "#f8edde",    // - Line highlight bg (improved contrast)
+    "editor.lineHighlightBorder":            "#00000012",    // - Line highlight border (visible)
     "editor.selectionBackground":            "#a0927f50",  // - Selection bg (theme consistent)
     "editor.rangeHighlightBackground":       "#9db1c60d",  // - Range highlight bg
     "editor.wordHighlightBackground":        "#d4bfa030",  // - Word highlight bg
