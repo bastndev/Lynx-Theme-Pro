@@ -17,13 +17,13 @@
     "menu.background":                       "#1f1926",    // - Menu bg
     "menu.foreground":                       "#e8e5f0",    // - Menu text
     "menu.border":                           "#3a2e4a",    // - Border line
-    "menu.selectionBackground":              "#b080ff55",  // - Selected item bg
+    "menu.selectionBackground":              "#7c3aed25",  // - Selected item bg
     "menu.selectionForeground":              "#d4b3ff",    // - Active click color
     "menu.separatorBackground":              "#4f3f5f",    // - Separator line
     "menubar.selectionBackground":           "#b080ff35",  // - Menubar selection bg
     "menubar.selectionForeground":           "#d4b3ff",    // - Hover TOP text 1
-    "menu.selectionBorder":                  "#b080ff",    // - Selected item border
-    "menubar.selectionBorder":               "#b080ff",    // - Menubar selection border
+    "menu.selectionBorder":                  "#a855f7",    // - Selected item border
+    "menubar.selectionBorder":               "#a855f7",    // - Menubar selection border
 
     "list.hoverBackground":                  "#2a1f32ad",  // - Hover bg
     "list.hoverForeground":                  "#e0e0e0",    // - Text select
