@@ -23,7 +23,7 @@
     "menubar.selectionBackground":           "#d4c4a830",  // - Menubar selection bg
     "menubar.selectionForeground":           "#6b5d4f",    // - Hover TOP text 1
     "menu.selectionBorder":                  "#d4c4a8",    // - Selected item border
-    "menubar.selectionBorder":               "#d4c4a8",    // - Menubar selection border
+    "menubar.selectionBorder":               "#b19b7d",    // - Menubar selection border
 
     "list.hoverBackground":                  "#e8d5c4",    // - Hover bg
     "list.hoverForeground":                  "#4a3f35",    // - Text select
