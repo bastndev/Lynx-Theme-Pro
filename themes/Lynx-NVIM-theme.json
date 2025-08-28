@@ -325,12 +325,12 @@
     "inputValidation.infoBorder":            "#00A1F1",    // - Info message border
 
     // --- -- - BG {} and () and []
-    "editorBracketHighlight.foreground1":    "#696e77",    // - Bracket highlight color 1
-    "editorBracketHighlight.foreground2":    "#696e77",    // - Bracket highlight color 2
-    "editorBracketHighlight.foreground3":    "#696e77",    // - Bracket highlight color 3
-    "editorBracketHighlight.foreground4":    "#696e77",    // - Bracket highlight color 4
-    "editorBracketHighlight.foreground5":    "#696e77",    // - Bracket highlight color 5
-    "editorBracketHighlight.foreground6":    "#696e77",    // - Bracket highlight color 6
+    "editorBracketHighlight.foreground1":    "#00A1F1",    // - Bracket highlight color 1
+    "editorBracketHighlight.foreground2":    "#AB47BC",    // - Bracket highlight color 2
+    "editorBracketHighlight.foreground3":    "#66BB6A",    // - Bracket highlight color 3
+    "editorBracketHighlight.foreground4":    "#FFB366",    // - Bracket highlight color 4
+    "editorBracketHighlight.foreground5":    "#FF6B6B",    // - Bracket highlight color 5
+    "editorBracketHighlight.foreground6":    "#29B6F6",    // - Bracket highlight color 6
     "editorBracketMatch.background":         "#4a5a7050",  // - Bracket match bg
     "editorBracketMatch.border":             "#85A3C5",    // - Bracket match border 
     "editorBracketHighlight.unexpectedBracket.foreground": "#D4958A",  // - Unexpected bracket color
