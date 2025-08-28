@@ -63,9 +63,9 @@
     "sideBarSectionHeader.foreground":       "#b080ff",    // - Css text and BOT txt
 
     // --- -- - Buttons
-    "button.background":                     "#b080ff",    // - Button bg
+    "button.background":                     "#8e47ff",    // - Button bg
     "button.foreground":                     "#19161d",    // - Button text
-    "button.hoverBackground":                "#d4b3ff",    // - Button hover
+    "button.hoverBackground":                "#995bfd",    // - Button hover
     "button.secondaryBackground":            "#2a1f32",    // - Secondary button bg
     "button.secondaryForeground":            "#b080ff",    // - Secondary button text
     "button.secondaryHoverBackground":       "#3a2e4a",    // - Secondary button hover
@@ -429,7 +429,7 @@
     "charts.foreground":                     "#e8e5f0",    // Chart text
     "charts.lines":                          "#5a4a6a",    // Chart lines
     "charts.red":                            "#f5262f",    // Chart RED
-    "charts.blue":                           "#b080ff",    // Chart --- -- -
+    "charts.blue":                           "#8e47ff",    // Chart --- -- -
     "charts.yellow":                         "#facc15",    // Chart YELLOW
     "charts.green":                          "#22c55e",    // Chart GREEN
     "charts.orange":                         "#ff9971",    // Chart orange
