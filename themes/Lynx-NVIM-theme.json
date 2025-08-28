@@ -221,7 +221,7 @@
     "terminal.ansiBrightBlack":              "#5a5a5a",    // - Terminal bright black color
     "terminal.ansiBrightBlue":               "#00A1F1",    // - Terminal bright blue color
     "terminal.ansiBrightCyan":               "#4DE5F7",    // - Terminal bright cyan color
-    "terminal.ansiBrightGreen":              "#00FF7F",    // - Terminal bright green color
+    "terminal.ansiBrightGreen":              "#9a5cd0",    // - Terminal bright green color
     "terminal.ansiBrightMagenta":            "#D4A5FF",    // - Terminal bright magenta color
     "terminal.ansiBrightRed":                "#FF7A85",    // - Terminal bright red color
     "terminal.ansiBrightWhite":              "#ffffff",    // - Terminal bright white color
@@ -942,7 +942,7 @@
     },
     {
       "name": "Kotlin Punctuation Separator",
-      "scope": ["source.kotlin punctuation.seperator"],
+      "scope": ["source.kotlin punctuation.separator"],
       "settings": {
         "foreground": "#777b84"
       }
