@@ -253,14 +253,14 @@
     "dropdown.background":                   "#e8d5c4",    // - Dropdown bg
     "dropdown.foreground":                   "#4a3f35",    // - Dropdown text color
     "dropdown.border":                       "#d4c4a8",    // - Dropdown border 
-    "debugToolBar.background":               "#ede0cd",    // - Debug toolbar bg
+    "debugToolBar.background":               "#e8d5c4",    // - Debug bg--
     "dropdown.listBackground":               "#f2e6d3",    // - Dropdown list bg
     "debugToolBar.border":                   "#d4c4a8",    // - Border debug
 
     // TODO: STATUS BAR MARK: - [BOTTOM]
     "statusBar.background":                  "#f2e6d3",    // - Status bar bg
     "statusBar.foreground":                  "#8a7b6d",    // - Status bar text color
-    "statusBar.debuggingBackground":         "#ede0cd",    // - Status bar debugging bg___
+    "statusBar.debuggingBackground":         "#eccfb6",    // - Status bar debugging bg___
     "statusBar.debuggingForeground":         "#4a3f35",    // - Status bar debugging text
     "statusBar.noFolderBackground":          "#00000000",  // - Status bar box bg -HOVER
     "statusBarItem.hoverBackground":         "#f2e6d3",    // - Status bar hover bg -Text
