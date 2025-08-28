@@ -136,7 +136,7 @@
 
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground":     "#ffffff",    // - Active line number
-    "editorLineNumber.foreground":           "#a0a0a0",    // - Line numbers
+    "editorLineNumber.foreground":           "#ffd0bbd5",    // - Line numbers
 
     // --- -- - Editor Suggest widget MID
     "editorSuggestWidget.background":         "#170F10",    // - bg suggestion
