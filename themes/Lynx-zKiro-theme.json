@@ -86,8 +86,8 @@
     "gitDecoration.stageModifiedResourceForeground": "#f5d76e",    // - Staged modified files
     "gitDecoration.stageDeletedResourceForeground":  "#f5d76e",    // - Staged deleted files
     "gitDecoration.submoduleResourceForeground":     "#f5d76e",    // - Submodules
-    "gitDecoration.renamedResourceForeground":       "#e8d571",    // - Renamed files
-    "gitDecoration.addedResourceForeground":         "#e8d571",    // - Added files
+    "gitDecoration.renamedResourceForeground":       "#f5d76e",    // - Renamed files
+    "gitDecoration.addedResourceForeground":         "#f5d76e",    // - Added files
     "editorGhostText.foreground":                    "#757575",    // - git commit txt
     "editorGutter.deletedBackground":                "#ff6b73",    // - Delete code
     "editorGutter.modifiedBackground":               "#4dc9ff",    // - Warning color
