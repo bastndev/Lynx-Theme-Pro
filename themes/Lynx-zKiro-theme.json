@@ -93,7 +93,7 @@
     "editorGutter.modifiedBackground":               "#4dc9ff",    // - Warning color
  
     // TODO: CODE EDITOR MARK: [TWO-2]
-    "editor.background":                     "#19161d",    // - Editor bg
+    "editor.background":                     "#19161f",    // - Editor bg
     "editor.foreground":                     "#ffffff",    // - Editor [STORE] text
     "editor.lineHighlightBackground":        "#ffffff0a",  // - Line highlight bg (improved contrast)
     "editor.lineHighlightBorder":            "#ffffff12",  // - Line highlight border (visible)
