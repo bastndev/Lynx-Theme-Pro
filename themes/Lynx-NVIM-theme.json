@@ -468,7 +468,7 @@
       "name": "comment.line",
       "scope": "comment.line",
       "settings": {
-        "foreground": "#777b84"
+        "foreground": "#b1b1b1"
       }
     },
     {
