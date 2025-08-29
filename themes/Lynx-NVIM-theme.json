@@ -1148,7 +1148,7 @@
       "name": "JSX Attribute",
       "scope": ["entity.other.attribute-name.jsx", "entity.other.attribute-name.tsx"],
       "settings": {
-        "foreground": "#EF4444"
+        "foreground": "#FB7185"
       }
     },
 
