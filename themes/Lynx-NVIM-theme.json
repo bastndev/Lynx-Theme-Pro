@@ -368,7 +368,7 @@
     "merge.commonContentBackground":         "#F59E0B15",  // - Common content bg
     "merge.commonHeaderBackground":          "#F59E0B30",  // - Common header bg
 
-    // ===== SYMBOL ICONS (ORGANIZED & IMPROVED) =====
+    // --- -- - Symbol Icons
     "symbolIcon.arrayForeground":            "#F59E0B",    // - Array icon
     "symbolIcon.booleanForeground":          "#EC4899",    // - Boolean icon
     "symbolIcon.classForeground":            "#0EA5E9",    // - Class icon
