@@ -475,7 +475,7 @@
     "type": "#0EA5E9",
     "parameter": "#E2E8F0",
     "variable": "#F1F5F9",
-    "property": "#0EA5E9",
+    "property": "#E2E8F0",
     "enumMember": "#38BDF8",
     "event": "#EF4444",
     "function": "#0EA5E9",
@@ -542,7 +542,7 @@
       "name": "Storage Type",
       "scope": ["storage.type"],
       "settings": {
-        "foreground": "#8B5CF6"
+        "foreground": "#EC4899"
       }
     },
     {
