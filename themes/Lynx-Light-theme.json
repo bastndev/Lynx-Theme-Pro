@@ -489,7 +489,7 @@
     "decorator": "#4573ff"
   },
   
-"tokenColors": [
+  "tokenColors": [
     // ===== COMMENTS =====
     {
       "name": "Comment",

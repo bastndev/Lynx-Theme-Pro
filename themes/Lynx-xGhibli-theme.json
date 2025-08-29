@@ -464,21 +464,31 @@
 },
 
   "semanticTokenColors": {
-    "namespace": "#953800",
-    "property": "#0969da",
-    "interface": "#6f42c1",
-    "type": "#953800",
-    "class": "#953800",
-    "enum": "#953800",
+    "namespace": "#c4a373",
+    "class": "#8b7865",
+    "enum": "#c4a373",
+    "interface": "#b19b7d",
+    "struct": "#6b5d4f",
+    "typeParameter": "#a0927f",
+    "type": "#4a3f35",
+    "parameter": "#b5836a",
+    "variable": "#9db1c6",
+    "property": "#9db1c6",
+    "enumMember": "#c4a373",
+    "event": "#b5836a",
     "function": "#8250df",
     "method": "#8250df",
     "macro": "#8250df",
-    "parameter": "#cf222e",
-    "property.readonly": "#24292e",
-    "enumMember": "#116329",
-    "event": "#da3633"
+    "keyword": "#cf222e",
+    "modifier": "#cf222e",
+    "comment": "#a0927f",
+    "string": "#23ab98",
+    "number": "#0550ae",
+    "regexp": "#0969da",
+    "operator": "#24292e",
+    "decorator": "#8250df"
   },
-    
+  
   "tokenColors": [
     // ===== COMMENTS =====
     {
