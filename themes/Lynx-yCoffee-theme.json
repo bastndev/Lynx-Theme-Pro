@@ -287,7 +287,7 @@
     "titleBar.border":                       "#00000000",    // - Title bar LINE TOP -T-
     "sideBarSectionHeader.border":           "#00000000",    // - Line top bottom right or left =T=
     "sideBar.border":                        "#4d412f50",    // - LINE RIGHT & LEFT |-|
-    "editorOverviewRuler.border":            "#00000000",    // - Overview ruler border LINE  ||-
+    "editorOverviewRuler.border":            "#4d412f50",    // - Overview ruler border LINE  ||-
     "statusBar.border":                      "#00000000",    // - Status bar LINE border (Bottom)
 
     // ---- -- - Selection BG - ctrl+F
