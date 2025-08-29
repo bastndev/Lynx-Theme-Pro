@@ -146,7 +146,7 @@
     "minimapSlider.activeBackground":              "#8a756250",  // Slider active
 
     // --- -- - Editor Line Number - LEFT
-    "editorLineNumber.activeForeground":     "#ffffff",    // - Active line number
+    "editorLineNumber.activeForeground":     "#ffffff",      // - Active line number
     "editorLineNumber.foreground":           "#ffd0bbd5",    // - Line numbers
 
     // --- -- - Editor Suggest widget MID
@@ -445,13 +445,13 @@
     // --- -- - Peek View - f12
     "peekView.border":                         "#a85a4c",    // Peek view border
     "peekViewEditor.background":               "#170F10",    // Peek editor bg
-    "peekViewEditor.matchHighlightBackground": "#a85a4c40", // Match highlight
+    "peekViewEditor.matchHighlightBackground": "#a85a4c40",  // Match highlight
     "peekViewEditor.matchHighlightBorder":     "#a85a4c",    // Match border
     "peekViewEditorGutter.background":         "#170F10",    // Peek gutter
     "peekViewResult.background":               "#231514",    // Peek result bg
     "peekViewResult.fileForeground":           "#ffffff",    // File text
     "peekViewResult.lineForeground":           "#a0a0a0",    // Line text
-    "peekViewResult.matchHighlightBackground": "#a85a4c40", // Result highlight
+    "peekViewResult.matchHighlightBackground": "#a85a4c40",  // Result highlight
     "peekViewResult.selectionBackground":      "#4d412f20",  // Selection bg
     "peekViewResult.selectionForeground":      "#ffffff",    // Selection text
     "peekViewTitle.background":                "#231514",    // Title bg

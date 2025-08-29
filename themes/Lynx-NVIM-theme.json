@@ -445,13 +445,13 @@
     // --- -- - Peek View - f12
     "peekView.border":                       "#0EA5E9",    // Peek view border
     "peekViewEditor.background":             "#1a1e22",    // Peek editor bg
-    "peekViewEditor.matchHighlightBackground": "#0EA5E930", // Match highlight
+    "peekViewEditor.matchHighlightBackground": "#0EA5E930",// Match highlight
     "peekViewEditor.matchHighlightBorder":   "#0EA5E9",    // Match border
     "peekViewEditorGutter.background":       "#1a1e22",    // Peek gutter
     "peekViewResult.background":             "#181b1f",    // Peek result bg
     "peekViewResult.fileForeground":         "#F8FAFC",    // File text
     "peekViewResult.lineForeground":         "#CBD5E1",    // Line text
-    "peekViewResult.matchHighlightBackground": "#0EA5E930", // Result highlight
+    "peekViewResult.matchHighlightBackground": "#0EA5E930",// Result highlight
     "peekViewResult.selectionBackground":    "#475569",    // Selection bg
     "peekViewResult.selectionForeground":    "#F8FAFC",    // Selection text
     "peekViewTitle.background":              "#1a1e22",    // Title bg

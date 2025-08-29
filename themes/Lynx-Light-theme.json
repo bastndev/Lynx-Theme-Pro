@@ -311,7 +311,7 @@
     "editor.findRangeHighlightBackground":        "#4d7a2640", // - Find range highlight bg ---|
 
     "editorOverviewRuler.findMatchForeground":    "#55c55580", // - Mini map overview ruler ---|
-    "editorOverviewRuler.rangeHighlightForeground":"#65d56580", // - Mini map overview ruler ---|
+    "editorOverviewRuler.rangeHighlightForeground":"#65d56580",// - Mini map overview ruler ---|
 
     // --- -- - BG message error
     "inputValidation.errorBackground":      "#d6454525",  // - Error message bg
@@ -388,20 +388,20 @@
     "symbolIcon.methodForeground":          "#2d99ff",    // - Method icon
     "symbolIcon.moduleForeground":          "#c5952e",    // - Module icon
     "symbolIcon.namespaceForeground":       "#c5952e",    // - Namespace icon
-    "symbolIcon.nullForeground":             "#d64545",    // - Null icon
-    "symbolIcon.numberForeground":           "#2eb82e",    // - Number icon
-    "symbolIcon.objectForeground":           "#c5952e",    // - Object icon
-    "symbolIcon.operatorForeground":         "#4dc8ff",    // - Operator icon
-    "symbolIcon.packageForeground":          "#c5952e",    // - Package icon
-    "symbolIcon.propertyForeground":         "#4573ff",    // - Property icon
-    "symbolIcon.referenceForeground":        "#ff6941",    // - Reference icon
-    "symbolIcon.snippetForeground":          "#347534",    // - Snippet icon
-    "symbolIcon.stringForeground":           "#347534",    // - String icon
-    "symbolIcon.structForeground":           "#2d99ff",    // - Struct icon
-    "symbolIcon.textForeground":             "#2d2d2d",    // - Text icon
-    "symbolIcon.typeParameterForeground":    "#4dc8ff",    // - Type parameter icon
-    "symbolIcon.unitForeground":             "#4dc8ff",    // - Unit icon
-    "symbolIcon.variableForeground":         "#4573ff",    // - Variable icon
+    "symbolIcon.nullForeground":             "#d64545",   // - Null icon
+    "symbolIcon.numberForeground":           "#2eb82e",   // - Number icon
+    "symbolIcon.objectForeground":           "#c5952e",   // - Object icon
+    "symbolIcon.operatorForeground":         "#4dc8ff",   // - Operator icon
+    "symbolIcon.packageForeground":          "#c5952e",   // - Package icon
+    "symbolIcon.propertyForeground":         "#4573ff",   // - Property icon
+    "symbolIcon.referenceForeground":        "#ff6941",   // - Reference icon
+    "symbolIcon.snippetForeground":          "#347534",   // - Snippet icon
+    "symbolIcon.stringForeground":           "#347534",   // - String icon
+    "symbolIcon.structForeground":           "#2d99ff",   // - Struct icon
+    "symbolIcon.textForeground":             "#2d2d2d",   // - Text icon
+    "symbolIcon.typeParameterForeground":    "#4dc8ff",   // - Type parameter icon
+    "symbolIcon.unitForeground":             "#4dc8ff",   // - Unit icon
+    "symbolIcon.variableForeground":         "#4573ff",   // - Variable icon
 
     // --- -- - TODO: Settings UI | Additional MARK:[2.0]
     "settings.headerForeground":             "#2d2d2d",    // Settings headers
@@ -445,13 +445,13 @@
     // --- -- - Peek View - f12
     "peekView.border":                         "#479671",    // Peek view border
     "peekViewEditor.background":               "#f5faf5",    // Peek editor bg
-    "peekViewEditor.matchHighlightBackground": "#47967140", // Match highlight
+    "peekViewEditor.matchHighlightBackground": "#47967140",  // Match highlight
     "peekViewEditor.matchHighlightBorder":     "#479671",    // Match border
     "peekViewEditorGutter.background":         "#f5faf5",    // Peek gutter
     "peekViewResult.background":               "#eaeaea",    // Peek result bg
     "peekViewResult.fileForeground":           "#2d2d2d",    // File text
     "peekViewResult.lineForeground":           "#656a65",    // Line text
-    "peekViewResult.matchHighlightBackground": "#47967140", // Result highlight
+    "peekViewResult.matchHighlightBackground": "#47967140",  // Result highlight
     "peekViewResult.selectionBackground":      "#c5d5c5",    // Selection bg
     "peekViewResult.selectionForeground":      "#2d2d2d",    // Selection text
     "peekViewTitle.background":                "#f5f5f5",    // Title bg

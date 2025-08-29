@@ -81,7 +81,7 @@
     "gitDecoration.modifiedResourceForeground":      "#b080ff",    // - Modified files
     "gitDecoration.conflictingResourceForeground":   "#4da6ff",    // - Merge conflicts
     "gitDecoration.deletedResourceForeground":       "#ff7a85",    // - Deleted files
-    "gitDecoration.ignoredResourceForeground":       "#6a6a6ada",    // - Ignored files
+    "gitDecoration.ignoredResourceForeground":       "#6a6a6ada",  // - Ignored files
     "gitDecoration.untrackedResourceForeground":     "#8e47ff",    // - Untracked files
     "gitDecoration.stageModifiedResourceForeground": "#FFD700",    // - Staged modified files
     "gitDecoration.stageDeletedResourceForeground":  "#FFD700",    // - Staged deleted files
@@ -401,7 +401,7 @@
     "symbolIcon.textForeground":             "#ffffff",    // - Text icon
     "symbolIcon.typeParameterForeground":    "#d4b3ff",    // - Type parameter icon
     "symbolIcon.unitForeground":             "#d4b3ff",    // - Unit icon
-    "symbolIcon.variableForeground":         "#b3a5ff",     // - Variable icon
+    "symbolIcon.variableForeground":         "#b3a5ff",    // - Variable icon
 
     // --- -- - TODO: Settings UI | Additional MARK:[2.0]
     "settings.headerForeground":             "#ffffff",    // Settings headers
@@ -445,13 +445,13 @@
     // --- -- - Peek View - f12
     "peekView.border":                         "#b080ff",    // Peek view border
     "peekViewEditor.background":               "#1f1926",    // Peek editor bg
-    "peekViewEditor.matchHighlightBackground": "#b080ff40", // Match highlight
+    "peekViewEditor.matchHighlightBackground": "#b080ff40",  // Match highlight
     "peekViewEditor.matchHighlightBorder":     "#b080ff",    // Match border
     "peekViewEditorGutter.background":         "#1f1926",    // Peek gutter
     "peekViewResult.background":               "#19161d",    // Peek result bg
     "peekViewResult.fileForeground":           "#ffffff",    // File text
     "peekViewResult.lineForeground":           "#aca5b0",    // Line text
-    "peekViewResult.matchHighlightBackground": "#b080ff40", // Result highlight
+    "peekViewResult.matchHighlightBackground": "#b080ff40",  // Result highlight
     "peekViewResult.selectionBackground":      "#5a4a6a",    // Selection bg
     "peekViewResult.selectionForeground":      "#ffffff",    // Selection text
     "peekViewTitle.background":                "#0f0c12",    // Title bg

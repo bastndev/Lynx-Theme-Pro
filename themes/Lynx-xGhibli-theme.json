@@ -155,7 +155,7 @@
   "editorSuggestWidget.border":            "#ede0cd",    // - Suggestion widget border
   "editorSuggestWidget.highlightForeground":"#b19b7d",   // - Highlighted suggestion text
   "editorSuggestWidget.selectedBackground":"#c4b59863",  // - Selected suggestion bg
-  "editorSuggestWidget.selectedForeground": "#4a3f35",    // - Selected suggestion text
+  "editorSuggestWidget.selectedForeground": "#4a3f35",   // - Selected suggestion text
   "editorSuggestWidget.focusHighlightForeground": "#8b7865", // - Focus highlight
 
   // --- -- - Editor Widgets - MID + AI
@@ -445,13 +445,13 @@
   // --- -- - Peek View - f12
   "peekView.border":                         "#b19b7d",    // - Peek view border
   "peekViewEditor.background":               "#f5ead8",    // - Peek editor bg
-  "peekViewEditor.matchHighlightBackground": "#b19b7d40", // - Match highlight
+  "peekViewEditor.matchHighlightBackground": "#b19b7d40",  // - Match highlight
   "peekViewEditor.matchHighlightBorder":     "#b19b7d",    // - Match border
   "peekViewEditorGutter.background":         "#f5ead8",    // - Peek gutter
   "peekViewResult.background":               "#ede0cd",    // - Peek result bg
   "peekViewResult.fileForeground":           "#6b5d4f",    // - File text
   "peekViewResult.lineForeground":           "#8a7b6d",    // - Line text
-  "peekViewResult.matchHighlightBackground": "#b19b7d40", // - Result highlight
+  "peekViewResult.matchHighlightBackground": "#b19b7d40",  // - Result highlight
   "peekViewResult.selectionBackground":      "#dcc5a9",    // - Selection bg
   "peekViewResult.selectionForeground":      "#6b5d4f",    // - Selection text
   "peekViewTitle.background":                "#f5ead8",    // - Title bg
