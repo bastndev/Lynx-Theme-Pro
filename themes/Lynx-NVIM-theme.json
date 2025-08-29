@@ -57,7 +57,7 @@
 
     // --- -- - Side Bar
     "sideBar.background":                    "#181b1f",    // - Ai and Side bar bg
-    "sideBar.foreground":                    "#BFC7D3",    // - Text vscode all
+    "sideBar.foreground":                    "#C5CEDA",    // - Text vscode all
     "sideBarSectionHeader.background":       "#1a1e22",    // - right bot bg
     "sideBarTitle.foreground":               "#F8FAFC",    // - Explorer
     "sideBarSectionHeader.foreground":       "#0EA5E9",    // - Css text and BOT txt
