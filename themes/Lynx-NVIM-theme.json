@@ -7,22 +7,22 @@
 
   "colors": {
    // TODO: THEME - MARK:[BACKGROUNDS]
-    "editor.background":                     "#181b1f",    // - Main editor bg (slightly warmer)
+    "editor.background":                     "#181b1f",    // - Main editor bg
     "sideBar.background":                    "#181b1f",    // - Sidebar bg
     "panel.background":                      "#181b1f",    // - Panel bg
     "terminal.background":                   "#181b1f",    // - Terminal bg
-    "activityBar.background":                "#161a1d",    // - Activity bar bg (darker)
+    "activityBar.background":                "#161a1d",    // - Activity bar bg
     
     // Secondary backgrounds
     "titleBar.activeBackground":             "#161a1d",    // - Title bar bg
     "titleBar.inactiveBackground":           "#1a1e22",    // - Title bar bg inactive
-    "statusBar.background":                  "#141719",    // - Status bar bg (darker)
+    "statusBar.background":                  "#141719",    // - Status bar bg
     "editorGroupHeader.tabsBackground":      "#181b1f",    // - Tabs header bg
     "tab.activeBackground":                  "#1a1e22",    // - Active tab bg
     "tab.inactiveBackground":                "#161a1d",    // - Inactive tab bg
     
     // Accent colors - refined for better contrast
-    "focusBorder":                           "#0EA5E9",    // - Primary accent (sky blue)
+    "focusBorder":                           "#0EA5E9",    // - Primary accent
     "selection.background":                  "#0EA5E940",  // - Selection bg
     "editor.selectionBackground":            "#0EA5E930",  // - Editor selection
     
