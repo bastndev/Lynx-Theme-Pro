@@ -91,7 +91,7 @@
     "editorGhostText.foreground":                    "#8a7562",    // - git commit txt
     "editorGutter.deletedBackground":                "#d47373",    // - Delete code
     "editorGutter.modifiedBackground":               "#c9935ab7",  // - Modified code
-    
+ 
     // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#241615",    // - Editor bg
     "editor.foreground":                     "#ffd0bb",    // - Editor [STORE] text
@@ -134,6 +134,17 @@
     "scrollbarSlider.activeBackground":      "#8a756248",  // - Active bg
     "scrollbar.shadow":                      "#4d412ff1",  // - SHADOW SCROLL
 
+    // --- -- - Minimap
+    "minimap.background":                          "#231514",    // Minimap bg
+    "minimap.errorHighlight":                      "#d47373",    // Error highlight
+    "minimap.warningHighlight":                    "#c9935a",    // Warning highlight
+    "minimap.findMatchHighlight":                  "#a85a4c50",  // - Mini map Find match
+    "minimap.selectionHighlight":                  "#c9935a50",  // Selection
+
+    "minimapSlider.background":                    "#8a756230",  // Slider bg
+    "minimapSlider.hoverBackground":               "#8a756240",  // Slider hover
+    "minimapSlider.activeBackground":              "#8a756250",  // Slider active
+
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground":     "#ffffff",    // - Active line number
     "editorLineNumber.foreground":           "#ffd0bbd5",    // - Line numbers
@@ -174,7 +185,7 @@
     "icon.foreground":                       "#ffd0bb",    // - Icon color
     "chat.avatarForeground":                 "#ffffff",    // - Chat avatar text color
     "foreground":                            "#ffffff",    // - General text color
-    
+
     "chat.requestBorder":                    "#b05a5088",  // - Chat request border
     "editorWidget.foreground":               "#ffffff",    // - AI Select text & ctrl+p
 
@@ -186,17 +197,17 @@
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
     "progressBar.background":                "#97c93d",    // - Progress bar bg
-    
+
     //--- -- - ctrl+shift+p | Inputs & Quick
     "editorWidget.background":               "#170F10",    // - bg
     "quickInputList.focusBackground":        "#a85a4c60",  // - Focus bg
     "list.highlightForeground":              "#c9935a",    // - Highlight text color
-    
+
     "quickInput.background":                 "#170F10",    // - Quick input bg
     "quickInput.foreground":                 "#f5e6d3",    // - Quick input text
     "quickInputList.focusIconForeground":    "#ffffff",    // - Focus icon
     "quickInputList.focusForeground":        "#ffffff",    // - Focus text
-    
+
     "keybindingLabel.foreground":            "#ffffff",    // - Keybinding label text
     "keybindingLabel.background":            "#a67c52",    // - Keybinding label bg
     "keybindingLabel.border":                "#1d151600",  // - Keybinding label border
@@ -299,19 +310,8 @@
     "editor.findMatchHighlightBorder":             "#7ba0d9",    // - Find match highlight border
     "editor.findRangeHighlightBackground":         "#6b87c430",  // - Find range highlight bg ---|
 
-    // --- -- - Minimap
     "editorOverviewRuler.findMatchForeground":     "#a85a4cfa",    // - Mini map overview ruler ---|
     "editorOverviewRuler.rangeHighlightForeground":"#c9935afa",    // - Mini map overview ruler ---|
-
-    "minimap.background":                          "#231514",    // Minimap bg
-    "minimap.errorHighlight":                      "#d47373",    // Error highlight
-    "minimap.warningHighlight":                    "#c9935a",    // Warning highlight
-    "minimap.findMatchHighlight":                  "#a85a4c50",  // - Mini map Find match
-    "minimap.selectionHighlight":                  "#c9935a50",  // Selection
-
-    "minimapSlider.background":                    "#8a756230",  // Slider bg
-    "minimapSlider.hoverBackground":               "#8a756240",  // Slider hover
-    "minimapSlider.activeBackground":              "#8a756250",  // Slider active
 
     // --- -- - BG message error
     "inputValidation.errorBackground":       "#d4737320",  // - Error message bg
@@ -367,7 +367,7 @@
     "merge.border":                          "#a85a4c",    // - Merge border
     "merge.commonContentBackground":         "#c9935a15",  // - Common content bg
     "merge.commonHeaderBackground":          "#c9935a30",  // - Common header bg
-    
+
     // --- -- - Symbol Icons
     "symbolIcon.arrayForeground":            "#c9935a",    // - Array icon
     "symbolIcon.booleanForeground":          "#d47373",    // - Boolean icon
@@ -434,14 +434,14 @@
     "charts.green":                          "#22c55e",    // Chart GREEN
     "charts.orange":                         "#fc8277",    // Chart orange
     "charts.purple":                         "#7859bc",    // Chart purple
-
+    
     // --- -- - Editor Groups
     "editorGroup.border":                    "#4d412f20",  // Group border
     "editorGroup.dropBackground":            "#a85a4c20",  // Drop background
     "editorGroup.emptyBackground":           "#231514",    // Empty group
     "editorGroup.focusedEmptyBorder":        "#a85a4c",    // Focused empty border
     "editorGroupHeader.noTabsBackground":    "#170F10",    // No tabs bg
-
+    
     // --- -- - Peek View - f12
     "peekView.border":                         "#a85a4c",    // Peek view border
     "peekViewEditor.background":               "#170F10",    // Peek editor bg
@@ -456,7 +456,7 @@
     "peekViewResult.selectionForeground":      "#ffffff",    // Selection text
     "peekViewTitle.background":                "#231514",    // Title bg
     "peekViewTitleLabel.foreground":           "#ffffff",    // Title text
-
+    
     // --- -- - Debug
     "debugIcon.pauseForeground":             "#c9935a",    // Pause debug--
     "debugIcon.stopForeground":              "#d47373",    // Stop debug --
