@@ -310,7 +310,6 @@
     "editor.findMatchHighlightBorder":             "#e5a37f",   // - Find match highlight border
     "editor.findRangeHighlightBackground":         "#d48a6a40", // - Find range highlight bg ---|
 
-    // --- -- - Minimap
     "editorOverviewRuler.findMatchForeground":     "#7de89580", // - Mini map overview ruler ---|
     "editorOverviewRuler.rangeHighlightForeground":"#85f5a280", // - Mini map overview ruler ---|
 
