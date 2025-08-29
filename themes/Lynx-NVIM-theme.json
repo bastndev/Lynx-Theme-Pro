@@ -4,30 +4,12 @@
   "semanticHighlighting": true,
   "name": "Lynx Nvim Theme",
   "type": "dark",
-
+  
   "colors": {
-   // TODO: THEME - MARK:[BACKGROUNDS]
-    "editor.background":                     "#181b1f",    // - Main editor bg
-    "sideBar.background":                    "#181b1f",    // - Sidebar bg
-    "panel.background":                      "#181b1f",    // - Panel bg
-    "terminal.background":                   "#181b1f",    // - Terminal bg
-    "activityBar.background":                "#161a1d",    // - Activity bar bg
-    
-    // Secondary backgrounds
+ // TODO: MENU STATUS BAR MARK: - [TOP]
     "titleBar.activeBackground":             "#161a1d",    // - Title bar bg
-    "titleBar.inactiveBackground":           "#1a1e22",    // - Title bar bg inactive
-    "statusBar.background":                  "#141719",    // - Status bar bg
-    "editorGroupHeader.tabsBackground":      "#181b1f",    // - Tabs header bg
-    "tab.activeBackground":                  "#1a1e22",    // - Active tab bg
-    "tab.inactiveBackground":                "#161a1d",    // - Inactive tab bg
-    
-    // Accent colors - refined for better contrast
-    "focusBorder":                           "#0EA5E9",    // - Primary accent
-    "selection.background":                  "#0EA5E940",  // - Selection bg
-    "editor.selectionBackground":            "#0EA5E930",  // - Editor selection
-    
-    // TODO: MENU STATUS BAR MARK: - [TOP]
     "titleBar.activeForeground":             "#E2E8F0",    // - Title bar text
+    "titleBar.inactiveBackground":           "#1a1e22",    // - Title bar bg inactive
     "titleBar.inactiveForeground":           "#94A3B8",    // - Title bar text inactive
     "commandCenter.background":              "#1a1e22",    // - Command Center bg
 
@@ -48,6 +30,7 @@
     "list.dropBackground":                   "#181b1f",    // - Drop bg    
 
     // TODO: ACTIVITY BAR MARK: [ONE-1]
+    "activityBar.background":                "#161a1d",    // - Activity bar bg
     "activityBar.foreground":                "#E2E8F0",    // - Activity bar text
     "activityBar.border":                    "#161a1d",    // - Activity bar border
     "activityBarTop.inactiveForeground":     "#64748B",    // - No selection icon
@@ -73,6 +56,7 @@
     "contrastActiveBorder":                  "#00000000",  // - contrast active border BOX
 
     // --- -- - Side Bar
+    "sideBar.background":                    "#181b1f",    // - Sidebar bg
     "sideBar.foreground":                    "#CBD5E1",    // - Text vscode all
     "sideBarSectionHeader.background":       "#1a1e22",    // - right bot bg
     "sideBarTitle.foreground":               "#F8FAFC",    // - Explorer
@@ -110,21 +94,26 @@
     "editorGutter.addedBackground":                  "#10B981",    // - Added code
  
     // TODO: CODE EDITOR MARK: [TWO-2]
+    "editor.background":                     "#181b1f",    // - Main editor bg
     "editor.foreground":                     "#F1F5F9",    // - Editor text (softer white)
     "editor.lineHighlightBackground":        "#FFFFFF08",  // - Line highlight bg (subtle)
     "editor.lineHighlightBorder":            "#FFFFFF10",  // - Line highlight border
+    "editor.selectionBackground":            "#0EA5E930",  // - Editor selection
     "editor.rangeHighlightBackground":       "#0EA5E915",  // - Range highlight bg
     "editor.wordHighlightBackground":        "#F59E0B25",  // - Word highlight bg
     "editor.wordHighlightStrongBackground":  "#0EA5E925",  // - Word highlight strong bg
     "editor.selectionHighlightBackground":   "#F59E0B20",  // - Selection highlight bg
 
     // --- -- - Tabs Header - TOP
+    "editorGroupHeader.tabsBackground":      "#181b1f",    // - Tabs header bg
     "editorGroupHeader.tabsBorder":          "#334155",    // - Tabs header border line horizontal
     "editorGroupHeader.border":              "#1a1e22",    // - Editor group header border
     "tab.border":                            "#334155",    // - Tab border Vertical
+    "tab.activeBackground":                  "#1a1e22",    // - Active tab bg
     "tab.activeBorderTop":                   "#0EA5E9",    // - Active tab border top
     "tab.activeForeground":                  "#F8FAFC",    // - Active tab text
     "tab.activeBorder":                      "#1a1e22",    // - Active tab border
+    "tab.inactiveBackground":                "#161a1d",    // - Inactive tab bg
     "tab.inactiveForeground":                "#94A3B8",    // - Inactive tab text
     "tab.hoverBackground":                   "#334155",    // - hover
     "tab.hoverForeground":                   "#E2E8F0",    // - Tab hover text
@@ -191,6 +180,7 @@
     "input.foreground":                      "#F1F5F9",    // - Input text color
     "input.border":                          "#475569",    // - Input border color
     "input.placeholderForeground":           "#94A3B8",    // - Input placeholder text
+    "focusBorder":                           "#0EA5E9",    // - Primary accent
     "editorCursor.foreground":               "#0EA5E9",    // - Cursor color (more visible)
 
     "disabledForeground":                    "#64748B",    // - Disabled text color
@@ -222,6 +212,7 @@
     "keybindingLabel.bottomBorder":          "#0EA5E9",    // - Keybinding label bottom border
 
     // --- -- - Panel Terminal & Text BOTTOM
+    "panel.background":                      "#181b1f",    // - Panel bg
     "panel.border":                          "#64748B50",  // - Panel border
     "panelTitle.activeBorder":               "#0EA5E9",    // - Active panel title border
     "panelTitle.activeForeground":           "#F8FAFC",    // - Active panel title text
@@ -232,6 +223,7 @@
     "panelSectionHeader.foreground":         "#0EA5E9",    // - Panel section header text
 
     // --- -- - Terminal colors (improved for readability)
+    "terminal.background":                   "#181b1f",    // - Terminal bg
     "terminal.foreground":                   "#E2E8F0",    // - Terminal text
     "terminal.ansiBlack":                    "#1E293B",    // - Terminal black color
     "terminal.ansiBlue":                     "#0EA5E9",    // - Terminal blue color
@@ -275,6 +267,7 @@
     "debugToolBar.border":                   "#475569",    // - Border debug optional
 
     // TODO: STATUS BAR MARK: - [BOTTOM]
+    "statusBar.background":                  "#141719",    // - Status bar bg
     "statusBar.foreground":                  "#94A3B8",    // - Status bar text color
     "statusBar.debuggingBackground":         "#1E293B",    // - Status bar debugging bg
     "statusBar.debuggingForeground":         "#F8FAFC",    // - Status bar debugging text
@@ -299,12 +292,15 @@
     "textBlockQuote.border":                 "#475569",    // - Block quote border LEFT
     "textCodeBlock.background":              "#1a1e22",    // - Code block bg 
 
-    // ---- -- - LINES (cleaner borders)
+    // ---- -- - LINES 
     "titleBar.border":                       "#00000000",  // - Title bar LINE TOP -T-
     "sideBarSectionHeader.border":           "#00000000",  // - Line top bottom right or left =T=
     "sideBar.border":                        "#47556950",  // - LINE RIGHT & LEFT |-|
     "editorOverviewRuler.border":            "#47556950",  // - Overview ruler border LINE  ||-
     "statusBar.border":                      "#00000000",  // - Status bar LINE border (Bottom)
+
+    // ---- -- - Selection BG - ctrl+F
+    "selection.background":                  "#0EA5E940",  // - Selection bg
 
     // ===== SEARCH & FIND (ORGANIZED TOGETHER) =====
     "editor.findMatchBackground":            "#0EA5E950",  // - Find match bg
