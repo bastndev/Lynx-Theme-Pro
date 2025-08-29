@@ -53,7 +53,7 @@
     "list.focusBackground":                  "#475569",    // - Focus bg
     "list.focusForeground":                  "#F1F5F9",    // - Focus text
     "list.focusOutline":                     "#0EA5E9",    // - Focus outline
-    "contrastActiveBorder":                  "#00000000",  // - contrast active border BOX
+    "contrastActiveBorder":                  "#00000000",  // - contrast active border BOX-----
 
     // --- -- - Side Bar
     "sideBar.background":                    "#181b1f",    // - Sidebar bg

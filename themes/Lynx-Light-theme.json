@@ -90,7 +90,7 @@
     "gitDecoration.addedResourceForeground":         "#f0ae34",    // - Added files
     "editorGhostText.foreground":                    "#717171",    // - git commit txt
     "editorGutter.deletedBackground":                "#ff0000",    // - Delete code
-    "editorGutter.modifiedBackground":               "#07daffb7",  // - Warning color
+    "editorGutter.modifiedBackground":               "#07daffb7",  // - Modified code
  
     // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#f4f4f4",    // - Editor bg
