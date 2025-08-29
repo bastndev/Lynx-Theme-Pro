@@ -181,6 +181,7 @@
 
     "disabledForeground":                    "#64748B",    // - Disabled text color
     "chat.avatarBackground":                 "#334155",    // - Chat avatar bg
+
     "icon.foreground":                       "#E2E8F0",    // - Icon color
     "chat.avatarForeground":                 "#F8FAFC",    // - Chat avatar text color
     "foreground":                            "#F1F5F9",    // - General text color
