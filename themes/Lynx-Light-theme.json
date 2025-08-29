@@ -134,6 +134,17 @@
     "scrollbarSlider.activeBackground":      "#47967180",  // - Active bg
     "scrollbar.shadow":                      "#00000028",  // - SHADOW SCROLL
 
+    // --- -- - Minimap 
+    "minimap.background":                    "#eaeaea",    // - Minimap bg
+    "minimap.errorHighlight":                "#d64545",    // - Error highlight
+    "minimap.warningHighlight":              "#c5952e",    // - Warning highlight
+    "minimap.findMatchHighlight":            "#4b8360cc",  // - Mini map Find match
+    "minimap.selectionHighlight":            "#55c55560",  // - Selection
+    
+    "minimapSlider.background":              "#47967140",  // - Slider bg
+    "minimapSlider.hoverBackground":         "#47967150",  // - Slider hover
+    "minimapSlider.activeBackground":        "#47967160",  // - Slider active
+
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground":     "#2d2d2d",    // - Active line number
     "editorLineNumber.foreground":           "#8a9a8a",    // - Line numbers
@@ -299,19 +310,8 @@
     "editor.findMatchHighlightBorder":            "#629742",   // - Find match highlight border
     "editor.findRangeHighlightBackground":        "#4d7a2640", // - Find range highlight bg ---|
 
-    // --- -- - Minimap
     "editorOverviewRuler.findMatchForeground":    "#55c55580", // - Mini map overview ruler ---|
     "editorOverviewRuler.rangeHighlightForeground":"#65d56580", // - Mini map overview ruler ---|
-
-    "minimap.background":                         "#eaeaea",   // Minimap bg
-    "minimap.errorHighlight":                     "#d64545",   // Error highlight
-    "minimap.warningHighlight":                   "#c5952e",   // Warning highlight
-    "minimap.findMatchHighlight":                 "#4b8360cc", // - Mini map Find match
-    "minimap.selectionHighlight":                 "#55c55560", // Selection
-
-    "minimapSlider.background":                   "#47967140", // Slider bg
-    "minimapSlider.hoverBackground":              "#47967150", // Slider hover
-    "minimapSlider.activeBackground":             "#47967160", // Slider active
 
     // --- -- - BG message error
     "inputValidation.errorBackground":      "#d6454525",  // - Error message bg

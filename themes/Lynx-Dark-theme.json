@@ -135,15 +135,15 @@
     "scrollbar.shadow":                      "#dff5e911",  // - SHADOW SCROLL
 
     // --- -- - Minimap
-    "minimap.background":                          "#0d0d0d",    // Minimap bg
-    "minimap.errorHighlight":                      "#ff6b73",    // Error highlight
-    "minimap.warningHighlight":                    "#f5d76e",    // Warning highlight
+    "minimap.background":                          "#0d0d0d",    // - Minimap bg
+    "minimap.errorHighlight":                      "#ff6b73",    // - Error highlight
+    "minimap.warningHighlight":                    "#f5d76e",    // - Warning highlight
     "minimap.findMatchHighlight":                  "#5bb380cc",  // - Mini map Find match
-    "minimap.selectionHighlight":                  "#7de89560",  // Selection
+    "minimap.selectionHighlight":                  "#7de89560",  // - Selection
 
-    "minimapSlider.background":                    "#57b68940",  // Slider bg
-    "minimapSlider.hoverBackground":               "#57b68950",  // Slider hover
-    "minimapSlider.activeBackground":              "#57b68960",  // Slider active
+    "minimapSlider.background":                    "#57b68940",  // - Slider bg
+    "minimapSlider.hoverBackground":               "#57b68950",  // - Slider hover
+    "minimapSlider.activeBackground":              "#57b68960",  // - Slider active
 
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground":     "#ffffff",    // - Active line number
