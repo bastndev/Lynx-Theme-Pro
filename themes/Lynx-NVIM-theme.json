@@ -1260,7 +1260,7 @@
       }
     },
 
-    // ===== ADICIONALES MODERNOS =====
+    // ===== ADDITIONAL MODERN =====
     {
       "name": "Lambda Arrow",
       "scope": ["storage.type.function.lambda"],
