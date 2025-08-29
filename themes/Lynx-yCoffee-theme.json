@@ -128,7 +128,7 @@
     "breadcrumb.activeSelectionForeground":  "#c9935a",    // - Breadcrumb active selection text
     "editorStickyScrollHover.background":    "#170F10",    // - Select hover before white now black
 
-    // --- -- - Scrollbar - RIGHT
+    // --- -- - Scrollbar - RIGHT & (MINIMAP)
     "scrollbarSlider.background":            "#8a756227",  // - Scroll bar small and large
     "scrollbarSlider.hoverBackground":       "#8a75623d",  // - Hover bg
     "scrollbarSlider.activeBackground":      "#8a756248",  // - Active bg
