@@ -464,8 +464,8 @@
     "debugIcon.stopForeground":              "#EF4444",    // Stop debug
     "debugIcon.restartForeground":           "#0EA5E9"     // Restart debug
   },  
-"semanticTokenColors": {
-    // ===== SEMANTIC TOKEN COLORS (ENHANCED) =====
+
+  "semanticTokenColors": {
     "namespace": "#F59E0B",
     "class": "#0EA5E9",
     "enum": "#8B5CF6",
