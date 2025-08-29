@@ -187,7 +187,7 @@
     // --- -- - progress bar
     "progressBar.background":                "#c4b598",    // - Progress bar bg
     
-    //ctrl+shift+p | Inputs & Quick Input
+    //--- -- - ctrl+shift+p | Inputs & Quick
     "editorWidget.background":               "#e8d5c4",    // - bg
     "quickInputList.focusBackground":        "#b19b7de3",  // - Focus bg
     "list.highlightForeground":              "#9db1c6",    // - Highlight text color

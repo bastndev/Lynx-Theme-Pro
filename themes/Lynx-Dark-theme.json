@@ -134,6 +134,17 @@
     "scrollbarSlider.activeBackground":      "#57b68980",  // - Active bg
     "scrollbar.shadow":                      "#dff5e911",  // - SHADOW SCROLL
 
+    // --- -- - Minimap
+    "minimap.background":                          "#0d0d0d",    // Minimap bg
+    "minimap.errorHighlight":                      "#ff6b73",    // Error highlight
+    "minimap.warningHighlight":                    "#f5d76e",    // Warning highlight
+    "minimap.findMatchHighlight":                  "#5bb380cc",  // - Mini map Find match
+    "minimap.selectionHighlight":                  "#7de89560",  // Selection
+
+    "minimapSlider.background":                    "#57b68940",  // Slider bg
+    "minimapSlider.hoverBackground":               "#57b68950",  // Slider hover
+    "minimapSlider.activeBackground":              "#57b68960",  // Slider active
+
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground":     "#ffffff",    // - Active line number
     "editorLineNumber.foreground":           "#7a8a7a",    // - Line numbers
@@ -150,6 +161,7 @@
     // --- -- - Editor Widgets - MID + AI
     "editorWidget.resizeBorder":             "#57b689",    // - Widget resize border
     "editorWidget.border":                   "#2f4f33",    // - Widget border +AI
+    
     "widget.border":                         "#2f4f33",    // - General widget border
     "widget.shadow":                         "#00000060",  // - Widget shadow
 
@@ -187,7 +199,7 @@
     // --- -- - progress bar
     "progressBar.background":                "#13ff3e",    // - Progress bar bg
     
-    //ctrl+shift+p | Inputs & Quick Input
+    //--- -- - ctrl+shift+p | Inputs & Quick
     "editorWidget.background":               "#101610",    // - bg
     "quickInputList.focusBackground":        "#57b68970",  // - Focus bg
     "list.highlightForeground":              "#6dd46a",    // - Highlight text color
@@ -303,15 +315,7 @@
     "editorOverviewRuler.findMatchForeground":     "#7de89580", // - Mini map overview ruler ---|
     "editorOverviewRuler.rangeHighlightForeground":"#85f5a280", // - Mini map overview ruler ---|
 
-    "minimap.background":                          "#0d0d0d",    // Minimap bg
-    "minimap.errorHighlight":                      "#ff6b73",    // Error highlight
-    "minimap.warningHighlight":                    "#f5d76e",    // Warning highlight
-    "minimap.findMatchHighlight":                  "#5bb380cc",  // - Mini map Find match
-    "minimap.selectionHighlight":                  "#7de89560",  // Selection
 
-    "minimapSlider.background":                    "#57b68940",  // Slider bg
-    "minimapSlider.hoverBackground":               "#57b68950",  // Slider hover
-    "minimapSlider.activeBackground":              "#57b68960",  // Slider active
 
     // --- -- - BG message error
     "inputValidation.errorBackground":       "#ff6b7325",  // - Error message bg

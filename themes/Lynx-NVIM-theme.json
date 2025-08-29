@@ -134,7 +134,7 @@
     "scrollbarSlider.activeBackground":      "#0EA5E970",  // - Scroll active bg
     "scrollbar.shadow":                      "#00000050",  // - Scroll shadow
 
-    // --- -- - Minimap (grouped with scrollbar)
+    // --- -- - Minimap 
     "minimap.background":                    "#181b1f",    // - Minimap bg
     "minimap.errorHighlight":                "#EF4444",    // - Error highlight
     "minimap.warningHighlight":              "#F59E0B",    // - Warning highlight
@@ -161,8 +161,6 @@
     // --- -- - Editor Widgets - MID + AI
     "editorWidget.resizeBorder":             "#0EA5E9",    // - Widget resize border
     "editorWidget.border":                   "#475569",    // - Widget border +AI
-    "editorWidget.background":               "#1a1e22",    // - Widget bg
-    "editorWidget.foreground":               "#E2E8F0",    // - Widget text
     "widget.border":                         "#475569",    // - General widget border
     "widget.shadow":                         "#00000040",  // - Widget shadow
 
@@ -186,7 +184,9 @@
     "icon.foreground":                       "#E2E8F0",    // - Icon color
     "chat.avatarForeground":                 "#F8FAFC",    // - Chat avatar text color
     "foreground":                            "#F1F5F9",    // - General text color
+
     "chat.requestBorder":                    "#475569",    // - Chat request border
+    "editorWidget.foreground":               "#E2E8F0",    // - Widget text
 
     "peekViewTitleDescription.foreground":   "#0EA5E9",    // - Select copilot
     "editorGutter.addedBackground":          "#10B981",    // - Added code
@@ -197,7 +197,8 @@
     // --- -- - progress bar
     "progressBar.background":                "#0EA5E9",    // - Progress bar bg
     
-    //ctrl+shift+p | Inputs & Quick Input
+    //--- -- - ctrl+shift+p | Inputs & Quick
+    "editorWidget.background":               "#1a1e22",    // - Widget bg
     "quickInputList.focusBackground":        "#0EA5E940",  // - Focus bg
     "list.highlightForeground":              "#0EA5E9",    // - Highlight text color
     "quickInput.background":                 "#1a1e22",    // - Quick input bg
