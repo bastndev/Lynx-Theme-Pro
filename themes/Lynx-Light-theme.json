@@ -458,7 +458,7 @@
     "peekViewTitleLabel.foreground":           "#2d2d2d",    // Title text
     
     // --- -- - Debug
-    "debugIcon.pauseForeground":             "#c5952e",    // Pause debug--
+    "debugIcon.pauseForeground":             "#c5952e",    // Pause debug --
     "debugIcon.stopForeground":              "#d64545",    // Stop debug --
     "debugIcon.restartForeground":           "#2d99ff",    // Restart --
   },

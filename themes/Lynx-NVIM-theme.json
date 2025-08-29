@@ -458,9 +458,9 @@
     "peekViewTitleLabel.foreground":         "#F8FAFC",    // Title text
     
     // --- -- - Debug
-    "debugIcon.pauseForeground":             "#F59E0B",    // Pause debug
-    "debugIcon.stopForeground":              "#EF4444",    // Stop debug
-    "debugIcon.restartForeground":           "#0EA5E9"     // Restart debug
+    "debugIcon.pauseForeground":             "#F59E0B",    // Pause debug --
+    "debugIcon.stopForeground":              "#EF4444",    // Stop debug --
+    "debugIcon.restartForeground":           "#0EA5E9"     // - Restart --
   },  
   
   "semanticTokenColors": {

@@ -404,63 +404,63 @@
     "symbolIcon.variableForeground":         "#85b3ff",     // - Variable icon
 
     // --- -- - TODO: Settings UI | Additional MARK:[2.0]
-    "settings.headerForeground":             "#ffffff",    // Settings headers
-    "settings.modifiedItemIndicator":        "#57b689",    // Modified setting
-    "settings.dropdownBackground":           "#101610",    // Dropdown bg
-    "settings.dropdownForeground":           "#ffffff",    // Dropdown text
-    "settings.dropdownBorder":               "#2a4a2a",    // Dropdown border
-    "settings.dropdownListBorder":           "#57b689",    // Dropdown list border
-    "settings.checkboxBackground":           "#101610",    // Checkbox bg
-    "settings.checkboxForeground":           "#57b689",    // Checkbox check
-    "settings.checkboxBorder":               "#2a4a2a",    // Checkbox border
-    "settings.textInputBackground":          "#101610",    // Text input bg
-    "settings.textInputForeground":          "#ffffff",    // Text input text
-    "settings.textInputBorder":              "#2a4a2a",    // Text input border
-    "settings.numberInputBackground":        "#101610",    // Number input bg
-    "settings.numberInputForeground":        "#ffffff",    // Number input text
-    "settings.numberInputBorder":            "#2a4a2a",    // Number input border
+    "settings.headerForeground":             "#ffffff",    // - Settings headers
+    "settings.modifiedItemIndicator":        "#57b689",    // - Modified setting
+    "settings.dropdownBackground":           "#101610",    // - Dropdown bg
+    "settings.dropdownForeground":           "#ffffff",    // - Dropdown text
+    "settings.dropdownBorder":               "#2a4a2a",    // - Dropdown border
+    "settings.dropdownListBorder":           "#57b689",    // - Dropdown list border
+    "settings.checkboxBackground":           "#101610",    // - Checkbox bg
+    "settings.checkboxForeground":           "#57b689",    // - Checkbox check
+    "settings.checkboxBorder":               "#2a4a2a",    // - Checkbox border
+    "settings.textInputBackground":          "#101610",    // - Text input bg
+    "settings.textInputForeground":          "#ffffff",    // - Text input text
+    "settings.textInputBorder":              "#2a4a2a",    // - Text input border
+    "settings.numberInputBackground":        "#101610",    // - Number input bg
+    "settings.numberInputForeground":        "#ffffff",    // - Number input text
+    "settings.numberInputBorder":            "#2a4a2a",    // - Number input border
 
     // --- -- - Problems Panel
-    "problemsErrorIcon.foreground":          "#ff6b73",    // Error icon
-    "problemsWarningIcon.foreground":        "#f5d76e",    // Warning icon
-    "problemsInfoIcon.foreground":           "#4dc9ff",    // Info icon
+    "problemsErrorIcon.foreground":          "#ff6b73",    // - Error icon
+    "problemsWarningIcon.foreground":        "#f5d76e",    // - Warning icon
+    "problemsInfoIcon.foreground":           "#4dc9ff",    // - Info icon
 
     // --- -- - Charts (for extensions) Git-> Github | EXTENSIONS
-    "charts.foreground":                     "#e8f5e8",    // Chart text
-    "charts.lines":                          "#2a4a2a",    // Chart lines
-    "charts.red":                            "#f5262f",    // Chart RED
-    "charts.blue":                           "#57b689",    // Chart --- -- -
-    "charts.yellow":                         "#facc15",    // Chart YELLOW
-    "charts.green":                          "#22c55e",    // Chart GREEN
-    "charts.orange":                         "#ff9971",    // Chart orange
-    "charts.purple":                         "#c4a5ff",    // Chart purple
+    "charts.foreground":                     "#e8f5e8",    // - Chart text
+    "charts.lines":                          "#2a4a2a",    // - Chart lines
+    "charts.red":                            "#f5262f",    // - Chart RED
+    "charts.blue":                           "#57b689",    // - Chart --- -- -
+    "charts.yellow":                         "#facc15",    // - Chart YELLOW
+    "charts.green":                          "#22c55e",    // - Chart GREEN
+    "charts.orange":                         "#ff9971",    // - Chart orange
+    "charts.purple":                         "#c4a5ff",    // - Chart purple
     
     // --- -- - Editor Groups
-    "editorGroup.border":                    "#2a4a2a",    // Group border
-    "editorGroup.dropBackground":            "#57b68920",  // Drop background
-    "editorGroup.emptyBackground":           "#080808",    // Empty group
-    "editorGroup.focusedEmptyBorder":        "#57b689",    // Focused empty border
-    "editorGroupHeader.noTabsBackground":    "#0d0d0d",    // No tabs bg
+    "editorGroup.border":                    "#2a4a2a",    // - Group border
+    "editorGroup.dropBackground":            "#57b68920",  // - Drop background
+    "editorGroup.emptyBackground":           "#080808",    // - Empty group
+    "editorGroup.focusedEmptyBorder":        "#57b689",    // - Focused empty border
+    "editorGroupHeader.noTabsBackground":    "#0d0d0d",    // - No tabs bg
     
     // --- -- - Peek View - f12
-    "peekView.border":                         "#57b689",    // Peek view border
-    "peekViewEditor.background":               "#101610",    // Peek editor bg
-    "peekViewEditor.matchHighlightBackground": "#57b68940", // Match highlight
-    "peekViewEditor.matchHighlightBorder":     "#57b689",    // Match border
-    "peekViewEditorGutter.background":         "#101610",    // Peek gutter
-    "peekViewResult.background":               "#0d0d0d",    // Peek result bg
-    "peekViewResult.fileForeground":           "#ffffff",    // File text
-    "peekViewResult.lineForeground":           "#9ca9a0",    // Line text
-    "peekViewResult.matchHighlightBackground": "#57b68940", // Result highlight
-    "peekViewResult.selectionBackground":      "#2a4a2a",    // Selection bg
-    "peekViewResult.selectionForeground":      "#ffffff",    // Selection text
-    "peekViewTitle.background":                "#080808",    // Title bg
-    "peekViewTitleLabel.foreground":           "#ffffff",    // Title text
+    "peekView.border":                         "#57b689",  // - Peek view border
+    "peekViewEditor.background":               "#101610",  // - Peek editor bg
+    "peekViewEditor.matchHighlightBackground": "#57b68940",// - Match highlight
+    "peekViewEditor.matchHighlightBorder":     "#57b689",  // - Match border
+    "peekViewEditorGutter.background":         "#101610",  // - Peek gutter
+    "peekViewResult.background":               "#0d0d0d",  // - Peek result bg
+    "peekViewResult.fileForeground":           "#ffffff",  // - File text
+    "peekViewResult.lineForeground":           "#9ca9a0",  // - Line text
+    "peekViewResult.matchHighlightBackground": "#57b68940",// - Result highlight
+    "peekViewResult.selectionBackground":      "#2a4a2a",  // - Selection bg
+    "peekViewResult.selectionForeground":      "#ffffff",  // - Selection text
+    "peekViewTitle.background":                "#080808",  // - Title bg
+    "peekViewTitleLabel.foreground":           "#ffffff",  // - Title text
     
     // --- -- - Debug
-    "debugIcon.pauseForeground":             "#f5d76e",    // Pause debug--
-    "debugIcon.stopForeground":              "#ff6b73",    // Stop debug --
-    "debugIcon.restartForeground":           "#4dc9ff",    // Restart --
+    "debugIcon.pauseForeground":             "#f5d76e",    // - Pause debug--
+    "debugIcon.stopForeground":              "#ff6b73",    // - Stop debug --
+    "debugIcon.restartForeground":           "#4dc9ff",    // - Restart --
   },
 
   "semanticTokenColors": {
