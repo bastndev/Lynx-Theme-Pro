@@ -6,7 +6,7 @@
   "type": "dark",
 
   "colors": {
-    // Primary backgrounds - softer for eye comfort
+   // TODO: THEME - MARK:[BACKGROUNDS]
     "editor.background":                     "#181b1f",    // - Main editor bg (slightly warmer)
     "sideBar.background":                    "#181b1f",    // - Sidebar bg
     "panel.background":                      "#181b1f",    // - Panel bg
