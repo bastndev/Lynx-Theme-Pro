@@ -9,8 +9,8 @@
     // TODO: MENU STATUS BAR MARK: - [TOP]
     "titleBar.activeBackground":             "#161a1d",    // - Title bar bg
     "titleBar.activeForeground":             "#E2E8F0",    // - Title bar text
-    "titleBar.inactiveBackground":           "#1a1e22",    // - Title bar bg inactive inactive
-    "titleBar.inactiveForeground":           "#94A3B8",    // - Title bar text inactive inactive
+    "titleBar.inactiveBackground":           "#1a1e22",    // - Title bar bg inactive
+    "titleBar.inactiveForeground":           "#94A3B8",    // - Title bar text inactive
     "commandCenter.background":              "#1a1e22",    // - Command Center bg
 
     // --- -- - Menu Click & select
@@ -21,7 +21,7 @@
     "menu.selectionForeground":              "#0EA5E9",    // - Active click color
     "menu.separatorBackground":              "#475569",    // - Separator line
     "menubar.selectionBackground":           "#0EA5E930",  // - Menubar selection bg
-    "menubar.selectionForeground":           "#0EA5E9",    // - Hover TOP text
+    "menubar.selectionForeground":           "#0EA5E9",    // - Hover TOP text 1
     "menu.selectionBorder":                  "#0EA5E9",    // - Selected item border
     "menubar.selectionBorder":               "#0EA5E9",    // - Menubar selection border
 
@@ -56,7 +56,7 @@
     "contrastActiveBorder":                  "#00000000",  // - contrast active border BOX-----
 
     // --- -- - Side Bar
-    "sideBar.background":                    "#181b1f",    // - Sidebar bg
+    "sideBar.background":                    "#181b1f",    // - Ai and Side bar bg
     "sideBar.foreground":                    "#CBD5E1",    // - Text vscode all
     "sideBarSectionHeader.background":       "#1a1e22",    // - right bot bg
     "sideBarTitle.foreground":               "#F8FAFC",    // - Explorer
@@ -93,11 +93,11 @@
     "editorGutter.modifiedBackground":               "#0EA5E9",    // - Modified code
  
     // TODO: CODE EDITOR MARK: [TWO-2]
-    "editor.background":                     "#181b1f",    // - Main editor bg
-    "editor.foreground":                     "#F1F5F9",    // - Editor text (softer white)
+    "editor.background":                     "#181b1f",    // - Editor bg
+    "editor.foreground":                     "#F1F5F9",    // - Editor [STORE] text
     "editor.lineHighlightBackground":        "#FFFFFF08",  // - Line highlight bg (subtle)
     "editor.lineHighlightBorder":            "#FFFFFF10",  // - Line highlight border
-    "editor.selectionBackground":            "#0EA5E930",  // - Editor selection
+    "editor.selectionBackground":            "#0EA5E930",  // - Selection bg (theme consistent)
     "editor.rangeHighlightBackground":       "#0EA5E915",  // - Range highlight bg
     "editor.wordHighlightBackground":        "#F59E0B25",  // - Word highlight bg
     "editor.wordHighlightStrongBackground":  "#0EA5E925",  // - Word highlight strong bg
@@ -106,9 +106,9 @@
     // --- -- - Tabs Header - TOP
     "editorGroupHeader.tabsBackground":      "#181b1f",    // - Tabs header bg
     "editorGroupHeader.tabsBorder":          "#334155",    // - Tabs header border line horizontal
-    "editorGroupHeader.border":              "#1a1e22",    // - Editor group header border
+    "editorGroupHeader.border":              "#1a1e22",    // - Editor group header border=_
     "tab.border":                            "#334155",    // - Tab border Vertical
-    "tab.activeBackground":                  "#1a1e22",    // - Active tab bg
+    "tab.activeBackground":                  "#1a1e22",    // - bg select file
     "tab.activeBorderTop":                   "#0EA5E9",    // - Active tab border top
     "tab.activeForeground":                  "#F8FAFC",    // - Active tab text
     "tab.activeBorder":                      "#1a1e22",    // - Active tab border
