@@ -197,17 +197,17 @@
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
     "progressBar.background":                "#13ff3e",    // - Progress bar bg
-    
+
     //--- -- - ctrl+shift+p | Inputs & Quick
     "editorWidget.background":               "#101610",    // - bg
     "quickInputList.focusBackground":        "#57b68970",  // - Focus bg
     "list.highlightForeground":              "#6dd46a",    // - Highlight text color
-    
+
     "quickInput.background":                 "#101610",    // - Quick input bg
     "quickInput.foreground":                 "#f5f5f5",    // - Quick input text
     "quickInputList.focusIconForeground":    "#ffffff",    // - Focus icon
     "quickInputList.focusForeground":        "#ffffff",    // - Focus text
-    
+
     "keybindingLabel.foreground":            "#ffffff",    // - Keybinding label text
     "keybindingLabel.background":            "#6a7a6a",    // - Keybinding label bg
     "keybindingLabel.border":                "#08080800",  // - Keybinding label border

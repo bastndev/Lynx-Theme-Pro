@@ -197,16 +197,17 @@
     // TODO: MARK: [PLUS]
     // --- -- - progress bar
     "progressBar.background":                "#0EA5E9",    // - Progress bar bg
-    
+
     //--- -- - ctrl+shift+p | Inputs & Quick
     "editorWidget.background":               "#1a1e22",    // - Widget bg
     "quickInputList.focusBackground":        "#0EA5E940",  // - Focus bg
     "list.highlightForeground":              "#0EA5E9",    // - Highlight text color
+
     "quickInput.background":                 "#1a1e22",    // - Quick input bg
     "quickInput.foreground":                 "#F1F5F9",    // - Quick input text
     "quickInputList.focusIconForeground":    "#F8FAFC",    // - Focus icon
     "quickInputList.focusForeground":        "#F8FAFC",    // - Focus text
-    
+
     "keybindingLabel.foreground":            "#F8FAFC",    // - Keybinding label text
     "keybindingLabel.background":            "#64748B",    // - Keybinding label bg
     "keybindingLabel.border":                "#1a1e2200",  // - Keybinding label border
@@ -223,7 +224,7 @@
     "panelSectionHeader.background":         "#334155",    // - Panel section header bg
     "panelSectionHeader.foreground":         "#0EA5E9",    // - Panel section header text
 
-    // --- -- - Terminal colors (improved for readability)
+    // --- -- - Terminal colors
     "terminal.background":                   "#181b1f",    // - Terminal bg
     "terminal.foreground":                   "#E2E8F0",    // - Terminal text
     "terminal.ansiBlack":                    "#1E293B",    // - Terminal black color
@@ -263,7 +264,7 @@
     "dropdown.background":                   "#1a1e22",    // - Dropdown bg
     "dropdown.foreground":                   "#F1F5F9",    // - Dropdown text color
     "dropdown.border":                       "#475569",    // - Dropdown border
-    "debugToolBar.background":               "#1E293B",    // - Debug bg
+    "debugToolBar.background":               "#1E293B",    // - Debug bg--
     "dropdown.listBackground":               "#334155",    // - Dropdown list bg
     "debugToolBar.border":                   "#475569",    // - Border debug optional
 
