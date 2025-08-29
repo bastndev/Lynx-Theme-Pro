@@ -6,7 +6,7 @@
   "type": "dark",
   
   "colors": {
- // TODO: MENU STATUS BAR MARK: - [TOP]
+    // TODO: MENU STATUS BAR MARK: - [TOP]
     "titleBar.activeBackground":             "#161a1d",    // - Title bar bg
     "titleBar.activeForeground":             "#E2E8F0",    // - Title bar text
     "titleBar.inactiveBackground":           "#1a1e22",    // - Title bar bg inactive
