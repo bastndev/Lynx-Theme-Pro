@@ -257,7 +257,7 @@
     "notificationToast.border":             "#c0d0c3",    // - Notification toast border
     "notificationsErrorIcon.foreground":    "#d64545",    // - Error notification icon 
     "notificationsWarningIcon.foreground":  "#c5952e",    // - Warning notification icon 
-    "notificationsInfoIcon.foreground":     "#2d99ff",    // - Info notification icon 
+    "notificationsInfoIcon.foreground":     "#479671",    // - Info notification icon 
     "notificationLink.foreground":          "#479671",    // - Notification link color
 
     // --- -- - Editor Group & Dropdown Controls
