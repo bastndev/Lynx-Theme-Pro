@@ -24,7 +24,6 @@
     "menubar.selectionForeground":           "#1ed760",    // - Hover TOP text 1
     "menu.selectionBorder":                  "#1ed760",    // - Selected item border
     "menubar.selectionBorder":               "#1ed760",    // - Menubar selection border
-    
 
     "list.hoverBackground":                  "#192922ad",  // - Hover bg
     "list.hoverForeground":                  "#e0e0e0",    // - Text select
