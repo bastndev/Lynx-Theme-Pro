@@ -462,7 +462,7 @@
     "debugIcon.stopForeground":              "#EF4444",    // Stop debug --
     "debugIcon.restartForeground":           "#0EA5E9"     // - Restart --
   },  
-  
+
   "semanticTokenColors": {
     "namespace": "#F59E0B",
     "class": "#0EA5E9",
