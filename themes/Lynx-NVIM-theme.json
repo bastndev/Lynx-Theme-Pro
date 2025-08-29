@@ -248,7 +248,7 @@
     "terminal.selectionBackground":          "#0EA5E950",  // - Terminal selection bg
 
     // --- -- - Notifications
-    "notifications.background":              "#334155",    // - Notification bg
+    "notifications.background":              "#1e2733",    // - Notification bg
     "notifications.foreground":              "#F8FAFC",    // - Notification text
     "notifications.border":                  "#475569",    // - Notification border
     "notificationCenter.border":             "#475569",    // - Notification center border
