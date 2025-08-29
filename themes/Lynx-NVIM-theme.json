@@ -94,11 +94,11 @@
     "editorHoverWidget.statusBarBackground": "#334155",    // - Hover widget status bar bg
  
    //--- -- - GIT Decoration
-    "gitDecoration.modifiedResourceForeground":      "#0EA5E9",    // - Modified files
+    "gitDecoration.modifiedResourceForeground":      "#00D4FF",    // - Modified files
     "gitDecoration.conflictingResourceForeground":   "#F59E0B",    // - Merge conflicts
     "gitDecoration.deletedResourceForeground":       "#EF4444",    // - Deleted files
     "gitDecoration.ignoredResourceForeground":       "#64748B80",  // - Ignored files
-    "gitDecoration.untrackedResourceForeground":     "#10B981",    // - Untracked files
+    "gitDecoration.untrackedResourceForeground":     "#0EA5E9",    // - Untracked files
     "gitDecoration.stageModifiedResourceForeground": "#ffee6b",    // - Staged modified files
     "gitDecoration.stageDeletedResourceForeground":  "#ffee6b",    // - Staged deleted files
     "gitDecoration.submoduleResourceForeground":     "#ffee6b",    // - Submodules
