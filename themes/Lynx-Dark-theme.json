@@ -465,18 +465,28 @@
 
   "semanticTokenColors": {
     "namespace": "#f5d76e",
-    "property": "#85b3ff",
-    "interface": "#7de8ff",
-    "type": "#57b689",
     "class": "#57b689",
     "enum": "#f5d76e",
+    "interface": "#7de8ff",
+    "struct": "#57b689",
+    "typeParameter": "#c4a5ff",
+    "type": "#57b689",
+    "parameter": "#ff9971",
+    "variable": "#85b3ff",
+    "property": "#85b3ff",
+    "enumMember": "#6dd46a",
+    "event": "#ff6b73",
     "function": "#4dc9ff",
     "method": "#4dc9ff",
     "macro": "#c4a5ff",
-    "parameter": "#ff9971",
-    "property.readonly": "#7de8ff",
-    "enumMember": "#6dd46a",
-    "event": "#ff6b73"
+    "keyword": "#f88141",
+    "modifier": "#f88141",
+    "comment": "#b1b1b1",
+    "string": "#048b6b",
+    "number": "#018466",
+    "regexp": "#89DDFF",
+    "operator": "#f2f2f2",
+    "decorator": "#82AAFF"
   },
   
   "tokenColors": [
