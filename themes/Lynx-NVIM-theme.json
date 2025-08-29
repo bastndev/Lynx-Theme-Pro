@@ -271,7 +271,7 @@
     // TODO: STATUS BAR MARK: - [BOTTOM]
     "statusBar.background":                  "#141719",    // - Status bar bg
     "statusBar.foreground":                  "#94A3B8",    // - Status bar text color
-    "statusBar.debuggingBackground":         "#1E293B",    // - Status bar debugging bg
+    "statusBar.debuggingBackground":         "#1E293B",    // - Status bar debugging bg___
     "statusBar.debuggingForeground":         "#F8FAFC",    // - Status bar debugging text
     "statusBar.noFolderBackground":          "#00000000",  // - Status bar box bg -HOVER
     "statusBarItem.hoverBackground":         "#1E293B",    // - Status bar hover bg -Text
@@ -287,7 +287,7 @@
     "extensionIcon.verifiedForeground":      "#0EA5E9",    // - Verified icon
     "textPreformat.foreground":              "#F59E0B",    // - Preformatted text
     "textLink.foreground":                   "#0EA5E9",    // - Link text color - Status Bar
-    "textLink.activeForeground":             "#38BDF8",    // - Active link color
+    "textLink.activeForeground":             "#38BDF8",    // - Active link color - HOVER
 
     // TODO: -  BG STORE VSCODE MARK:[+]
     "textBlockQuote.background":             "#334155",    // - Block quote bg
