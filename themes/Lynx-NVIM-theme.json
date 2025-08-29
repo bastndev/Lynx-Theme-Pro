@@ -9,8 +9,8 @@
     // TODO: MENU STATUS BAR MARK: - [TOP]
     "titleBar.activeBackground":             "#161a1d",    // - Title bar bg
     "titleBar.activeForeground":             "#E2E8F0",    // - Title bar text
-    "titleBar.inactiveBackground":           "#1a1e22",    // - Title bar bg inactive
-    "titleBar.inactiveForeground":           "#94A3B8",    // - Title bar text inactive
+    "titleBar.inactiveBackground":           "#1a1e22",    // - Title bar bg inactive inactive
+    "titleBar.inactiveForeground":           "#94A3B8",    // - Title bar text inactive inactive
     "commandCenter.background":              "#1a1e22",    // - Command Center bg
 
     // --- -- - Menu Click & select
@@ -27,7 +27,7 @@
 
     "list.hoverBackground":                  "#1E293B",    // - Hover bg
     "list.hoverForeground":                  "#E2E8F0",    // - Text select
-    "list.dropBackground":                   "#181b1f",    // - Drop bg    
+    "list.dropBackground":                   "#181b1f",    // - Drop bg
 
     // TODO: ACTIVITY BAR MARK: [ONE-1]
     "activityBar.background":                "#161a1d",    // - Activity bar bg

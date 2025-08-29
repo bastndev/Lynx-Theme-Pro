@@ -9,8 +9,8 @@
     // TODO: MENU STATUS BAR MARK: - [TOP]
     "titleBar.activeBackground":             "#161F24",    // - Title bar bg 
     "titleBar.activeForeground":             "#ffffff",    // - Title bar text 
-    "titleBar.inactiveBackground":           "#0f1618",    // - Title bar bg
-    "titleBar.inactiveForeground":           "#678fa2",    // - Title bar text 
+    "titleBar.inactiveBackground":           "#0f1618",    // - Title bar bg inactive
+    "titleBar.inactiveForeground":           "#678fa2",    // - Title bar text inactive
     "commandCenter.background":              "#0f1618",    // - Command Center bg
 
     // --- -- - Menu Click & select
