@@ -302,18 +302,18 @@
     "statusBar.border":                      "#00000000",  // - Status bar LINE border (Bottom)
 
     // ---- -- - Selection BG - ctrl+F
-    "selection.background":                  "#0EA5E940",  // - Selection bg
+    "selection.background":                        "#0EA5E940",  // - Selection bg
 
-    // ===== SEARCH & FIND (ORGANIZED TOGETHER) =====
-    "editor.findMatchBackground":            "#0EA5E950",  // - Find match bg
-    "editor.findMatchBorder":                "#0EA5E9",    // - Find match border
-    "editor.findMatchHighlightBackground":   "#0EA5E930",  // - Find match highlight bg
-    "editor.findMatchHighlightBorder":       "#38BDF8",    // - Find match highlight border
-    "editor.findRangeHighlightBackground":   "#0EA5E920",  // - Find range highlight bg
-    "editorOverviewRuler.findMatchForeground":"#0EA5E980", // - Overview ruler find match
-    "editorOverviewRuler.rangeHighlightForeground":"#38BDF880", // - Overview ruler range highlight
+    "editor.findMatchBackground":                  "#0EA5E950",  // - Find match bg ---|
+    "editor.findMatchBorder":                      "#0EA5E9",    // - Find match border
+    "editor.findMatchHighlightBackground":         "#0EA5E930",  // - Find match highlight bg
+    "editor.findMatchHighlightBorder":             "#38BDF8",    // - Find match highlight border
+    "editor.findRangeHighlightBackground":         "#0EA5E920",  // - Find range highlight bg ---|
 
-    // ===== VALIDATION & ERROR MESSAGES =====
+    "editorOverviewRuler.findMatchForeground":     "#0EA5E980",  // - Mini map overview ruler ---|
+    "editorOverviewRuler.rangeHighlightForeground":"#38BDF880",  // -Mini map overview ruler ---|
+
+    // --- -- - BG message error
     "inputValidation.errorBackground":       "#EF444420",  // - Error message bg
     "inputValidation.errorForeground":       "#EF4444",    // - Error message text
     "inputValidation.errorBorder":           "#EF4444",    // - Error message border
@@ -324,7 +324,7 @@
     "inputValidation.infoForeground":        "#0EA5E9",    // - Info message text
     "inputValidation.infoBorder":            "#0EA5E9",    // - Info message border
 
-    // ===== BRACKET HIGHLIGHTING (IMPROVED COLORS) =====
+    // --- -- - BG {} and () and []
     "editorBracketHighlight.foreground1":   "#8B5CF6",    // - Bracket highlight color 1 (sky blue)
     "editorBracketHighlight.foreground2":   "#0EA5E9",    // - Bracket highlight color 2 (violet)
     "editorBracketHighlight.foreground3":   "#10B981",    // - Bracket highlight color 3 (emerald)

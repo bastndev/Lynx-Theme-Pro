@@ -314,8 +314,6 @@
     "editorOverviewRuler.findMatchForeground":     "#7de89580", // - Mini map overview ruler ---|
     "editorOverviewRuler.rangeHighlightForeground":"#85f5a280", // - Mini map overview ruler ---|
 
-
-
     // --- -- - BG message error
     "inputValidation.errorBackground":       "#ff6b7325",  // - Error message bg
     "inputValidation.errorForeground":       "#ff6b73",    // - Error message text
