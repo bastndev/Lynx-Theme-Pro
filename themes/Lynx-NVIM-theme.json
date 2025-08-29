@@ -900,7 +900,7 @@
       "name": "Entity Other Attribute Name",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#EF4444"
+        "foreground": "#FB7185"
       }
     },
     {
