@@ -327,8 +327,8 @@
     "inputValidation.infoBorder":            "#0EA5E9",    // - Info message border
 
     // ===== BRACKET HIGHLIGHTING (IMPROVED COLORS) =====
-    "editorBracketHighlight.foreground1":   "#0EA5E9",    // - Bracket highlight color 1 (sky blue)
-    "editorBracketHighlight.foreground2":   "#8B5CF6",    // - Bracket highlight color 2 (violet)
+    "editorBracketHighlight.foreground1":   "#8B5CF6",    // - Bracket highlight color 1 (sky blue)
+    "editorBracketHighlight.foreground2":   "#0EA5E9",    // - Bracket highlight color 2 (violet)
     "editorBracketHighlight.foreground3":   "#10B981",    // - Bracket highlight color 3 (emerald)
     "editorBracketHighlight.foreground4":   "#F59E0B",    // - Bracket highlight color 4 (amber)
     "editorBracketHighlight.foreground5":   "#EF4444",    // - Bracket highlight color 5 (red)
