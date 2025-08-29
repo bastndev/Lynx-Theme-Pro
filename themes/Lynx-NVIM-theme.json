@@ -153,9 +153,10 @@
     "minimap.warningHighlight":              "#F59E0B",    // - Warning highlight
     "minimap.findMatchHighlight":            "#0EA5E980",  // - Find match highlight
     "minimap.selectionHighlight":            "#0EA5E950",  // - Selection highlight
+    
     "minimapSlider.background":              "#0EA5E930",  // - Minimap slider bg
-    "minimapSlider.hoverBackground":         "#0EA5E950",  // - Minimap slider hover
-    "minimapSlider.activeBackground":        "#0EA5E970",  // - Minimap slider active
+    "minimapSlider.hoverBackground":         "#0EA5E940",  // - Minimap slider hover
+    "minimapSlider.activeBackground":        "#0EA5E950",  // - Minimap slider active
 
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground":     "#F8FAFC",    // - Active line number
