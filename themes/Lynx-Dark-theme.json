@@ -1183,6 +1183,13 @@
         "foreground": "#048b6b"
       }
     },
+    {
+      "name": "Markdown Meta Separator",
+      "scope": ["text.html.markdown meta.separator"],
+      "settings": {
+        "foreground": "#94A3B8"
+      }
+    },
 
     // ===== REACT/JSX SPECIFIC =====
     {
