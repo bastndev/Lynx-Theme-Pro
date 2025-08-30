@@ -698,6 +698,13 @@
       "name": "Variables General",
       "scope": ["variable.other", "variable.object.property"],
       "settings": {
+        "foreground": "#F59E0B"
+      }
+    },
+    {
+      "name": "Block Level Variables",
+      "scope": ["meta.block variable.other"],
+      "settings": {
         "foreground": "#CBD5E1"
       }
     },
