@@ -3,9 +3,9 @@
 </div>
 
 <p align="center">
-  <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=e3d8a5&colorB=2ca562&label=VERSION" alt="Version">&nbsp;
-  <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=e3d8a5&colorB=2ca562&label=RATING" alt="Rating">&nbsp;
-  <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=e3d8a5&colorB=2ca562&label=Downloads" alt="Downloads">&nbsp;
+  <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=e3d8a5&colorB=3fc192&label=VERSION" alt="Version">&nbsp;
+  <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=e3d8a5&colorB=3fc192&label=RATING" alt="Rating">&nbsp;
+  <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=e3d8a5&colorB=3fc192&label=Downloads" alt="Downloads">&nbsp;
   <a href="https://github.com/bastndev/Lynx-Theme-Pro"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
 </p>
 
