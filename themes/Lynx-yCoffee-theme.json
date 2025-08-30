@@ -195,8 +195,8 @@
     "inputOption.activeForeground":          "#ffd0bb",    // - Active option text
 
     // TODO: MARK: [PLUS]
-    // --- -- - progress bar
-    "progressBar.background":                "#97c93d",    // - Progress bar bg
+    // --- -- - progress bar | LOADING
+    "progressBar.background":                "#d47373",    // - Progress bar bg
 
     //--- -- - ctrl+shift+p | Inputs & Quick
     "editorWidget.background":               "#170F10",    // - bg
