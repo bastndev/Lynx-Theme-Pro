@@ -1048,10 +1048,28 @@
 
     // ===== JSON SPECIFIC =====
     {
-      "name": "JSON Key",
+      "name": "JSON Key - Level 0",
       "scope": ["support.type.property-name.json"],
       "settings": {
         "foreground": "#22D3EE"
+      }
+    },
+    {
+      "name": "JSON Key - Level 1",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#bb80e2"
+      }
+    },
+    {
+      "name": "JSON Key - Level 2",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#6cbff7"
       }
     },
     {
