@@ -19,7 +19,9 @@ Discover more extensions at [bastndev.com/extensions](https://bastndev.com/exten
 
 Following VS Code best practices, Lynx Theme Pro uses semantic versioning for all releases.
 
-## [2.0.0] - 2025-08-24
+## [3.0.0] - 2025-08-28
+
+---
 
 ## [2.8.1] - 2025-08-11
 
@@ -29,6 +31,7 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 - Improved JavaScript icons for greater clarity and visual appeal
 - Adjusted color palette to use more distinct tones, reducing confusion between similar elements while coding
 
+---
 
 ## [2.7.3] - 2025-08-03
 
@@ -41,6 +44,8 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
   - Lynx Coffee Theme Pro
   - Lynx KIRO Theme Pro
 - The terminal cursor now adapts to a consistent green shade across all six themes for better contrast and user experience
+
+---
 
 ## [2.7.2] - 2025-08-03
 
