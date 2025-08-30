@@ -16,25 +16,25 @@
 <summary align="center">𝗖𝗹𝗶𝗰𝗸 (𝗟𝘆𝗻𝘅 𝗧𝗵𝗲𝗺𝗲 𝗣𝗿𝗼)</summary>
 
 ### 1. DARK (Theme)
-<img src="https://via.placeholder.com/800x600.png?text=DARK+Theme+Screenshot" alt="DARK Theme Screenshot" width="100%">
+ <img src="assets/screenshots/dark-theme.png" alt="DARK Theme Screenshot" width="100%">
 
 ### 2. LIGHT (Theme)
-<img src="https://via.placeholder.com/800x600.png?text=LIGHT+Theme+Screenshot" alt="LIGHT Theme Screenshot" width="100%">
+<img src="assets/screenshots/light-theme.png" alt="LIGHT Theme Screenshot" width="100%">
 
 ### 3. NIGHT (Theme)
-<img src="https://via.placeholder.com/800x600.png?text=NIGHT+Theme+Screenshot" alt="NIGHT Theme Screenshot" width="100%">
+<img src="assets/screenshots/night-theme.png" alt="NIGHT Theme Screenshot" width="100%">
 
 ### 4. GHIBLI (Theme)
-<img src="https://via.placeholder.com/800x600.png?text=GHIBLI+Theme+Screenshot" alt="GHIBLI Theme Screenshot" width="100%">
+<img src="assets/screenshots/ghibli-theme.png" alt="GHIBLI Theme Screenshot" width="100%">
 
 ### 5. COFFEE (Theme)
-<img src="https://via.placeholder.com/800x600.png?text=COFFEE+Theme+Screenshot" alt="COFFEE Theme Screenshot" width="100%">
+<img src="assets/screenshots/coffee-theme.png" alt="COFFEE Theme Screenshot" width="100%">
 
 ### 6. KIRO (Theme)
-<img src="https://via.placeholder.com/800x600.png?text=KIRO+Theme+Screenshot" alt="KIRO Theme Screenshot" width="100%">
+<img src="assets/screenshots/kiro-theme.png" alt="KIRO Theme Screenshot" width="100%">
 
 ### 7. NVIM (Theme)
-<img src="https://via.placeholder.com/800x600.png?text=NVIM+Theme+Screenshot" alt="NVIM Theme Screenshot" width="100%">
+<img src="assets/screenshots/nvim-theme.png" alt="NVIM Theme Screenshot" width="100%">
 </details>
 
 ## Installation
