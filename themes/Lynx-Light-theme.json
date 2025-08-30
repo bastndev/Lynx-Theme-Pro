@@ -195,7 +195,7 @@
     "inputOption.activeForeground":          "#2d2d2d",    // - Active option text
 
     // TODO: MARK: [PLUS]
-    // --- -- - progress bar
+    // --- -- - progress bar | LOADING
     "progressBar.background":                "#2eb82e",    // - Progress bar bg
     
     //--- -- - ctrl+shift+p | Inputs & Quick
@@ -698,7 +698,7 @@
       "name": "Variables General",
       "scope": ["variable.other", "variable.object.property"],
       "settings": {
-        "foreground": "#d1b037"
+        "foreground": "#d8b056"
       }
     },
     {
@@ -1203,7 +1203,7 @@
       "name": "JSX Component",
       "scope": ["support.class.component.jsx", "support.class.component.tsx"],
       "settings": {
-        "foreground": "#d1b037",
+        "foreground": "#d8b056",
         "fontStyle": "bold"
       }
     },
