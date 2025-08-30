@@ -545,7 +545,7 @@
       "name": "Keywords Import/Export",
       "scope": ["keyword.control.import", "keyword.control.export", "keyword.control.from"],
       "settings": {
-        "foreground": "#8250df"
+        "foreground": "#0969da"
       }
     },
     {
