@@ -11,10 +11,9 @@
 
 </br>
 
-## 🧩 Themes (Lynx Theme Pro)
 
 <details>
-<summary>Click to view all Theme Screenshots</summary>
+<summary align="center">🧩 𝗰𝗹𝗶𝗰𝗸 (𝗟𝘆𝗻𝘅 𝗧𝗵𝗲𝗺𝗲 𝗣𝗿𝗼)</summary>
 
 ### 1. DARK (Theme)
 <img src="https://via.placeholder.com/800x600.png?text=DARK+Theme+Screenshot" alt="DARK Theme Screenshot" width="100%">
