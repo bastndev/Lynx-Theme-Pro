@@ -21,6 +21,31 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 
 ## [3.0.0] - 2025-08-28
 
+### Added
+- **Lynx NVIM Theme**: New theme variant inspired by Neovim aesthetics, featuring a sleek dark palette optimized for terminal-like coding environments. Includes enhanced syntax highlighting for better code readability and a focus on minimalistic design elements for distraction-free development.
+
+### Improved
+- Enhanced all 6 existing theme variants (Dark, Light, Night, Ghibli, Coffee, and KIRO) with modern refinements:
+  - Updated color palettes for improved contrast and eye comfort during long coding sessions
+  - Refined syntax highlighting with more distinct and intuitive color schemes
+  - Optimized background and foreground colors to reduce strain in extended work periods
+  - Improved accessibility with better WCAG compliance for text readability
+  - Fine-tuned UI elements (e.g., status bars, sidebars, and tabs) for a more polished, professional look
+- Comprehensive README improvements:
+  - Added detailed installation and setup guides for all theme variants
+  - Included screenshots and visual previews of each theme
+  - Expanded feature descriptions with tips for long-work productivity
+  - Added troubleshooting section for common theme-related issues
+  - Updated contribution guidelines and links to the new NVIM theme documentation
+
+### Changed
+- Minor adjustments to theme metadata for better VS Code integration and performance
+- Updated theme descriptions to emphasize modern design and long-session comfort
+
+### Fixed
+- Resolved minor color inconsistencies across theme variants for uniform user experience
+- Fixed potential rendering issues in high-contrast environments
+
 ---
 
 ## [2.8.1] - 2025-08-11
