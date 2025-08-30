@@ -698,7 +698,14 @@
       "name": "Variables General",
       "scope": ["variable.other", "variable.object.property"],
       "settings": {
-        "foreground": "#0F79AF"
+        "foreground": "#d1b037"
+      }
+    },
+    {
+      "name": "Block Level Variables",
+      "scope": ["meta.block variable.other"],
+      "settings": {
+        "foreground": "#788494"
       }
     },
     {
@@ -1196,7 +1203,7 @@
       "name": "JSX Component",
       "scope": ["support.class.component.jsx", "support.class.component.tsx"],
       "settings": {
-        "foreground": "#D97706",
+        "foreground": "#d1b037",
         "fontStyle": "bold"
       }
     },
