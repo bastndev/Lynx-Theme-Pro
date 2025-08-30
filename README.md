@@ -16,25 +16,25 @@
 <summary align="center">𝗖𝗹𝗶𝗰𝗸 (𝗟𝘆𝗻𝘅 𝗧𝗵𝗲𝗺𝗲 𝗣𝗿𝗼)</summary>
 
 ### 1. DARK (Theme)
- <img src="assets/screenshots/dark-theme.png" alt="DARK Theme Screenshot" width="100%">
+ <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/dark-theme.png" alt="DARK Theme Screenshot" width="100%">
 
 ### 2. LIGHT (Theme)
-<img src="assets/screenshots/light-theme.png" alt="LIGHT Theme Screenshot" width="100%">
+<img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/light-theme.png" alt="LIGHT Theme Screenshot" width="100%">
 
 ### 3. NIGHT (Theme)
-<img src="assets/screenshots/night-theme.png" alt="NIGHT Theme Screenshot" width="100%">
+<img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/night-theme.png" alt="NIGHT Theme Screenshot" width="100%">
 
 ### 4. GHIBLI (Theme)
-<img src="assets/screenshots/ghibli-theme.png" alt="GHIBLI Theme Screenshot" width="100%">
+<img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/ghibli-theme.png" alt="GHIBLI Theme Screenshot" width="100%">
 
 ### 5. COFFEE (Theme)
-<img src="assets/screenshots/coffee-theme.png" alt="COFFEE Theme Screenshot" width="100%">
+<img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/coffee-theme.png" alt="COFFEE Theme Screenshot" width="100%">
 
 ### 6. KIRO (Theme)
-<img src="assets/screenshots/kiro-theme.png" alt="KIRO Theme Screenshot" width="100%">
+<img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/kiro-theme.png" alt="KIRO Theme Screenshot" width="100%">
 
 ### 7. NVIM (Theme)
-<img src="assets/screenshots/nvim-theme.png" alt="NVIM Theme Screenshot" width="100%">
+<img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/nvim-theme.png" alt="NVIM Theme Screenshot" width="100%">
 </details>
 
 ## Installation
