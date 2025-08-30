@@ -3,13 +3,39 @@
 </div>
 
 <p align="center">
-  <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=e3d8a5&colorB=3fc192&label=VERSION" alt="Version">&nbsp;
-  <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=e3d8a5&colorB=3fc192&label=RATING" alt="Rating">&nbsp;
-  <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=e3d8a5&colorB=3fc192&label=Downloads" alt="Downloads">&nbsp;
+  <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=1a1a1a&colorB=00dd9a&label=VERSION" alt="Version">&nbsp;
+  <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=1a1a1a&colorB=00dd9a&label=RATING" alt="Rating">&nbsp;
+  <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=1a1a1a&colorB=00dd9a&label=Downloads" alt="Downloads">&nbsp;
   <a href="https://github.com/bastndev/Lynx-Theme-Pro"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
 </p>
 
 </br>
+
+
+<details>
+<summary align="center">𝗖𝗹𝗶𝗰𝗸 (𝗟𝘆𝗻𝘅 𝗧𝗵𝗲𝗺𝗲 𝗣𝗿𝗼)</summary>
+
+### 1. DARK (Theme)
+ <img src="assets/screenshots/dark-theme.png" alt="DARK Theme Screenshot" width="100%">
+
+### 2. LIGHT (Theme)
+<img src="assets/screenshots/light-theme.png" alt="LIGHT Theme Screenshot" width="100%">
+
+### 3. NIGHT (Theme)
+<img src="assets/screenshots/night-theme.png" alt="NIGHT Theme Screenshot" width="100%">
+
+### 4. GHIBLI (Theme)
+<img src="assets/screenshots/ghibli-theme.png" alt="GHIBLI Theme Screenshot" width="100%">
+
+### 5. COFFEE (Theme)
+<img src="assets/screenshots/coffee-theme.png" alt="COFFEE Theme Screenshot" width="100%">
+
+### 6. KIRO (Theme)
+<img src="assets/screenshots/kiro-theme.png" alt="KIRO Theme Screenshot" width="100%">
+
+### 7. NVIM (Theme)
+<img src="assets/screenshots/nvim-theme.png" alt="NVIM Theme Screenshot" width="100%">
+</details>
 
 ## Installation
 
