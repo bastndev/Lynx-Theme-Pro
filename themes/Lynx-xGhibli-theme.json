@@ -327,7 +327,7 @@
     // --- -- - BG {} and () and []
     "editorBracketHighlight.foreground1":    "#c4a894",    // - Bracket highlight color 1
     "editorBracketHighlight.foreground2":    "#d4bfa0",    // - Bracket highlight color 2
-    "editorBracketHighlight.foreground3":    "#9db1c6",    // - Bracket highlight color 3
+    "editorBracketHighlight.foreground3":    "#c4a894",    // - Bracket highlight color 3
     "editorBracketHighlight.foreground4":    "#c4a894",    // - Bracket highlight color 4
     "editorBracketHighlight.foreground5":    "#8b7865",    // - Bracket highlight color 5
     "editorBracketHighlight.foreground6":    "#c4a373",    // - Bracket highlight color 6
@@ -472,8 +472,8 @@
     "typeParameter": "#a0927f",
     "type": "#4a3f35",
     "parameter": "#b5836a",
-    "variable": "#9db1c6",
-    "property": "#9db1c6",
+    "variable": "#718ba7",
+    "property": "#718ba7",
     "enumMember": "#c4a373",
     "event": "#b5836a",
     "function": "#8250df",
