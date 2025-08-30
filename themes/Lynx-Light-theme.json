@@ -698,7 +698,7 @@
       "name": "Variables General",
       "scope": ["variable.other", "variable.object.property"],
       "settings": {
-        "foreground": "#d1b037"
+        "foreground": "#ac4117"
       }
     },
     {
@@ -1203,7 +1203,7 @@
       "name": "JSX Component",
       "scope": ["support.class.component.jsx", "support.class.component.tsx"],
       "settings": {
-        "foreground": "#d1b037",
+        "foreground": "#ac4117",
         "fontStyle": "bold"
       }
     },
