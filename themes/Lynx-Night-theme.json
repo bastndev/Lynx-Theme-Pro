@@ -560,15 +560,15 @@
       "name": "Keywords Other",
       "scope": ["keyword.other"],
       "settings": {
-        "foreground": "#f88141"
+      "foreground": "#f5d76e"
       }
     },
     {
       "name": "Storage Type",
       "scope": ["storage.type"],
       "settings": {
-        "foreground": "#f88141",
-        "fontStyle": "bold"
+      "foreground": "#f5d76e",
+      "fontStyle": "bold"
       }
     },
     {
