@@ -40,7 +40,7 @@
     "activityBar.activeBackground":          "#37b8b040",  // - Active item 
     "activityBar.activeFocusBorder":         "#37b8b0",    // - Active item focus border
     "activityBarTop.foreground":             "#37b8b0",    // - Select icon
-    "list.warningForeground":                "#f5d76e",    // - Warning text color
+    "list.warningForeground":                "#F59E0B",    // - Warning text color
     "list.errorForeground":                  "#ff6b73",    // - Error text color
     "list.invalidItemForeground":            "#ff6b73",    // - Invalid item color
     "tree.indentGuidesStroke":               "#37b8b050",  // - Line guide Folder
@@ -237,7 +237,7 @@
     "terminal.ansiBrightRed":                "#ff7a85",    // - Terminal bright red color
     "terminal.ansiBrightWhite":              "#ffffff",    // - Terminal bright white color
     "terminal.ansiBrightYellow":             "#f5d76e",    // - Terminal bright yellow color
-    "terminal.ansiCyan":                     "#678fa2",    // - Terminal cyan color
+    "terminal.ansiCyan":                     "#4da6ff",    // - Terminal cyan color
     "terminal.ansiGreen":                    "#37b8b0",    // - Terminal green color
     "terminal.ansiMagenta":                  "#c4a5ff",    // - Terminal magenta color
     "terminal.ansiRed":                      "#ff6b73",    // - Terminal red color
