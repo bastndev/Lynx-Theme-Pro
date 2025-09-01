@@ -495,24 +495,24 @@
       "name": "Comment Line",
       "scope": ["comment.line", "punctuation.definition.comment"],
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#a1a6af"
+      "fontStyle": "italic",
+      "foreground": "#64748B"
       }
     },
     {
       "name": "Comment Block",
       "scope": "comment.block",
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#a1a6af"
+      "fontStyle": "italic",
+      "foreground": "#64748B"
       }
     },
     {
       "name": "Comment Documentation",
       "scope": ["comment.block.documentation", "comment.line.documentation"],
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#a1a6af"
+      "fontStyle": "italic",
+      "foreground": "#94A3B8"
       }
     },
 
