@@ -19,6 +19,16 @@ Discover more extensions at [bastndev.com/extensions](https://bastndev.com/exten
 
 Following VS Code best practices, Lynx Theme Pro uses semantic versioning for all releases.
 
+## [3.0.1] - 2025-09-01
+
+### Improved
+- Enhanced Prettier icon color for better visibility and distinction in the editor interface, applying a more vibrant and recognizable hue to improve user experience when using the Prettier extension.
+- Updated warning colors to a darker yellow shade approaching orange (e.g., `#D97706`) across relevant UI elements like `list.warningForeground`, `minimap.warningHighlight`, and `notificationsWarningIcon.foreground` for improved contrast and reduced eye strain in warning scenarios.
+- Refined terminal text color to `#ffffff` for enhanced readability and clarity in the terminal panel, ensuring better visibility in dark environments.
+
+### Fixed
+- Minor adjustments to color consistency in warning-related elements to align with the updated darker yellow-orange palette.
+
 ## [3.0.0] - 2025-08-28
 
 ### Added
