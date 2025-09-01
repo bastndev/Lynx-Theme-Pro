@@ -19,7 +19,10 @@ Discover more extensions at [bastndev.com/extensions](https://bastndev.com/exten
 
 Following VS Code best practices, Lynx Theme Pro uses semantic versioning for all releases.
 
-## [3.0.1] - 2025-09-01
+## [3.0.2] - 2025-09-01
+
+### Changed
+- Updated the color of AI suggestions appearing in the code (editor) from green to transparent blue for improved visibility and reduced distraction, without affecting the panel display.
 
 ### Improved
 - Enhanced Prettier icon color for better visibility and distinction in the editor interface, applying a more vibrant and recognizable hue to improve user experience when using the Prettier extension.
