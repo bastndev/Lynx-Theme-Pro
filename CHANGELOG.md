@@ -13,11 +13,15 @@ A complete and versatile theme collection designed for optimal coding experience
 
 Discover more extensions at [bastndev.com/extensions](https://bastndev.com/extensions)
 
----
+
 
 ## Changelog
 
 Following VS Code best practices, Lynx Theme Pro uses semantic versioning for all releases.
+
+</br>
+
+<!-- --- -->
 
 ## [3.0.2] - 2025-09-01
 
@@ -31,6 +35,8 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 
 ### Fixed
 - Minor adjustments to color consistency in warning-related elements to align with the updated darker yellow-orange palette.
+
+---
 
 ## [3.0.0] - 2025-08-28
 
@@ -93,6 +99,8 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 ### Changed
 - Made the folder icon for "icon/icons" more turquoise, updating its color from blue for better distinction
 
+---
+
 ## [2.7.1] - 2025-08-02
 
 ### Changed
@@ -103,6 +111,8 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 - Introduced dark mode support for AstroJS/Astro for a better coding experience in low-light environments
 - Added a new dark mode icon for "SVG" to enhance visibility in dark themes
 
+---
+
 ## [2.6.0] - 2025-08-01
 
 ### Improved
@@ -110,8 +120,6 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
   - Updated scrollbar slider background with improved transparency
   - Refined hover and active states for smoother interactions
   - Optimized shadow effects for better depth perception
-
----
 
 - Improved editor find/search functionality colors:
   - Enhanced find match background and border colors for better contrast
@@ -124,7 +132,7 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
   - `minimap.findMatchHighlight`
   - `editorOverviewRuler.rangeHighlightForeground`
 
-
+---
 
 ## [2.5.0] - 2025-07-28
 
@@ -139,6 +147,8 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 - Added `ARCHITECTURE.md` to document the project's structure and design decisions
 - Added `CODE_OF_CONDUCT.md` and `CONTRIBUTING.md` files to guide community contributions and maintain project standards
 
+---
+
 ## [2.1.1] - 2025-07-26
 
 ### Added
@@ -150,6 +160,8 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 ### Fixed
 - Minor formatting corrections in configuration files
 
+---
+
 ## [2.1.0] - 2025-07-25
 
 ### Added
@@ -160,6 +172,8 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 - 🐛 Resolved icon issue by updating the JSON configuration path from `./icon-themes/lynx-pro-icons.json` to `./icon-themes/lynx-icons.json`
 - Minor formatting corrections in documentation files
 
+---
+
 ## [2.0.9] - 2025-07-24
 
 ### Changed
@@ -168,6 +182,8 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 
 ### Added
 - Added `CODE_OF_CONDUCT.md` and `CONTRIBUTING.md` files to the project
+
+---
 
 ## [2.0.6] - 2025-07-23
 
@@ -182,6 +198,8 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 - Minor bugs fixed to improve overall stability
 - Theme variant switching experience optimized
 
+---
+
 ## [2.0.0] - 2025-06-18
 
 ### Added
@@ -191,6 +209,8 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 ### Fixed
 - Night Theme: Complete refactor for better readability and eye comfort
 - Enhanced color accuracy across all theme variants
+
+---
 
 ## [1.9.6] - 2025-06-17
 
@@ -203,6 +223,8 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 - Light Theme: Better text visibility and reduced eye strain
 - Ghibli Theme: Enhanced color palette consistency and readability
 
+---
+
 ## [1.1.1] - 2025-06-15
 
 ### Changed
@@ -212,6 +234,8 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 ### Added
 - Prettier integration support for better code formatting experience
 
+---
+
 ## [0.6.0] - 2025-05-31
 
 ### Added
@@ -220,15 +244,21 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 ### Fixed
 - Light Theme: Improved readability and contrast adjustments
 
+---
+
 ## [0.2.2] - 2025-04-24
 
 ### Added
 - **Lynx Light Theme**: Professional light variant for bright environment coding
 
+---
+
 ## [0.0.2] - 2025-04-22
 
 ### Added
 - **Lynx Dark Theme Pro**: Enhanced dark theme with professional color scheme and improved syntax highlighting
+
+---
 
 ## [0.0.1] - 2025-03-13
 
