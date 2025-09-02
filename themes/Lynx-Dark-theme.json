@@ -4,7 +4,7 @@
   "semanticHighlighting": true,
   "name": "Lynx Dark Theme",
   "type": "dark",
-  
+
   "colors": {
     // TODO: MENU STATUS BAR MARK: - [TOP]
     "titleBar.activeBackground":             "#0d0d0d",    // - Title bar bg 

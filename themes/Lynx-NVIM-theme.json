@@ -4,7 +4,7 @@
   "semanticHighlighting": true,
   "name": "Lynx Nvim Theme",
   "type": "dark",
-  
+
   "colors": {
     // TODO: MENU STATUS BAR MARK: - [TOP]
     "titleBar.activeBackground":             "#161a1d",    // - Title bar bg
@@ -35,7 +35,7 @@
     "activityBar.border":                    "#161a1d",    // - Activity bar border
     "activityBarTop.inactiveForeground":     "#64748B",    // - No selection icon
     "activityBarBadge.background":           "#0EA5E9",    // - Badge bg
-    "activityBarBadge.foreground":           "#ffffff",    // - Badge text
+    "activityBarBadge.foreground":           "#000000",    // - Badge text
     "activityBar.activeBorder":              "#0EA5E9",    // - Active item border
     "activityBar.activeBackground":          "#0EA5E920",  // - Active item
     "activityBar.activeFocusBorder":         "#0EA5E9",    // - Active item focus border
@@ -82,12 +82,12 @@
     "gitDecoration.conflictingResourceForeground":   "#F59E0B",    // - Merge conflicts
     "gitDecoration.deletedResourceForeground":       "#EF4444",    // - Deleted files
     "gitDecoration.ignoredResourceForeground":       "#64748B80",  // - Ignored files
-    "gitDecoration.untrackedResourceForeground":     "#0EA5E9",    // - Untracked files
-    "gitDecoration.stageModifiedResourceForeground": "#fae36d",    // - Staged modified files
-    "gitDecoration.stageDeletedResourceForeground":  "#fae36d",    // - Staged deleted files
-    "gitDecoration.submoduleResourceForeground":     "#fae36d",    // - Submodules
-    "gitDecoration.renamedResourceForeground":       "#fae36d",    // - Renamed files
-    "gitDecoration.addedResourceForeground":         "#fae36d",    // - Added files
+    "gitDecoration.untrackedResourceForeground":     "#10B981",    // - Untracked files
+    "gitDecoration.stageModifiedResourceForeground": "#f5dc4d",    // - Staged modified files
+    "gitDecoration.stageDeletedResourceForeground":  "#f5dc4d",    // - Staged deleted files
+    "gitDecoration.submoduleResourceForeground":     "#f5dc4d",    // - Submodules
+    "gitDecoration.renamedResourceForeground":       "#f5dc4d",    // - Renamed files
+    "gitDecoration.addedResourceForeground":         "#f5dc4d",    // - Added files
     "editorGhostText.foreground":                    "#64748B",    // - git commit txt
     "editorGutter.deletedBackground":                "#EF4444",    // - Delete code
     "editorGutter.modifiedBackground":               "#0EA5E9",    // - Modified code
@@ -190,7 +190,7 @@
     "editorWidget.foreground":               "#E2E8F0",    // - Widget text
 
     "peekViewTitleDescription.foreground":   "#0EA5E9",    // - Select copilot
-    "editorGutter.addedBackground":          "#10B981",    // - Added code
+    "editorGutter.addedBackground":          "#1E293B",    // - Added lines bg ===
     "inputOption.activeBackground":          "#0EA5E950",  // - Active option bg
     "inputOption.activeForeground":          "#F8FAFC",    // - Active option text
 
@@ -495,24 +495,24 @@
       "name": "Comment Line",
       "scope": ["comment.line", "punctuation.definition.comment"],
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#a1a6af"
+      "fontStyle": "italic",
+      "foreground": "#64748B"
       }
     },
     {
       "name": "Comment Block",
       "scope": "comment.block",
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#a1a6af"
+      "fontStyle": "italic",
+      "foreground": "#64748B"
       }
     },
     {
       "name": "Comment Documentation",
       "scope": ["comment.block.documentation", "comment.line.documentation"],
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#a1a6af"
+      "fontStyle": "italic",
+      "foreground": "#94A3B8"
       }
     },
 
@@ -1119,7 +1119,7 @@
       "name": "Markdown Fenced Code Language",
       "scope": ["text.html.markdown fenced_code.block.language"],
       "settings": {
-        "foreground": "#8B5CF6"
+        "foreground": "#5cf6c3"
       }
     },
     {
@@ -1171,16 +1171,16 @@
       "name": "Markdown Punctuation Definition Heading",
       "scope": ["text.html.markdown punctuation.definition.heading"],
       "settings": {
-        "foreground": "#38BDF8",
-        "fontStyle": "bold"
+      "foreground": "#8B5CF6",
+      "fontStyle": "bold"
       }
     },
     {
       "name": "Markdown Heading",
       "scope": ["text.html.markdown entity.name.section"],
       "settings": {
-        "foreground": "#38BDF8",
-        "fontStyle": "bold"
+      "foreground": "#a683f8",
+      "fontStyle": "bold"
       }
     },
     {

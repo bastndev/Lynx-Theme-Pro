@@ -4,7 +4,7 @@
   "semanticHighlighting": true,
   "name": "Lynx Light Theme",
   "type": "light",
-  
+
   "colors": {
     // TODO: MENU STATUS BAR MARK: - [TOP]
     "titleBar.activeBackground":             "#eaeaea",    // - Title bar bg 
@@ -82,7 +82,7 @@
     "gitDecoration.conflictingResourceForeground":   "#00a1fe90",  // - Merge conflicts
     "gitDecoration.deletedResourceForeground":       "#f07177f5",  // - Deleted files
     "gitDecoration.ignoredResourceForeground":       "#61616190",  // - Ignored files
-    "gitDecoration.untrackedResourceForeground":     "#006837",    // - Untracked files
+    "gitDecoration.untrackedResourceForeground":     "#287ce8",    // - Untracked files
     "gitDecoration.stageModifiedResourceForeground": "#f0ae34",    // - Staged modified files
     "gitDecoration.stageDeletedResourceForeground":  "#f0ae34",    // - Staged deleted files
     "gitDecoration.submoduleResourceForeground":     "#f0ae34",    // - Submodules
