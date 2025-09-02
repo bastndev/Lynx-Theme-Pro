@@ -1119,7 +1119,7 @@
       "name": "Markdown Fenced Code Language",
       "scope": ["text.html.markdown fenced_code.block.language"],
       "settings": {
-        "foreground": "#8B5CF6"
+        "foreground": "#5cf6c3"
       }
     },
     {
@@ -1171,16 +1171,16 @@
       "name": "Markdown Punctuation Definition Heading",
       "scope": ["text.html.markdown punctuation.definition.heading"],
       "settings": {
-        "foreground": "#38BDF8",
-        "fontStyle": "bold"
+      "foreground": "#8B5CF6",
+      "fontStyle": "bold"
       }
     },
     {
       "name": "Markdown Heading",
       "scope": ["text.html.markdown entity.name.section"],
       "settings": {
-        "foreground": "#38BDF8",
-        "fontStyle": "bold"
+      "foreground": "#a683f8",
+      "fontStyle": "bold"
       }
     },
     {
