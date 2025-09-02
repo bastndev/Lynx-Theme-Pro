@@ -23,6 +23,14 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 
 <!-- --- -->
 
+## [3.0.3] - 2025-09-02
+
+### Improved
+- Enhanced Git-related colors for better visibility in diff views, including added (green), modified (yellow), and deleted (red) lines, to improve code review experience across all theme variants.
+- Refined README file colors, such as headings, links, and code blocks, for enhanced readability and aesthetic appeal in markdown previews, ensuring consistent contrast and comfort in both dark and light modes.
+
+---
+
 ## [3.0.2] - 2025-09-01
 
 ### Changed
