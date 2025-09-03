@@ -292,7 +292,7 @@
     // TODO: -  BG STORE VSCODE MARK:[+]
     "textBlockQuote.background":             "#f8f0e5",    // - Block quote bg
     "textBlockQuote.border":                 "#d4c4a8",    // - Block quote border LEFT
-    "textCodeBlock.background":              "#f8f0e5",    // - Code block bg 
+    "textCodeBlock.background":              "#fff4eb",    // - Code block bg 
 
     // ---- -- - LINES
     "titleBar.border":                       "#00000000",    // - Title bar LINE TOP -T-
