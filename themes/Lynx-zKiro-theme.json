@@ -237,7 +237,7 @@
     "terminal.ansiBrightRed":                "#ff7a85",    // - Terminal bright red color
     "terminal.ansiBrightWhite":              "#ffffff",    // - Terminal bright white color
     "terminal.ansiBrightYellow":             "#f5d76e",    // - Terminal bright yellow color
-    "terminal.ansiCyan":                     "#4dc9ff",    // - Terminal cyan color
+    "terminal.ansiCyan":                     "#2bc5d2",    // - Terminal cyan color
     "terminal.ansiGreen":                    "#b080ff",    // - Terminal green color
     "terminal.ansiMagenta":                  "#c4a5ff",    // - Terminal magenta color
     "terminal.ansiRed":                      "#ff6b73",    // - Terminal red color
@@ -290,7 +290,7 @@
     "textLink.activeForeground":             "#b080ff",    // - Active link color - HOVER
 
     // TODO: -  BG STORE VSCODE MARK:[+]
-    "textBlockQuote.background":             "#2a1f32",    // - Block quote bg
+    "textBlockQuote.background":             "#2a1f32b8",  // - Block quote bg
     "textBlockQuote.border":                 "#4f3f63",    // - Block quote border LEFT
     "textCodeBlock.background":              "#1f1926",    // - Code block bg 
 
