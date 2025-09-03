@@ -23,6 +23,14 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 
 <!-- --- -->
 
+## [3.1.0] - 2025-09-03
+
+### Improved
+- Enhanced README box background with subtle gradients and improved contrast for better readability and a more polished appearance across all theme variants.
+- Refined terminal text colors, including foreground and background shades, to boost visibility, reduce eye strain, and ensure optimal readability in both dark and light environments.
+
+---
+
 ## [3.0.3] - 2025-09-02
 
 ### Improved
