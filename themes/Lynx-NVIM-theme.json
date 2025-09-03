@@ -290,7 +290,7 @@
     "textLink.activeForeground":             "#38BDF8",    // - Active link color - HOVER
 
     // TODO: -  BG STORE VSCODE MARK:[+]
-    "textBlockQuote.background":             "#1a1e22b8",    // - Block quote bg
+    "textBlockQuote.background":             "#1a1e22b8",  // - Block quote bg
     "textBlockQuote.border":                 "#475569",    // - Block quote border LEFT
     "textCodeBlock.background":              "#1a1e22",    // - Code block bg 
 
