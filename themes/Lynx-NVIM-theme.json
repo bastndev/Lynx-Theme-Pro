@@ -1110,7 +1110,7 @@
       "scope": ["invalid.deprecated"],
       "settings": {
         "foreground": "#FED7AA",
-        "fontStyle": "strikethrough"
+        // "fontStyle": "strikethrough"
       }
     },
 
