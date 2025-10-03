@@ -190,7 +190,7 @@
     "editorWidget.foreground":               "#f0f0f0",    // - AI Select text & ctrl+p
 
     "peekViewTitleDescription.foreground":   "#b080ff",    // - Select copilot
-    "editorGutter.addedBackground":          "#b080ff40",  // - Added lines bg ===
+    "editorGutter.addedBackground":          "#10B981",    // - Added lines bg ===
     "inputOption.activeBackground":          "#b080ff60",  // - Active option bg
     "inputOption.activeForeground":          "#ffffff",    // - Active option text
 
