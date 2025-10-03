@@ -1920,6 +1920,12 @@
     "folder-sass-open": {
       "iconPath": "../assets/icons/folder-sass-open.svg"
     },
+    "folder-scss": {
+      "iconPath": "../assets/icons/folder-scss.svg"
+    },
+    "folder-scss-open": {
+      "iconPath": "../assets/icons/folder-scss-open.svg"
+    },
     "folder-television": {
       "iconPath": "../assets/icons/folder-television.svg"
     },
@@ -3582,10 +3588,10 @@
     ".sass": "folder-sass",
     "_sass": "folder-sass",
     "__sass__": "folder-sass",
-    "scss": "folder-sass",
-    ".scss": "folder-sass",
-    "_scss": "folder-sass",
-    "__scss__": "folder-sass",
+    "scss": "folder-scss",
+    ".scss": "folder-scss",
+    "_scss": "folder-scss",
+    "__scss__": "folder-scss",
     "tv": "folder-television",
     ".tv": "folder-television",
     "_tv": "folder-television",
@@ -6753,10 +6759,10 @@
     ".sass": "folder-sass-open",
     "_sass": "folder-sass-open",
     "__sass__": "folder-sass-open",
-    "scss": "folder-sass-open",
-    ".scss": "folder-sass-open",
-    "_scss": "folder-sass-open",
-    "__scss__": "folder-sass-open",
+    "scss": "folder-scss-open",
+    ".scss": "folder-scss-open",
+    "_scss": "folder-scss-open",
+    "__scss__": "folder-scss-open",
     "tv": "folder-television-open",
     ".tv": "folder-television-open",
     "_tv": "folder-television-open",
