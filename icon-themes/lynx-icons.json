@@ -3479,9 +3479,17 @@
     },
     "folder-keymaps-open": {
       "iconPath": "../assets/icons/folder-keymaps-open.svg"
+    },
+    "folder-shortcuts": {
+      "iconPath": "../assets/icons/folder-shortcuts.svg"
+    },
+    "folder-shortcuts-open": {
+      "iconPath": "../assets/icons/folder-shortcuts-open.svg"
     }
   },
   "folderNames": {
+    "shortcuts": "folder-shortcuts",
+    "shortcut": "folder-shortcuts",
     "gifs": "folder-gif",
     "gif": "folder-gif",
     "keymaps": "folder-keymaps",
@@ -6653,6 +6661,8 @@
     "__blender-models__": "folder-blender"
   },
   "folderNamesExpanded": {
+    "shortcuts": "folder-shortcuts-open",
+    "shortcut": "folder-shortcuts-open",
     "gifs": "folder-gif-open",
     "gif": "folder-gif-open",
     "keymaps": "folder-keymaps-open",
