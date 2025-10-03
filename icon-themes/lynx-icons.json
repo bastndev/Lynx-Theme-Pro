@@ -108,6 +108,9 @@
     "robot": {
       "iconPath": "../assets/icons/robot.svg"
     },
+    "scss": {
+      "iconPath": "../assets/icons/scss.svg"
+    },
     "sass": {
       "iconPath": "../assets/icons/sass.svg"
     },
@@ -9837,7 +9840,7 @@
     "rst": "markdown",
     "blink": "blink",
     "css": "css",
-    "scss": "sass",
+    "scss": "scss",
     "sass": "sass",
     "less": "less",
     "json": "json",
