@@ -108,6 +108,9 @@
     "robot": {
       "iconPath": "../assets/icons/robot.svg"
     },
+    "scss": {
+      "iconPath": "../assets/icons/scss.svg"
+    },
     "sass": {
       "iconPath": "../assets/icons/sass.svg"
     },
@@ -1917,6 +1920,12 @@
     "folder-sass-open": {
       "iconPath": "../assets/icons/folder-sass-open.svg"
     },
+    "folder-scss": {
+      "iconPath": "../assets/icons/folder-scss.svg"
+    },
+    "folder-scss-open": {
+      "iconPath": "../assets/icons/folder-scss-open.svg"
+    },
     "folder-television": {
       "iconPath": "../assets/icons/folder-television.svg"
     },
@@ -3470,9 +3479,17 @@
     },
     "folder-keymaps-open": {
       "iconPath": "../assets/icons/folder-keymaps-open.svg"
+    },
+    "folder-shortcuts": {
+      "iconPath": "../assets/icons/folder-shortcuts.svg"
+    },
+    "folder-shortcuts-open": {
+      "iconPath": "../assets/icons/folder-shortcuts-open.svg"
     }
   },
   "folderNames": {
+    "shortcuts": "folder-shortcuts",
+    "shortcut": "folder-shortcuts",
     "gifs": "folder-gif",
     "gif": "folder-gif",
     "keymaps": "folder-keymaps",
@@ -3579,10 +3596,10 @@
     ".sass": "folder-sass",
     "_sass": "folder-sass",
     "__sass__": "folder-sass",
-    "scss": "folder-sass",
-    ".scss": "folder-sass",
-    "_scss": "folder-sass",
-    "__scss__": "folder-sass",
+    "scss": "folder-scss",
+    ".scss": "folder-scss",
+    "_scss": "folder-scss",
+    "__scss__": "folder-scss",
     "tv": "folder-television",
     ".tv": "folder-television",
     "_tv": "folder-television",
@@ -6644,6 +6661,8 @@
     "__blender-models__": "folder-blender"
   },
   "folderNamesExpanded": {
+    "shortcuts": "folder-shortcuts-open",
+    "shortcut": "folder-shortcuts-open",
     "gifs": "folder-gif-open",
     "gif": "folder-gif-open",
     "keymaps": "folder-keymaps-open",
@@ -6750,10 +6769,10 @@
     ".sass": "folder-sass-open",
     "_sass": "folder-sass-open",
     "__sass__": "folder-sass-open",
-    "scss": "folder-sass-open",
-    ".scss": "folder-sass-open",
-    "_scss": "folder-sass-open",
-    "__scss__": "folder-sass-open",
+    "scss": "folder-scss-open",
+    ".scss": "folder-scss-open",
+    "_scss": "folder-scss-open",
+    "__scss__": "folder-scss-open",
     "tv": "folder-television-open",
     ".tv": "folder-television-open",
     "_tv": "folder-television-open",
@@ -9837,7 +9856,7 @@
     "rst": "markdown",
     "blink": "blink",
     "css": "css",
-    "scss": "sass",
+    "scss": "scss",
     "sass": "sass",
     "less": "less",
     "json": "json",

@@ -23,6 +23,17 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 
 <!-- --- -->
 
+## [3.2.0] - 2025-10-03
+
+### Improved
+- Enhanced SCSS icons for better visual clarity and distinction in the file explorer, applying modern styling and improved color contrast for easier file identification.
+- Refined button colors across all theme variants for improved visual hierarchy and user interaction, including primary, secondary, and hover states with optimized contrast ratios for better accessibility and modern aesthetic appeal.
+- Updated floating AI input colors for enhanced readability and modern appearance, including background, foreground, and border styling for better integration with the editor interface.
+- Modified loading line/progress bar colors to provide clearer visual feedback during AI operations, with improved contrast and animation visibility across all theme variants.
+- Refined bracket pair colors (`{}`) in NVIM theme for better code structure visualization and improved nesting level distinction with optimized color contrast.
+
+---
+
 ## [3.1.0] - 2025-09-03
 
 ### Improved

@@ -63,9 +63,9 @@
     "sideBarSectionHeader.foreground":       "#0EA5E9",    // - Css text and BOT txt
 
     // --- -- - Buttons
-    "button.background":                     "#0EA5E9",    // - Button bg
+    "button.background":                     "#007acc",    // - Button bg
     "button.foreground":                     "#0F172A",    // - Button text
-    "button.hoverBackground":                "#0284C7",    // - Button hover
+    "button.hoverBackground":                "#005a9c",    // - Button hover
     "button.secondaryBackground":            "#334155",    // - Secondary button bg
     "button.secondaryForeground":            "#0EA5E9",    // - Secondary button text
     "button.secondaryHoverBackground":       "#475569",    // - Secondary button hover
@@ -190,7 +190,7 @@
     "editorWidget.foreground":               "#E2E8F0",    // - Widget text
 
     "peekViewTitleDescription.foreground":   "#0EA5E9",    // - Select copilot
-    "editorGutter.addedBackground":          "#1E293B",    // - Added lines bg ===
+    "editorGutter.addedBackground":          "#10B981",    // - Added lines bg ===
     "inputOption.activeBackground":          "#0EA5E950",  // - Active option bg
     "inputOption.activeForeground":          "#F8FAFC",    // - Active option text
 
@@ -329,7 +329,7 @@
     "editorBracketHighlight.foreground2":   "#0EA5E9",    // - Bracket highlight color 2
     "editorBracketHighlight.foreground3":   "#10B981",    // - Bracket highlight color 3
     "editorBracketHighlight.foreground4":   "#F59E0B",    // - Bracket highlight color 4
-    "editorBracketHighlight.foreground5":   "#EF4444",    // - Bracket highlight color 5
+    "editorBracketHighlight.foreground5":   "#ffb3c1",    // - Bracket highlight color 5
     "editorBracketHighlight.foreground6":   "#EC4899",    // - Bracket highlight color 6
     "editorBracketMatch.background":         "#475569",    // - Bracket match bg
     "editorBracketMatch.border":             "#94A3B8",    // - Bracket match border 
@@ -1110,7 +1110,7 @@
       "scope": ["invalid.deprecated"],
       "settings": {
         "foreground": "#FED7AA",
-        "fontStyle": "strikethrough"
+        // "fontStyle": "strikethrough"
       }
     },
 

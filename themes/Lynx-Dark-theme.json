@@ -63,9 +63,9 @@
     "sideBarSectionHeader.foreground":       "#57b689",    // - Css text and BOT txt
 
     // --- -- - Buttons
-    "button.background":                     "#57b689",    // - Button bg
+    "button.background":                     "#3d8b60",    // - Button bg
     "button.foreground":                     "#0d0d0d",    // - Button text
-    "button.hoverBackground":                "#6bc59a",    // - Button hover
+    "button.hoverBackground":                "#52b47e",    // - Button hover
     "button.secondaryBackground":            "#1a1a1a",    // - Secondary button bg
     "button.secondaryForeground":            "#57b689",    // - Secondary button text
     "button.secondaryHoverBackground":       "#262626",    // - Secondary button hover
@@ -190,7 +190,7 @@
     "editorWidget.foreground":               "#f0f0f0",    // - AI Select text & ctrl+p
 
     "peekViewTitleDescription.foreground":   "#57b689",    // - Select copilot
-    "editorGutter.addedBackground":          "#57b68940",  // - Added lines bg ===
+    "editorGutter.addedBackground":          "#13ff3e",    // - Added lines bg
     "inputOption.activeBackground":          "#57b68960",  // - Active option bg
     "inputOption.activeForeground":          "#ffffff",    // - Active option text
 
@@ -1110,7 +1110,7 @@
       "scope": ["invalid.deprecated"],
       "settings": {
         "foreground": "#fb7185",
-        "fontStyle": "strikethrough"
+        // "fontStyle": "strikethrough"
       }
     },
 
