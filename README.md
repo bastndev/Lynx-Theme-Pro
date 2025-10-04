@@ -79,4 +79,4 @@ If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/ba
   
   **Enjoy 🎉 Your (Lynx theme Pro) are now installed!**  
   *If you find any bugs or have feedback, you can [open an issue](https://github.com/bastndev/Lynx-Theme-Pro/issues)*
-</div
+</div>
