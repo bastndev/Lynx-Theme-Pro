@@ -12,7 +12,7 @@
 <br>
 
 <details>
-<summary align="center">𝗖𝗹𝗶𝗰𝗸 (𝗟𝘆𝗻𝘅 𝗧𝗵𝗲𝗺𝗲 𝗣𝗿𝗼)</summary>
+<summary align="center">(𝗖𝗹𝗶𝗰𝗸) 𝗟𝘆𝗻𝘅 𝗧𝗵𝗲𝗺𝗲 𝗣𝗿𝗼</summary>
 
 ### 1. DARK (Theme)
  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/dark-theme.png" alt="DARK Theme Screenshot" width="100%">
