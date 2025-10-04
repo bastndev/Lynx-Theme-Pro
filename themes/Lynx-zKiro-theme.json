@@ -496,7 +496,7 @@
       "scope": ["comment.line", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic bold",
-        "foreground": "#ffffffb3"
+        "foreground": "#64748B"
       }
     },
     {
@@ -504,7 +504,7 @@
       "scope": "comment.block",
       "settings": {
         "fontStyle": "italic bold",
-        "foreground": "#ffffffb3"
+        "foreground": "#64748B"
       }
     },
     {
@@ -512,7 +512,7 @@
       "scope": ["comment.block.documentation", "comment.line.documentation"],
       "settings": {
         "fontStyle": "italic bold",
-        "foreground": "#ffffffb3"
+        "foreground": "#94A3B8"
       }
     },
 
