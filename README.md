@@ -9,8 +9,7 @@
   <a href="https://github.com/bastndev/Lynx-Theme-Pro"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
 </p>
 
-</br>
-
+<br/>
 
 <details>
 <summary align="center">𝗖𝗹𝗶𝗰𝗸 (𝗟𝘆𝗻𝘅 𝗧𝗵𝗲𝗺𝗲 𝗣𝗿𝗼)</summary>
@@ -41,9 +40,9 @@
 
 Launch _Quick Open_
 
-- <img src="https://raw.githubusercontent.com/bastndev/bastndev/refs/heads/main/.github/assets/OS/linux.png" width=16 height=16/> Linux `Ctrl+P`
-- <img src="https://raw.githubusercontent.com/bastndev/bastndev/refs/heads/main/.github/assets/OS/macOs.ico" width=16 height=16/> macOS `⌘P`
-- <img src="https://raw.githubusercontent.com/bastndev/bastndev/refs/heads/main/.github/assets/OS/windows.ico" width=16 height=16/> Windows `Ctrl+P`
+- <img src="https://raw.githubusercontent.com/bastndev/bastndev/refs/heads/main/.github/assets/OS/linux.png" width="16" height="16"/> Linux `Ctrl+P`
+- <img src="https://raw.githubusercontent.com/bastndev/bastndev/refs/heads/main/.github/assets/OS/macOs.ico" width="16" height="16"/> macOS `⌘P`
+- <img src="https://raw.githubusercontent.com/bastndev/bastndev/refs/heads/main/.github/assets/OS/windows.ico" width="16" height="16"/> Windows `Ctrl+P`
 
 Paste the following command and press `Enter`:
 
@@ -66,7 +65,7 @@ If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/ba
 - 🔴 [Youtube](https://www.youtube.com/@bastndev?sub_confirmation=1) - Code, Software and development insights.
 - 💼 [Linkedin](https://www.linkedin.com/in/bastndev) - Professional networking and career updates.
 
-</br>
+<br/>
 
 | Icon                                                                                                                                                                                                                                     | Name                                                           | Description                                                                                                                                                                                        |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -79,4 +78,4 @@ If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/ba
   
   **Enjoy 🎉 Your (Lynx theme Pro) are now installed!**  
   *If you find any bugs or have feedback, you can [open an issue](https://github.com/bastndev/Lynx-Theme-Pro/issues)*
-</div
+</div>
