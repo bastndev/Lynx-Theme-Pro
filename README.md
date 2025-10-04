@@ -74,7 +74,7 @@ If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/ba
 | [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.compare-code) | [Compare Code](https://github.com/bastndev/Compare-Code)       | Lets you compare code in a professional, fast, and clear way. With a modern and intuitive interface, it's ideal for developers looking to boost their productivity. |
 
 <div align="center">
-  <p><strong>Made with 🧡 by <a href="https://bastndev.com/extensions">Gohit Bastian</a></strong></p>
+  <p><strong>Made with 🧡 by <a href="https://bastndev.com/extensions">@bastndev</a></strong></p>
   
   **Enjoy 🎉 Your (Lynx theme Pro) are now installed!**  
   *If you find any bugs or have feedback, you can [open an issue](https://github.com/bastndev/Lynx-Theme-Pro/issues)*
