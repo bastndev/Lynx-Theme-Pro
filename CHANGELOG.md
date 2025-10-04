@@ -21,6 +21,14 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 <br>
 
 <!-- --- -->
+## [3.2.2] - 2025-10-04
+
+### Fixed
+
+- Corrected button color inconsistencies across all theme variants, ensuring proper contrast ratios and visual hierarchy for primary, secondary, hover, and active states in both dark and light modes.
+
+
+---
 
 ## [3.2.1] - 2025-10-03
 
