@@ -93,7 +93,7 @@ You can enhance any of our current themes:
 
 **Icon files location**: `./assets/icons/`
 
-**Configuration**: `./icon-themes/lynx-pro-icons.json`
+**Configuration**: `./icon-themes/lynx-icons.json`
 
 **Naming conventions**:
 - Files: `name-file.svg`
