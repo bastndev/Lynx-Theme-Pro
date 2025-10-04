@@ -63,9 +63,9 @@
     "sideBarSectionHeader.foreground":       "#b080ff",    // - Css text and BOT txt
 
     // --- -- - Buttons
-    "button.background":                     "#8e47ff",    // - Button bg
+    "button.background":                     "#ab77ff",    // - Button bg
     "button.foreground":                     "#19161d",    // - Button text
-    "button.hoverBackground":                "#995bfd",    // - Button hover
+    "button.hoverBackground":                "#a065ff",    // - Button hover
     "button.secondaryBackground":            "#2a1f32",    // - Secondary button bg
     "button.secondaryForeground":            "#b080ff",    // - Secondary button text
     "button.secondaryHoverBackground":       "#3a2e4a",    // - Secondary button hover
