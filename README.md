@@ -9,7 +9,7 @@
   <a href="https://github.com/bastndev/Lynx-Theme-Pro"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
 </p>
 
-<br/>
+<br>
 
 <details>
 <summary align="center">𝗖𝗹𝗶𝗰𝗸 (𝗟𝘆𝗻𝘅 𝗧𝗵𝗲𝗺𝗲 𝗣𝗿𝗼)</summary>
@@ -65,7 +65,7 @@ If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/ba
 - 🔴 [Youtube](https://www.youtube.com/@bastndev?sub_confirmation=1) - Code, Software and development insights.
 - 💼 [Linkedin](https://www.linkedin.com/in/bastndev) - Professional networking and career updates.
 
-<br/>
+<br>
 
 | Icon                                                                                                                                                                                                                                     | Name                                                           | Description                                                                                                                                                                                        |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
