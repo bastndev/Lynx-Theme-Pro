@@ -77,6 +77,6 @@ If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/ba
 <div align="center">
   <p><strong>Made with 🧡 by <a href="https://bastndev.com/extensions">Gohit Bastian</a></strong></p>
   
-  **Enjoy 🎉 Your Lynx themes are now installed!**  
+  **Enjoy 🎉 Your (Lynx theme Pro) are now installed!**  
   *If you find any bugs or have feedback, you can [open an issue](https://github.com/bastndev/Lynx-Theme-Pro/issues)*
 </div
