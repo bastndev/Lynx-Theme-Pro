@@ -1286,6 +1286,84 @@
     },
     "yarn-lock": {
       "iconPath": "../assets/icons/light/yarn-lock.svg"
+    },
+    "flutter-file": {
+      "iconPath": "../assets/icons/dark/flutter-file.svg"
+    },
+    "bloc-file": {
+      "iconPath": "../assets/icons/dark/bloc-file.svg"
+    },
+    "getx-file": {
+      "iconPath": "../assets/icons/dark/getx-file.svg"
+    },
+    "riverpod-file": {
+      "iconPath": "../assets/icons/dark/riverpod-file.svg"
+    },
+    "mobx-file": {
+      "iconPath": "../assets/icons/dark/mobx-file.svg"
+    },
+    "state-file": {
+      "iconPath": "../assets/icons/dark/state-file.svg"
+    },
+    "service-file": {
+      "iconPath": "../assets/icons/dark/service-file.svg"
+    },
+    "module-file": {
+      "iconPath": "../assets/icons/dark/module-file.svg"
+    },
+    "getx-folder": {
+      "iconPath": "../assets/icons/dark/getx-folder.svg"
+    },
+    "getx-folder-open": {
+      "iconPath": "../assets/icons/dark/getx-folder-open.svg"
+    },
+    "mobx-folder": {
+      "iconPath": "../assets/icons/dark/mobx-folder.svg"
+    },
+    "mobx-folder-open": {
+      "iconPath": "../assets/icons/dark/mobx-folder-open.svg"
+    },
+    "riverpod-folder": {
+      "iconPath": "../assets/icons/dark/riverpod-folder.svg"
+    },
+    "riverpod-folder-open": {
+      "iconPath": "../assets/icons/dark/riverpod-folder-open.svg"
+    },
+    "state-folder": {
+      "iconPath": "../assets/icons/dark/state-folder.svg"
+    },
+    "state-folder-open": {
+      "iconPath": "../assets/icons/dark/state-folder-open.svg"
+    },
+    "lynx": {
+      "iconPath": "../assets/icons/dark/lynx-file.svg"
+    },
+    "lynx-dark": {
+      "iconPath": "../assets/icons/dark/lynx-file-dark.svg"
+    },
+    "lynx-config-file": {
+      "iconPath": "../assets/icons/dark/lynx-config-file.svg"
+    },
+    "lynx-config-file-dark": {
+      "iconPath": "../assets/icons/dark/lynx-config-file-dark.svg"
+    },
+    "folder-notification": {
+      "iconPath": "../assets/icons/dark/folder-notification.svg"
+    },
+    "folder-notification-open": {
+      "iconPath": "../assets/icons/dark/folder-notification-open.svg"
+    },
+    "folder-keymaps": {
+      "iconPath": "../assets/icons/dark/folder-keymaps.svg"
+    },
+    "folder-keymaps-open": {
+      "iconPath": "../assets/icons/dark/folder-keymaps-open.svg"
+    },
+    "folder-shortcuts": {
+      "iconPath": "../assets/icons/dark/folder-shortcuts.svg"
+    },
+    "folder-shortcuts-open": {
+      "iconPath": "../assets/icons/dark/folder-shortcuts-open.svg"
     }
   },
   "folderNames": {
