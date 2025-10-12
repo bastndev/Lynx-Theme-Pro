@@ -3409,7 +3409,7 @@
       "iconPath": "../assets/icons/dark/folder-root-open.svg"
     },
     "flutter-file": {
-      "iconPath": "../assets/icons/dark/flutter-folder.svg"
+      "iconPath": "../assets/icons/dark/flutter-file.svg"
     },
     "bloc-file": {
       "iconPath": "../assets/icons/dark/bloc-file.svg"
