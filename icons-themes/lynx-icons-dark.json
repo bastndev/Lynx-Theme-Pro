@@ -1,19 +1,19 @@
 {
   "iconDefinitions": {
     "git": {
-      "iconPath": "../assets/icons/git.svg"
+      "iconPath": "../assets/icons/dark/git.svg"
     },
     "github-actions-workflow": {
-      "iconPath": "../assets/icons/github-actions-workflow.svg"
+      "iconPath": "../assets/icons/dark/github-actions-workflow.svg"
     },
     "yaml": {
-      "iconPath": "../assets/icons/yaml.svg"
+      "iconPath": "../assets/icons/dark/yaml.svg"
     },
     "xml": {
-      "iconPath": "../assets/icons/xml-file.svg"
+      "iconPath": "../assets/icons/dark/xml-file.svg"
     },
     "matlab": {
-      "iconPath": "../assets/icons/matlab.svg"
+      "iconPath": "../assets/icons/dark/matlab.svg"
     },
     "settings": {
       "iconPath": "../assets/icons/settings.svg"
