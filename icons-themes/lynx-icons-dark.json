@@ -16,3475 +16,3475 @@
       "iconPath": "../assets/icons/dark/matlab.svg"
     },
     "settings": {
-      "iconPath": "../assets/icons/settings.svg"
+      "iconPath": "../assets/icons/dark/settings.svg"
     },
     "toml": {
-      "iconPath": "../assets/icons/toml.svg"
+      "iconPath": "../assets/icons/dark/toml.svg"
     },
     "toml_light": {
-      "iconPath": "../assets/icons/toml_light.svg"
+      "iconPath": "../assets/icons/dark/toml_light.svg"
     },
     "diff": {
-      "iconPath": "../assets/icons/diff.svg"
+      "iconPath": "../assets/icons/dark/diff.svg"
     },
     "json": {
-      "iconPath": "../assets/icons/json-file.svg"
+      "iconPath": "../assets/icons/dark/json-file.svg"
     },
     "blink": {
-      "iconPath": "../assets/icons/blink.svg"
+      "iconPath": "../assets/icons/dark/blink.svg"
     },
     "java": {
-      "iconPath": "../assets/icons/java.svg"
+      "iconPath": "../assets/icons/dark/java.svg"
     },
     "razor": {
-      "iconPath": "../assets/icons/razor.svg"
+      "iconPath": "../assets/icons/dark/razor.svg"
     },
     "python": {
-      "iconPath": "../assets/icons/python-file.svg"
+      "iconPath": "../assets/icons/dark/python-file.svg"
     },
     "mojo": {
-      "iconPath": "../assets/icons/mojo.svg"
+      "iconPath": "../assets/icons/dark/mojo.svg"
     },
     "js": {
-      "iconPath": "../assets/icons/js.svg"
+      "iconPath": "../assets/icons/dark/js.svg"
     },
     "javascript": {
-      "iconPath": "../assets/icons/javascript-file.svg"
+      "iconPath": "../assets/icons/dark/javascript-file.svg"
     },
     "javascript-light": {
-      "iconPath": "../assets/icons/javascript.svg"
+      "iconPath": "../assets/icons/dark/javascript.svg"
     },
     "typescript": {
-      "iconPath": "../assets/icons/typescript-file.svg"
+      "iconPath": "../assets/icons/dark/typescript-file.svg"
     },
     "typescript-light": {
-      "iconPath": "../assets/icons/typescript.svg"
+      "iconPath": "../assets/icons/dark/typescript.svg"
     },
     "scala": {
-      "iconPath": "../assets/icons/scala.svg"
+      "iconPath": "../assets/icons/dark/scala.svg"
     },
     "handlebars": {
-      "iconPath": "../assets/icons/handlebars.svg"
+      "iconPath": "../assets/icons/dark/handlebars.svg"
     },
     "perl": {
-      "iconPath": "../assets/icons/perl.svg"
+      "iconPath": "../assets/icons/dark/perl.svg"
     },
     "haxe": {
-      "iconPath": "../assets/icons/haxe.svg"
+      "iconPath": "../assets/icons/dark/haxe.svg"
     },
     "puppet": {
-      "iconPath": "../assets/icons/puppet.svg"
+      "iconPath": "../assets/icons/dark/puppet.svg"
     },
     "elixir": {
-      "iconPath": "../assets/icons/elixir.svg"
+      "iconPath": "../assets/icons/dark/elixir.svg"
     },
     "livescript": {
-      "iconPath": "../assets/icons/livescript.svg"
+      "iconPath": "../assets/icons/dark/livescript.svg"
     },
     "erlang": {
-      "iconPath": "../assets/icons/erlang.svg"
+      "iconPath": "../assets/icons/dark/erlang.svg"
     },
     "twig": {
-      "iconPath": "../assets/icons/twig.svg"
+      "iconPath": "../assets/icons/dark/twig.svg"
     },
     "julia": {
-      "iconPath": "../assets/icons/julia.svg"
+      "iconPath": "../assets/icons/dark/julia.svg"
     },
     "elm": {
-      "iconPath": "../assets/icons/elm.svg"
+      "iconPath": "../assets/icons/dark/elm.svg"
     },
     "purescript": {
-      "iconPath": "../assets/icons/purescript.svg"
+      "iconPath": "../assets/icons/dark/purescript.svg"
     },
     "stylus": {
-      "iconPath": "../assets/icons/stylus.svg"
+      "iconPath": "../assets/icons/dark/stylus.svg"
     },
     "nunjucks": {
-      "iconPath": "../assets/icons/nunjucks.svg"
+      "iconPath": "../assets/icons/dark/nunjucks.svg"
     },
     "pug": {
-      "iconPath": "../assets/icons/pug.svg"
+      "iconPath": "../assets/icons/dark/pug.svg"
     },
     "robot": {
-      "iconPath": "../assets/icons/robot.svg"
+      "iconPath": "../assets/icons/dark/robot.svg"
     },
     "scss": {
-      "iconPath": "../assets/icons/scss.svg"
+      "iconPath": "../assets/icons/dark/scss.svg"
     },
     "sass": {
-      "iconPath": "../assets/icons/sass.svg"
+      "iconPath": "../assets/icons/dark/sass.svg"
     },
     "less": {
-      "iconPath": "../assets/icons/less.svg"
+      "iconPath": "../assets/icons/dark/less.svg"
     },
     "css": {
-      "iconPath": "../assets/icons/css-file.svg"
+      "iconPath": "../assets/icons/dark/css-file.svg"
     },
     "visualstudio": {
-      "iconPath": "../assets/icons/visualstudio.svg"
+      "iconPath": "../assets/icons/dark/visualstudio.svg"
     },
     "angular": {
-      "iconPath": "../assets/icons/angular.svg"
+      "iconPath": "../assets/icons/dark/angular.svg"
     },
     "graphql": {
-      "iconPath": "../assets/icons/graphql.svg"
+      "iconPath": "../assets/icons/dark/graphql.svg"
     },
     "solidity": {
-      "iconPath": "../assets/icons/solidity.svg"
+      "iconPath": "../assets/icons/dark/solidity.svg"
     },
     "autoit": {
-      "iconPath": "../assets/icons/autoit.svg"
+      "iconPath": "../assets/icons/dark/autoit.svg"
     },
     "haml": {
-      "iconPath": "../assets/icons/haml.svg"
+      "iconPath": "../assets/icons/dark/haml.svg"
     },
     "yang": {
-      "iconPath": "../assets/icons/yang.svg"
+      "iconPath": "../assets/icons/dark/yang.svg"
     },
     "terraform": {
-      "iconPath": "../assets/icons/terraform.svg"
+      "iconPath": "../assets/icons/dark/terraform.svg"
     },
     "applescript": {
-      "iconPath": "../assets/icons/applescript.svg"
+      "iconPath": "../assets/icons/dark/applescript.svg"
     },
     "cake": {
-      "iconPath": "../assets/icons/cake.svg"
+      "iconPath": "../assets/icons/dark/cake.svg"
     },
     "cucumber": {
-      "iconPath": "../assets/icons/cucumber.svg"
+      "iconPath": "../assets/icons/dark/cucumber.svg"
     },
     "nim": {
-      "iconPath": "../assets/icons/nim.svg"
+      "iconPath": "../assets/icons/dark/nim.svg"
     },
     "apiblueprint": {
-      "iconPath": "../assets/icons/apiblueprint.svg"
+      "iconPath": "../assets/icons/dark/apiblueprint.svg"
     },
     "riot": {
-      "iconPath": "../assets/icons/riot.svg"
+      "iconPath": "../assets/icons/dark/riot.svg"
     },
     "postcss": {
-      "iconPath": "../assets/icons/postcss.svg"
+      "iconPath": "../assets/icons/dark/postcss.svg"
     },
     "coldfusion": {
-      "iconPath": "../assets/icons/coldfusion.svg"
+      "iconPath": "../assets/icons/dark/coldfusion.svg"
     },
     "haskell": {
-      "iconPath": "../assets/icons/haskell.svg"
+      "iconPath": "../assets/icons/dark/haskell.svg"
     },
     "dhall": {
-      "iconPath": "../assets/icons/dhall.svg"
+      "iconPath": "../assets/icons/dark/dhall.svg"
     },
     "cabal": {
-      "iconPath": "../assets/icons/cabal.svg"
+      "iconPath": "../assets/icons/dark/cabal.svg"
     },
     "nix": {
-      "iconPath": "../assets/icons/nix.svg"
+      "iconPath": "../assets/icons/dark/nix.svg"
     },
     "ruby": {
-      "iconPath": "../assets/icons/ruby.svg"
+      "iconPath": "../assets/icons/dark/ruby.svg"
     },
     "slim": {
-      "iconPath": "../assets/icons/slim.svg"
+      "iconPath": "../assets/icons/dark/slim.svg"
     },
     "php": {
-      "iconPath": "../assets/icons/php.svg"
+      "iconPath": "../assets/icons/dark/php.svg"
     },
     "php_elephant": {
-      "iconPath": "../assets/icons/php_elephant.svg"
+      "iconPath": "../assets/icons/dark/php_elephant.svg"
     },
     "php_elephant_pink": {
-      "iconPath": "../assets/icons/php_elephant_pink.svg"
+      "iconPath": "../assets/icons/dark/php_elephant_pink.svg"
     },
     "hack": {
-      "iconPath": "../assets/icons/hack.svg"
+      "iconPath": "../assets/icons/dark/hack.svg"
     },
     "react": {
-      "iconPath": "../assets/icons/react.svg"
+      "iconPath": "../assets/icons/dark/react.svg"
     },
     "mjml": {
-      "iconPath": "../assets/icons/mjml.svg"
+      "iconPath": "../assets/icons/dark/mjml.svg"
     },
     "processing": {
-      "iconPath": "../assets/icons/processing.svg"
+      "iconPath": "../assets/icons/dark/processing.svg"
     },
     "hcl": {
-      "iconPath": "../assets/icons/hcl.svg"
+      "iconPath": "../assets/icons/dark/hcl.svg"
     },
     "go": {
-      "iconPath": "../assets/icons/go.svg"
+      "iconPath": "../assets/icons/dark/go.svg"
     },
     "go_gopher": {
-      "iconPath": "../assets/icons/go_gopher.svg"
+      "iconPath": "../assets/icons/dark/go_gopher.svg"
     },
     "nodejs_alt": {
-      "iconPath": "../assets/icons/nodejs_alt.svg"
+      "iconPath": "../assets/icons/dark/nodejs_alt.svg"
     },
     "django": {
-      "iconPath": "../assets/icons/django.svg"
+      "iconPath": "../assets/icons/dark/django.svg"
     },
     "html": {
-      "iconPath": "../assets/icons/html.svg"
+      "iconPath": "../assets/icons/dark/html.svg"
     },
     "godot": {
-      "iconPath": "../assets/icons/godot.svg"
+      "iconPath": "../assets/icons/dark/godot.svg"
     },
     "godot-assets": {
-      "iconPath": "../assets/icons/godot-assets.svg"
+      "iconPath": "../assets/icons/dark/godot-assets.svg"
     },
     "vim": {
-      "iconPath": "../assets/icons/vim.svg"
+      "iconPath": "../assets/icons/dark/vim.svg"
     },
     "silverstripe": {
-      "iconPath": "../assets/icons/silverstripe.svg"
+      "iconPath": "../assets/icons/dark/silverstripe.svg"
     },
     "prolog": {
-      "iconPath": "../assets/icons/prolog.svg"
+      "iconPath": "../assets/icons/dark/prolog.svg"
     },
     "pawn": {
-      "iconPath": "../assets/icons/pawn.svg"
+      "iconPath": "../assets/icons/dark/pawn.svg"
     },
     "reason": {
-      "iconPath": "../assets/icons/reason.svg"
+      "iconPath": "../assets/icons/dark/reason.svg"
     },
     "sml": {
-      "iconPath": "../assets/icons/sml.svg"
+      "iconPath": "../assets/icons/dark/sml.svg"
     },
     "tex": {
-      "iconPath": "../assets/icons/tex.svg"
+      "iconPath": "../assets/icons/dark/tex.svg"
     },
     "latex": {
-      "iconPath": "../assets/icons/latex.clone.svg"
+      "iconPath": "../assets/icons/dark/latex.clone.svg"
     },
     "latex-class": {
-      "iconPath": "../assets/icons/latex-class.clone.svg"
+      "iconPath": "../assets/icons/dark/latex-class.clone.svg"
     },
     "latex-package": {
-      "iconPath": "../assets/icons/latex-package.clone.svg"
+      "iconPath": "../assets/icons/dark/latex-package.clone.svg"
     },
     "context": {
-      "iconPath": "../assets/icons/context.svg"
+      "iconPath": "../assets/icons/dark/context.svg"
     },
     "doctex": {
-      "iconPath": "../assets/icons/doctex.clone.svg"
+      "iconPath": "../assets/icons/dark/doctex.clone.svg"
     },
     "doctex-installer": {
-      "iconPath": "../assets/icons/doctex-installer.svg"
+      "iconPath": "../assets/icons/dark/doctex-installer.svg"
     },
     "bibliography": {
-      "iconPath": "../assets/icons/bibliography.svg"
+      "iconPath": "../assets/icons/dark/bibliography.svg"
     },
     "bibtex-style": {
-      "iconPath": "../assets/icons/bibtex-style.svg"
+      "iconPath": "../assets/icons/dark/bibtex-style.svg"
     },
     "salesforce": {
-      "iconPath": "../assets/icons/salesforce.svg"
+      "iconPath": "../assets/icons/dark/salesforce.svg"
     },
     "sas": {
-      "iconPath": "../assets/icons/sas.svg"
+      "iconPath": "../assets/icons/dark/sas.svg"
     },
     "docker": {
-      "iconPath": "../assets/icons/docker.svg"
+      "iconPath": "../assets/icons/dark/docker.svg"
     },
     "table": {
-      "iconPath": "../assets/icons/table.svg"
+      "iconPath": "../assets/icons/dark/table.svg"
     },
     "csharp": {
-      "iconPath": "../assets/icons/csharp.svg"
+      "iconPath": "../assets/icons/dark/csharp.svg"
     },
     "console": {
-      "iconPath": "../assets/icons/console.svg"
+      "iconPath": "../assets/icons/dark/console.svg"
     },
     "c": {
-      "iconPath": "../assets/icons/c.svg"
+      "iconPath": "../assets/icons/dark/c.svg"
     },
     "cpp": {
-      "iconPath": "../assets/icons/cpp.svg"
+      "iconPath": "../assets/icons/dark/cpp.svg"
     },
     "objective-c": {
-      "iconPath": "../assets/icons/objective-c.svg"
+      "iconPath": "../assets/icons/dark/objective-c.svg"
     },
     "objective-cpp": {
-      "iconPath": "../assets/icons/objective-cpp.svg"
+      "iconPath": "../assets/icons/dark/objective-cpp.svg"
     },
     "c3": {
-      "iconPath": "../assets/icons/c3.svg"
+      "iconPath": "../assets/icons/dark/c3.svg"
     },
     "coffee": {
-      "iconPath": "../assets/icons/coffee.svg"
+      "iconPath": "../assets/icons/dark/coffee.svg"
     },
     "fsharp": {
-      "iconPath": "../assets/icons/fsharp.svg"
+      "iconPath": "../assets/icons/dark/fsharp.svg"
     },
     "editorconfig": {
-      "iconPath": "../assets/icons/editorconfig.svg"
+      "iconPath": "../assets/icons/dark/editorconfig.svg"
     },
     "clojure": {
-      "iconPath": "../assets/icons/clojure.svg"
+      "iconPath": "../assets/icons/dark/clojure.svg"
     },
     "groovy": {
-      "iconPath": "../assets/icons/groovy.svg"
+      "iconPath": "../assets/icons/dark/groovy.svg"
     },
     "markdoc": {
-      "iconPath": "../assets/icons/markdoc.svg"
+      "iconPath": "../assets/icons/dark/markdoc.svg"
     },
     "markdown": {
-      "iconPath": "../assets/icons/markdown.svg"
+      "iconPath": "../assets/icons/dark/markdown.svg"
     },
     "jinja": {
-      "iconPath": "../assets/icons/jinja.svg"
+      "iconPath": "../assets/icons/dark/jinja.svg"
     },
     "proto": {
-      "iconPath": "../assets/icons/proto.svg"
+      "iconPath": "../assets/icons/dark/proto.svg"
     },
     "python-misc": {
-      "iconPath": "../assets/icons/python-misc.svg"
+      "iconPath": "../assets/icons/dark/python-misc.svg"
     },
     "vue": {
-      "iconPath": "../assets/icons/vue.svg"
+      "iconPath": "../assets/icons/dark/vue.svg"
     },
     "lua": {
-      "iconPath": "../assets/icons/lua.svg"
+      "iconPath": "../assets/icons/dark/lua.svg"
     },
     "log": {
-      "iconPath": "../assets/icons/log.svg"
+      "iconPath": "../assets/icons/dark/log.svg"
     },
     "jupyter": {
-      "iconPath": "../assets/icons/jupyter.svg"
+      "iconPath": "../assets/icons/dark/jupyter.svg"
     },
     "document": {
-      "iconPath": "../assets/icons/document.svg"
+      "iconPath": "../assets/icons/dark/document.svg"
     },
     "pdf": {
-      "iconPath": "../assets/icons/pdf.svg"
+      "iconPath": "../assets/icons/dark/pdf.svg"
     },
     "powershell": {
-      "iconPath": "../assets/icons/powershell.svg"
+      "iconPath": "../assets/icons/dark/powershell.svg"
     },
     "r": {
-      "iconPath": "../assets/icons/r.svg"
+      "iconPath": "../assets/icons/dark/r.svg"
     },
     "rust": {
-      "iconPath": "../assets/icons/rust.svg"
+      "iconPath": "../assets/icons/dark/rust.svg"
     },
     "database": {
-      "iconPath": "../assets/icons/database.svg"
+      "iconPath": "../assets/icons/dark/database.svg"
     },
     "kusto": {
-      "iconPath": "../assets/icons/kusto.svg"
+      "iconPath": "../assets/icons/dark/kusto.svg"
     },
     "lock": {
-      "iconPath": "../assets/icons/lock.svg"
+      "iconPath": "../assets/icons/dark/lock.svg"
     },
     "svg": {
-      "iconPath": "../assets/icons/svg-file.svg"
+      "iconPath": "../assets/icons/dark/svg-file.svg"
     },
     "svg-light": {
-      "iconPath": "../assets/icons/svg-file-light.svg"
+      "iconPath": "../assets/icons/dark/svg-file-light.svg"
     },
     "swift": {
-      "iconPath": "../assets/icons/swift.svg"
+      "iconPath": "../assets/icons/dark/swift.svg"
     },
     "react_ts": {
-      "iconPath": "../assets/icons/react_ts.svg"
+      "iconPath": "../assets/icons/dark/react_ts.svg"
     },
     "search": {
-      "iconPath": "../assets/icons/search.svg"
+      "iconPath": "../assets/icons/dark/search.svg"
     },
     "minecraft": {
-      "iconPath": "../assets/icons/minecraft.svg"
+      "iconPath": "../assets/icons/dark/minecraft.svg"
     },
     "rescript": {
-      "iconPath": "../assets/icons/rescript.svg"
+      "iconPath": "../assets/icons/dark/rescript.svg"
     },
     "otne": {
-      "iconPath": "../assets/icons/otne.svg"
+      "iconPath": "../assets/icons/dark/otne.svg"
     },
     "twine": {
-      "iconPath": "../assets/icons/twine.svg"
+      "iconPath": "../assets/icons/dark/twine.svg"
     },
     "grain": {
-      "iconPath": "../assets/icons/grain.svg"
+      "iconPath": "../assets/icons/dark/grain.svg"
     },
     "lolcode": {
-      "iconPath": "../assets/icons/lolcode.svg"
+      "iconPath": "../assets/icons/dark/lolcode.svg"
     },
     "idris": {
-      "iconPath": "../assets/icons/idris.svg"
+      "iconPath": "../assets/icons/dark/idris.svg"
     },
     "chess": {
-      "iconPath": "../assets/icons/chess.svg"
+      "iconPath": "../assets/icons/dark/chess.svg"
     },
     "gemini": {
-      "iconPath": "../assets/icons/gemini.svg"
+      "iconPath": "../assets/icons/dark/gemini.svg"
     },
     "vlang": {
-      "iconPath": "../assets/icons/vlang.svg"
+      "iconPath": "../assets/icons/dark/vlang.svg"
     },
     "wolframlanguage": {
-      "iconPath": "../assets/icons/wolframlanguage.svg"
+      "iconPath": "../assets/icons/dark/wolframlanguage.svg"
     },
     "shader": {
-      "iconPath": "../assets/icons/shader.svg"
+      "iconPath": "../assets/icons/dark/shader.svg"
     },
     "tree": {
-      "iconPath": "../assets/icons/tree.svg"
+      "iconPath": "../assets/icons/dark/tree.svg"
     },
     "svelte": {
-      "iconPath": "../assets/icons/svelte.svg"
+      "iconPath": "../assets/icons/dark/svelte.svg"
     },
     "dart": {
-      "iconPath": "../assets/icons/dart.svg"
+      "iconPath": "../assets/icons/dark/dart.svg"
     },
     "cadence": {
-      "iconPath": "../assets/icons/cadence.svg"
+      "iconPath": "../assets/icons/dark/cadence.svg"
     },
     "stylable": {
-      "iconPath": "../assets/icons/stylable.svg"
+      "iconPath": "../assets/icons/dark/stylable.svg"
     },
     "hjson": {
-      "iconPath": "../assets/icons/hjson.svg"
+      "iconPath": "../assets/icons/dark/hjson.svg"
     },
     "huff": {
-      "iconPath": "../assets/icons/huff.svg"
+      "iconPath": "../assets/icons/dark/huff.svg"
     },
     "cds": {
-      "iconPath": "../assets/icons/cds.svg"
+      "iconPath": "../assets/icons/dark/cds.svg"
     },
     "concourse": {
-      "iconPath": "../assets/icons/concourse.svg"
+      "iconPath": "../assets/icons/dark/concourse.svg"
     },
     "systemd": {
-      "iconPath": "../assets/icons/systemd.svg"
+      "iconPath": "../assets/icons/dark/systemd.svg"
     },
     "systemd_light": {
-      "iconPath": "../assets/icons/systemd_light.svg"
+      "iconPath": "../assets/icons/dark/systemd_light.svg"
     },
     "slint": {
-      "iconPath": "../assets/icons/slint.svg"
+      "iconPath": "../assets/icons/dark/slint.svg"
     },
     "luau": {
-      "iconPath": "../assets/icons/luau.svg"
+      "iconPath": "../assets/icons/dark/luau.svg"
     },
     "hosts": {
-      "iconPath": "../assets/icons/hosts.svg"
+      "iconPath": "../assets/icons/dark/hosts.svg"
     },
     "beancount": {
-      "iconPath": "../assets/icons/beancount.svg"
+      "iconPath": "../assets/icons/dark/beancount.svg"
     },
     "ahk2": {
-      "iconPath": "../assets/icons/ahk2.clone.svg"
+      "iconPath": "../assets/icons/dark/ahk2.clone.svg"
     },
     "gnuplot": {
-      "iconPath": "../assets/icons/gnuplot.svg"
+      "iconPath": "../assets/icons/dark/gnuplot.svg"
     },
     "blink_light": {
-      "iconPath": "../assets/icons/blink_light.svg"
+      "iconPath": "../assets/icons/dark/blink_light.svg"
     },
     "just": {
-      "iconPath": "../assets/icons/just.svg"
+      "iconPath": "../assets/icons/dark/just.svg"
     },
     "jinja_light": {
-      "iconPath": "../assets/icons/jinja_light.svg"
+      "iconPath": "../assets/icons/dark/jinja_light.svg"
     },
     "playwright": {
-      "iconPath": "../assets/icons/playwright.svg"
+      "iconPath": "../assets/icons/dark/playwright.svg"
     },
     "sublime": {
-      "iconPath": "../assets/icons/sublime.svg"
+      "iconPath": "../assets/icons/dark/sublime.svg"
     },
     "simulink": {
-      "iconPath": "../assets/icons/simulink.svg"
+      "iconPath": "../assets/icons/dark/simulink.svg"
     },
     "image": {
-      "iconPath": "../assets/icons/image-file.svg"
+      "iconPath": "../assets/icons/dark/image-file.svg"
     },
     "gif": {
-      "iconPath": "../assets/icons/gif-file.svg"
+      "iconPath": "../assets/icons/dark/gif-file.svg"
     },
     "palette": {
-      "iconPath": "../assets/icons/palette.svg"
+      "iconPath": "../assets/icons/dark/palette.svg"
     },
     "rocket": {
-      "iconPath": "../assets/icons/rocket.svg"
+      "iconPath": "../assets/icons/dark/rocket.svg"
     },
     "routing": {
-      "iconPath": "../assets/icons/routing.svg"
+      "iconPath": "../assets/icons/dark/routing.svg"
     },
     "redux-action": {
-      "iconPath": "../assets/icons/redux-action.svg"
+      "iconPath": "../assets/icons/dark/redux-action.svg"
     },
     "redux-reducer": {
-      "iconPath": "../assets/icons/redux-reducer.svg"
+      "iconPath": "../assets/icons/dark/redux-reducer.svg"
     },
     "redux-selector": {
-      "iconPath": "../assets/icons/redux-selector.svg"
+      "iconPath": "../assets/icons/dark/redux-selector.svg"
     },
     "redux-store": {
-      "iconPath": "../assets/icons/redux-store.svg"
+      "iconPath": "../assets/icons/dark/redux-store.svg"
     },
     "typescript-def": {
-      "iconPath": "../assets/icons/typescript-def.svg"
+      "iconPath": "../assets/icons/dark/typescript-def.svg"
     },
     "markdoc-config": {
-      "iconPath": "../assets/icons/markdoc-config.svg"
+      "iconPath": "../assets/icons/dark/markdoc-config.svg"
     },
     "markojs": {
-      "iconPath": "../assets/icons/markojs.svg"
+      "iconPath": "../assets/icons/dark/markojs.svg"
     },
     "astro": {
-      "iconPath": "../assets/icons/astro-file.svg"
+      "iconPath": "../assets/icons/dark/astro-file.svg"
     },
     "astro-light": {
-      "iconPath": "../assets/icons/astro-file-light.svg"
+      "iconPath": "../assets/icons/dark/astro-file-light.svg"
     },
     "astro-config": {
-      "iconPath": "../assets/icons/astro-config-file.svg"
+      "iconPath": "../assets/icons/dark/astro-config-file.svg"
     },
     "vscode": {
-      "iconPath": "../assets/icons/vscode.svg"
+      "iconPath": "../assets/icons/dark/vscode.svg"
     },
     "qsharp": {
-      "iconPath": "../assets/icons/qsharp.svg"
+      "iconPath": "../assets/icons/dark/qsharp.svg"
     },
     "zip": {
-      "iconPath": "../assets/icons/zip.svg"
+      "iconPath": "../assets/icons/dark/zip.svg"
     },
     "vala": {
-      "iconPath": "../assets/icons/vala.svg"
+      "iconPath": "../assets/icons/dark/vala.svg"
     },
     "zig": {
-      "iconPath": "../assets/icons/zig.svg"
+      "iconPath": "../assets/icons/dark/zig.svg"
     },
     "exe": {
-      "iconPath": "../assets/icons/exe.svg"
+      "iconPath": "../assets/icons/dark/exe.svg"
     },
     "hex": {
-      "iconPath": "../assets/icons/hex.svg"
+      "iconPath": "../assets/icons/dark/hex.svg"
     },
     "jar": {
-      "iconPath": "../assets/icons/jar.svg"
+      "iconPath": "../assets/icons/dark/jar.svg"
     },
     "javaclass": {
-      "iconPath": "../assets/icons/javaclass.svg"
+      "iconPath": "../assets/icons/dark/javaclass.svg"
     },
     "h": {
-      "iconPath": "../assets/icons/h.svg"
+      "iconPath": "../assets/icons/dark/h.svg"
     },
     "hpp": {
-      "iconPath": "../assets/icons/hpp.svg"
+      "iconPath": "../assets/icons/dark/hpp.svg"
     },
     "rc": {
-      "iconPath": "../assets/icons/rc.svg"
+      "iconPath": "../assets/icons/dark/rc.svg"
     },
     "go-mod": {
-      "iconPath": "../assets/icons/go-mod.svg"
+      "iconPath": "../assets/icons/dark/go-mod.svg"
     },
     "ruff": {
-      "iconPath": "../assets/icons/ruff.svg"
+      "iconPath": "../assets/icons/dark/ruff.svg"
     },
     "uv": {
-      "iconPath": "../assets/icons/uv.svg"
+      "iconPath": "../assets/icons/dark/uv.svg"
     },
     "scons": {
-      "iconPath": "../assets/icons/scons.svg"
+      "iconPath": "../assets/icons/dark/scons.svg"
     },
     "scons_light": {
-      "iconPath": "../assets/icons/scons_light.svg"
+      "iconPath": "../assets/icons/dark/scons_light.svg"
     },
     "url": {
-      "iconPath": "../assets/icons/url.svg"
+      "iconPath": "../assets/icons/dark/url.svg"
     },
     "excalidraw": {
-      "iconPath": "../assets/icons/excalidraw.svg"
+      "iconPath": "../assets/icons/dark/excalidraw.svg"
     },
     "gradle": {
-      "iconPath": "../assets/icons/gradle.svg"
+      "iconPath": "../assets/icons/dark/gradle.svg"
     },
     "word": {
-      "iconPath": "../assets/icons/word.svg"
+      "iconPath": "../assets/icons/dark/word.svg"
     },
     "certificate": {
-      "iconPath": "../assets/icons/certificate.svg"
+      "iconPath": "../assets/icons/dark/certificate.svg"
     },
     "key": {
-      "iconPath": "../assets/icons/key.svg"
+      "iconPath": "../assets/icons/dark/key.svg"
     },
     "keystatic": {
-      "iconPath": "../assets/icons/keystatic.svg"
+      "iconPath": "../assets/icons/dark/keystatic.svg"
     },
     "font": {
-      "iconPath": "../assets/icons/font-file.svg"
+      "iconPath": "../assets/icons/dark/font-file.svg"
     },
     "lib": {
-      "iconPath": "../assets/icons/lib.svg"
+      "iconPath": "../assets/icons/dark/lib.svg"
     },
     "dll": {
-      "iconPath": "../assets/icons/dll.svg"
+      "iconPath": "../assets/icons/dark/dll.svg"
     },
     "gemfile": {
-      "iconPath": "../assets/icons/gemfile.svg"
+      "iconPath": "../assets/icons/dark/gemfile.svg"
     },
     "rubocop": {
-      "iconPath": "../assets/icons/rubocop.svg"
+      "iconPath": "../assets/icons/dark/rubocop.svg"
     },
     "rubocop_light": {
-      "iconPath": "../assets/icons/rubocop_light.svg"
+      "iconPath": "../assets/icons/dark/rubocop_light.svg"
     },
     "rspec": {
-      "iconPath": "../assets/icons/rspec.svg"
+      "iconPath": "../assets/icons/dark/rspec.svg"
     },
     "arduino": {
-      "iconPath": "../assets/icons/arduino.svg"
+      "iconPath": "../assets/icons/dark/arduino.svg"
     },
     "bbx": {
-      "iconPath": "../assets/icons/bbx.svg"
+      "iconPath": "../assets/icons/dark/bbx.svg"
     },
     "cbx": {
-      "iconPath": "../assets/icons/cbx.svg"
+      "iconPath": "../assets/icons/dark/cbx.svg"
     },
     "lbx": {
-      "iconPath": "../assets/icons/lbx.svg"
+      "iconPath": "../assets/icons/dark/lbx.svg"
     },
     "sty": {
-      "iconPath": "../assets/icons/sty.clone.svg"
+      "iconPath": "../assets/icons/dark/sty.clone.svg"
     },
     "ltx": {
-      "iconPath": "../assets/icons/ltx.clone.svg"
+      "iconPath": "../assets/icons/dark/ltx.clone.svg"
     },
     "dtx": {
-      "iconPath": "../assets/icons/dtx.clone.svg"
+      "iconPath": "../assets/icons/dark/dtx.clone.svg"
     },
     "latexmk": {
-      "iconPath": "../assets/icons/latexmk.svg"
+      "iconPath": "../assets/icons/dark/latexmk.svg"
     },
     "powerpoint": {
-      "iconPath": "../assets/icons/powerpoint.svg"
+      "iconPath": "../assets/icons/dark/powerpoint.svg"
     },
     "video": {
-      "iconPath": "../assets/icons/video.svg"
+      "iconPath": "../assets/icons/dark/video.svg"
     },
     "virtual": {
-      "iconPath": "../assets/icons/virtual.svg"
+      "iconPath": "../assets/icons/dark/virtual.svg"
     },
     "vedic": {
-      "iconPath": "../assets/icons/vedic.svg"
+      "iconPath": "../assets/icons/dark/vedic.svg"
     },
     "email": {
-      "iconPath": "../assets/icons/email.svg"
+      "iconPath": "../assets/icons/dark/email.svg"
     },
     "audio": {
-      "iconPath": "../assets/icons/audio.svg"
+      "iconPath": "../assets/icons/dark/audio.svg"
     },
     "lyric": {
-      "iconPath": "../assets/icons/lyric.svg"
+      "iconPath": "../assets/icons/dark/lyric.svg"
     },
     "raml": {
-      "iconPath": "../assets/icons/raml.svg"
+      "iconPath": "../assets/icons/dark/raml.svg"
     },
     "xaml": {
-      "iconPath": "../assets/icons/xaml.svg"
+      "iconPath": "../assets/icons/dark/xaml.svg"
     },
     "kotlin": {
-      "iconPath": "../assets/icons/kotlin.svg"
+      "iconPath": "../assets/icons/dark/kotlin.svg"
     },
     "mist": {
-      "iconPath": "../assets/icons/mist.clone.svg"
+      "iconPath": "../assets/icons/dark/mist.clone.svg"
     },
     "dart_generated": {
-      "iconPath": "../assets/icons/dart_generated.svg"
+      "iconPath": "../assets/icons/dark/dart_generated.svg"
     },
     "actionscript": {
-      "iconPath": "../assets/icons/actionscript.svg"
+      "iconPath": "../assets/icons/dark/actionscript.svg"
     },
     "mxml": {
-      "iconPath": "../assets/icons/mxml.svg"
+      "iconPath": "../assets/icons/dark/mxml.svg"
     },
     "autohotkey": {
-      "iconPath": "../assets/icons/autohotkey.svg"
+      "iconPath": "../assets/icons/dark/autohotkey.svg"
     },
     "flash": {
-      "iconPath": "../assets/icons/flash.svg"
+      "iconPath": "../assets/icons/dark/flash.svg"
     },
     "adobe-swc": {
-      "iconPath": "../assets/icons/adobe-swc.svg"
+      "iconPath": "../assets/icons/dark/adobe-swc.svg"
     },
     "swc": {
-      "iconPath": "../assets/icons/swc.svg"
+      "iconPath": "../assets/icons/dark/swc.svg"
     },
     "cmake": {
-      "iconPath": "../assets/icons/cmake.svg"
+      "iconPath": "../assets/icons/dark/cmake.svg"
     },
     "assembly": {
-      "iconPath": "../assets/icons/assembly.svg"
+      "iconPath": "../assets/icons/dark/assembly.svg"
     },
     "semgrep": {
-      "iconPath": "../assets/icons/semgrep.svg"
+      "iconPath": "../assets/icons/dark/semgrep.svg"
     },
     "vue-config": {
-      "iconPath": "../assets/icons/vue-config.svg"
+      "iconPath": "../assets/icons/dark/vue-config.svg"
     },
     "vuex-store": {
-      "iconPath": "../assets/icons/vuex-store.svg"
+      "iconPath": "../assets/icons/dark/vuex-store.svg"
     },
     "nuxt": {
-      "iconPath": "../assets/icons/nuxt.svg"
+      "iconPath": "../assets/icons/dark/nuxt.svg"
     },
     "harmonix": {
-      "iconPath": "../assets/icons/harmonix.svg"
+      "iconPath": "../assets/icons/dark/harmonix.svg"
     },
     "ocaml": {
-      "iconPath": "../assets/icons/ocaml.svg"
+      "iconPath": "../assets/icons/dark/ocaml.svg"
     },
     "odin": {
-      "iconPath": "../assets/icons/odin.svg"
+      "iconPath": "../assets/icons/dark/odin.svg"
     },
     "javascript-map": {
-      "iconPath": "../assets/icons/javascript-map.svg"
+      "iconPath": "../assets/icons/dark/javascript-map.svg"
     },
     "css-map": {
-      "iconPath": "../assets/icons/css-map.svg"
+      "iconPath": "../assets/icons/dark/css-map.svg"
     },
     "test-ts": {
-      "iconPath": "../assets/icons/test-ts.svg"
+      "iconPath": "../assets/icons/dark/test-ts.svg"
     },
     "test-jsx": {
-      "iconPath": "../assets/icons/test-jsx.svg"
+      "iconPath": "../assets/icons/dark/test-jsx.svg"
     },
     "test-js": {
-      "iconPath": "../assets/icons/test-js.svg"
+      "iconPath": "../assets/icons/dark/test-js.svg"
     },
     "angular-component": {
-      "iconPath": "../assets/icons/angular-component.clone.svg"
+      "iconPath": "../assets/icons/dark/angular-component.clone.svg"
     },
     "angular-guard": {
-      "iconPath": "../assets/icons/angular-guard.clone.svg"
+      "iconPath": "../assets/icons/dark/angular-guard.clone.svg"
     },
     "angular-service": {
-      "iconPath": "../assets/icons/angular-service.clone.svg"
+      "iconPath": "../assets/icons/dark/angular-service.clone.svg"
     },
     "angular-pipe": {
-      "iconPath": "../assets/icons/angular-pipe.clone.svg"
+      "iconPath": "../assets/icons/dark/angular-pipe.clone.svg"
     },
     "angular-directive": {
-      "iconPath": "../assets/icons/angular-directive.clone.svg"
+      "iconPath": "../assets/icons/dark/angular-directive.clone.svg"
     },
     "angular-resolver": {
-      "iconPath": "../assets/icons/angular-resolver.clone.svg"
+      "iconPath": "../assets/icons/dark/angular-resolver.clone.svg"
     },
     "angular-interceptor": {
-      "iconPath": "../assets/icons/angular-interceptor.clone.svg"
+      "iconPath": "../assets/icons/dark/angular-interceptor.clone.svg"
     },
     "smarty": {
-      "iconPath": "../assets/icons/smarty.svg"
+      "iconPath": "../assets/icons/dark/smarty.svg"
     },
     "bucklescript": {
-      "iconPath": "../assets/icons/bucklescript.svg"
+      "iconPath": "../assets/icons/dark/bucklescript.svg"
     },
     "merlin": {
-      "iconPath": "../assets/icons/merlin.svg"
+      "iconPath": "../assets/icons/dark/merlin.svg"
     },
     "verilog": {
-      "iconPath": "../assets/icons/verilog.svg"
+      "iconPath": "../assets/icons/dark/verilog.svg"
     },
     "mathematica": {
-      "iconPath": "../assets/icons/mathematica.svg"
+      "iconPath": "../assets/icons/dark/mathematica.svg"
     },
     "vercel": {
-      "iconPath": "../assets/icons/vercel.svg"
+      "iconPath": "../assets/icons/dark/vercel.svg"
     },
     "vercel_light": {
-      "iconPath": "../assets/icons/vercel_light.svg"
+      "iconPath": "../assets/icons/dark/vercel_light.svg"
     },
     "liara": {
-      "iconPath": "../assets/icons/liara.svg"
+      "iconPath": "../assets/icons/dark/liara.svg"
     },
     "verdaccio": {
-      "iconPath": "../assets/icons/verdaccio.svg"
+      "iconPath": "../assets/icons/dark/verdaccio.svg"
     },
     "payload": {
-      "iconPath": "../assets/icons/payload.svg"
+      "iconPath": "../assets/icons/dark/payload.svg"
     },
     "payload_light": {
-      "iconPath": "../assets/icons/payload_light.svg"
+      "iconPath": "../assets/icons/dark/payload_light.svg"
     },
     "next": {
-      "iconPath": "../assets/icons/next.svg"
+      "iconPath": "../assets/icons/dark/next.svg"
     },
     "next_light": {
-      "iconPath": "../assets/icons/next_light.svg"
+      "iconPath": "../assets/icons/dark/next_light.svg"
     },
     "remark": {
-      "iconPath": "../assets/icons/remark.svg"
+      "iconPath": "../assets/icons/dark/remark.svg"
     },
     "remix": {
-      "iconPath": "../assets/icons/remix.svg"
+      "iconPath": "../assets/icons/dark/remix.svg"
     },
     "remix_light": {
-      "iconPath": "../assets/icons/remix_light.svg"
+      "iconPath": "../assets/icons/dark/remix_light.svg"
     },
     "laravel": {
-      "iconPath": "../assets/icons/laravel.svg"
+      "iconPath": "../assets/icons/dark/laravel.svg"
     },
     "vfl": {
-      "iconPath": "../assets/icons/vfl.svg"
+      "iconPath": "../assets/icons/dark/vfl.svg"
     },
     "kl": {
-      "iconPath": "../assets/icons/kl.svg"
+      "iconPath": "../assets/icons/dark/kl.svg"
     },
     "posthtml": {
-      "iconPath": "../assets/icons/posthtml.svg"
+      "iconPath": "../assets/icons/dark/posthtml.svg"
     },
     "todo": {
-      "iconPath": "../assets/icons/todo.svg"
+      "iconPath": "../assets/icons/dark/todo.svg"
     },
     "http": {
-      "iconPath": "../assets/icons/http.svg"
+      "iconPath": "../assets/icons/dark/http.svg"
     },
     "restql": {
-      "iconPath": "../assets/icons/restql.svg"
+      "iconPath": "../assets/icons/dark/restql.svg"
     },
     "kivy": {
-      "iconPath": "../assets/icons/kivy.svg"
+      "iconPath": "../assets/icons/dark/kivy.svg"
     },
     "graphcool": {
-      "iconPath": "../assets/icons/graphcool.svg"
+      "iconPath": "../assets/icons/dark/graphcool.svg"
     },
     "sbt": {
-      "iconPath": "../assets/icons/sbt.svg"
+      "iconPath": "../assets/icons/dark/sbt.svg"
     },
     "webpack": {
-      "iconPath": "../assets/icons/webpack.svg"
+      "iconPath": "../assets/icons/dark/webpack.svg"
     },
     "ionic": {
-      "iconPath": "../assets/icons/ionic.svg"
+      "iconPath": "../assets/icons/dark/ionic.svg"
     },
     "gulp": {
-      "iconPath": "../assets/icons/gulp.svg"
+      "iconPath": "../assets/icons/dark/gulp.svg"
     },
     "nodejs": {
-      "iconPath": "../assets/icons/nodejs.svg"
+      "iconPath": "../assets/icons/dark/nodejs.svg"
     },
     "npm": {
-      "iconPath": "../assets/icons/npm.svg"
+      "iconPath": "../assets/icons/dark/npm.svg"
     },
     "yarn": {
-      "iconPath": "../assets/icons/yarn.svg"
+      "iconPath": "../assets/icons/dark/yarn.svg"
     },
     "android": {
-      "iconPath": "../assets/icons/android.svg"
+      "iconPath": "../assets/icons/dark/android.svg"
     },
     "tune": {
-      "iconPath": "../assets/icons/tune.svg"
+      "iconPath": "../assets/icons/dark/tune.svg"
     },
     "turborepo": {
-      "iconPath": "../assets/icons/turborepo.svg"
+      "iconPath": "../assets/icons/dark/turborepo.svg"
     },
     "turborepo_light": {
-      "iconPath": "../assets/icons/turborepo_light.svg"
+      "iconPath": "../assets/icons/dark/turborepo_light.svg"
     },
     "babel": {
-      "iconPath": "../assets/icons/babel.svg"
+      "iconPath": "../assets/icons/dark/babel.svg"
     },
     "blitz": {
-      "iconPath": "../assets/icons/blitz.svg"
+      "iconPath": "../assets/icons/dark/blitz.svg"
     },
     "contributing": {
-      "iconPath": "../assets/icons/contributing.svg"
+      "iconPath": "../assets/icons/dark/contributing.svg"
     },
     "readme": {
-      "iconPath": "../assets/icons/readme.svg"
+      "iconPath": "../assets/icons/dark/readme.svg"
     },
     "changelog": {
-      "iconPath": "../assets/icons/changelog.svg"
+      "iconPath": "../assets/icons/dark/changelog.svg"
     },
     "architecture": {
-      "iconPath": "../assets/icons/architecture.svg"
+      "iconPath": "../assets/icons/dark/architecture.svg"
     },
     "credits": {
-      "iconPath": "../assets/icons/credits.svg"
+      "iconPath": "../assets/icons/dark/credits.svg"
     },
     "authors": {
-      "iconPath": "../assets/icons/authors.svg"
+      "iconPath": "../assets/icons/dark/authors.svg"
     },
     "flow": {
-      "iconPath": "../assets/icons/flow.svg"
+      "iconPath": "../assets/icons/dark/flow.svg"
     },
     "favicon": {
-      "iconPath": "../assets/icons/favicon.svg"
+      "iconPath": "../assets/icons/dark/favicon.svg"
     },
     "karma": {
-      "iconPath": "../assets/icons/karma.svg"
+      "iconPath": "../assets/icons/dark/karma.svg"
     },
     "bithound": {
-      "iconPath": "../assets/icons/bithound.svg"
+      "iconPath": "../assets/icons/dark/bithound.svg"
     },
     "svgo": {
-      "iconPath": "../assets/icons/svgo.svg"
+      "iconPath": "../assets/icons/dark/svgo.svg"
     },
     "appveyor": {
-      "iconPath": "../assets/icons/appveyor.svg"
+      "iconPath": "../assets/icons/dark/appveyor.svg"
     },
     "travis": {
-      "iconPath": "../assets/icons/travis.svg"
+      "iconPath": "../assets/icons/dark/travis.svg"
     },
     "codecov": {
-      "iconPath": "../assets/icons/codecov.svg"
+      "iconPath": "../assets/icons/dark/codecov.svg"
     },
     "sonarcloud": {
-      "iconPath": "../assets/icons/sonarcloud.svg"
+      "iconPath": "../assets/icons/dark/sonarcloud.svg"
     },
     "protractor": {
-      "iconPath": "../assets/icons/protractor.svg"
+      "iconPath": "../assets/icons/dark/protractor.svg"
     },
     "fusebox": {
-      "iconPath": "../assets/icons/fusebox.svg"
+      "iconPath": "../assets/icons/dark/fusebox.svg"
     },
     "heroku": {
-      "iconPath": "../assets/icons/heroku.svg"
+      "iconPath": "../assets/icons/dark/heroku.svg"
     },
     "gitlab": {
-      "iconPath": "../assets/icons/gitlab.svg"
+      "iconPath": "../assets/icons/dark/gitlab.svg"
     },
     "bower": {
-      "iconPath": "../assets/icons/bower.svg"
+      "iconPath": "../assets/icons/dark/bower.svg"
     },
     "eslint": {
-      "iconPath": "../assets/icons/eslint.svg"
+      "iconPath": "../assets/icons/dark/eslint.svg"
     },
     "conduct": {
-      "iconPath": "../assets/icons/conduct.svg"
+      "iconPath": "../assets/icons/dark/conduct.svg"
     },
     "watchman": {
-      "iconPath": "../assets/icons/watchman.svg"
+      "iconPath": "../assets/icons/dark/watchman.svg"
     },
     "aurelia": {
-      "iconPath": "../assets/icons/aurelia.svg"
+      "iconPath": "../assets/icons/dark/aurelia.svg"
     },
     "auto": {
-      "iconPath": "../assets/icons/auto.svg"
+      "iconPath": "../assets/icons/dark/auto.svg"
     },
     "auto_light": {
-      "iconPath": "../assets/icons/auto_light.svg"
+      "iconPath": "../assets/icons/dark/auto_light.svg"
     },
     "mocha": {
-      "iconPath": "../assets/icons/mocha.svg"
+      "iconPath": "../assets/icons/dark/mocha.svg"
     },
     "jenkins": {
-      "iconPath": "../assets/icons/jenkins.svg"
+      "iconPath": "../assets/icons/dark/jenkins.svg"
     },
     "firebase": {
-      "iconPath": "../assets/icons/firebase.svg"
+      "iconPath": "../assets/icons/dark/firebase.svg"
     },
     "figma": {
-      "iconPath": "../assets/icons/figma.svg"
+      "iconPath": "../assets/icons/dark/figma.svg"
     },
     "rollup": {
-      "iconPath": "../assets/icons/rollup.svg"
+      "iconPath": "../assets/icons/dark/rollup.svg"
     },
     "huff_light": {
-      "iconPath": "../assets/icons/huff_light.svg"
+      "iconPath": "../assets/icons/dark/huff_light.svg"
     },
     "hardhat": {
-      "iconPath": "../assets/icons/hardhat.svg"
+      "iconPath": "../assets/icons/dark/hardhat.svg"
     },
     "stylelint": {
-      "iconPath": "../assets/icons/stylelint.svg"
+      "iconPath": "../assets/icons/dark/stylelint.svg"
     },
     "stylelint_light": {
-      "iconPath": "../assets/icons/stylelint_light.svg"
+      "iconPath": "../assets/icons/dark/stylelint_light.svg"
     },
     "code-climate": {
-      "iconPath": "../assets/icons/code-climate.svg"
+      "iconPath": "../assets/icons/dark/code-climate.svg"
     },
     "code-climate_light": {
-      "iconPath": "../assets/icons/code-climate_light.svg"
+      "iconPath": "../assets/icons/dark/code-climate_light.svg"
     },
     "prettier": {
-      "iconPath": "../assets/icons/prettier.svg"
+      "iconPath": "../assets/icons/dark/prettier.svg"
     },
     "prettier-file": {
-      "iconPath": "../assets/icons/prettier.svg"
+      "iconPath": "../assets/icons/dark/prettier.svg"
     },
     "renovate": {
-      "iconPath": "../assets/icons/renovate.svg"
+      "iconPath": "../assets/icons/dark/renovate.svg"
     },
     "apollo": {
-      "iconPath": "../assets/icons/apollo.svg"
+      "iconPath": "../assets/icons/dark/apollo.svg"
     },
     "nodemon": {
-      "iconPath": "../assets/icons/nodemon.svg"
+      "iconPath": "../assets/icons/dark/nodemon.svg"
     },
     "ngrx-reducer": {
-      "iconPath": "../assets/icons/ngrx-reducer.svg"
+      "iconPath": "../assets/icons/dark/ngrx-reducer.svg"
     },
     "ngrx-state": {
-      "iconPath": "../assets/icons/ngrx-state.svg"
+      "iconPath": "../assets/icons/dark/ngrx-state.svg"
     },
     "ngrx-actions": {
-      "iconPath": "../assets/icons/ngrx-actions.svg"
+      "iconPath": "../assets/icons/dark/ngrx-actions.svg"
     },
     "ngrx-effects": {
-      "iconPath": "../assets/icons/ngrx-effects.svg"
+      "iconPath": "../assets/icons/dark/ngrx-effects.svg"
     },
     "ngrx-entity": {
-      "iconPath": "../assets/icons/ngrx-entity.svg"
+      "iconPath": "../assets/icons/dark/ngrx-entity.svg"
     },
     "ngrx-selectors": {
-      "iconPath": "../assets/icons/ngrx-selectors.svg"
+      "iconPath": "../assets/icons/dark/ngrx-selectors.svg"
     },
     "webhint": {
-      "iconPath": "../assets/icons/webhint.svg"
+      "iconPath": "../assets/icons/dark/webhint.svg"
     },
     "browserlist": {
-      "iconPath": "../assets/icons/browserlist.svg"
+      "iconPath": "../assets/icons/dark/browserlist.svg"
     },
     "browserlist_light": {
-      "iconPath": "../assets/icons/browserlist_light.svg"
+      "iconPath": "../assets/icons/dark/browserlist_light.svg"
     },
     "crystal": {
-      "iconPath": "../assets/icons/crystal.svg"
+      "iconPath": "../assets/icons/dark/crystal.svg"
     },
     "crystal_light": {
-      "iconPath": "../assets/icons/crystal_light.svg"
+      "iconPath": "../assets/icons/dark/crystal_light.svg"
     },
     "snyk": {
-      "iconPath": "../assets/icons/snyk.svg"
+      "iconPath": "../assets/icons/dark/snyk.svg"
     },
     "drone": {
-      "iconPath": "../assets/icons/drone.svg"
+      "iconPath": "../assets/icons/dark/drone.svg"
     },
     "drone_light": {
-      "iconPath": "../assets/icons/drone_light.svg"
+      "iconPath": "../assets/icons/dark/drone_light.svg"
     },
     "cuda": {
-      "iconPath": "../assets/icons/cuda.svg"
+      "iconPath": "../assets/icons/dark/cuda.svg"
     },
     "dotjs": {
-      "iconPath": "../assets/icons/dotjs.svg"
+      "iconPath": "../assets/icons/dark/dotjs.svg"
     },
     "ejs": {
-      "iconPath": "../assets/icons/ejs.svg"
+      "iconPath": "../assets/icons/dark/ejs.svg"
     },
     "sequelize": {
-      "iconPath": "../assets/icons/sequelize.svg"
+      "iconPath": "../assets/icons/dark/sequelize.svg"
     },
     "gatsby": {
-      "iconPath": "../assets/icons/gatsby.svg"
+      "iconPath": "../assets/icons/dark/gatsby.svg"
     },
     "wakatime": {
-      "iconPath": "../assets/icons/wakatime.svg"
+      "iconPath": "../assets/icons/dark/wakatime.svg"
     },
     "wakatime_light": {
-      "iconPath": "../assets/icons/wakatime_light.svg"
+      "iconPath": "../assets/icons/dark/wakatime_light.svg"
     },
     "circleci": {
-      "iconPath": "../assets/icons/circleci.svg"
+      "iconPath": "../assets/icons/dark/circleci.svg"
     },
     "circleci_light": {
-      "iconPath": "../assets/icons/circleci_light.svg"
+      "iconPath": "../assets/icons/dark/circleci_light.svg"
     },
     "cloudfoundry": {
-      "iconPath": "../assets/icons/cloudfoundry.svg"
+      "iconPath": "../assets/icons/dark/cloudfoundry.svg"
     },
     "grunt": {
-      "iconPath": "../assets/icons/grunt.svg"
+      "iconPath": "../assets/icons/dark/grunt.svg"
     },
     "jest": {
-      "iconPath": "../assets/icons/jest.svg"
+      "iconPath": "../assets/icons/dark/jest.svg"
     },
     "storybook": {
-      "iconPath": "../assets/icons/storybook.svg"
+      "iconPath": "../assets/icons/dark/storybook.svg"
     },
     "wepy": {
-      "iconPath": "../assets/icons/wepy.svg"
+      "iconPath": "../assets/icons/dark/wepy.svg"
     },
     "fastlane": {
-      "iconPath": "../assets/icons/fastlane.svg"
+      "iconPath": "../assets/icons/dark/fastlane.svg"
     },
     "hcl_light": {
-      "iconPath": "../assets/icons/hcl_light.svg"
+      "iconPath": "../assets/icons/dark/hcl_light.svg"
     },
     "helm": {
-      "iconPath": "../assets/icons/helm.svg"
+      "iconPath": "../assets/icons/dark/helm.svg"
     },
     "san": {
-      "iconPath": "../assets/icons/san.svg"
+      "iconPath": "../assets/icons/dark/san.svg"
     },
     "quokka": {
-      "iconPath": "../assets/icons/quokka.svg"
+      "iconPath": "../assets/icons/dark/quokka.svg"
     },
     "wallaby": {
-      "iconPath": "../assets/icons/wallaby.svg"
+      "iconPath": "../assets/icons/dark/wallaby.svg"
     },
     "stencil": {
-      "iconPath": "../assets/icons/stencil.svg"
+      "iconPath": "../assets/icons/dark/stencil.svg"
     },
     "red": {
-      "iconPath": "../assets/icons/red.svg"
+      "iconPath": "../assets/icons/dark/red.svg"
     },
     "makefile": {
-      "iconPath": "../assets/icons/makefile.svg"
+      "iconPath": "../assets/icons/dark/makefile.svg"
     },
     "foxpro": {
-      "iconPath": "../assets/icons/foxpro.svg"
+      "iconPath": "../assets/icons/dark/foxpro.svg"
     },
     "i18n": {
-      "iconPath": "../assets/icons/i18n.svg"
+      "iconPath": "../assets/icons/dark/i18n.svg"
     },
     "webassembly": {
-      "iconPath": "../assets/icons/webassembly.svg"
+      "iconPath": "../assets/icons/dark/webassembly.svg"
     },
     "semantic-release": {
-      "iconPath": "../assets/icons/semantic-release.svg"
+      "iconPath": "../assets/icons/dark/semantic-release.svg"
     },
     "semantic-release_light": {
-      "iconPath": "../assets/icons/semantic-release_light.svg"
+      "iconPath": "../assets/icons/dark/semantic-release_light.svg"
     },
     "bitbucket": {
-      "iconPath": "../assets/icons/bitbucket.svg"
+      "iconPath": "../assets/icons/dark/bitbucket.svg"
     },
     "d": {
-      "iconPath": "../assets/icons/d.svg"
+      "iconPath": "../assets/icons/dark/d.svg"
     },
     "mdx": {
-      "iconPath": "../assets/icons/mdx.svg"
+      "iconPath": "../assets/icons/dark/mdx.svg"
     },
     "mdsvex": {
-      "iconPath": "../assets/icons/mdsvex.svg"
+      "iconPath": "../assets/icons/dark/mdsvex.svg"
     },
     "ballerina": {
-      "iconPath": "../assets/icons/ballerina.svg"
+      "iconPath": "../assets/icons/dark/ballerina.svg"
     },
     "racket": {
-      "iconPath": "../assets/icons/racket.svg"
+      "iconPath": "../assets/icons/dark/racket.svg"
     },
     "bazel": {
-      "iconPath": "../assets/icons/bazel.svg"
+      "iconPath": "../assets/icons/dark/bazel.svg"
     },
     "mint": {
-      "iconPath": "../assets/icons/mint.svg"
+      "iconPath": "../assets/icons/dark/mint.svg"
     },
     "velocity": {
-      "iconPath": "../assets/icons/velocity.svg"
+      "iconPath": "../assets/icons/dark/velocity.svg"
     },
     "azure-pipelines": {
-      "iconPath": "../assets/icons/azure-pipelines.svg"
+      "iconPath": "../assets/icons/dark/azure-pipelines.svg"
     },
     "azure": {
-      "iconPath": "../assets/icons/azure.svg"
+      "iconPath": "../assets/icons/dark/azure.svg"
     },
     "vagrant": {
-      "iconPath": "../assets/icons/vagrant.svg"
+      "iconPath": "../assets/icons/dark/vagrant.svg"
     },
     "prisma": {
-      "iconPath": "../assets/icons/prisma.svg"
+      "iconPath": "../assets/icons/dark/prisma.svg"
     },
     "abc": {
-      "iconPath": "../assets/icons/abc.svg"
+      "iconPath": "../assets/icons/dark/abc.svg"
     },
     "asciidoc": {
-      "iconPath": "../assets/icons/asciidoc.svg"
+      "iconPath": "../assets/icons/dark/asciidoc.svg"
     },
     "istanbul": {
-      "iconPath": "../assets/icons/istanbul.svg"
+      "iconPath": "../assets/icons/dark/istanbul.svg"
     },
     "edge": {
-      "iconPath": "../assets/icons/edge.svg"
+      "iconPath": "../assets/icons/dark/edge.svg"
     },
     "scheme": {
-      "iconPath": "../assets/icons/scheme.svg"
+      "iconPath": "../assets/icons/dark/scheme.svg"
     },
     "lisp": {
-      "iconPath": "../assets/icons/lisp.svg"
+      "iconPath": "../assets/icons/dark/lisp.svg"
     },
     "tailwindcss": {
-      "iconPath": "../assets/icons/tailwindcss.svg"
+      "iconPath": "../assets/icons/dark/tailwindcss.svg"
     },
     "3d": {
-      "iconPath": "../assets/icons/3d.svg"
+      "iconPath": "../assets/icons/dark/3d.svg"
     },
     "buildkite": {
-      "iconPath": "../assets/icons/buildkite.svg"
+      "iconPath": "../assets/icons/dark/buildkite.svg"
     },
     "netlify": {
-      "iconPath": "../assets/icons/netlify.svg"
+      "iconPath": "../assets/icons/dark/netlify.svg"
     },
     "netlify_light": {
-      "iconPath": "../assets/icons/netlify_light.svg"
+      "iconPath": "../assets/icons/dark/netlify_light.svg"
     },
     "adobe-illustrator": {
-      "iconPath": "../assets/icons/adobe-illustrator.svg"
+      "iconPath": "../assets/icons/dark/adobe-illustrator.svg"
     },
     "adobe-illustrator_light": {
-      "iconPath": "../assets/icons/adobe-illustrator_light.svg"
+      "iconPath": "../assets/icons/dark/adobe-illustrator_light.svg"
     },
     "adobe-photoshop": {
-      "iconPath": "../assets/icons/adobe-photoshop.svg"
+      "iconPath": "../assets/icons/dark/adobe-photoshop.svg"
     },
     "adobe-photoshop_light": {
-      "iconPath": "../assets/icons/adobe-photoshop_light.svg"
+      "iconPath": "../assets/icons/dark/adobe-photoshop_light.svg"
     },
     "svelte_js": {
-      "iconPath": "../assets/icons/svelte_js.clone.svg"
+      "iconPath": "../assets/icons/dark/svelte_js.clone.svg"
     },
     "svelte_ts": {
-      "iconPath": "../assets/icons/svelte_ts.clone.svg"
+      "iconPath": "../assets/icons/dark/svelte_ts.clone.svg"
     },
     "nest": {
-      "iconPath": "../assets/icons/nest.svg"
+      "iconPath": "../assets/icons/dark/nest.svg"
     },
     "nest-controller": {
-      "iconPath": "../assets/icons/nest-controller.clone.svg"
+      "iconPath": "../assets/icons/dark/nest-controller.clone.svg"
     },
     "nest-middleware": {
-      "iconPath": "../assets/icons/nest-middleware.clone.svg"
+      "iconPath": "../assets/icons/dark/nest-middleware.clone.svg"
     },
     "nest-module": {
-      "iconPath": "../assets/icons/nest-module.clone.svg"
+      "iconPath": "../assets/icons/dark/nest-module.clone.svg"
     },
     "nest-service": {
-      "iconPath": "../assets/icons/nest-service.clone.svg"
+      "iconPath": "../assets/icons/dark/nest-service.clone.svg"
     },
     "nest-decorator": {
-      "iconPath": "../assets/icons/nest-decorator.clone.svg"
+      "iconPath": "../assets/icons/dark/nest-decorator.clone.svg"
     },
     "nest-pipe": {
-      "iconPath": "../assets/icons/nest-pipe.clone.svg"
+      "iconPath": "../assets/icons/dark/nest-pipe.clone.svg"
     },
     "nest-filter": {
-      "iconPath": "../assets/icons/nest-filter.clone.svg"
+      "iconPath": "../assets/icons/dark/nest-filter.clone.svg"
     },
     "nest-gateway": {
-      "iconPath": "../assets/icons/nest-gateway.clone.svg"
+      "iconPath": "../assets/icons/dark/nest-gateway.clone.svg"
     },
     "nest-guard": {
-      "iconPath": "../assets/icons/nest-guard.clone.svg"
+      "iconPath": "../assets/icons/dark/nest-guard.clone.svg"
     },
     "nest-resolver": {
-      "iconPath": "../assets/icons/nest-resolver.clone.svg"
+      "iconPath": "../assets/icons/dark/nest-resolver.clone.svg"
     },
     "nest-interceptor": {
-      "iconPath": "../assets/icons/nest-interceptor.clone.svg"
+      "iconPath": "../assets/icons/dark/nest-interceptor.clone.svg"
     },
     "moon": {
-      "iconPath": "../assets/icons/moon.svg"
+      "iconPath": "../assets/icons/dark/moon.svg"
     },
     "moonscript": {
-      "iconPath": "../assets/icons/moonscript.svg"
+      "iconPath": "../assets/icons/dark/moonscript.svg"
     },
     "percy": {
-      "iconPath": "../assets/icons/percy.svg"
+      "iconPath": "../assets/icons/dark/percy.svg"
     },
     "gitpod": {
-      "iconPath": "../assets/icons/gitpod.svg"
+      "iconPath": "../assets/icons/dark/gitpod.svg"
     },
     "stackblitz": {
-      "iconPath": "../assets/icons/stackblitz.svg"
+      "iconPath": "../assets/icons/dark/stackblitz.svg"
     },
     "advpl": {
-      "iconPath": "../assets/icons/advpl.svg"
+      "iconPath": "../assets/icons/dark/advpl.svg"
     },
     "advpl-ptm": {
-      "iconPath": "../assets/icons/advpl-ptm.clone.svg"
+      "iconPath": "../assets/icons/dark/advpl-ptm.clone.svg"
     },
     "advpl-tlpp": {
-      "iconPath": "../assets/icons/advpl-tlpp.clone.svg"
+      "iconPath": "../assets/icons/dark/advpl-tlpp.clone.svg"
     },
     "advpl-include": {
-      "iconPath": "../assets/icons/advpl-include.clone.svg"
+      "iconPath": "../assets/icons/dark/advpl-include.clone.svg"
     },
     "codeowners": {
-      "iconPath": "../assets/icons/codeowners.svg"
+      "iconPath": "../assets/icons/dark/codeowners.svg"
     },
     "gcp": {
-      "iconPath": "../assets/icons/gcp.svg"
+      "iconPath": "../assets/icons/dark/gcp.svg"
     },
     "amplify": {
-      "iconPath": "../assets/icons/amplify.svg"
+      "iconPath": "../assets/icons/dark/amplify.svg"
     },
     "disc": {
-      "iconPath": "../assets/icons/disc.svg"
+      "iconPath": "../assets/icons/dark/disc.svg"
     },
     "fortran": {
-      "iconPath": "../assets/icons/fortran.svg"
+      "iconPath": "../assets/icons/dark/fortran.svg"
     },
     "tcl": {
-      "iconPath": "../assets/icons/tcl.svg"
+      "iconPath": "../assets/icons/dark/tcl.svg"
     },
     "liquid": {
-      "iconPath": "../assets/icons/liquid.svg"
+      "iconPath": "../assets/icons/dark/liquid.svg"
     },
     "husky": {
-      "iconPath": "../assets/icons/husky.svg"
+      "iconPath": "../assets/icons/dark/husky.svg"
     },
     "coconut": {
-      "iconPath": "../assets/icons/coconut.svg"
+      "iconPath": "../assets/icons/dark/coconut.svg"
     },
     "tilt": {
-      "iconPath": "../assets/icons/tilt.svg"
+      "iconPath": "../assets/icons/dark/tilt.svg"
     },
     "capacitor": {
-      "iconPath": "../assets/icons/capacitor.svg"
+      "iconPath": "../assets/icons/dark/capacitor.svg"
     },
     "sketch": {
-      "iconPath": "../assets/icons/sketch.svg"
+      "iconPath": "../assets/icons/dark/sketch.svg"
     },
     "adonis": {
-      "iconPath": "../assets/icons/adonis.svg"
+      "iconPath": "../assets/icons/dark/adonis.svg"
     },
     "forth": {
-      "iconPath": "../assets/icons/forth.svg"
+      "iconPath": "../assets/icons/dark/forth.svg"
     },
     "uml": {
-      "iconPath": "../assets/icons/uml.svg"
+      "iconPath": "../assets/icons/dark/uml.svg"
     },
     "uml_light": {
-      "iconPath": "../assets/icons/uml_light.svg"
+      "iconPath": "../assets/icons/dark/uml_light.svg"
     },
     "meson": {
-      "iconPath": "../assets/icons/meson.svg"
+      "iconPath": "../assets/icons/dark/meson.svg"
     },
     "commitizen": {
-      "iconPath": "../assets/icons/commitizen.svg"
+      "iconPath": "../assets/icons/dark/commitizen.svg"
     },
     "commitlint": {
-      "iconPath": "../assets/icons/commitlint.svg"
+      "iconPath": "../assets/icons/dark/commitlint.svg"
     },
     "buck": {
-      "iconPath": "../assets/icons/buck.svg"
+      "iconPath": "../assets/icons/dark/buck.svg"
     },
     "nx": {
-      "iconPath": "../assets/icons/nx.svg"
+      "iconPath": "../assets/icons/dark/nx.svg"
     },
     "opam": {
-      "iconPath": "../assets/icons/opam.svg"
+      "iconPath": "../assets/icons/dark/opam.svg"
     },
     "dune": {
-      "iconPath": "../assets/icons/dune.svg"
+      "iconPath": "../assets/icons/dark/dune.svg"
     },
     "imba": {
-      "iconPath": "../assets/icons/imba.svg"
+      "iconPath": "../assets/icons/dark/imba.svg"
     },
     "drawio": {
-      "iconPath": "../assets/icons/drawio.svg"
+      "iconPath": "../assets/icons/dark/drawio.svg"
     },
     "pascal": {
-      "iconPath": "../assets/icons/pascal.svg"
+      "iconPath": "../assets/icons/dark/pascal.svg"
     },
     "unity": {
-      "iconPath": "../assets/icons/unity.svg"
+      "iconPath": "../assets/icons/dark/unity.svg"
     },
     "roadmap": {
-      "iconPath": "../assets/icons/roadmap.svg"
+      "iconPath": "../assets/icons/dark/roadmap.svg"
     },
     "nuget": {
-      "iconPath": "../assets/icons/nuget.svg"
+      "iconPath": "../assets/icons/dark/nuget.svg"
     },
     "command": {
-      "iconPath": "../assets/icons/command.svg"
+      "iconPath": "../assets/icons/dark/command.svg"
     },
     "stryker": {
-      "iconPath": "../assets/icons/stryker.svg"
+      "iconPath": "../assets/icons/dark/stryker.svg"
     },
     "denizenscript": {
-      "iconPath": "../assets/icons/denizenscript.svg"
+      "iconPath": "../assets/icons/dark/denizenscript.svg"
     },
     "modernizr": {
-      "iconPath": "../assets/icons/modernizr.svg"
+      "iconPath": "../assets/icons/dark/modernizr.svg"
     },
     "slug": {
-      "iconPath": "../assets/icons/slug.svg"
+      "iconPath": "../assets/icons/dark/slug.svg"
     },
     "stitches": {
-      "iconPath": "../assets/icons/stitches.svg"
+      "iconPath": "../assets/icons/dark/stitches.svg"
     },
     "stitches_light": {
-      "iconPath": "../assets/icons/stitches_light.svg"
+      "iconPath": "../assets/icons/dark/stitches_light.svg"
     },
     "nginx": {
-      "iconPath": "../assets/icons/nginx.svg"
+      "iconPath": "../assets/icons/dark/nginx.svg"
     },
     "replit": {
-      "iconPath": "../assets/icons/replit.svg"
+      "iconPath": "../assets/icons/dark/replit.svg"
     },
     "rescript-interface": {
-      "iconPath": "../assets/icons/rescript-interface.svg"
+      "iconPath": "../assets/icons/dark/rescript-interface.svg"
     },
     "duc": {
-      "iconPath": "../assets/icons/duc.svg"
+      "iconPath": "../assets/icons/dark/duc.svg"
     },
     "snowpack": {
-      "iconPath": "../assets/icons/snowpack.svg"
+      "iconPath": "../assets/icons/dark/snowpack.svg"
     },
     "snowpack_light": {
-      "iconPath": "../assets/icons/snowpack_light.svg"
+      "iconPath": "../assets/icons/dark/snowpack_light.svg"
     },
     "brainfuck": {
-      "iconPath": "../assets/icons/brainfuck.svg"
+      "iconPath": "../assets/icons/dark/brainfuck.svg"
     },
     "bicep": {
-      "iconPath": "../assets/icons/bicep.svg"
+      "iconPath": "../assets/icons/dark/bicep.svg"
     },
     "cobol": {
-      "iconPath": "../assets/icons/cobol.svg"
+      "iconPath": "../assets/icons/dark/cobol.svg"
     },
     "quasar": {
-      "iconPath": "../assets/icons/quasar.svg"
+      "iconPath": "../assets/icons/dark/quasar.svg"
     },
     "dependabot": {
-      "iconPath": "../assets/icons/dependabot.svg"
+      "iconPath": "../assets/icons/dark/dependabot.svg"
     },
     "pipeline": {
-      "iconPath": "../assets/icons/pipeline.svg"
+      "iconPath": "../assets/icons/dark/pipeline.svg"
     },
     "vite": {
-      "iconPath": "../assets/icons/vite-file.svg"
+      "iconPath": "../assets/icons/dark/vite-file.svg"
     },
     "vitest": {
-      "iconPath": "../assets/icons/vitest.svg"
+      "iconPath": "../assets/icons/dark/vitest.svg"
     },
     "velite": {
-      "iconPath": "../assets/icons/velite.svg"
+      "iconPath": "../assets/icons/dark/velite.svg"
     },
     "opa": {
-      "iconPath": "../assets/icons/opa.svg"
+      "iconPath": "../assets/icons/dark/opa.svg"
     },
     "lerna": {
-      "iconPath": "../assets/icons/lerna.svg"
+      "iconPath": "../assets/icons/dark/lerna.svg"
     },
     "windicss": {
-      "iconPath": "../assets/icons/windicss.svg"
+      "iconPath": "../assets/icons/dark/windicss.svg"
     },
     "textlint": {
-      "iconPath": "../assets/icons/textlint.svg"
+      "iconPath": "../assets/icons/dark/textlint.svg"
     },
     "lilypond": {
-      "iconPath": "../assets/icons/lilypond.svg"
+      "iconPath": "../assets/icons/dark/lilypond.svg"
     },
     "chess_light": {
-      "iconPath": "../assets/icons/chess_light.svg"
+      "iconPath": "../assets/icons/dark/chess_light.svg"
     },
     "sentry": {
-      "iconPath": "../assets/icons/sentry.svg"
+      "iconPath": "../assets/icons/dark/sentry.svg"
     },
     "contentlayer": {
-      "iconPath": "../assets/icons/contentlayer.svg"
+      "iconPath": "../assets/icons/dark/contentlayer.svg"
     },
     "phpunit": {
-      "iconPath": "../assets/icons/phpunit.svg"
+      "iconPath": "../assets/icons/dark/phpunit.svg"
     },
     "php-cs-fixer": {
-      "iconPath": "../assets/icons/php-cs-fixer.svg"
+      "iconPath": "../assets/icons/dark/php-cs-fixer.svg"
     },
     "robots": {
-      "iconPath": "../assets/icons/robots.svg"
+      "iconPath": "../assets/icons/dark/robots.svg"
     },
     "tsconfig": {
-      "iconPath": "../assets/icons/tsconfig.svg"
+      "iconPath": "../assets/icons/dark/tsconfig.svg"
     },
     "tauri": {
-      "iconPath": "../assets/icons/tauri.svg"
+      "iconPath": "../assets/icons/dark/tauri.svg"
     },
     "jsconfig": {
-      "iconPath": "../assets/icons/jsconfig.svg"
+      "iconPath": "../assets/icons/dark/jsconfig.svg"
     },
     "maven": {
-      "iconPath": "../assets/icons/maven.svg"
+      "iconPath": "../assets/icons/dark/maven.svg"
     },
     "ada": {
-      "iconPath": "../assets/icons/ada.svg"
+      "iconPath": "../assets/icons/dark/ada.svg"
     },
     "serverless": {
-      "iconPath": "../assets/icons/serverless.svg"
+      "iconPath": "../assets/icons/dark/serverless.svg"
     },
     "supabase": {
-      "iconPath": "../assets/icons/supabase-file.svg"
+      "iconPath": "../assets/icons/dark/supabase-file.svg"
     },
     "ember": {
-      "iconPath": "../assets/icons/ember.svg"
+      "iconPath": "../assets/icons/dark/ember.svg"
     },
     "horusec": {
-      "iconPath": "../assets/icons/horusec.svg"
+      "iconPath": "../assets/icons/dark/horusec.svg"
     },
     "poetry": {
-      "iconPath": "../assets/icons/poetry.svg"
+      "iconPath": "../assets/icons/dark/poetry.svg"
     },
     "pdm": {
-      "iconPath": "../assets/icons/pdm.svg"
+      "iconPath": "../assets/icons/dark/pdm.svg"
     },
     "coala": {
-      "iconPath": "../assets/icons/coala.svg"
+      "iconPath": "../assets/icons/dark/coala.svg"
     },
     "parcel": {
-      "iconPath": "../assets/icons/parcel.svg"
+      "iconPath": "../assets/icons/dark/parcel.svg"
     },
     "dinophp": {
-      "iconPath": "../assets/icons/dinophp.svg"
+      "iconPath": "../assets/icons/dark/dinophp.svg"
     },
     "teal": {
-      "iconPath": "../assets/icons/teal.svg"
+      "iconPath": "../assets/icons/dark/teal.svg"
     },
     "template": {
-      "iconPath": "../assets/icons/template.svg"
+      "iconPath": "../assets/icons/dark/template.svg"
     },
     "astyle": {
-      "iconPath": "../assets/icons/astyle.svg"
+      "iconPath": "../assets/icons/dark/astyle.svg"
     },
     "lighthouse": {
-      "iconPath": "../assets/icons/lighthouse.svg"
+      "iconPath": "../assets/icons/dark/lighthouse.svg"
     },
     "svgr": {
-      "iconPath": "../assets/icons/svgr.svg"
+      "iconPath": "../assets/icons/dark/svgr.svg"
     },
     "rome": {
-      "iconPath": "../assets/icons/rome.svg"
+      "iconPath": "../assets/icons/dark/rome.svg"
     },
     "cypress": {
-      "iconPath": "../assets/icons/cypress.svg"
+      "iconPath": "../assets/icons/dark/cypress.svg"
     },
     "siyuan": {
-      "iconPath": "../assets/icons/siyuan.svg"
+      "iconPath": "../assets/icons/dark/siyuan.svg"
     },
     "ndst": {
-      "iconPath": "../assets/icons/ndst.svg"
+      "iconPath": "../assets/icons/dark/ndst.svg"
     },
     "plop": {
-      "iconPath": "../assets/icons/plop.svg"
+      "iconPath": "../assets/icons/dark/plop.svg"
     },
     "tobi": {
-      "iconPath": "../assets/icons/tobi.svg"
+      "iconPath": "../assets/icons/dark/tobi.svg"
     },
     "tobimake": {
-      "iconPath": "../assets/icons/tobimake.svg"
+      "iconPath": "../assets/icons/dark/tobimake.svg"
     },
     "gleam": {
-      "iconPath": "../assets/icons/gleam.svg"
+      "iconPath": "../assets/icons/dark/gleam.svg"
     },
     "pnpm": {
-      "iconPath": "../assets/icons/pnpm.svg"
+      "iconPath": "../assets/icons/dark/pnpm.svg"
     },
     "pnpm_light": {
-      "iconPath": "../assets/icons/pnpm_light.svg"
+      "iconPath": "../assets/icons/dark/pnpm_light.svg"
     },
     "gridsome": {
-      "iconPath": "../assets/icons/gridsome.svg"
+      "iconPath": "../assets/icons/dark/gridsome.svg"
     },
     "steadybit": {
-      "iconPath": "../assets/icons/steadybit.svg"
+      "iconPath": "../assets/icons/dark/steadybit.svg"
     },
     "capnp": {
-      "iconPath": "../assets/icons/capnp.svg"
+      "iconPath": "../assets/icons/dark/capnp.svg"
     },
     "caddy": {
-      "iconPath": "../assets/icons/caddy.svg"
+      "iconPath": "../assets/icons/dark/caddy.svg"
     },
     "openapi": {
-      "iconPath": "../assets/icons/openapi.svg"
+      "iconPath": "../assets/icons/dark/openapi.svg"
     },
     "openapi_light": {
-      "iconPath": "../assets/icons/openapi_light.svg"
+      "iconPath": "../assets/icons/dark/openapi_light.svg"
     },
     "swagger": {
-      "iconPath": "../assets/icons/swagger.svg"
+      "iconPath": "../assets/icons/dark/swagger.svg"
     },
     "bun": {
-      "iconPath": "../assets/icons/bun.svg"
+      "iconPath": "../assets/icons/dark/bun.svg"
     },
     "bun_light": {
-      "iconPath": "../assets/icons/bun_light.svg"
+      "iconPath": "../assets/icons/dark/bun_light.svg"
     },
     "antlr": {
-      "iconPath": "../assets/icons/antlr.svg"
+      "iconPath": "../assets/icons/dark/antlr.svg"
     },
     "pinejs": {
-      "iconPath": "../assets/icons/pinejs.svg"
+      "iconPath": "../assets/icons/dark/pinejs.svg"
     },
     "nano-staged": {
-      "iconPath": "../assets/icons/nano-staged.svg"
+      "iconPath": "../assets/icons/dark/nano-staged.svg"
     },
     "nano-staged_light": {
-      "iconPath": "../assets/icons/nano-staged_light.svg"
+      "iconPath": "../assets/icons/dark/nano-staged_light.svg"
     },
     "knip": {
-      "iconPath": "../assets/icons/knip.svg"
+      "iconPath": "../assets/icons/dark/knip.svg"
     },
     "taskfile": {
-      "iconPath": "../assets/icons/taskfile.svg"
+      "iconPath": "../assets/icons/dark/taskfile.svg"
     },
     "craco": {
-      "iconPath": "../assets/icons/craco.svg"
+      "iconPath": "../assets/icons/dark/craco.svg"
     },
     "gamemaker": {
-      "iconPath": "../assets/icons/gamemaker.svg"
+      "iconPath": "../assets/icons/dark/gamemaker.svg"
     },
     "tldraw": {
-      "iconPath": "../assets/icons/tldraw.svg"
+      "iconPath": "../assets/icons/dark/tldraw.svg"
     },
     "tldraw_light": {
-      "iconPath": "../assets/icons/tldraw_light.svg"
+      "iconPath": "../assets/icons/dark/tldraw_light.svg"
     },
     "mercurial": {
-      "iconPath": "../assets/icons/mercurial.svg"
+      "iconPath": "../assets/icons/dark/mercurial.svg"
     },
     "deno": {
-      "iconPath": "../assets/icons/deno.svg"
+      "iconPath": "../assets/icons/dark/deno.svg"
     },
     "deno_light": {
-      "iconPath": "../assets/icons/deno_light.svg"
+      "iconPath": "../assets/icons/dark/deno_light.svg"
     },
     "plastic": {
-      "iconPath": "../assets/icons/plastic.svg"
+      "iconPath": "../assets/icons/dark/plastic.svg"
     },
     "typst": {
-      "iconPath": "../assets/icons/typst.svg"
+      "iconPath": "../assets/icons/dark/typst.svg"
     },
     "unocss": {
-      "iconPath": "../assets/icons/unocss.svg"
+      "iconPath": "../assets/icons/dark/unocss.svg"
     },
     "ifanr-cloud": {
-      "iconPath": "../assets/icons/ifanr-cloud.svg"
+      "iconPath": "../assets/icons/dark/ifanr-cloud.svg"
     },
     "qwik": {
-      "iconPath": "../assets/icons/qwik.svg"
+      "iconPath": "../assets/icons/dark/qwik.svg"
     },
     "mermaid": {
-      "iconPath": "../assets/icons/mermaid.svg"
+      "iconPath": "../assets/icons/dark/mermaid.svg"
     },
     "syncpack": {
-      "iconPath": "../assets/icons/syncpack.svg"
+      "iconPath": "../assets/icons/dark/syncpack.svg"
     },
     "werf": {
-      "iconPath": "../assets/icons/werf.svg"
+      "iconPath": "../assets/icons/dark/werf.svg"
     },
     "roblox": {
-      "iconPath": "../assets/icons/roblox.svg"
+      "iconPath": "../assets/icons/dark/roblox.svg"
     },
     "rojo": {
-      "iconPath": "../assets/icons/rojo.svg"
+      "iconPath": "../assets/icons/dark/rojo.svg"
     },
     "wally": {
-      "iconPath": "../assets/icons/wally.svg"
+      "iconPath": "../assets/icons/dark/wally.svg"
     },
     "rbxmk": {
-      "iconPath": "../assets/icons/rbxmk.svg"
+      "iconPath": "../assets/icons/dark/rbxmk.svg"
     },
     "panda": {
-      "iconPath": "../assets/icons/panda.svg"
+      "iconPath": "../assets/icons/dark/panda.svg"
     },
     "biome": {
-      "iconPath": "../assets/icons/biome.svg"
+      "iconPath": "../assets/icons/dark/biome.svg"
     },
     "esbuild": {
-      "iconPath": "../assets/icons/esbuild.svg"
+      "iconPath": "../assets/icons/dark/esbuild.svg"
     },
     "spwn": {
-      "iconPath": "../assets/icons/spwn.svg"
+      "iconPath": "../assets/icons/dark/spwn.svg"
     },
     "templ": {
-      "iconPath": "../assets/icons/templ.svg"
+      "iconPath": "../assets/icons/dark/templ.svg"
     },
     "chrome": {
-      "iconPath": "../assets/icons/chrome.svg"
+      "iconPath": "../assets/icons/dark/chrome.svg"
     },
     "stan": {
-      "iconPath": "../assets/icons/stan.svg"
+      "iconPath": "../assets/icons/dark/stan.svg"
     },
     "abap": {
-      "iconPath": "../assets/icons/abap.svg"
+      "iconPath": "../assets/icons/dark/abap.svg"
     },
     "drizzle": {
-      "iconPath": "../assets/icons/drizzle.svg"
+      "iconPath": "../assets/icons/dark/drizzle.svg"
     },
     "lottie": {
-      "iconPath": "../assets/icons/lottie.svg"
+      "iconPath": "../assets/icons/dark/lottie.svg"
     },
     "puppeteer": {
-      "iconPath": "../assets/icons/puppeteer.svg"
+      "iconPath": "../assets/icons/dark/puppeteer.svg"
     },
     "apps-script": {
-      "iconPath": "../assets/icons/apps-script.svg"
+      "iconPath": "../assets/icons/dark/apps-script.svg"
     },
     "garden": {
-      "iconPath": "../assets/icons/garden.svg"
+      "iconPath": "../assets/icons/dark/garden.svg"
     },
     "pkl": {
-      "iconPath": "../assets/icons/pkl.svg"
+      "iconPath": "../assets/icons/dark/pkl.svg"
     },
     "kubernetes": {
-      "iconPath": "../assets/icons/kubernetes.svg"
+      "iconPath": "../assets/icons/dark/kubernetes.svg"
     },
     "phpstan": {
-      "iconPath": "../assets/icons/phpstan.svg"
+      "iconPath": "../assets/icons/dark/phpstan.svg"
     },
     "screwdriver": {
-      "iconPath": "../assets/icons/screwdriver.svg"
+      "iconPath": "../assets/icons/dark/screwdriver.svg"
     },
     "snapcraft": {
-      "iconPath": "../assets/icons/snapcraft.svg"
+      "iconPath": "../assets/icons/dark/snapcraft.svg"
     },
     "container": {
-      "iconPath": "../assets/icons/container.clone.svg"
+      "iconPath": "../assets/icons/dark/container.clone.svg"
     },
     "kcl": {
-      "iconPath": "../assets/icons/kcl.svg"
+      "iconPath": "../assets/icons/dark/kcl.svg"
     },
     "verified": {
-      "iconPath": "../assets/icons/verified.svg"
+      "iconPath": "../assets/icons/dark/verified.svg"
     },
     "bruno": {
-      "iconPath": "../assets/icons/bruno.svg"
+      "iconPath": "../assets/icons/dark/bruno.svg"
     },
     "cairo": {
-      "iconPath": "../assets/icons/cairo.svg"
+      "iconPath": "../assets/icons/dark/cairo.svg"
     },
     "grafana-alloy": {
-      "iconPath": "../assets/icons/grafana-alloy.svg"
+      "iconPath": "../assets/icons/dark/grafana-alloy.svg"
     },
     "clangd": {
-      "iconPath": "../assets/icons/clangd.svg"
+      "iconPath": "../assets/icons/dark/clangd.svg"
     },
     "freemarker": {
-      "iconPath": "../assets/icons/freemarker.svg"
+      "iconPath": "../assets/icons/dark/freemarker.svg"
     },
     "markdownlint": {
-      "iconPath": "../assets/icons/markdownlint.svg"
+      "iconPath": "../assets/icons/dark/markdownlint.svg"
     },
     "tsil": {
-      "iconPath": "../assets/icons/tsil.svg"
+      "iconPath": "../assets/icons/dark/tsil.svg"
     },
     "trigger": {
-      "iconPath": "../assets/icons/trigger.svg"
+      "iconPath": "../assets/icons/dark/trigger.svg"
     },
     "deepsource": {
-      "iconPath": "../assets/icons/deepsource.svg"
+      "iconPath": "../assets/icons/dark/deepsource.svg"
     },
     "tape": {
-      "iconPath": "../assets/icons/tape.clone.svg"
+      "iconPath": "../assets/icons/dark/tape.clone.svg"
     },
     "hurl": {
-      "iconPath": "../assets/icons/hurl.svg"
+      "iconPath": "../assets/icons/dark/hurl.svg"
     },
     "jsr": {
-      "iconPath": "../assets/icons/jsr.svg"
+      "iconPath": "../assets/icons/dark/jsr.svg"
     },
     "jsr_light": {
-      "iconPath": "../assets/icons/jsr_light.svg"
+      "iconPath": "../assets/icons/dark/jsr_light.svg"
     },
     "coderabbit-ai": {
-      "iconPath": "../assets/icons/coderabbit-ai.svg"
+      "iconPath": "../assets/icons/dark/coderabbit-ai.svg"
     },
     "gemini-ai": {
-      "iconPath": "../assets/icons/gemini-ai.svg"
+      "iconPath": "../assets/icons/dark/gemini-ai.svg"
     },
     "taze": {
-      "iconPath": "../assets/icons/taze.svg"
+      "iconPath": "../assets/icons/dark/taze.svg"
     },
     "wxt": {
-      "iconPath": "../assets/icons/wxt.svg"
+      "iconPath": "../assets/icons/dark/wxt.svg"
     },
     "sway": {
-      "iconPath": "../assets/icons/sway.svg"
+      "iconPath": "../assets/icons/dark/sway.svg"
     },
     "lefthook": {
-      "iconPath": "../assets/icons/lefthook.svg"
+      "iconPath": "../assets/icons/dark/lefthook.svg"
     },
     "label": {
-      "iconPath": "../assets/icons/label.svg"
+      "iconPath": "../assets/icons/dark/label.svg"
     },
     "zeabur": {
-      "iconPath": "../assets/icons/zeabur.svg"
+      "iconPath": "../assets/icons/dark/zeabur.svg"
     },
     "zeabur_light": {
-      "iconPath": "../assets/icons/zeabur_light.svg"
+      "iconPath": "../assets/icons/dark/zeabur_light.svg"
     },
     "copilot": {
-      "iconPath": "../assets/icons/copilot.svg"
+      "iconPath": "../assets/icons/dark/copilot.svg"
     },
     "copilot_light": {
-      "iconPath": "../assets/icons/copilot_light.svg"
+      "iconPath": "../assets/icons/dark/copilot_light.svg"
     },
     "bench-ts": {
-      "iconPath": "../assets/icons/bench-ts.svg"
+      "iconPath": "../assets/icons/dark/bench-ts.svg"
     },
     "bench-jsx": {
-      "iconPath": "../assets/icons/bench-jsx.svg"
+      "iconPath": "../assets/icons/dark/bench-jsx.svg"
     },
     "bench-js": {
-      "iconPath": "../assets/icons/bench-js.svg"
+      "iconPath": "../assets/icons/dark/bench-js.svg"
     },
     "pre-commit": {
-      "iconPath": "../assets/icons/pre-commit.svg"
+      "iconPath": "../assets/icons/dark/pre-commit.svg"
     },
     "controller": {
-      "iconPath": "../assets/icons/controller.svg"
+      "iconPath": "../assets/icons/dark/controller.svg"
     },
     "dependencies-update": {
-      "iconPath": "../assets/icons/dependencies-update.svg"
+      "iconPath": "../assets/icons/dark/dependencies-update.svg"
     },
     "histoire": {
-      "iconPath": "../assets/icons/histoire.svg"
+      "iconPath": "../assets/icons/dark/histoire.svg"
     },
     "installation": {
-      "iconPath": "../assets/icons/installation.svg"
+      "iconPath": "../assets/icons/dark/installation.svg"
     },
     "github-sponsors": {
-      "iconPath": "../assets/icons/github-sponsors.svg"
+      "iconPath": "../assets/icons/dark/github-sponsors.svg"
     },
     "minecraft-fabric": {
-      "iconPath": "../assets/icons/minecraft-fabric.svg"
+      "iconPath": "../assets/icons/dark/minecraft-fabric.svg"
     },
     "umi": {
-      "iconPath": "../assets/icons/umi.svg"
+      "iconPath": "../assets/icons/dark/umi.svg"
     },
     "pm2-ecosystem": {
-      "iconPath": "../assets/icons/pm2-ecosystem.svg"
+      "iconPath": "../assets/icons/dark/pm2-ecosystem.svg"
     },
     "hosts_light": {
-      "iconPath": "../assets/icons/hosts_light.svg"
+      "iconPath": "../assets/icons/dark/hosts_light.svg"
     },
     "citation": {
-      "iconPath": "../assets/icons/citation.svg"
+      "iconPath": "../assets/icons/dark/citation.svg"
     },
     "xmake": {
-      "iconPath": "../assets/icons/xmake.svg"
+      "iconPath": "../assets/icons/dark/xmake.svg"
     },
     "subtitles": {
-      "iconPath": "../assets/icons/subtitles.svg"
+      "iconPath": "../assets/icons/dark/subtitles.svg"
     },
     "wrangler": {
-      "iconPath": "../assets/icons/wrangler.svg"
+      "iconPath": "../assets/icons/dark/wrangler.svg"
     },
     "epub": {
-      "iconPath": "../assets/icons/epub.svg"
+      "iconPath": "../assets/icons/dark/epub.svg"
     },
     "regedit": {
-      "iconPath": "../assets/icons/regedit.svg"
+      "iconPath": "../assets/icons/dark/regedit.svg"
     },
     "cline": {
-      "iconPath": "../assets/icons/cline.svg"
+      "iconPath": "../assets/icons/dark/cline.svg"
     },
     "packship": {
-      "iconPath": "../assets/icons/packship.svg"
+      "iconPath": "../assets/icons/dark/packship.svg"
     },
     "snakemake": {
-      "iconPath": "../assets/icons/snakemake.svg"
+      "iconPath": "../assets/icons/dark/snakemake.svg"
     },
     "hadolint": {
-      "iconPath": "../assets/icons/hadolint.svg"
+      "iconPath": "../assets/icons/dark/hadolint.svg"
     },
     "coloredpetrinets": {
-      "iconPath": "../assets/icons/coloredpetrinets.svg"
+      "iconPath": "../assets/icons/dark/coloredpetrinets.svg"
     },
     "pytorch": {
-      "iconPath": "../assets/icons/pytorch.svg"
+      "iconPath": "../assets/icons/dark/pytorch.svg"
     },
     "blender": {
-      "iconPath": "../assets/icons/blender.svg"
+      "iconPath": "../assets/icons/dark/blender.svg"
     },
     "file": {
-      "iconPath": "../assets/icons/file.svg"
+      "iconPath": "../assets/icons/dark/file.svg"
     },
     "folder-rust": {
-      "iconPath": "../assets/icons/folder-rust.svg"
+      "iconPath": "../assets/icons/dark/folder-rust.svg"
     },
     "folder-rust-open": {
-      "iconPath": "../assets/icons/folder-rust-open.svg"
+      "iconPath": "../assets/icons/dark/folder-rust-open.svg"
     },
     "folder-robot": {
-      "iconPath": "../assets/icons/folder-robot.svg"
+      "iconPath": "../assets/icons/dark/folder-robot.svg"
     },
     "folder-robot-open": {
-      "iconPath": "../assets/icons/folder-robot-open.svg"
+      "iconPath": "../assets/icons/dark/folder-robot-open.svg"
     },
     "folder-src": {
-      "iconPath": "../assets/icons/folder-src.svg"
+      "iconPath": "../assets/icons/dark/folder-src.svg"
     },
     "folder-src-open": {
-      "iconPath": "../assets/icons/folder-src-open.svg"
+      "iconPath": "../assets/icons/dark/folder-src-open.svg"
     },
     "folder-dist": {
-      "iconPath": "../assets/icons/folder-dist.svg"
+      "iconPath": "../assets/icons/dark/folder-dist.svg"
     },
     "folder-dist-open": {
-      "iconPath": "../assets/icons/folder-dist-open.svg"
+      "iconPath": "../assets/icons/dark/folder-dist-open.svg"
     },
     "folder-css": {
-      "iconPath": "../assets/icons/folder-css.svg"
+      "iconPath": "../assets/icons/dark/folder-css.svg"
     },
     "folder-css-open": {
-      "iconPath": "../assets/icons/folder-css-open.svg"
+      "iconPath": "../assets/icons/dark/folder-css-open.svg"
     },
     "folder-sass": {
-      "iconPath": "../assets/icons/folder-sass.svg"
+      "iconPath": "../assets/icons/dark/folder-sass.svg"
     },
     "folder-sass-open": {
-      "iconPath": "../assets/icons/folder-sass-open.svg"
+      "iconPath": "../assets/icons/dark/folder-sass-open.svg"
     },
     "folder-scss": {
-      "iconPath": "../assets/icons/folder-scss.svg"
+      "iconPath": "../assets/icons/dark/folder-scss.svg"
     },
     "folder-scss-open": {
-      "iconPath": "../assets/icons/folder-scss-open.svg"
+      "iconPath": "../assets/icons/dark/folder-scss-open.svg"
     },
     "folder-television": {
-      "iconPath": "../assets/icons/folder-television.svg"
+      "iconPath": "../assets/icons/dark/folder-television.svg"
     },
     "folder-television-open": {
-      "iconPath": "../assets/icons/folder-television-open.svg"
+      "iconPath": "../assets/icons/dark/folder-television-open.svg"
     },
     "folder-desktop": {
-      "iconPath": "../assets/icons/folder-desktop.svg"
+      "iconPath": "../assets/icons/dark/folder-desktop.svg"
     },
     "folder-desktop-open": {
-      "iconPath": "../assets/icons/folder-desktop-open.svg"
+      "iconPath": "../assets/icons/dark/folder-desktop-open.svg"
     },
     "folder-console": {
-      "iconPath": "../assets/icons/folder-console.svg"
+      "iconPath": "../assets/icons/dark/folder-console.svg"
     },
     "folder-console-open": {
-      "iconPath": "../assets/icons/folder-console-open.svg"
+      "iconPath": "../assets/icons/dark/folder-console-open.svg"
     },
     "folder-icons": {
-      "iconPath": "../assets/icons/icons-folder.svg"
+      "iconPath": "../assets/icons/dark/icons-folder.svg"
     },
     "folder-icons-open": {
-      "iconPath": "../assets/icons/icons-folder-open.svg"
+      "iconPath": "../assets/icons/dark/icons-folder-open.svg"
     },
     "folder-images": {
-      "iconPath": "../assets/icons/folder-images.svg"
+      "iconPath": "../assets/icons/dark/folder-images.svg"
     },
     "folder-images-open": {
-      "iconPath": "../assets/icons/folder-images-open.svg"
+      "iconPath": "../assets/icons/dark/folder-images-open.svg"
     },
     "folder-gif": {
-      "iconPath": "../assets/icons/folder-gif.svg"
+      "iconPath": "../assets/icons/dark/folder-gif.svg"
     },
     "folder-gif-open": {
-      "iconPath": "../assets/icons/folder-gif-open.svg"
+      "iconPath": "../assets/icons/dark/folder-gif-open.svg"
     },
     "folder-scripts": {
-      "iconPath": "../assets/icons/folder-scripts.svg"
+      "iconPath": "../assets/icons/dark/folder-scripts.svg"
     },
     "folder-scripts-open": {
-      "iconPath": "../assets/icons/folder-scripts-open.svg"
+      "iconPath": "../assets/icons/dark/folder-scripts-open.svg"
     },
     "folder-node": {
-      "iconPath": "../assets/icons/folder-node.svg"
+      "iconPath": "../assets/icons/dark/folder-node.svg"
     },
     "folder-node-open": {
-      "iconPath": "../assets/icons/folder-node-open.svg"
+      "iconPath": "../assets/icons/dark/folder-node-open.svg"
     },
     "folder-javascript": {
-      "iconPath": "../assets/icons/folder-javascript.svg"
+      "iconPath": "../assets/icons/dark/folder-javascript.svg"
     },
     "folder-javascript-open": {
-      "iconPath": "../assets/icons/folder-javascript-open.svg"
+      "iconPath": "../assets/icons/dark/folder-javascript-open.svg"
     },
     "folder-json": {
-      "iconPath": "../assets/icons/folder-json.svg"
+      "iconPath": "../assets/icons/dark/folder-json.svg"
     },
     "folder-json-open": {
-      "iconPath": "../assets/icons/folder-json-open.svg"
+      "iconPath": "../assets/icons/dark/folder-json-open.svg"
     },
     "folder-font": {
-      "iconPath": "../assets/icons/folder-font.svg"
+      "iconPath": "../assets/icons/dark/folder-font.svg"
     },
     "folder-font-open": {
-      "iconPath": "../assets/icons/folder-font-open.svg"
+      "iconPath": "../assets/icons/dark/folder-font-open.svg"
     },
     "folder-bower": {
-      "iconPath": "../assets/icons/folder-bower.svg"
+      "iconPath": "../assets/icons/dark/folder-bower.svg"
     },
     "folder-bower-open": {
-      "iconPath": "../assets/icons/folder-bower-open.svg"
+      "iconPath": "../assets/icons/dark/folder-bower-open.svg"
     },
     "folder-test": {
-      "iconPath": "../assets/icons/folder-test.svg"
+      "iconPath": "../assets/icons/dark/folder-test.svg"
     },
     "folder-test-open": {
-      "iconPath": "../assets/icons/folder-test-open.svg"
+      "iconPath": "../assets/icons/dark/folder-test-open.svg"
     },
     "folder-directive": {
-      "iconPath": "../assets/icons/folder-directive.svg"
+      "iconPath": "../assets/icons/dark/folder-directive.svg"
     },
     "folder-directive-open": {
-      "iconPath": "../assets/icons/folder-directive-open.svg"
+      "iconPath": "../assets/icons/dark/folder-directive-open.svg"
     },
     "folder-jinja": {
-      "iconPath": "../assets/icons/folder-jinja.svg"
+      "iconPath": "../assets/icons/dark/folder-jinja.svg"
     },
     "folder-jinja-open": {
-      "iconPath": "../assets/icons/folder-jinja-open.svg"
+      "iconPath": "../assets/icons/dark/folder-jinja-open.svg"
     },
     "folder-jinja_light": {
-      "iconPath": "../assets/icons/folder-jinja_light.svg"
+      "iconPath": "../assets/icons/dark/folder-jinja_light.svg"
     },
     "folder-jinja-open_light": {
-      "iconPath": "../assets/icons/folder-jinja-open_light.svg"
+      "iconPath": "../assets/icons/dark/folder-jinja-open_light.svg"
     },
     "folder-markdown": {
-      "iconPath": "../assets/icons/folder-markdown.svg"
+      "iconPath": "../assets/icons/dark/folder-markdown.svg"
     },
     "folder-markdown-open": {
-      "iconPath": "../assets/icons/folder-markdown-open.svg"
+      "iconPath": "../assets/icons/dark/folder-markdown-open.svg"
     },
     "folder-pdm": {
-      "iconPath": "../assets/icons/folder-pdm.svg"
+      "iconPath": "../assets/icons/dark/folder-pdm.svg"
     },
     "folder-pdm-open": {
-      "iconPath": "../assets/icons/folder-pdm-open.svg"
+      "iconPath": "../assets/icons/dark/folder-pdm-open.svg"
     },
     "folder-php": {
-      "iconPath": "../assets/icons/folder-php.svg"
+      "iconPath": "../assets/icons/dark/folder-php.svg"
     },
     "folder-php-open": {
-      "iconPath": "../assets/icons/folder-php-open.svg"
+      "iconPath": "../assets/icons/dark/folder-php-open.svg"
     },
     "folder-phpmailer": {
-      "iconPath": "../assets/icons/folder-phpmailer.svg"
+      "iconPath": "../assets/icons/dark/folder-phpmailer.svg"
     },
     "folder-phpmailer-open": {
-      "iconPath": "../assets/icons/folder-phpmailer-open.svg"
+      "iconPath": "../assets/icons/dark/folder-phpmailer-open.svg"
     },
     "folder-sublime": {
-      "iconPath": "../assets/icons/folder-sublime.svg"
+      "iconPath": "../assets/icons/dark/folder-sublime.svg"
     },
     "folder-sublime-open": {
-      "iconPath": "../assets/icons/folder-sublime-open.svg"
+      "iconPath": "../assets/icons/dark/folder-sublime-open.svg"
     },
     "folder-docs": {
-      "iconPath": "../assets/icons/folder-docs.svg"
+      "iconPath": "../assets/icons/dark/folder-docs.svg"
     },
     "folder-docs-open": {
-      "iconPath": "../assets/icons/folder-docs-open.svg"
+      "iconPath": "../assets/icons/dark/folder-docs-open.svg"
     },
     "folder-gh-workflows": {
-      "iconPath": "../assets/icons/folder-gh-workflows.svg"
+      "iconPath": "../assets/icons/dark/folder-gh-workflows.svg"
     },
     "folder-gh-workflows-open": {
-      "iconPath": "../assets/icons/folder-gh-workflows-open.svg"
+      "iconPath": "../assets/icons/dark/folder-gh-workflows-open.svg"
     },
     "folder-git": {
-      "iconPath": "../assets/icons/folder-git.svg"
+      "iconPath": "../assets/icons/dark/folder-git.svg"
     },
     "folder-git-open": {
-      "iconPath": "../assets/icons/folder-git-open.svg"
+      "iconPath": "../assets/icons/dark/folder-git-open.svg"
     },
     "folder-github": {
-      "iconPath": "../assets/icons/folder-github.svg"
+      "iconPath": "../assets/icons/dark/folder-github.svg"
     },
     "folder-github-open": {
-      "iconPath": "../assets/icons/folder-github-open.svg"
+      "iconPath": "../assets/icons/dark/folder-github-open.svg"
     },
     "folder-gitea": {
-      "iconPath": "../assets/icons/folder-gitea.svg"
+      "iconPath": "../assets/icons/dark/folder-gitea.svg"
     },
     "folder-gitea-open": {
-      "iconPath": "../assets/icons/folder-gitea-open.svg"
+      "iconPath": "../assets/icons/dark/folder-gitea-open.svg"
     },
     "folder-gitlab": {
-      "iconPath": "../assets/icons/folder-gitlab.svg"
+      "iconPath": "../assets/icons/dark/folder-gitlab.svg"
     },
     "folder-gitlab-open": {
-      "iconPath": "../assets/icons/folder-gitlab-open.svg"
+      "iconPath": "../assets/icons/dark/folder-gitlab-open.svg"
     },
     "folder-forgejo": {
-      "iconPath": "../assets/icons/folder-forgejo.svg"
+      "iconPath": "../assets/icons/dark/folder-forgejo.svg"
     },
     "folder-forgejo-open": {
-      "iconPath": "../assets/icons/folder-forgejo-open.svg"
+      "iconPath": "../assets/icons/dark/folder-forgejo-open.svg"
     },
     "folder-vscode": {
-      "iconPath": "../assets/icons/folder-vscode.svg"
+      "iconPath": "../assets/icons/dark/folder-vscode.svg"
     },
     "folder-vscode-open": {
-      "iconPath": "../assets/icons/folder-vscode-open.svg"
+      "iconPath": "../assets/icons/dark/folder-vscode-open.svg"
     },
     "folder-views": {
-      "iconPath": "../assets/icons/folder-views.svg"
+      "iconPath": "../assets/icons/dark/folder-views.svg"
     },
     "folder-views-open": {
-      "iconPath": "../assets/icons/folder-views-open.svg"
+      "iconPath": "../assets/icons/dark/folder-views-open.svg"
     },
     "folder-vue": {
-      "iconPath": "../assets/icons/folder-vue.svg"
+      "iconPath": "../assets/icons/dark/folder-vue.svg"
     },
     "folder-vue-open": {
-      "iconPath": "../assets/icons/folder-vue-open.svg"
+      "iconPath": "../assets/icons/dark/folder-vue-open.svg"
     },
     "folder-vuepress": {
-      "iconPath": "../assets/icons/folder-vuepress.svg"
+      "iconPath": "../assets/icons/dark/folder-vuepress.svg"
     },
     "folder-vuepress-open": {
-      "iconPath": "../assets/icons/folder-vuepress-open.svg"
+      "iconPath": "../assets/icons/dark/folder-vuepress-open.svg"
     },
     "folder-expo": {
-      "iconPath": "../assets/icons/folder-expo.svg"
+      "iconPath": "../assets/icons/dark/folder-expo.svg"
     },
     "folder-expo-open": {
-      "iconPath": "../assets/icons/folder-expo-open.svg"
+      "iconPath": "../assets/icons/dark/folder-expo-open.svg"
     },
     "folder-config": {
-      "iconPath": "../assets/icons/folder-config.svg"
+      "iconPath": "../assets/icons/dark/folder-config.svg"
     },
     "folder-config-open": {
-      "iconPath": "../assets/icons/folder-config-open.svg"
+      "iconPath": "../assets/icons/dark/folder-config-open.svg"
     },
     "folder-i18n": {
-      "iconPath": "../assets/icons/folder-i18n.svg"
+      "iconPath": "../assets/icons/dark/folder-i18n.svg"
     },
     "folder-i18n-open": {
-      "iconPath": "../assets/icons/folder-i18n-open.svg"
+      "iconPath": "../assets/icons/dark/folder-i18n-open.svg"
     },
     "folder-components": {
-      "iconPath": "../assets/icons/folder-components.svg"
+      "iconPath": "../assets/icons/dark/folder-components.svg"
     },
     "folder-components-open": {
-      "iconPath": "../assets/icons/folder-components-open.svg"
+      "iconPath": "../assets/icons/dark/folder-components-open.svg"
     },
     "folder-verdaccio": {
-      "iconPath": "../assets/icons/folder-verdaccio.svg"
+      "iconPath": "../assets/icons/dark/folder-verdaccio.svg"
     },
     "folder-verdaccio-open": {
-      "iconPath": "../assets/icons/folder-verdaccio-open.svg"
+      "iconPath": "../assets/icons/dark/folder-verdaccio-open.svg"
     },
     "folder-aurelia": {
-      "iconPath": "../assets/icons/folder-aurelia.svg"
+      "iconPath": "../assets/icons/dark/folder-aurelia.svg"
     },
     "folder-aurelia-open": {
-      "iconPath": "../assets/icons/folder-aurelia-open.svg"
+      "iconPath": "../assets/icons/dark/folder-aurelia-open.svg"
     },
     "folder-resource": {
-      "iconPath": "../assets/icons/folder-resource.svg"
+      "iconPath": "../assets/icons/dark/folder-resource.svg"
     },
     "folder-resource-open": {
-      "iconPath": "../assets/icons/folder-resource-open.svg"
+      "iconPath": "../assets/icons/dark/folder-resource-open.svg"
     },
     "folder-lib": {
-      "iconPath": "../assets/icons/folder-lib.svg"
+      "iconPath": "../assets/icons/dark/folder-lib.svg"
     },
     "folder-lib-open": {
-      "iconPath": "../assets/icons/folder-lib-open.svg"
+      "iconPath": "../assets/icons/dark/folder-lib-open.svg"
     },
     "folder-theme": {
-      "iconPath": "../assets/icons/folder-theme.svg"
+      "iconPath": "../assets/icons/dark/folder-theme.svg"
     },
     "folder-theme-open": {
-      "iconPath": "../assets/icons/folder-theme-open.svg"
+      "iconPath": "../assets/icons/dark/folder-theme-open.svg"
     },
     "folder-webpack": {
-      "iconPath": "../assets/icons/folder-webpack.svg"
+      "iconPath": "../assets/icons/dark/folder-webpack.svg"
     },
     "folder-webpack-open": {
-      "iconPath": "../assets/icons/folder-webpack-open.svg"
+      "iconPath": "../assets/icons/dark/folder-webpack-open.svg"
     },
     "folder-global": {
-      "iconPath": "../assets/icons/folder-global.svg"
+      "iconPath": "../assets/icons/dark/folder-global.svg"
     },
     "folder-global-open": {
-      "iconPath": "../assets/icons/folder-global-open.svg"
+      "iconPath": "../assets/icons/dark/folder-global-open.svg"
     },
     "folder-public": {
-      "iconPath": "../assets/icons/folder-public.svg"
+      "iconPath": "../assets/icons/dark/folder-public.svg"
     },
     "folder-public-open": {
-      "iconPath": "../assets/icons/folder-public-open.svg"
+      "iconPath": "../assets/icons/dark/folder-public-open.svg"
     },
     "folder-include": {
-      "iconPath": "../assets/icons/folder-include.svg"
+      "iconPath": "../assets/icons/dark/folder-include.svg"
     },
     "folder-include-open": {
-      "iconPath": "../assets/icons/folder-include-open.svg"
+      "iconPath": "../assets/icons/dark/folder-include-open.svg"
     },
     "folder-docker": {
-      "iconPath": "../assets/icons/folder-docker.svg"
+      "iconPath": "../assets/icons/dark/folder-docker.svg"
     },
     "folder-docker-open": {
-      "iconPath": "../assets/icons/folder-docker-open.svg"
+      "iconPath": "../assets/icons/dark/folder-docker-open.svg"
     },
     "folder-ngrx-store": {
-      "iconPath": "../assets/icons/folder-ngrx-store.svg"
+      "iconPath": "../assets/icons/dark/folder-ngrx-store.svg"
     },
     "folder-ngrx-store-open": {
-      "iconPath": "../assets/icons/folder-ngrx-store-open.svg"
+      "iconPath": "../assets/icons/dark/folder-ngrx-store-open.svg"
     },
     "folder-ngrx-effects": {
-      "iconPath": "../assets/icons/folder-ngrx-effects.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-ngrx-effects.clone.svg"
     },
     "folder-ngrx-effects-open": {
-      "iconPath": "../assets/icons/folder-ngrx-effects-open.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-ngrx-effects-open.clone.svg"
     },
     "folder-ngrx-state": {
-      "iconPath": "../assets/icons/folder-ngrx-state.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-ngrx-state.clone.svg"
     },
     "folder-ngrx-state-open": {
-      "iconPath": "../assets/icons/folder-ngrx-state-open.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-ngrx-state-open.clone.svg"
     },
     "folder-ngrx-reducer": {
-      "iconPath": "../assets/icons/folder-ngrx-reducer.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-ngrx-reducer.clone.svg"
     },
     "folder-ngrx-reducer-open": {
-      "iconPath": "../assets/icons/folder-ngrx-reducer-open.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-ngrx-reducer-open.clone.svg"
     },
     "folder-ngrx-actions": {
-      "iconPath": "../assets/icons/folder-ngrx-actions.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-ngrx-actions.clone.svg"
     },
     "folder-ngrx-actions-open": {
-      "iconPath": "../assets/icons/folder-ngrx-actions-open.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-ngrx-actions-open.clone.svg"
     },
     "folder-ngrx-entities": {
-      "iconPath": "../assets/icons/folder-ngrx-entities.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-ngrx-entities.clone.svg"
     },
     "folder-ngrx-entities-open": {
-      "iconPath": "../assets/icons/folder-ngrx-entities-open.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-ngrx-entities-open.clone.svg"
     },
     "folder-ngrx-selectors": {
-      "iconPath": "../assets/icons/folder-ngrx-selectors.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-ngrx-selectors.clone.svg"
     },
     "folder-ngrx-selectors-open": {
-      "iconPath": "../assets/icons/folder-ngrx-selectors-open.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-ngrx-selectors-open.clone.svg"
     },
     "folder-redux-reducer": {
-      "iconPath": "../assets/icons/folder-redux-reducer.svg"
+      "iconPath": "../assets/icons/dark/folder-redux-reducer.svg"
     },
     "folder-redux-reducer-open": {
-      "iconPath": "../assets/icons/folder-redux-reducer-open.svg"
+      "iconPath": "../assets/icons/dark/folder-redux-reducer-open.svg"
     },
     "folder-redux-actions": {
-      "iconPath": "../assets/icons/folder-redux-actions.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-redux-actions.clone.svg"
     },
     "folder-redux-actions-open": {
-      "iconPath": "../assets/icons/folder-redux-actions-open.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-redux-actions-open.clone.svg"
     },
     "folder-redux-selector": {
-      "iconPath": "../assets/icons/folder-redux-selector.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-redux-selector.clone.svg"
     },
     "folder-redux-selector-open": {
-      "iconPath": "../assets/icons/folder-redux-selector-open.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-redux-selector-open.clone.svg"
     },
     "folder-redux-store": {
-      "iconPath": "../assets/icons/folder-redux-store.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-redux-store.clone.svg"
     },
     "folder-redux-store-open": {
-      "iconPath": "../assets/icons/folder-redux-store-open.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-redux-store-open.clone.svg"
     },
     "folder-react-components": {
-      "iconPath": "../assets/icons/folder-react-components.svg"
+      "iconPath": "../assets/icons/dark/folder-react-components.svg"
     },
     "folder-react-components-open": {
-      "iconPath": "../assets/icons/folder-react-components-open.svg"
+      "iconPath": "../assets/icons/dark/folder-react-components-open.svg"
     },
     "folder-astro": {
-      "iconPath": "../assets/icons/folder-astro.svg"
+      "iconPath": "../assets/icons/dark/folder-astro.svg"
     },
     "folder-astro-open": {
-      "iconPath": "../assets/icons/folder-astro-open.svg"
+      "iconPath": "../assets/icons/dark/folder-astro-open.svg"
     },
     "folder-database": {
-      "iconPath": "../assets/icons/folder-database.svg"
+      "iconPath": "../assets/icons/dark/folder-database.svg"
     },
     "folder-database-open": {
-      "iconPath": "../assets/icons/folder-database-open.svg"
+      "iconPath": "../assets/icons/dark/folder-database-open.svg"
     },
     "folder-log": {
-      "iconPath": "../assets/icons/folder-log.svg"
+      "iconPath": "../assets/icons/dark/folder-log.svg"
     },
     "folder-log-open": {
-      "iconPath": "../assets/icons/folder-log-open.svg"
+      "iconPath": "../assets/icons/dark/folder-log-open.svg"
     },
     "folder-target": {
-      "iconPath": "../assets/icons/folder-target.svg"
+      "iconPath": "../assets/icons/dark/folder-target.svg"
     },
     "folder-target-open": {
-      "iconPath": "../assets/icons/folder-target-open.svg"
+      "iconPath": "../assets/icons/dark/folder-target-open.svg"
     },
     "folder-temp": {
-      "iconPath": "../assets/icons/folder-temp.svg"
+      "iconPath": "../assets/icons/dark/folder-temp.svg"
     },
     "folder-temp-open": {
-      "iconPath": "../assets/icons/folder-temp-open.svg"
+      "iconPath": "../assets/icons/dark/folder-temp-open.svg"
     },
     "folder-aws": {
-      "iconPath": "../assets/icons/folder-aws.svg"
+      "iconPath": "../assets/icons/dark/folder-aws.svg"
     },
     "folder-aws-open": {
-      "iconPath": "../assets/icons/folder-aws-open.svg"
+      "iconPath": "../assets/icons/dark/folder-aws-open.svg"
     },
     "folder-audio": {
-      "iconPath": "../assets/icons/folder-audio.svg"
+      "iconPath": "../assets/icons/dark/folder-audio.svg"
     },
     "folder-audio-open": {
-      "iconPath": "../assets/icons/folder-audio-open.svg"
+      "iconPath": "../assets/icons/dark/folder-audio-open.svg"
     },
     "folder-video": {
-      "iconPath": "../assets/icons/folder-video.svg"
+      "iconPath": "../assets/icons/dark/folder-video.svg"
     },
     "folder-video-open": {
-      "iconPath": "../assets/icons/folder-video-open.svg"
+      "iconPath": "../assets/icons/dark/folder-video-open.svg"
     },
     "folder-kubernetes": {
-      "iconPath": "../assets/icons/folder-kubernetes.svg"
+      "iconPath": "../assets/icons/dark/folder-kubernetes.svg"
     },
     "folder-kubernetes-open": {
-      "iconPath": "../assets/icons/folder-kubernetes-open.svg"
+      "iconPath": "../assets/icons/dark/folder-kubernetes-open.svg"
     },
     "folder-import": {
-      "iconPath": "../assets/icons/folder-import.svg"
+      "iconPath": "../assets/icons/dark/folder-import.svg"
     },
     "folder-import-open": {
-      "iconPath": "../assets/icons/folder-import-open.svg"
+      "iconPath": "../assets/icons/dark/folder-import-open.svg"
     },
     "folder-export": {
-      "iconPath": "../assets/icons/folder-export.svg"
+      "iconPath": "../assets/icons/dark/folder-export.svg"
     },
     "folder-export-open": {
-      "iconPath": "../assets/icons/folder-export-open.svg"
+      "iconPath": "../assets/icons/dark/folder-export-open.svg"
     },
     "folder-wakatime": {
-      "iconPath": "../assets/icons/folder-wakatime.svg"
+      "iconPath": "../assets/icons/dark/folder-wakatime.svg"
     },
     "folder-wakatime-open": {
-      "iconPath": "../assets/icons/folder-wakatime-open.svg"
+      "iconPath": "../assets/icons/dark/folder-wakatime-open.svg"
     },
     "folder-circleci": {
-      "iconPath": "../assets/icons/folder-circleci.svg"
+      "iconPath": "../assets/icons/dark/folder-circleci.svg"
     },
     "folder-circleci-open": {
-      "iconPath": "../assets/icons/folder-circleci-open.svg"
+      "iconPath": "../assets/icons/dark/folder-circleci-open.svg"
     },
     "folder-wordpress": {
-      "iconPath": "../assets/icons/folder-wordpress.svg"
+      "iconPath": "../assets/icons/dark/folder-wordpress.svg"
     },
     "folder-wordpress-open": {
-      "iconPath": "../assets/icons/folder-wordpress-open.svg"
+      "iconPath": "../assets/icons/dark/folder-wordpress-open.svg"
     },
     "folder-gradle": {
-      "iconPath": "../assets/icons/folder-gradle.svg"
+      "iconPath": "../assets/icons/dark/folder-gradle.svg"
     },
     "folder-gradle-open": {
-      "iconPath": "../assets/icons/folder-gradle-open.svg"
+      "iconPath": "../assets/icons/dark/folder-gradle-open.svg"
     },
     "folder-coverage": {
-      "iconPath": "../assets/icons/folder-coverage.svg"
+      "iconPath": "../assets/icons/dark/folder-coverage.svg"
     },
     "folder-coverage-open": {
-      "iconPath": "../assets/icons/folder-coverage-open.svg"
+      "iconPath": "../assets/icons/dark/folder-coverage-open.svg"
     },
     "folder-class": {
-      "iconPath": "../assets/icons/folder-class.svg"
+      "iconPath": "../assets/icons/dark/folder-class.svg"
     },
     "folder-class-open": {
-      "iconPath": "../assets/icons/folder-class-open.svg"
+      "iconPath": "../assets/icons/dark/folder-class-open.svg"
     },
     "folder-other": {
-      "iconPath": "../assets/icons/folder-other.svg"
+      "iconPath": "../assets/icons/dark/folder-other.svg"
     },
     "folder-other-open": {
-      "iconPath": "../assets/icons/folder-other-open.svg"
+      "iconPath": "../assets/icons/dark/folder-other-open.svg"
     },
     "folder-lua": {
-      "iconPath": "../assets/icons/folder-lua.svg"
+      "iconPath": "../assets/icons/dark/folder-lua.svg"
     },
     "folder-lua-open": {
-      "iconPath": "../assets/icons/folder-lua-open.svg"
+      "iconPath": "../assets/icons/dark/folder-lua-open.svg"
     },
     "folder-turborepo": {
-      "iconPath": "../assets/icons/folder-turborepo.svg"
+      "iconPath": "../assets/icons/dark/folder-turborepo.svg"
     },
     "folder-turborepo-open": {
-      "iconPath": "../assets/icons/folder-turborepo-open.svg"
+      "iconPath": "../assets/icons/dark/folder-turborepo-open.svg"
     },
     "folder-typescript": {
-      "iconPath": "../assets/icons/folder-typescript.svg"
+      "iconPath": "../assets/icons/dark/folder-typescript.svg"
     },
     "folder-typescript-open": {
-      "iconPath": "../assets/icons/folder-typescript-open.svg"
+      "iconPath": "../assets/icons/dark/folder-typescript-open.svg"
     },
     "folder-graphql": {
-      "iconPath": "../assets/icons/folder-graphql.svg"
+      "iconPath": "../assets/icons/dark/folder-graphql.svg"
     },
     "folder-graphql-open": {
-      "iconPath": "../assets/icons/folder-graphql-open.svg"
+      "iconPath": "../assets/icons/dark/folder-graphql-open.svg"
     },
     "folder-routes": {
-      "iconPath": "../assets/icons/folder-routes.svg"
+      "iconPath": "../assets/icons/dark/folder-routes.svg"
     },
     "folder-routes-open": {
-      "iconPath": "../assets/icons/folder-routes-open.svg"
+      "iconPath": "../assets/icons/dark/folder-routes-open.svg"
     },
     "folder-ci": {
-      "iconPath": "../assets/icons/folder-ci.svg"
+      "iconPath": "../assets/icons/dark/folder-ci.svg"
     },
     "folder-ci-open": {
-      "iconPath": "../assets/icons/folder-ci-open.svg"
+      "iconPath": "../assets/icons/dark/folder-ci-open.svg"
     },
     "folder-benchmark": {
-      "iconPath": "../assets/icons/folder-benchmark.svg"
+      "iconPath": "../assets/icons/dark/folder-benchmark.svg"
     },
     "folder-benchmark-open": {
-      "iconPath": "../assets/icons/folder-benchmark-open.svg"
+      "iconPath": "../assets/icons/dark/folder-benchmark-open.svg"
     },
     "folder-messages": {
-      "iconPath": "../assets/icons/folder-messages.svg"
+      "iconPath": "../assets/icons/dark/folder-messages.svg"
     },
     "folder-messages-open": {
-      "iconPath": "../assets/icons/folder-messages-open.svg"
+      "iconPath": "../assets/icons/dark/folder-messages-open.svg"
     },
     "folder-less": {
-      "iconPath": "../assets/icons/folder-less.svg"
+      "iconPath": "../assets/icons/dark/folder-less.svg"
     },
     "folder-less-open": {
-      "iconPath": "../assets/icons/folder-less-open.svg"
+      "iconPath": "../assets/icons/dark/folder-less-open.svg"
     },
     "folder-gulp": {
-      "iconPath": "../assets/icons/folder-gulp.svg"
+      "iconPath": "../assets/icons/dark/folder-gulp.svg"
     },
     "folder-gulp-open": {
-      "iconPath": "../assets/icons/folder-gulp-open.svg"
+      "iconPath": "../assets/icons/dark/folder-gulp-open.svg"
     },
     "folder-python": {
-      "iconPath": "../assets/icons/folder-python.svg"
+      "iconPath": "../assets/icons/dark/folder-python.svg"
     },
     "folder-python-open": {
-      "iconPath": "../assets/icons/folder-python-open.svg"
+      "iconPath": "../assets/icons/dark/folder-python-open.svg"
     },
     "folder-sandbox": {
-      "iconPath": "../assets/icons/folder-sandbox.svg"
+      "iconPath": "../assets/icons/dark/folder-sandbox.svg"
     },
     "folder-sandbox-open": {
-      "iconPath": "../assets/icons/folder-sandbox-open.svg"
+      "iconPath": "../assets/icons/dark/folder-sandbox-open.svg"
     },
     "folder-scons": {
-      "iconPath": "../assets/icons/folder-scons.svg"
+      "iconPath": "../assets/icons/dark/folder-scons.svg"
     },
     "folder-scons-open": {
-      "iconPath": "../assets/icons/folder-scons-open.svg"
+      "iconPath": "../assets/icons/dark/folder-scons-open.svg"
     },
     "folder-mojo": {
-      "iconPath": "../assets/icons/folder-mojo.svg"
+      "iconPath": "../assets/icons/dark/folder-mojo.svg"
     },
     "folder-mojo-open": {
-      "iconPath": "../assets/icons/folder-mojo-open.svg"
+      "iconPath": "../assets/icons/dark/folder-mojo-open.svg"
     },
     "folder-moon": {
-      "iconPath": "../assets/icons/folder-moon.svg"
+      "iconPath": "../assets/icons/dark/folder-moon.svg"
     },
     "folder-moon-open": {
-      "iconPath": "../assets/icons/folder-moon-open.svg"
+      "iconPath": "../assets/icons/dark/folder-moon-open.svg"
     },
     "folder-debug": {
-      "iconPath": "../assets/icons/folder-debug.svg"
+      "iconPath": "../assets/icons/dark/folder-debug.svg"
     },
     "folder-debug-open": {
-      "iconPath": "../assets/icons/folder-debug-open.svg"
+      "iconPath": "../assets/icons/dark/folder-debug-open.svg"
     },
     "folder-fastlane": {
-      "iconPath": "../assets/icons/folder-fastlane.svg"
+      "iconPath": "../assets/icons/dark/folder-fastlane.svg"
     },
     "folder-fastlane-open": {
-      "iconPath": "../assets/icons/folder-fastlane-open.svg"
+      "iconPath": "../assets/icons/dark/folder-fastlane-open.svg"
     },
     "folder-plugin": {
-      "iconPath": "../assets/icons/folder-plugin.svg"
+      "iconPath": "../assets/icons/dark/folder-plugin.svg"
     },
     "folder-plugin-open": {
-      "iconPath": "../assets/icons/folder-plugin-open.svg"
+      "iconPath": "../assets/icons/dark/folder-plugin-open.svg"
     },
     "folder-middleware": {
-      "iconPath": "../assets/icons/folder-middleware.svg"
+      "iconPath": "../assets/icons/dark/folder-middleware.svg"
     },
     "folder-middleware-open": {
-      "iconPath": "../assets/icons/folder-middleware-open.svg"
+      "iconPath": "../assets/icons/dark/folder-middleware-open.svg"
     },
     "folder-controller": {
-      "iconPath": "../assets/icons/folder-controller.svg"
+      "iconPath": "../assets/icons/dark/folder-controller.svg"
     },
     "folder-controller-open": {
-      "iconPath": "../assets/icons/folder-controller-open.svg"
+      "iconPath": "../assets/icons/dark/folder-controller-open.svg"
     },
     "folder-ansible": {
-      "iconPath": "../assets/icons/folder-ansible.svg"
+      "iconPath": "../assets/icons/dark/folder-ansible.svg"
     },
     "folder-ansible-open": {
-      "iconPath": "../assets/icons/folder-ansible-open.svg"
+      "iconPath": "../assets/icons/dark/folder-ansible-open.svg"
     },
     "folder-server": {
-      "iconPath": "../assets/icons/folder-server.svg"
+      "iconPath": "../assets/icons/dark/folder-server.svg"
     },
     "folder-server-open": {
-      "iconPath": "../assets/icons/folder-server-open.svg"
+      "iconPath": "../assets/icons/dark/folder-server-open.svg"
     },
     "folder-client": {
-      "iconPath": "../assets/icons/folder-client.svg"
+      "iconPath": "../assets/icons/dark/folder-client.svg"
     },
     "folder-client-open": {
-      "iconPath": "../assets/icons/folder-client-open.svg"
+      "iconPath": "../assets/icons/dark/folder-client-open.svg"
     },
     "folder-tasks": {
-      "iconPath": "../assets/icons/folder-tasks.svg"
+      "iconPath": "../assets/icons/dark/folder-tasks.svg"
     },
     "folder-tasks-open": {
-      "iconPath": "../assets/icons/folder-tasks-open.svg"
+      "iconPath": "../assets/icons/dark/folder-tasks-open.svg"
     },
     "folder-android": {
-      "iconPath": "../assets/icons/folder-android.svg"
+      "iconPath": "../assets/icons/dark/folder-android.svg"
     },
     "folder-android-open": {
-      "iconPath": "../assets/icons/folder-android-open.svg"
+      "iconPath": "../assets/icons/dark/folder-android-open.svg"
     },
     "folder-ios": {
-      "iconPath": "../assets/icons/folder-ios.svg"
+      "iconPath": "../assets/icons/dark/folder-ios.svg"
     },
     "folder-ios-open": {
-      "iconPath": "../assets/icons/folder-ios-open.svg"
+      "iconPath": "../assets/icons/dark/folder-ios-open.svg"
     },
     "folder-ui": {
-      "iconPath": "../assets/icons/folder-ui.svg"
+      "iconPath": "../assets/icons/dark/folder-ui.svg"
     },
     "folder-ui-open": {
-      "iconPath": "../assets/icons/folder-ui-open.svg"
+      "iconPath": "../assets/icons/dark/folder-ui-open.svg"
     },
     "folder-upload": {
-      "iconPath": "../assets/icons/folder-upload.svg"
+      "iconPath": "../assets/icons/dark/folder-upload.svg"
     },
     "folder-upload-open": {
-      "iconPath": "../assets/icons/folder-upload-open.svg"
+      "iconPath": "../assets/icons/dark/folder-upload-open.svg"
     },
     "folder-download": {
-      "iconPath": "../assets/icons/folder-download.svg"
+      "iconPath": "../assets/icons/dark/folder-download.svg"
     },
     "folder-download-open": {
-      "iconPath": "../assets/icons/folder-download-open.svg"
+      "iconPath": "../assets/icons/dark/folder-download-open.svg"
     },
     "folder-tools": {
-      "iconPath": "../assets/icons/folder-tools.svg"
+      "iconPath": "../assets/icons/dark/folder-tools.svg"
     },
     "folder-tools-open": {
-      "iconPath": "../assets/icons/folder-tools-open.svg"
+      "iconPath": "../assets/icons/dark/folder-tools-open.svg"
     },
     "folder-helper": {
-      "iconPath": "../assets/icons/folder-helper.svg"
+      "iconPath": "../assets/icons/dark/folder-helper.svg"
     },
     "folder-helper-open": {
-      "iconPath": "../assets/icons/folder-helper-open.svg"
+      "iconPath": "../assets/icons/dark/folder-helper-open.svg"
     },
     "folder-serverless": {
-      "iconPath": "../assets/icons/folder-serverless.svg"
+      "iconPath": "../assets/icons/dark/folder-serverless.svg"
     },
     "folder-serverless-open": {
-      "iconPath": "../assets/icons/folder-serverless-open.svg"
+      "iconPath": "../assets/icons/dark/folder-serverless-open.svg"
     },
     "folder-api": {
-      "iconPath": "../assets/icons/folder-api.svg"
+      "iconPath": "../assets/icons/dark/folder-api.svg"
     },
     "folder-api-open": {
-      "iconPath": "../assets/icons/folder-api-open.svg"
+      "iconPath": "../assets/icons/dark/folder-api-open.svg"
     },
     "folder-app": {
-      "iconPath": "../assets/icons/folder-app.svg"
+      "iconPath": "../assets/icons/dark/folder-app.svg"
     },
     "folder-app-open": {
-      "iconPath": "../assets/icons/folder-app-open.svg"
+      "iconPath": "../assets/icons/dark/folder-app-open.svg"
     },
     "folder-apollo": {
-      "iconPath": "../assets/icons/folder-apollo.svg"
+      "iconPath": "../assets/icons/dark/folder-apollo.svg"
     },
     "folder-apollo-open": {
-      "iconPath": "../assets/icons/folder-apollo-open.svg"
+      "iconPath": "../assets/icons/dark/folder-apollo-open.svg"
     },
     "folder-archive": {
-      "iconPath": "../assets/icons/folder-archive.svg"
+      "iconPath": "../assets/icons/dark/folder-archive.svg"
     },
     "folder-archive-open": {
-      "iconPath": "../assets/icons/folder-archive-open.svg"
+      "iconPath": "../assets/icons/dark/folder-archive-open.svg"
     },
     "folder-backup": {
-      "iconPath": "../assets/icons/folder-backup.svg"
+      "iconPath": "../assets/icons/dark/folder-backup.svg"
     },
     "folder-backup-open": {
-      "iconPath": "../assets/icons/folder-backup-open.svg"
+      "iconPath": "../assets/icons/dark/folder-backup-open.svg"
     },
     "folder-batch": {
-      "iconPath": "../assets/icons/folder-batch.svg"
+      "iconPath": "../assets/icons/dark/folder-batch.svg"
     },
     "folder-batch-open": {
-      "iconPath": "../assets/icons/folder-batch-open.svg"
+      "iconPath": "../assets/icons/dark/folder-batch-open.svg"
     },
     "folder-buildkite": {
-      "iconPath": "../assets/icons/folder-buildkite.svg"
+      "iconPath": "../assets/icons/dark/folder-buildkite.svg"
     },
     "folder-buildkite-open": {
-      "iconPath": "../assets/icons/folder-buildkite-open.svg"
+      "iconPath": "../assets/icons/dark/folder-buildkite-open.svg"
     },
     "folder-cluster": {
-      "iconPath": "../assets/icons/folder-cluster.svg"
+      "iconPath": "../assets/icons/dark/folder-cluster.svg"
     },
     "folder-cluster-open": {
-      "iconPath": "../assets/icons/folder-cluster-open.svg"
+      "iconPath": "../assets/icons/dark/folder-cluster-open.svg"
     },
     "folder-command": {
-      "iconPath": "../assets/icons/folder-command.svg"
+      "iconPath": "../assets/icons/dark/folder-command.svg"
     },
     "folder-command-open": {
-      "iconPath": "../assets/icons/folder-command-open.svg"
+      "iconPath": "../assets/icons/dark/folder-command-open.svg"
     },
     "folder-constant": {
-      "iconPath": "../assets/icons/folder-constant.svg"
+      "iconPath": "../assets/icons/dark/folder-constant.svg"
     },
     "folder-constant-open": {
-      "iconPath": "../assets/icons/folder-constant-open.svg"
+      "iconPath": "../assets/icons/dark/folder-constant-open.svg"
     },
     "folder-container": {
-      "iconPath": "../assets/icons/folder-container.svg"
+      "iconPath": "../assets/icons/dark/folder-container.svg"
     },
     "folder-container-open": {
-      "iconPath": "../assets/icons/folder-container-open.svg"
+      "iconPath": "../assets/icons/dark/folder-container-open.svg"
     },
     "folder-content": {
-      "iconPath": "../assets/icons/folder-content.svg"
+      "iconPath": "../assets/icons/dark/folder-content.svg"
     },
     "folder-content-open": {
-      "iconPath": "../assets/icons/folder-content-open.svg"
+      "iconPath": "../assets/icons/dark/folder-content-open.svg"
     },
     "folder-context": {
-      "iconPath": "../assets/icons/folder-context.svg"
+      "iconPath": "../assets/icons/dark/folder-context.svg"
     },
     "folder-context-open": {
-      "iconPath": "../assets/icons/folder-context-open.svg"
+      "iconPath": "../assets/icons/dark/folder-context-open.svg"
     },
     "folder-core": {
-      "iconPath": "../assets/icons/folder-core.svg"
+      "iconPath": "../assets/icons/dark/folder-core.svg"
     },
     "folder-core-open": {
-      "iconPath": "../assets/icons/folder-core-open.svg"
+      "iconPath": "../assets/icons/dark/folder-core-open.svg"
     },
     "folder-delta": {
-      "iconPath": "../assets/icons/folder-delta.svg"
+      "iconPath": "../assets/icons/dark/folder-delta.svg"
     },
     "folder-delta-open": {
-      "iconPath": "../assets/icons/folder-delta-open.svg"
+      "iconPath": "../assets/icons/dark/folder-delta-open.svg"
     },
     "folder-dump": {
-      "iconPath": "../assets/icons/folder-dump.svg"
+      "iconPath": "../assets/icons/dark/folder-dump.svg"
     },
     "folder-dump-open": {
-      "iconPath": "../assets/icons/folder-dump-open.svg"
+      "iconPath": "../assets/icons/dark/folder-dump-open.svg"
     },
     "folder-examples": {
-      "iconPath": "../assets/icons/folder-examples.svg"
+      "iconPath": "../assets/icons/dark/folder-examples.svg"
     },
     "folder-examples-open": {
-      "iconPath": "../assets/icons/folder-examples-open.svg"
+      "iconPath": "../assets/icons/dark/folder-examples-open.svg"
     },
     "folder-environment": {
-      "iconPath": "../assets/icons/folder-environment.svg"
+      "iconPath": "../assets/icons/dark/folder-environment.svg"
     },
     "folder-environment-open": {
-      "iconPath": "../assets/icons/folder-environment-open.svg"
+      "iconPath": "../assets/icons/dark/folder-environment-open.svg"
     },
     "folder-functions": {
-      "iconPath": "../assets/icons/folder-functions.svg"
+      "iconPath": "../assets/icons/dark/folder-functions.svg"
     },
     "folder-functions-open": {
-      "iconPath": "../assets/icons/folder-functions-open.svg"
+      "iconPath": "../assets/icons/dark/folder-functions-open.svg"
     },
     "folder-generator": {
-      "iconPath": "../assets/icons/folder-generator.svg"
+      "iconPath": "../assets/icons/dark/folder-generator.svg"
     },
     "folder-generator-open": {
-      "iconPath": "../assets/icons/folder-generator-open.svg"
+      "iconPath": "../assets/icons/dark/folder-generator-open.svg"
     },
     "folder-hook": {
-      "iconPath": "../assets/icons/folder-hook.svg"
+      "iconPath": "../assets/icons/dark/folder-hook.svg"
     },
     "folder-hook-open": {
-      "iconPath": "../assets/icons/folder-hook-open.svg"
+      "iconPath": "../assets/icons/dark/folder-hook-open.svg"
     },
     "folder-trigger": {
-      "iconPath": "../assets/icons/folder-trigger.svg"
+      "iconPath": "../assets/icons/dark/folder-trigger.svg"
     },
     "folder-trigger-open": {
-      "iconPath": "../assets/icons/folder-trigger-open.svg"
+      "iconPath": "../assets/icons/dark/folder-trigger-open.svg"
     },
     "folder-job": {
-      "iconPath": "../assets/icons/folder-job.svg"
+      "iconPath": "../assets/icons/dark/folder-job.svg"
     },
     "folder-job-open": {
-      "iconPath": "../assets/icons/folder-job-open.svg"
+      "iconPath": "../assets/icons/dark/folder-job-open.svg"
     },
     "folder-keys": {
-      "iconPath": "../assets/icons/folder-keys.svg"
+      "iconPath": "../assets/icons/dark/folder-keys.svg"
     },
     "folder-keys-open": {
-      "iconPath": "../assets/icons/folder-keys-open.svg"
+      "iconPath": "../assets/icons/dark/folder-keys-open.svg"
     },
     "folder-layout": {
-      "iconPath": "../assets/icons/folder-layout.svg"
+      "iconPath": "../assets/icons/dark/folder-layout.svg"
     },
     "folder-layout-open": {
-      "iconPath": "../assets/icons/folder-layout-open.svg"
+      "iconPath": "../assets/icons/dark/folder-layout-open.svg"
     },
     "folder-mail": {
-      "iconPath": "../assets/icons/folder-mail.svg"
+      "iconPath": "../assets/icons/dark/folder-mail.svg"
     },
     "folder-mail-open": {
-      "iconPath": "../assets/icons/folder-mail-open.svg"
+      "iconPath": "../assets/icons/dark/folder-mail-open.svg"
     },
     "folder-mappings": {
-      "iconPath": "../assets/icons/folder-mappings.svg"
+      "iconPath": "../assets/icons/dark/folder-mappings.svg"
     },
     "folder-mappings-open": {
-      "iconPath": "../assets/icons/folder-mappings-open.svg"
+      "iconPath": "../assets/icons/dark/folder-mappings-open.svg"
     },
     "folder-meta": {
-      "iconPath": "../assets/icons/folder-meta.svg"
+      "iconPath": "../assets/icons/dark/folder-meta.svg"
     },
     "folder-meta-open": {
-      "iconPath": "../assets/icons/folder-meta-open.svg"
+      "iconPath": "../assets/icons/dark/folder-meta-open.svg"
     },
     "folder-changesets": {
-      "iconPath": "../assets/icons/folder-changesets.svg"
+      "iconPath": "../assets/icons/dark/folder-changesets.svg"
     },
     "folder-changesets-open": {
-      "iconPath": "../assets/icons/folder-changesets-open.svg"
+      "iconPath": "../assets/icons/dark/folder-changesets-open.svg"
     },
     "folder-packages": {
-      "iconPath": "../assets/icons/folder-packages.svg"
+      "iconPath": "../assets/icons/dark/folder-packages.svg"
     },
     "folder-packages-open": {
-      "iconPath": "../assets/icons/folder-packages-open.svg"
+      "iconPath": "../assets/icons/dark/folder-packages-open.svg"
     },
     "folder-shared": {
-      "iconPath": "../assets/icons/folder-shared.svg"
+      "iconPath": "../assets/icons/dark/folder-shared.svg"
     },
     "folder-shared-open": {
-      "iconPath": "../assets/icons/folder-shared-open.svg"
+      "iconPath": "../assets/icons/dark/folder-shared-open.svg"
     },
     "folder-shader": {
-      "iconPath": "../assets/icons/folder-shader.svg"
+      "iconPath": "../assets/icons/dark/folder-shader.svg"
     },
     "folder-shader-open": {
-      "iconPath": "../assets/icons/folder-shader-open.svg"
+      "iconPath": "../assets/icons/dark/folder-shader-open.svg"
     },
     "folder-stack": {
-      "iconPath": "../assets/icons/folder-stack.svg"
+      "iconPath": "../assets/icons/dark/folder-stack.svg"
     },
     "folder-stack-open": {
-      "iconPath": "../assets/icons/folder-stack-open.svg"
+      "iconPath": "../assets/icons/dark/folder-stack-open.svg"
     },
     "folder-template": {
-      "iconPath": "../assets/icons/folder-template.svg"
+      "iconPath": "../assets/icons/dark/folder-template.svg"
     },
     "folder-template-open": {
-      "iconPath": "../assets/icons/folder-template-open.svg"
+      "iconPath": "../assets/icons/dark/folder-template-open.svg"
     },
     "folder-utils": {
-      "iconPath": "../assets/icons/folder-utils.svg"
+      "iconPath": "../assets/icons/dark/folder-utils.svg"
     },
     "folder-utils-open": {
-      "iconPath": "../assets/icons/folder-utils-open.svg"
+      "iconPath": "../assets/icons/dark/folder-utils-open.svg"
     },
     "folder-supabase": {
-      "iconPath": "../assets/icons/folder-supabase.svg"
+      "iconPath": "../assets/icons/dark/folder-supabase.svg"
     },
     "folder-supabase-open": {
-      "iconPath": "../assets/icons/folder-supabase-open.svg"
+      "iconPath": "../assets/icons/dark/folder-supabase-open.svg"
     },
     "folder-private": {
-      "iconPath": "../assets/icons/folder-private.svg"
+      "iconPath": "../assets/icons/dark/folder-private.svg"
     },
     "folder-private-open": {
-      "iconPath": "../assets/icons/folder-private-open.svg"
+      "iconPath": "../assets/icons/dark/folder-private-open.svg"
     },
     "folder-linux": {
-      "iconPath": "../assets/icons/linux-folder.svg"
+      "iconPath": "../assets/icons/dark/linux-folder.svg"
     },
     "folder-linux-open": {
-      "iconPath": "../assets/icons/linux-folder-open.svg"
+      "iconPath": "../assets/icons/dark/linux-folder-open.svg"
     },
     "folder-windows": {
-      "iconPath": "../assets/icons/folder-windows.svg"
+      "iconPath": "../assets/icons/dark/folder-windows.svg"
     },
     "folder-windows-open": {
-      "iconPath": "../assets/icons/folder-windows-open.svg"
+      "iconPath": "../assets/icons/dark/folder-windows-open.svg"
     },
     "folder-macos": {
-      "iconPath": "../assets/icons/folder-macos.svg"
+      "iconPath": "../assets/icons/dark/folder-macos.svg"
     },
     "folder-macos-open": {
-      "iconPath": "../assets/icons/folder-macos-open.svg"
+      "iconPath": "../assets/icons/dark/folder-macos-open.svg"
     },
     "folder-error": {
-      "iconPath": "../assets/icons/folder-error.svg"
+      "iconPath": "../assets/icons/dark/folder-error.svg"
     },
     "folder-error-open": {
-      "iconPath": "../assets/icons/folder-error-open.svg"
+      "iconPath": "../assets/icons/dark/folder-error-open.svg"
     },
     "folder-event": {
-      "iconPath": "../assets/icons/folder-event.svg"
+      "iconPath": "../assets/icons/dark/folder-event.svg"
     },
     "folder-event-open": {
-      "iconPath": "../assets/icons/folder-event-open.svg"
+      "iconPath": "../assets/icons/dark/folder-event-open.svg"
     },
     "folder-secure": {
-      "iconPath": "../assets/icons/folder-secure.svg"
+      "iconPath": "../assets/icons/dark/folder-secure.svg"
     },
     "folder-secure-open": {
-      "iconPath": "../assets/icons/folder-secure-open.svg"
+      "iconPath": "../assets/icons/dark/folder-secure-open.svg"
     },
     "folder-custom": {
-      "iconPath": "../assets/icons/folder-custom.svg"
+      "iconPath": "../assets/icons/dark/folder-custom.svg"
     },
     "folder-custom-open": {
-      "iconPath": "../assets/icons/folder-custom-open.svg"
+      "iconPath": "../assets/icons/dark/folder-custom-open.svg"
     },
     "folder-mock": {
-      "iconPath": "../assets/icons/folder-mock.svg"
+      "iconPath": "../assets/icons/dark/folder-mock.svg"
     },
     "folder-mock-open": {
-      "iconPath": "../assets/icons/folder-mock-open.svg"
+      "iconPath": "../assets/icons/dark/folder-mock-open.svg"
     },
     "folder-syntax": {
-      "iconPath": "../assets/icons/folder-syntax.svg"
+      "iconPath": "../assets/icons/dark/folder-syntax.svg"
     },
     "folder-syntax-open": {
-      "iconPath": "../assets/icons/folder-syntax-open.svg"
+      "iconPath": "../assets/icons/dark/folder-syntax-open.svg"
     },
     "folder-vm": {
-      "iconPath": "../assets/icons/folder-vm.svg"
+      "iconPath": "../assets/icons/dark/folder-vm.svg"
     },
     "folder-vm-open": {
-      "iconPath": "../assets/icons/folder-vm-open.svg"
+      "iconPath": "../assets/icons/dark/folder-vm-open.svg"
     },
     "folder-stylus": {
-      "iconPath": "../assets/icons/folder-stylus.svg"
+      "iconPath": "../assets/icons/dark/folder-stylus.svg"
     },
     "folder-stylus-open": {
-      "iconPath": "../assets/icons/folder-stylus-open.svg"
+      "iconPath": "../assets/icons/dark/folder-stylus-open.svg"
     },
     "folder-flow": {
-      "iconPath": "../assets/icons/folder-flow.svg"
+      "iconPath": "../assets/icons/dark/folder-flow.svg"
     },
     "folder-flow-open": {
-      "iconPath": "../assets/icons/folder-flow-open.svg"
+      "iconPath": "../assets/icons/dark/folder-flow-open.svg"
     },
     "folder-rules": {
-      "iconPath": "../assets/icons/folder-rules.svg"
+      "iconPath": "../assets/icons/dark/folder-rules.svg"
     },
     "folder-rules-open": {
-      "iconPath": "../assets/icons/folder-rules-open.svg"
+      "iconPath": "../assets/icons/dark/folder-rules-open.svg"
     },
     "folder-review": {
-      "iconPath": "../assets/icons/folder-review.svg"
+      "iconPath": "../assets/icons/dark/folder-review.svg"
     },
     "folder-review-open": {
-      "iconPath": "../assets/icons/folder-review-open.svg"
+      "iconPath": "../assets/icons/dark/folder-review-open.svg"
     },
     "folder-animation": {
-      "iconPath": "../assets/icons/folder-animation.svg"
+      "iconPath": "../assets/icons/dark/folder-animation.svg"
     },
     "folder-animation-open": {
-      "iconPath": "../assets/icons/folder-animation-open.svg"
+      "iconPath": "../assets/icons/dark/folder-animation-open.svg"
     },
     "folder-guard": {
-      "iconPath": "../assets/icons/folder-guard.svg"
+      "iconPath": "../assets/icons/dark/folder-guard.svg"
     },
     "folder-guard-open": {
-      "iconPath": "../assets/icons/folder-guard-open.svg"
+      "iconPath": "../assets/icons/dark/folder-guard-open.svg"
     },
     "folder-prisma": {
-      "iconPath": "../assets/icons/folder-prisma.svg"
+      "iconPath": "../assets/icons/dark/folder-prisma.svg"
     },
     "folder-prisma-open": {
-      "iconPath": "../assets/icons/folder-prisma-open.svg"
+      "iconPath": "../assets/icons/dark/folder-prisma-open.svg"
     },
     "folder-pipe": {
-      "iconPath": "../assets/icons/folder-pipe.svg"
+      "iconPath": "../assets/icons/dark/folder-pipe.svg"
     },
     "folder-pipe-open": {
-      "iconPath": "../assets/icons/folder-pipe-open.svg"
+      "iconPath": "../assets/icons/dark/folder-pipe-open.svg"
     },
     "folder-svg": {
-      "iconPath": "../assets/icons/svg-folder.svg"
+      "iconPath": "../assets/icons/dark/svg-folder.svg"
     },
     "folder-svg-open": {
-      "iconPath": "../assets/icons/svg-folder-open.svg"
+      "iconPath": "../assets/icons/dark/svg-folder-open.svg"
     },
     "folder-svg-light": {
-      "iconPath": "../assets/icons/svg-folder-light.svg"
+      "iconPath": "../assets/icons/dark/svg-folder-light.svg"
     },
     "folder-svg-open-light": {
-      "iconPath": "../assets/icons/svg-folder-open-light.svg"
+      "iconPath": "../assets/icons/dark/svg-folder-open-light.svg"
     },
     "folder-vuex-store": {
-      "iconPath": "../assets/icons/folder-vuex-store.svg"
+      "iconPath": "../assets/icons/dark/folder-vuex-store.svg"
     },
     "folder-vuex-store-open": {
-      "iconPath": "../assets/icons/folder-vuex-store-open.svg"
+      "iconPath": "../assets/icons/dark/folder-vuex-store-open.svg"
     },
     "folder-nuxt": {
-      "iconPath": "../assets/icons/folder-nuxt.svg"
+      "iconPath": "../assets/icons/dark/folder-nuxt.svg"
     },
     "folder-nuxt-open": {
-      "iconPath": "../assets/icons/folder-nuxt-open.svg"
+      "iconPath": "../assets/icons/dark/folder-nuxt-open.svg"
     },
     "folder-vue-directives": {
-      "iconPath": "../assets/icons/folder-vue-directives.svg"
+      "iconPath": "../assets/icons/dark/folder-vue-directives.svg"
     },
     "folder-vue-directives-open": {
-      "iconPath": "../assets/icons/folder-vue-directives-open.svg"
+      "iconPath": "../assets/icons/dark/folder-vue-directives-open.svg"
     },
     "folder-terraform": {
-      "iconPath": "../assets/icons/folder-terraform.svg"
+      "iconPath": "../assets/icons/dark/folder-terraform.svg"
     },
     "folder-terraform-open": {
-      "iconPath": "../assets/icons/folder-terraform-open.svg"
+      "iconPath": "../assets/icons/dark/folder-terraform-open.svg"
     },
     "folder-mobile": {
-      "iconPath": "../assets/icons/folder-mobile.svg"
+      "iconPath": "../assets/icons/dark/folder-mobile.svg"
     },
     "folder-mobile-open": {
-      "iconPath": "../assets/icons/folder-mobile-open.svg"
+      "iconPath": "../assets/icons/dark/folder-mobile-open.svg"
     },
     "folder-stencil": {
-      "iconPath": "../assets/icons/folder-stencil.svg"
+      "iconPath": "../assets/icons/dark/folder-stencil.svg"
     },
     "folder-stencil-open": {
-      "iconPath": "../assets/icons/folder-stencil-open.svg"
+      "iconPath": "../assets/icons/dark/folder-stencil-open.svg"
     },
     "folder-firebase": {
-      "iconPath": "../assets/icons/folder-firebase.svg"
+      "iconPath": "../assets/icons/dark/folder-firebase.svg"
     },
     "folder-firebase-open": {
-      "iconPath": "../assets/icons/folder-firebase-open.svg"
+      "iconPath": "../assets/icons/dark/folder-firebase-open.svg"
     },
     "folder-firestore": {
-      "iconPath": "../assets/icons/folder-firestore.svg"
+      "iconPath": "../assets/icons/dark/folder-firestore.svg"
     },
     "folder-firestore-open": {
-      "iconPath": "../assets/icons/folder-firestore-open.svg"
+      "iconPath": "../assets/icons/dark/folder-firestore-open.svg"
     },
     "folder-cloud-functions": {
-      "iconPath": "../assets/icons/folder-cloud-functions.svg"
+      "iconPath": "../assets/icons/dark/folder-cloud-functions.svg"
     },
     "folder-cloud-functions-open": {
-      "iconPath": "../assets/icons/folder-cloud-functions-open.svg"
+      "iconPath": "../assets/icons/dark/folder-cloud-functions-open.svg"
     },
     "folder-svelte": {
-      "iconPath": "../assets/icons/folder-svelte.svg"
+      "iconPath": "../assets/icons/dark/folder-svelte.svg"
     },
     "folder-svelte-open": {
-      "iconPath": "../assets/icons/folder-svelte-open.svg"
+      "iconPath": "../assets/icons/dark/folder-svelte-open.svg"
     },
     "folder-update": {
-      "iconPath": "../assets/icons/folder-update.svg"
+      "iconPath": "../assets/icons/dark/folder-update.svg"
     },
     "folder-update-open": {
-      "iconPath": "../assets/icons/folder-update-open.svg"
+      "iconPath": "../assets/icons/dark/folder-update-open.svg"
     },
     "folder-intellij": {
-      "iconPath": "../assets/icons/folder-intellij.svg"
+      "iconPath": "../assets/icons/dark/folder-intellij.svg"
     },
     "folder-intellij-open": {
-      "iconPath": "../assets/icons/folder-intellij-open.svg"
+      "iconPath": "../assets/icons/dark/folder-intellij-open.svg"
     },
     "folder-intellij_light": {
-      "iconPath": "../assets/icons/folder-intellij_light.svg"
+      "iconPath": "../assets/icons/dark/folder-intellij_light.svg"
     },
     "folder-intellij-open_light": {
-      "iconPath": "../assets/icons/folder-intellij-open_light.svg"
+      "iconPath": "../assets/icons/dark/folder-intellij-open_light.svg"
     },
     "folder-azure-pipelines": {
-      "iconPath": "../assets/icons/folder-azure-pipelines.svg"
+      "iconPath": "../assets/icons/dark/folder-azure-pipelines.svg"
     },
     "folder-azure-pipelines-open": {
-      "iconPath": "../assets/icons/folder-azure-pipelines-open.svg"
+      "iconPath": "../assets/icons/dark/folder-azure-pipelines-open.svg"
     },
     "folder-mjml": {
-      "iconPath": "../assets/icons/folder-mjml.svg"
+      "iconPath": "../assets/icons/dark/folder-mjml.svg"
     },
     "folder-mjml-open": {
-      "iconPath": "../assets/icons/folder-mjml-open.svg"
+      "iconPath": "../assets/icons/dark/folder-mjml-open.svg"
     },
     "folder-admin": {
-      "iconPath": "../assets/icons/folder-admin.svg"
+      "iconPath": "../assets/icons/dark/folder-admin.svg"
     },
     "folder-admin-open": {
-      "iconPath": "../assets/icons/folder-admin-open.svg"
+      "iconPath": "../assets/icons/dark/folder-admin-open.svg"
     },
     "folder-jupyter": {
-      "iconPath": "../assets/icons/folder-jupyter.svg"
+      "iconPath": "../assets/icons/dark/folder-jupyter.svg"
     },
     "folder-jupyter-open": {
-      "iconPath": "../assets/icons/folder-jupyter-open.svg"
+      "iconPath": "../assets/icons/dark/folder-jupyter-open.svg"
     },
     "folder-scala": {
-      "iconPath": "../assets/icons/folder-scala.svg"
+      "iconPath": "../assets/icons/dark/folder-scala.svg"
     },
     "folder-scala-open": {
-      "iconPath": "../assets/icons/folder-scala-open.svg"
+      "iconPath": "../assets/icons/dark/folder-scala-open.svg"
     },
     "folder-connection": {
-      "iconPath": "../assets/icons/folder-connection.svg"
+      "iconPath": "../assets/icons/dark/folder-connection.svg"
     },
     "folder-connection-open": {
-      "iconPath": "../assets/icons/folder-connection-open.svg"
+      "iconPath": "../assets/icons/dark/folder-connection-open.svg"
     },
     "folder-quasar": {
-      "iconPath": "../assets/icons/folder-quasar.svg"
+      "iconPath": "../assets/icons/dark/folder-quasar.svg"
     },
     "folder-quasar-open": {
-      "iconPath": "../assets/icons/folder-quasar-open.svg"
+      "iconPath": "../assets/icons/dark/folder-quasar-open.svg"
     },
     "folder-next": {
-      "iconPath": "../assets/icons/folder-next.svg"
+      "iconPath": "../assets/icons/dark/folder-next.svg"
     },
     "folder-next-open": {
-      "iconPath": "../assets/icons/folder-next-open.svg"
+      "iconPath": "../assets/icons/dark/folder-next-open.svg"
     },
     "folder-cobol": {
-      "iconPath": "../assets/icons/folder-cobol.svg"
+      "iconPath": "../assets/icons/dark/folder-cobol.svg"
     },
     "folder-cobol-open": {
-      "iconPath": "../assets/icons/folder-cobol-open.svg"
+      "iconPath": "../assets/icons/dark/folder-cobol-open.svg"
     },
     "folder-yarn": {
-      "iconPath": "../assets/icons/folder-yarn.svg"
+      "iconPath": "../assets/icons/dark/folder-yarn.svg"
     },
     "folder-yarn-open": {
-      "iconPath": "../assets/icons/folder-yarn-open.svg"
+      "iconPath": "../assets/icons/dark/folder-yarn-open.svg"
     },
     "folder-husky": {
-      "iconPath": "../assets/icons/folder-husky.svg"
+      "iconPath": "../assets/icons/dark/folder-husky.svg"
     },
     "folder-husky-open": {
-      "iconPath": "../assets/icons/folder-husky-open.svg"
+      "iconPath": "../assets/icons/dark/folder-husky-open.svg"
     },
     "folder-storybook": {
-      "iconPath": "../assets/icons/folder-storybook.svg"
+      "iconPath": "../assets/icons/dark/folder-storybook.svg"
     },
     "folder-storybook-open": {
-      "iconPath": "../assets/icons/folder-storybook-open.svg"
+      "iconPath": "../assets/icons/dark/folder-storybook-open.svg"
     },
     "folder-base": {
-      "iconPath": "../assets/icons/folder-base.svg"
+      "iconPath": "../assets/icons/dark/folder-base.svg"
     },
     "folder-base-open": {
-      "iconPath": "../assets/icons/folder-base-open.svg"
+      "iconPath": "../assets/icons/dark/folder-base-open.svg"
     },
     "folder-cart": {
-      "iconPath": "../assets/icons/folder-cart.svg"
+      "iconPath": "../assets/icons/dark/folder-cart.svg"
     },
     "folder-cart-open": {
-      "iconPath": "../assets/icons/folder-cart-open.svg"
+      "iconPath": "../assets/icons/dark/folder-cart-open.svg"
     },
     "folder-home": {
-      "iconPath": "../assets/icons/folder-home.svg"
+      "iconPath": "../assets/icons/dark/folder-home.svg"
     },
     "folder-home-open": {
-      "iconPath": "../assets/icons/folder-home-open.svg"
+      "iconPath": "../assets/icons/dark/folder-home-open.svg"
     },
     "folder-project": {
-      "iconPath": "../assets/icons/folder-project.svg"
+      "iconPath": "../assets/icons/dark/folder-project.svg"
     },
     "folder-project-open": {
-      "iconPath": "../assets/icons/folder-project-open.svg"
+      "iconPath": "../assets/icons/dark/folder-project-open.svg"
     },
     "folder-interface": {
-      "iconPath": "../assets/icons/folder-interface.svg"
+      "iconPath": "../assets/icons/dark/folder-interface.svg"
     },
     "folder-interface-open": {
-      "iconPath": "../assets/icons/folder-interface-open.svg"
+      "iconPath": "../assets/icons/dark/folder-interface-open.svg"
     },
     "folder-netlify": {
-      "iconPath": "../assets/icons/folder-netlify.svg"
+      "iconPath": "../assets/icons/dark/folder-netlify.svg"
     },
     "folder-netlify-open": {
-      "iconPath": "../assets/icons/folder-netlify-open.svg"
+      "iconPath": "../assets/icons/dark/folder-netlify-open.svg"
     },
     "folder-enum": {
-      "iconPath": "../assets/icons/folder-enum.svg"
+      "iconPath": "../assets/icons/dark/folder-enum.svg"
     },
     "folder-enum-open": {
-      "iconPath": "../assets/icons/folder-enum-open.svg"
+      "iconPath": "../assets/icons/dark/folder-enum-open.svg"
     },
     "folder-contract": {
-      "iconPath": "../assets/icons/folder-contract.svg"
+      "iconPath": "../assets/icons/dark/folder-contract.svg"
     },
     "folder-contract-open": {
-      "iconPath": "../assets/icons/folder-contract-open.svg"
+      "iconPath": "../assets/icons/dark/folder-contract-open.svg"
     },
     "folder-helm": {
-      "iconPath": "../assets/icons/folder-helm.svg"
+      "iconPath": "../assets/icons/dark/folder-helm.svg"
     },
     "folder-helm-open": {
-      "iconPath": "../assets/icons/folder-helm-open.svg"
+      "iconPath": "../assets/icons/dark/folder-helm-open.svg"
     },
     "folder-queue": {
-      "iconPath": "../assets/icons/folder-queue.svg"
+      "iconPath": "../assets/icons/dark/folder-queue.svg"
     },
     "folder-queue-open": {
-      "iconPath": "../assets/icons/folder-queue-open.svg"
+      "iconPath": "../assets/icons/dark/folder-queue-open.svg"
     },
     "folder-vercel": {
-      "iconPath": "../assets/icons/folder-vercel.svg"
+      "iconPath": "../assets/icons/dark/folder-vercel.svg"
     },
     "folder-vercel-open": {
-      "iconPath": "../assets/icons/folder-vercel-open.svg"
+      "iconPath": "../assets/icons/dark/folder-vercel-open.svg"
     },
     "folder-cypress": {
-      "iconPath": "../assets/icons/folder-cypress.svg"
+      "iconPath": "../assets/icons/dark/folder-cypress.svg"
     },
     "folder-cypress-open": {
-      "iconPath": "../assets/icons/folder-cypress-open.svg"
+      "iconPath": "../assets/icons/dark/folder-cypress-open.svg"
     },
     "folder-decorators": {
-      "iconPath": "../assets/icons/folder-decorators.svg"
+      "iconPath": "../assets/icons/dark/folder-decorators.svg"
     },
     "folder-decorators-open": {
-      "iconPath": "../assets/icons/folder-decorators-open.svg"
+      "iconPath": "../assets/icons/dark/folder-decorators-open.svg"
     },
     "folder-java": {
-      "iconPath": "../assets/icons/folder-java.svg"
+      "iconPath": "../assets/icons/dark/folder-java.svg"
     },
     "folder-java-open": {
-      "iconPath": "../assets/icons/folder-java-open.svg"
+      "iconPath": "../assets/icons/dark/folder-java-open.svg"
     },
     "folder-resolver": {
-      "iconPath": "../assets/icons/folder-resolver.svg"
+      "iconPath": "../assets/icons/dark/folder-resolver.svg"
     },
     "folder-resolver-open": {
-      "iconPath": "../assets/icons/folder-resolver-open.svg"
+      "iconPath": "../assets/icons/dark/folder-resolver-open.svg"
     },
     "folder-angular": {
-      "iconPath": "../assets/icons/folder-angular.svg"
+      "iconPath": "../assets/icons/dark/folder-angular.svg"
     },
     "folder-angular-open": {
-      "iconPath": "../assets/icons/folder-angular-open.svg"
+      "iconPath": "../assets/icons/dark/folder-angular-open.svg"
     },
     "folder-unity": {
-      "iconPath": "../assets/icons/folder-unity.svg"
+      "iconPath": "../assets/icons/dark/folder-unity.svg"
     },
     "folder-unity-open": {
-      "iconPath": "../assets/icons/folder-unity-open.svg"
+      "iconPath": "../assets/icons/dark/folder-unity-open.svg"
     },
     "folder-pdf": {
-      "iconPath": "../assets/icons/folder-pdf.svg"
+      "iconPath": "../assets/icons/dark/folder-pdf.svg"
     },
     "folder-pdf-open": {
-      "iconPath": "../assets/icons/folder-pdf-open.svg"
+      "iconPath": "../assets/icons/dark/folder-pdf-open.svg"
     },
     "folder-proto": {
-      "iconPath": "../assets/icons/folder-proto.svg"
+      "iconPath": "../assets/icons/dark/folder-proto.svg"
     },
     "folder-proto-open": {
-      "iconPath": "../assets/icons/folder-proto-open.svg"
+      "iconPath": "../assets/icons/dark/folder-proto-open.svg"
     },
     "folder-plastic": {
-      "iconPath": "../assets/icons/folder-plastic.svg"
+      "iconPath": "../assets/icons/dark/folder-plastic.svg"
     },
     "folder-plastic-open": {
-      "iconPath": "../assets/icons/folder-plastic-open.svg"
+      "iconPath": "../assets/icons/dark/folder-plastic-open.svg"
     },
     "folder-gamemaker": {
-      "iconPath": "../assets/icons/folder-gamemaker.svg"
+      "iconPath": "../assets/icons/dark/folder-gamemaker.svg"
     },
     "folder-gamemaker-open": {
-      "iconPath": "../assets/icons/folder-gamemaker-open.svg"
+      "iconPath": "../assets/icons/dark/folder-gamemaker-open.svg"
     },
     "folder-mercurial": {
-      "iconPath": "../assets/icons/folder-mercurial.svg"
+      "iconPath": "../assets/icons/dark/folder-mercurial.svg"
     },
     "folder-mercurial-open": {
-      "iconPath": "../assets/icons/folder-mercurial-open.svg"
+      "iconPath": "../assets/icons/dark/folder-mercurial-open.svg"
     },
     "folder-godot": {
-      "iconPath": "../assets/icons/folder-godot.svg"
+      "iconPath": "../assets/icons/dark/folder-godot.svg"
     },
     "folder-godot-open": {
-      "iconPath": "../assets/icons/folder-godot-open.svg"
+      "iconPath": "../assets/icons/dark/folder-godot-open.svg"
     },
     "folder-lottie": {
-      "iconPath": "../assets/icons/folder-lottie.svg"
+      "iconPath": "../assets/icons/dark/folder-lottie.svg"
     },
     "folder-lottie-open": {
-      "iconPath": "../assets/icons/folder-lottie-open.svg"
+      "iconPath": "../assets/icons/dark/folder-lottie-open.svg"
     },
     "folder-taskfile": {
-      "iconPath": "../assets/icons/folder-taskfile.svg"
+      "iconPath": "../assets/icons/dark/folder-taskfile.svg"
     },
     "folder-taskfile-open": {
-      "iconPath": "../assets/icons/folder-taskfile-open.svg"
+      "iconPath": "../assets/icons/dark/folder-taskfile-open.svg"
     },
     "folder-drizzle": {
-      "iconPath": "../assets/icons/folder-drizzle.svg"
+      "iconPath": "../assets/icons/dark/folder-drizzle.svg"
     },
     "folder-drizzle-open": {
-      "iconPath": "../assets/icons/folder-drizzle-open.svg"
+      "iconPath": "../assets/icons/dark/folder-drizzle-open.svg"
     },
     "folder-cloudflare": {
-      "iconPath": "../assets/icons/folder-cloudflare.svg"
+      "iconPath": "../assets/icons/dark/folder-cloudflare.svg"
     },
     "folder-cloudflare-open": {
-      "iconPath": "../assets/icons/folder-cloudflare-open.svg"
+      "iconPath": "../assets/icons/dark/folder-cloudflare-open.svg"
     },
     "folder-seeders": {
-      "iconPath": "../assets/icons/folder-seeders.svg"
+      "iconPath": "../assets/icons/dark/folder-seeders.svg"
     },
     "folder-seeders-open": {
-      "iconPath": "../assets/icons/folder-seeders-open.svg"
+      "iconPath": "../assets/icons/dark/folder-seeders-open.svg"
     },
     "folder-store": {
-      "iconPath": "../assets/icons/folder-store.svg"
+      "iconPath": "../assets/icons/dark/folder-store.svg"
     },
     "folder-store-open": {
-      "iconPath": "../assets/icons/folder-store-open.svg"
+      "iconPath": "../assets/icons/dark/folder-store-open.svg"
     },
     "folder-bicep": {
-      "iconPath": "../assets/icons/folder-bicep.svg"
+      "iconPath": "../assets/icons/dark/folder-bicep.svg"
     },
     "folder-bicep-open": {
-      "iconPath": "../assets/icons/folder-bicep-open.svg"
+      "iconPath": "../assets/icons/dark/folder-bicep-open.svg"
     },
     "folder-snapcraft": {
-      "iconPath": "../assets/icons/folder-snapcraft.svg"
+      "iconPath": "../assets/icons/dark/folder-snapcraft.svg"
     },
     "folder-snapcraft-open": {
-      "iconPath": "../assets/icons/folder-snapcraft-open.svg"
+      "iconPath": "../assets/icons/dark/folder-snapcraft-open.svg"
     },
     "folder-development": {
-      "iconPath": "../assets/icons/folder-development.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-development.clone.svg"
     },
     "folder-development-open": {
-      "iconPath": "../assets/icons/folder-development-open.clone.svg"
+      "iconPath": "../assets/icons/dark/folder-development-open.clone.svg"
     },
     "folder-flutter": {
-      "iconPath": "../assets/icons/folder-flutter.svg"
+      "iconPath": "../assets/icons/dark/folder-flutter.svg"
     },
     "folder-flutter-open": {
-      "iconPath": "../assets/icons/folder-flutter-open.svg"
+      "iconPath": "../assets/icons/dark/folder-flutter-open.svg"
     },
     "folder-snippet": {
-      "iconPath": "../assets/icons/folder-snippet.svg"
+      "iconPath": "../assets/icons/dark/folder-snippet.svg"
     },
     "folder-snippet-open": {
-      "iconPath": "../assets/icons/folder-snippet-open.svg"
+      "iconPath": "../assets/icons/dark/folder-snippet-open.svg"
     },
     "folder-element": {
-      "iconPath": "../assets/icons/folder-element.svg"
+      "iconPath": "../assets/icons/dark/folder-element.svg"
     },
     "folder-element-open": {
-      "iconPath": "../assets/icons/folder-element-open.svg"
+      "iconPath": "../assets/icons/dark/folder-element-open.svg"
     },
     "folder-src-tauri": {
-      "iconPath": "../assets/icons/folder-src-tauri.svg"
+      "iconPath": "../assets/icons/dark/folder-src-tauri.svg"
     },
     "folder-src-tauri-open": {
-      "iconPath": "../assets/icons/folder-src-tauri-open.svg"
+      "iconPath": "../assets/icons/dark/folder-src-tauri-open.svg"
     },
     "folder-favicon": {
-      "iconPath": "../assets/icons/folder-favicon.svg"
+      "iconPath": "../assets/icons/dark/folder-favicon.svg"
     },
     "folder-favicon-open": {
-      "iconPath": "../assets/icons/folder-favicon-open.svg"
+      "iconPath": "../assets/icons/dark/folder-favicon-open.svg"
     },
     "folder-lefthook": {
-      "iconPath": "../assets/icons/folder-lefthook.svg"
+      "iconPath": "../assets/icons/dark/folder-lefthook.svg"
     },
     "folder-lefthook-open": {
-      "iconPath": "../assets/icons/folder-lefthook-open.svg"
+      "iconPath": "../assets/icons/dark/folder-lefthook-open.svg"
     },
     "folder-bloc": {
-      "iconPath": "../assets/icons/bloc-folder.svg"
+      "iconPath": "../assets/icons/dark/bloc-folder.svg"
     },
     "folder-bloc-open": {
-      "iconPath": "../assets/icons/folder-bloc-open.svg"
+      "iconPath": "../assets/icons/dark/folder-bloc-open.svg"
     },
     "folder-powershell": {
-      "iconPath": "../assets/icons/folder-powershell.svg"
+      "iconPath": "../assets/icons/dark/folder-powershell.svg"
     },
     "folder-powershell-open": {
-      "iconPath": "../assets/icons/folder-powershell-open.svg"
+      "iconPath": "../assets/icons/dark/folder-powershell-open.svg"
     },
     "folder-repository": {
-      "iconPath": "../assets/icons/folder-repository.svg"
+      "iconPath": "../assets/icons/dark/folder-repository.svg"
     },
     "folder-repository-open": {
-      "iconPath": "../assets/icons/folder-repository-open.svg"
+      "iconPath": "../assets/icons/dark/folder-repository-open.svg"
     },
     "folder-luau": {
-      "iconPath": "../assets/icons/folder-luau.svg"
+      "iconPath": "../assets/icons/dark/folder-luau.svg"
     },
     "folder-luau-open": {
-      "iconPath": "../assets/icons/folder-luau-open.svg"
+      "iconPath": "../assets/icons/dark/folder-luau-open.svg"
     },
     "folder-obsidian": {
-      "iconPath": "../assets/icons/folder-obsidian.svg"
+      "iconPath": "../assets/icons/dark/folder-obsidian.svg"
     },
     "folder-obsidian-open": {
-      "iconPath": "../assets/icons/folder-obsidian-open.svg"
+      "iconPath": "../assets/icons/dark/folder-obsidian-open.svg"
     },
     "folder-trash": {
-      "iconPath": "../assets/icons/folder-trash.svg"
+      "iconPath": "../assets/icons/dark/folder-trash.svg"
     },
     "folder-trash-open": {
-      "iconPath": "../assets/icons/folder-trash-open.svg"
+      "iconPath": "../assets/icons/dark/folder-trash-open.svg"
     },
     "folder-cline": {
-      "iconPath": "../assets/icons/folder-cline.svg"
+      "iconPath": "../assets/icons/dark/folder-cline.svg"
     },
     "folder-cline-open": {
-      "iconPath": "../assets/icons/folder-cline-open.svg"
+      "iconPath": "../assets/icons/dark/folder-cline-open.svg"
     },
     "folder-liquibase": {
-      "iconPath": "../assets/icons/folder-liquibase.svg"
+      "iconPath": "../assets/icons/dark/folder-liquibase.svg"
     },
     "folder-liquibase-open": {
-      "iconPath": "../assets/icons/folder-liquibase-open.svg"
+      "iconPath": "../assets/icons/dark/folder-liquibase-open.svg"
     },
     "folder-dart": {
-      "iconPath": "../assets/icons/folder-dart.svg"
+      "iconPath": "../assets/icons/dark/folder-dart.svg"
     },
     "folder-dart-open": {
-      "iconPath": "../assets/icons/folder-dart-open.svg"
+      "iconPath": "../assets/icons/dark/folder-dart-open.svg"
     },
     "folder-zeabur": {
-      "iconPath": "../assets/icons/folder-zeabur.svg"
+      "iconPath": "../assets/icons/dark/folder-zeabur.svg"
     },
     "folder-zeabur-open": {
-      "iconPath": "../assets/icons/folder-zeabur-open.svg"
+      "iconPath": "../assets/icons/dark/folder-zeabur-open.svg"
     },
     "folder-kusto": {
-      "iconPath": "../assets/icons/folder-kusto.svg"
+      "iconPath": "../assets/icons/dark/folder-kusto.svg"
     },
     "folder-kusto-open": {
-      "iconPath": "../assets/icons/folder-kusto-open.svg"
+      "iconPath": "../assets/icons/dark/folder-kusto-open.svg"
     },
     "folder-policy": {
-      "iconPath": "../assets/icons/folder-policy.svg"
+      "iconPath": "../assets/icons/dark/folder-policy.svg"
     },
     "folder-policy-open": {
-      "iconPath": "../assets/icons/folder-policy-open.svg"
+      "iconPath": "../assets/icons/dark/folder-policy-open.svg"
     },
     "folder-attachment": {
-      "iconPath": "../assets/icons/folder-attachment.svg"
+      "iconPath": "../assets/icons/dark/folder-attachment.svg"
     },
     "folder-attachment-open": {
-      "iconPath": "../assets/icons/folder-attachment-open.svg"
+      "iconPath": "../assets/icons/dark/folder-attachment-open.svg"
     },
     "folder-bibliography": {
-      "iconPath": "../assets/icons/folder-bibliography.svg"
+      "iconPath": "../assets/icons/dark/folder-bibliography.svg"
     },
     "folder-bibliography-open": {
-      "iconPath": "../assets/icons/folder-bibliography-open.svg"
+      "iconPath": "../assets/icons/dark/folder-bibliography-open.svg"
     },
     "folder-link": {
-      "iconPath": "../assets/icons/folder-link.svg"
+      "iconPath": "../assets/icons/dark/folder-link.svg"
     },
     "folder-link-open": {
-      "iconPath": "../assets/icons/folder-link-open.svg"
+      "iconPath": "../assets/icons/dark/folder-link-open.svg"
     },
     "folder-pytorch": {
-      "iconPath": "../assets/icons/folder-pytorch.svg"
+      "iconPath": "../assets/icons/dark/folder-pytorch.svg"
     },
     "folder-pytorch-open": {
-      "iconPath": "../assets/icons/folder-pytorch-open.svg"
+      "iconPath": "../assets/icons/dark/folder-pytorch-open.svg"
     },
     "folder-blender": {
-      "iconPath": "../assets/icons/folder-blender.svg"
+      "iconPath": "../assets/icons/dark/folder-blender.svg"
     },
     "folder-blender-open": {
-      "iconPath": "../assets/icons/folder-blender-open.svg"
+      "iconPath": "../assets/icons/dark/folder-blender-open.svg"
     },
     "folder": {
-      "iconPath": "../assets/icons/folder.svg"
+      "iconPath": "../assets/icons/dark/folder.svg"
     },
     "folder-open": {
-      "iconPath": "../assets/icons/folder-open.svg"
+      "iconPath": "../assets/icons/dark/folder-open.svg"
     },
     "folder-root": {
-      "iconPath": "../assets/icons/folder-root.svg"
+      "iconPath": "../assets/icons/dark/folder-root.svg"
     },
     "folder-root-open": {
-      "iconPath": "../assets/icons/folder-root-open.svg"
+      "iconPath": "../assets/icons/dark/folder-root-open.svg"
     },
     "flutter-file": {
-      "iconPath": "../assets/icons/flutter-folder.svg"
+      "iconPath": "../assets/icons/dark/flutter-folder.svg"
     },
     "bloc-file": {
-      "iconPath": "../assets/icons/bloc-file.svg"
+      "iconPath": "../assets/icons/dark/bloc-file.svg"
     },
     "getx-file": {
-      "iconPath": "../assets/icons/getx-file.svg"
+      "iconPath": "../assets/icons/dark/getx-file.svg"
     },
     "riverpod-file": {
-      "iconPath": "../assets/icons/riverpod-file.svg"
+      "iconPath": "../assets/icons/dark/riverpod-file.svg"
     },
     "mobx-file": {
-      "iconPath": "../assets/icons/mobx-file.svg"
+      "iconPath": "../assets/icons/dark/mobx-file.svg"
     },
     "state-file": {
-      "iconPath": "../assets/icons/state-file.svg"
+      "iconPath": "../assets/icons/dark/state-file.svg"
     },
     "service-file": {
-      "iconPath": "../assets/icons/service-file.svg"
+      "iconPath": "../assets/icons/dark/service-file.svg"
     },
     "module-file": {
-      "iconPath": "../assets/icons/module-file.svg"
+      "iconPath": "../assets/icons/dark/module-file.svg"
     },
     "getx-folder": {
-      "iconPath": "../assets/icons/getx-folder.svg"
+      "iconPath": "../assets/icons/dark/getx-folder.svg"
     },
     "getx-folder-open": {
-      "iconPath": "../assets/icons/getx-folder-open.svg"
+      "iconPath": "../assets/icons/dark/getx-folder-open.svg"
     },
     "mobx-folder": {
-      "iconPath": "../assets/icons/mobx-folder.svg"
+      "iconPath": "../assets/icons/dark/mobx-folder.svg"
     },
     "mobx-folder-open": {
-      "iconPath": "../assets/icons/mobx-folder-open.svg"
+      "iconPath": "../assets/icons/dark/mobx-folder-open.svg"
     },
     "riverpod-folder": {
-      "iconPath": "../assets/icons/riverpod-folder.svg"
+      "iconPath": "../assets/icons/dark/riverpod-folder.svg"
     },
     "riverpod-folder-open": {
-      "iconPath": "../assets/icons/riverpod-folder-open.svg"
+      "iconPath": "../assets/icons/dark/riverpod-folder-open.svg"
     },
     "state-folder": {
-      "iconPath": "../assets/icons/state-folder.svg"
+      "iconPath": "../assets/icons/dark/state-folder.svg"
     },
     "state-folder-open": {
-      "iconPath": "../assets/icons/state-folder-open.svg"
+      "iconPath": "../assets/icons/dark/state-folder-open.svg"
     },
     "lynx": {
-      "iconPath": "../assets/icons/lynx-file.svg"
+      "iconPath": "../assets/icons/dark/lynx-file.svg"
     },
     "lynx-dark": {
-      "iconPath": "../assets/icons/lynx-file-dark.svg"
+      "iconPath": "../assets/icons/dark/lynx-file-dark.svg"
     },
     "lynx-config-file": {
-      "iconPath": "../assets/icons/lynx-config-file.svg"
+      "iconPath": "../assets/icons/dark/lynx-config-file.svg"
     },
     "lynx-config-file-dark": {
-      "iconPath": "../assets/icons/lynx-config-file-dark.svg"
+      "iconPath": "../assets/icons/dark/lynx-config-file-dark.svg"
     },
     "folder-notification": {
-      "iconPath": "../assets/icons/folder-notification.svg"
+      "iconPath": "../assets/icons/dark/folder-notification.svg"
     },
     "folder-notification-open": {
-      "iconPath": "../assets/icons/folder-notification-open.svg"
+      "iconPath": "../assets/icons/dark/folder-notification-open.svg"
     },
     "folder-keymaps": {
-      "iconPath": "../assets/icons/folder-keymaps.svg"
+      "iconPath": "../assets/icons/dark/folder-keymaps.svg"
     },
     "folder-keymaps-open": {
-      "iconPath": "../assets/icons/folder-keymaps-open.svg"
+      "iconPath": "../assets/icons/dark/folder-keymaps-open.svg"
     },
     "folder-shortcuts": {
-      "iconPath": "../assets/icons/folder-shortcuts.svg"
+      "iconPath": "../assets/icons/dark/folder-shortcuts.svg"
     },
     "folder-shortcuts-open": {
-      "iconPath": "../assets/icons/folder-shortcuts-open.svg"
+      "iconPath": "../assets/icons/dark/folder-shortcuts-open.svg"
     }
   },
   "folderNames": {
@@ -10873,7 +10873,7 @@
     "mmd": "mermaid",
     "mermaid": "mermaid",
     "mojo": "mojo",
-    "🔥": "mojo",
+    "\ud83d\udd25": "mojo",
     "rbxl": "roblox",
     "rbxlx": "roblox",
     "rbxm": "roblox",
@@ -10899,7 +10899,7 @@
     "cairo": "cairo",
     "alloy": "grafana-alloy",
     "ftl": "freemarker",
-    "ц": "tsil",
+    "\u0446": "tsil",
     "tape": "tape",
     "hurl": "hurl",
     "cds": "cds",
