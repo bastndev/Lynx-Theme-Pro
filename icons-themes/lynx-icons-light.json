@@ -6,6 +6,12 @@
     "xml": {
       "iconPath": "../assets/icons/light/xml.svg"
     },
+    "prettier": {
+      "iconPath": "../assets/icons/dark/prettier.svg"
+    },
+    "prettier-file": {
+      "iconPath": "../assets/icons/dark/prettier.svg"
+    },
     "toml": {
       "iconPath": "../assets/icons/light/toml.svg"
     },
@@ -1288,85 +1294,95 @@
       "iconPath": "../assets/icons/light/yarn-lock.svg"
     },
     "flutter-file": {
-      "iconPath": "../assets/icons/dark/flutter-file.svg"
+      "iconPath": "../assets/icons/light/flutter-file.svg"
     },
     "bloc-file": {
-      "iconPath": "../assets/icons/dark/bloc-file.svg"
+      "iconPath": "../assets/icons/light/bloc-file.svg"
     },
     "getx-file": {
-      "iconPath": "../assets/icons/dark/getx-file.svg"
+      "iconPath": "../assets/icons/light/getx-file.svg"
     },
     "riverpod-file": {
-      "iconPath": "../assets/icons/dark/riverpod-file.svg"
+      "iconPath": "../assets/icons/light/riverpod-file.svg"
     },
     "mobx-file": {
-      "iconPath": "../assets/icons/dark/mobx-file.svg"
+      "iconPath": "../assets/icons/light/mobx-file.svg"
     },
     "state-file": {
-      "iconPath": "../assets/icons/dark/state-file.svg"
+      "iconPath": "../assets/icons/light/state-file.svg"
     },
     "service-file": {
-      "iconPath": "../assets/icons/dark/service-file.svg"
+      "iconPath": "../assets/icons/light/service-file.svg"
     },
     "module-file": {
-      "iconPath": "../assets/icons/dark/module-file.svg"
+      "iconPath": "../assets/icons/light/module-file.svg"
     },
     "getx-folder": {
-      "iconPath": "../assets/icons/dark/getx-folder.svg"
+      "iconPath": "../assets/icons/light/getx-folder.svg"
     },
     "getx-folder-open": {
-      "iconPath": "../assets/icons/dark/getx-folder-open.svg"
+      "iconPath": "../assets/icons/light/getx-folder-open.svg"
     },
     "mobx-folder": {
-      "iconPath": "../assets/icons/dark/mobx-folder.svg"
+      "iconPath": "../assets/icons/light/mobx-folder.svg"
     },
     "mobx-folder-open": {
-      "iconPath": "../assets/icons/dark/mobx-folder-open.svg"
+      "iconPath": "../assets/icons/light/mobx-folder-open.svg"
     },
     "riverpod-folder": {
-      "iconPath": "../assets/icons/dark/riverpod-folder.svg"
+      "iconPath": "../assets/icons/light/riverpod-folder.svg"
     },
     "riverpod-folder-open": {
-      "iconPath": "../assets/icons/dark/riverpod-folder-open.svg"
+      "iconPath": "../assets/icons/light/riverpod-folder-open.svg"
     },
     "state-folder": {
-      "iconPath": "../assets/icons/dark/state-folder.svg"
+      "iconPath": "../assets/icons/light/state-folder.svg"
     },
     "state-folder-open": {
-      "iconPath": "../assets/icons/dark/state-folder-open.svg"
+      "iconPath": "../assets/icons/light/state-folder-open.svg"
     },
     "lynx": {
-      "iconPath": "../assets/icons/dark/lynx-file.svg"
+      "iconPath": "../assets/icons/light/lynx-file.svg"
     },
     "lynx-dark": {
-      "iconPath": "../assets/icons/dark/lynx-file-dark.svg"
+      "iconPath": "../assets/icons/light/lynx-file-dark.svg"
     },
     "lynx-config-file": {
-      "iconPath": "../assets/icons/dark/lynx-config-file.svg"
+      "iconPath": "../assets/icons/light/lynx-config-file.svg"
     },
     "lynx-config-file-dark": {
-      "iconPath": "../assets/icons/dark/lynx-config-file-dark.svg"
+      "iconPath": "../assets/icons/light/lynx-config-file-dark.svg"
     },
     "folder-notification": {
-      "iconPath": "../assets/icons/dark/folder-notification.svg"
+      "iconPath": "../assets/icons/light/folder-notification.svg"
     },
     "folder-notification-open": {
-      "iconPath": "../assets/icons/dark/folder-notification-open.svg"
+      "iconPath": "../assets/icons/light/folder-notification-open.svg"
     },
     "folder-keymaps": {
-      "iconPath": "../assets/icons/dark/folder-keymaps.svg"
+      "iconPath": "../assets/icons/light/folder-keymaps.svg"
     },
     "folder-keymaps-open": {
-      "iconPath": "../assets/icons/dark/folder-keymaps-open.svg"
+      "iconPath": "../assets/icons/light/folder-keymaps-open.svg"
     },
     "folder-shortcuts": {
-      "iconPath": "../assets/icons/dark/folder-shortcuts.svg"
+      "iconPath": "../assets/icons/light/folder-shortcuts.svg"
     },
     "folder-shortcuts-open": {
-      "iconPath": "../assets/icons/dark/folder-shortcuts-open.svg"
+      "iconPath": "../assets/icons/light/folder-shortcuts-open.svg"
     }
   },
   "folderNames": {
+    "shortcuts": "folder-shortcuts",
+    "shortcut": "folder-shortcuts",
+    "keymaps": "folder-keymaps",
+    "keymap": "folder-keymaps",
+    "notifications": "folder-notification",
+    "notification": "folder-notification",
+    "state": "state-folder",
+    "riverpod": "riverpod-folder",
+    "mobx": "mobx-folder",
+    "getx": "getx-folder",
     "admin": "folder_admin",
     "admins": "folder_admin",
     "manager": "folder_admin",
@@ -1819,6 +1835,16 @@
     ".yarn": "folder_yarn"
   },
   "folderNamesExpanded": {
+    "shortcuts": "folder-shortcuts-open",
+    "shortcut": "folder-shortcuts-open",
+    "keymaps": "folder-keymaps-open",
+    "keymap": "folder-keymaps-open",
+    "notifications": "folder-notification-open",
+    "notification": "folder-notification-open",
+    "state": "state-folder-open",
+    "riverpod": "riverpod-folder-open",
+    "mobx": "mobx-folder-open",
+    "getx": "getx-folder-open",
     "admin": "folder_admin_open",
     "admins": "folder_admin_open",
     "manager": "folder_admin_open",
@@ -2273,6 +2299,14 @@
   "rootFolderNames": {},
   "rootFolderNamesExpanded": {},
   "fileExtensions": {
+    "module.dart": "module-file",
+    "state.dart": "state-file",
+    "service.dart": "service-file",
+    "riverpod.dart": "riverpod-file",
+    "mobx.dart": "mobx-file",
+    "getx.dart": "getx-file",
+    "bloc.dart": "bloc-file",
+    "metadata": "flutter-file",
     "asm": "assembly",
     "a51": "assembly",
     "inc": "assembly",
@@ -2799,12 +2833,53 @@
     "zst": "zip"
   },
   "fileNames": {
+    "main.lynx.bundle": "lynx",
+    "lynx.config.ts": "lynx-config-file",
     "astro.config.js": "astro-config",
     "astro.config.mjs": "astro-config",
     "astro.config.cjs": "astro-config",
     "astro.config.ts": "astro-config",
     "astro.config.cts": "astro-config",
     "astro.config.mts": "astro-config",
+    ".prettierrc": "prettier",
+    ".prettierrc.json": "prettier",
+    ".prettierrc.jsonc": "prettier",
+    ".prettierrc.json5": "prettier",
+    ".prettierrc.yaml": "prettier",
+    ".prettierrc.yml": "prettier",
+    ".prettierrc.toml": "prettier",
+    ".prettierrc.js": "prettier",
+    ".prettierrc.mjs": "prettier",
+    ".prettierrc.cjs": "prettier",
+    ".prettierrc.ts": "prettier",
+    ".prettierrc.mts": "prettier",
+    ".prettierrc.cts": "prettier",
+    ".config/prettierrc": "prettier",
+    ".config/prettierrc.json": "prettier",
+    ".config/prettierrc.jsonc": "prettier",
+    ".config/prettierrc.json5": "prettier",
+    ".config/prettierrc.yaml": "prettier",
+    ".config/prettierrc.yml": "prettier",
+    ".config/prettierrc.toml": "prettier",
+    ".config/prettierrc.js": "prettier",
+    ".config/prettierrc.mjs": "prettier",
+    ".config/prettierrc.cjs": "prettier",
+    ".config/prettierrc.ts": "prettier",
+    ".config/prettierrc.mts": "prettier",
+    ".config/prettierrc.cts": "prettier",
+    "prettier.config.json": "prettier",
+    "prettier.config.jsonc": "prettier",
+    "prettier.config.json5": "prettier",
+    "prettier.config.yaml": "prettier",
+    "prettier.config.yml": "prettier",
+    "prettier.config.toml": "prettier",
+    "prettier.config.js": "prettier",
+    "prettier.config.mjs": "prettier",
+    "prettier.config.cjs": "prettier",
+    "prettier.config.ts": "prettier",
+    "prettier.config.mts": "prettier",
+    "prettier.config.cts": "prettier",
+    ".prettierignore": "prettier-file",
     "bun.lock": "bun-lock",
     "bun.lockb": "bun-lock",
     "bunfig.toml": "bun",
@@ -2890,16 +2965,6 @@
     ".huskyrc.js": "config",
     ".huskyrc.yaml": "config",
     ".huskyrc.yml": "config",
-    ".prettierrc": "config",
-    ".prettierrc.js": "config",
-    ".prettierrc.cjs": "config",
-    ".prettierrc.json": "config",
-    ".prettierrc.json5": "config",
-    ".prettierrc.yaml": "config",
-    ".prettierrc.yml": "config",
-    ".prettierrc.toml": "config",
-    ".prettierrc.mjs": "config",
-    ".prettierignore": "config",
     "dockerfile": "docker",
     "dockerfile.prod": "docker",
     "dockerfile.production": "docker",
