@@ -39,7 +39,7 @@ For detailed guidelines on how to contribute, please see our [Contributing Guide
 
 ## Enforcement
 
-As the maintainer of this project, I am committed to fairly enforcing this Code of Conduct. If you experience or witness behavior that violates these guidelines, please report it to dev@bastndev.com
+As the maintainer of this project, I am committed to fairly enforcing this Code of Conduct. If you experience or witness behavior that violates these guidelines, please report it to **dev@bastndev.com**
 
 **Important: Email Subject Line Format**
 
