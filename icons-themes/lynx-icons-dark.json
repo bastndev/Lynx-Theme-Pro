@@ -3485,9 +3485,19 @@
     },
     "folder-shortcuts-open": {
       "iconPath": "../assets/icons/dark/folder-shortcuts-open.svg"
+    },
+    "folder-claude": {
+      "iconPath": "../assets/icons/dark/folder-claude.svg"
+    },
+    "folder-claude-open": {
+      "iconPath": "../assets/icons/dark/folder-claude-open.svg"
+    },
+    "file-claude": {
+      "iconPath": "../assets/icons/dark/claude.svg"
     }
   },
   "folderNames": {
+    "claude": "folder-claude",
     "shortcuts": "folder-shortcuts",
     "shortcut": "folder-shortcuts",
     "gifs": "folder-gif",
