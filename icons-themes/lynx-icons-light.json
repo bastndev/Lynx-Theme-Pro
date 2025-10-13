@@ -758,6 +758,27 @@
     "wally-lock": {
       "iconPath": "../assets/icons/light/wally-lock.svg"
     },
+    "makefile": {
+      "iconPath": "../assets/icons/light/makefile.svg"
+    },
+    "node": {
+      "iconPath": "../assets/icons/light/node.svg"
+    },
+    "nuxt": {
+      "iconPath": "../assets/icons/light/nuxt.svg"
+    },
+    "yaml": {
+      "iconPath": "../assets/icons/light/yaml.svg"
+    },
+    "folder_test2": {
+      "iconPath": "../assets/icons/light/folder_test2.svg"
+    },
+    "folder_test2_open": {
+      "iconPath": "../assets/icons/light/folder_test2_open.svg"
+    },
+    "folder-target-open": {
+      "iconPath": "../assets/icons/light/folder-target-open.svg"
+    },
     "web-assembly": {
       "iconPath": "../assets/icons/light/web-assembly.svg"
     },
