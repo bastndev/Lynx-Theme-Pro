@@ -919,6 +919,15 @@
     },
     "folder-shortcuts-open": {
       "iconPath": "../assets/icons/light/folder-shortcuts-open.svg"
+    },
+    "folder-claude": {
+      "iconPath": "../assets/icons/light/folder-claude.svg"
+    },
+    "folder-claude-open": {
+      "iconPath": "../assets/icons/light/folder-claude-open.svg"
+    },
+    "file-claude": {
+      "iconPath": "../assets/icons/light/claude.svg"
     }
   },
   "folderNames": {
@@ -1392,7 +1401,15 @@
     "browser": "folder_web",
     "browsers": "folder_web",
     "static": "folder_web",
-    ".yarn": "folder_yarn"
+    ".yarn": "folder_yarn",
+    "claude": "folder-claude",
+    ".claude": "folder-claude",
+    "_claude": "folder-claude",
+    "__claude__": "folder-claude",
+    "claude-projects": "folder-claude",
+    ".claude-projects": "folder-claude",
+    "_claude-projects": "folder-claude",
+    "__claude-projects__": "folder-claude"
   },
   "folderNamesExpanded": {
     "flutter":"folder-flutter-open",
@@ -1865,7 +1882,15 @@
     "browser": "folder_web_open",
     "browsers": "folder_web_open",
     "static": "folder_web_open",
-    ".yarn": "folder_yarn_open"
+    ".yarn": "folder_yarn_open",
+    "claude": "folder-claude-open",
+    ".claude": "folder-claude-open",
+    "_claude": "folder-claude-open",
+    "__claude__": "folder-claude-open",
+    "claude-projects": "folder-claude-open",
+    ".claude-projects": "folder-claude-open",
+    "_claude-projects": "folder-claude-open",
+    "__claude-projects__": "folder-claude-open"
   },
   "rootFolderNames": {},
   "rootFolderNamesExpanded": {},
@@ -2900,7 +2925,12 @@
     "yarn-error.log": "yarn",
     ".yarnrc.yml": "yarn",
     ".yarnrc.yaml": "yarn",
-    "yarn.config.cjs": "yarn"
+    "yarn.config.cjs": "yarn",
+    ".clauderc": "file-claude",
+    "claude.json": "file-claude",
+    "claude.config.js": "file-claude",
+    "claude.config.json": "file-claude",
+    ".claude.json": "file-claude"
   },
   "languageIds": {
     "astro": "astro",

@@ -3497,7 +3497,6 @@
     }
   },
   "folderNames": {
-    "claude": "folder-claude",
     "shortcuts": "folder-shortcuts",
     "shortcut": "folder-shortcuts",
     "gifs": "folder-gif",
@@ -6668,7 +6667,15 @@
     "blender-models": "folder-blender",
     ".blender-models": "folder-blender",
     "_blender-models": "folder-blender",
-    "__blender-models__": "folder-blender"
+    "__blender-models__": "folder-blender",
+    "claude": "folder-claude",
+    ".claude": "folder-claude",
+    "_claude": "folder-claude",
+    "__claude__": "folder-claude",
+    "claude-projects": "folder-claude",
+    ".claude-projects": "folder-claude",
+    "_claude-projects": "folder-claude",
+    "__claude-projects__": "folder-claude"
   },
   "folderNamesExpanded": {
     "shortcuts": "folder-shortcuts-open",
@@ -9841,7 +9848,15 @@
     "blender-models": "folder-blender-open",
     ".blender-models": "folder-blender-open",
     "_blender-models": "folder-blender-open",
-    "__blender-models__": "folder-blender-open"
+    "__blender-models__": "folder-blender-open",
+    "claude": "folder-claude-open",
+    ".claude": "folder-claude-open",
+    "_claude": "folder-claude-open",
+    "__claude__": "folder-claude-open",
+    "claude-projects": "folder-claude-open",
+    ".claude-projects": "folder-claude-open",
+    "_claude-projects": "folder-claude-open",
+    "__claude-projects__": "folder-claude-open"
   },
   "rootFolderNames": {},
   "rootFolderNamesExpanded": {},
@@ -13050,7 +13065,12 @@
     "hosts": "hosts",
     "beancount": "beancount",
     "ahk2": "ahk2",
-    "gnuplot": "gnuplot"
+    "gnuplot": "gnuplot",
+    ".clauderc": "file-claude",
+    "claude.json": "file-claude",
+    "claude.config.js": "file-claude",
+    "claude.config.json": "file-claude",
+    ".claude.json": "file-claude"
   },
   "light": {
     "fileExtensions": {
