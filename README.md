@@ -43,10 +43,10 @@
     <summary>🎭 Icons ㅤ (Screenshots)</summary>
 
   #### A. Style
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/icons/style-a.png" alt="Icon Style A Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/icons/a-style.png" alt="Icon Style A Screenshot" width="100%">
 
   #### B. Style
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/icons/style-b.png" alt="Icon Style B Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/icons/b-style.png" alt="Icon Style B Screenshot" width="100%">
   </details>
 </details>
 
