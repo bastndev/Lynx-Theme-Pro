@@ -1,0 +1,10 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<defs>
+		<image  width="28" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAMAAADeQm2wAAAAAXNSR0IB2cksfwAAAI1QTFRFAAAAA6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0A6n0+18+vQAAAC90Uk5TAD+u4eiQMOOMuYjfUAaG5gS75clo572bCMBUvi7aEOQCDts8Hdm8saFSX3Rc1WQFRsyZAAAAy0lEQVR4nL3SWwsBQRQH8P9pN1lr3FcrclnaEt//g3hB4mHdI8ltySqDsNPuePR/OnN+Z+pMDYF48ApdIYQidPue1LOImjAdOQmoXxA9PEvm8bnYzo/JI+LbV83U/aefIFqDVKRX7w7TNr572SVHeJ+zSSuf5kX0bWYsYcgQpQUKUizPUJSiuYYuReYiLUVw+DdWJz8wdeBPyeyQW4RgbQyFLAeVYQg2rtMa2SPUXSdgrDg/WtQchO76iE1o9SXW6PFf2aZuUJSM0cEd/Yk3S75nyWgAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		.s0 { fill: #b3e5fc } 
+	</style>
+	<use id="Layer 1" href="#img1" x="2" y="4"/>
+	<path class="s0" d="m20 10l-8 8 4 4 12-12zm4 8l-6 6 6 6h8l-6-6 6-6z"/>
+</svg>

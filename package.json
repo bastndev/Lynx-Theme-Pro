@@ -2,7 +2,7 @@
   "name": "lynx-theme",
   "displayName": "Lynx Theme Pro",
   "description": "Available now: VSCode • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
-  "version": "3.2.2",
+  "version": "3.3.0",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
@@ -38,12 +38,13 @@
   },
   "author": {
     "name": "Gohit Bastian",
-    "email": "gobasdev@gmail.com",
+    "email": "dev@bastndev.com",
     "url": "https://bastndev.com"
   },
   "sponsor": {
     "url": "https://github.com/sponsors/bastndev"
   },
+
   "contributes": {
     "themes": [
       {
@@ -82,11 +83,17 @@
         "path": "./themes/Lynx-NVIM-theme.json"
       }
     ],
+
     "iconThemes": [
       {
-        "id": "lynx-pro",
-        "label": "Lynx ICONS",
-        "path": "./icon-themes/lynx-icons.json"
+        "id": "lynx-pro-dark",
+        "label": "Lynx Icons - (Style A)",
+        "path": "./icons-themes/lynx-icons-dark.json"
+      },
+      {
+        "id": "lynx-pro-light",
+        "label": "Lynx Icons - (Style B)",
+        "path": "./icons-themes/lynx-icons-light.json"
       }
     ]
   }
