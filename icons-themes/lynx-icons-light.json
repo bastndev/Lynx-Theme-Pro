@@ -883,9 +883,30 @@
     },
     "folder-ios-open": {
       "iconPath": "../assets/icons/light/folder-ios-open.svg"
+    },
+    "folder-linux": {
+      "iconPath": "../assets/icons/light/folder-linux.svg"
+    },
+    "folder-linux-open": {
+      "iconPath": "../assets/icons/light/folder-linux-open.svg"
+    },
+    "folder-android": {
+      "iconPath": "../assets/icons/light/folder-android.svg"
+    },
+    "folder-android-open": {
+      "iconPath": "../assets/icons/light/folder-android-open.svg"
+    },
+    "folder-dart-tool": {
+      "iconPath": "../assets/icons/light/folder-dart-tool.svg"
+    },
+    "folder-dart-tool-open": {
+      "iconPath": "../assets/icons/light/folder-dart-tool-open.svg"
     }
   },
   "folderNames": {
+    ".dart_tool":"folder-dart-tool",
+    "android":"folder-android",
+    "linux":"folder-linux",
     "macos":"folder-macos",
     "ios":"folder-ios",
     "windows":"folder-windows",
@@ -1352,6 +1373,9 @@
     ".yarn": "folder_yarn"
   },
   "folderNamesExpanded": {
+    ".dart_tool":"folder-dart-tool-open",
+    "android":"folder-android-open",
+    "linux":"folder-linux-open",
     "macos":"folder-macos-open",
     "ios":"folder-ios-open",
     "windows":"folder-windows-open",
