@@ -77,10 +77,10 @@ ext install bastndev.lynx-theme
 
 If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/bastndev/Lynx-Theme-Pro/blob/main/CONTRIBUTING.md).
 
-|               ![bastndev](https://github.com/bastndev.png?size=100)               |
-| :-------------------------------------------------------------------------------: |
-|                 **[Gohit Bastian](https://bastndev.com)**                  |
-|                              _Creator & Maintainer_                               |
+| ![bastndev](https://github.com/bastndev.png?size=100) |
+| :---------------------------------------------------: |
+|       **[Gohit Bastian](https://bastndev.com)**       |
+|                _Creator & Maintainer_                 |
 
 ## About Me
 
