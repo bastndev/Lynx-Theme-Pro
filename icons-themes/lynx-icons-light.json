@@ -590,6 +590,12 @@
     "folder_image_open": {
       "iconPath": "../assets/icons/light/folder_image_open.svg"
     },
+    "folder_icon": {
+      "iconPath": "../assets/icons/light/folder_icon.svg"
+    },
+    "folder_icon_open": {
+      "iconPath": "../assets/icons/light/folder_icon_open.svg"
+    },
     "folder_input": {
       "iconPath": "../assets/icons/light/folder_input.svg"
     },
@@ -1155,8 +1161,8 @@
     "images": "folder_image",
     "imgs": "folder_image",
     "img": "folder_image",
-    "icons": "folder_image",
-    "icon": "folder_image",
+    "icons": "folder_icon",
+    "icon": "folder_icon",
     "icos": "folder_image",
     "ico": "folder_image",
     "figures": "folder_image",
@@ -1628,8 +1634,8 @@
     "images": "folder_image_open",
     "imgs": "folder_image_open",
     "img": "folder_image_open",
-    "icons": "folder_image_open",
-    "icon": "folder_image_open",
+    "icons": "folder_icon_open",
+    "icon": "folder_icon_open",
     "icos": "folder_image_open",
     "ico": "folder_image_open",
     "figures": "folder_image_open",
