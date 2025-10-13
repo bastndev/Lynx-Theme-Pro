@@ -1,14 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 4.233 4.233">
     <path fill="#8443ec" d="m1.831.997-.17-.142a.27.27 0 0 0-.17-.061H.53a.265.265 0 0 0-.264.264v2.117a.265.265 0 0 0 .264.265h3.175a.265.265 0 0 0 .265-.265V1.323a.265.265 0 0 0-.265-.265H2.001a.27.27 0 0 1-.17-.061"/>
-    <svg x="1.2" y="1.2" width="3.701" height="2.646" viewBox="0 0 1200 1200">
+    
+    <svg x="0.2" y="0.5" width="5" height="3.6" viewBox="0 0 1200 1200">
         <defs>
             <clipPath clipPathUnits="userSpaceOnUse" id="cp1">
                 <path d="m926.58 202.79h-653.94v795.07h653.94z"/>
             </clipPath>
         </defs>
         <style>
-            .s0 { fill: #ffffff } 
-            .s1 { fill: #000000 } 
+            .s0 { fill: #ffffff }
+            .s1 { fill: #000000 }
         </style>
         <g clip-path="url(#cp1)">
             <g>
