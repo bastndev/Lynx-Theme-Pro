@@ -21,6 +21,22 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 <br>
 
 <!-- --- -->
+## [3.3.0] - 2025-10-13
+
+### Added
+
+- **Dual Icon Pack System**: Introduced two distinct icon pack styles for enhanced personalization:
+  - **Style A**: Original Lynx icon design with classic visual identity
+  - **Style B**: New alternative icon pack with modern aesthetic
+  - Users can now choose their preferred icon pack style through VS Code settings for a customized visual experience in the file explorer
+- New icon support for cloud services and AI platforms including:
+  - Cloud service icons (AWS, Azure, GCP, etc.)
+  - Kiro platform icons
+  - Google Gemini icons
+  - Additional AI/ML service icons for improved visual identification
+
+---
+
 ## [3.2.2] - 2025-10-04
 
 ### Fixed
