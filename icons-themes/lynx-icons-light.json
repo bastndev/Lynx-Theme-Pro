@@ -865,9 +865,17 @@
     },
     "folder-shortcuts-open": {
       "iconPath": "../assets/icons/light/folder-shortcuts-open.svg"
+    },
+    "folder-windows": {
+      "iconPath": "../assets/icons/light/folder-windows.svg"
+    },
+    "folder-windows-open": {
+      "iconPath": "../assets/icons/light/folder-windows-open.svg"
     }
   },
   "folderNames": {
+    "windows":"folder-windows",
+    "window":"folder-windows",
     "shortcuts": "folder-shortcuts",
     "shortcut": "folder-shortcuts",
     "keymaps": "folder-keymaps",
@@ -1330,6 +1338,8 @@
     ".yarn": "folder_yarn"
   },
   "folderNamesExpanded": {
+    "windows":"folder-windows-open",
+    "window":"folder-windows-open",
     "shortcuts": "folder-shortcuts-open",
     "shortcut": "folder-shortcuts-open",
     "keymaps": "folder-keymaps-open",
