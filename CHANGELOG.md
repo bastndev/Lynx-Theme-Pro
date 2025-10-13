@@ -21,7 +21,16 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 <br>
 
 <!-- --- -->
-## [3.3.0] - 2025-10-13
+## [3.3.1] - 2025-10-13
+
+### Improved
+
+- Enhanced color schemes across all theme variants for better contrast and readability, optimizing syntax highlighting and UI elements for extended coding sessions.
+- Updated repository links and documentation references for improved accessibility and easier navigation to resources and support materials.
+
+
+---
+## [3.3.0] - 2025-10-12
 
 ### Added
 
