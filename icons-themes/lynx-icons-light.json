@@ -824,6 +824,12 @@
     "folder-dart-tool-open": {
       "iconPath": "../assets/icons/light/folder-dart-tool-open.svg"
     },
+    "folder-astro": {
+      "iconPath": "../assets/icons/light/folder-astro.svg"
+    },
+    "folder-astro-open": {
+      "iconPath": "../assets/icons/light/folder-astro-open.svg"
+    },
     "flutter-file": {
       "iconPath": "../assets/icons/light/flutter-file.svg"
     },
@@ -904,6 +910,8 @@
     }
   },
   "folderNames": {
+    ".astro":"folder-astro",
+    "astro":"folder-astro",
     ".dart_tool":"folder-dart-tool",
     "android":"folder-android",
     "linux":"folder-linux",
@@ -1374,6 +1382,8 @@
     ".yarn": "folder_yarn"
   },
   "folderNamesExpanded": {
+    ".astro":"folder-astro-open",
+    "astro":"folder-astro-open",
     ".dart_tool":"folder-dart-tool-open",
     "android":"folder-android-open",
     "linux":"folder-linux-open",
