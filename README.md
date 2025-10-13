@@ -12,28 +12,42 @@
 <br>
 
 <details>
-<summary align="center">(𝗖𝗹𝗶𝗰𝗸) 𝗟𝘆𝗻𝘅 𝗧𝗵𝗲𝗺𝗲 𝗣𝗿𝗼</summary>
+  <summary align="center"><strong>(𝗖𝗹𝗶𝗰𝗸) Lynx Theme Pro</strong></summary>
 
-### 1. DARK (Theme)
- <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/dark-theme.png" alt="DARK Theme Screenshot" width="100%">
+  <details>
+    <summary>🎨 Themes (Screenshots)</summary>
 
-### 2. LIGHT (Theme)
-<img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/light-theme.png" alt="LIGHT Theme Screenshot" width="100%">
+  #### 1. DARK
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/dark-theme.png" alt="DARK Theme Screenshot" width="100%">
 
-### 3. NIGHT (Theme)
-<img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/night-theme.png" alt="NIGHT Theme Screenshot" width="100%">
+  #### 2. LIGHT
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/light-theme.png" alt="LIGHT Theme Screenshot" width="100%">
 
-### 4. GHIBLI (Theme)
-<img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/ghibli-theme.png" alt="GHIBLI Theme Screenshot" width="100%">
+  #### 3. NIGHT
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/night-theme.png" alt="NIGHT Theme Screenshot" width="100%">
 
-### 5. COFFEE (Theme)
-<img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/coffee-theme.png" alt="COFFEE Theme Screenshot" width="100%">
+  #### 4. GHIBLI
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/ghibli-theme.png" alt="GHIBLI Theme Screenshot" width="100%">
 
-### 6. KIRO (Theme)
-<img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/kiro-theme.png" alt="KIRO Theme Screenshot" width="100%">
+  #### 5. COFFEE
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/coffee-theme.png" alt="COFFEE Theme Screenshot" width="100%">
 
-### 7. NVIM (Theme)
-<img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/nvim-theme.png" alt="NVIM Theme Screenshot" width="100%">
+  #### 6. KIRO
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/kiro-theme.png" alt="KIRO Theme Screenshot" width="100%">
+
+  #### 7. NVIM
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/nvim-theme.png" alt="NVIM Theme Screenshot" width="100%">
+  </details>
+
+  <details>
+    <summary>🎭 Icons ㅤ (Screenshots)</summary>
+
+  #### A. Style
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/icons/style-a.png" alt="Icon Style A Screenshot" width="100%">
+
+  #### B. Style
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/icons/style-b.png" alt="Icon Style B Screenshot" width="100%">
+  </details>
 </details>
 
 ## Installation
