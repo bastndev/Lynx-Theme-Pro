@@ -871,9 +871,23 @@
     },
     "folder-windows-open": {
       "iconPath": "../assets/icons/light/folder-windows-open.svg"
+    },
+    "folder-macos": {
+      "iconPath": "../assets/icons/light/folder-macos.svg"
+    },
+    "folder-macos-open": {
+      "iconPath": "../assets/icons/light/folder-macos-open.svg"
+    },
+    "folder-ios": {
+      "iconPath": "../assets/icons/light/folder-ios.svg"
+    },
+    "folder-ios-open": {
+      "iconPath": "../assets/icons/light/folder-ios-open.svg"
     }
   },
   "folderNames": {
+    "macos":"folder-macos",
+    "ios":"folder-ios",
     "windows":"folder-windows",
     "window":"folder-windows",
     "shortcuts": "folder-shortcuts",
@@ -1338,6 +1352,8 @@
     ".yarn": "folder_yarn"
   },
   "folderNamesExpanded": {
+    "macos":"folder-macos-open",
+    "ios":"folder-ios-open",
     "windows":"folder-windows-open",
     "window":"folder-windows-open",
     "shortcuts": "folder-shortcuts-open",
