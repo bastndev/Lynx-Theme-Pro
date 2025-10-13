@@ -17,35 +17,44 @@
   <details>
     <summary>🎨 Themes (Screenshots)</summary>
 
-  #### 1. DARK
+#### 1. DARK
+
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/dark-theme.png" alt="DARK Theme Screenshot" width="100%">
 
-  #### 2. LIGHT
+#### 2. LIGHT
+
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/light-theme.png" alt="LIGHT Theme Screenshot" width="100%">
 
-  #### 3. NIGHT
+#### 3. NIGHT
+
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/night-theme.png" alt="NIGHT Theme Screenshot" width="100%">
 
-  #### 4. GHIBLI
+#### 4. GHIBLI
+
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/ghibli-theme.png" alt="GHIBLI Theme Screenshot" width="100%">
 
-  #### 5. COFFEE
+#### 5. COFFEE
+
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/coffee-theme.png" alt="COFFEE Theme Screenshot" width="100%">
 
-  #### 6. KIRO
+#### 6. KIRO
+
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/kiro-theme.png" alt="KIRO Theme Screenshot" width="100%">
 
-  #### 7. NVIM
+#### 7. NVIM
+
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/nvim-theme.png" alt="NVIM Theme Screenshot" width="100%">
   </details>
 
   <details>
     <summary>🎭 Icons ㅤ (Screenshots)</summary>
 
-  #### A. Style
+#### A. Style
+
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/icons/a-style.png" alt="Icon Style A Screenshot" width="100%">
 
-  #### B. Style
+#### B. Style
+
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/icons/b-style.png" alt="Icon Style B Screenshot" width="100%">
   </details>
 </details>
@@ -68,9 +77,9 @@ ext install bastndev.lynx-theme
 
 If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/bastndev/Lynx-Theme-Pro/blob/main/CONTRIBUTING.md).
 
-| [![bastndev](https://github.com/bastndev.png?size=100)](https://www.bastndev.com) |
+|               ![bastndev](https://github.com/bastndev.png?size=100)               |
 | :-------------------------------------------------------------------------------: |
-|                 **[Gohit Bastian](https://github.com/bastndev)**                  |
+|                 **[Gohit Bastian](https://bastndev.com)**                  |
 |                              _Creator & Maintainer_                               |
 
 ## About Me
@@ -81,16 +90,16 @@ If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/ba
 
 <br>
 
-| Icon                                                                                                                                                                                                                                     | Name                                                           | Description                                                                                                                                                                                        |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Lynx Keymap Pro](https://raw.githubusercontent.com/bastndev/Lynx-Keymap-Pro/refs/heads/main/assets/images/logo.png)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-keymap)                                        | [Lynx Keymap Pro](https://github.com/bastndev/Lynx-Keymap-Pro) | Standardizes keyboard shortcuts across all code editors, allowing you to use key combinations to access any functionality. It improves workflow and development experience.                        |
-| [![LynxJS Pack](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynxjs-pack/0.1.8/1745206864969/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynxjs-pack)    | [LynxJS Pack](https://github.com/bastndev/LynxJs-Packge)       | An all-in-one toolkit for web and mobile development with LynxJS: includes keyboard shortcuts, error alerts, text correction, snippets, and more. Tools designed to streamline your workflow.      |
-| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.compare-code) | [Compare Code](https://github.com/bastndev/Compare-Code)       | Lets you compare code in a professional, fast, and clear way. With a modern and intuitive interface, it's ideal for developers looking to boost their productivity. |
+| Icon                                                                                                                                                                                                                                     | Name                                                           | Description                                                                                                                                                                                   |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Lynx Keymap Pro](https://raw.githubusercontent.com/bastndev/Lynx-Keymap-Pro/refs/heads/main/assets/images/logo.png)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-keymap)                                        | [Lynx Keymap Pro](https://github.com/bastndev/Lynx-Keymap-Pro) | Standardizes keyboard shortcuts across all code editors, allowing you to use key combinations to access any functionality. It improves workflow and development experience.                   |
+| [![LynxJS Pack](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynxjs-pack/0.1.8/1745206864969/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynxjs-pack)    | [LynxJS Pack](https://github.com/bastndev/LynxJs-Packge)       | An all-in-one toolkit for web and mobile development with LynxJS: includes keyboard shortcuts, error alerts, text correction, snippets, and more. Tools designed to streamline your workflow. |
+| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.compare-code) | [Compare Code](https://github.com/bastndev/Compare-Code)       | Lets you compare code in a professional, fast, and clear way. With a modern and intuitive interface, it's ideal for developers looking to boost their productivity.                           |
 
 <br>
 
 <div align="center">
-  <p><strong>Made with 🧡 by <a href="https://bastndev.com/extensions">@bastndev</a></strong></p>
+  <p><strong>Made with 🧡 by <a href="https://github.com/bastndev">@bastndev</a></strong></p>
   
   **Enjoy 🎉 Your (Lynx theme Pro) are now installed!**  
   *If you find any bugs or have feedback, you can [open an issue](https://github.com/bastndev/Lynx-Theme-Pro/issues)*

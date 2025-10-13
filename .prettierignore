@@ -10,3 +10,7 @@ themes/Lynx-NVIM-theme.json
 themes/Lynx-xGhibli-theme.json
 themes/Lynx-yCoffee-theme.json
 themes/Lynx-zKiro-theme.json
+
+# Icons
+icons-themes/lynx-icons-dark.json
+icons-themes/lynx-icons-light.json
