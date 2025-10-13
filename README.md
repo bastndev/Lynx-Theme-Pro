@@ -40,7 +40,7 @@
   </details>
 
   <details>
-    <summary>🎭 Icons (Screenshots)</summary>
+    <summary>🎭 Icons ㅤ (Screenshots)</summary>
 
   #### A. Style
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/icons/style-a.png" alt="Icon Style A Screenshot" width="100%">
