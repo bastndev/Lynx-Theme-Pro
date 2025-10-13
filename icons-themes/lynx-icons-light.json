@@ -788,6 +788,42 @@
     "yarn-lock": {
       "iconPath": "../assets/icons/light/yarn-lock.svg"
     },
+      "folder-windows": {
+      "iconPath": "../assets/icons/light/folder-windows.svg"
+    },
+    "folder-windows-open": {
+      "iconPath": "../assets/icons/light/folder-windows-open.svg"
+    },
+    "folder-macos": {
+      "iconPath": "../assets/icons/light/folder-macos.svg"
+    },
+    "folder-macos-open": {
+      "iconPath": "../assets/icons/light/folder-macos-open.svg"
+    },
+    "folder-ios": {
+      "iconPath": "../assets/icons/light/folder-ios.svg"
+    },
+    "folder-ios-open": {
+      "iconPath": "../assets/icons/light/folder-ios-open.svg"
+    },
+    "folder-linux": {
+      "iconPath": "../assets/icons/light/folder-linux.svg"
+    },
+    "folder-linux-open": {
+      "iconPath": "../assets/icons/light/folder-linux-open.svg"
+    },
+    "folder-android": {
+      "iconPath": "../assets/icons/light/folder-android.svg"
+    },
+    "folder-android-open": {
+      "iconPath": "../assets/icons/light/folder-android-open.svg"
+    },
+    "folder-dart-tool": {
+      "iconPath": "../assets/icons/light/folder-dart-tool.svg"
+    },
+    "folder-dart-tool-open": {
+      "iconPath": "../assets/icons/light/folder-dart-tool-open.svg"
+    },
     "flutter-file": {
       "iconPath": "../assets/icons/light/flutter-file.svg"
     },
@@ -865,42 +901,6 @@
     },
     "folder-shortcuts-open": {
       "iconPath": "../assets/icons/light/folder-shortcuts-open.svg"
-    },
-    "folder-windows": {
-      "iconPath": "../assets/icons/light/folder-windows.svg"
-    },
-    "folder-windows-open": {
-      "iconPath": "../assets/icons/light/folder-windows-open.svg"
-    },
-    "folder-macos": {
-      "iconPath": "../assets/icons/light/folder-macos.svg"
-    },
-    "folder-macos-open": {
-      "iconPath": "../assets/icons/light/folder-macos-open.svg"
-    },
-    "folder-ios": {
-      "iconPath": "../assets/icons/light/folder-ios.svg"
-    },
-    "folder-ios-open": {
-      "iconPath": "../assets/icons/light/folder-ios-open.svg"
-    },
-    "folder-linux": {
-      "iconPath": "../assets/icons/light/folder-linux.svg"
-    },
-    "folder-linux-open": {
-      "iconPath": "../assets/icons/light/folder-linux-open.svg"
-    },
-    "folder-android": {
-      "iconPath": "../assets/icons/light/folder-android.svg"
-    },
-    "folder-android-open": {
-      "iconPath": "../assets/icons/light/folder-android-open.svg"
-    },
-    "folder-dart-tool": {
-      "iconPath": "../assets/icons/light/folder-dart-tool.svg"
-    },
-    "folder-dart-tool-open": {
-      "iconPath": "../assets/icons/light/folder-dart-tool-open.svg"
     }
   },
   "folderNames": {
