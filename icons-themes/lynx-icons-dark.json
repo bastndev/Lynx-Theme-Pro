@@ -3494,9 +3494,16 @@
     },
     "file-claude": {
       "iconPath": "../assets/icons/dark/claude.svg"
+    },
+    "folder-kiro": {
+      "iconPath": "../assets/icons/dark/folder-kiro.svg"
+    },
+    "folder-kiro-open": {
+      "iconPath": "../assets/icons/dark/folder-kiro-open.svg"
     }
   },
   "folderNames": {
+    ".kiro": "folder-kiro",
     "shortcuts": "folder-shortcuts",
     "shortcut": "folder-shortcuts",
     "gifs": "folder-gif",
@@ -6678,6 +6685,7 @@
     "__claude-projects__": "folder-claude"
   },
   "folderNamesExpanded": {
+    ".kiro": "folder-kiro-open",
     "shortcuts": "folder-shortcuts-open",
     "shortcut": "folder-shortcuts-open",
     "gifs": "folder-gif-open",

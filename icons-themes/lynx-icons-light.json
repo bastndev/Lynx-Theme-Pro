@@ -928,9 +928,16 @@
     },
     "file-claude": {
       "iconPath": "../assets/icons/light/claude.svg"
+    },
+    "folder-kiro": {
+      "iconPath": "../assets/icons/light/folder-kiro.svg"
+    },
+    "folder-kiro-open": {
+      "iconPath": "../assets/icons/light/folder-kiro-open.svg"
     }
   },
   "folderNames": {
+    ".kiro": "folder-kiro",
     "flutter":"folder-flutter",
     ".astro":"folder-astro",
     "astro":"folder-astro",
@@ -1412,6 +1419,7 @@
     "__claude-projects__": "folder-claude"
   },
   "folderNamesExpanded": {
+    ".kiro": "folder-kiro-open",
     "flutter":"folder-flutter-open",
     ".astro":"folder-astro-open",
     "astro":"folder-astro-open",
