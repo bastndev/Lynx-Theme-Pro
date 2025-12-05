@@ -63,9 +63,9 @@
 
 Launch _Quick Open_
 
-- <img src="https://raw.githubusercontent.com/bastndev/bastndev/refs/heads/main/.github/assets/OS/linux.png" width="16" height="16"/> Linux `Ctrl+P`
-- <img src="https://raw.githubusercontent.com/bastndev/bastndev/refs/heads/main/.github/assets/OS/macOs.ico" width="16" height="16"/> macOS `⌘P`
-- <img src="https://raw.githubusercontent.com/bastndev/bastndev/refs/heads/main/.github/assets/OS/windows.ico" width="16" height="16"/> Windows `Ctrl+P`
+- <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> Linux `Ctrl+P`
+- <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> macOS `⌘P`
+- <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> Windows `Ctrl+P`
 
 Paste the following command and press `Enter`:
 
@@ -73,20 +73,16 @@ Paste the following command and press `Enter`:
 ext install bastndev.lynx-theme
 ```
 
-## Contributors
-
-If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/bastndev/Lynx-Theme-Pro/blob/main/CONTRIBUTING.md).
-
-| ![bastndev](https://github.com/bastndev.png?size=100) |
-| :---------------------------------------------------: |
-|       **[Gohit Bastian](https://bastndev.com)**       |
-|                _Creator & Maintainer_                 |
-
 ## About Me
 
-- [🐦 X](https://twitter.com/bastndev) - For questions and discussions.
-- 🔴 [Youtube](https://www.youtube.com/@bastndev?sub_confirmation=1) - Code, Software and development insights.
-- 💼 [Linkedin](https://www.linkedin.com/in/bastndev) - Professional networking and career updates.
+| [![gohitx](https://github.com/gohitx.png?size=100)](https://gohit.xyz/me) |
+| :-----------------------------------------------------------------------: |
+|                     **[Gohit X](https://gohit.xyz)**                      |
+|                          _Creator & Maintainer_                           |
+
+- [🐦 X](https://twitter.com/gohitx) - For questions and discussions.
+- 🔴 [Youtube](https://www.youtube.com/@gohitx?sub_confirmation=1) - Code, Software and development insights.
+- 💼 [Linkedin](https://www.linkedin.com/in/gohitx) - Professional networking and career updates.
 
 <br>
 
@@ -99,7 +95,6 @@ If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/ba
 <br>
 
 <div align="center">
-  <p><strong>Made with 🧡 by <a href="https://github.com/bastndev">@bastndev</a></strong></p>
   
   **Enjoy 🎉 Your (Lynx theme Pro) are now installed!**  
   *If you find any bugs or have feedback, you can [open an issue](https://github.com/bastndev/Lynx-Theme-Pro/issues)*

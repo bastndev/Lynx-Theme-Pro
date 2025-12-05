@@ -10,8 +10,10 @@
     "titleBar.activeBackground":             "#0d0d0d",    // - Title bar bg 
     "titleBar.activeForeground":             "#ffffff",    // - Title bar text 
     "titleBar.inactiveBackground":           "#080808",    // - Title bar bg inactive
-    "titleBar.inactiveForeground":           "#7a8a7a",    // - Title bar text inactive
+    "titleBar.inactiveForeground":           "#8a9a8a",    // - Title bar text inactive
     "commandCenter.background":              "#080808",    // - Command Center bg
+    "commandCenter.border":                  "#1e3a1e",
+    "commandCenter.activeBackground":        "#101610",
 
     // --- -- - Menu Click & select
     "menu.background":                       "#0f1511",    // - Menu bg
@@ -30,6 +32,9 @@
     "list.dropBackground":                   "#000000",    // - Drop bg
     
     // TODO: ACTIVITY BAR MARK: [ONE-1]
+    "banner.background":                     "#101610",
+    "banner.foreground":                     "#ffffff",
+    "banner.iconForeground":                 "#57b689",
     "activityBar.background":                "#0d0d0d",    // - Activity bar bg
     "activityBar.foreground":                "#ffffff",    // - Activity bar text
     "activityBar.border":                    "#0d0d0d",    // - Activity bar border
@@ -63,7 +68,7 @@
     "sideBarSectionHeader.foreground":       "#57b689",    // - Css text and BOT txt
 
     // --- -- - Buttons
-    "button.background":                     "#52b47e",    // - Button bg
+    "button.background":                     "#57b689",    // - Button bg
     "button.foreground":                     "#000000",    // - Button text
     "button.hoverBackground":                "#3d8b60",    // - Button hover
     "button.secondaryBackground":            "#1a1a1a",    // - Secondary button bg
@@ -96,9 +101,11 @@
     "editor.background":                     "#0e0f0e",    // - Editor bg
     "editor.foreground":                     "#ffffff",    // - Editor [STORE] text
     "editor.lineHighlightBackground":        "#ffffff0a",  // - Line highlight bg (improved contrast)
+    "editor.foldBackground":                 "#57b68910",
     "editor.lineHighlightBorder":            "#ffffff12",  // - Line highlight border (visible)
     "editor.selectionBackground":            "#57b68960",  // - Selection bg (theme consistent)
     "editor.rangeHighlightBackground":       "#4dc9ff15",  // - Range highlight bg
+    "editor.linkedEditingBackground":        "#57b68930",
     "editor.wordHighlightBackground":        "#f5d76e30",  // - Word highlight bg
     "editor.wordHighlightStrongBackground":  "#85b3ff30",  // - Word highlight strong bg
     "editor.selectionHighlightBackground":   "#f5d76e25",  // - Selection highlight bg
@@ -113,7 +120,7 @@
     "tab.activeForeground":                  "#ffffff",    // - Active tab text
     "tab.activeBorder":                      "#101610",    // - Active tab border
     "tab.inactiveBackground":                "#0d0d0d",    // - Inactive tab bg
-    "tab.inactiveForeground":                "#7a8a7a",    // - Inactive tab text
+    "tab.inactiveForeground":                "#8a9a8a",    // - Inactive tab text
     "tab.hoverBackground":                   "#1f2b22",    // - hover
     "tab.hoverForeground":                   "#e8f0e8",    // - Tab hover text
     "tab.hoverBorder":                       "#1f2d24",    // - Tab hover border
@@ -147,7 +154,7 @@
 
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground":     "#ffffff",    // - Active line number
-    "editorLineNumber.foreground":           "#7a8a7a",    // - Line numbers
+    "editorLineNumber.foreground":           "#8a9a8a",    // - Line numbers
 
     // --- -- - Editor Suggest widget MID
     "editorSuggestWidget.background":         "#0f1511",    // - bg suggestion
@@ -175,7 +182,7 @@
     "input.background":                      "#101610",    // - bg color
     "input.foreground":                      "#ffffff",    // - Input text color
     "input.border":                          "#2a4a2a",    // - Input border color
-    "input.placeholderForeground":           "#7a8a7a",    // - Input placeholder text
+    "input.placeholderForeground":           "#8a9a8a",    // - Input placeholder text
     "focusBorder":                           "#57b689",    // - Border - AI and box 1
     "editorCursor.foreground":               "#9ca9a0",    // - Line point
 
@@ -270,7 +277,7 @@
 
     // TODO: STATUS BAR MARK: - [BOTTOM]
     "statusBar.background":                  "#0d0d0d",    // - Status bar bg
-    "statusBar.foreground":                  "#7a8a7a",    // - Status bar text color
+    "statusBar.foreground":                  "#8a9a8a",    // - Status bar text color
     "statusBar.debuggingBackground":         "#192a20",    // - Status bar debugging bg___
     "statusBar.debuggingForeground":         "#ffffff",    // - Status bar debugging text
     "statusBar.noFolderBackground":          "#00000000",  // - Status bar box bg -HOVER
@@ -354,7 +361,7 @@
     "testing.iconPassed":                    "#57b689",    // - Test passed icon
     "testing.iconQueued":                    "#f5d76e",    // - Test queued icon
     "testing.iconSkipped":                   "#9ca9a0",    // - Test skipped icon
-    "testing.iconUnset":                     "#7a8a7a",    // - Test unset icon
+    "testing.iconUnset":                     "#8a9a8a",    // - Test unset icon
     "testing.peekBorder":                    "#57b689",    // - Test peek border
     "testing.peekHeaderBackground":          "#101610",    // - Test peek header bg
     "testing.message.error.lineBackground":  "#ff6b7330",  // - Test error line bg
@@ -437,6 +444,7 @@
     
     // --- -- - Editor Groups
     "editorGroup.border":                    "#2a4a2a",    // - Group border
+    "sash.hoverBorder":                      "#57b689",
     "editorGroup.dropBackground":            "#57b68920",  // - Drop background
     "editorGroup.emptyBackground":           "#080808",    // - Empty group
     "editorGroup.focusedEmptyBorder":        "#57b689",    // - Focused empty border
@@ -493,7 +501,7 @@
     // ===== COMMENTS =====
     {
       "name": "Comment Line",
-      "scope": ["comment.line", "punctuation.definition.comment"],
+      "scope": ["comment.line", "punctuation.definition.comment,source.astr"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#64748b"
@@ -516,6 +524,21 @@
       }
     },
 
+    // ===== Astro =======
+    {
+      "name": "Astro String Quoted",
+      "scope": ["string.quoted.astro"],
+      "settings": {
+      "foreground": "#048b6b"
+      }
+    },
+    {
+      "name": "Astro Source",
+      "scope": ["source.astro"],
+      "settings": {
+      "foreground": "#f0f0f0"
+      }
+    },
     // ===== KEYWORDS & STORAGE =====
     {
       "name": "Keywords Control",
@@ -1307,4 +1330,5 @@
       }
     }
   ]
+
 }

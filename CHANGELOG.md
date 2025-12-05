@@ -12,7 +12,7 @@ A complete and versatile theme collection designed for optimal coding experience
 - **Professional Design**: Thoughtfully crafted for extended coding sessions
 - **One-time Registration**: Simple activation process
 
-Discover more extensions at [bastndev.com/extensions](https://bastndev.com/extensions)
+  Discover more extensions [here](https://gohit.xyz/)
 
 ## Changelog
 
@@ -21,6 +21,11 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 <br>
 
 <!-- --- -->
+## [3.3.3] - 2025-12-04
+
+- new update plus
+- @gohitx
+
 ## [3.3.1] - 2025-10-13
 
 ### Improved
