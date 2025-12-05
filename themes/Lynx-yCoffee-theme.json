@@ -12,6 +12,8 @@
     "titleBar.inactiveBackground":           "#170F10",    // - Title bar bg inactive
     "titleBar.inactiveForeground":           "#a0a0a0",    // - Title bar text inactive
     "commandCenter.background":              "#170F10",    // - Command Center bg
+    "commandCenter.border":                  "#4d412f50",
+    "commandCenter.activeBackground":        "#231514",
 
     // --- -- - Menu Click & select  
     "menu.background":                       "#170F10",    // - Menu bg
@@ -30,6 +32,9 @@
     "list.dropBackground":                   "#170F10",    // - Drop bg
     
     // TODO: ACTIVITY BAR MARK: [ONE-1]
+    "banner.background":                     "#231514",
+    "banner.foreground":                     "#ffd0bb",
+    "banner.iconForeground":                 "#c9935a",
     "activityBar.background":                "#231514",    // - Activity bar bg
     "activityBar.foreground":                "#ffd0bb",    // - Activity bar text
     "activityBar.border":                    "#231514",    // - Activity bar border
@@ -96,9 +101,11 @@
     "editor.background":                     "#241615",    // - Editor bg
     "editor.foreground":                     "#ffd0bb",    // - Editor [STORE] text
     "editor.lineHighlightBackground":        "#ffffff08",  // - Line highlight bg (improved contrast)
+    "editor.foldBackground":                 "#c9935a10",
     "editor.lineHighlightBorder":            "#ffffff10",  // - Line highlight border (visible)
     "editor.selectionBackground":            "#a85a4c50",  // - Selection bg (theme consistent)
     "editor.rangeHighlightBackground":       "#c9935a0d",  // - Range highlight bg
+    "editor.linkedEditingBackground":        "#c9935a30",
     "editor.wordHighlightBackground":        "#d4a57425",  // - Word highlight bg
     "editor.wordHighlightStrongBackground":  "#c9935a25",  // - Word highlight strong bg
     "editor.selectionHighlightBackground":   "#d4a57420",  // - Selection highlight bg
@@ -445,6 +452,7 @@
     // --- -- - Peek View - f12
     "peekView.border":                         "#a85a4c",    // Peek view border
     "peekViewEditor.background":               "#170F10",    // Peek editor bg
+    "sash.hoverBorder":                        "#c9935a",
     "peekViewEditor.matchHighlightBackground": "#a85a4c40",  // Match highlight
     "peekViewEditor.matchHighlightBorder":     "#a85a4c",    // Match border
     "peekViewEditorGutter.background":         "#170F10",    // Peek gutter
@@ -513,6 +521,21 @@
       "settings": {
         "fontStyle": "italic bold",
         "foreground": "#a39080"
+      }
+    },
+    // ===== Astro =======
+    {
+      "name": "Astro String Quoted",
+      "scope": ["string.quoted.astro"],
+      "settings": {
+      "foreground": "#97c93d"
+      }
+    },
+    {
+      "name": "Astro Source",
+      "scope": ["source.astro"],
+      "settings": {
+      "foreground": "#ffd0bb"
       }
     },
 
@@ -1307,4 +1330,5 @@
       }
     }    
   ]
+
 }

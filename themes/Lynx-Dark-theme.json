@@ -523,6 +523,7 @@
         "foreground": "#64748b"
       }
     },
+
     // ===== Astro =======
     {
       "name": "Astro String Quoted",
@@ -1329,4 +1330,5 @@
       }
     }
   ]
+
 }
