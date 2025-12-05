@@ -3500,6 +3500,223 @@
     },
     "folder-kiro-open": {
       "iconPath": "../assets/icons/dark/folder-kiro-open.svg"
+    },
+    "bashly-hook": {
+      "iconPath": "../assets/icons/dark/bashly-hook.svg"
+    },
+    "bashly": {
+      "iconPath": "../assets/icons/dark/bashly.svg"
+    },
+    "bloc-folder-open": {
+      "iconPath": "../assets/icons/dark/bloc-folder-open.svg"
+    },
+    "chromatic": {
+      "iconPath": "../assets/icons/dark/chromatic.svg"
+    },
+    "cue": {
+      "iconPath": "../assets/icons/dark/cue.svg"
+    },
+    "cursor": {
+      "iconPath": "../assets/icons/dark/cursor.svg"
+    },
+    "cursor_light": {
+      "iconPath": "../assets/icons/dark/cursor_light.svg"
+    },
+    "folder-atom-open": {
+      "iconPath": "../assets/icons/dark/folder-atom-open.svg"
+    },
+    "folder-atom": {
+      "iconPath": "../assets/icons/dark/folder-atom.svg"
+    },
+    "folder-cue-open": {
+      "iconPath": "../assets/icons/dark/folder-cue-open.svg"
+    },
+    "folder-cue": {
+      "iconPath": "../assets/icons/dark/folder-cue.svg"
+    },
+    "folder-cursor-open": {
+      "iconPath": "../assets/icons/dark/folder-cursor-open.svg"
+    },
+    "folder-cursor-open_light": {
+      "iconPath": "../assets/icons/dark/folder-cursor-open_light.svg"
+    },
+    "folder-cursor": {
+      "iconPath": "../assets/icons/dark/folder-cursor.svg"
+    },
+    "folder-cursor_light": {
+      "iconPath": "../assets/icons/dark/folder-cursor_light.svg"
+    },
+    "folder-dal-open": {
+      "iconPath": "../assets/icons/dark/folder-dal-open.svg"
+    },
+    "folder-dal": {
+      "iconPath": "../assets/icons/dark/folder-dal.svg"
+    },
+    "folder-eslint-open": {
+      "iconPath": "../assets/icons/dark/folder-eslint-open.svg"
+    },
+    "folder-eslint": {
+      "iconPath": "../assets/icons/dark/folder-eslint.svg"
+    },
+    "folder-features-open": {
+      "iconPath": "../assets/icons/dark/folder-features-open.svg"
+    },
+    "folder-features": {
+      "iconPath": "../assets/icons/dark/folder-features.svg"
+    },
+    "folder-filter-open": {
+      "iconPath": "../assets/icons/dark/folder-filter-open.svg"
+    },
+    "folder-filter": {
+      "iconPath": "../assets/icons/dark/folder-filter.svg"
+    },
+    "folder-input-open": {
+      "iconPath": "../assets/icons/dark/folder-input-open.svg"
+    },
+    "folder-input": {
+      "iconPath": "../assets/icons/dark/folder-input.svg"
+    },
+    "folder-interceptor-open": {
+      "iconPath": "../assets/icons/dark/folder-interceptor-open.svg"
+    },
+    "folder-interceptor": {
+      "iconPath": "../assets/icons/dark/folder-interceptor.svg"
+    },
+    "folder-license-open": {
+      "iconPath": "../assets/icons/dark/folder-license-open.svg"
+    },
+    "folder-license": {
+      "iconPath": "../assets/icons/dark/folder-license.svg"
+    },
+    "folder-metro-open": {
+      "iconPath": "../assets/icons/dark/folder-metro-open.svg"
+    },
+    "folder-metro": {
+      "iconPath": "../assets/icons/dark/folder-metro.svg"
+    },
+    "folder-migrations-open": {
+      "iconPath": "../assets/icons/dark/folder-migrations-open.svg"
+    },
+    "folder-migrations": {
+      "iconPath": "../assets/icons/dark/folder-migrations.svg"
+    },
+    "folder-molecule-open": {
+      "iconPath": "../assets/icons/dark/folder-molecule-open.svg"
+    },
+    "folder-molecule": {
+      "iconPath": "../assets/icons/dark/folder-molecule.svg"
+    },
+    "folder-organism-open": {
+      "iconPath": "../assets/icons/dark/folder-organism-open.svg"
+    },
+    "folder-organism": {
+      "iconPath": "../assets/icons/dark/folder-organism.svg"
+    },
+    "folder-prompts-open": {
+      "iconPath": "../assets/icons/dark/folder-prompts-open.svg"
+    },
+    "folder-prompts": {
+      "iconPath": "../assets/icons/dark/folder-prompts.svg"
+    },
+    "folder-salt-open": {
+      "iconPath": "../assets/icons/dark/folder-salt-open.svg"
+    },
+    "folder-salt": {
+      "iconPath": "../assets/icons/dark/folder-salt.svg"
+    },
+    "folder-simulations-open": {
+      "iconPath": "../assets/icons/dark/folder-simulations-open.svg"
+    },
+    "folder-simulations": {
+      "iconPath": "../assets/icons/dark/folder-simulations.svg"
+    },
+    "folder-toc-open": {
+      "iconPath": "../assets/icons/dark/folder-toc-open.svg"
+    },
+    "folder-toc": {
+      "iconPath": "../assets/icons/dark/folder-toc.svg"
+    },
+    "google": {
+      "iconPath": "../assets/icons/dark/google.svg"
+    },
+    "happo": {
+      "iconPath": "../assets/icons/dark/happo.svg"
+    },
+    "lean": {
+      "iconPath": "../assets/icons/dark/lean.svg"
+    },
+    "license": {
+      "iconPath": "../assets/icons/dark/license.svg"
+    },
+    "lintstaged": {
+      "iconPath": "../assets/icons/dark/lintstaged.svg"
+    },
+    "metro": {
+      "iconPath": "../assets/icons/dark/metro.svg"
+    },
+    "mobx2-file": {
+      "iconPath": "../assets/icons/dark/mobx2-file.svg"
+    },
+    "onnx": {
+      "iconPath": "../assets/icons/dark/onnx.svg"
+    },
+    "opentofu": {
+      "iconPath": "../assets/icons/dark/opentofu.svg"
+    },
+    "opentofu_light": {
+      "iconPath": "../assets/icons/dark/opentofu_light.svg"
+    },
+    "oxc": {
+      "iconPath": "../assets/icons/dark/oxc.svg"
+    },
+
+    "prompt": {
+      "iconPath": "../assets/icons/dark/prompt.svg"
+    },
+    "quarto": {
+      "iconPath": "../assets/icons/dark/quarto.svg"
+    },
+    "rstack": {
+      "iconPath": "../assets/icons/dark/rstack.svg"
+    },
+    "salt": {
+      "iconPath": "../assets/icons/dark/salt.svg"
+    },
+    "shellcheck": {
+      "iconPath": "../assets/icons/dark/shellcheck.svg"
+    },
+    "shellcheck_light": {
+      "iconPath": "../assets/icons/dark/shellcheck_light.svg"
+    },
+    "toc": {
+      "iconPath": "../assets/icons/dark/toc.svg"
+    },
+    "tsdoc": {
+      "iconPath": "../assets/icons/dark/tsdoc.svg"
+    },
+    "unlicense": {
+      "iconPath": "../assets/icons/dark/unlicense.svg"
+    },
+    "vanilla-extract": {
+      "iconPath": "../assets/icons/dark/vanilla-extract.svg"
+    },
+    "varnish": {
+      "iconPath": "../assets/icons/dark/varnish.svg"
+    },
+    "verse": {
+      "iconPath": "../assets/icons/dark/verse.svg"
+    },
+    "verse_light": {
+      "iconPath": "../assets/icons/dark/verse_light.svg"
+    },
+    "warp": {
+      "iconPath": "../assets/icons/dark/warp.svg"
+    },
+    "warp_light": {
+      "iconPath": "../assets/icons/dark/warp_light.svg"
+    },
+    "xml-before": {
+      "iconPath": "../assets/icons/dark/xml-before.svg"
     }
   },
   "folderNames": {
