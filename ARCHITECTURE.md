@@ -63,22 +63,27 @@ graph TB
             R[assets/images/<br/>🖼️ Resources]
             S[CHANGELOG.md<br/>📝 History]
         end
+
+        subgraph "🛠️ Build & Release"
+            direction LR
+            T[CI/CD Pipeline<br/>GitHub Actions]
+            U[vsce / Release Process]
+        end
     end
     
     subgraph "🎯 VS Code Integration Layer"
         direction TB
-        T[VS Code Extension Host<br/>🏠 Runtime Environment]
+        V[VS Code Extension Host<br/>🏠 Runtime Environment]
         
         subgraph "⚙️ Engine Systems"
             direction LR
-            U[Theme Engine<br/>🎨 Color Processing]
-            V[Icon Theme Engine<br/>📁 Icon Processing]
+            W[Theme Engine<br/>🎨 Color Processing]
+            X[Icon Theme Engine<br/>📁 Icon Processing]
         end
         
-        W[User Interface<br/>👤 Visual Output]
+        Y[User Interface<br/>👤 Visual Output]
     end
     
-    %% Main connections
     A --> B
     C --> E
     C --> F
@@ -91,34 +96,11 @@ graph TB
     L --> M
     L --> N
     L --> O
-    
-    %% Integration connections
-    A -.-> T
-    E -.-> U
-    F -.-> U
-    G -.-> U
-    H -.-> U
-    I -.-> U
-    J -.-> U
-    K -.-> V
-    U --> W
-    V --> W
+    A --> T
     T --> U
-    T --> V
-    
-    %% Styling
-    classDef mainConfig fill:#ff6b6b,stroke:#333,stroke-width:2px,color:#fff
-    classDef themes fill:#4ecdc4,stroke:#333,stroke-width:2px,color:#fff
-    classDef icons fill:#45b7d1,stroke:#333,stroke-width:2px,color:#fff
-    classDef engine fill:#96ceb4,stroke:#333,stroke-width:2px,color:#fff
-    classDef output fill:#feca57,stroke:#333,stroke-width:2px,color:#000
-    classDef docs fill:#a8e6cf,stroke:#333,stroke-width:2px,color:#000
-    
-    class A mainConfig
-    class C,E,F,G,H,I,J themes
-    class D,K,L,M,N,O icons
-    class U,V engine
-    class W output
-    class P,Q,R,S docs
-
+    U -.-> S
+    V -.-> W
+    V -.-> X
+    W --> Y
+    X --> Y
 ```
