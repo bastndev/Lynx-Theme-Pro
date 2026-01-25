@@ -148,9 +148,9 @@
     "minimap.findMatchHighlight":                  "#003362",    // - Mini map Find match
     "minimap.selectionHighlight":                  "#2e3135",    // - Selection
 
-    "minimapSlider.background":                    "#212225",    // - Slider bg
-    "minimapSlider.hoverBackground":               "#272a2d",    // - Slider hover
-    "minimapSlider.activeBackground":              "#2e3135",    // - Slider active
+    // "minimapSlider.background":                    "#00000033",    // - Slider bg
+    // "minimapSlider.hoverBackground":               "#00000059",    // - Slider hover
+    // "minimapSlider.activeBackground":              "#00000059",    // - Slider active
 
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground":     "#edeef0",    // - Active line number
