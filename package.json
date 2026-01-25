@@ -99,6 +99,11 @@
         "id": "lynx-pro-light",
         "label": "Lynx Icons - (Style B)",
         "path": "./icons-themes/lynx-icons-light.json"
+      },
+      {
+        "id": "lynx-pro-gray",
+        "label": "Lynx Icons - (Style C)",
+        "path": "./icons-themes/lynx-icons-gray.json"
       }
     ]
   }
