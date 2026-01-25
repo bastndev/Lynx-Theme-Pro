@@ -3718,7 +3718,7 @@
       "iconPath": "../assets/icons/dark/xml-before.svg"
     },
     "expo-app": {
-      "iconPath": "../assets/icons/dark/expo-c.svg"
+      "iconPath": "../assets/icons/dark/expo-app.svg"
     },
     "expo-eas": {
       "iconPath": "../assets/icons/dark/expo-b.svg"
