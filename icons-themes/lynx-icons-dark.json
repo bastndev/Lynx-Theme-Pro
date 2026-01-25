@@ -949,7 +949,7 @@
       "iconPath": "../assets/icons/dark/bower.svg"
     },
     "eslint": {
-      "iconPath": "../assets/icons/dark/eslint.svg"
+      "iconPath": "../assets/icons/dark/eslint-b.svg"
     },
     "conduct": {
       "iconPath": "../assets/icons/dark/conduct.svg"
@@ -3716,6 +3716,12 @@
     },
     "xml-before": {
       "iconPath": "../assets/icons/dark/xml-before.svg"
+    },
+    "Expo-app": {
+      "iconPath": "../assets/icons/dark/expo.svg"
+    },
+    "Expo-eas": {
+      "iconPath": "../assets/icons/dark/expo-eas.svg"
     }
   },
   "folderNames": {
