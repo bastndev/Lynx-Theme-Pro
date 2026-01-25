@@ -3722,6 +3722,9 @@
     },
     "expo-eas": {
       "iconPath": "../../assets/icons/dark/expo-b.svg"
+    },
+    "woff": {
+      "iconPath": "../../assets/icons/dark/wo-1.svg"
     }
   },
   "folderNames": {
@@ -10235,6 +10238,8 @@
   "rootFolderNames": {},
   "rootFolderNamesExpanded": {},
   "fileExtensions": {
+    "woff": "woff",
+    "woff2": "woff",
     "module.dart": "module-file",
     "state.dart": "state-file",
     "service.dart": "service-file",
@@ -10604,8 +10609,6 @@
     "sha256": "key",
     "sha256sum": "key",
     "sha256sums": "key",
-    "woff": "font",
-    "woff2": "font",
     "ttf": "font",
     "eot": "font",
     "suit": "font",
