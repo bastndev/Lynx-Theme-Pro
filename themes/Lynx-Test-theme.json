@@ -106,9 +106,9 @@
     "editor.selectionBackground":            "#2e3135",    // - Selection bg (theme consistent)
     "editor.rangeHighlightBackground":       "#0090ff15",  // - Range highlight bg
     "editor.linkedEditingBackground":        "#2870bd30",
-    "editor.wordHighlightBackground":        "#2e3135",    // - Word highlight bg
-    "editor.wordHighlightStrongBackground":  "#2e3135",    // - Word highlight strong bg
-    "editor.selectionHighlightBackground":   "#2e3135",    // - Selection highlight bg
+    "editor.wordHighlightBackground":        "#2e3135fb",    // - Word highlight bg
+    "editor.wordHighlightStrongBackground":  "#2e3135fb",    // - Word highlight strong bg
+    "editor.selectionHighlightBackground":   "#2e3135fb",    // - Selection highlight bg
 
     // --- -- - Tabs Header - TOP
     "editorGroupHeader.tabsBackground":      "#0C0D0E",    // - Tabs header bg
@@ -145,8 +145,8 @@
     "minimap.background":                          "#0C0D0E",    // - Minimap bg
     "minimap.errorHighlight":                      "#e5484d",    // - Error highlight
     "minimap.warningHighlight":                    "#ffca16",    // - Warning highlight
-    "minimap.findMatchHighlight":                  "#003362",    // - Mini map Find match
-    "minimap.selectionHighlight":                  "#2e3135",    // - Selection
+    "minimap.findMatchHighlight":                  "#003362fb",    // - Mini map Find match
+    "minimap.selectionHighlight":                  "#2e3135fb",    // - Selection
 
     // "minimapSlider.background":                    "#00000033",    // - Slider bg
     // "minimapSlider.hoverBackground":               "#00000059",    // - Slider hover
@@ -1402,7 +1402,7 @@
     },
     {
       "name": "Kotlin Punctuation Separator",
-      "scope": ["source.kotlin punctuation.seperator"],
+      "scope": ["source.kotlin punctuation.separator"],
       "settings": {
         "foreground": "#777b84"
       }
@@ -1930,7 +1930,6 @@
       "name": "Diff Meta Diff Header From File",
       "scope": ["source.diff meta.diff.header.from-file"],
       "settings": {
-        "background": "#201314",
         "foreground": "#ec5d5e"
       }
     },
@@ -1945,7 +1944,6 @@
       "name": "Diff Meta Diff Header To File",
       "scope": ["source.diff meta.diff.header.to-file"],
       "settings": {
-        "background": "#121b17",
         "foreground": "#3dd68c"
       }
     },
