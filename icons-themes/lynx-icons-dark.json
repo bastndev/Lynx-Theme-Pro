@@ -3717,11 +3717,11 @@
     "xml-before": {
       "iconPath": "../assets/icons/dark/xml-before.svg"
     },
-    "Expo-app": {
-      "iconPath": "../assets/icons/dark/expo.svg"
+    "expo-app": {
+      "iconPath": "../assets/icons/dark/expo-1.svg"
     },
-    "Expo-eas": {
-      "iconPath": "../assets/icons/dark/expo-eas.svg"
+    "expo-eas": {
+      "iconPath": "../assets/icons/dark/expo-2.svg"
     }
   },
   "folderNames": {
@@ -13273,7 +13273,9 @@
     ".shellcheckrc": "shellcheck",
     "tsdoc.json": "tsdoc",
     "UNLICENSE": "unlicense",
-    "warp.toml": "warp"
+    "warp.toml": "warp",
+    "app.json": "expo-app",
+    "eas.json": "expo-eas"
   },
   "languageIds": {
     "git": "git",
