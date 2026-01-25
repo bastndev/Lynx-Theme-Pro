@@ -539,6 +539,7 @@
       "foreground": "#f0f0f0"
       }
     },
+    
     // ===== KEYWORDS & STORAGE =====
     {
       "name": "Keywords Control",
