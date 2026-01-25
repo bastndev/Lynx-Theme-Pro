@@ -41,18 +41,33 @@ graph TB
             H[Lynx-xGhibli-theme.json<br/>🌸 Ghibli Theme]
             I[Lynx-yCoffee-theme.json<br/>☕ Coffee Theme]
             J[Lynx-zKiro-theme.json<br/>🤖 Kiro Theme]
+            K1[Lynx-NVIM-theme.json<br/>⚡ NVIM Theme]
+            K2[Lynx-Test-theme.json<br/>🧪 Test Theme]
         end
         
         subgraph "🎯 Icon System"
             direction TB
-            K[lynx-icons.json<br/>📁 Icon Configuration]
+            L1[themes-icons/<br/>🎨 Theme Icons]
+            L2[material-icons/<br/>📦 Material Icons]
             L[assets/icons/<br/>🎨 SVG Collection]
+            
+            subgraph "📦 Icon Theme Variants"
+                direction LR
+                M1[lynx-icons-dark.json<br/>🌙 Style A]
+                M2[lynx-icons-light.json<br/>☀️ Style B]
+                M3[lynx-icons-gray.json<br/>⚪ Style C]
+            end
+            
+            subgraph "🎨 Product Icons"
+                direction LR
+                N1[lynx-material-icon.json<br/>📦 Material Design]
+            end
             
             subgraph "📦 Icon Categories"
                 direction LR
-                M[📄 File Icons<br/>500+ types]
-                N[📁 Folder Icons<br/>100+ variants]
-                O[🔧 Special Icons<br/>Specialized]
+                O1[📄 File Icons<br/>500+ types]
+                O2[📁 Folder Icons<br/>100+ variants]
+                O3[🔧 Special Icons<br/>Specialized]
             end
         end
         
@@ -91,11 +106,17 @@ graph TB
     C --> H
     C --> I
     C --> J
-    D --> K
-    K --> L
-    L --> M
-    L --> N
-    L --> O
+    C --> K1
+    C --> K2
+    D --> L1
+    D --> L2
+    L1 --> M1
+    L1 --> M2
+    L1 --> M3
+    L2 --> N1
+    L --> O1
+    L --> O2
+    L --> O3
     A --> T
     T --> U
     U -.-> S
