@@ -21,6 +21,13 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 <br>
 
 <!-- --- -->
+## [3.8.0] - 2026-01-25
+
+- Support Material ICONS
+- Better other icons
+- Update Architecture
+
+---
 ## [3.3.25] - 2026-01-25
 
 - support to `Expo`

@@ -1,939 +1,939 @@
 {
   "iconDefinitions": {
     "git": {
-      "iconPath": "../assets/icons/light/git.svg"
+      "iconPath": "../../assets/icons/light/git.svg"
     },
     "xml": {
-      "iconPath": "../assets/icons/light/xml.svg"
+      "iconPath": "../../assets/icons/light/xml.svg"
     },
     "prettier": {
-      "iconPath": "../assets/icons/dark/prettier.svg"
+      "iconPath": "../../assets/icons/dark/prettier.svg"
     },
     "prettier-file": {
-      "iconPath": "../assets/icons/dark/prettier.svg"
+      "iconPath": "../../assets/icons/dark/prettier.svg"
     },
     "toml": {
-      "iconPath": "../assets/icons/light/toml.svg"
+      "iconPath": "../../assets/icons/light/toml.svg"
     },
     "json": {
-      "iconPath": "../assets/icons/light/json.svg"
+      "iconPath": "../../assets/icons/light/json.svg"
     },
     "java": {
-      "iconPath": "../assets/icons/light/java.svg"
+      "iconPath": "../../assets/icons/light/java.svg"
     },
     "python": {
-      "iconPath": "../assets/icons/light/python.svg"
+      "iconPath": "../../assets/icons/light/python.svg"
     },
     "javascript": {
-      "iconPath": "../assets/icons/light/javascript.svg"
+      "iconPath": "../../assets/icons/light/javascript.svg"
     },
     "typescript": {
-      "iconPath": "../assets/icons/light/typescript.svg"
+      "iconPath": "../../assets/icons/light/typescript.svg"
     },
     "scala": {
-      "iconPath": "../assets/icons/light/scala.svg"
+      "iconPath": "../../assets/icons/light/scala.svg"
     },
     "perl": {
-      "iconPath": "../assets/icons/light/perl.svg"
+      "iconPath": "../../assets/icons/light/perl.svg"
     },
     "julia": {
-      "iconPath": "../assets/icons/light/julia.svg"
+      "iconPath": "../../assets/icons/light/julia.svg"
     },
     "scss": {
-      "iconPath": "../assets/icons/light/scss.svg"
+      "iconPath": "../../assets/icons/light/scss.svg"
     },
     "css": {
-      "iconPath": "../assets/icons/light/css.svg"
+      "iconPath": "../../assets/icons/light/css.svg"
     },
     "visual-studio": {
-      "iconPath": "../assets/icons/light/visual-studio.svg"
+      "iconPath": "../../assets/icons/light/visual-studio.svg"
     },
     "terraform": {
-      "iconPath": "../assets/icons/light/terraform.svg"
+      "iconPath": "../../assets/icons/light/terraform.svg"
     },
     "nim": {
-      "iconPath": "../assets/icons/light/nim.svg"
+      "iconPath": "../../assets/icons/light/nim.svg"
     },
     "nix": {
-      "iconPath": "../assets/icons/light/nix.svg"
+      "iconPath": "../../assets/icons/light/nix.svg"
     },
     "ruby": {
-      "iconPath": "../assets/icons/light/ruby.svg"
+      "iconPath": "../../assets/icons/light/ruby.svg"
     },
     "php": {
-      "iconPath": "../assets/icons/light/php.svg"
+      "iconPath": "../../assets/icons/light/php.svg"
     },
     "react": {
-      "iconPath": "../assets/icons/light/react.svg"
+      "iconPath": "../../assets/icons/light/react.svg"
     },
     "hcl": {
-      "iconPath": "../assets/icons/light/hcl.svg"
+      "iconPath": "../../assets/icons/light/hcl.svg"
     },
     "go": {
-      "iconPath": "../assets/icons/light/go.svg"
+      "iconPath": "../../assets/icons/light/go.svg"
     },
     "html": {
-      "iconPath": "../assets/icons/light/html.svg"
+      "iconPath": "../../assets/icons/light/html.svg"
     },
     "godot": {
-      "iconPath": "../assets/icons/light/godot.svg"
+      "iconPath": "../../assets/icons/light/godot.svg"
     },
     "godot-assets": {
-      "iconPath": "../assets/icons/light/godot-assets.svg"
+      "iconPath": "../../assets/icons/light/godot-assets.svg"
     },
     "latex": {
-      "iconPath": "../assets/icons/light/latex.svg"
+      "iconPath": "../../assets/icons/light/latex.svg"
     },
     "docker": {
-      "iconPath": "../assets/icons/light/docker.svg"
+      "iconPath": "../../assets/icons/light/docker.svg"
     },
     "c": {
-      "iconPath": "../assets/icons/light/c.svg"
+      "iconPath": "../../assets/icons/light/c.svg"
     },
     "cpp": {
-      "iconPath": "../assets/icons/light/cpp.svg"
+      "iconPath": "../../assets/icons/light/cpp.svg"
     },
     "markdown": {
-      "iconPath": "../assets/icons/light/markdown.svg"
+      "iconPath": "../../assets/icons/light/markdown.svg"
     },
     "vue": {
-      "iconPath": "../assets/icons/light/vue.svg"
+      "iconPath": "../../assets/icons/light/vue.svg"
     },
     "lua": {
-      "iconPath": "../assets/icons/light/lua.svg"
+      "iconPath": "../../assets/icons/light/lua.svg"
     },
     "pdf": {
-      "iconPath": "../assets/icons/light/pdf.svg"
+      "iconPath": "../../assets/icons/light/pdf.svg"
     },
     "powershell": {
-      "iconPath": "../assets/icons/light/powershell.svg"
+      "iconPath": "../../assets/icons/light/powershell.svg"
     },
     "rust": {
-      "iconPath": "../assets/icons/light/rust.svg"
+      "iconPath": "../../assets/icons/light/rust.svg"
     },
     "database": {
-      "iconPath": "../assets/icons/light/database.svg"
+      "iconPath": "../../assets/icons/light/database.svg"
     },
     "lock": {
-      "iconPath": "../assets/icons/light/lock.svg"
+      "iconPath": "../../assets/icons/light/lock.svg"
     },
     "svg": {
-      "iconPath": "../assets/icons/light/svg.svg"
+      "iconPath": "../../assets/icons/light/svg.svg"
     },
     "swift": {
-      "iconPath": "../assets/icons/light/swift.svg"
+      "iconPath": "../../assets/icons/light/swift.svg"
     },
     "react-typescript": {
-      "iconPath": "../assets/icons/light/react-typescript.svg"
+      "iconPath": "../../assets/icons/light/react-typescript.svg"
     },
     "svelte": {
-      "iconPath": "../assets/icons/light/svelte.svg"
+      "iconPath": "../../assets/icons/light/svelte.svg"
     },
     "dart": {
-      "iconPath": "../assets/icons/light/dart.svg"
+      "iconPath": "../../assets/icons/light/dart.svg"
     },
     "luau": {
-      "iconPath": "../assets/icons/light/luau.svg"
+      "iconPath": "../../assets/icons/light/luau.svg"
     },
     "just": {
-      "iconPath": "../assets/icons/light/just.svg"
+      "iconPath": "../../assets/icons/light/just.svg"
     },
     "image": {
-      "iconPath": "../assets/icons/light/image.svg"
+      "iconPath": "../../assets/icons/light/image.svg"
     },
     "typescript-def": {
-      "iconPath": "../assets/icons/light/typescript-def.svg"
+      "iconPath": "../../assets/icons/light/typescript-def.svg"
     },
     "astro": {
-      "iconPath": "../assets/icons/light/astro.svg"
+      "iconPath": "../../assets/icons/light/astro.svg"
     },
     "astro-config": {
-      "iconPath": "../assets/icons/light/astro-config.svg"
+      "iconPath": "../../assets/icons/light/astro-config.svg"
     },
     "vscode": {
-      "iconPath": "../assets/icons/light/vscode.svg"
+      "iconPath": "../../assets/icons/light/vscode.svg"
     },
     "zip": {
-      "iconPath": "../assets/icons/light/zip.svg"
+      "iconPath": "../../assets/icons/light/zip.svg"
     },
     "assembly": {
-      "iconPath": "../assets/icons/light/assembly.svg"
+      "iconPath": "../../assets/icons/light/assembly.svg"
     },
     "c-header": {
-      "iconPath": "../assets/icons/light/c-header.svg"
+      "iconPath": "../../assets/icons/light/c-header.svg"
     },
     "cpp-header": {
-      "iconPath": "../assets/icons/light/cpp-header.svg"
+      "iconPath": "../../assets/icons/light/cpp-header.svg"
     },
     "go-mod": {
-      "iconPath": "../assets/icons/light/go-mod.svg"
+      "iconPath": "../../assets/icons/light/go-mod.svg"
     },
     "key": {
-      "iconPath": "../assets/icons/light/key.svg"
+      "iconPath": "../../assets/icons/light/key.svg"
     },
     "font": {
-      "iconPath": "../assets/icons/light/font.svg"
+      "iconPath": "../../assets/icons/light/font.svg"
     },
     "video": {
-      "iconPath": "../assets/icons/light/video.svg"
+      "iconPath": "../../assets/icons/light/video.svg"
     },
     "audio": {
-      "iconPath": "../assets/icons/light/audio.svg"
+      "iconPath": "../../assets/icons/light/audio.svg"
     },
     "kotlin": {
-      "iconPath": "../assets/icons/light/kotlin.svg"
+      "iconPath": "../../assets/icons/light/kotlin.svg"
     },
     "storybook": {
-      "iconPath": "../assets/icons/light/storybook.svg"
+      "iconPath": "../../assets/icons/light/storybook.svg"
     },
     "fortran": {
-      "iconPath": "../assets/icons/light/fortran.svg"
+      "iconPath": "../../assets/icons/light/fortran.svg"
     },
     "vite": {
-      "iconPath": "../assets/icons/light/vite.svg"
+      "iconPath": "../../assets/icons/light/vite.svg"
     },
     "gleam": {
-      "iconPath": "../assets/icons/light/gleam.svg"
+      "iconPath": "../../assets/icons/light/gleam.svg"
     },
     "bun": {
-      "iconPath": "../assets/icons/light/bun.svg"
+      "iconPath": "../../assets/icons/light/bun.svg"
     },
     "roblox": {
-      "iconPath": "../assets/icons/light/roblox.svg"
+      "iconPath": "../../assets/icons/light/roblox.svg"
     },
     "changelog": {
-      "iconPath": "../assets/icons/light/changelog.svg"
+      "iconPath": "../../assets/icons/light/changelog.svg"
     },
     "readme": {
-      "iconPath": "../assets/icons/light/readme.svg"
+      "iconPath": "../../assets/icons/light/readme.svg"
     },
     "eslint": {
-      "iconPath": "../assets/icons/light/eslint.svg"
+      "iconPath": "../../assets/icons/light/eslint.svg"
     },
     "code-of-conduct": {
-      "iconPath": "../assets/icons/light/code-of-conduct.svg"
+      "iconPath": "../../assets/icons/light/code-of-conduct.svg"
     },
     "npm": {
-      "iconPath": "../assets/icons/light/npm.svg"
+      "iconPath": "../../assets/icons/light/npm.svg"
     },
     "yarn": {
-      "iconPath": "../assets/icons/light/yarn.svg"
+      "iconPath": "../../assets/icons/light/yarn.svg"
     },
     "next": {
-      "iconPath": "../assets/icons/light/next.svg"
+      "iconPath": "../../assets/icons/light/next.svg"
     },
     "todo": {
-      "iconPath": "../assets/icons/light/todo.svg"
+      "iconPath": "../../assets/icons/light/todo.svg"
     },
     "codeowners": {
-      "iconPath": "../assets/icons/light/codeowners.svg"
+      "iconPath": "../../assets/icons/light/codeowners.svg"
     },
     "odin": {
-      "iconPath": "../assets/icons/light/odin.svg"
+      "iconPath": "../../assets/icons/light/odin.svg"
     },
     "wally": {
-      "iconPath": "../assets/icons/light/wally.svg"
+      "iconPath": "../../assets/icons/light/wally.svg"
     },
     "zig": {
-      "iconPath": "../assets/icons/light/zig.svg"
+      "iconPath": "../../assets/icons/light/zig.svg"
     },
     "folder_dist": {
-      "iconPath": "../assets/icons/light/folder_dist.svg"
+      "iconPath": "../../assets/icons/light/folder_dist.svg"
     },
     "folder_dist_open": {
-      "iconPath": "../assets/icons/light/folder_dist_open.svg"
+      "iconPath": "../../assets/icons/light/folder_dist_open.svg"
     },
     "folder_images": {
-      "iconPath": "../assets/icons/light/folder_image.svg"
+      "iconPath": "../../assets/icons/light/folder_image.svg"
     },
     "folder_images_open": {
-      "iconPath": "../assets/icons/light/folder_image_open.svg"
+      "iconPath": "../../assets/icons/light/folder_image_open.svg"
     },
     "folder_scripts": {
-      "iconPath": "../assets/icons/light/folder_script.svg"
+      "iconPath": "../../assets/icons/light/folder_script.svg"
     },
     "folder_scripts_open": {
-      "iconPath": "../assets/icons/light/folder_script_open.svg"
+      "iconPath": "../../assets/icons/light/folder_script_open.svg"
     },
     "folder_node": {
-      "iconPath": "../assets/icons/light/folder_node.svg"
+      "iconPath": "../../assets/icons/light/folder_node.svg"
     },
     "folder_node_open": {
-      "iconPath": "../assets/icons/light/folder_node_open.svg"
+      "iconPath": "../../assets/icons/light/folder_node_open.svg"
     },
     "folder_javascript": {
-      "iconPath": "../assets/icons/light/folder_javascript.svg"
+      "iconPath": "../../assets/icons/light/folder_javascript.svg"
     },
     "folder_javascript_open": {
-      "iconPath": "../assets/icons/light/folder_javascript_open.svg"
+      "iconPath": "../../assets/icons/light/folder_javascript_open.svg"
     },
     "folder_json": {
-      "iconPath": "../assets/icons/light/folder_json.svg"
+      "iconPath": "../../assets/icons/light/folder_json.svg"
     },
     "folder_json_open": {
-      "iconPath": "../assets/icons/light/folder_json_open.svg"
+      "iconPath": "../../assets/icons/light/folder_json_open.svg"
     },
     "folder_font": {
-      "iconPath": "../assets/icons/light/folder_fonts.svg"
+      "iconPath": "../../assets/icons/light/folder_fonts.svg"
     },
     "folder_font_open": {
-      "iconPath": "../assets/icons/light/folder_fonts_open.svg"
+      "iconPath": "../../assets/icons/light/folder_fonts_open.svg"
     },
     "folder_test": {
-      "iconPath": "../assets/icons/light/folder_test.svg"
+      "iconPath": "../../assets/icons/light/folder_test.svg"
     },
     "folder_test_open": {
-      "iconPath": "../assets/icons/light/folder_test_open.svg"
+      "iconPath": "../../assets/icons/light/folder_test_open.svg"
     },
 
     "folder_docs": {
-      "iconPath": "../assets/icons/light/folder_docs.svg"
+      "iconPath": "../../assets/icons/light/folder_docs.svg"
     },
     "folder_docs_open": {
-      "iconPath": "../assets/icons/light/folder_docs_open.svg"
+      "iconPath": "../../assets/icons/light/folder_docs_open.svg"
     },
 
     "folder_github": {
-      "iconPath": "../assets/icons/light/folder_github.svg"
+      "iconPath": "../../assets/icons/light/folder_github.svg"
     },
     "folder_github_open": {
-      "iconPath": "../assets/icons/light/folder_github_open.svg"
+      "iconPath": "../../assets/icons/light/folder_github_open.svg"
     },
     "folder_vscode": {
-      "iconPath": "../assets/icons/light/folder_vscode.svg"
+      "iconPath": "../../assets/icons/light/folder_vscode.svg"
     },
     "folder_vscode_open": {
-      "iconPath": "../assets/icons/light/folder_vscode_open.svg"
+      "iconPath": "../../assets/icons/light/folder_vscode_open.svg"
     },
     "folder_config": {
-      "iconPath": "../assets/icons/light/folder_config.svg"
+      "iconPath": "../../assets/icons/light/folder_config.svg"
     },
     "folder_config_open": {
-      "iconPath": "../assets/icons/light/folder_config_open.svg"
+      "iconPath": "../../assets/icons/light/folder_config_open.svg"
     },
     "folder_components": {
-      "iconPath": "../assets/icons/light/folder_component.svg"
+      "iconPath": "../../assets/icons/light/folder_component.svg"
     },
     "folder_components_open": {
-      "iconPath": "../assets/icons/light/folder_component_open.svg"
+      "iconPath": "../../assets/icons/light/folder_component_open.svg"
     },
     "folder_lib": {
-      "iconPath": "../assets/icons/light/folder_lib.svg"
+      "iconPath": "../../assets/icons/light/folder_lib.svg"
     },
     "folder_lib_open": {
-      "iconPath": "../assets/icons/light/folder_lib_open.svg"
+      "iconPath": "../../assets/icons/light/folder_lib_open.svg"
     },
     "folder_database": {
-      "iconPath": "../assets/icons/light/folder_database.svg"
+      "iconPath": "../../assets/icons/light/folder_database.svg"
     },
     "folder_database_open": {
-      "iconPath": "../assets/icons/light/folder_database_open.svg"
+      "iconPath": "../../assets/icons/light/folder_database_open.svg"
     },
     "folder_temp": {
-      "iconPath": "../assets/icons/light/folder_temp.svg"
+      "iconPath": "../../assets/icons/light/folder_temp.svg"
     },
     "folder_temp_open": {
-      "iconPath": "../assets/icons/light/folder_temp_open.svg"
+      "iconPath": "../../assets/icons/light/folder_temp_open.svg"
     },
     "folder_audio": {
-      "iconPath": "../assets/icons/light/folder_audio.svg"
+      "iconPath": "../../assets/icons/light/folder_audio.svg"
     },
     "folder_audio_open": {
-      "iconPath": "../assets/icons/light/folder_audio_open.svg"
+      "iconPath": "../../assets/icons/light/folder_audio_open.svg"
     },
     "folder_benchmark": {
-      "iconPath": "../assets/icons/light/folder_benchmark.svg"
+      "iconPath": "../../assets/icons/light/folder_benchmark.svg"
     },
     "folder_benchmark_open": {
-      "iconPath": "../assets/icons/light/folder_benchmark_open.svg"
+      "iconPath": "../../assets/icons/light/folder_benchmark_open.svg"
     },
     "folder_client": {
-      "iconPath": "../assets/icons/light/folder_client.svg"
+      "iconPath": "../../assets/icons/light/folder_client.svg"
     },
     "folder_client_open": {
-      "iconPath": "../assets/icons/light/folder_client_open.svg"
+      "iconPath": "../../assets/icons/light/folder_client_open.svg"
     },
     "folder_constant": {
-      "iconPath": "../assets/icons/light/folder_constant.svg"
+      "iconPath": "../../assets/icons/light/folder_constant.svg"
     },
     "folder_constant_open": {
-      "iconPath": "../assets/icons/light/folder_constant_open.svg"
+      "iconPath": "../../assets/icons/light/folder_constant_open.svg"
     },
     "folder_content": {
-      "iconPath": "../assets/icons/light/folder_content.svg"
+      "iconPath": "../../assets/icons/light/folder_content.svg"
     },
     "folder_content_open": {
-      "iconPath": "../assets/icons/light/folder_content_open.svg"
+      "iconPath": "../../assets/icons/light/folder_content_open.svg"
     },
     "folder_context": {
-      "iconPath": "../assets/icons/light/folder_context.svg"
+      "iconPath": "../../assets/icons/light/folder_context.svg"
     },
     "folder_context_open": {
-      "iconPath": "../assets/icons/light/folder_context_open.svg"
+      "iconPath": "../../assets/icons/light/folder_context_open.svg"
     },
     "folder_coverage": {
-      "iconPath": "../assets/icons/light/folder_coverage.svg"
+      "iconPath": "../../assets/icons/light/folder_coverage.svg"
     },
     "folder_coverage_open": {
-      "iconPath": "../assets/icons/light/folder_coverage_open.svg"
+      "iconPath": "../../assets/icons/light/folder_coverage_open.svg"
     },
     "folder_event": {
-      "iconPath": "../assets/icons/light/folder_event.svg"
+      "iconPath": "../../assets/icons/light/folder_event.svg"
     },
     "folder_event_open": {
-      "iconPath": "../assets/icons/light/folder_event_open.svg"
+      "iconPath": "../../assets/icons/light/folder_event_open.svg"
     },
     "folder_fonts": {
-      "iconPath": "../assets/icons/light/folder_fonts.svg"
+      "iconPath": "../../assets/icons/light/folder_fonts.svg"
     },
     "folder_fonts_open": {
-      "iconPath": "../assets/icons/light/folder_fonts_open.svg"
+      "iconPath": "../../assets/icons/light/folder_fonts_open.svg"
     },
     "folder_layout": {
-      "iconPath": "../assets/icons/light/folder_layout.svg"
+      "iconPath": "../../assets/icons/light/folder_layout.svg"
     },
     "folder_layout_open": {
-      "iconPath": "../assets/icons/light/folder_layout_open.svg"
+      "iconPath": "../../assets/icons/light/folder_layout_open.svg"
     },
     "folder_middleware": {
-      "iconPath": "../assets/icons/light/folder_middleware.svg"
+      "iconPath": "../../assets/icons/light/folder_middleware.svg"
     },
     "folder_middleware_open": {
-      "iconPath": "../assets/icons/light/folder_middleware_open.svg"
+      "iconPath": "../../assets/icons/light/folder_middleware_open.svg"
     },
     "folder_nuxt": {
-      "iconPath": "../assets/icons/light/folder_nuxt.svg"
+      "iconPath": "../../assets/icons/light/folder_nuxt.svg"
     },
     "folder_nuxt_open": {
-      "iconPath": "../assets/icons/light/folder_nuxt_open.svg"
+      "iconPath": "../../assets/icons/light/folder_nuxt_open.svg"
     },
     "folder_page": {
-      "iconPath": "../assets/icons/light/folder_page.svg"
+      "iconPath": "../../assets/icons/light/folder_page.svg"
     },
     "folder_page_open": {
-      "iconPath": "../assets/icons/light/folder_page_open.svg"
+      "iconPath": "../../assets/icons/light/folder_page_open.svg"
     },
     "folder_routes": {
-      "iconPath": "../assets/icons/light/folder_routes.svg"
+      "iconPath": "../../assets/icons/light/folder_routes.svg"
     },
     "folder_routes_open": {
-      "iconPath": "../assets/icons/light/folder_routes_open.svg"
+      "iconPath": "../../assets/icons/light/folder_routes_open.svg"
     },
     "folder_server": {
-      "iconPath": "../assets/icons/light/folder_server.svg"
+      "iconPath": "../../assets/icons/light/folder_server.svg"
     },
     "folder_server_open": {
-      "iconPath": "../assets/icons/light/folder_server_open.svg"
+      "iconPath": "../../assets/icons/light/folder_server_open.svg"
     },
     "folder_storybook": {
-      "iconPath": "../assets/icons/light/folder_storybook.svg"
+      "iconPath": "../../assets/icons/light/folder_storybook.svg"
     },
     "folder_storybook_open": {
-      "iconPath": "../assets/icons/light/folder_storybook_open.svg"
+      "iconPath": "../../assets/icons/light/folder_storybook_open.svg"
     },
     "folder_svg": {
-      "iconPath": "../assets/icons/light/folder_svg.svg"
+      "iconPath": "../../assets/icons/light/folder_svg.svg"
     },
     "folder_svg_open": {
-      "iconPath": "../assets/icons/light/folder_svg_open.svg"
+      "iconPath": "../../assets/icons/light/folder_svg_open.svg"
     },
     "folder_template": {
-      "iconPath": "../assets/icons/light/folder_template.svg"
+      "iconPath": "../../assets/icons/light/folder_template.svg"
     },
     "folder_template_open": {
-      "iconPath": "../assets/icons/light/folder_template_open.svg"
+      "iconPath": "../../assets/icons/light/folder_template_open.svg"
     },
     "folder_typescript": {
-      "iconPath": "../assets/icons/light/folder_typescript.svg"
+      "iconPath": "../../assets/icons/light/folder_typescript.svg"
     },
     "folder_typescript_open": {
-      "iconPath": "../assets/icons/light/folder_typescript_open.svg"
+      "iconPath": "../../assets/icons/light/folder_typescript_open.svg"
     },
     "folder_video": {
-      "iconPath": "../assets/icons/light/folder_video.svg"
+      "iconPath": "../../assets/icons/light/folder_video.svg"
     },
     "folder_video_open": {
-      "iconPath": "../assets/icons/light/folder_video_open.svg"
+      "iconPath": "../../assets/icons/light/folder_video_open.svg"
     },
     "folder_yarn": {
-      "iconPath": "../assets/icons/light/folder_yarn.svg"
+      "iconPath": "../../assets/icons/light/folder_yarn.svg"
     },
     "folder_yarn_open": {
-      "iconPath": "../assets/icons/light/folder_yarn_open.svg"
+      "iconPath": "../../assets/icons/light/folder_yarn_open.svg"
     },
     "_file": {
-      "iconPath": "../assets/icons/light/_file.svg"
+      "iconPath": "../../assets/icons/light/_file.svg"
     },
     "_folder": {
-      "iconPath": "../assets/icons/light/_folder.svg"
+      "iconPath": "../../assets/icons/light/_folder.svg"
     },
     "_folder_open": {
-      "iconPath": "../assets/icons/light/_folder_open.svg"
+      "iconPath": "../../assets/icons/light/_folder_open.svg"
     },
     "binary": {
-      "iconPath": "../assets/icons/light/binary.svg"
+      "iconPath": "../../assets/icons/light/binary.svg"
     },
     "bun-lock": {
-      "iconPath": "../assets/icons/light/bun-lock.svg"
+      "iconPath": "../../assets/icons/light/bun-lock.svg"
     },
     "config": {
-      "iconPath": "../assets/icons/light/config.svg"
+      "iconPath": "../../assets/icons/light/config.svg"
     },
     "cs": {
-      "iconPath": "../assets/icons/light/cs.svg"
+      "iconPath": "../../assets/icons/light/cs.svg"
     },
     "css3": {
-      "iconPath": "../assets/icons/light/css3.svg"
+      "iconPath": "../../assets/icons/light/css3.svg"
     },
     "csv": {
-      "iconPath": "../assets/icons/light/csv.svg"
+      "iconPath": "../../assets/icons/light/csv.svg"
     },
     "drizzle-orm": {
-      "iconPath": "../assets/icons/light/drizzle-orm.svg"
+      "iconPath": "../../assets/icons/light/drizzle-orm.svg"
     },
     "event": {
-      "iconPath": "../assets/icons/light/event.svg"
+      "iconPath": "../../assets/icons/light/event.svg"
     },
     "folder_admin": {
-      "iconPath": "../assets/icons/light/folder_admin.svg"
+      "iconPath": "../../assets/icons/light/folder_admin.svg"
     },
     "folder_admin_open": {
-      "iconPath": "../assets/icons/light/folder_admin_open.svg"
+      "iconPath": "../../assets/icons/light/folder_admin_open.svg"
     },
     "folder_animation": {
-      "iconPath": "../assets/icons/light/folder_animation.svg"
+      "iconPath": "../../assets/icons/light/folder_animation.svg"
     },
     "folder_animation_open": {
-      "iconPath": "../assets/icons/light/folder_animation_open.svg"
+      "iconPath": "../../assets/icons/light/folder_animation_open.svg"
     },
     "folder_assets": {
-      "iconPath": "../assets/icons/light/folder_assets.svg"
+      "iconPath": "../../assets/icons/light/folder_assets.svg"
     },
     "folder_assets_open": {
-      "iconPath": "../assets/icons/light/folder_assets_open.svg"
+      "iconPath": "../../assets/icons/light/folder_assets_open.svg"
     },
     "folder_auth": {
-      "iconPath": "../assets/icons/light/folder_auth.svg"
+      "iconPath": "../../assets/icons/light/folder_auth.svg"
     },
     "folder_auth_open": {
-      "iconPath": "../assets/icons/light/folder_auth_open.svg"
+      "iconPath": "../../assets/icons/light/folder_auth_open.svg"
     },
     "folder_bin": {
-      "iconPath": "../assets/icons/light/folder_bin.svg"
+      "iconPath": "../../assets/icons/light/folder_bin.svg"
     },
     "folder_bin_open": {
-      "iconPath": "../assets/icons/light/folder_bin_open.svg"
+      "iconPath": "../../assets/icons/light/folder_bin_open.svg"
     },
     "folder_builder": {
-      "iconPath": "../assets/icons/light/folder_builder.svg"
+      "iconPath": "../../assets/icons/light/folder_builder.svg"
     },
     "folder_builder_open": {
-      "iconPath": "../assets/icons/light/folder_builder_open.svg"
+      "iconPath": "../../assets/icons/light/folder_builder_open.svg"
     },
     "folder_camera": {
-      "iconPath": "../assets/icons/light/folder_camera.svg"
+      "iconPath": "../../assets/icons/light/folder_camera.svg"
     },
     "folder_camera_open": {
-      "iconPath": "../assets/icons/light/folder_camera_open.svg"
+      "iconPath": "../../assets/icons/light/folder_camera_open.svg"
     },
     "folder_changesets": {
-      "iconPath": "../assets/icons/light/folder_changesets.svg"
+      "iconPath": "../../assets/icons/light/folder_changesets.svg"
     },
     "folder_changesets_open": {
-      "iconPath": "../assets/icons/light/folder_changesets_open.svg"
+      "iconPath": "../../assets/icons/light/folder_changesets_open.svg"
     },
     "folder_commands": {
-      "iconPath": "../assets/icons/light/folder_commands.svg"
+      "iconPath": "../../assets/icons/light/folder_commands.svg"
     },
     "folder_commands_open": {
-      "iconPath": "../assets/icons/light/folder_commands_open.svg"
+      "iconPath": "../../assets/icons/light/folder_commands_open.svg"
     },
     "folder_component": {
-      "iconPath": "../assets/icons/light/folder_component.svg"
+      "iconPath": "../../assets/icons/light/folder_component.svg"
     },
     "folder_component_open": {
-      "iconPath": "../assets/icons/light/folder_component_open.svg"
+      "iconPath": "../../assets/icons/light/folder_component_open.svg"
     },
     "folder_connection": {
-      "iconPath": "../assets/icons/light/folder_connection.svg"
+      "iconPath": "../../assets/icons/light/folder_connection.svg"
     },
     "folder_connection_open": {
-      "iconPath": "../assets/icons/light/folder_connection_open.svg"
+      "iconPath": "../../assets/icons/light/folder_connection_open.svg"
     },
     "folder_effects": {
-      "iconPath": "../assets/icons/light/folder_effects.svg"
+      "iconPath": "../../assets/icons/light/folder_effects.svg"
     },
     "folder_effects_open": {
-      "iconPath": "../assets/icons/light/folder_effects_open.svg"
+      "iconPath": "../../assets/icons/light/folder_effects_open.svg"
     },
     "folder_error": {
-      "iconPath": "../assets/icons/light/folder_error.svg"
+      "iconPath": "../../assets/icons/light/folder_error.svg"
     },
     "folder_error_open": {
-      "iconPath": "../assets/icons/light/folder_error_open.svg"
+      "iconPath": "../../assets/icons/light/folder_error_open.svg"
     },
     "folder_function": {
-      "iconPath": "../assets/icons/light/folder_function.svg"
+      "iconPath": "../../assets/icons/light/folder_function.svg"
     },
     "folder_function_open": {
-      "iconPath": "../assets/icons/light/folder_function_open.svg"
+      "iconPath": "../../assets/icons/light/folder_function_open.svg"
     },
     "folder_hooks": {
-      "iconPath": "../assets/icons/light/folder_hooks.svg"
+      "iconPath": "../../assets/icons/light/folder_hooks.svg"
     },
     "folder_hooks_open": {
-      "iconPath": "../assets/icons/light/folder_hooks_open.svg"
+      "iconPath": "../../assets/icons/light/folder_hooks_open.svg"
     },
     "folder_image": {
-      "iconPath": "../assets/icons/light/folder_image.svg"
+      "iconPath": "../../assets/icons/light/folder_image.svg"
     },
     "folder_image_open": {
-      "iconPath": "../assets/icons/light/folder_image_open.svg"
+      "iconPath": "../../assets/icons/light/folder_image_open.svg"
     },
     "folder_icon": {
-      "iconPath": "../assets/icons/light/folder_icon.svg"
+      "iconPath": "../../assets/icons/light/folder_icon.svg"
     },
     "folder_icon_open": {
-      "iconPath": "../assets/icons/light/folder_icon_open.svg"
+      "iconPath": "../../assets/icons/light/folder_icon_open.svg"
     },
     "folder_input": {
-      "iconPath": "../assets/icons/light/folder_input.svg"
+      "iconPath": "../../assets/icons/light/folder_input.svg"
     },
     "folder_input_open": {
-      "iconPath": "../assets/icons/light/folder_input_open.svg"
+      "iconPath": "../../assets/icons/light/folder_input_open.svg"
     },
     "folder_luau": {
-      "iconPath": "../assets/icons/light/folder_luau.svg"
+      "iconPath": "../../assets/icons/light/folder_luau.svg"
     },
     "folder_luau_open": {
-      "iconPath": "../assets/icons/light/folder_luau_open.svg"
+      "iconPath": "../../assets/icons/light/folder_luau_open.svg"
     },
     "folder_lune": {
-      "iconPath": "../assets/icons/light/folder_lune.svg"
+      "iconPath": "../../assets/icons/light/folder_lune.svg"
     },
     "folder_lune_open": {
-      "iconPath": "../assets/icons/light/folder_lune_open.svg"
+      "iconPath": "../../assets/icons/light/folder_lune_open.svg"
     },
     "folder_marketing": {
-      "iconPath": "../assets/icons/light/folder_marketing.svg"
+      "iconPath": "../../assets/icons/light/folder_marketing.svg"
     },
     "folder_marketing_open": {
-      "iconPath": "../assets/icons/light/folder_marketing_open.svg"
+      "iconPath": "../../assets/icons/light/folder_marketing_open.svg"
     },
     "folder_model": {
-      "iconPath": "../assets/icons/light/folder_model.svg"
+      "iconPath": "../../assets/icons/light/folder_model.svg"
     },
     "folder_model_open": {
-      "iconPath": "../assets/icons/light/folder_model_open.svg"
+      "iconPath": "../../assets/icons/light/folder_model_open.svg"
     },
     "folder_module": {
-      "iconPath": "../assets/icons/light/folder_module.svg"
+      "iconPath": "../../assets/icons/light/folder_module.svg"
     },
     "folder_module_open": {
-      "iconPath": "../assets/icons/light/folder_module_open.svg"
+      "iconPath": "../../assets/icons/light/folder_module_open.svg"
     },
     "folder_package": {
-      "iconPath": "../assets/icons/light/folder_package.svg"
+      "iconPath": "../../assets/icons/light/folder_package.svg"
     },
     "folder_package_open": {
-      "iconPath": "../assets/icons/light/folder_package_open.svg"
+      "iconPath": "../../assets/icons/light/folder_package_open.svg"
     },
     "folder_provider": {
-      "iconPath": "../assets/icons/light/folder_provider.svg"
+      "iconPath": "../../assets/icons/light/folder_provider.svg"
     },
     "folder_provider_open": {
-      "iconPath": "../assets/icons/light/folder_provider_open.svg"
+      "iconPath": "../../assets/icons/light/folder_provider_open.svg"
     },
     "folder_roblox": {
-      "iconPath": "../assets/icons/light/folder_roblox.svg"
+      "iconPath": "../../assets/icons/light/folder_roblox.svg"
     },
     "folder_roblox_open": {
-      "iconPath": "../assets/icons/light/folder_roblox_open.svg"
+      "iconPath": "../../assets/icons/light/folder_roblox_open.svg"
     },
     "folder_script": {
-      "iconPath": "../assets/icons/light/folder_script.svg"
+      "iconPath": "../../assets/icons/light/folder_script.svg"
     },
     "folder_script_open": {
-      "iconPath": "../assets/icons/light/folder_script_open.svg"
+      "iconPath": "../../assets/icons/light/folder_script_open.svg"
     },
     "folder_service": {
-      "iconPath": "../assets/icons/light/folder_service.svg"
+      "iconPath": "../../assets/icons/light/folder_service.svg"
     },
     "folder_service_open": {
-      "iconPath": "../assets/icons/light/folder_service_open.svg"
+      "iconPath": "../../assets/icons/light/folder_service_open.svg"
     },
     "folder_source": {
-      "iconPath": "../assets/icons/light/folder_source.svg"
+      "iconPath": "../../assets/icons/light/folder_source.svg"
     },
     "folder_source_open": {
-      "iconPath": "../assets/icons/light/folder_source_open.svg"
+      "iconPath": "../../assets/icons/light/folder_source_open.svg"
     },
     "folder_styles": {
-      "iconPath": "../assets/icons/light/folder_styles.svg"
+      "iconPath": "../../assets/icons/light/folder_styles.svg"
     },
     "folder_styles_open": {
-      "iconPath": "../assets/icons/light/folder_styles_open.svg"
+      "iconPath": "../../assets/icons/light/folder_styles_open.svg"
     },
     "folder_types": {
-      "iconPath": "../assets/icons/light/folder_types.svg"
+      "iconPath": "../../assets/icons/light/folder_types.svg"
     },
     "folder_types_open": {
-      "iconPath": "../assets/icons/light/folder_types_open.svg"
+      "iconPath": "../../assets/icons/light/folder_types_open.svg"
     },
     "folder_util": {
-      "iconPath": "../assets/icons/light/folder_util.svg"
+      "iconPath": "../../assets/icons/light/folder_util.svg"
     },
     "folder_util_open": {
-      "iconPath": "../assets/icons/light/folder_util_open.svg"
+      "iconPath": "../../assets/icons/light/folder_util_open.svg"
     },
     "folder_web": {
-      "iconPath": "../assets/icons/light/folder_web.svg"
+      "iconPath": "../../assets/icons/light/folder_web.svg"
     },
     "folder_web_open": {
-      "iconPath": "../assets/icons/light/folder_web_open.svg"
+      "iconPath": "../../assets/icons/light/folder_web_open.svg"
     },
     "fortran-fixed": {
-      "iconPath": "../assets/icons/light/fortran-fixed.svg"
+      "iconPath": "../../assets/icons/light/fortran-fixed.svg"
     },
     "javascript-config": {
-      "iconPath": "../assets/icons/light/javascript-config.svg"
+      "iconPath": "../../assets/icons/light/javascript-config.svg"
     },
     "license": {
-      "iconPath": "../assets/icons/light/license.svg"
+      "iconPath": "../../assets/icons/light/license.svg"
     },
     "lua-config": {
-      "iconPath": "../assets/icons/light/lua-config.svg"
+      "iconPath": "../../assets/icons/light/lua-config.svg"
     },
     "luau-config": {
-      "iconPath": "../assets/icons/light/luau-config.svg"
+      "iconPath": "../../assets/icons/light/luau-config.svg"
     },
     "luau-def": {
-      "iconPath": "../assets/icons/light/luau-def.svg"
+      "iconPath": "../../assets/icons/light/luau-def.svg"
     },
     "markdownx": {
-      "iconPath": "../assets/icons/light/markdownx.svg"
+      "iconPath": "../../assets/icons/light/markdownx.svg"
     },
     "npm-lock": {
-      "iconPath": "../assets/icons/light/npm-lock.svg"
+      "iconPath": "../../assets/icons/light/npm-lock.svg"
     },
     "package-config": {
-      "iconPath": "../assets/icons/light/package-config.svg"
+      "iconPath": "../../assets/icons/light/package-config.svg"
     },
     "package-lock": {
-      "iconPath": "../assets/icons/light/package-lock.svg"
+      "iconPath": "../../assets/icons/light/package-lock.svg"
     },
     "pcss": {
-      "iconPath": "../assets/icons/light/pcss.svg"
+      "iconPath": "../../assets/icons/light/pcss.svg"
     },
     "roblox-config": {
-      "iconPath": "../assets/icons/light/roblox-config.svg"
+      "iconPath": "../../assets/icons/light/roblox-config.svg"
     },
     "roblox-lock": {
-      "iconPath": "../assets/icons/light/roblox-lock.svg"
+      "iconPath": "../../assets/icons/light/roblox-lock.svg"
     },
     "roblox-model": {
-      "iconPath": "../assets/icons/light/roblox-model.svg"
+      "iconPath": "../../assets/icons/light/roblox-model.svg"
     },
     "rust-config": {
-      "iconPath": "../assets/icons/light/rust-config.svg"
+      "iconPath": "../../assets/icons/light/rust-config.svg"
     },
     "security": {
-      "iconPath": "../assets/icons/light/security.svg"
+      "iconPath": "../../assets/icons/light/security.svg"
     },
     "shell": {
-      "iconPath": "../assets/icons/light/shell.svg"
+      "iconPath": "../../assets/icons/light/shell.svg"
     },
     "tailwind": {
-      "iconPath": "../assets/icons/light/tailwind.svg"
+      "iconPath": "../../assets/icons/light/tailwind.svg"
     },
     "test-blue": {
-      "iconPath": "../assets/icons/light/test-blue.svg"
+      "iconPath": "../../assets/icons/light/test-blue.svg"
     },
     "test-teal": {
-      "iconPath": "../assets/icons/light/test-teal.svg"
+      "iconPath": "../../assets/icons/light/test-teal.svg"
     },
     "test-yellow": {
-      "iconPath": "../assets/icons/light/test-yellow.svg"
+      "iconPath": "../../assets/icons/light/test-yellow.svg"
     },
     "text": {
-      "iconPath": "../assets/icons/light/text.svg"
+      "iconPath": "../../assets/icons/light/text.svg"
     },
     "typescript-config": {
-      "iconPath": "../assets/icons/light/typescript-config.svg"
+      "iconPath": "../../assets/icons/light/typescript-config.svg"
     },
     "wally-lock": {
-      "iconPath": "../assets/icons/light/wally-lock.svg"
+      "iconPath": "../../assets/icons/light/wally-lock.svg"
     },
     "makefile": {
-      "iconPath": "../assets/icons/light/makefile.svg"
+      "iconPath": "../../assets/icons/light/makefile.svg"
     },
     "node": {
-      "iconPath": "../assets/icons/light/node.svg"
+      "iconPath": "../../assets/icons/light/node.svg"
     },
     "nuxt": {
-      "iconPath": "../assets/icons/light/nuxt.svg"
+      "iconPath": "../../assets/icons/light/nuxt.svg"
     },
     "yaml": {
-      "iconPath": "../assets/icons/light/yaml.svg"
+      "iconPath": "../../assets/icons/light/yaml.svg"
     },
     "folder_test2": {
-      "iconPath": "../assets/icons/light/folder_test2.svg"
+      "iconPath": "../../assets/icons/light/folder_test2.svg"
     },
     "folder_test2_open": {
-      "iconPath": "../assets/icons/light/folder_test2_open.svg"
+      "iconPath": "../../assets/icons/light/folder_test2_open.svg"
     },
     "folder-target-open": {
-      "iconPath": "../assets/icons/light/folder-target-open.svg"
+      "iconPath": "../../assets/icons/light/folder-target-open.svg"
     },
     "web-assembly": {
-      "iconPath": "../assets/icons/light/web-assembly.svg"
+      "iconPath": "../../assets/icons/light/web-assembly.svg"
     },
     "workflow": {
-      "iconPath": "../assets/icons/light/workflow.svg"
+      "iconPath": "../../assets/icons/light/workflow.svg"
     },
     "yarn-lock": {
-      "iconPath": "../assets/icons/light/yarn-lock.svg"
+      "iconPath": "../../assets/icons/light/yarn-lock.svg"
     },
       "folder-windows": {
-      "iconPath": "../assets/icons/light/folder-windows.svg"
+      "iconPath": "../../assets/icons/light/folder-windows.svg"
     },
     "folder-windows-open": {
-      "iconPath": "../assets/icons/light/folder-windows-open.svg"
+      "iconPath": "../../assets/icons/light/folder-windows-open.svg"
     },
     "folder-macos": {
-      "iconPath": "../assets/icons/light/folder-macos.svg"
+      "iconPath": "../../assets/icons/light/folder-macos.svg"
     },
     "folder-macos-open": {
-      "iconPath": "../assets/icons/light/folder-macos-open.svg"
+      "iconPath": "../../assets/icons/light/folder-macos-open.svg"
     },
     "folder-ios": {
-      "iconPath": "../assets/icons/light/folder-ios.svg"
+      "iconPath": "../../assets/icons/light/folder-ios.svg"
     },
     "folder-ios-open": {
-      "iconPath": "../assets/icons/light/folder-ios-open.svg"
+      "iconPath": "../../assets/icons/light/folder-ios-open.svg"
     },
     "folder-linux": {
-      "iconPath": "../assets/icons/light/folder-linux.svg"
+      "iconPath": "../../assets/icons/light/folder-linux.svg"
     },
     "folder-linux-open": {
-      "iconPath": "../assets/icons/light/folder-linux-open.svg"
+      "iconPath": "../../assets/icons/light/folder-linux-open.svg"
     },
     "folder-android": {
-      "iconPath": "../assets/icons/light/folder-android.svg"
+      "iconPath": "../../assets/icons/light/folder-android.svg"
     },
     "folder-android-open": {
-      "iconPath": "../assets/icons/light/folder-android-open.svg"
+      "iconPath": "../../assets/icons/light/folder-android-open.svg"
     },
     "folder-dart-tool": {
-      "iconPath": "../assets/icons/light/folder-dart-tool.svg"
+      "iconPath": "../../assets/icons/light/folder-dart-tool.svg"
     },
     "folder-dart-tool-open": {
-      "iconPath": "../assets/icons/light/folder-dart-tool-open.svg"
+      "iconPath": "../../assets/icons/light/folder-dart-tool-open.svg"
     },
     "folder-astro": {
-      "iconPath": "../assets/icons/light/folder-astro.svg"
+      "iconPath": "../../assets/icons/light/folder-astro.svg"
     },
     "folder-astro-open": {
-      "iconPath": "../assets/icons/light/folder-astro-open.svg"
+      "iconPath": "../../assets/icons/light/folder-astro-open.svg"
     },
     "folder-flutter": {
-      "iconPath": "../assets/icons/light/folder-flutter.svg"
+      "iconPath": "../../assets/icons/light/folder-flutter.svg"
     },
     "folder-flutter-open": {
-      "iconPath": "../assets/icons/light/folder-flutter-open.svg"
+      "iconPath": "../../assets/icons/light/folder-flutter-open.svg"
     },
     "flutter-file": {
-      "iconPath": "../assets/icons/light/flutter-file.svg"
+      "iconPath": "../../assets/icons/light/flutter-file.svg"
     },
     "bloc-file": {
-      "iconPath": "../assets/icons/light/bloc-file.svg"
+      "iconPath": "../../assets/icons/light/bloc-file.svg"
     },
     "getx-file": {
-      "iconPath": "../assets/icons/light/getx-file.svg"
+      "iconPath": "../../assets/icons/light/getx-file.svg"
     },
     "riverpod-file": {
-      "iconPath": "../assets/icons/light/riverpod-file.svg"
+      "iconPath": "../../assets/icons/light/riverpod-file.svg"
     },
     "mobx-file": {
-      "iconPath": "../assets/icons/light/mobx-file.svg"
+      "iconPath": "../../assets/icons/light/mobx-file.svg"
     },
     "state-file": {
-      "iconPath": "../assets/icons/light/state-file.svg"
+      "iconPath": "../../assets/icons/light/state-file.svg"
     },
     "service-file": {
-      "iconPath": "../assets/icons/light/service-file.svg"
+      "iconPath": "../../assets/icons/light/service-file.svg"
     },
     "module-file": {
-      "iconPath": "../assets/icons/light/module-file.svg"
+      "iconPath": "../../assets/icons/light/module-file.svg"
     },
     "getx-folder": {
-      "iconPath": "../assets/icons/light/getx-folder.svg"
+      "iconPath": "../../assets/icons/light/getx-folder.svg"
     },
     "getx-folder-open": {
-      "iconPath": "../assets/icons/light/getx-folder-open.svg"
+      "iconPath": "../../assets/icons/light/getx-folder-open.svg"
     },
     "mobx-folder": {
-      "iconPath": "../assets/icons/light/mobx-folder.svg"
+      "iconPath": "../../assets/icons/light/mobx-folder.svg"
     },
     "mobx-folder-open": {
-      "iconPath": "../assets/icons/light/mobx-folder-open.svg"
+      "iconPath": "../../assets/icons/light/mobx-folder-open.svg"
     },
     "riverpod-folder": {
-      "iconPath": "../assets/icons/light/riverpod-folder.svg"
+      "iconPath": "../../assets/icons/light/riverpod-folder.svg"
     },
     "riverpod-folder-open": {
-      "iconPath": "../assets/icons/light/riverpod-folder-open.svg"
+      "iconPath": "../../assets/icons/light/riverpod-folder-open.svg"
     },
     "state-folder": {
-      "iconPath": "../assets/icons/light/state-folder.svg"
+      "iconPath": "../../assets/icons/light/state-folder.svg"
     },
     "state-folder-open": {
-      "iconPath": "../assets/icons/light/state-folder-open.svg"
+      "iconPath": "../../assets/icons/light/state-folder-open.svg"
     },
     "lynx": {
-      "iconPath": "../assets/icons/light/lynx-file.svg"
+      "iconPath": "../../assets/icons/light/lynx-file.svg"
     },
     "lynx-dark": {
-      "iconPath": "../assets/icons/light/lynx-file-dark.svg"
+      "iconPath": "../../assets/icons/light/lynx-file-dark.svg"
     },
     "lynx-config-file": {
-      "iconPath": "../assets/icons/light/lynx-config-file.svg"
+      "iconPath": "../../assets/icons/light/lynx-config-file.svg"
     },
     "lynx-config-file-dark": {
-      "iconPath": "../assets/icons/light/lynx-config-file-dark.svg"
+      "iconPath": "../../assets/icons/light/lynx-config-file-dark.svg"
     },
     "folder-notification": {
-      "iconPath": "../assets/icons/light/folder-notification.svg"
+      "iconPath": "../../assets/icons/light/folder-notification.svg"
     },
     "folder-notification-open": {
-      "iconPath": "../assets/icons/light/folder-notification-open.svg"
+      "iconPath": "../../assets/icons/light/folder-notification-open.svg"
     },
     "folder-keymaps": {
-      "iconPath": "../assets/icons/light/folder-keymaps.svg"
+      "iconPath": "../../assets/icons/light/folder-keymaps.svg"
     },
     "folder-keymaps-open": {
-      "iconPath": "../assets/icons/light/folder-keymaps-open.svg"
+      "iconPath": "../../assets/icons/light/folder-keymaps-open.svg"
     },
     "folder-shortcuts": {
-      "iconPath": "../assets/icons/light/folder-shortcuts.svg"
+      "iconPath": "../../assets/icons/light/folder-shortcuts.svg"
     },
     "folder-shortcuts-open": {
-      "iconPath": "../assets/icons/light/folder-shortcuts-open.svg"
+      "iconPath": "../../assets/icons/light/folder-shortcuts-open.svg"
     },
     "folder-claude": {
-      "iconPath": "../assets/icons/light/folder-claude.svg"
+      "iconPath": "../../assets/icons/light/folder-claude.svg"
     },
     "folder-claude-open": {
-      "iconPath": "../assets/icons/light/folder-claude-open.svg"
+      "iconPath": "../../assets/icons/light/folder-claude-open.svg"
     },
     "file-claude": {
-      "iconPath": "../assets/icons/light/claude.svg"
+      "iconPath": "../../assets/icons/light/claude.svg"
     },
     "folder-kiro": {
-      "iconPath": "../assets/icons/light/folder-kiro.svg"
+      "iconPath": "../../assets/icons/light/folder-kiro.svg"
     },
     "folder-kiro-open": {
-      "iconPath": "../assets/icons/light/folder-kiro-open.svg"
+      "iconPath": "../../assets/icons/light/folder-kiro-open.svg"
     }
   },
   "folderNames": {

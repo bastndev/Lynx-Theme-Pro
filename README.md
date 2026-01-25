@@ -15,6 +15,22 @@
   <summary align="center"><strong>(𝗖𝗹𝗶𝗰𝗸) Lynx Theme Pro</strong></summary>
 
   <details>
+    <summary>🎭 Icons ㅤ (Screenshots)</summary>
+
+#### A. Style
+
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/icons/a-style.png" alt="Icon Style A Screenshot" width="100%">
+
+#### B. Style
+
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/icons/b-style.png" alt="Icon Style B Screenshot" width="100%">
+
+#### C. Style
+
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/icons/c-style.png" alt="Icon Style C Screenshot" width="100%">
+  </details>
+
+  <details>
     <summary>🎨 Themes (Screenshots)</summary>
 
 #### 1. DARK
@@ -44,18 +60,10 @@
 #### 7. NVIM
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/nvim-theme.png" alt="NVIM Theme Screenshot" width="100%">
-  </details>
 
-  <details>
-    <summary>🎭 Icons ㅤ (Screenshots)</summary>
+#### 8. TEST
 
-#### A. Style
-
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/icons/a-style.png" alt="Icon Style A Screenshot" width="100%">
-
-#### B. Style
-
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/icons/b-style.png" alt="Icon Style B Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/test-theme.png" alt="TEST Theme Screenshot" width="100%">
   </details>
 </details>
 
