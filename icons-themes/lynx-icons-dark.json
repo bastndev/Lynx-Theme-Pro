@@ -385,7 +385,7 @@
       "iconPath": "../assets/icons/dark/swift.svg"
     },
     "react_ts": {
-      "iconPath": "../assets/icons/dark/react_ts.svg"
+      "iconPath": "../assets/icons/dark/react-ts.svg"
     },
     "search": {
       "iconPath": "../assets/icons/dark/search.svg"
@@ -949,7 +949,7 @@
       "iconPath": "../assets/icons/dark/bower.svg"
     },
     "eslint": {
-      "iconPath": "../assets/icons/dark/eslint.svg"
+      "iconPath": "../assets/icons/dark/eslint-b.svg"
     },
     "conduct": {
       "iconPath": "../assets/icons/dark/conduct.svg"
@@ -1003,7 +1003,7 @@
       "iconPath": "../assets/icons/dark/prettier.svg"
     },
     "prettier-file": {
-      "iconPath": "../assets/icons/dark/prettier.svg"
+      "iconPath": "../assets/icons/dark/prettier-file.svg"
     },
     "renovate": {
       "iconPath": "../assets/icons/dark/renovate.svg"
@@ -3716,6 +3716,12 @@
     },
     "xml-before": {
       "iconPath": "../assets/icons/dark/xml-before.svg"
+    },
+    "expo-app": {
+      "iconPath": "../assets/icons/dark/expo-app.svg"
+    },
+    "expo-eas": {
+      "iconPath": "../assets/icons/dark/expo-b.svg"
     }
   },
   "folderNames": {
@@ -13267,7 +13273,9 @@
     ".shellcheckrc": "shellcheck",
     "tsdoc.json": "tsdoc",
     "UNLICENSE": "unlicense",
-    "warp.toml": "warp"
+    "warp.toml": "warp",
+    "app.json": "expo-app",
+    "eas.json": "expo-eas"
   },
   "languageIds": {
     "git": "git",

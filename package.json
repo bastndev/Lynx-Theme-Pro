@@ -1,8 +1,8 @@
 {
   "name": "lynx-theme",
-  "displayName": "Lynx Theme Pro",
+  "displayName": "Lynx Icon Theme Pro | 2026",
   "description": "Available now: VSCode • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
-  "version": "3.3.3",
+  "version": "3.3.25",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
@@ -81,6 +81,11 @@
         "label": "7. NVIM (Lynx Theme Pro)",
         "uiTheme": "vs-dark",
         "path": "./themes/Lynx-NVIM-theme.json"
+      },
+      {
+        "label": "8. TEST (Lynx Theme Pro)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lynx-Test-theme.json"
       }
     ],
 
@@ -94,6 +99,11 @@
         "id": "lynx-pro-light",
         "label": "Lynx Icons - (Style B)",
         "path": "./icons-themes/lynx-icons-light.json"
+      },
+      {
+        "id": "lynx-pro-gray",
+        "label": "Lynx Icons - (Style C)",
+        "path": "./icons-themes/lynx-icons-gray.json"
       }
     ]
   }
