@@ -145,16 +145,16 @@
     "minimap.background":                          "#0C0D0E",    // - Minimap bg
     "minimap.errorHighlight":                      "#e5484d",    // - Error highlight
     "minimap.warningHighlight":                    "#ffca16",    // - Warning highlight
-    "minimap.findMatchHighlight":                  "#003362fb",    // - Mini map Find match
-    "minimap.selectionHighlight":                  "#004662fb",    // - Selection
+    "minimap.findMatchHighlight":                  "#003362fb",  // - Mini map Find match
+    "minimap.selectionHighlight":                  "#004662fb",  // - Selection
 
     // "minimapSlider.background":                    "#00000033",    // - Slider bg
     // "minimapSlider.hoverBackground":               "#00000059",    // - Slider hover
     // "minimapSlider.activeBackground":              "#00000059",    // - Slider active
 
     // --- -- - Editor Line Number - LEFT
-    "editorLineNumber.activeForeground":     "#edeef0",    // - Active line number
-    "editorLineNumber.foreground":           "#696e77",    // - Line numbers
+    "editorLineNumber.activeForeground":     "#edeef0",     // - Active line number
+    "editorLineNumber.foreground":           "#696e77",     // - Line numbers
 
     // --- -- - Editor Suggest widget MID
     "editorSuggestWidget.background":         "#111113",    // - bg suggestion
