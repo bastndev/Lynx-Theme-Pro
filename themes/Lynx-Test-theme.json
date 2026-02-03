@@ -103,7 +103,7 @@
     "editor.lineHighlightBackground":        "#18191b",    // - Line highlight bg (improved contrast)
     "editor.foldBackground":                 "#0090ff10",
     "editor.lineHighlightBorder":            "#212225",    // - Line highlight border (visible)
-    "editor.selectionBackground":            "#0090ff60",    // - Selection bg (theme consistent)
+    "editor.selectionBackground":            "#0091ff33",    // - Selection bg (theme consistent)
     "editor.rangeHighlightBackground":       "#0090ff15",  // - Range highlight bg
     "editor.linkedEditingBackground":        "#2870bd30",
     "editor.wordHighlightBackground":        "#2e3135fb",    // - Word highlight bg
