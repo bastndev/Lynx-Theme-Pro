@@ -109,7 +109,7 @@
     "productIconThemes": [
       {
         "id": "lynx-material-icons",
-        "label": "Lynx Material Icons",
+        "label": "Lynx (Material) Icons",
         "path": "./icons/material-icons/lynx-material-icon.json"
       }
     ]
