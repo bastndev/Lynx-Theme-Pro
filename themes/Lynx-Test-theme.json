@@ -146,7 +146,7 @@
     "minimap.errorHighlight":                      "#e5484d",    // - Error highlight
     "minimap.warningHighlight":                    "#ffca16",    // - Warning highlight
     "minimap.findMatchHighlight":                  "#003362fb",    // - Mini map Find match
-    "minimap.selectionHighlight":                  "#2e3135fb",    // - Selection
+    "minimap.selectionHighlight":                  "#004662fb",    // - Selection
 
     // "minimapSlider.background":                    "#00000033",    // - Slider bg
     // "minimapSlider.hoverBackground":               "#00000059",    // - Slider hover
@@ -291,7 +291,7 @@
     "statusBarItem.prominentBackground":     "#363a3f",    // - Bottom box bg
 
     // --- -- - Market place VScode txt color
-    "extensionIcon.verifiedForeground":      "#3dd68c",    // - Verified icon
+    "extensionIcon.verifiedForeground":      "#0090ff",    // - Verified icon [[[]]]
     "textPreformat.foreground":              "#ffca16",    // - Preformatted text
     "textLink.foreground":                   "#0090ff",    // - Link text color - Status Bar
     "textLink.activeForeground":             "#0090ff",    // - Active link color - HOVER
