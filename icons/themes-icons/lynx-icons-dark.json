@@ -2142,6 +2142,12 @@
     "folder-components-open": {
       "iconPath": "../../assets/icons/dark/folder-components-open.svg"
     },
+    "folder-wid": {
+      "iconPath": "../../assets/icons/dark/folder-widgets.svg"
+    },
+    "folder-widgets-open": {
+      "iconPath": "../../assets/icons/dark/folder-widgets-open.svg"
+    },
     "folder-verdaccio": {
       "iconPath": "../../assets/icons/dark/folder-verdaccio.svg"
     },
