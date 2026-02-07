@@ -87,12 +87,12 @@
     "gitDecoration.conflictingResourceForeground":   "#9a5cd0",    // - Merge conflicts
     "gitDecoration.deletedResourceForeground":       "#e5484d",    // - Deleted files
     "gitDecoration.ignoredResourceForeground":       "#696e77",    // - Ignored files
-    "gitDecoration.untrackedResourceForeground":     "#3dd68c",    // - Untracked files
+    "gitDecoration.untrackedResourceForeground":     "#13ff3e",    // - Untracked files
     "gitDecoration.stageModifiedResourceForeground": "#ffca16",    // - Staged modified files
     "gitDecoration.stageDeletedResourceForeground":  "#ffca16",    // - Staged deleted files
-    "gitDecoration.submoduleResourceForeground":     "#9a5cd0",    // - Submodules
+    "gitDecoration.submoduleResourceForeground":     "#ffca16",    // - Submodules
     "gitDecoration.renamedResourceForeground":       "#ffca16",    // - Renamed files
-    "gitDecoration.addedResourceForeground":         "#3dd68c",    // - Added files
+    "gitDecoration.addedResourceForeground":         "#ffca16",    // - Added files
     "editorGhostText.foreground":                    "#696e77",    // - git commit txt
     "editorGutter.deletedBackground":                "#e5484d",    // - Delete code
     "editorGutter.modifiedBackground":               "#3b9eff",    // - Modified code
