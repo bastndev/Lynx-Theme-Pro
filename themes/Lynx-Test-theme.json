@@ -37,7 +37,7 @@
     "banner.iconForeground":                 "#0090ff",
     "activityBar.background":                "#0C0D0E",    // - Activity bar bg
     "activityBar.foreground":                "#b0b4ba",    // - Activity bar text
-    "activityBar.border":                    "#111113",    // - Activity bar border
+    "activityBar.border":                    "#00000000",    // - Activity bar border
     "activityBarTop.inactiveForeground":     "#696e77",    // - No selection icon
     "activityBarBadge.background":           "#0090ff",    // - Badge bg
     "activityBarBadge.foreground":           "#000000",    // - Badge text
@@ -100,7 +100,7 @@
     // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#111113",    // - Editor bg
     "editor.foreground":                     "#edeef0",    // - Editor [STORE] text
-    "editor.lineHighlightBackground":        "#18191b",    // - Line highlight bg (improved contrast)
+    "editor.lineHighlightBackground":        "#0090ff08",    // - Line highlight bg (Modern subtle)
     "editor.foldBackground":                 "#0090ff10",
     "editor.lineHighlightBorder":            "#212225",    // - Line highlight border (visible)
     "editor.selectionBackground":            "#0091ff33",    // - Selection bg (theme consistent)
@@ -115,7 +115,7 @@
     "editorGroupHeader.tabsBorder":          "#212225",    // - Tabs header border line horizontal
     "editorGroupHeader.border":              "#111113",    // - Editor group header border=_
     "tab.border":                            "#111113",    // - Tab border Vertical
-    "tab.activeBackground":                  "#18191b",    // - bg select file 
+    "tab.activeBackground":                  "#111113",    // - bg select file (Seamless)
     "tab.activeBorderTop":                   "#0090ff",    // - Active tab border top
     "tab.activeForeground":                  "#edeef0",    // - Active tab text
     "tab.activeBorder":                      "#18191b",    // - Active tab border
@@ -183,7 +183,7 @@
     "input.foreground":                      "#edeef0",    // - Input text color
     "input.border":                          "#363a3f",    // - Input border color
     "input.placeholderForeground":           "#696e77",    // - Input placeholder text
-    "focusBorder":                           "#00000000",  // - Border - AI and box 1
+    "focusBorder":                           "#0090ff50",  // - Border - AI and box 1
     "editorCursor.foreground":               "#b0b4ba",    // - Line point
 
     "disabledForeground":                    "#696e77",    // - Disabled text color
@@ -195,6 +195,7 @@
 
     "chat.requestBorder":                    "#363a3f",    // - Chat request border
     "editorWidget.foreground":               "#edeef0",    // - AI Select text & ctrl+p
+    "editorWidget.background":               "#141416",    // - Floating widget bg
 
     "peekViewTitleDescription.foreground":   "#777b84",    // - Select copilot
     "editorGutter.addedBackground":          "#3dd68c",    // - Added lines bg
@@ -206,11 +207,11 @@
     "progressBar.background":                "#0090ff",    // - Progress bar bg
 
     //--- -- - ctrl+shift+p | Inputs & Quick
-    "editorWidget.background":               "#111113",    // - bg
+    // "editorWidget.background":               "#111113",    // - bg (Removed duplicate)
     "quickInputList.focusBackground":        "#2e3135",    // - Focus bg
     "list.highlightForeground":              "#0090ff",    // - Highlight text color
 
-    "quickInput.background":                 "#111113",    // - Quick input bg
+    "quickInput.background":                 "#141416",    // - Quick input bg
     "quickInput.foreground":                 "#edeef0",    // - Quick input text
     "quickInputList.focusIconForeground":    "#edeef0",    // - Focus icon
     "quickInputList.focusForeground":        "#edeef0",    // - Focus text
@@ -291,7 +292,7 @@
     "statusBarItem.prominentBackground":     "#363a3f",    // - Bottom box bg
 
     // --- -- - Market place VScode txt color
-    "extensionIcon.verifiedForeground":      "#0090ff",    // - Verified icon [[[]]]
+    "extensionIcon.verifiedForeground":      "#e5e5e5",    // - Verified icon
     "textPreformat.foreground":              "#ffca16",    // - Preformatted text
     "textLink.foreground":                   "#0090ff",    // - Link text color - Status Bar
     "textLink.activeForeground":             "#0090ff",    // - Active link color - HOVER
@@ -302,14 +303,14 @@
     "textCodeBlock.background":              "#18191b",    // - Code block bg 
 
     // ---- -- - LINES
-    "titleBar.border":                       "#111113",    // - Title bar LINE TOP -T-
+    "titleBar.border":                       "#00000000",    // - Title bar LINE TOP -T-
     "sideBarSectionHeader.border":           "#111113",    // - Line top bottom right or left =T=
-    "sideBar.border":                        "#212225",    // - LINE RIGHT & LEFT |-|
+    "sideBar.border":                        "#ffffff06",    // - LINE RIGHT & LEFT |-|
     "editorOverviewRuler.border":            "#212225",    // - Overview ruler border LINE  ||-
-    "statusBar.border":                      "#212225",    // - Status bar LINE border (Bottom)
+    "statusBar.border":                      "#ffffff06",    // - Status bar LINE border (Bottom)
 
     // ---- -- - Selection BG - ctrl+F
-    "selection.background":                        "#2e3135",   // - selection bg
+    "selection.background":                        "#0090ff20",   // - selection bg
 
     "editor.findMatchBackground":                  "#003362",   // - Find match bg ---|
     "editor.findMatchBorder":                      "#0090ff",   // - Find match border
