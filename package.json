@@ -1,8 +1,8 @@
 {
   "name": "lynx-theme",
-  "displayName": "Lynx Icon Theme Pro | 2026",
-  "description": "Available now: VSCode • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
-  "version": "3.8.0",
+  "displayName": "Lynx Theme + Icons",
+  "description": "Available now: VSCode • Antigravity • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
+  "version": "4.0.0",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
@@ -48,42 +48,42 @@
   "contributes": {
     "themes": [
       {
-        "label": "1. DARK (Lynx Theme Pro)",
+        "label": "1. DARKㅤㅤ(Lynx Theme)",
         "uiTheme": "vs-dark",
         "path": "./themes/Lynx-Dark-theme.json"
       },
       {
-        "label": "2. LIGHT (Lynx Theme Pro)",
+        "label": "2. LIGHT ㅤ (Lynx Theme)",
         "uiTheme": "vs",
         "path": "./themes/Lynx-Light-theme.json"
       },
       {
-        "label": "3. NIGHT (Lynx Theme Pro)",
+        "label": "3. NIGHT ㅤ(Lynx Theme)",
         "uiTheme": "vs-dark",
         "path": "./themes/Lynx-Night-theme.json"
       },
       {
-        "label": "4. GHIBLI (Lynx Theme Pro)",
+        "label": "4. GHIBLI ㅤ(Lynx Theme)",
         "uiTheme": "vs",
         "path": "./themes/Lynx-xGhibli-theme.json"
       },
       {
-        "label": "5. COFFEE (Lynx Theme Pro)",
+        "label": "5. COFFEE (Lynx Theme)",
         "uiTheme": "vs-dark",
         "path": "./themes/Lynx-yCoffee-theme.json"
       },
       {
-        "label": "6. KIRO (Lynx Theme Pro)",
+        "label": "6. KIROㅤㅤ(Lynx Theme)",
         "uiTheme": "vs-dark",
         "path": "./themes/Lynx-zKiro-theme.json"
       },
       {
-        "label": "7. NVIM (Lynx Theme Pro)",
+        "label": "7. NVIMㅤㅤ(Lynx Theme)",
         "uiTheme": "vs-dark",
         "path": "./themes/Lynx-NVIM-theme.json"
       },
       {
-        "label": "8. TEST (Lynx Theme Pro)",
+        "label": "8. TESTㅤㅤ(Lynx Theme)",
         "uiTheme": "vs-dark",
         "path": "./themes/Lynx-Test-theme.json"
       }
@@ -109,7 +109,7 @@
     "productIconThemes": [
       {
         "id": "lynx-material-icons",
-        "label": "Lynx Material Icons",
+        "label": "Lynx (Material) Icons",
         "path": "./icons/material-icons/lynx-material-icon.json"
       }
     ]

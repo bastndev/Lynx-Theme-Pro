@@ -26,56 +26,62 @@ graph TB
     subgraph "📦 Lynx Theme Pro Extension"
         direction TB
         A[package.json<br/>📋 Main Configuration]
-        
+
         subgraph "🔧 Core Structure"
-            direction LR
-            B[Contributes] --> C[🎨 Themes]
-            B --> D[🎯 Icon Themes]
+            direction TB
+            B[Contributes] --> C[themes/<br/>🎨 Themes Dir]
+            B --> D[icons/<br/>🎯 Icons Dir]
         end
-        
+
         subgraph "🎨 Color Themes Collection"
             direction TB
-            E[Lynx-Dark-theme.json<br/>🌙 Dark Theme]
-            F[Lynx-Light-theme.json<br/>☀️ Light Theme]
-            G[Lynx-Night-theme.json<br/>🌃 Night Theme]
-            H[Lynx-xGhibli-theme.json<br/>🌸 Ghibli Theme]
-            I[Lynx-yCoffee-theme.json<br/>☕ Coffee Theme]
-            J[Lynx-zKiro-theme.json<br/>🤖 Kiro Theme]
-            K1[Lynx-NVIM-theme.json<br/>⚡ NVIM Theme]
-            K2[Lynx-Test-theme.json<br/>🧪 Test Theme]
+            C --> E[Lynx-Dark-theme.json<br/>🌙 Dark Theme]
+            C --> F[Lynx-Light-theme.json<br/>☀️ Light Theme]
+            C --> G[Lynx-Night-theme.json<br/>🌃 Night Theme]
+            C --> H[Lynx-xGhibli-theme.json<br/>🌸 Ghibli Theme]
+            C --> I[Lynx-yCoffee-theme.json<br/>☕ Coffee Theme]
+            C --> J[Lynx-zKiro-theme.json<br/>🤖 Kiro Theme]
+            C --> K1[Lynx-NVIM-theme.json<br/>⚡ NVIM Theme]
+            C --> K2[Lynx-Test-theme.json<br/>🧪 Test Theme]
         end
-        
-        subgraph "🎯 Icon System"
+
+        subgraph "🎯 Icon System (in icons/)"
             direction TB
-            L1[themes-icons/<br/>🎨 Theme Icons]
-            L2[material-icons/<br/>📦 Material Icons]
-            L[assets/icons/<br/>🎨 SVG Collection]
-            
+            D --> L1[themes-icons/<br/>🎨 Theme Icons]
+            D --> L2[material-icons/<br/>📦 Material Icons]
+
             subgraph "📦 Icon Theme Variants"
                 direction LR
-                M1[lynx-icons-dark.json<br/>🌙 Style A]
-                M2[lynx-icons-light.json<br/>☀️ Style B]
-                M3[lynx-icons-gray.json<br/>⚪ Style C]
+                L1 --> M1[lynx-icons-dark.json<br/>🌙 Style A]
+                L1 --> M2[lynx-icons-light.json<br/>☀️ Style B]
+                L1 --> M3[lynx-icons-gray.json<br/>⚪ Style C]
             end
-            
+
             subgraph "🎨 Product Icons"
                 direction LR
-                N1[lynx-material-icon.json<br/>📦 Material Design]
-            end
-            
-            subgraph "📦 Icon Categories"
-                direction LR
-                O1[📄 File Icons<br/>500+ types]
-                O2[📁 Folder Icons<br/>100+ variants]
-                O3[🔧 Special Icons<br/>Specialized]
+                L2 --> N1[lynx-material-icon.json<br/>📦 Material Design]
+                L2 --> N2[lynx-material-icons.woff<br/>🔤 Font File]
             end
         end
-        
+
+        subgraph "🖼️ Assets (in assets/)"
+            direction TB
+            AS[assets/] --> AI[icons/]
+            AS --> AM[images/]
+            AS --> ASS[screenshots/]
+
+            subgraph "📂 Icon Assets"
+                direction LR
+                AI --> AID[dark/]
+                AI --> AIL[light/]
+                AI --> AIG[gray/]
+            end
+        end
+
         subgraph "📚 Documentation & Resources"
             direction LR
             P[README.md<br/>📖 Documentation]
             Q[CONTRIBUTING.md<br/>🤝 Guide]
-            R[assets/images/<br/>🖼️ Resources]
             S[CHANGELOG.md<br/>📝 History]
         end
 
@@ -85,38 +91,21 @@ graph TB
             U[vsce / Release Process]
         end
     end
-    
+
     subgraph "🎯 VS Code Integration Layer"
         direction TB
         V[VS Code Extension Host<br/>🏠 Runtime Environment]
-        
+
         subgraph "⚙️ Engine Systems"
             direction LR
             W[Theme Engine<br/>🎨 Color Processing]
             X[Icon Theme Engine<br/>📁 Icon Processing]
         end
-        
+
         Y[User Interface<br/>👤 Visual Output]
     end
-    
+
     A --> B
-    C --> E
-    C --> F
-    C --> G
-    C --> H
-    C --> I
-    C --> J
-    C --> K1
-    C --> K2
-    D --> L1
-    D --> L2
-    L1 --> M1
-    L1 --> M2
-    L1 --> M3
-    L2 --> N1
-    L --> O1
-    L --> O2
-    L --> O3
     A --> T
     T --> U
     U -.-> S
@@ -124,4 +113,11 @@ graph TB
     V -.-> X
     W --> Y
     X --> Y
+
+    %% Connect logic
+    E -.-> W
+    F -.-> W
+    M1 -.-> X
+    M2 -.-> X
+    N1 -.-> X
 ```

@@ -12,7 +12,7 @@
 <br>
 
 <details>
-  <summary align="center"><strong>(𝗖𝗹𝗶𝗰𝗸) Lynx Theme Pro</strong></summary>
+  <summary align="center"><strong>(𝗖𝗹𝗶𝗰𝗸) Lynx Theme + Icons</strong></summary>
 
   <details>
     <summary>🎭 Icons ㅤ (Screenshots)</summary>

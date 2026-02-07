@@ -19,8 +19,15 @@ A complete and versatile theme collection designed for optimal coding experience
 Following VS Code best practices, Lynx Theme Pro uses semantic versioning for all releases.
 
 <br>
-
 <!-- --- -->
+
+## [4.0.0] - 2026-02-07
+
+ - Better name and other icons
+ - new color verified , test theme
+ - links?
+
+---
 ## [3.8.0] - 2026-01-25
 
 - Support Material ICONS

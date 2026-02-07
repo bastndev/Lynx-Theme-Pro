@@ -14,3 +14,7 @@ themes/Lynx-zKiro-theme.json
 # Icons
 icons-themes/lynx-icons-dark.json
 icons-themes/lynx-icons-light.json
+
+# Others
+ARCHITECTURE.md
+CHANGELOG.md

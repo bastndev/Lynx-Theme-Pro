@@ -118,7 +118,7 @@
       "iconPath": "../../assets/icons/dark/less.svg"
     },
     "css": {
-      "iconPath": "../../assets/icons/dark/css-file.svg"
+      "iconPath": "../../assets/icons/dark/css-new.svg"
     },
     "visualstudio": {
       "iconPath": "../../assets/icons/dark/visualstudio.svg"
@@ -2141,6 +2141,12 @@
     },
     "folder-components-open": {
       "iconPath": "../../assets/icons/dark/folder-components-open.svg"
+    },
+    "folder-widgets": {
+      "iconPath": "../../assets/icons/dark/folder-widgets.svg"
+    },
+    "folder-widgets-open": {
+      "iconPath": "../../assets/icons/dark/folder-widgets-open.svg"
     },
     "folder-verdaccio": {
       "iconPath": "../../assets/icons/dark/folder-verdaccio.svg"
@@ -4353,10 +4359,10 @@
     ".widget": "folder-components",
     "_widget": "folder-components",
     "__widget__": "folder-components",
-    "widgets": "folder-components",
-    ".widgets": "folder-components",
-    "_widgets": "folder-components",
-    "__widgets__": "folder-components",
+    "widgets": "folder-widgets",
+    ".widgets": "folder-widgets",
+    "_widgets": "folder-widgets",
+    "__widgets__": "folder-widgets",
     "fragments": "folder-components",
     ".fragments": "folder-components",
     "_fragments": "folder-components",
@@ -7607,10 +7613,10 @@
     ".widget": "folder-components-open",
     "_widget": "folder-components-open",
     "__widget__": "folder-components-open",
-    "widgets": "folder-components-open",
-    ".widgets": "folder-components-open",
-    "_widgets": "folder-components-open",
-    "__widgets__": "folder-components-open",
+    "widgets": "folder-widgets-open",
+    ".widgets": "folder-widgets-open",
+    "_widgets": "folder-widgets-open",
+    "__widgets__": "folder-widgets-open",
     "fragments": "folder-components-open",
     ".fragments": "folder-components-open",
     "_fragments": "folder-components-open",
