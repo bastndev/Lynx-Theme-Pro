@@ -3648,6 +3648,12 @@
     "folder-tabs": {
       "iconPath": "../../assets/icons/dark/folder-tabs.svg"
     },
+    "folder-skeleton-open": {
+      "iconPath": "../../assets/icons/dark/folder-skeleton-open.svg"
+    },
+    "folder-skeleton": {
+      "iconPath": "../../assets/icons/dark/folder-skeleton.svg"
+    },
     "google": {
       "iconPath": "../../assets/icons/dark/google.svg"
     },
@@ -3740,6 +3746,11 @@
     }
   },
   "folderNames": {
+    "skeleton": "folder-skeleton",
+    "skeletons": "folder-skeleton",
+    ".skeleton": "folder-skeleton",
+    "_skeleton": "folder-skeleton",
+    "__skeleton__": "folder-skeleton",
     "(tabs)": "folder-tabs",
     ".kiro": "folder-kiro",
     "shortcuts": "folder-shortcuts",
@@ -6995,6 +7006,11 @@
     "__toc__": "folder-toc"
   },
   "folderNamesExpanded": {
+    "skeleton": "folder-skeleton-open",
+    "skeletons": "folder-skeleton-open",
+    ".skeleton": "folder-skeleton-open",
+    "_skeleton": "folder-skeleton-open",
+    "__skeleton__": "folder-skeleton-open",
     "(tabs)": "folder-tabs-open",
     ".kiro": "folder-kiro-open",
     "shortcuts": "folder-shortcuts-open",
