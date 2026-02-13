@@ -2,7 +2,7 @@
   "name": "lynx-theme",
   "displayName": "Lynx Theme Pro + (Icons)",
   "description": "8 premium themes (Dark, Light, Night, Ghibli, Coffee, Kiro…) + 3 icon styles. For VSCode • Cursor • Windsurf • Trae.ai • Kiro • Firebase Studio",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
