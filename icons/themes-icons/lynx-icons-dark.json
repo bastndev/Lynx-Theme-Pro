@@ -3642,6 +3642,12 @@
     "folder-toc": {
       "iconPath": "../../assets/icons/dark/folder-toc.svg"
     },
+    "folder-tabs-open": {
+      "iconPath": "../../assets/icons/dark/folder-tabs-open.svg"
+    },
+    "folder-tabs": {
+      "iconPath": "../../assets/icons/dark/folder-tabs.svg"
+    },
     "google": {
       "iconPath": "../../assets/icons/dark/google.svg"
     },
@@ -3734,6 +3740,7 @@
     }
   },
   "folderNames": {
+    "(tabs)": "folder-tabs",
     ".kiro": "folder-kiro",
     "shortcuts": "folder-shortcuts",
     "shortcut": "folder-shortcuts",
@@ -6988,6 +6995,7 @@
     "__toc__": "folder-toc"
   },
   "folderNamesExpanded": {
+    "(tabs)": "folder-tabs-open",
     ".kiro": "folder-kiro-open",
     "shortcuts": "folder-shortcuts-open",
     "shortcut": "folder-shortcuts-open",
