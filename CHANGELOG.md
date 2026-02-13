@@ -22,19 +22,24 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 <!-- --- -->
 
 ---
+## [4.0.1] - 2026-02-13
 
+- New icons for (tabs)
+- Updated name and description
+
+---
 ## [4.0.0] - 2026-02-07
 
- - Better name and other icons
- - new color verified , test theme
- - links?
+- Better naming and improved icons
+- New verified colors, tested theme
+- Updated links
 
 ---
 ## [3.8.0] - 2026-01-25
 
-- Support Material ICONS
-- Better other icons
-- Update Architecture
+- Material Icons support
+- Improved icon set
+- Updated architecture
 
 ---
 ## [3.3.25] - 2026-01-25
