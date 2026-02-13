@@ -1,6 +1,6 @@
 {
   "name": "lynx-theme",
-  "displayName": "Lynx Theme + Icons",
+  "displayName": "Lynx Theme Pro + (Icons)",
   "description": "Available now: VSCode • Antigravity • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
   "version": "4.0.0",
   "publisher": "bastndev",
@@ -21,7 +21,7 @@
     "Icons",
     "productivity",
     "eye-friendly",
-    "2025"
+    "2026"
   ],
   "icon": "assets/icon.png",
   "galleryBanner": {
