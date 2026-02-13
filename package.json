@@ -1,8 +1,8 @@
 {
   "name": "lynx-theme",
-  "displayName": "Lynx Theme + Icons",
-  "description": "Available now: VSCode • Antigravity • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
-  "version": "4.0.0",
+  "displayName": "Lynx Theme Pro + (Icons)",
+  "description": "8 premium themes (Dark, Light, Night, Ghibli, Coffee, Kiro…) + 3 icon styles. For VSCode • Cursor • Windsurf • Trae.ai • Kiro • Firebase Studio",
+  "version": "4.0.1",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
@@ -10,18 +10,18 @@
   },
   "categories": ["Themes"],
   "keywords": [
+    "theme",
     "color-theme",
     "dark-theme",
     "light-theme",
-    "night-theme",
-    "ghibli-theme",
-    "coffee-theme",
-    "kiro-theme",
-    "nvim-theme",
-    "Icons",
+    "icon-theme",
+    "icons",
+    "2026",
+    "syntax-highlighting",
+    "minimal",
     "productivity",
     "eye-friendly",
-    "2025"
+    "lynx"
   ],
   "icon": "assets/icon.png",
   "galleryBanner": {

@@ -3642,6 +3642,12 @@
     "folder-toc": {
       "iconPath": "../../assets/icons/dark/folder-toc.svg"
     },
+    "folder-tabs-open": {
+      "iconPath": "../../assets/icons/dark/folder-tabs-open.svg"
+    },
+    "folder-tabs": {
+      "iconPath": "../../assets/icons/dark/folder-tabs.svg"
+    },
     "google": {
       "iconPath": "../../assets/icons/dark/google.svg"
     },
@@ -3734,6 +3740,7 @@
     }
   },
   "folderNames": {
+    "(tabs)": "folder-tabs",
     ".kiro": "folder-kiro",
     "shortcuts": "folder-shortcuts",
     "shortcut": "folder-shortcuts",
@@ -4355,10 +4362,10 @@
     ".components": "folder-components",
     "_components": "folder-components",
     "__components__": "folder-components",
-    "widget": "folder-components",
-    ".widget": "folder-components",
-    "_widget": "folder-components",
-    "__widget__": "folder-components",
+    "widget": "folder-widgets",
+    ".widget": "folder-widgets",
+    "_widget": "folder-widgets",
+    "__widget__": "folder-widgets",
     "widgets": "folder-widgets",
     ".widgets": "folder-widgets",
     "_widgets": "folder-widgets",
@@ -6988,6 +6995,7 @@
     "__toc__": "folder-toc"
   },
   "folderNamesExpanded": {
+    "(tabs)": "folder-tabs-open",
     ".kiro": "folder-kiro-open",
     "shortcuts": "folder-shortcuts-open",
     "shortcut": "folder-shortcuts-open",
@@ -7609,10 +7617,10 @@
     ".components": "folder-components-open",
     "_components": "folder-components-open",
     "__components__": "folder-components-open",
-    "widget": "folder-components-open",
-    ".widget": "folder-components-open",
-    "_widget": "folder-components-open",
-    "__widget__": "folder-components-open",
+    "widget": "folder-widgets-open",
+    ".widget": "folder-widgets-open",
+    "_widget": "folder-widgets-open",
+    "__widget__": "folder-widgets-open",
     "widgets": "folder-widgets-open",
     ".widgets": "folder-widgets-open",
     "_widgets": "folder-widgets-open",
