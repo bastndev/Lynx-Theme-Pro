@@ -782,7 +782,7 @@
       "name": "Function Names",
       "scope": ["entity.name.function"],
       "settings": {
-        "foreground": "#8250df",
+        "foreground": "#f99b54",
         "fontStyle": "bold"
       }
     },

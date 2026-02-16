@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <!-- Degradado moderno para la carpeta -->
+    <linearGradient id="folderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FB4E88;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D81B60;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Degradado para el celular - gris fucsia claro -->
+    <linearGradient id="phoneGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8BBD0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F48FB1;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Degradado para la pantalla -->
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E91E63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C2185B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Carpeta con degradado -->
+  <path fill="url(#folderGrad)" d="m13.844 7.536-1.288-1.072A2 2 0 0 0 11.276 6H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2H15.124a2 2 0 0 1-1.28-.464"/>
+  
+  <!-- Sombra del celular -->
+  <rect fill="#000" opacity="0.2" x="16.5" y="10.5" width="13" height="19" rx="2"/>
+  
+  <!-- Cuerpo del celular - MÁS GRANDE y gris fucsia -->
+  <rect fill="url(#phoneGrad)" x="16" y="10" width="13" height="19" rx="2"/>
+  
+  <!-- Pantalla del celular -->
+  <rect fill="url(#screenGrad)" x="17.2" y="11.5" width="10.6" height="14" rx="0.8"/>
+  
+  <!-- Notch superior -->
+  <rect fill="#F8BBD0" x="20" y="11.5" width="4.8" height="1" rx="0.5"/>
+  
+  <!-- Botón home -->
+  <circle fill="#FFF" opacity="0.9" cx="22.5" cy="27.5" r="1"/>
+  
+  <!-- Brillo/reflejo en el celular -->
+  <rect fill="#FFF" opacity="0.25" x="16.5" y="10.5" width="2.5" height="10" rx="1"/>
+  
+  <!-- Líneas decorativas en la pantalla -->
+  <rect fill="#FFF" opacity="0.15" x="18" y="13" width="9" height="0.4" rx="0.2"/>
+  <rect fill="#FFF" opacity="0.15" x="18" y="14" width="7" height="0.4" rx="0.2"/>
+  <rect fill="#FFF" opacity="0.15" x="18" y="15" width="8" height="0.4" rx="0.2"/>
+</svg>

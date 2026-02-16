@@ -1,0 +1,47 @@
+<svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#7e57c2;stop-opacity:1" />
+            <stop offset="50%" style="stop-color:#9575cd;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#5e35b1;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#9575cd;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#ce93d8;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="grad3" x1="0%" y1="100%" x2="0%" y2="0%">
+            <stop offset="0%" style="stop-color:#5e35b1;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#7e57c2;stop-opacity:1" />
+        </linearGradient>
+        <radialGradient id="radial1">
+            <stop offset="0%" style="stop-color:#b39ddb;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#4527a0;stop-opacity:1" />
+        </radialGradient>
+    </defs>
+    
+    <!-- Círculo base con gradiente -->
+    <circle cx="512" cy="512" r="450" fill="url(#grad1)"/>
+    
+    <!-- Arco superior -->
+    <path d="M962 512C962 264.06 759.94 62 512 62 264.06 62 62 264.06 62 512"
+          fill="url(#grad2)" opacity="0.8"/>
+    
+    <!-- Arco lateral izquierdo -->
+    <path d="M512 962C264.06 962 62 759.94 62 512 62 264.06 264.06 62 512 62"
+          fill="url(#grad3)" opacity="0.6"/>
+    
+    <!-- Banda vertical central -->
+    <ellipse cx="512" cy="512" rx="160" ry="450" fill="#5e35b1" opacity="0.7"/>
+    
+    <!-- Elemento decorativo superior izquierdo -->
+    <path d="M62 512v0.03h450V62a448.34 448.34 0 0 0-175.29 35.85C176.95 169.96 62 347.93 62 512z"
+          fill="url(#radial1)" opacity="0.5"/>
+    
+    <!-- Banda horizontal superior -->
+    <path d="M640.69 512c0-248.73-73.64-450-164.73-450h-0.03C381.83 62 308.25 263.24 308.25 512v0.06h332.44V512z"
+          fill="#9575cd" opacity="0.6"/>
+    
+    <!-- Detalles adicionales para profundidad -->
+    <circle cx="512" cy="512" r="310" fill="none" stroke="#b39ddb" stroke-width="2" opacity="0.3"/>
+    <circle cx="512" cy="512" r="240" fill="none" stroke="#ce93d8" stroke-width="1.5" opacity="0.2"/>
+</svg>
