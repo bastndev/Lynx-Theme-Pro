@@ -1,1 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="#ff7043" d="M28.967 12H9.442a2 2 0 0 0-1.898 1.368L4 24V10h24a2 2 0 0 0-2-2H15.124a2 2 0 0 1-1.28-.464l-1.288-1.072A2 2 0 0 0 11.276 6H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h22l4.805-11.212A2 2 0 0 0 28.967 12"/><path fill="#ffccbc" d="m14 12 2 16 7 2 7-2 2-16Zm8 5.899L18.66 20 22 22.102V24l-5.235-3.386v-1.227L22 16Zm7.235 2.728L24 24v-1.898L27.363 20 24 17.899V16l5.235 3.373Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <!-- Degradado moderno para la carpeta abierta -->
+    <linearGradient id="folderOpenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E91E63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D81B60;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Degradado para la solapa -->
+    <linearGradient id="flapGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F48FB1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F06292;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Degradado para el celular - gris fucsia claro -->
+    <linearGradient id="phoneGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8BBD0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F48FB1;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Degradado para la pantalla -->
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E91E63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C2185B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Carpeta abierta con degradado fucsia -->
+  <path fill="url(#folderOpenGrad)" d="M28.967 12H9.442a2 2 0 0 0-1.898 1.368L4 24V10h24a2 2 0 0 0-2-2H15.124a2 2 0 0 1-1.28-.464l-1.288-1.072A2 2 0 0 0 11.276 6H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h22l4.805-11.212A2 2 0 0 0 28.967 12"/>
+  
+  <!-- Solapa/pestaña de la carpeta -->
+  <path fill="url(#flapGrad)" d="M4 10h24v2H4z" opacity="0.6"/>
+  
+  <!-- Sombra del celular -->
+  <rect fill="#000" opacity="0.2" x="17.5" y="13.5" width="11" height="16" rx="1.8"/>
+  
+  <!-- Cuerpo del celular - gris fucsia -->
+  <rect fill="url(#phoneGrad)" x="17" y="13" width="11" height="16" rx="1.8"/>
+  
+  <!-- Pantalla del celular -->
+  <rect fill="url(#screenGrad)" x="18.2" y="14.3" width="8.6" height="12" rx="0.6"/>
+  
+  <!-- Notch superior -->
+  <rect fill="#F8BBD0" x="20.5" y="14.3" width="4" height="0.8" rx="0.4"/>
+  
+  <!-- Botón home -->
+  <circle fill="#FFF" opacity="0.9" cx="22.5" cy="27.5" r="0.9"/>
+  
+  <!-- Brillo/reflejo en el celular -->
+  <rect fill="#FFF" opacity="0.25" x="17.5" y="13.5" width="2" height="8" rx="1"/>
+  
+  <!-- Líneas decorativas en la pantalla -->
+  <rect fill="#FFF" opacity="0.15" x="19" y="16" width="7" height="0.35" rx="0.2"/>
+  <rect fill="#FFF" opacity="0.15" x="19" y="17" width="5.5" height="0.35" rx="0.2"/>
+  <rect fill="#FFF" opacity="0.15" x="19" y="18" width="6.5" height="0.35" rx="0.2"/>
+</svg>
