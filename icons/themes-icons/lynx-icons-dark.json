@@ -2109,6 +2109,12 @@
     "folder-views-open": {
       "iconPath": "../../assets/icons/dark/folder-views-open.svg"
     },
+    "folder-screen": {
+      "iconPath": "../../assets/icons/dark/folder-screen.svg"
+    },
+    "folder-screen-open": {
+      "iconPath": "../../assets/icons/dark/folder-screen-open.svg"
+    },
     "folder-vue": {
       "iconPath": "../../assets/icons/dark/folder-vue.svg"
     },
@@ -4220,14 +4226,14 @@
     ".views": "folder-views",
     "_views": "folder-views",
     "__views__": "folder-views",
-    "screen": "folder-views",
-    ".screen": "folder-views",
-    "_screen": "folder-views",
-    "__screen__": "folder-views",
-    "screens": "folder-views",
-    ".screens": "folder-views",
-    "_screens": "folder-views",
-    "__screens__": "folder-views",
+    "screen": "folder-screen",
+    ".screen": "folder-screen",
+    "_screen": "folder-screen",
+    "__screen__": "folder-screen",
+    "screens": "folder-screens",
+    ".screens": "folder-screens",
+    "_screens": "folder-screen",
+    "__screens__": "folder-screen",
     "page": "folder-views",
     ".page": "folder-views",
     "_page": "folder-views",
@@ -7480,14 +7486,14 @@
     ".views": "folder-views-open",
     "_views": "folder-views-open",
     "__views__": "folder-views-open",
-    "screen": "folder-views-open",
-    ".screen": "folder-views-open",
-    "_screen": "folder-views-open",
-    "__screen__": "folder-views-open",
-    "screens": "folder-views-open",
-    ".screens": "folder-views-open",
-    "_screens": "folder-views-open",
-    "__screens__": "folder-views-open",
+    "screen": "folder-screen-open",
+    ".screen": "folder-screen-open",
+    "_screen": "folder-screen-open",
+    "__screen__": "folder-screen-open",
+    "screens": "folder-screen-open",
+    ".screens": "folder-screen-open",
+    "_screens": "folder-screen-open",
+    "__screens__": "folder-screen-open",
     "page": "folder-views-open",
     ".page": "folder-views-open",
     "_page": "folder-views-open",
