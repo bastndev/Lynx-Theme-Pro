@@ -120,6 +120,9 @@
     "css": {
       "iconPath": "../../assets/icons/dark/css-new.svg"
     },
+    "global-css": {
+      "iconPath": "../../assets/icons/dark/css-global.svg"
+    },
     "visualstudio": {
       "iconPath": "../../assets/icons/dark/visualstudio.svg"
     },
@@ -11390,6 +11393,7 @@
     "verse": "verse"
   },
   "fileNames": {
+    "global.css": "global-css",
     "main.lynx.bundle": "lynx",
     "lynx.config.ts": "lynx-config-file",
     ".pug-lintrc": "pug",
