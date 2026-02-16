@@ -6,7 +6,7 @@ A complete and versatile theme collection designed for optimal coding experience
 
 ## Features
 
-- **5 Beautiful Theme Variants**: Dark Mode, Light Mode, Night Mode, Ghibli Mode, Coffee Mode, and ICONS
+- **8 Beautiful Theme Variants**: Dark Mode, Light Mode, Night Mode, Ghibli Mode, Coffee Mode, Kiro Mode, NVIM Mode, Test Mode, and ICONS
 - **Universal Compatibility**: Perfect for coding in any lighting environment
 - **Eye Comfort**: Warm and comfortable coding experience with optional Sun filter
 - **Professional Design**: Thoughtfully crafted for extended coding sessions
