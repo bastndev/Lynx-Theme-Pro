@@ -2133,6 +2133,12 @@
     "folder-config-open": {
       "iconPath": "../../assets/icons/dark/folder-config-open.svg"
     },
+    "folder-setting": {
+      "iconPath": "../../assets/icons/dark/folder-setting.svg"
+    },
+    "folder-setting-open": {
+      "iconPath": "../../assets/icons/dark/folder-setting-open.svg"
+    },
     "folder-i18n": {
       "iconPath": "../../assets/icons/dark/folder-i18n.svg"
     },
@@ -4286,14 +4292,14 @@
     ".configurations": "folder-config",
     "_configurations": "folder-config",
     "__configurations__": "folder-config",
-    "setting": "folder-config",
-    ".setting": "folder-config",
-    "_setting": "folder-config",
-    "__setting__": "folder-config",
-    "settings": "folder-config",
-    ".settings": "folder-config",
-    "_settings": "folder-config",
-    "__settings__": "folder-config",
+    "setting": "folder-setting",
+    ".setting": "folder-setting",
+    "_setting": "folder-setting",
+    "__setting__": "folder-setting",
+    "settings": "folder-setting",
+    ".settings": "folder-setting",
+    "_settings": "folder-setting",
+    "__settings__": "folder-setting",
     "META-INF": "folder-config",
     ".META-INF": "folder-config",
     "_META-INF": "folder-config",
@@ -7546,14 +7552,14 @@
     ".configurations": "folder-config-open",
     "_configurations": "folder-config-open",
     "__configurations__": "folder-config-open",
-    "setting": "folder-config-open",
-    ".setting": "folder-config-open",
-    "_setting": "folder-config-open",
-    "__setting__": "folder-config-open",
-    "settings": "folder-config-open",
-    ".settings": "folder-config-open",
-    "_settings": "folder-config-open",
-    "__settings__": "folder-config-open",
+    "setting": "folder-setting-open",
+    ".setting": "folder-setting-open",
+    "_setting": "folder-setting-open",
+    "__setting__": "folder-setting-open",
+    "settings": "folder-setting-open",
+    ".settings": "folder-setting-open",
+    "_settings": "folder-setting-open",
+    "__settings__": "folder-setting-open",
     "META-INF": "folder-config-open",
     ".META-INF": "folder-config-open",
     "_META-INF": "folder-config-open",
