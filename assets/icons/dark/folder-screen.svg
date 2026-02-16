@@ -2,7 +2,7 @@
   <defs>
     <!-- Degradado moderno para la carpeta -->
     <linearGradient id="folderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#E91E63;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#FB4E88;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#D81B60;stop-opacity:1" />
     </linearGradient>
     
