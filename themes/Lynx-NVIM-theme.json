@@ -12,8 +12,8 @@
     "titleBar.inactiveBackground":           "#1a1e22",    // - Title bar bg inactive
     "titleBar.inactiveForeground":           "#94A3B8",    // - Title bar text inactive
     "commandCenter.background":              "#1a1e22",    // - Command Center bg
-    "commandCenter.border":                  "#334155",
-    "commandCenter.activeBackground":        "#202529",
+    "commandCenter.border":                  "#334155",    // - Command Center border
+    "commandCenter.activeBackground":        "#202529",    // - Command Center active bg
 
     // --- -- - Menu Click & select
     "menu.background":                       "#1a1e22",    // - Menu bg
