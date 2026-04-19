@@ -523,7 +523,7 @@
         "foreground": "#64748b"
       }
     },
-
+    
     // ===== Astro =======
     {
       "name": "Astro String Quoted",
@@ -631,7 +631,7 @@
         "foreground": "#94a3b8"
       }
     },
-
+    
     // ===== OPERATORS & PUNCTUATION =====
     {
       "name": "Keyword Operator",
@@ -716,7 +716,7 @@
         "foreground": "#818cf8"
       }
     },
-
+    
     // ===== VARIABLES =====
     {
       "name": "Variables General",
@@ -777,7 +777,7 @@
         "foreground": "#38bdf8"
       }
     },
-
+    
     // ===== FUNCTIONS & METHODS =====
     {
       "name": "Function Names",
@@ -831,7 +831,7 @@
         "foreground": "#94a3b8"
       }
     },
-
+    
     // ===== STRINGS & TEMPLATES =====
     {
       "name": "String Quoted",
@@ -868,7 +868,7 @@
         "foreground": "#60a5fa"
       }
     },
-
+    
     // ===== NUMBERS & CONSTANTS =====
     {
       "name": "Constant Numeric",
@@ -900,7 +900,7 @@
         "foreground": "#06b6d4"
       }
     },
-
+    
     // ===== CLASSES & TYPES =====
     {
       "name": "Entity Name Tag",
@@ -970,7 +970,7 @@
         "foreground": "#60a5fa"
       }
     },
-
+    
     // ===== SUPPORT TYPES =====
     {
       "name": "Support Type Primitive",
@@ -1009,7 +1009,7 @@
         "foreground": "#4ade80"
       }
     },
-
+    
     // ===== META =====
     {
       "name": "Meta Brace",
@@ -1039,7 +1039,7 @@
         "foreground": "#38bdf8"
       }
     },
-
+    
     // ===== CSS SPECIFIC =====
     {
       "name": "CSS Selector",
@@ -1076,7 +1076,7 @@
         "foreground": "#a78bfa"
       }
     },
-
+    
     // ===== JSON SPECIFIC =====
     {
       "name": "JSON Key - Level 0",
@@ -1110,7 +1110,7 @@
         "foreground": "#048b6b"
       }
     },
-
+    
     // ===== YAML SPECIFIC =====
     {
       "name": "YAML Key",
@@ -1119,7 +1119,7 @@
         "foreground": "#fbbf24"
       }
     },
-
+    
     // ===== ERROR & INVALID =====
     {
       "name": "Invalid",
@@ -1137,7 +1137,7 @@
         // "fontStyle": "strikethrough"
       }
     },
-
+    
     // ===== LANGUAGE SPECIFIC - MARKDOWN =====
     {
       "name": "Markdown Fenced Code Language",
@@ -1221,7 +1221,7 @@
         "foreground": "#64748b"
       }
     },
-
+    
     // ===== REACT/JSX SPECIFIC =====
     {
       "name": "JSX Component",
@@ -1245,7 +1245,7 @@
         "foreground": "#e2e8f0"
       }
     },
-
+    
     // ===== TYPESCRIPT SPECIFIC =====
     {
       "name": "TypeScript Type",
@@ -1271,7 +1271,7 @@
         "fontStyle": "bold"
       }
     },
-
+    
     // ===== DECORATORS & ANNOTATIONS =====
     {
       "name": "Decorator Symbol",
@@ -1289,7 +1289,7 @@
         "fontStyle": "bold"
       }
     },
-
+    
     // ===== PYTHON SPECIFIC =====
     {
       "name": "Python Magic Method",
@@ -1306,7 +1306,7 @@
         "foreground": "#38bdf8"
       }
     },
-
+    
     // ===== ADDITIONAL MODERN =====
     {
       "name": "Lambda Arrow",
@@ -1331,5 +1331,4 @@
       }
     }
   ]
-
 }
