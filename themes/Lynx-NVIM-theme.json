@@ -343,12 +343,12 @@
     "editorBracketHighlight.unexpectedBracket.foreground": "#EF4444",  // - Unexpected bracket color
 
     // TODO: INLAY HINTS | VSCODE FEATURES MARK: [MODERN]
-    "editorInlayHint.background":            "#00000030",  // - Inlay hint bg
-    "editorInlayHint.foreground":            "#94A3B8",    // - Inlay hint text
-    "editorInlayHint.typeForeground":        "#94A3B8",    // - Inlay hint type text
-    "editorInlayHint.typeBackground":        "#00000030",  // - Inlay hint type bg
-    "editorInlayHint.parameterForeground":   "#94A3B8",    // - Inlay hint parameter text
-    "editorInlayHint.parameterBackground":   "#00000030",  // - Inlay hint parameter bg
+    "editorInlayHint.background":            "#0EA5E915",  // - Inlay hint bg (subtle cyan tint)
+    "editorInlayHint.foreground":            "#64748B",    // - Inlay hint text
+    "editorInlayHint.typeForeground":        "#06B6D4",    // - Inlay hint type text (cyan, types are distinct)
+    "editorInlayHint.typeBackground":        "#06B6D415",  // - Inlay hint type bg
+    "editorInlayHint.parameterForeground":   "#8B5CF6",    // - Inlay hint parameter text (purple, params stand out)
+    "editorInlayHint.parameterBackground":   "#8B5CF615",  // - Inlay hint parameter bg
     
     // --- -- - Sticky Scroll
     "editorStickyScroll.background":         "#1a1e22",    // - Sticky scroll bg
@@ -472,25 +472,31 @@
   },  
 
   "semanticTokenColors": {
-    "namespace": "#F59E0B",
+    // --- Namespaces & Modules
+    "namespace": { "foreground": "#F59E0B", "fontStyle": "italic" },
+    // --- Types & Structures
     "class": { "foreground": "#0EA5E9", "fontStyle": "bold" },
     "enum": { "foreground": "#8B5CF6", "fontStyle": "bold" },
-    "interface": { "foreground": "#38BDF8", "fontStyle": "bold" },
+    "interface": { "foreground": "#38BDF8", "fontStyle": "bold italic" },
     "struct": { "foreground": "#0EA5E9", "fontStyle": "bold" },
-    "typeParameter": "#8B5CF6",
+    "typeParameter": { "foreground": "#8B5CF6", "fontStyle": "italic" },
     "type": { "foreground": "#06B6D4", "fontStyle": "bold" },
+    // --- Variables & Properties
     "parameter": { "foreground": "#CBD5E1", "fontStyle": "italic" },
     "variable": "#E2E8F0",
-    "variable.readonly": "#949FCF",
+    "variable.readonly": { "foreground": "#949FCF", "fontStyle": "italic" },
     "variable.defaultLibrary": { "foreground": "#38BDF8", "fontStyle": "bold" },
     "property": "#949FCF",
-    "property.readonly": "#949FCF",
-    "enumMember": "#38BDF8",
-    "event": "#EF4444",
+    "property.readonly": { "foreground": "#949FCF", "fontStyle": "italic" },
+    "enumMember": { "foreground": "#38BDF8", "fontStyle": "bold" },
+    // --- Functions & Events
+    "event": { "foreground": "#EF4444", "fontStyle": "italic" },
     "function": { "foreground": "#0EA5E9", "fontStyle": "bold" },
     "method": { "foreground": "#0284C7", "fontStyle": "bold" },
-    "macro": "#EC4899",
-    "decorator": { "foreground": "#FB923C", "fontStyle": "bold" }
+    // --- Special
+    "macro": { "foreground": "#EC4899", "fontStyle": "bold italic" },
+    "decorator": { "foreground": "#FB923C", "fontStyle": "bold" },
+    "label": { "foreground": "#F59E0B" }
   },
 
   "tokenColors": [
@@ -499,24 +505,24 @@
       "name": "Comment Line",
       "scope": ["comment.line", "punctuation.definition.comment"],
       "settings": {
-      "fontStyle": "italic",
-      "foreground": "#64748B"
+        "fontStyle": "italic",
+        "foreground": "#64748B"
       }
     },
     {
       "name": "Comment Block",
       "scope": "comment.block",
       "settings": {
-      "fontStyle": "italic",
-      "foreground": "#64748B"
+        "fontStyle": "italic",
+        "foreground": "#64748B"
       }
     },
     {
       "name": "Comment Documentation",
       "scope": ["comment.block.documentation", "comment.line.documentation"],
       "settings": {
-      "fontStyle": "italic",
-      "foreground": "#94A3B8"
+        "fontStyle": "italic bold",
+        "foreground": "#94A3B8"
       }
     },
     // ===== Astro =======

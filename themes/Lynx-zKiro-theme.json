@@ -239,13 +239,13 @@
     "terminal.ansiBrightBlack":              "#5a5a5a",    // - Terminal bright black color
     "terminal.ansiBrightBlue":               "#7de8ff",    // - Terminal bright blue color
     "terminal.ansiBrightCyan":               "#4de5f7",    // - Terminal bright cyan color
-    "terminal.ansiBrightGreen":              "#8e47ff",    // - Terminal bright green color
+    "terminal.ansiBrightGreen":              "#8ecf8e",    // - Terminal bright green color
     "terminal.ansiBrightMagenta":            "#d4a5ff",    // - Terminal bright magenta color
     "terminal.ansiBrightRed":                "#ff7a85",    // - Terminal bright red color
     "terminal.ansiBrightWhite":              "#ffffff",    // - Terminal bright white color
     "terminal.ansiBrightYellow":             "#f5d76e",    // - Terminal bright yellow color
     "terminal.ansiCyan":                     "#2bc5d2",    // - Terminal cyan color
-    "terminal.ansiGreen":                    "#b080ff",    // - Terminal green color
+    "terminal.ansiGreen":                    "#8ecf8e",    // - Terminal green color
     "terminal.ansiMagenta":                  "#c4a5ff",    // - Terminal magenta color
     "terminal.ansiRed":                      "#ff6b73",    // - Terminal red color
     "terminal.ansiWhite":                    "#ffffff",    // - Terminal white color
@@ -343,12 +343,12 @@
     "editorBracketHighlight.unexpectedBracket.foreground": "#d495aa",  // - Unexpected bracket color
 
     // TODO: INLAY HINTS | VSCODE FEATURES MARK: [MODERN]
-    "editorInlayHint.background":            "#00000040",  // - Inlay hint bg
+    "editorInlayHint.background":            "#1a102050",  // - Inlay hint bg (subtle purple tint)
     "editorInlayHint.foreground":            "#aca5b0",    // - Inlay hint text
-    "editorInlayHint.typeForeground":        "#aca5b0",    // - Inlay hint type text
-    "editorInlayHint.typeBackground":        "#00000040",  // - Inlay hint type bg
-    "editorInlayHint.parameterForeground":   "#aca5b0",    // - Inlay hint parameter text
-    "editorInlayHint.parameterBackground":   "#00000040",  // - Inlay hint parameter bg
+    "editorInlayHint.typeForeground":        "#b080ff",    // - Inlay hint type text (themed distinct)
+    "editorInlayHint.typeBackground":        "#b080ff30",  // - Inlay hint type bg
+    "editorInlayHint.parameterForeground":   "#4dc9ff",    // - Inlay hint parameter text (blue, params stand out)
+    "editorInlayHint.parameterBackground":   "#4dc9ff15",  // - Inlay hint parameter bg
     
     // --- -- - Sticky Scroll
     "editorStickyScroll.background":         "#1f1926",    // - Sticky scroll bg
@@ -472,25 +472,31 @@
   },
 
   "semanticTokenColors": {
-    "namespace": "#f5d76e",
+    // --- Namespaces & Modules
+    "namespace": { "foreground": "#f5d76e", "fontStyle": "italic" },
+    // --- Types & Structures
     "class": { "foreground": "#b080ff", "fontStyle": "bold" },
     "enum": { "foreground": "#f5d76e", "fontStyle": "bold" },
-    "interface": { "foreground": "#4dc9ff", "fontStyle": "bold" },
+    "interface": { "foreground": "#4dc9ff", "fontStyle": "bold italic" },
     "struct": { "foreground": "#b080ff", "fontStyle": "bold" },
-    "typeParameter": "#c4a5ff",
+    "typeParameter": { "foreground": "#c4a5ff", "fontStyle": "italic" },
     "type": { "foreground": "#b080ff", "fontStyle": "bold" },
+    // --- Variables & Properties
     "parameter": { "foreground": "#ff6b73", "fontStyle": "italic" },
     "variable": "#ff6b73",
-    "variable.readonly": "#6cf8ab",
+    "variable.readonly": { "foreground": "#6cf8ab", "fontStyle": "italic" },
     "variable.defaultLibrary": { "foreground": "#8e47ff", "fontStyle": "bold" },
     "property": "#6cf8ab",
-    "property.readonly": "#6cf8ab",
-    "enumMember": "#8e47ff",
-    "event": "#ff6b73",
+    "property.readonly": { "foreground": "#6cf8ab", "fontStyle": "italic" },
+    "enumMember": { "foreground": "#8e47ff", "fontStyle": "bold" },
+    // --- Functions & Events
+    "event": { "foreground": "#ff6b73", "fontStyle": "italic" },
     "function": { "foreground": "#4dc9ff", "fontStyle": "bold" },
     "method": { "foreground": "#4dc9ff", "fontStyle": "bold" },
-    "macro": "#c4a5ff",
-    "decorator": { "foreground": "#4dc9ff", "fontStyle": "bold" }
+    // --- Special
+    "macro": { "foreground": "#c4a5ff", "fontStyle": "bold italic" },
+    "decorator": { "foreground": "#4dc9ff", "fontStyle": "bold" },
+    "label": { "foreground": "#f5d76e" }
   },
 
   "tokenColors": [
