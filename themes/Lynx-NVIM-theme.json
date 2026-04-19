@@ -32,9 +32,9 @@
     "list.dropBackground":                   "#181b1f",    // - Drop bg
 
     // TODO: ACTIVITY BAR MARK: [ONE-1]
-    "banner.background":                     "#161a1d",
-    "banner.foreground":                     "#E2E8F0",
-    "banner.iconForeground":                 "#0EA5E9",
+    "banner.background":                     "#161a1d",    // - Banner bg
+    "banner.foreground":                     "#E2E8F0",    // - Banner text
+    "banner.iconForeground":                 "#0EA5E9",    // - Banner icon
     "activityBar.background":                "#161a1d",    // - Activity bar bg
     "activityBar.foreground":                "#E2E8F0",    // - Activity bar text
     "activityBar.border":                    "#161a1d",    // - Activity bar border
