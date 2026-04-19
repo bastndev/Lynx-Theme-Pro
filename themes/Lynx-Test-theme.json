@@ -96,7 +96,7 @@
     "editorGhostText.foreground":                    "#696e77",    // - git commit txt
     "editorGutter.deletedBackground":                "#e5484d",    // - Delete code
     "editorGutter.modifiedBackground":               "#3b9eff",    // - Modified code
- 
+
     // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#111113",    // - Editor bg
     "editor.foreground":                     "#edeef0",    // - Editor [STORE] text
@@ -195,7 +195,6 @@
 
     "chat.requestBorder":                    "#363a3f",    // - Chat request border
     "editorWidget.foreground":               "#edeef0",    // - AI Select text & ctrl+p
-    "editorWidget.background":               "#141416",    // - Floating widget bg
 
     "peekViewTitleDescription.foreground":   "#777b84",    // - Select copilot
     "editorGutter.addedBackground":          "#3dd68c",    // - Added lines bg
@@ -207,7 +206,7 @@
     "progressBar.background":                "#0090ff",    // - Progress bar bg
 
     //--- -- - ctrl+shift+p | Inputs & Quick
-    // "editorWidget.background":               "#111113",    // - bg (Removed duplicate)
+    "editorWidget.background":               "#111113",    // - bg (Removed duplicate)
     "quickInputList.focusBackground":        "#2e3135",    // - Focus bg
     "list.highlightForeground":              "#0090ff",    // - Highlight text color
 

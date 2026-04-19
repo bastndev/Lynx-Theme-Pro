@@ -81,8 +81,8 @@
     "editorHoverWidget.foreground":          "#F8FAFC",    // - Hover widget text
     "editorHoverWidget.background":          "#1a1e22",    // - bg check information
     "editorHoverWidget.statusBarBackground": "#334155",    // - Hover widget status bar bg
- 
-   //--- -- - GIT Decoration
+
+    //--- -- - GIT Decoration
     "gitDecoration.modifiedResourceForeground":      "#00D4FF",    // - Modified files
     "gitDecoration.conflictingResourceForeground":   "#F59E0B",    // - Merge conflicts
     "gitDecoration.deletedResourceForeground":       "#EF4444",    // - Deleted files
@@ -96,7 +96,7 @@
     "editorGhostText.foreground":                    "#64748B",    // - git commit txt
     "editorGutter.deletedBackground":                "#EF4444",    // - Delete code
     "editorGutter.modifiedBackground":               "#0EA5E9",    // - Modified code
- 
+
     // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#181b1f",    // - Editor bg
     "editor.foreground":                     "#F1F5F9",    // - Editor [STORE] text
