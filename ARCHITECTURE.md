@@ -19,6 +19,41 @@ When a user activates the **Lynx Theme Pro** extension in VS Code:
 
 ---
 
+## Project Structure
+
+```
+Lynx-Theme-Pro/
+├── src/                           # Source files
+│   ├── themes/                    # Color theme definitions
+│   │   ├── Lynx-Dark-theme.json
+│   │   ├── Lynx-Light-theme.json
+│   │   ├── Lynx-Night-theme.json
+│   │   ├── Lynx-xGhibli-theme.json
+│   │   ├── Lynx-yCoffee-theme.json
+│   │   ├── Lynx-zKiro-theme.json
+│   │   └── Lynx-NVIM-theme.json
+│   └── assets/                    # Icon system and resources
+│       ├── icon-system/           # Icon configurations
+│       │   ├── themes-icons/      # File/folder icon themes
+│       │   │   ├── lynx-icons-dark.json
+│       │   │   ├── lynx-icons-light.json
+│       │   │   └── lynx-icons-gray.json
+│       │   └── material-icons/    # Product icons (UI)
+│       │       ├── lynx-material-icon.json
+│       │       └── lynx-material-icons.woff
+│       └── icon-themes/           # Icon SVG assets
+│           ├── dark/              # 1283+ SVG icons
+│           ├── light/             # 305+ SVG icons
+│           └── gray/              # Grayscale variants
+├── public/                        # Marketing and documentation assets
+│   ├── images/
+│   └── screenshots/
+├── package.json                   # Extension manifest
+├── ARCHITECTURE.md                # This file
+├── README.md
+└── ...
+```
+
 ## Architecture Diagram
 
 ```mermaid
@@ -29,11 +64,12 @@ graph TB
 
         subgraph "🔧 Core Structure"
             direction TB
-            B[Contributes] --> C[themes/<br/>🎨 Themes Dir]
-            B --> D[assets/icon-system/<br/>🎯 Icons Config Dir]
+            B[Contributes] --> SRC[src/<br/>📁 Source Directory]
+            SRC --> C[themes/<br/>🎨 Themes Dir]
+            SRC --> D[assets/<br/>🎯 Assets Dir]
         end
 
-        subgraph "🎨 Color Themes Collection"
+        subgraph "🎨 Color Themes Collection (in src/themes/)"
             direction TB
             C --> E[Lynx-Dark-theme.json<br/>🌙 Dark Theme]
             C --> F[Lynx-Light-theme.json<br/>☀️ Light Theme]
@@ -44,10 +80,11 @@ graph TB
             C --> K1[Lynx-NVIM-theme.json<br/>⚡ NVIM Theme]
         end
 
-        subgraph "🎯 Icon System (in assets/icon-system/)"
+        subgraph "🎯 Icon System (in src/assets/)"
             direction TB
-            D --> L1[themes-icons/<br/>🎨 Theme Icons]
-            D --> L2[material-icons/<br/>📦 Product Icons]
+            D --> L1[icon-system/themes-icons/<br/>🎨 Theme Icons]
+            D --> L2[icon-system/material-icons/<br/>📦 Product Icons]
+            D --> L3[icon-themes/<br/>🖼️ SVG Assets]
 
             subgraph "📦 Icon Theme Variants"
                 direction LR
@@ -61,21 +98,19 @@ graph TB
                 L2 --> N1[lynx-material-icon.json<br/>📦 Material Design]
                 L2 --> N2[lynx-material-icons.woff<br/>🔤 Font File]
             end
-        end
-
-        subgraph "🖼️ Assets & Public"
-            direction TB
-            AS[assets/] --> AI[icon-themes/]
-            AS --> AIS[icon-system/]
-            PU[public/] --> AM[images/]
-            PU --> ASS[screenshots/]
 
             subgraph "📂 Icon Assets"
                 direction LR
-                AI --> AID[dark/]
-                AI --> AIL[light/]
-                AI --> AIG[gray/]
+                L3 --> AID[dark/ - 1283 SVGs]
+                L3 --> AIL[light/ - 305 SVGs]
+                L3 --> AIG[gray/ - Variants]
             end
+        end
+
+        subgraph "🖼️ Public Resources"
+            direction TB
+            PU[public/] --> AM[images/]
+            PU --> ASS[screenshots/]
         end
 
         subgraph "📚 Documentation & Resources"

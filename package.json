@@ -50,37 +50,37 @@
       {
         "label": "1. DARKㅤㅤ(Lynx Theme)",
         "uiTheme": "vs-dark",
-        "path": "./themes/Lynx-Dark-theme.json"
+        "path": "./src/themes/Lynx-Dark-theme.json"
       },
       {
         "label": "2. LIGHT ㅤ (Lynx Theme)",
         "uiTheme": "vs",
-        "path": "./themes/Lynx-Light-theme.json"
+        "path": "./src/themes/Lynx-Light-theme.json"
       },
       {
         "label": "3. NIGHT ㅤ(Lynx Theme)",
         "uiTheme": "vs-dark",
-        "path": "./themes/Lynx-Night-theme.json"
+        "path": "./src/themes/Lynx-Night-theme.json"
       },
       {
         "label": "4. GHIBLI ㅤ(Lynx Theme)",
         "uiTheme": "vs",
-        "path": "./themes/Lynx-xGhibli-theme.json"
+        "path": "./src/themes/Lynx-xGhibli-theme.json"
       },
       {
         "label": "5. COFFEE (Lynx Theme)",
         "uiTheme": "vs-dark",
-        "path": "./themes/Lynx-yCoffee-theme.json"
+        "path": "./src/themes/Lynx-yCoffee-theme.json"
       },
       {
         "label": "6. KIROㅤㅤ(Lynx Theme)",
         "uiTheme": "vs-dark",
-        "path": "./themes/Lynx-zKiro-theme.json"
+        "path": "./src/themes/Lynx-zKiro-theme.json"
       },
       {
         "label": "7. NVIMㅤㅤ(Lynx Theme)",
         "uiTheme": "vs-dark",
-        "path": "./themes/Lynx-NVIM-theme.json"
+        "path": "./src/themes/Lynx-NVIM-theme.json"
       }
     ],
 
@@ -88,24 +88,24 @@
       {
         "id": "lynx-pro-dark",
         "label": "Lynx Icons - (Style A)",
-        "path": "./assets/icon-system/themes-icons/lynx-icons-dark.json"
+        "path": "./src/assets/icon-system/themes-icons/lynx-icons-dark.json"
       },
       {
         "id": "lynx-pro-light",
         "label": "Lynx Icons - (Style B)",
-        "path": "./assets/icon-system/themes-icons/lynx-icons-light.json"
+        "path": "./src/assets/icon-system/themes-icons/lynx-icons-light.json"
       },
       {
         "id": "lynx-pro-gray",
         "label": "Lynx Icons - (Style C)",
-        "path": "./assets/icon-system/themes-icons/lynx-icons-gray.json"
+        "path": "./src/assets/icon-system/themes-icons/lynx-icons-gray.json"
       }
     ],
     "productIconThemes": [
       {
         "id": "lynx-material-icons",
         "label": "Lynx (Material) Icons",
-        "path": "./assets/icon-system/material-icons/lynx-material-icon.json"
+        "path": "./src/assets/icon-system/material-icons/lynx-material-icon.json"
       }
     ]
   }
