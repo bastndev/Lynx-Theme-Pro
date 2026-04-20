@@ -6,7 +6,7 @@ A complete and versatile theme collection designed for optimal coding experience
 
 ## Features
 
-- **8 Beautiful Theme Variants**: Dark Mode, Light Mode, Night Mode, Ghibli Mode, Coffee Mode, Kiro Mode, NVIM Mode, Test Mode, and ICONS
+- **7 Beautiful Theme Variants**: Dark Mode, Light Mode, Night Mode, Ghibli Mode, Coffee Mode, Kiro Mode, and NVIM Mode
 - **Universal Compatibility**: Perfect for coding in any lighting environment
 - **Eye Comfort**: Warm and comfortable coding experience with optional Sun filter
 - **Professional Design**: Thoughtfully crafted for extended coding sessions
@@ -20,6 +20,20 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 
 <br>
 <!-- --- -->
+
+---
+## [4.2.0] - 2026-04-20
+
+### Improved
+
+- Refined the overall aesthetics across all themes for a cleaner and more consistent coding experience.
+- Polished visual consistency in selection and interface accents.
+
+### Changed
+
+- Removed the Test theme from the current lineup.
+- Theme count is now 7 variants.
+- A new theme variant is planned for an upcoming release.
 
 ---
 ## [4.1.0] - 2026-02-16
