@@ -96,7 +96,7 @@
     "editorGhostText.foreground":                    "#757575",    // - git commit txt
     "editorGutter.deletedBackground":                "#ff6b73",    // - Delete code
     "editorGutter.modifiedBackground":               "#678fa2",    // - Modified code
- 
+
     // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#172025",    // - Editor bg
     "editor.foreground":                     "#ffffff",    // - Editor [STORE] text
