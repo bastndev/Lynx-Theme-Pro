@@ -110,6 +110,9 @@
     "editor.wordHighlightStrongBackground":  "#85b3ff30",  // - Word highlight strong bg
     "editor.selectionHighlightBackground":   "#f5d76e25",  // - Selection highlight bg
 
+  "editorIndentGuide.background1":        "#2f4f3340",    // - Indent line
+  "editorIndentGuide.activeBackground1":  "#57b68950",    // - Active indent line
+
     // --- -- - Tabs Header - TOP
     "editorGroupHeader.tabsBackground":      "#0d0d0d",    // - Tabs header bg
     "editorGroupHeader.tabsBorder":          "#1f2d24",    // - Tabs header border line horizontal
