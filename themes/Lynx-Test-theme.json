@@ -140,9 +140,9 @@
 
     // --- -- - Scrollbar - RIGHT & (MINIMAP)
     "scrollbarSlider.background":            "#212225bc",    // - Scroll bar small and large
-    "scrollbarSlider.hoverBackground":       "#272a2dbc",    // - Hover bg
-    "scrollbarSlider.activeBackground":      "#2e3135bc",    // - Active bg
-    "scrollbar.shadow":                      "#0C0D0Ebc",    // - SHADOW SCROLL
+    "scrollbarSlider.hoverBackground":       "#272a2ddc",    // - Hover bg
+    "scrollbarSlider.activeBackground":      "#2e3135dc",    // - Active bg
+    "scrollbar.shadow":                      "#0C0D0Edc",    // - SHADOW SCROLL
 
     // --- -- - Minimap
     "minimap.background":                          "#0C0D0E",    // - Minimap bg
