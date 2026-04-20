@@ -1031,6 +1031,11 @@
     {
       "name": "Import Module Path",
       "scope": [
+        "meta.import string.quoted",
+        "meta.import.from string.quoted",
+        "meta.import.js string.quoted",
+        "meta.import.ts string.quoted",
+        "meta.import.astro string.quoted",
         "meta.import string.quoted.single",
         "meta.import string.quoted.double",
         "meta.import string.quoted.single.astro",
@@ -1041,7 +1046,7 @@
         "meta.import string.quoted.double.ts"
       ],
       "settings": {
-        "foreground": "#3bf2ac"
+        "foreground": "#ff7ac8"
       }
     },
     {
