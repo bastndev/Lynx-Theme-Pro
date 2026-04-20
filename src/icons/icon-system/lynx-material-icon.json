@@ -4,7 +4,7 @@
       "id": "lynx-material-icons",
       "src": [
         {
-          "path": "./lynx-material-icons.woff",
+          "path": "../../assets/woff/lynx-material-icons.woff",
           "format": "woff"
         }
       ],

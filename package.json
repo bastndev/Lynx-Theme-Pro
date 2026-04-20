@@ -88,24 +88,24 @@
       {
         "id": "lynx-pro-dark",
         "label": "Lynx Icons - (Style A)",
-        "path": "./src/assets/icon-system/themes-icons/lynx-icons-dark.json"
+        "path": "./src/icons/icon-themes/lynx-icons-dark.json"
       },
       {
         "id": "lynx-pro-light",
         "label": "Lynx Icons - (Style B)",
-        "path": "./src/assets/icon-system/themes-icons/lynx-icons-light.json"
+        "path": "./src/icons/icon-themes/lynx-icons-light.json"
       },
       {
         "id": "lynx-pro-gray",
         "label": "Lynx Icons - (Style C)",
-        "path": "./src/assets/icon-system/themes-icons/lynx-icons-gray.json"
+        "path": "./src/icons/icon-themes/lynx-icons-gray.json"
       }
     ],
     "productIconThemes": [
       {
         "id": "lynx-material-icons",
         "label": "Lynx (Material) Icons",
-        "path": "./src/assets/icon-system/material-icons/lynx-material-icon.json"
+        "path": "./src/icons/icon-system/lynx-material-icon.json"
       }
     ]
   }

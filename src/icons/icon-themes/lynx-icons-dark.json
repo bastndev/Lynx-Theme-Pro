@@ -1,3769 +1,3769 @@
 {
   "iconDefinitions": {
     "git": {
-      "iconPath": "../../icon-themes/dark/git.svg"
+      "iconPath": "../../assets/svg/dark/git.svg"
     },
     "github-actions-workflow": {
-      "iconPath": "../../icon-themes/dark/github-actions-workflow.svg"
+      "iconPath": "../../assets/svg/dark/github-actions-workflow.svg"
     },
     "yaml": {
-      "iconPath": "../../icon-themes/dark/yaml.svg"
+      "iconPath": "../../assets/svg/dark/yaml.svg"
     },
     "xml": {
-      "iconPath": "../../icon-themes/dark/xml-file.svg"
+      "iconPath": "../../assets/svg/dark/xml-file.svg"
     },
     "matlab": {
-      "iconPath": "../../icon-themes/dark/matlab.svg"
+      "iconPath": "../../assets/svg/dark/matlab.svg"
     },
     "settings": {
-      "iconPath": "../../icon-themes/dark/settings.svg"
+      "iconPath": "../../assets/svg/dark/settings.svg"
     },
     "toml": {
-      "iconPath": "../../icon-themes/dark/toml.svg"
+      "iconPath": "../../assets/svg/dark/toml.svg"
     },
     "toml_light": {
-      "iconPath": "../../icon-themes/dark/toml_light.svg"
+      "iconPath": "../../assets/svg/dark/toml_light.svg"
     },
     "diff": {
-      "iconPath": "../../icon-themes/dark/diff.svg"
+      "iconPath": "../../assets/svg/dark/diff.svg"
     },
     "json": {
-      "iconPath": "../../icon-themes/dark/json-file.svg"
+      "iconPath": "../../assets/svg/dark/json-file.svg"
     },
     "blink": {
-      "iconPath": "../../icon-themes/dark/blink.svg"
+      "iconPath": "../../assets/svg/dark/blink.svg"
     },
     "java": {
-      "iconPath": "../../icon-themes/dark/java.svg"
+      "iconPath": "../../assets/svg/dark/java.svg"
     },
     "razor": {
-      "iconPath": "../../icon-themes/dark/razor.svg"
+      "iconPath": "../../assets/svg/dark/razor.svg"
     },
     "python": {
-      "iconPath": "../../icon-themes/dark/python-file.svg"
+      "iconPath": "../../assets/svg/dark/python-file.svg"
     },
     "mojo": {
-      "iconPath": "../../icon-themes/dark/mojo.svg"
+      "iconPath": "../../assets/svg/dark/mojo.svg"
     },
     "js": {
-      "iconPath": "../../icon-themes/dark/js.svg"
+      "iconPath": "../../assets/svg/dark/js.svg"
     },
     "javascript": {
-      "iconPath": "../../icon-themes/dark/javascript-file.svg"
+      "iconPath": "../../assets/svg/dark/javascript-file.svg"
     },
     "javascript-light": {
-      "iconPath": "../../icon-themes/dark/javascript.svg"
+      "iconPath": "../../assets/svg/dark/javascript.svg"
     },
     "typescript": {
-      "iconPath": "../../icon-themes/dark/typescript-file.svg"
+      "iconPath": "../../assets/svg/dark/typescript-file.svg"
     },
     "typescript-light": {
-      "iconPath": "../../icon-themes/dark/typescript.svg"
+      "iconPath": "../../assets/svg/dark/typescript.svg"
     },
     "scala": {
-      "iconPath": "../../icon-themes/dark/scala.svg"
+      "iconPath": "../../assets/svg/dark/scala.svg"
     },
     "handlebars": {
-      "iconPath": "../../icon-themes/dark/handlebars.svg"
+      "iconPath": "../../assets/svg/dark/handlebars.svg"
     },
     "perl": {
-      "iconPath": "../../icon-themes/dark/perl.svg"
+      "iconPath": "../../assets/svg/dark/perl.svg"
     },
     "haxe": {
-      "iconPath": "../../icon-themes/dark/haxe.svg"
+      "iconPath": "../../assets/svg/dark/haxe.svg"
     },
     "puppet": {
-      "iconPath": "../../icon-themes/dark/puppet.svg"
+      "iconPath": "../../assets/svg/dark/puppet.svg"
     },
     "elixir": {
-      "iconPath": "../../icon-themes/dark/elixir.svg"
+      "iconPath": "../../assets/svg/dark/elixir.svg"
     },
     "livescript": {
-      "iconPath": "../../icon-themes/dark/livescript.svg"
+      "iconPath": "../../assets/svg/dark/livescript.svg"
     },
     "erlang": {
-      "iconPath": "../../icon-themes/dark/erlang.svg"
+      "iconPath": "../../assets/svg/dark/erlang.svg"
     },
     "twig": {
-      "iconPath": "../../icon-themes/dark/twig.svg"
+      "iconPath": "../../assets/svg/dark/twig.svg"
     },
     "julia": {
-      "iconPath": "../../icon-themes/dark/julia.svg"
+      "iconPath": "../../assets/svg/dark/julia.svg"
     },
     "elm": {
-      "iconPath": "../../icon-themes/dark/elm.svg"
+      "iconPath": "../../assets/svg/dark/elm.svg"
     },
     "purescript": {
-      "iconPath": "../../icon-themes/dark/purescript.svg"
+      "iconPath": "../../assets/svg/dark/purescript.svg"
     },
     "stylus": {
-      "iconPath": "../../icon-themes/dark/stylus.svg"
+      "iconPath": "../../assets/svg/dark/stylus.svg"
     },
     "nunjucks": {
-      "iconPath": "../../icon-themes/dark/nunjucks.svg"
+      "iconPath": "../../assets/svg/dark/nunjucks.svg"
     },
     "pug": {
-      "iconPath": "../../icon-themes/dark/pug.svg"
+      "iconPath": "../../assets/svg/dark/pug.svg"
     },
     "robot": {
-      "iconPath": "../../icon-themes/dark/robot.svg"
+      "iconPath": "../../assets/svg/dark/robot.svg"
     },
     "scss": {
-      "iconPath": "../../icon-themes/dark/scss.svg"
+      "iconPath": "../../assets/svg/dark/scss.svg"
     },
     "sass": {
-      "iconPath": "../../icon-themes/dark/sass.svg"
+      "iconPath": "../../assets/svg/dark/sass.svg"
     },
     "less": {
-      "iconPath": "../../icon-themes/dark/less.svg"
+      "iconPath": "../../assets/svg/dark/less.svg"
     },
     "css": {
-      "iconPath": "../../icon-themes/dark/css-new.svg"
+      "iconPath": "../../assets/svg/dark/css-new.svg"
     },
     "global-css": {
-      "iconPath": "../../icon-themes/dark/css-global.svg"
+      "iconPath": "../../assets/svg/dark/css-global.svg"
     },
     "visualstudio": {
-      "iconPath": "../../icon-themes/dark/visualstudio.svg"
+      "iconPath": "../../assets/svg/dark/visualstudio.svg"
     },
     "angular": {
-      "iconPath": "../../icon-themes/dark/angular.svg"
+      "iconPath": "../../assets/svg/dark/angular.svg"
     },
     "graphql": {
-      "iconPath": "../../icon-themes/dark/graphql.svg"
+      "iconPath": "../../assets/svg/dark/graphql.svg"
     },
     "solidity": {
-      "iconPath": "../../icon-themes/dark/solidity.svg"
+      "iconPath": "../../assets/svg/dark/solidity.svg"
     },
     "autoit": {
-      "iconPath": "../../icon-themes/dark/autoit.svg"
+      "iconPath": "../../assets/svg/dark/autoit.svg"
     },
     "haml": {
-      "iconPath": "../../icon-themes/dark/haml.svg"
+      "iconPath": "../../assets/svg/dark/haml.svg"
     },
     "yang": {
-      "iconPath": "../../icon-themes/dark/yang.svg"
+      "iconPath": "../../assets/svg/dark/yang.svg"
     },
     "terraform": {
-      "iconPath": "../../icon-themes/dark/terraform.svg"
+      "iconPath": "../../assets/svg/dark/terraform.svg"
     },
     "applescript": {
-      "iconPath": "../../icon-themes/dark/applescript.svg"
+      "iconPath": "../../assets/svg/dark/applescript.svg"
     },
     "cake": {
-      "iconPath": "../../icon-themes/dark/cake.svg"
+      "iconPath": "../../assets/svg/dark/cake.svg"
     },
     "cucumber": {
-      "iconPath": "../../icon-themes/dark/cucumber.svg"
+      "iconPath": "../../assets/svg/dark/cucumber.svg"
     },
     "nim": {
-      "iconPath": "../../icon-themes/dark/nim.svg"
+      "iconPath": "../../assets/svg/dark/nim.svg"
     },
     "apiblueprint": {
-      "iconPath": "../../icon-themes/dark/apiblueprint.svg"
+      "iconPath": "../../assets/svg/dark/apiblueprint.svg"
     },
     "riot": {
-      "iconPath": "../../icon-themes/dark/riot.svg"
+      "iconPath": "../../assets/svg/dark/riot.svg"
     },
     "postcss": {
-      "iconPath": "../../icon-themes/dark/postcss.svg"
+      "iconPath": "../../assets/svg/dark/postcss.svg"
     },
     "coldfusion": {
-      "iconPath": "../../icon-themes/dark/coldfusion.svg"
+      "iconPath": "../../assets/svg/dark/coldfusion.svg"
     },
     "haskell": {
-      "iconPath": "../../icon-themes/dark/haskell.svg"
+      "iconPath": "../../assets/svg/dark/haskell.svg"
     },
     "dhall": {
-      "iconPath": "../../icon-themes/dark/dhall.svg"
+      "iconPath": "../../assets/svg/dark/dhall.svg"
     },
     "cabal": {
-      "iconPath": "../../icon-themes/dark/cabal.svg"
+      "iconPath": "../../assets/svg/dark/cabal.svg"
     },
     "nix": {
-      "iconPath": "../../icon-themes/dark/nix.svg"
+      "iconPath": "../../assets/svg/dark/nix.svg"
     },
     "ruby": {
-      "iconPath": "../../icon-themes/dark/ruby.svg"
+      "iconPath": "../../assets/svg/dark/ruby.svg"
     },
     "slim": {
-      "iconPath": "../../icon-themes/dark/slim.svg"
+      "iconPath": "../../assets/svg/dark/slim.svg"
     },
     "php": {
-      "iconPath": "../../icon-themes/dark/php.svg"
+      "iconPath": "../../assets/svg/dark/php.svg"
     },
     "php_elephant": {
-      "iconPath": "../../icon-themes/dark/php_elephant.svg"
+      "iconPath": "../../assets/svg/dark/php_elephant.svg"
     },
     "php_elephant_pink": {
-      "iconPath": "../../icon-themes/dark/php_elephant_pink.svg"
+      "iconPath": "../../assets/svg/dark/php_elephant_pink.svg"
     },
     "hack": {
-      "iconPath": "../../icon-themes/dark/hack.svg"
+      "iconPath": "../../assets/svg/dark/hack.svg"
     },
     "react": {
-      "iconPath": "../../icon-themes/dark/react.svg"
+      "iconPath": "../../assets/svg/dark/react.svg"
     },
     "mjml": {
-      "iconPath": "../../icon-themes/dark/mjml.svg"
+      "iconPath": "../../assets/svg/dark/mjml.svg"
     },
     "processing": {
-      "iconPath": "../../icon-themes/dark/processing.svg"
+      "iconPath": "../../assets/svg/dark/processing.svg"
     },
     "hcl": {
-      "iconPath": "../../icon-themes/dark/hcl.svg"
+      "iconPath": "../../assets/svg/dark/hcl.svg"
     },
     "go": {
-      "iconPath": "../../icon-themes/dark/go.svg"
+      "iconPath": "../../assets/svg/dark/go.svg"
     },
     "go_gopher": {
-      "iconPath": "../../icon-themes/dark/go_gopher.svg"
+      "iconPath": "../../assets/svg/dark/go_gopher.svg"
     },
     "nodejs_alt": {
-      "iconPath": "../../icon-themes/dark/nodejs_alt.svg"
+      "iconPath": "../../assets/svg/dark/nodejs_alt.svg"
     },
     "django": {
-      "iconPath": "../../icon-themes/dark/django.svg"
+      "iconPath": "../../assets/svg/dark/django.svg"
     },
     "html": {
-      "iconPath": "../../icon-themes/dark/html.svg"
+      "iconPath": "../../assets/svg/dark/html.svg"
     },
     "godot": {
-      "iconPath": "../../icon-themes/dark/godot.svg"
+      "iconPath": "../../assets/svg/dark/godot.svg"
     },
     "godot-assets": {
-      "iconPath": "../../icon-themes/dark/godot-assets.svg"
+      "iconPath": "../../assets/svg/dark/godot-assets.svg"
     },
     "vim": {
-      "iconPath": "../../icon-themes/dark/vim.svg"
+      "iconPath": "../../assets/svg/dark/vim.svg"
     },
     "silverstripe": {
-      "iconPath": "../../icon-themes/dark/silverstripe.svg"
+      "iconPath": "../../assets/svg/dark/silverstripe.svg"
     },
     "prolog": {
-      "iconPath": "../../icon-themes/dark/prolog.svg"
+      "iconPath": "../../assets/svg/dark/prolog.svg"
     },
     "pawn": {
-      "iconPath": "../../icon-themes/dark/pawn.svg"
+      "iconPath": "../../assets/svg/dark/pawn.svg"
     },
     "reason": {
-      "iconPath": "../../icon-themes/dark/reason.svg"
+      "iconPath": "../../assets/svg/dark/reason.svg"
     },
     "sml": {
-      "iconPath": "../../icon-themes/dark/sml.svg"
+      "iconPath": "../../assets/svg/dark/sml.svg"
     },
     "tex": {
-      "iconPath": "../../icon-themes/dark/tex.svg"
+      "iconPath": "../../assets/svg/dark/tex.svg"
     },
     "latex": {
-      "iconPath": "../../icon-themes/dark/latex.clone.svg"
+      "iconPath": "../../assets/svg/dark/latex.clone.svg"
     },
     "latex-class": {
-      "iconPath": "../../icon-themes/dark/latex-class.clone.svg"
+      "iconPath": "../../assets/svg/dark/latex-class.clone.svg"
     },
     "latex-package": {
-      "iconPath": "../../icon-themes/dark/latex-package.clone.svg"
+      "iconPath": "../../assets/svg/dark/latex-package.clone.svg"
     },
     "context": {
-      "iconPath": "../../icon-themes/dark/context.svg"
+      "iconPath": "../../assets/svg/dark/context.svg"
     },
     "doctex": {
-      "iconPath": "../../icon-themes/dark/doctex.clone.svg"
+      "iconPath": "../../assets/svg/dark/doctex.clone.svg"
     },
     "doctex-installer": {
-      "iconPath": "../../icon-themes/dark/doctex-installer.svg"
+      "iconPath": "../../assets/svg/dark/doctex-installer.svg"
     },
     "bibliography": {
-      "iconPath": "../../icon-themes/dark/bibliography.svg"
+      "iconPath": "../../assets/svg/dark/bibliography.svg"
     },
     "bibtex-style": {
-      "iconPath": "../../icon-themes/dark/bibtex-style.svg"
+      "iconPath": "../../assets/svg/dark/bibtex-style.svg"
     },
     "salesforce": {
-      "iconPath": "../../icon-themes/dark/salesforce.svg"
+      "iconPath": "../../assets/svg/dark/salesforce.svg"
     },
     "sas": {
-      "iconPath": "../../icon-themes/dark/sas.svg"
+      "iconPath": "../../assets/svg/dark/sas.svg"
     },
     "docker": {
-      "iconPath": "../../icon-themes/dark/docker.svg"
+      "iconPath": "../../assets/svg/dark/docker.svg"
     },
     "table": {
-      "iconPath": "../../icon-themes/dark/table.svg"
+      "iconPath": "../../assets/svg/dark/table.svg"
     },
     "csharp": {
-      "iconPath": "../../icon-themes/dark/csharp.svg"
+      "iconPath": "../../assets/svg/dark/csharp.svg"
     },
     "console": {
-      "iconPath": "../../icon-themes/dark/console.svg"
+      "iconPath": "../../assets/svg/dark/console.svg"
     },
     "c": {
-      "iconPath": "../../icon-themes/dark/c.svg"
+      "iconPath": "../../assets/svg/dark/c.svg"
     },
     "cpp": {
-      "iconPath": "../../icon-themes/dark/cpp.svg"
+      "iconPath": "../../assets/svg/dark/cpp.svg"
     },
     "objective-c": {
-      "iconPath": "../../icon-themes/dark/objective-c.svg"
+      "iconPath": "../../assets/svg/dark/objective-c.svg"
     },
     "objective-cpp": {
-      "iconPath": "../../icon-themes/dark/objective-cpp.svg"
+      "iconPath": "../../assets/svg/dark/objective-cpp.svg"
     },
     "c3": {
-      "iconPath": "../../icon-themes/dark/c3.svg"
+      "iconPath": "../../assets/svg/dark/c3.svg"
     },
     "coffee": {
-      "iconPath": "../../icon-themes/dark/coffee.svg"
+      "iconPath": "../../assets/svg/dark/coffee.svg"
     },
     "fsharp": {
-      "iconPath": "../../icon-themes/dark/fsharp.svg"
+      "iconPath": "../../assets/svg/dark/fsharp.svg"
     },
     "editorconfig": {
-      "iconPath": "../../icon-themes/dark/editorconfig.svg"
+      "iconPath": "../../assets/svg/dark/editorconfig.svg"
     },
     "clojure": {
-      "iconPath": "../../icon-themes/dark/clojure.svg"
+      "iconPath": "../../assets/svg/dark/clojure.svg"
     },
     "groovy": {
-      "iconPath": "../../icon-themes/dark/groovy.svg"
+      "iconPath": "../../assets/svg/dark/groovy.svg"
     },
     "markdoc": {
-      "iconPath": "../../icon-themes/dark/markdoc.svg"
+      "iconPath": "../../assets/svg/dark/markdoc.svg"
     },
     "markdown": {
-      "iconPath": "../../icon-themes/dark/markdown.svg"
+      "iconPath": "../../assets/svg/dark/markdown.svg"
     },
     "jinja": {
-      "iconPath": "../../icon-themes/dark/jinja.svg"
+      "iconPath": "../../assets/svg/dark/jinja.svg"
     },
     "proto": {
-      "iconPath": "../../icon-themes/dark/proto.svg"
+      "iconPath": "../../assets/svg/dark/proto.svg"
     },
     "python-misc": {
-      "iconPath": "../../icon-themes/dark/python-misc.svg"
+      "iconPath": "../../assets/svg/dark/python-misc.svg"
     },
     "vue": {
-      "iconPath": "../../icon-themes/dark/vue.svg"
+      "iconPath": "../../assets/svg/dark/vue.svg"
     },
     "lua": {
-      "iconPath": "../../icon-themes/dark/lua.svg"
+      "iconPath": "../../assets/svg/dark/lua.svg"
     },
     "log": {
-      "iconPath": "../../icon-themes/dark/log.svg"
+      "iconPath": "../../assets/svg/dark/log.svg"
     },
     "jupyter": {
-      "iconPath": "../../icon-themes/dark/jupyter.svg"
+      "iconPath": "../../assets/svg/dark/jupyter.svg"
     },
     "document": {
-      "iconPath": "../../icon-themes/dark/document.svg"
+      "iconPath": "../../assets/svg/dark/document.svg"
     },
     "pdf": {
-      "iconPath": "../../icon-themes/dark/pdf.svg"
+      "iconPath": "../../assets/svg/dark/pdf.svg"
     },
     "powershell": {
-      "iconPath": "../../icon-themes/dark/powershell.svg"
+      "iconPath": "../../assets/svg/dark/powershell.svg"
     },
     "r": {
-      "iconPath": "../../icon-themes/dark/r.svg"
+      "iconPath": "../../assets/svg/dark/r.svg"
     },
     "rust": {
-      "iconPath": "../../icon-themes/dark/rust.svg"
+      "iconPath": "../../assets/svg/dark/rust.svg"
     },
     "database": {
-      "iconPath": "../../icon-themes/dark/database.svg"
+      "iconPath": "../../assets/svg/dark/database.svg"
     },
     "kusto": {
-      "iconPath": "../../icon-themes/dark/kusto.svg"
+      "iconPath": "../../assets/svg/dark/kusto.svg"
     },
     "lock": {
-      "iconPath": "../../icon-themes/dark/lock.svg"
+      "iconPath": "../../assets/svg/dark/lock.svg"
     },
     "svg": {
-      "iconPath": "../../icon-themes/dark/svg-file.svg"
+      "iconPath": "../../assets/svg/dark/svg-file.svg"
     },
     "svg-light": {
-      "iconPath": "../../icon-themes/dark/svg-file-light.svg"
+      "iconPath": "../../assets/svg/dark/svg-file-light.svg"
     },
     "swift": {
-      "iconPath": "../../icon-themes/dark/swift.svg"
+      "iconPath": "../../assets/svg/dark/swift.svg"
     },
     "react_ts": {
-      "iconPath": "../../icon-themes/dark/react-ts.svg"
+      "iconPath": "../../assets/svg/dark/react-ts.svg"
     },
     "search": {
-      "iconPath": "../../icon-themes/dark/search.svg"
+      "iconPath": "../../assets/svg/dark/search.svg"
     },
     "minecraft": {
-      "iconPath": "../../icon-themes/dark/minecraft.svg"
+      "iconPath": "../../assets/svg/dark/minecraft.svg"
     },
     "rescript": {
-      "iconPath": "../../icon-themes/dark/rescript.svg"
+      "iconPath": "../../assets/svg/dark/rescript.svg"
     },
     "otne": {
-      "iconPath": "../../icon-themes/dark/otne.svg"
+      "iconPath": "../../assets/svg/dark/otne.svg"
     },
     "twine": {
-      "iconPath": "../../icon-themes/dark/twine.svg"
+      "iconPath": "../../assets/svg/dark/twine.svg"
     },
     "grain": {
-      "iconPath": "../../icon-themes/dark/grain.svg"
+      "iconPath": "../../assets/svg/dark/grain.svg"
     },
     "lolcode": {
-      "iconPath": "../../icon-themes/dark/lolcode.svg"
+      "iconPath": "../../assets/svg/dark/lolcode.svg"
     },
     "idris": {
-      "iconPath": "../../icon-themes/dark/idris.svg"
+      "iconPath": "../../assets/svg/dark/idris.svg"
     },
     "chess": {
-      "iconPath": "../../icon-themes/dark/chess.svg"
+      "iconPath": "../../assets/svg/dark/chess.svg"
     },
     "gemini": {
-      "iconPath": "../../icon-themes/dark/gemini.svg"
+      "iconPath": "../../assets/svg/dark/gemini.svg"
     },
     "vlang": {
-      "iconPath": "../../icon-themes/dark/vlang.svg"
+      "iconPath": "../../assets/svg/dark/vlang.svg"
     },
     "wolframlanguage": {
-      "iconPath": "../../icon-themes/dark/wolframlanguage.svg"
+      "iconPath": "../../assets/svg/dark/wolframlanguage.svg"
     },
     "shader": {
-      "iconPath": "../../icon-themes/dark/shader.svg"
+      "iconPath": "../../assets/svg/dark/shader.svg"
     },
     "tree": {
-      "iconPath": "../../icon-themes/dark/tree.svg"
+      "iconPath": "../../assets/svg/dark/tree.svg"
     },
     "svelte": {
-      "iconPath": "../../icon-themes/dark/svelte.svg"
+      "iconPath": "../../assets/svg/dark/svelte.svg"
     },
     "dart": {
-      "iconPath": "../../icon-themes/dark/dart.svg"
+      "iconPath": "../../assets/svg/dark/dart.svg"
     },
     "cadence": {
-      "iconPath": "../../icon-themes/dark/cadence.svg"
+      "iconPath": "../../assets/svg/dark/cadence.svg"
     },
     "stylable": {
-      "iconPath": "../../icon-themes/dark/stylable.svg"
+      "iconPath": "../../assets/svg/dark/stylable.svg"
     },
     "hjson": {
-      "iconPath": "../../icon-themes/dark/hjson.svg"
+      "iconPath": "../../assets/svg/dark/hjson.svg"
     },
     "huff": {
-      "iconPath": "../../icon-themes/dark/huff.svg"
+      "iconPath": "../../assets/svg/dark/huff.svg"
     },
     "cds": {
-      "iconPath": "../../icon-themes/dark/cds.svg"
+      "iconPath": "../../assets/svg/dark/cds.svg"
     },
     "concourse": {
-      "iconPath": "../../icon-themes/dark/concourse.svg"
+      "iconPath": "../../assets/svg/dark/concourse.svg"
     },
     "systemd": {
-      "iconPath": "../../icon-themes/dark/systemd.svg"
+      "iconPath": "../../assets/svg/dark/systemd.svg"
     },
     "systemd_light": {
-      "iconPath": "../../icon-themes/dark/systemd_light.svg"
+      "iconPath": "../../assets/svg/dark/systemd_light.svg"
     },
     "slint": {
-      "iconPath": "../../icon-themes/dark/slint.svg"
+      "iconPath": "../../assets/svg/dark/slint.svg"
     },
     "luau": {
-      "iconPath": "../../icon-themes/dark/luau.svg"
+      "iconPath": "../../assets/svg/dark/luau.svg"
     },
     "hosts": {
-      "iconPath": "../../icon-themes/dark/hosts.svg"
+      "iconPath": "../../assets/svg/dark/hosts.svg"
     },
     "beancount": {
-      "iconPath": "../../icon-themes/dark/beancount.svg"
+      "iconPath": "../../assets/svg/dark/beancount.svg"
     },
     "ahk2": {
-      "iconPath": "../../icon-themes/dark/ahk2.clone.svg"
+      "iconPath": "../../assets/svg/dark/ahk2.clone.svg"
     },
     "gnuplot": {
-      "iconPath": "../../icon-themes/dark/gnuplot.svg"
+      "iconPath": "../../assets/svg/dark/gnuplot.svg"
     },
     "blink_light": {
-      "iconPath": "../../icon-themes/dark/blink_light.svg"
+      "iconPath": "../../assets/svg/dark/blink_light.svg"
     },
     "just": {
-      "iconPath": "../../icon-themes/dark/just.svg"
+      "iconPath": "../../assets/svg/dark/just.svg"
     },
     "jinja_light": {
-      "iconPath": "../../icon-themes/dark/jinja_light.svg"
+      "iconPath": "../../assets/svg/dark/jinja_light.svg"
     },
     "playwright": {
-      "iconPath": "../../icon-themes/dark/playwright.svg"
+      "iconPath": "../../assets/svg/dark/playwright.svg"
     },
     "sublime": {
-      "iconPath": "../../icon-themes/dark/sublime.svg"
+      "iconPath": "../../assets/svg/dark/sublime.svg"
     },
     "simulink": {
-      "iconPath": "../../icon-themes/dark/simulink.svg"
+      "iconPath": "../../assets/svg/dark/simulink.svg"
     },
     "image": {
-      "iconPath": "../../icon-themes/dark/image-file.svg"
+      "iconPath": "../../assets/svg/dark/image-file.svg"
     },
     "gif": {
-      "iconPath": "../../icon-themes/dark/gif-file.svg"
+      "iconPath": "../../assets/svg/dark/gif-file.svg"
     },
     "palette": {
-      "iconPath": "../../icon-themes/dark/palette.svg"
+      "iconPath": "../../assets/svg/dark/palette.svg"
     },
     "rocket": {
-      "iconPath": "../../icon-themes/dark/rocket.svg"
+      "iconPath": "../../assets/svg/dark/rocket.svg"
     },
     "routing": {
-      "iconPath": "../../icon-themes/dark/routing.svg"
+      "iconPath": "../../assets/svg/dark/routing.svg"
     },
     "redux-action": {
-      "iconPath": "../../icon-themes/dark/redux-action.svg"
+      "iconPath": "../../assets/svg/dark/redux-action.svg"
     },
     "redux-reducer": {
-      "iconPath": "../../icon-themes/dark/redux-reducer.svg"
+      "iconPath": "../../assets/svg/dark/redux-reducer.svg"
     },
     "redux-selector": {
-      "iconPath": "../../icon-themes/dark/redux-selector.svg"
+      "iconPath": "../../assets/svg/dark/redux-selector.svg"
     },
     "redux-store": {
-      "iconPath": "../../icon-themes/dark/redux-store.svg"
+      "iconPath": "../../assets/svg/dark/redux-store.svg"
     },
     "typescript-def": {
-      "iconPath": "../../icon-themes/dark/typescript-def.svg"
+      "iconPath": "../../assets/svg/dark/typescript-def.svg"
     },
     "markdoc-config": {
-      "iconPath": "../../icon-themes/dark/markdoc-config.svg"
+      "iconPath": "../../assets/svg/dark/markdoc-config.svg"
     },
     "markojs": {
-      "iconPath": "../../icon-themes/dark/markojs.svg"
+      "iconPath": "../../assets/svg/dark/markojs.svg"
     },
     "astro": {
-      "iconPath": "../../icon-themes/dark/astro-file.svg"
+      "iconPath": "../../assets/svg/dark/astro-file.svg"
     },
     "astro-light": {
-      "iconPath": "../../icon-themes/dark/astro-file-light.svg"
+      "iconPath": "../../assets/svg/dark/astro-file-light.svg"
     },
     "astro-config": {
-      "iconPath": "../../icon-themes/dark/astro-config-file.svg"
+      "iconPath": "../../assets/svg/dark/astro-config-file.svg"
     },
     "vscode": {
-      "iconPath": "../../icon-themes/dark/vscode.svg"
+      "iconPath": "../../assets/svg/dark/vscode.svg"
     },
     "qsharp": {
-      "iconPath": "../../icon-themes/dark/qsharp.svg"
+      "iconPath": "../../assets/svg/dark/qsharp.svg"
     },
     "zip": {
-      "iconPath": "../../icon-themes/dark/zip.svg"
+      "iconPath": "../../assets/svg/dark/zip.svg"
     },
     "vala": {
-      "iconPath": "../../icon-themes/dark/vala.svg"
+      "iconPath": "../../assets/svg/dark/vala.svg"
     },
     "zig": {
-      "iconPath": "../../icon-themes/dark/zig.svg"
+      "iconPath": "../../assets/svg/dark/zig.svg"
     },
     "exe": {
-      "iconPath": "../../icon-themes/dark/exe.svg"
+      "iconPath": "../../assets/svg/dark/exe.svg"
     },
     "hex": {
-      "iconPath": "../../icon-themes/dark/hex.svg"
+      "iconPath": "../../assets/svg/dark/hex.svg"
     },
     "jar": {
-      "iconPath": "../../icon-themes/dark/jar.svg"
+      "iconPath": "../../assets/svg/dark/jar.svg"
     },
     "javaclass": {
-      "iconPath": "../../icon-themes/dark/javaclass.svg"
+      "iconPath": "../../assets/svg/dark/javaclass.svg"
     },
     "h": {
-      "iconPath": "../../icon-themes/dark/h.svg"
+      "iconPath": "../../assets/svg/dark/h.svg"
     },
     "hpp": {
-      "iconPath": "../../icon-themes/dark/hpp.svg"
+      "iconPath": "../../assets/svg/dark/hpp.svg"
     },
     "rc": {
-      "iconPath": "../../icon-themes/dark/rc.svg"
+      "iconPath": "../../assets/svg/dark/rc.svg"
     },
     "go-mod": {
-      "iconPath": "../../icon-themes/dark/go-mod.svg"
+      "iconPath": "../../assets/svg/dark/go-mod.svg"
     },
     "ruff": {
-      "iconPath": "../../icon-themes/dark/ruff.svg"
+      "iconPath": "../../assets/svg/dark/ruff.svg"
     },
     "uv": {
-      "iconPath": "../../icon-themes/dark/uv.svg"
+      "iconPath": "../../assets/svg/dark/uv.svg"
     },
     "scons": {
-      "iconPath": "../../icon-themes/dark/scons.svg"
+      "iconPath": "../../assets/svg/dark/scons.svg"
     },
     "scons_light": {
-      "iconPath": "../../icon-themes/dark/scons_light.svg"
+      "iconPath": "../../assets/svg/dark/scons_light.svg"
     },
     "url": {
-      "iconPath": "../../icon-themes/dark/url.svg"
+      "iconPath": "../../assets/svg/dark/url.svg"
     },
     "excalidraw": {
-      "iconPath": "../../icon-themes/dark/excalidraw.svg"
+      "iconPath": "../../assets/svg/dark/excalidraw.svg"
     },
     "gradle": {
-      "iconPath": "../../icon-themes/dark/gradle.svg"
+      "iconPath": "../../assets/svg/dark/gradle.svg"
     },
     "word": {
-      "iconPath": "../../icon-themes/dark/word.svg"
+      "iconPath": "../../assets/svg/dark/word.svg"
     },
     "certificate": {
-      "iconPath": "../../icon-themes/dark/certificate.svg"
+      "iconPath": "../../assets/svg/dark/certificate.svg"
     },
     "key": {
-      "iconPath": "../../icon-themes/dark/key.svg"
+      "iconPath": "../../assets/svg/dark/key.svg"
     },
     "keystatic": {
-      "iconPath": "../../icon-themes/dark/keystatic.svg"
+      "iconPath": "../../assets/svg/dark/keystatic.svg"
     },
     "font": {
-      "iconPath": "../../icon-themes/dark/font-file.svg"
+      "iconPath": "../../assets/svg/dark/font-file.svg"
     },
     "lib": {
-      "iconPath": "../../icon-themes/dark/lib.svg"
+      "iconPath": "../../assets/svg/dark/lib.svg"
     },
     "dll": {
-      "iconPath": "../../icon-themes/dark/dll.svg"
+      "iconPath": "../../assets/svg/dark/dll.svg"
     },
     "gemfile": {
-      "iconPath": "../../icon-themes/dark/gemfile.svg"
+      "iconPath": "../../assets/svg/dark/gemfile.svg"
     },
     "rubocop": {
-      "iconPath": "../../icon-themes/dark/rubocop.svg"
+      "iconPath": "../../assets/svg/dark/rubocop.svg"
     },
     "rubocop_light": {
-      "iconPath": "../../icon-themes/dark/rubocop_light.svg"
+      "iconPath": "../../assets/svg/dark/rubocop_light.svg"
     },
     "rspec": {
-      "iconPath": "../../icon-themes/dark/rspec.svg"
+      "iconPath": "../../assets/svg/dark/rspec.svg"
     },
     "arduino": {
-      "iconPath": "../../icon-themes/dark/arduino.svg"
+      "iconPath": "../../assets/svg/dark/arduino.svg"
     },
     "bbx": {
-      "iconPath": "../../icon-themes/dark/bbx.svg"
+      "iconPath": "../../assets/svg/dark/bbx.svg"
     },
     "cbx": {
-      "iconPath": "../../icon-themes/dark/cbx.svg"
+      "iconPath": "../../assets/svg/dark/cbx.svg"
     },
     "lbx": {
-      "iconPath": "../../icon-themes/dark/lbx.svg"
+      "iconPath": "../../assets/svg/dark/lbx.svg"
     },
     "sty": {
-      "iconPath": "../../icon-themes/dark/sty.clone.svg"
+      "iconPath": "../../assets/svg/dark/sty.clone.svg"
     },
     "ltx": {
-      "iconPath": "../../icon-themes/dark/ltx.clone.svg"
+      "iconPath": "../../assets/svg/dark/ltx.clone.svg"
     },
     "dtx": {
-      "iconPath": "../../icon-themes/dark/dtx.clone.svg"
+      "iconPath": "../../assets/svg/dark/dtx.clone.svg"
     },
     "latexmk": {
-      "iconPath": "../../icon-themes/dark/latexmk.svg"
+      "iconPath": "../../assets/svg/dark/latexmk.svg"
     },
     "powerpoint": {
-      "iconPath": "../../icon-themes/dark/powerpoint.svg"
+      "iconPath": "../../assets/svg/dark/powerpoint.svg"
     },
     "video": {
-      "iconPath": "../../icon-themes/dark/video.svg"
+      "iconPath": "../../assets/svg/dark/video.svg"
     },
     "virtual": {
-      "iconPath": "../../icon-themes/dark/virtual.svg"
+      "iconPath": "../../assets/svg/dark/virtual.svg"
     },
     "vedic": {
-      "iconPath": "../../icon-themes/dark/vedic.svg"
+      "iconPath": "../../assets/svg/dark/vedic.svg"
     },
     "email": {
-      "iconPath": "../../icon-themes/dark/email.svg"
+      "iconPath": "../../assets/svg/dark/email.svg"
     },
     "audio": {
-      "iconPath": "../../icon-themes/dark/audio.svg"
+      "iconPath": "../../assets/svg/dark/audio.svg"
     },
     "lyric": {
-      "iconPath": "../../icon-themes/dark/lyric.svg"
+      "iconPath": "../../assets/svg/dark/lyric.svg"
     },
     "raml": {
-      "iconPath": "../../icon-themes/dark/raml.svg"
+      "iconPath": "../../assets/svg/dark/raml.svg"
     },
     "xaml": {
-      "iconPath": "../../icon-themes/dark/xaml.svg"
+      "iconPath": "../../assets/svg/dark/xaml.svg"
     },
     "kotlin": {
-      "iconPath": "../../icon-themes/dark/kotlin.svg"
+      "iconPath": "../../assets/svg/dark/kotlin.svg"
     },
     "mist": {
-      "iconPath": "../../icon-themes/dark/mist.clone.svg"
+      "iconPath": "../../assets/svg/dark/mist.clone.svg"
     },
     "dart_generated": {
-      "iconPath": "../../icon-themes/dark/dart_generated.svg"
+      "iconPath": "../../assets/svg/dark/dart_generated.svg"
     },
     "actionscript": {
-      "iconPath": "../../icon-themes/dark/actionscript.svg"
+      "iconPath": "../../assets/svg/dark/actionscript.svg"
     },
     "mxml": {
-      "iconPath": "../../icon-themes/dark/mxml.svg"
+      "iconPath": "../../assets/svg/dark/mxml.svg"
     },
     "autohotkey": {
-      "iconPath": "../../icon-themes/dark/autohotkey.svg"
+      "iconPath": "../../assets/svg/dark/autohotkey.svg"
     },
     "flash": {
-      "iconPath": "../../icon-themes/dark/flash.svg"
+      "iconPath": "../../assets/svg/dark/flash.svg"
     },
     "adobe-swc": {
-      "iconPath": "../../icon-themes/dark/adobe-swc.svg"
+      "iconPath": "../../assets/svg/dark/adobe-swc.svg"
     },
     "swc": {
-      "iconPath": "../../icon-themes/dark/swc.svg"
+      "iconPath": "../../assets/svg/dark/swc.svg"
     },
     "cmake": {
-      "iconPath": "../../icon-themes/dark/cmake.svg"
+      "iconPath": "../../assets/svg/dark/cmake.svg"
     },
     "assembly": {
-      "iconPath": "../../icon-themes/dark/assembly.svg"
+      "iconPath": "../../assets/svg/dark/assembly.svg"
     },
     "semgrep": {
-      "iconPath": "../../icon-themes/dark/semgrep.svg"
+      "iconPath": "../../assets/svg/dark/semgrep.svg"
     },
     "vue-config": {
-      "iconPath": "../../icon-themes/dark/vue-config.svg"
+      "iconPath": "../../assets/svg/dark/vue-config.svg"
     },
     "vuex-store": {
-      "iconPath": "../../icon-themes/dark/vuex-store.svg"
+      "iconPath": "../../assets/svg/dark/vuex-store.svg"
     },
     "nuxt": {
-      "iconPath": "../../icon-themes/dark/nuxt.svg"
+      "iconPath": "../../assets/svg/dark/nuxt.svg"
     },
     "harmonix": {
-      "iconPath": "../../icon-themes/dark/harmonix.svg"
+      "iconPath": "../../assets/svg/dark/harmonix.svg"
     },
     "ocaml": {
-      "iconPath": "../../icon-themes/dark/ocaml.svg"
+      "iconPath": "../../assets/svg/dark/ocaml.svg"
     },
     "odin": {
-      "iconPath": "../../icon-themes/dark/odin.svg"
+      "iconPath": "../../assets/svg/dark/odin.svg"
     },
     "javascript-map": {
-      "iconPath": "../../icon-themes/dark/javascript-map.svg"
+      "iconPath": "../../assets/svg/dark/javascript-map.svg"
     },
     "css-map": {
-      "iconPath": "../../icon-themes/dark/css-map.svg"
+      "iconPath": "../../assets/svg/dark/css-map.svg"
     },
     "test-ts": {
-      "iconPath": "../../icon-themes/dark/test-ts.svg"
+      "iconPath": "../../assets/svg/dark/test-ts.svg"
     },
     "test-jsx": {
-      "iconPath": "../../icon-themes/dark/test-jsx.svg"
+      "iconPath": "../../assets/svg/dark/test-jsx.svg"
     },
     "test-js": {
-      "iconPath": "../../icon-themes/dark/test-js.svg"
+      "iconPath": "../../assets/svg/dark/test-js.svg"
     },
     "angular-component": {
-      "iconPath": "../../icon-themes/dark/angular-component.clone.svg"
+      "iconPath": "../../assets/svg/dark/angular-component.clone.svg"
     },
     "angular-guard": {
-      "iconPath": "../../icon-themes/dark/angular-guard.clone.svg"
+      "iconPath": "../../assets/svg/dark/angular-guard.clone.svg"
     },
     "angular-service": {
-      "iconPath": "../../icon-themes/dark/angular-service.clone.svg"
+      "iconPath": "../../assets/svg/dark/angular-service.clone.svg"
     },
     "angular-pipe": {
-      "iconPath": "../../icon-themes/dark/angular-pipe.clone.svg"
+      "iconPath": "../../assets/svg/dark/angular-pipe.clone.svg"
     },
     "angular-directive": {
-      "iconPath": "../../icon-themes/dark/angular-directive.clone.svg"
+      "iconPath": "../../assets/svg/dark/angular-directive.clone.svg"
     },
     "angular-resolver": {
-      "iconPath": "../../icon-themes/dark/angular-resolver.clone.svg"
+      "iconPath": "../../assets/svg/dark/angular-resolver.clone.svg"
     },
     "angular-interceptor": {
-      "iconPath": "../../icon-themes/dark/angular-interceptor.clone.svg"
+      "iconPath": "../../assets/svg/dark/angular-interceptor.clone.svg"
     },
     "smarty": {
-      "iconPath": "../../icon-themes/dark/smarty.svg"
+      "iconPath": "../../assets/svg/dark/smarty.svg"
     },
     "bucklescript": {
-      "iconPath": "../../icon-themes/dark/bucklescript.svg"
+      "iconPath": "../../assets/svg/dark/bucklescript.svg"
     },
     "merlin": {
-      "iconPath": "../../icon-themes/dark/merlin.svg"
+      "iconPath": "../../assets/svg/dark/merlin.svg"
     },
     "verilog": {
-      "iconPath": "../../icon-themes/dark/verilog.svg"
+      "iconPath": "../../assets/svg/dark/verilog.svg"
     },
     "mathematica": {
-      "iconPath": "../../icon-themes/dark/mathematica.svg"
+      "iconPath": "../../assets/svg/dark/mathematica.svg"
     },
     "vercel": {
-      "iconPath": "../../icon-themes/dark/vercel.svg"
+      "iconPath": "../../assets/svg/dark/vercel.svg"
     },
     "vercel_light": {
-      "iconPath": "../../icon-themes/dark/vercel_light.svg"
+      "iconPath": "../../assets/svg/dark/vercel_light.svg"
     },
     "liara": {
-      "iconPath": "../../icon-themes/dark/liara.svg"
+      "iconPath": "../../assets/svg/dark/liara.svg"
     },
     "verdaccio": {
-      "iconPath": "../../icon-themes/dark/verdaccio.svg"
+      "iconPath": "../../assets/svg/dark/verdaccio.svg"
     },
     "payload": {
-      "iconPath": "../../icon-themes/dark/payload.svg"
+      "iconPath": "../../assets/svg/dark/payload.svg"
     },
     "payload_light": {
-      "iconPath": "../../icon-themes/dark/payload_light.svg"
+      "iconPath": "../../assets/svg/dark/payload_light.svg"
     },
     "next": {
-      "iconPath": "../../icon-themes/dark/next.svg"
+      "iconPath": "../../assets/svg/dark/next.svg"
     },
     "next_light": {
-      "iconPath": "../../icon-themes/dark/next_light.svg"
+      "iconPath": "../../assets/svg/dark/next_light.svg"
     },
     "remark": {
-      "iconPath": "../../icon-themes/dark/remark.svg"
+      "iconPath": "../../assets/svg/dark/remark.svg"
     },
     "remix": {
-      "iconPath": "../../icon-themes/dark/remix.svg"
+      "iconPath": "../../assets/svg/dark/remix.svg"
     },
     "remix_light": {
-      "iconPath": "../../icon-themes/dark/remix_light.svg"
+      "iconPath": "../../assets/svg/dark/remix_light.svg"
     },
     "laravel": {
-      "iconPath": "../../icon-themes/dark/laravel.svg"
+      "iconPath": "../../assets/svg/dark/laravel.svg"
     },
     "vfl": {
-      "iconPath": "../../icon-themes/dark/vfl.svg"
+      "iconPath": "../../assets/svg/dark/vfl.svg"
     },
     "kl": {
-      "iconPath": "../../icon-themes/dark/kl.svg"
+      "iconPath": "../../assets/svg/dark/kl.svg"
     },
     "posthtml": {
-      "iconPath": "../../icon-themes/dark/posthtml.svg"
+      "iconPath": "../../assets/svg/dark/posthtml.svg"
     },
     "todo": {
-      "iconPath": "../../icon-themes/dark/todo.svg"
+      "iconPath": "../../assets/svg/dark/todo.svg"
     },
     "http": {
-      "iconPath": "../../icon-themes/dark/http.svg"
+      "iconPath": "../../assets/svg/dark/http.svg"
     },
     "restql": {
-      "iconPath": "../../icon-themes/dark/restql.svg"
+      "iconPath": "../../assets/svg/dark/restql.svg"
     },
     "kivy": {
-      "iconPath": "../../icon-themes/dark/kivy.svg"
+      "iconPath": "../../assets/svg/dark/kivy.svg"
     },
     "graphcool": {
-      "iconPath": "../../icon-themes/dark/graphcool.svg"
+      "iconPath": "../../assets/svg/dark/graphcool.svg"
     },
     "sbt": {
-      "iconPath": "../../icon-themes/dark/sbt.svg"
+      "iconPath": "../../assets/svg/dark/sbt.svg"
     },
     "webpack": {
-      "iconPath": "../../icon-themes/dark/webpack.svg"
+      "iconPath": "../../assets/svg/dark/webpack.svg"
     },
     "ionic": {
-      "iconPath": "../../icon-themes/dark/ionic.svg"
+      "iconPath": "../../assets/svg/dark/ionic.svg"
     },
     "gulp": {
-      "iconPath": "../../icon-themes/dark/gulp.svg"
+      "iconPath": "../../assets/svg/dark/gulp.svg"
     },
     "nodejs": {
-      "iconPath": "../../icon-themes/dark/nodejs.svg"
+      "iconPath": "../../assets/svg/dark/nodejs.svg"
     },
     "npm": {
-      "iconPath": "../../icon-themes/dark/npm.svg"
+      "iconPath": "../../assets/svg/dark/npm.svg"
     },
     "yarn": {
-      "iconPath": "../../icon-themes/dark/yarn.svg"
+      "iconPath": "../../assets/svg/dark/yarn.svg"
     },
     "android": {
-      "iconPath": "../../icon-themes/dark/android.svg"
+      "iconPath": "../../assets/svg/dark/android.svg"
     },
     "tune": {
-      "iconPath": "../../icon-themes/dark/tune.svg"
+      "iconPath": "../../assets/svg/dark/tune.svg"
     },
     "turborepo": {
-      "iconPath": "../../icon-themes/dark/turborepo.svg"
+      "iconPath": "../../assets/svg/dark/turborepo.svg"
     },
     "turborepo_light": {
-      "iconPath": "../../icon-themes/dark/turborepo_light.svg"
+      "iconPath": "../../assets/svg/dark/turborepo_light.svg"
     },
     "babel": {
-      "iconPath": "../../icon-themes/dark/babel.svg"
+      "iconPath": "../../assets/svg/dark/babel.svg"
     },
     "blitz": {
-      "iconPath": "../../icon-themes/dark/blitz.svg"
+      "iconPath": "../../assets/svg/dark/blitz.svg"
     },
     "contributing": {
-      "iconPath": "../../icon-themes/dark/contributing.svg"
+      "iconPath": "../../assets/svg/dark/contributing.svg"
     },
     "readme": {
-      "iconPath": "../../icon-themes/dark/readme.svg"
+      "iconPath": "../../assets/svg/dark/readme.svg"
     },
     "changelog": {
-      "iconPath": "../../icon-themes/dark/changelog.svg"
+      "iconPath": "../../assets/svg/dark/changelog.svg"
     },
     "architecture": {
-      "iconPath": "../../icon-themes/dark/architecture.svg"
+      "iconPath": "../../assets/svg/dark/architecture.svg"
     },
     "credits": {
-      "iconPath": "../../icon-themes/dark/credits.svg"
+      "iconPath": "../../assets/svg/dark/credits.svg"
     },
     "authors": {
-      "iconPath": "../../icon-themes/dark/authors.svg"
+      "iconPath": "../../assets/svg/dark/authors.svg"
     },
     "flow": {
-      "iconPath": "../../icon-themes/dark/flow.svg"
+      "iconPath": "../../assets/svg/dark/flow.svg"
     },
     "favicon": {
-      "iconPath": "../../icon-themes/dark/favicon.svg"
+      "iconPath": "../../assets/svg/dark/favicon.svg"
     },
     "karma": {
-      "iconPath": "../../icon-themes/dark/karma.svg"
+      "iconPath": "../../assets/svg/dark/karma.svg"
     },
     "bithound": {
-      "iconPath": "../../icon-themes/dark/bithound.svg"
+      "iconPath": "../../assets/svg/dark/bithound.svg"
     },
     "svgo": {
-      "iconPath": "../../icon-themes/dark/svgo.svg"
+      "iconPath": "../../assets/svg/dark/svgo.svg"
     },
     "appveyor": {
-      "iconPath": "../../icon-themes/dark/appveyor.svg"
+      "iconPath": "../../assets/svg/dark/appveyor.svg"
     },
     "travis": {
-      "iconPath": "../../icon-themes/dark/travis.svg"
+      "iconPath": "../../assets/svg/dark/travis.svg"
     },
     "codecov": {
-      "iconPath": "../../icon-themes/dark/codecov.svg"
+      "iconPath": "../../assets/svg/dark/codecov.svg"
     },
     "sonarcloud": {
-      "iconPath": "../../icon-themes/dark/sonarcloud.svg"
+      "iconPath": "../../assets/svg/dark/sonarcloud.svg"
     },
     "protractor": {
-      "iconPath": "../../icon-themes/dark/protractor.svg"
+      "iconPath": "../../assets/svg/dark/protractor.svg"
     },
     "fusebox": {
-      "iconPath": "../../icon-themes/dark/fusebox.svg"
+      "iconPath": "../../assets/svg/dark/fusebox.svg"
     },
     "heroku": {
-      "iconPath": "../../icon-themes/dark/heroku.svg"
+      "iconPath": "../../assets/svg/dark/heroku.svg"
     },
     "gitlab": {
-      "iconPath": "../../icon-themes/dark/gitlab.svg"
+      "iconPath": "../../assets/svg/dark/gitlab.svg"
     },
     "bower": {
-      "iconPath": "../../icon-themes/dark/bower.svg"
+      "iconPath": "../../assets/svg/dark/bower.svg"
     },
     "eslint": {
-      "iconPath": "../../icon-themes/dark/eslint-b.svg"
+      "iconPath": "../../assets/svg/dark/eslint-b.svg"
     },
     "conduct": {
-      "iconPath": "../../icon-themes/dark/conduct.svg"
+      "iconPath": "../../assets/svg/dark/conduct.svg"
     },
     "watchman": {
-      "iconPath": "../../icon-themes/dark/watchman.svg"
+      "iconPath": "../../assets/svg/dark/watchman.svg"
     },
     "aurelia": {
-      "iconPath": "../../icon-themes/dark/aurelia.svg"
+      "iconPath": "../../assets/svg/dark/aurelia.svg"
     },
     "auto": {
-      "iconPath": "../../icon-themes/dark/auto.svg"
+      "iconPath": "../../assets/svg/dark/auto.svg"
     },
     "auto_light": {
-      "iconPath": "../../icon-themes/dark/auto_light.svg"
+      "iconPath": "../../assets/svg/dark/auto_light.svg"
     },
     "mocha": {
-      "iconPath": "../../icon-themes/dark/mocha.svg"
+      "iconPath": "../../assets/svg/dark/mocha.svg"
     },
     "jenkins": {
-      "iconPath": "../../icon-themes/dark/jenkins.svg"
+      "iconPath": "../../assets/svg/dark/jenkins.svg"
     },
     "firebase": {
-      "iconPath": "../../icon-themes/dark/firebase.svg"
+      "iconPath": "../../assets/svg/dark/firebase.svg"
     },
     "figma": {
-      "iconPath": "../../icon-themes/dark/figma.svg"
+      "iconPath": "../../assets/svg/dark/figma.svg"
     },
     "rollup": {
-      "iconPath": "../../icon-themes/dark/rollup.svg"
+      "iconPath": "../../assets/svg/dark/rollup.svg"
     },
     "huff_light": {
-      "iconPath": "../../icon-themes/dark/huff_light.svg"
+      "iconPath": "../../assets/svg/dark/huff_light.svg"
     },
     "hardhat": {
-      "iconPath": "../../icon-themes/dark/hardhat.svg"
+      "iconPath": "../../assets/svg/dark/hardhat.svg"
     },
     "stylelint": {
-      "iconPath": "../../icon-themes/dark/stylelint.svg"
+      "iconPath": "../../assets/svg/dark/stylelint.svg"
     },
     "stylelint_light": {
-      "iconPath": "../../icon-themes/dark/stylelint_light.svg"
+      "iconPath": "../../assets/svg/dark/stylelint_light.svg"
     },
     "code-climate": {
-      "iconPath": "../../icon-themes/dark/code-climate.svg"
+      "iconPath": "../../assets/svg/dark/code-climate.svg"
     },
     "code-climate_light": {
-      "iconPath": "../../icon-themes/dark/code-climate_light.svg"
+      "iconPath": "../../assets/svg/dark/code-climate_light.svg"
     },
     "prettier": {
-      "iconPath": "../../icon-themes/dark/prettier.svg"
+      "iconPath": "../../assets/svg/dark/prettier.svg"
     },
     "prettier-file": {
-      "iconPath": "../../icon-themes/dark/prettier-file.svg"
+      "iconPath": "../../assets/svg/dark/prettier-file.svg"
     },
     "renovate": {
-      "iconPath": "../../icon-themes/dark/renovate.svg"
+      "iconPath": "../../assets/svg/dark/renovate.svg"
     },
     "apollo": {
-      "iconPath": "../../icon-themes/dark/apollo.svg"
+      "iconPath": "../../assets/svg/dark/apollo.svg"
     },
     "nodemon": {
-      "iconPath": "../../icon-themes/dark/nodemon.svg"
+      "iconPath": "../../assets/svg/dark/nodemon.svg"
     },
     "ngrx-reducer": {
-      "iconPath": "../../icon-themes/dark/ngrx-reducer.svg"
+      "iconPath": "../../assets/svg/dark/ngrx-reducer.svg"
     },
     "ngrx-state": {
-      "iconPath": "../../icon-themes/dark/ngrx-state.svg"
+      "iconPath": "../../assets/svg/dark/ngrx-state.svg"
     },
     "ngrx-actions": {
-      "iconPath": "../../icon-themes/dark/ngrx-actions.svg"
+      "iconPath": "../../assets/svg/dark/ngrx-actions.svg"
     },
     "ngrx-effects": {
-      "iconPath": "../../icon-themes/dark/ngrx-effects.svg"
+      "iconPath": "../../assets/svg/dark/ngrx-effects.svg"
     },
     "ngrx-entity": {
-      "iconPath": "../../icon-themes/dark/ngrx-entity.svg"
+      "iconPath": "../../assets/svg/dark/ngrx-entity.svg"
     },
     "ngrx-selectors": {
-      "iconPath": "../../icon-themes/dark/ngrx-selectors.svg"
+      "iconPath": "../../assets/svg/dark/ngrx-selectors.svg"
     },
     "webhint": {
-      "iconPath": "../../icon-themes/dark/webhint.svg"
+      "iconPath": "../../assets/svg/dark/webhint.svg"
     },
     "browserlist": {
-      "iconPath": "../../icon-themes/dark/browserlist.svg"
+      "iconPath": "../../assets/svg/dark/browserlist.svg"
     },
     "browserlist_light": {
-      "iconPath": "../../icon-themes/dark/browserlist_light.svg"
+      "iconPath": "../../assets/svg/dark/browserlist_light.svg"
     },
     "crystal": {
-      "iconPath": "../../icon-themes/dark/crystal.svg"
+      "iconPath": "../../assets/svg/dark/crystal.svg"
     },
     "crystal_light": {
-      "iconPath": "../../icon-themes/dark/crystal_light.svg"
+      "iconPath": "../../assets/svg/dark/crystal_light.svg"
     },
     "snyk": {
-      "iconPath": "../../icon-themes/dark/snyk.svg"
+      "iconPath": "../../assets/svg/dark/snyk.svg"
     },
     "drone": {
-      "iconPath": "../../icon-themes/dark/drone.svg"
+      "iconPath": "../../assets/svg/dark/drone.svg"
     },
     "drone_light": {
-      "iconPath": "../../icon-themes/dark/drone_light.svg"
+      "iconPath": "../../assets/svg/dark/drone_light.svg"
     },
     "cuda": {
-      "iconPath": "../../icon-themes/dark/cuda.svg"
+      "iconPath": "../../assets/svg/dark/cuda.svg"
     },
     "dotjs": {
-      "iconPath": "../../icon-themes/dark/dotjs.svg"
+      "iconPath": "../../assets/svg/dark/dotjs.svg"
     },
     "ejs": {
-      "iconPath": "../../icon-themes/dark/ejs.svg"
+      "iconPath": "../../assets/svg/dark/ejs.svg"
     },
     "sequelize": {
-      "iconPath": "../../icon-themes/dark/sequelize.svg"
+      "iconPath": "../../assets/svg/dark/sequelize.svg"
     },
     "gatsby": {
-      "iconPath": "../../icon-themes/dark/gatsby.svg"
+      "iconPath": "../../assets/svg/dark/gatsby.svg"
     },
     "wakatime": {
-      "iconPath": "../../icon-themes/dark/wakatime.svg"
+      "iconPath": "../../assets/svg/dark/wakatime.svg"
     },
     "wakatime_light": {
-      "iconPath": "../../icon-themes/dark/wakatime_light.svg"
+      "iconPath": "../../assets/svg/dark/wakatime_light.svg"
     },
     "circleci": {
-      "iconPath": "../../icon-themes/dark/circleci.svg"
+      "iconPath": "../../assets/svg/dark/circleci.svg"
     },
     "circleci_light": {
-      "iconPath": "../../icon-themes/dark/circleci_light.svg"
+      "iconPath": "../../assets/svg/dark/circleci_light.svg"
     },
     "cloudfoundry": {
-      "iconPath": "../../icon-themes/dark/cloudfoundry.svg"
+      "iconPath": "../../assets/svg/dark/cloudfoundry.svg"
     },
     "grunt": {
-      "iconPath": "../../icon-themes/dark/grunt.svg"
+      "iconPath": "../../assets/svg/dark/grunt.svg"
     },
     "jest": {
-      "iconPath": "../../icon-themes/dark/jest.svg"
+      "iconPath": "../../assets/svg/dark/jest.svg"
     },
     "storybook": {
-      "iconPath": "../../icon-themes/dark/storybook.svg"
+      "iconPath": "../../assets/svg/dark/storybook.svg"
     },
     "wepy": {
-      "iconPath": "../../icon-themes/dark/wepy.svg"
+      "iconPath": "../../assets/svg/dark/wepy.svg"
     },
     "fastlane": {
-      "iconPath": "../../icon-themes/dark/fastlane.svg"
+      "iconPath": "../../assets/svg/dark/fastlane.svg"
     },
     "hcl_light": {
-      "iconPath": "../../icon-themes/dark/hcl_light.svg"
+      "iconPath": "../../assets/svg/dark/hcl_light.svg"
     },
     "helm": {
-      "iconPath": "../../icon-themes/dark/helm.svg"
+      "iconPath": "../../assets/svg/dark/helm.svg"
     },
     "san": {
-      "iconPath": "../../icon-themes/dark/san.svg"
+      "iconPath": "../../assets/svg/dark/san.svg"
     },
     "quokka": {
-      "iconPath": "../../icon-themes/dark/quokka.svg"
+      "iconPath": "../../assets/svg/dark/quokka.svg"
     },
     "wallaby": {
-      "iconPath": "../../icon-themes/dark/wallaby.svg"
+      "iconPath": "../../assets/svg/dark/wallaby.svg"
     },
     "stencil": {
-      "iconPath": "../../icon-themes/dark/stencil.svg"
+      "iconPath": "../../assets/svg/dark/stencil.svg"
     },
     "red": {
-      "iconPath": "../../icon-themes/dark/red.svg"
+      "iconPath": "../../assets/svg/dark/red.svg"
     },
     "makefile": {
-      "iconPath": "../../icon-themes/dark/makefile.svg"
+      "iconPath": "../../assets/svg/dark/makefile.svg"
     },
     "foxpro": {
-      "iconPath": "../../icon-themes/dark/foxpro.svg"
+      "iconPath": "../../assets/svg/dark/foxpro.svg"
     },
     "i18n": {
-      "iconPath": "../../icon-themes/dark/i18n.svg"
+      "iconPath": "../../assets/svg/dark/i18n.svg"
     },
     "webassembly": {
-      "iconPath": "../../icon-themes/dark/webassembly.svg"
+      "iconPath": "../../assets/svg/dark/webassembly.svg"
     },
     "semantic-release": {
-      "iconPath": "../../icon-themes/dark/semantic-release.svg"
+      "iconPath": "../../assets/svg/dark/semantic-release.svg"
     },
     "semantic-release_light": {
-      "iconPath": "../../icon-themes/dark/semantic-release_light.svg"
+      "iconPath": "../../assets/svg/dark/semantic-release_light.svg"
     },
     "bitbucket": {
-      "iconPath": "../../icon-themes/dark/bitbucket.svg"
+      "iconPath": "../../assets/svg/dark/bitbucket.svg"
     },
     "d": {
-      "iconPath": "../../icon-themes/dark/d.svg"
+      "iconPath": "../../assets/svg/dark/d.svg"
     },
     "mdx": {
-      "iconPath": "../../icon-themes/dark/mdx.svg"
+      "iconPath": "../../assets/svg/dark/mdx.svg"
     },
     "mdsvex": {
-      "iconPath": "../../icon-themes/dark/mdsvex.svg"
+      "iconPath": "../../assets/svg/dark/mdsvex.svg"
     },
     "ballerina": {
-      "iconPath": "../../icon-themes/dark/ballerina.svg"
+      "iconPath": "../../assets/svg/dark/ballerina.svg"
     },
     "racket": {
-      "iconPath": "../../icon-themes/dark/racket.svg"
+      "iconPath": "../../assets/svg/dark/racket.svg"
     },
     "bazel": {
-      "iconPath": "../../icon-themes/dark/bazel.svg"
+      "iconPath": "../../assets/svg/dark/bazel.svg"
     },
     "mint": {
-      "iconPath": "../../icon-themes/dark/mint.svg"
+      "iconPath": "../../assets/svg/dark/mint.svg"
     },
     "velocity": {
-      "iconPath": "../../icon-themes/dark/velocity.svg"
+      "iconPath": "../../assets/svg/dark/velocity.svg"
     },
     "azure-pipelines": {
-      "iconPath": "../../icon-themes/dark/azure-pipelines.svg"
+      "iconPath": "../../assets/svg/dark/azure-pipelines.svg"
     },
     "azure": {
-      "iconPath": "../../icon-themes/dark/azure.svg"
+      "iconPath": "../../assets/svg/dark/azure.svg"
     },
     "vagrant": {
-      "iconPath": "../../icon-themes/dark/vagrant.svg"
+      "iconPath": "../../assets/svg/dark/vagrant.svg"
     },
     "prisma": {
-      "iconPath": "../../icon-themes/dark/prisma.svg"
+      "iconPath": "../../assets/svg/dark/prisma.svg"
     },
     "abc": {
-      "iconPath": "../../icon-themes/dark/abc.svg"
+      "iconPath": "../../assets/svg/dark/abc.svg"
     },
     "asciidoc": {
-      "iconPath": "../../icon-themes/dark/asciidoc.svg"
+      "iconPath": "../../assets/svg/dark/asciidoc.svg"
     },
     "istanbul": {
-      "iconPath": "../../icon-themes/dark/istanbul.svg"
+      "iconPath": "../../assets/svg/dark/istanbul.svg"
     },
     "edge": {
-      "iconPath": "../../icon-themes/dark/edge.svg"
+      "iconPath": "../../assets/svg/dark/edge.svg"
     },
     "scheme": {
-      "iconPath": "../../icon-themes/dark/scheme.svg"
+      "iconPath": "../../assets/svg/dark/scheme.svg"
     },
     "lisp": {
-      "iconPath": "../../icon-themes/dark/lisp.svg"
+      "iconPath": "../../assets/svg/dark/lisp.svg"
     },
     "tailwindcss": {
-      "iconPath": "../../icon-themes/dark/tailwindcss.svg"
+      "iconPath": "../../assets/svg/dark/tailwindcss.svg"
     },
     "3d": {
-      "iconPath": "../../icon-themes/dark/3d.svg"
+      "iconPath": "../../assets/svg/dark/3d.svg"
     },
     "buildkite": {
-      "iconPath": "../../icon-themes/dark/buildkite.svg"
+      "iconPath": "../../assets/svg/dark/buildkite.svg"
     },
     "netlify": {
-      "iconPath": "../../icon-themes/dark/netlify.svg"
+      "iconPath": "../../assets/svg/dark/netlify.svg"
     },
     "netlify_light": {
-      "iconPath": "../../icon-themes/dark/netlify_light.svg"
+      "iconPath": "../../assets/svg/dark/netlify_light.svg"
     },
     "adobe-illustrator": {
-      "iconPath": "../../icon-themes/dark/adobe-illustrator.svg"
+      "iconPath": "../../assets/svg/dark/adobe-illustrator.svg"
     },
     "adobe-illustrator_light": {
-      "iconPath": "../../icon-themes/dark/adobe-illustrator_light.svg"
+      "iconPath": "../../assets/svg/dark/adobe-illustrator_light.svg"
     },
     "adobe-photoshop": {
-      "iconPath": "../../icon-themes/dark/adobe-photoshop.svg"
+      "iconPath": "../../assets/svg/dark/adobe-photoshop.svg"
     },
     "adobe-photoshop_light": {
-      "iconPath": "../../icon-themes/dark/adobe-photoshop_light.svg"
+      "iconPath": "../../assets/svg/dark/adobe-photoshop_light.svg"
     },
     "svelte_js": {
-      "iconPath": "../../icon-themes/dark/svelte_js.clone.svg"
+      "iconPath": "../../assets/svg/dark/svelte_js.clone.svg"
     },
     "svelte_ts": {
-      "iconPath": "../../icon-themes/dark/svelte_ts.clone.svg"
+      "iconPath": "../../assets/svg/dark/svelte_ts.clone.svg"
     },
     "nest": {
-      "iconPath": "../../icon-themes/dark/nest.svg"
+      "iconPath": "../../assets/svg/dark/nest.svg"
     },
     "nest-controller": {
-      "iconPath": "../../icon-themes/dark/nest-controller.clone.svg"
+      "iconPath": "../../assets/svg/dark/nest-controller.clone.svg"
     },
     "nest-middleware": {
-      "iconPath": "../../icon-themes/dark/nest-middleware.clone.svg"
+      "iconPath": "../../assets/svg/dark/nest-middleware.clone.svg"
     },
     "nest-module": {
-      "iconPath": "../../icon-themes/dark/nest-module.clone.svg"
+      "iconPath": "../../assets/svg/dark/nest-module.clone.svg"
     },
     "nest-service": {
-      "iconPath": "../../icon-themes/dark/nest-service.clone.svg"
+      "iconPath": "../../assets/svg/dark/nest-service.clone.svg"
     },
     "nest-decorator": {
-      "iconPath": "../../icon-themes/dark/nest-decorator.clone.svg"
+      "iconPath": "../../assets/svg/dark/nest-decorator.clone.svg"
     },
     "nest-pipe": {
-      "iconPath": "../../icon-themes/dark/nest-pipe.clone.svg"
+      "iconPath": "../../assets/svg/dark/nest-pipe.clone.svg"
     },
     "nest-filter": {
-      "iconPath": "../../icon-themes/dark/nest-filter.clone.svg"
+      "iconPath": "../../assets/svg/dark/nest-filter.clone.svg"
     },
     "nest-gateway": {
-      "iconPath": "../../icon-themes/dark/nest-gateway.clone.svg"
+      "iconPath": "../../assets/svg/dark/nest-gateway.clone.svg"
     },
     "nest-guard": {
-      "iconPath": "../../icon-themes/dark/nest-guard.clone.svg"
+      "iconPath": "../../assets/svg/dark/nest-guard.clone.svg"
     },
     "nest-resolver": {
-      "iconPath": "../../icon-themes/dark/nest-resolver.clone.svg"
+      "iconPath": "../../assets/svg/dark/nest-resolver.clone.svg"
     },
     "nest-interceptor": {
-      "iconPath": "../../icon-themes/dark/nest-interceptor.clone.svg"
+      "iconPath": "../../assets/svg/dark/nest-interceptor.clone.svg"
     },
     "moon": {
-      "iconPath": "../../icon-themes/dark/moon.svg"
+      "iconPath": "../../assets/svg/dark/moon.svg"
     },
     "moonscript": {
-      "iconPath": "../../icon-themes/dark/moonscript.svg"
+      "iconPath": "../../assets/svg/dark/moonscript.svg"
     },
     "percy": {
-      "iconPath": "../../icon-themes/dark/percy.svg"
+      "iconPath": "../../assets/svg/dark/percy.svg"
     },
     "gitpod": {
-      "iconPath": "../../icon-themes/dark/gitpod.svg"
+      "iconPath": "../../assets/svg/dark/gitpod.svg"
     },
     "stackblitz": {
-      "iconPath": "../../icon-themes/dark/stackblitz.svg"
+      "iconPath": "../../assets/svg/dark/stackblitz.svg"
     },
     "advpl": {
-      "iconPath": "../../icon-themes/dark/advpl.svg"
+      "iconPath": "../../assets/svg/dark/advpl.svg"
     },
     "advpl-ptm": {
-      "iconPath": "../../icon-themes/dark/advpl-ptm.clone.svg"
+      "iconPath": "../../assets/svg/dark/advpl-ptm.clone.svg"
     },
     "advpl-tlpp": {
-      "iconPath": "../../icon-themes/dark/advpl-tlpp.clone.svg"
+      "iconPath": "../../assets/svg/dark/advpl-tlpp.clone.svg"
     },
     "advpl-include": {
-      "iconPath": "../../icon-themes/dark/advpl-include.clone.svg"
+      "iconPath": "../../assets/svg/dark/advpl-include.clone.svg"
     },
     "codeowners": {
-      "iconPath": "../../icon-themes/dark/codeowners.svg"
+      "iconPath": "../../assets/svg/dark/codeowners.svg"
     },
     "gcp": {
-      "iconPath": "../../icon-themes/dark/gcp.svg"
+      "iconPath": "../../assets/svg/dark/gcp.svg"
     },
     "amplify": {
-      "iconPath": "../../icon-themes/dark/amplify.svg"
+      "iconPath": "../../assets/svg/dark/amplify.svg"
     },
     "disc": {
-      "iconPath": "../../icon-themes/dark/disc.svg"
+      "iconPath": "../../assets/svg/dark/disc.svg"
     },
     "fortran": {
-      "iconPath": "../../icon-themes/dark/fortran.svg"
+      "iconPath": "../../assets/svg/dark/fortran.svg"
     },
     "tcl": {
-      "iconPath": "../../icon-themes/dark/tcl.svg"
+      "iconPath": "../../assets/svg/dark/tcl.svg"
     },
     "liquid": {
-      "iconPath": "../../icon-themes/dark/liquid.svg"
+      "iconPath": "../../assets/svg/dark/liquid.svg"
     },
     "husky": {
-      "iconPath": "../../icon-themes/dark/husky.svg"
+      "iconPath": "../../assets/svg/dark/husky.svg"
     },
     "coconut": {
-      "iconPath": "../../icon-themes/dark/coconut.svg"
+      "iconPath": "../../assets/svg/dark/coconut.svg"
     },
     "tilt": {
-      "iconPath": "../../icon-themes/dark/tilt.svg"
+      "iconPath": "../../assets/svg/dark/tilt.svg"
     },
     "capacitor": {
-      "iconPath": "../../icon-themes/dark/capacitor.svg"
+      "iconPath": "../../assets/svg/dark/capacitor.svg"
     },
     "sketch": {
-      "iconPath": "../../icon-themes/dark/sketch.svg"
+      "iconPath": "../../assets/svg/dark/sketch.svg"
     },
     "adonis": {
-      "iconPath": "../../icon-themes/dark/adonis.svg"
+      "iconPath": "../../assets/svg/dark/adonis.svg"
     },
     "forth": {
-      "iconPath": "../../icon-themes/dark/forth.svg"
+      "iconPath": "../../assets/svg/dark/forth.svg"
     },
     "uml": {
-      "iconPath": "../../icon-themes/dark/uml.svg"
+      "iconPath": "../../assets/svg/dark/uml.svg"
     },
     "uml_light": {
-      "iconPath": "../../icon-themes/dark/uml_light.svg"
+      "iconPath": "../../assets/svg/dark/uml_light.svg"
     },
     "meson": {
-      "iconPath": "../../icon-themes/dark/meson.svg"
+      "iconPath": "../../assets/svg/dark/meson.svg"
     },
     "commitizen": {
-      "iconPath": "../../icon-themes/dark/commitizen.svg"
+      "iconPath": "../../assets/svg/dark/commitizen.svg"
     },
     "commitlint": {
-      "iconPath": "../../icon-themes/dark/commitlint.svg"
+      "iconPath": "../../assets/svg/dark/commitlint.svg"
     },
     "buck": {
-      "iconPath": "../../icon-themes/dark/buck.svg"
+      "iconPath": "../../assets/svg/dark/buck.svg"
     },
     "nx": {
-      "iconPath": "../../icon-themes/dark/nx.svg"
+      "iconPath": "../../assets/svg/dark/nx.svg"
     },
     "opam": {
-      "iconPath": "../../icon-themes/dark/opam.svg"
+      "iconPath": "../../assets/svg/dark/opam.svg"
     },
     "dune": {
-      "iconPath": "../../icon-themes/dark/dune.svg"
+      "iconPath": "../../assets/svg/dark/dune.svg"
     },
     "imba": {
-      "iconPath": "../../icon-themes/dark/imba.svg"
+      "iconPath": "../../assets/svg/dark/imba.svg"
     },
     "drawio": {
-      "iconPath": "../../icon-themes/dark/drawio.svg"
+      "iconPath": "../../assets/svg/dark/drawio.svg"
     },
     "pascal": {
-      "iconPath": "../../icon-themes/dark/pascal.svg"
+      "iconPath": "../../assets/svg/dark/pascal.svg"
     },
     "unity": {
-      "iconPath": "../../icon-themes/dark/unity.svg"
+      "iconPath": "../../assets/svg/dark/unity.svg"
     },
     "roadmap": {
-      "iconPath": "../../icon-themes/dark/roadmap.svg"
+      "iconPath": "../../assets/svg/dark/roadmap.svg"
     },
     "nuget": {
-      "iconPath": "../../icon-themes/dark/nuget.svg"
+      "iconPath": "../../assets/svg/dark/nuget.svg"
     },
     "command": {
-      "iconPath": "../../icon-themes/dark/command.svg"
+      "iconPath": "../../assets/svg/dark/command.svg"
     },
     "stryker": {
-      "iconPath": "../../icon-themes/dark/stryker.svg"
+      "iconPath": "../../assets/svg/dark/stryker.svg"
     },
     "denizenscript": {
-      "iconPath": "../../icon-themes/dark/denizenscript.svg"
+      "iconPath": "../../assets/svg/dark/denizenscript.svg"
     },
     "modernizr": {
-      "iconPath": "../../icon-themes/dark/modernizr.svg"
+      "iconPath": "../../assets/svg/dark/modernizr.svg"
     },
     "slug": {
-      "iconPath": "../../icon-themes/dark/slug.svg"
+      "iconPath": "../../assets/svg/dark/slug.svg"
     },
     "stitches": {
-      "iconPath": "../../icon-themes/dark/stitches.svg"
+      "iconPath": "../../assets/svg/dark/stitches.svg"
     },
     "stitches_light": {
-      "iconPath": "../../icon-themes/dark/stitches_light.svg"
+      "iconPath": "../../assets/svg/dark/stitches_light.svg"
     },
     "nginx": {
-      "iconPath": "../../icon-themes/dark/nginx.svg"
+      "iconPath": "../../assets/svg/dark/nginx.svg"
     },
     "replit": {
-      "iconPath": "../../icon-themes/dark/replit.svg"
+      "iconPath": "../../assets/svg/dark/replit.svg"
     },
     "rescript-interface": {
-      "iconPath": "../../icon-themes/dark/rescript-interface.svg"
+      "iconPath": "../../assets/svg/dark/rescript-interface.svg"
     },
     "duc": {
-      "iconPath": "../../icon-themes/dark/duc.svg"
+      "iconPath": "../../assets/svg/dark/duc.svg"
     },
     "snowpack": {
-      "iconPath": "../../icon-themes/dark/snowpack.svg"
+      "iconPath": "../../assets/svg/dark/snowpack.svg"
     },
     "snowpack_light": {
-      "iconPath": "../../icon-themes/dark/snowpack_light.svg"
+      "iconPath": "../../assets/svg/dark/snowpack_light.svg"
     },
     "brainfuck": {
-      "iconPath": "../../icon-themes/dark/brainfuck.svg"
+      "iconPath": "../../assets/svg/dark/brainfuck.svg"
     },
     "bicep": {
-      "iconPath": "../../icon-themes/dark/bicep.svg"
+      "iconPath": "../../assets/svg/dark/bicep.svg"
     },
     "cobol": {
-      "iconPath": "../../icon-themes/dark/cobol.svg"
+      "iconPath": "../../assets/svg/dark/cobol.svg"
     },
     "quasar": {
-      "iconPath": "../../icon-themes/dark/quasar.svg"
+      "iconPath": "../../assets/svg/dark/quasar.svg"
     },
     "dependabot": {
-      "iconPath": "../../icon-themes/dark/dependabot.svg"
+      "iconPath": "../../assets/svg/dark/dependabot.svg"
     },
     "pipeline": {
-      "iconPath": "../../icon-themes/dark/pipeline.svg"
+      "iconPath": "../../assets/svg/dark/pipeline.svg"
     },
     "vite": {
-      "iconPath": "../../icon-themes/dark/vite-file.svg"
+      "iconPath": "../../assets/svg/dark/vite-file.svg"
     },
     "vitest": {
-      "iconPath": "../../icon-themes/dark/vitest.svg"
+      "iconPath": "../../assets/svg/dark/vitest.svg"
     },
     "velite": {
-      "iconPath": "../../icon-themes/dark/velite.svg"
+      "iconPath": "../../assets/svg/dark/velite.svg"
     },
     "opa": {
-      "iconPath": "../../icon-themes/dark/opa.svg"
+      "iconPath": "../../assets/svg/dark/opa.svg"
     },
     "lerna": {
-      "iconPath": "../../icon-themes/dark/lerna.svg"
+      "iconPath": "../../assets/svg/dark/lerna.svg"
     },
     "windicss": {
-      "iconPath": "../../icon-themes/dark/windicss.svg"
+      "iconPath": "../../assets/svg/dark/windicss.svg"
     },
     "textlint": {
-      "iconPath": "../../icon-themes/dark/textlint.svg"
+      "iconPath": "../../assets/svg/dark/textlint.svg"
     },
     "lilypond": {
-      "iconPath": "../../icon-themes/dark/lilypond.svg"
+      "iconPath": "../../assets/svg/dark/lilypond.svg"
     },
     "chess_light": {
-      "iconPath": "../../icon-themes/dark/chess_light.svg"
+      "iconPath": "../../assets/svg/dark/chess_light.svg"
     },
     "sentry": {
-      "iconPath": "../../icon-themes/dark/sentry.svg"
+      "iconPath": "../../assets/svg/dark/sentry.svg"
     },
     "contentlayer": {
-      "iconPath": "../../icon-themes/dark/contentlayer.svg"
+      "iconPath": "../../assets/svg/dark/contentlayer.svg"
     },
     "phpunit": {
-      "iconPath": "../../icon-themes/dark/phpunit.svg"
+      "iconPath": "../../assets/svg/dark/phpunit.svg"
     },
     "php-cs-fixer": {
-      "iconPath": "../../icon-themes/dark/php-cs-fixer.svg"
+      "iconPath": "../../assets/svg/dark/php-cs-fixer.svg"
     },
     "robots": {
-      "iconPath": "../../icon-themes/dark/robots.svg"
+      "iconPath": "../../assets/svg/dark/robots.svg"
     },
     "tsconfig": {
-      "iconPath": "../../icon-themes/dark/tsconfig.svg"
+      "iconPath": "../../assets/svg/dark/tsconfig.svg"
     },
     "tauri": {
-      "iconPath": "../../icon-themes/dark/tauri.svg"
+      "iconPath": "../../assets/svg/dark/tauri.svg"
     },
     "jsconfig": {
-      "iconPath": "../../icon-themes/dark/jsconfig.svg"
+      "iconPath": "../../assets/svg/dark/jsconfig.svg"
     },
     "maven": {
-      "iconPath": "../../icon-themes/dark/maven.svg"
+      "iconPath": "../../assets/svg/dark/maven.svg"
     },
     "ada": {
-      "iconPath": "../../icon-themes/dark/ada.svg"
+      "iconPath": "../../assets/svg/dark/ada.svg"
     },
     "serverless": {
-      "iconPath": "../../icon-themes/dark/serverless.svg"
+      "iconPath": "../../assets/svg/dark/serverless.svg"
     },
     "supabase": {
-      "iconPath": "../../icon-themes/dark/supabase-file.svg"
+      "iconPath": "../../assets/svg/dark/supabase-file.svg"
     },
     "ember": {
-      "iconPath": "../../icon-themes/dark/ember.svg"
+      "iconPath": "../../assets/svg/dark/ember.svg"
     },
     "horusec": {
-      "iconPath": "../../icon-themes/dark/horusec.svg"
+      "iconPath": "../../assets/svg/dark/horusec.svg"
     },
     "poetry": {
-      "iconPath": "../../icon-themes/dark/poetry.svg"
+      "iconPath": "../../assets/svg/dark/poetry.svg"
     },
     "pdm": {
-      "iconPath": "../../icon-themes/dark/pdm.svg"
+      "iconPath": "../../assets/svg/dark/pdm.svg"
     },
     "coala": {
-      "iconPath": "../../icon-themes/dark/coala.svg"
+      "iconPath": "../../assets/svg/dark/coala.svg"
     },
     "parcel": {
-      "iconPath": "../../icon-themes/dark/parcel.svg"
+      "iconPath": "../../assets/svg/dark/parcel.svg"
     },
     "dinophp": {
-      "iconPath": "../../icon-themes/dark/dinophp.svg"
+      "iconPath": "../../assets/svg/dark/dinophp.svg"
     },
     "teal": {
-      "iconPath": "../../icon-themes/dark/teal.svg"
+      "iconPath": "../../assets/svg/dark/teal.svg"
     },
     "template": {
-      "iconPath": "../../icon-themes/dark/template.svg"
+      "iconPath": "../../assets/svg/dark/template.svg"
     },
     "astyle": {
-      "iconPath": "../../icon-themes/dark/astyle.svg"
+      "iconPath": "../../assets/svg/dark/astyle.svg"
     },
     "lighthouse": {
-      "iconPath": "../../icon-themes/dark/lighthouse.svg"
+      "iconPath": "../../assets/svg/dark/lighthouse.svg"
     },
     "svgr": {
-      "iconPath": "../../icon-themes/dark/svgr.svg"
+      "iconPath": "../../assets/svg/dark/svgr.svg"
     },
     "rome": {
-      "iconPath": "../../icon-themes/dark/rome.svg"
+      "iconPath": "../../assets/svg/dark/rome.svg"
     },
     "cypress": {
-      "iconPath": "../../icon-themes/dark/cypress.svg"
+      "iconPath": "../../assets/svg/dark/cypress.svg"
     },
     "siyuan": {
-      "iconPath": "../../icon-themes/dark/siyuan.svg"
+      "iconPath": "../../assets/svg/dark/siyuan.svg"
     },
     "ndst": {
-      "iconPath": "../../icon-themes/dark/ndst.svg"
+      "iconPath": "../../assets/svg/dark/ndst.svg"
     },
     "plop": {
-      "iconPath": "../../icon-themes/dark/plop.svg"
+      "iconPath": "../../assets/svg/dark/plop.svg"
     },
     "tobi": {
-      "iconPath": "../../icon-themes/dark/tobi.svg"
+      "iconPath": "../../assets/svg/dark/tobi.svg"
     },
     "tobimake": {
-      "iconPath": "../../icon-themes/dark/tobimake.svg"
+      "iconPath": "../../assets/svg/dark/tobimake.svg"
     },
     "gleam": {
-      "iconPath": "../../icon-themes/dark/gleam.svg"
+      "iconPath": "../../assets/svg/dark/gleam.svg"
     },
     "pnpm": {
-      "iconPath": "../../icon-themes/dark/pnpm.svg"
+      "iconPath": "../../assets/svg/dark/pnpm.svg"
     },
     "pnpm_light": {
-      "iconPath": "../../icon-themes/dark/pnpm_light.svg"
+      "iconPath": "../../assets/svg/dark/pnpm_light.svg"
     },
     "gridsome": {
-      "iconPath": "../../icon-themes/dark/gridsome.svg"
+      "iconPath": "../../assets/svg/dark/gridsome.svg"
     },
     "steadybit": {
-      "iconPath": "../../icon-themes/dark/steadybit.svg"
+      "iconPath": "../../assets/svg/dark/steadybit.svg"
     },
     "capnp": {
-      "iconPath": "../../icon-themes/dark/capnp.svg"
+      "iconPath": "../../assets/svg/dark/capnp.svg"
     },
     "caddy": {
-      "iconPath": "../../icon-themes/dark/caddy.svg"
+      "iconPath": "../../assets/svg/dark/caddy.svg"
     },
     "openapi": {
-      "iconPath": "../../icon-themes/dark/openapi.svg"
+      "iconPath": "../../assets/svg/dark/openapi.svg"
     },
     "openapi_light": {
-      "iconPath": "../../icon-themes/dark/openapi_light.svg"
+      "iconPath": "../../assets/svg/dark/openapi_light.svg"
     },
     "swagger": {
-      "iconPath": "../../icon-themes/dark/swagger.svg"
+      "iconPath": "../../assets/svg/dark/swagger.svg"
     },
     "bun": {
-      "iconPath": "../../icon-themes/dark/bun.svg"
+      "iconPath": "../../assets/svg/dark/bun.svg"
     },
     "bun_light": {
-      "iconPath": "../../icon-themes/dark/bun_light.svg"
+      "iconPath": "../../assets/svg/dark/bun_light.svg"
     },
     "antlr": {
-      "iconPath": "../../icon-themes/dark/antlr.svg"
+      "iconPath": "../../assets/svg/dark/antlr.svg"
     },
     "pinejs": {
-      "iconPath": "../../icon-themes/dark/pinejs.svg"
+      "iconPath": "../../assets/svg/dark/pinejs.svg"
     },
     "nano-staged": {
-      "iconPath": "../../icon-themes/dark/nano-staged.svg"
+      "iconPath": "../../assets/svg/dark/nano-staged.svg"
     },
     "nano-staged_light": {
-      "iconPath": "../../icon-themes/dark/nano-staged_light.svg"
+      "iconPath": "../../assets/svg/dark/nano-staged_light.svg"
     },
     "knip": {
-      "iconPath": "../../icon-themes/dark/knip.svg"
+      "iconPath": "../../assets/svg/dark/knip.svg"
     },
     "taskfile": {
-      "iconPath": "../../icon-themes/dark/taskfile.svg"
+      "iconPath": "../../assets/svg/dark/taskfile.svg"
     },
     "craco": {
-      "iconPath": "../../icon-themes/dark/craco.svg"
+      "iconPath": "../../assets/svg/dark/craco.svg"
     },
     "gamemaker": {
-      "iconPath": "../../icon-themes/dark/gamemaker.svg"
+      "iconPath": "../../assets/svg/dark/gamemaker.svg"
     },
     "tldraw": {
-      "iconPath": "../../icon-themes/dark/tldraw.svg"
+      "iconPath": "../../assets/svg/dark/tldraw.svg"
     },
     "tldraw_light": {
-      "iconPath": "../../icon-themes/dark/tldraw_light.svg"
+      "iconPath": "../../assets/svg/dark/tldraw_light.svg"
     },
     "mercurial": {
-      "iconPath": "../../icon-themes/dark/mercurial.svg"
+      "iconPath": "../../assets/svg/dark/mercurial.svg"
     },
     "deno": {
-      "iconPath": "../../icon-themes/dark/deno.svg"
+      "iconPath": "../../assets/svg/dark/deno.svg"
     },
     "deno_light": {
-      "iconPath": "../../icon-themes/dark/deno_light.svg"
+      "iconPath": "../../assets/svg/dark/deno_light.svg"
     },
     "plastic": {
-      "iconPath": "../../icon-themes/dark/plastic.svg"
+      "iconPath": "../../assets/svg/dark/plastic.svg"
     },
     "typst": {
-      "iconPath": "../../icon-themes/dark/typst.svg"
+      "iconPath": "../../assets/svg/dark/typst.svg"
     },
     "unocss": {
-      "iconPath": "../../icon-themes/dark/unocss.svg"
+      "iconPath": "../../assets/svg/dark/unocss.svg"
     },
     "ifanr-cloud": {
-      "iconPath": "../../icon-themes/dark/ifanr-cloud.svg"
+      "iconPath": "../../assets/svg/dark/ifanr-cloud.svg"
     },
     "qwik": {
-      "iconPath": "../../icon-themes/dark/qwik.svg"
+      "iconPath": "../../assets/svg/dark/qwik.svg"
     },
     "mermaid": {
-      "iconPath": "../../icon-themes/dark/mermaid.svg"
+      "iconPath": "../../assets/svg/dark/mermaid.svg"
     },
     "syncpack": {
-      "iconPath": "../../icon-themes/dark/syncpack.svg"
+      "iconPath": "../../assets/svg/dark/syncpack.svg"
     },
     "werf": {
-      "iconPath": "../../icon-themes/dark/werf.svg"
+      "iconPath": "../../assets/svg/dark/werf.svg"
     },
     "roblox": {
-      "iconPath": "../../icon-themes/dark/roblox.svg"
+      "iconPath": "../../assets/svg/dark/roblox.svg"
     },
     "rojo": {
-      "iconPath": "../../icon-themes/dark/rojo.svg"
+      "iconPath": "../../assets/svg/dark/rojo.svg"
     },
     "wally": {
-      "iconPath": "../../icon-themes/dark/wally.svg"
+      "iconPath": "../../assets/svg/dark/wally.svg"
     },
     "rbxmk": {
-      "iconPath": "../../icon-themes/dark/rbxmk.svg"
+      "iconPath": "../../assets/svg/dark/rbxmk.svg"
     },
     "panda": {
-      "iconPath": "../../icon-themes/dark/panda.svg"
+      "iconPath": "../../assets/svg/dark/panda.svg"
     },
     "biome": {
-      "iconPath": "../../icon-themes/dark/biome.svg"
+      "iconPath": "../../assets/svg/dark/biome.svg"
     },
     "esbuild": {
-      "iconPath": "../../icon-themes/dark/esbuild.svg"
+      "iconPath": "../../assets/svg/dark/esbuild.svg"
     },
     "spwn": {
-      "iconPath": "../../icon-themes/dark/spwn.svg"
+      "iconPath": "../../assets/svg/dark/spwn.svg"
     },
     "templ": {
-      "iconPath": "../../icon-themes/dark/templ.svg"
+      "iconPath": "../../assets/svg/dark/templ.svg"
     },
     "chrome": {
-      "iconPath": "../../icon-themes/dark/chrome.svg"
+      "iconPath": "../../assets/svg/dark/chrome.svg"
     },
     "stan": {
-      "iconPath": "../../icon-themes/dark/stan.svg"
+      "iconPath": "../../assets/svg/dark/stan.svg"
     },
     "abap": {
-      "iconPath": "../../icon-themes/dark/abap.svg"
+      "iconPath": "../../assets/svg/dark/abap.svg"
     },
     "drizzle": {
-      "iconPath": "../../icon-themes/dark/drizzle.svg"
+      "iconPath": "../../assets/svg/dark/drizzle.svg"
     },
     "lottie": {
-      "iconPath": "../../icon-themes/dark/lottie.svg"
+      "iconPath": "../../assets/svg/dark/lottie.svg"
     },
     "puppeteer": {
-      "iconPath": "../../icon-themes/dark/puppeteer.svg"
+      "iconPath": "../../assets/svg/dark/puppeteer.svg"
     },
     "apps-script": {
-      "iconPath": "../../icon-themes/dark/apps-script.svg"
+      "iconPath": "../../assets/svg/dark/apps-script.svg"
     },
     "garden": {
-      "iconPath": "../../icon-themes/dark/garden.svg"
+      "iconPath": "../../assets/svg/dark/garden.svg"
     },
     "pkl": {
-      "iconPath": "../../icon-themes/dark/pkl.svg"
+      "iconPath": "../../assets/svg/dark/pkl.svg"
     },
     "kubernetes": {
-      "iconPath": "../../icon-themes/dark/kubernetes.svg"
+      "iconPath": "../../assets/svg/dark/kubernetes.svg"
     },
     "phpstan": {
-      "iconPath": "../../icon-themes/dark/phpstan.svg"
+      "iconPath": "../../assets/svg/dark/phpstan.svg"
     },
     "screwdriver": {
-      "iconPath": "../../icon-themes/dark/screwdriver.svg"
+      "iconPath": "../../assets/svg/dark/screwdriver.svg"
     },
     "snapcraft": {
-      "iconPath": "../../icon-themes/dark/snapcraft.svg"
+      "iconPath": "../../assets/svg/dark/snapcraft.svg"
     },
     "container": {
-      "iconPath": "../../icon-themes/dark/container.clone.svg"
+      "iconPath": "../../assets/svg/dark/container.clone.svg"
     },
     "kcl": {
-      "iconPath": "../../icon-themes/dark/kcl.svg"
+      "iconPath": "../../assets/svg/dark/kcl.svg"
     },
     "verified": {
-      "iconPath": "../../icon-themes/dark/verified.svg"
+      "iconPath": "../../assets/svg/dark/verified.svg"
     },
     "bruno": {
-      "iconPath": "../../icon-themes/dark/bruno.svg"
+      "iconPath": "../../assets/svg/dark/bruno.svg"
     },
     "cairo": {
-      "iconPath": "../../icon-themes/dark/cairo.svg"
+      "iconPath": "../../assets/svg/dark/cairo.svg"
     },
     "grafana-alloy": {
-      "iconPath": "../../icon-themes/dark/grafana-alloy.svg"
+      "iconPath": "../../assets/svg/dark/grafana-alloy.svg"
     },
     "clangd": {
-      "iconPath": "../../icon-themes/dark/clangd.svg"
+      "iconPath": "../../assets/svg/dark/clangd.svg"
     },
     "freemarker": {
-      "iconPath": "../../icon-themes/dark/freemarker.svg"
+      "iconPath": "../../assets/svg/dark/freemarker.svg"
     },
     "markdownlint": {
-      "iconPath": "../../icon-themes/dark/markdownlint.svg"
+      "iconPath": "../../assets/svg/dark/markdownlint.svg"
     },
     "tsil": {
-      "iconPath": "../../icon-themes/dark/tsil.svg"
+      "iconPath": "../../assets/svg/dark/tsil.svg"
     },
     "trigger": {
-      "iconPath": "../../icon-themes/dark/trigger.svg"
+      "iconPath": "../../assets/svg/dark/trigger.svg"
     },
     "deepsource": {
-      "iconPath": "../../icon-themes/dark/deepsource.svg"
+      "iconPath": "../../assets/svg/dark/deepsource.svg"
     },
     "tape": {
-      "iconPath": "../../icon-themes/dark/tape.clone.svg"
+      "iconPath": "../../assets/svg/dark/tape.clone.svg"
     },
     "hurl": {
-      "iconPath": "../../icon-themes/dark/hurl.svg"
+      "iconPath": "../../assets/svg/dark/hurl.svg"
     },
     "jsr": {
-      "iconPath": "../../icon-themes/dark/jsr.svg"
+      "iconPath": "../../assets/svg/dark/jsr.svg"
     },
     "jsr_light": {
-      "iconPath": "../../icon-themes/dark/jsr_light.svg"
+      "iconPath": "../../assets/svg/dark/jsr_light.svg"
     },
     "coderabbit-ai": {
-      "iconPath": "../../icon-themes/dark/coderabbit-ai.svg"
+      "iconPath": "../../assets/svg/dark/coderabbit-ai.svg"
     },
     "gemini-ai": {
-      "iconPath": "../../icon-themes/dark/gemini-ai.svg"
+      "iconPath": "../../assets/svg/dark/gemini-ai.svg"
     },
     "taze": {
-      "iconPath": "../../icon-themes/dark/taze.svg"
+      "iconPath": "../../assets/svg/dark/taze.svg"
     },
     "wxt": {
-      "iconPath": "../../icon-themes/dark/wxt.svg"
+      "iconPath": "../../assets/svg/dark/wxt.svg"
     },
     "sway": {
-      "iconPath": "../../icon-themes/dark/sway.svg"
+      "iconPath": "../../assets/svg/dark/sway.svg"
     },
     "lefthook": {
-      "iconPath": "../../icon-themes/dark/lefthook.svg"
+      "iconPath": "../../assets/svg/dark/lefthook.svg"
     },
     "label": {
-      "iconPath": "../../icon-themes/dark/label.svg"
+      "iconPath": "../../assets/svg/dark/label.svg"
     },
     "zeabur": {
-      "iconPath": "../../icon-themes/dark/zeabur.svg"
+      "iconPath": "../../assets/svg/dark/zeabur.svg"
     },
     "zeabur_light": {
-      "iconPath": "../../icon-themes/dark/zeabur_light.svg"
+      "iconPath": "../../assets/svg/dark/zeabur_light.svg"
     },
     "copilot": {
-      "iconPath": "../../icon-themes/dark/copilot.svg"
+      "iconPath": "../../assets/svg/dark/copilot.svg"
     },
     "copilot_light": {
-      "iconPath": "../../icon-themes/dark/copilot_light.svg"
+      "iconPath": "../../assets/svg/dark/copilot_light.svg"
     },
     "bench-ts": {
-      "iconPath": "../../icon-themes/dark/bench-ts.svg"
+      "iconPath": "../../assets/svg/dark/bench-ts.svg"
     },
     "bench-jsx": {
-      "iconPath": "../../icon-themes/dark/bench-jsx.svg"
+      "iconPath": "../../assets/svg/dark/bench-jsx.svg"
     },
     "bench-js": {
-      "iconPath": "../../icon-themes/dark/bench-js.svg"
+      "iconPath": "../../assets/svg/dark/bench-js.svg"
     },
     "pre-commit": {
-      "iconPath": "../../icon-themes/dark/pre-commit.svg"
+      "iconPath": "../../assets/svg/dark/pre-commit.svg"
     },
     "controller": {
-      "iconPath": "../../icon-themes/dark/controller.svg"
+      "iconPath": "../../assets/svg/dark/controller.svg"
     },
     "dependencies-update": {
-      "iconPath": "../../icon-themes/dark/dependencies-update.svg"
+      "iconPath": "../../assets/svg/dark/dependencies-update.svg"
     },
     "histoire": {
-      "iconPath": "../../icon-themes/dark/histoire.svg"
+      "iconPath": "../../assets/svg/dark/histoire.svg"
     },
     "installation": {
-      "iconPath": "../../icon-themes/dark/installation.svg"
+      "iconPath": "../../assets/svg/dark/installation.svg"
     },
     "github-sponsors": {
-      "iconPath": "../../icon-themes/dark/github-sponsors.svg"
+      "iconPath": "../../assets/svg/dark/github-sponsors.svg"
     },
     "minecraft-fabric": {
-      "iconPath": "../../icon-themes/dark/minecraft-fabric.svg"
+      "iconPath": "../../assets/svg/dark/minecraft-fabric.svg"
     },
     "umi": {
-      "iconPath": "../../icon-themes/dark/umi.svg"
+      "iconPath": "../../assets/svg/dark/umi.svg"
     },
     "pm2-ecosystem": {
-      "iconPath": "../../icon-themes/dark/pm2-ecosystem.svg"
+      "iconPath": "../../assets/svg/dark/pm2-ecosystem.svg"
     },
     "hosts_light": {
-      "iconPath": "../../icon-themes/dark/hosts_light.svg"
+      "iconPath": "../../assets/svg/dark/hosts_light.svg"
     },
     "citation": {
-      "iconPath": "../../icon-themes/dark/citation.svg"
+      "iconPath": "../../assets/svg/dark/citation.svg"
     },
     "xmake": {
-      "iconPath": "../../icon-themes/dark/xmake.svg"
+      "iconPath": "../../assets/svg/dark/xmake.svg"
     },
     "subtitles": {
-      "iconPath": "../../icon-themes/dark/subtitles.svg"
+      "iconPath": "../../assets/svg/dark/subtitles.svg"
     },
     "wrangler": {
-      "iconPath": "../../icon-themes/dark/wrangler.svg"
+      "iconPath": "../../assets/svg/dark/wrangler.svg"
     },
     "epub": {
-      "iconPath": "../../icon-themes/dark/epub.svg"
+      "iconPath": "../../assets/svg/dark/epub.svg"
     },
     "regedit": {
-      "iconPath": "../../icon-themes/dark/regedit.svg"
+      "iconPath": "../../assets/svg/dark/regedit.svg"
     },
     "cline": {
-      "iconPath": "../../icon-themes/dark/cline.svg"
+      "iconPath": "../../assets/svg/dark/cline.svg"
     },
     "packship": {
-      "iconPath": "../../icon-themes/dark/packship.svg"
+      "iconPath": "../../assets/svg/dark/packship.svg"
     },
     "snakemake": {
-      "iconPath": "../../icon-themes/dark/snakemake.svg"
+      "iconPath": "../../assets/svg/dark/snakemake.svg"
     },
     "hadolint": {
-      "iconPath": "../../icon-themes/dark/hadolint.svg"
+      "iconPath": "../../assets/svg/dark/hadolint.svg"
     },
     "coloredpetrinets": {
-      "iconPath": "../../icon-themes/dark/coloredpetrinets.svg"
+      "iconPath": "../../assets/svg/dark/coloredpetrinets.svg"
     },
     "pytorch": {
-      "iconPath": "../../icon-themes/dark/pytorch.svg"
+      "iconPath": "../../assets/svg/dark/pytorch.svg"
     },
     "blender": {
-      "iconPath": "../../icon-themes/dark/blender.svg"
+      "iconPath": "../../assets/svg/dark/blender.svg"
     },
     "file": {
-      "iconPath": "../../icon-themes/dark/file.svg"
+      "iconPath": "../../assets/svg/dark/file.svg"
     },
     "folder-rust": {
-      "iconPath": "../../icon-themes/dark/folder-rust.svg"
+      "iconPath": "../../assets/svg/dark/folder-rust.svg"
     },
     "folder-rust-open": {
-      "iconPath": "../../icon-themes/dark/folder-rust-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-rust-open.svg"
     },
     "folder-robot": {
-      "iconPath": "../../icon-themes/dark/folder-robot.svg"
+      "iconPath": "../../assets/svg/dark/folder-robot.svg"
     },
     "folder-robot-open": {
-      "iconPath": "../../icon-themes/dark/folder-robot-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-robot-open.svg"
     },
     "folder-src": {
-      "iconPath": "../../icon-themes/dark/folder-src.svg"
+      "iconPath": "../../assets/svg/dark/folder-src.svg"
     },
     "folder-src-open": {
-      "iconPath": "../../icon-themes/dark/folder-src-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-src-open.svg"
     },
     "folder-dist": {
-      "iconPath": "../../icon-themes/dark/folder-dist.svg"
+      "iconPath": "../../assets/svg/dark/folder-dist.svg"
     },
     "folder-dist-open": {
-      "iconPath": "../../icon-themes/dark/folder-dist-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-dist-open.svg"
     },
     "folder-css": {
-      "iconPath": "../../icon-themes/dark/folder-css.svg"
+      "iconPath": "../../assets/svg/dark/folder-css.svg"
     },
     "folder-css-open": {
-      "iconPath": "../../icon-themes/dark/folder-css-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-css-open.svg"
     },
     "folder-sass": {
-      "iconPath": "../../icon-themes/dark/folder-sass.svg"
+      "iconPath": "../../assets/svg/dark/folder-sass.svg"
     },
     "folder-sass-open": {
-      "iconPath": "../../icon-themes/dark/folder-sass-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-sass-open.svg"
     },
     "folder-scss": {
-      "iconPath": "../../icon-themes/dark/folder-scss.svg"
+      "iconPath": "../../assets/svg/dark/folder-scss.svg"
     },
     "folder-scss-open": {
-      "iconPath": "../../icon-themes/dark/folder-scss-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-scss-open.svg"
     },
     "folder-television": {
-      "iconPath": "../../icon-themes/dark/folder-television.svg"
+      "iconPath": "../../assets/svg/dark/folder-television.svg"
     },
     "folder-television-open": {
-      "iconPath": "../../icon-themes/dark/folder-television-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-television-open.svg"
     },
     "folder-desktop": {
-      "iconPath": "../../icon-themes/dark/folder-desktop.svg"
+      "iconPath": "../../assets/svg/dark/folder-desktop.svg"
     },
     "folder-desktop-open": {
-      "iconPath": "../../icon-themes/dark/folder-desktop-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-desktop-open.svg"
     },
     "folder-console": {
-      "iconPath": "../../icon-themes/dark/folder-console.svg"
+      "iconPath": "../../assets/svg/dark/folder-console.svg"
     },
     "folder-console-open": {
-      "iconPath": "../../icon-themes/dark/folder-console-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-console-open.svg"
     },
     "folder-icons": {
-      "iconPath": "../../icon-themes/dark/icons-folder.svg"
+      "iconPath": "../../assets/svg/dark/icons-folder.svg"
     },
     "folder-icons-open": {
-      "iconPath": "../../icon-themes/dark/icons-folder-open.svg"
+      "iconPath": "../../assets/svg/dark/icons-folder-open.svg"
     },
     "folder-images": {
-      "iconPath": "../../icon-themes/dark/folder-images.svg"
+      "iconPath": "../../assets/svg/dark/folder-images.svg"
     },
     "folder-images-open": {
-      "iconPath": "../../icon-themes/dark/folder-images-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-images-open.svg"
     },
     "folder-gif": {
-      "iconPath": "../../icon-themes/dark/folder-gif.svg"
+      "iconPath": "../../assets/svg/dark/folder-gif.svg"
     },
     "folder-gif-open": {
-      "iconPath": "../../icon-themes/dark/folder-gif-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-gif-open.svg"
     },
     "folder-scripts": {
-      "iconPath": "../../icon-themes/dark/folder-scripts.svg"
+      "iconPath": "../../assets/svg/dark/folder-scripts.svg"
     },
     "folder-scripts-open": {
-      "iconPath": "../../icon-themes/dark/folder-scripts-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-scripts-open.svg"
     },
     "folder-node": {
-      "iconPath": "../../icon-themes/dark/folder-node.svg"
+      "iconPath": "../../assets/svg/dark/folder-node.svg"
     },
     "folder-node-open": {
-      "iconPath": "../../icon-themes/dark/folder-node-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-node-open.svg"
     },
     "folder-javascript": {
-      "iconPath": "../../icon-themes/dark/folder-javascript.svg"
+      "iconPath": "../../assets/svg/dark/folder-javascript.svg"
     },
     "folder-javascript-open": {
-      "iconPath": "../../icon-themes/dark/folder-javascript-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-javascript-open.svg"
     },
     "folder-json": {
-      "iconPath": "../../icon-themes/dark/folder-json.svg"
+      "iconPath": "../../assets/svg/dark/folder-json.svg"
     },
     "folder-json-open": {
-      "iconPath": "../../icon-themes/dark/folder-json-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-json-open.svg"
     },
     "folder-font": {
-      "iconPath": "../../icon-themes/dark/folder-font.svg"
+      "iconPath": "../../assets/svg/dark/folder-font.svg"
     },
     "folder-font-open": {
-      "iconPath": "../../icon-themes/dark/folder-font-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-font-open.svg"
     },
     "folder-bower": {
-      "iconPath": "../../icon-themes/dark/folder-bower.svg"
+      "iconPath": "../../assets/svg/dark/folder-bower.svg"
     },
     "folder-bower-open": {
-      "iconPath": "../../icon-themes/dark/folder-bower-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-bower-open.svg"
     },
     "folder-test": {
-      "iconPath": "../../icon-themes/dark/folder-test.svg"
+      "iconPath": "../../assets/svg/dark/folder-test.svg"
     },
     "folder-test-open": {
-      "iconPath": "../../icon-themes/dark/folder-test-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-test-open.svg"
     },
     "folder-directive": {
-      "iconPath": "../../icon-themes/dark/folder-directive.svg"
+      "iconPath": "../../assets/svg/dark/folder-directive.svg"
     },
     "folder-directive-open": {
-      "iconPath": "../../icon-themes/dark/folder-directive-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-directive-open.svg"
     },
     "folder-jinja": {
-      "iconPath": "../../icon-themes/dark/folder-jinja.svg"
+      "iconPath": "../../assets/svg/dark/folder-jinja.svg"
     },
     "folder-jinja-open": {
-      "iconPath": "../../icon-themes/dark/folder-jinja-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-jinja-open.svg"
     },
     "folder-jinja_light": {
-      "iconPath": "../../icon-themes/dark/folder-jinja_light.svg"
+      "iconPath": "../../assets/svg/dark/folder-jinja_light.svg"
     },
     "folder-jinja-open_light": {
-      "iconPath": "../../icon-themes/dark/folder-jinja-open_light.svg"
+      "iconPath": "../../assets/svg/dark/folder-jinja-open_light.svg"
     },
     "folder-markdown": {
-      "iconPath": "../../icon-themes/dark/folder-markdown.svg"
+      "iconPath": "../../assets/svg/dark/folder-markdown.svg"
     },
     "folder-markdown-open": {
-      "iconPath": "../../icon-themes/dark/folder-markdown-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-markdown-open.svg"
     },
     "folder-pdm": {
-      "iconPath": "../../icon-themes/dark/folder-pdm.svg"
+      "iconPath": "../../assets/svg/dark/folder-pdm.svg"
     },
     "folder-pdm-open": {
-      "iconPath": "../../icon-themes/dark/folder-pdm-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-pdm-open.svg"
     },
     "folder-php": {
-      "iconPath": "../../icon-themes/dark/folder-php.svg"
+      "iconPath": "../../assets/svg/dark/folder-php.svg"
     },
     "folder-php-open": {
-      "iconPath": "../../icon-themes/dark/folder-php-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-php-open.svg"
     },
     "folder-phpmailer": {
-      "iconPath": "../../icon-themes/dark/folder-phpmailer.svg"
+      "iconPath": "../../assets/svg/dark/folder-phpmailer.svg"
     },
     "folder-phpmailer-open": {
-      "iconPath": "../../icon-themes/dark/folder-phpmailer-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-phpmailer-open.svg"
     },
     "folder-sublime": {
-      "iconPath": "../../icon-themes/dark/folder-sublime.svg"
+      "iconPath": "../../assets/svg/dark/folder-sublime.svg"
     },
     "folder-sublime-open": {
-      "iconPath": "../../icon-themes/dark/folder-sublime-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-sublime-open.svg"
     },
     "folder-docs": {
-      "iconPath": "../../icon-themes/dark/folder-docs.svg"
+      "iconPath": "../../assets/svg/dark/folder-docs.svg"
     },
     "folder-docs-open": {
-      "iconPath": "../../icon-themes/dark/folder-docs-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-docs-open.svg"
     },
     "folder-gh-workflows": {
-      "iconPath": "../../icon-themes/dark/folder-gh-workflows.svg"
+      "iconPath": "../../assets/svg/dark/folder-gh-workflows.svg"
     },
     "folder-gh-workflows-open": {
-      "iconPath": "../../icon-themes/dark/folder-gh-workflows-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-gh-workflows-open.svg"
     },
     "folder-git": {
-      "iconPath": "../../icon-themes/dark/folder-git.svg"
+      "iconPath": "../../assets/svg/dark/folder-git.svg"
     },
     "folder-git-open": {
-      "iconPath": "../../icon-themes/dark/folder-git-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-git-open.svg"
     },
     "folder-github": {
-      "iconPath": "../../icon-themes/dark/folder-github.svg"
+      "iconPath": "../../assets/svg/dark/folder-github.svg"
     },
     "folder-github-open": {
-      "iconPath": "../../icon-themes/dark/folder-github-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-github-open.svg"
     },
     "folder-gitea": {
-      "iconPath": "../../icon-themes/dark/folder-gitea.svg"
+      "iconPath": "../../assets/svg/dark/folder-gitea.svg"
     },
     "folder-gitea-open": {
-      "iconPath": "../../icon-themes/dark/folder-gitea-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-gitea-open.svg"
     },
     "folder-gitlab": {
-      "iconPath": "../../icon-themes/dark/folder-gitlab.svg"
+      "iconPath": "../../assets/svg/dark/folder-gitlab.svg"
     },
     "folder-gitlab-open": {
-      "iconPath": "../../icon-themes/dark/folder-gitlab-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-gitlab-open.svg"
     },
     "folder-forgejo": {
-      "iconPath": "../../icon-themes/dark/folder-forgejo.svg"
+      "iconPath": "../../assets/svg/dark/folder-forgejo.svg"
     },
     "folder-forgejo-open": {
-      "iconPath": "../../icon-themes/dark/folder-forgejo-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-forgejo-open.svg"
     },
     "folder-vscode": {
-      "iconPath": "../../icon-themes/dark/folder-vscode.svg"
+      "iconPath": "../../assets/svg/dark/folder-vscode.svg"
     },
     "folder-vscode-open": {
-      "iconPath": "../../icon-themes/dark/folder-vscode-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-vscode-open.svg"
     },
     "folder-views": {
-      "iconPath": "../../icon-themes/dark/folder-views.svg"
+      "iconPath": "../../assets/svg/dark/folder-views.svg"
     },
     "folder-views-open": {
-      "iconPath": "../../icon-themes/dark/folder-views-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-views-open.svg"
     },
     "folder-screen": {
-      "iconPath": "../../icon-themes/dark/folder-screen.svg"
+      "iconPath": "../../assets/svg/dark/folder-screen.svg"
     },
     "folder-screen-open": {
-      "iconPath": "../../icon-themes/dark/folder-screen-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-screen-open.svg"
     },
     "folder-vue": {
-      "iconPath": "../../icon-themes/dark/folder-vue.svg"
+      "iconPath": "../../assets/svg/dark/folder-vue.svg"
     },
     "folder-vue-open": {
-      "iconPath": "../../icon-themes/dark/folder-vue-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-vue-open.svg"
     },
     "folder-vuepress": {
-      "iconPath": "../../icon-themes/dark/folder-vuepress.svg"
+      "iconPath": "../../assets/svg/dark/folder-vuepress.svg"
     },
     "folder-vuepress-open": {
-      "iconPath": "../../icon-themes/dark/folder-vuepress-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-vuepress-open.svg"
     },
     "folder-expo": {
-      "iconPath": "../../icon-themes/dark/folder-expo.svg"
+      "iconPath": "../../assets/svg/dark/folder-expo.svg"
     },
     "folder-expo-open": {
-      "iconPath": "../../icon-themes/dark/folder-expo-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-expo-open.svg"
     },
     "folder-config": {
-      "iconPath": "../../icon-themes/dark/folder-config.svg"
+      "iconPath": "../../assets/svg/dark/folder-config.svg"
     },
     "folder-config-open": {
-      "iconPath": "../../icon-themes/dark/folder-config-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-config-open.svg"
     },
     "folder-setting": {
-      "iconPath": "../../icon-themes/dark/folder-setting.svg"
+      "iconPath": "../../assets/svg/dark/folder-setting.svg"
     },
     "folder-setting-open": {
-      "iconPath": "../../icon-themes/dark/folder-setting-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-setting-open.svg"
     },
     "folder-i18n": {
-      "iconPath": "../../icon-themes/dark/folder-i18n.svg"
+      "iconPath": "../../assets/svg/dark/folder-i18n.svg"
     },
     "folder-i18n-open": {
-      "iconPath": "../../icon-themes/dark/folder-i18n-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-i18n-open.svg"
     },
     "folder-components": {
-      "iconPath": "../../icon-themes/dark/folder-components.svg"
+      "iconPath": "../../assets/svg/dark/folder-components.svg"
     },
     "folder-components-open": {
-      "iconPath": "../../icon-themes/dark/folder-components-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-components-open.svg"
     },
     "folder-widgets": {
-      "iconPath": "../../icon-themes/dark/folder-widgets.svg"
+      "iconPath": "../../assets/svg/dark/folder-widgets.svg"
     },
     "folder-widgets-open": {
-      "iconPath": "../../icon-themes/dark/folder-widgets-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-widgets-open.svg"
     },
     "folder-verdaccio": {
-      "iconPath": "../../icon-themes/dark/folder-verdaccio.svg"
+      "iconPath": "../../assets/svg/dark/folder-verdaccio.svg"
     },
     "folder-verdaccio-open": {
-      "iconPath": "../../icon-themes/dark/folder-verdaccio-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-verdaccio-open.svg"
     },
     "folder-aurelia": {
-      "iconPath": "../../icon-themes/dark/folder-aurelia.svg"
+      "iconPath": "../../assets/svg/dark/folder-aurelia.svg"
     },
     "folder-aurelia-open": {
-      "iconPath": "../../icon-themes/dark/folder-aurelia-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-aurelia-open.svg"
     },
     "folder-resource": {
-      "iconPath": "../../icon-themes/dark/folder-resource.svg"
+      "iconPath": "../../assets/svg/dark/folder-resource.svg"
     },
     "folder-resource-open": {
-      "iconPath": "../../icon-themes/dark/folder-resource-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-resource-open.svg"
     },
     "folder-lib": {
-      "iconPath": "../../icon-themes/dark/folder-lib.svg"
+      "iconPath": "../../assets/svg/dark/folder-lib.svg"
     },
     "folder-lib-open": {
-      "iconPath": "../../icon-themes/dark/folder-lib-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-lib-open.svg"
     },
     "folder-theme": {
-      "iconPath": "../../icon-themes/dark/folder-theme.svg"
+      "iconPath": "../../assets/svg/dark/folder-theme.svg"
     },
     "folder-theme-open": {
-      "iconPath": "../../icon-themes/dark/folder-theme-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-theme-open.svg"
     },
    "folder-color": {
-      "iconPath": "../../icon-themes/dark/folder-color.svg"
+      "iconPath": "../../assets/svg/dark/folder-color.svg"
     },
     "folder-color-open": {
-      "iconPath": "../../icon-themes/dark/folder-color-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-color-open.svg"
     },
     "folder-webpack": {
-      "iconPath": "../../icon-themes/dark/folder-webpack.svg"
+      "iconPath": "../../assets/svg/dark/folder-webpack.svg"
     },
     "folder-webpack-open": {
-      "iconPath": "../../icon-themes/dark/folder-webpack-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-webpack-open.svg"
     },
     "folder-global": {
-      "iconPath": "../../icon-themes/dark/folder-global.svg"
+      "iconPath": "../../assets/svg/dark/folder-global.svg"
     },
     "folder-global-open": {
-      "iconPath": "../../icon-themes/dark/folder-global-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-global-open.svg"
     },
     "folder-public": {
-      "iconPath": "../../icon-themes/dark/folder-public.svg"
+      "iconPath": "../../assets/svg/dark/folder-public.svg"
     },
     "folder-public-open": {
-      "iconPath": "../../icon-themes/dark/folder-public-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-public-open.svg"
     },
     "folder-include": {
-      "iconPath": "../../icon-themes/dark/folder-include.svg"
+      "iconPath": "../../assets/svg/dark/folder-include.svg"
     },
     "folder-include-open": {
-      "iconPath": "../../icon-themes/dark/folder-include-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-include-open.svg"
     },
     "folder-docker": {
-      "iconPath": "../../icon-themes/dark/folder-docker.svg"
+      "iconPath": "../../assets/svg/dark/folder-docker.svg"
     },
     "folder-docker-open": {
-      "iconPath": "../../icon-themes/dark/folder-docker-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-docker-open.svg"
     },
     "folder-ngrx-store": {
-      "iconPath": "../../icon-themes/dark/folder-ngrx-store.svg"
+      "iconPath": "../../assets/svg/dark/folder-ngrx-store.svg"
     },
     "folder-ngrx-store-open": {
-      "iconPath": "../../icon-themes/dark/folder-ngrx-store-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-ngrx-store-open.svg"
     },
     "folder-ngrx-effects": {
-      "iconPath": "../../icon-themes/dark/folder-ngrx-effects.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-ngrx-effects.clone.svg"
     },
     "folder-ngrx-effects-open": {
-      "iconPath": "../../icon-themes/dark/folder-ngrx-effects-open.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-ngrx-effects-open.clone.svg"
     },
     "folder-ngrx-state": {
-      "iconPath": "../../icon-themes/dark/folder-ngrx-state.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-ngrx-state.clone.svg"
     },
     "folder-ngrx-state-open": {
-      "iconPath": "../../icon-themes/dark/folder-ngrx-state-open.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-ngrx-state-open.clone.svg"
     },
     "folder-ngrx-reducer": {
-      "iconPath": "../../icon-themes/dark/folder-ngrx-reducer.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-ngrx-reducer.clone.svg"
     },
     "folder-ngrx-reducer-open": {
-      "iconPath": "../../icon-themes/dark/folder-ngrx-reducer-open.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-ngrx-reducer-open.clone.svg"
     },
     "folder-ngrx-actions": {
-      "iconPath": "../../icon-themes/dark/folder-ngrx-actions.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-ngrx-actions.clone.svg"
     },
     "folder-ngrx-actions-open": {
-      "iconPath": "../../icon-themes/dark/folder-ngrx-actions-open.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-ngrx-actions-open.clone.svg"
     },
     "folder-ngrx-entities": {
-      "iconPath": "../../icon-themes/dark/folder-ngrx-entities.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-ngrx-entities.clone.svg"
     },
     "folder-ngrx-entities-open": {
-      "iconPath": "../../icon-themes/dark/folder-ngrx-entities-open.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-ngrx-entities-open.clone.svg"
     },
     "folder-ngrx-selectors": {
-      "iconPath": "../../icon-themes/dark/folder-ngrx-selectors.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-ngrx-selectors.clone.svg"
     },
     "folder-ngrx-selectors-open": {
-      "iconPath": "../../icon-themes/dark/folder-ngrx-selectors-open.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-ngrx-selectors-open.clone.svg"
     },
     "folder-redux-reducer": {
-      "iconPath": "../../icon-themes/dark/folder-redux-reducer.svg"
+      "iconPath": "../../assets/svg/dark/folder-redux-reducer.svg"
     },
     "folder-redux-reducer-open": {
-      "iconPath": "../../icon-themes/dark/folder-redux-reducer-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-redux-reducer-open.svg"
     },
     "folder-redux-actions": {
-      "iconPath": "../../icon-themes/dark/folder-redux-actions.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-redux-actions.clone.svg"
     },
     "folder-redux-actions-open": {
-      "iconPath": "../../icon-themes/dark/folder-redux-actions-open.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-redux-actions-open.clone.svg"
     },
     "folder-redux-selector": {
-      "iconPath": "../../icon-themes/dark/folder-redux-selector.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-redux-selector.clone.svg"
     },
     "folder-redux-selector-open": {
-      "iconPath": "../../icon-themes/dark/folder-redux-selector-open.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-redux-selector-open.clone.svg"
     },
     "folder-redux-store": {
-      "iconPath": "../../icon-themes/dark/folder-redux-store.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-redux-store.clone.svg"
     },
     "folder-redux-store-open": {
-      "iconPath": "../../icon-themes/dark/folder-redux-store-open.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-redux-store-open.clone.svg"
     },
     "folder-react-components": {
-      "iconPath": "../../icon-themes/dark/folder-react-components.svg"
+      "iconPath": "../../assets/svg/dark/folder-react-components.svg"
     },
     "folder-react-components-open": {
-      "iconPath": "../../icon-themes/dark/folder-react-components-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-react-components-open.svg"
     },
     "folder-astro": {
-      "iconPath": "../../icon-themes/dark/folder-astro.svg"
+      "iconPath": "../../assets/svg/dark/folder-astro.svg"
     },
     "folder-astro-open": {
-      "iconPath": "../../icon-themes/dark/folder-astro-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-astro-open.svg"
     },
     "folder-database": {
-      "iconPath": "../../icon-themes/dark/folder-database.svg"
+      "iconPath": "../../assets/svg/dark/folder-database.svg"
     },
     "folder-database-open": {
-      "iconPath": "../../icon-themes/dark/folder-database-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-database-open.svg"
     },
     "folder-log": {
-      "iconPath": "../../icon-themes/dark/folder-log.svg"
+      "iconPath": "../../assets/svg/dark/folder-log.svg"
     },
     "folder-log-open": {
-      "iconPath": "../../icon-themes/dark/folder-log-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-log-open.svg"
     },
     "folder-target": {
-      "iconPath": "../../icon-themes/dark/folder-target.svg"
+      "iconPath": "../../assets/svg/dark/folder-target.svg"
     },
     "folder-target-open": {
-      "iconPath": "../../icon-themes/dark/folder-target-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-target-open.svg"
     },
     "folder-temp": {
-      "iconPath": "../../icon-themes/dark/folder-temp.svg"
+      "iconPath": "../../assets/svg/dark/folder-temp.svg"
     },
     "folder-temp-open": {
-      "iconPath": "../../icon-themes/dark/folder-temp-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-temp-open.svg"
     },
     "folder-aws": {
-      "iconPath": "../../icon-themes/dark/folder-aws.svg"
+      "iconPath": "../../assets/svg/dark/folder-aws.svg"
     },
     "folder-aws-open": {
-      "iconPath": "../../icon-themes/dark/folder-aws-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-aws-open.svg"
     },
     "folder-audio": {
-      "iconPath": "../../icon-themes/dark/folder-audio.svg"
+      "iconPath": "../../assets/svg/dark/folder-audio.svg"
     },
     "folder-audio-open": {
-      "iconPath": "../../icon-themes/dark/folder-audio-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-audio-open.svg"
     },
     "folder-video": {
-      "iconPath": "../../icon-themes/dark/folder-video.svg"
+      "iconPath": "../../assets/svg/dark/folder-video.svg"
     },
     "folder-video-open": {
-      "iconPath": "../../icon-themes/dark/folder-video-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-video-open.svg"
     },
     "folder-kubernetes": {
-      "iconPath": "../../icon-themes/dark/folder-kubernetes.svg"
+      "iconPath": "../../assets/svg/dark/folder-kubernetes.svg"
     },
     "folder-kubernetes-open": {
-      "iconPath": "../../icon-themes/dark/folder-kubernetes-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-kubernetes-open.svg"
     },
     "folder-import": {
-      "iconPath": "../../icon-themes/dark/folder-import.svg"
+      "iconPath": "../../assets/svg/dark/folder-import.svg"
     },
     "folder-import-open": {
-      "iconPath": "../../icon-themes/dark/folder-import-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-import-open.svg"
     },
     "folder-export": {
-      "iconPath": "../../icon-themes/dark/folder-export.svg"
+      "iconPath": "../../assets/svg/dark/folder-export.svg"
     },
     "folder-export-open": {
-      "iconPath": "../../icon-themes/dark/folder-export-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-export-open.svg"
     },
     "folder-wakatime": {
-      "iconPath": "../../icon-themes/dark/folder-wakatime.svg"
+      "iconPath": "../../assets/svg/dark/folder-wakatime.svg"
     },
     "folder-wakatime-open": {
-      "iconPath": "../../icon-themes/dark/folder-wakatime-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-wakatime-open.svg"
     },
     "folder-circleci": {
-      "iconPath": "../../icon-themes/dark/folder-circleci.svg"
+      "iconPath": "../../assets/svg/dark/folder-circleci.svg"
     },
     "folder-circleci-open": {
-      "iconPath": "../../icon-themes/dark/folder-circleci-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-circleci-open.svg"
     },
     "folder-wordpress": {
-      "iconPath": "../../icon-themes/dark/folder-wordpress.svg"
+      "iconPath": "../../assets/svg/dark/folder-wordpress.svg"
     },
     "folder-wordpress-open": {
-      "iconPath": "../../icon-themes/dark/folder-wordpress-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-wordpress-open.svg"
     },
     "folder-gradle": {
-      "iconPath": "../../icon-themes/dark/folder-gradle.svg"
+      "iconPath": "../../assets/svg/dark/folder-gradle.svg"
     },
     "folder-gradle-open": {
-      "iconPath": "../../icon-themes/dark/folder-gradle-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-gradle-open.svg"
     },
     "folder-coverage": {
-      "iconPath": "../../icon-themes/dark/folder-coverage.svg"
+      "iconPath": "../../assets/svg/dark/folder-coverage.svg"
     },
     "folder-coverage-open": {
-      "iconPath": "../../icon-themes/dark/folder-coverage-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-coverage-open.svg"
     },
     "folder-class": {
-      "iconPath": "../../icon-themes/dark/folder-class.svg"
+      "iconPath": "../../assets/svg/dark/folder-class.svg"
     },
     "folder-class-open": {
-      "iconPath": "../../icon-themes/dark/folder-class-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-class-open.svg"
     },
     "folder-other": {
-      "iconPath": "../../icon-themes/dark/folder-other.svg"
+      "iconPath": "../../assets/svg/dark/folder-other.svg"
     },
     "folder-other-open": {
-      "iconPath": "../../icon-themes/dark/folder-other-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-other-open.svg"
     },
     "folder-lua": {
-      "iconPath": "../../icon-themes/dark/folder-lua.svg"
+      "iconPath": "../../assets/svg/dark/folder-lua.svg"
     },
     "folder-lua-open": {
-      "iconPath": "../../icon-themes/dark/folder-lua-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-lua-open.svg"
     },
     "folder-turborepo": {
-      "iconPath": "../../icon-themes/dark/folder-turborepo.svg"
+      "iconPath": "../../assets/svg/dark/folder-turborepo.svg"
     },
     "folder-turborepo-open": {
-      "iconPath": "../../icon-themes/dark/folder-turborepo-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-turborepo-open.svg"
     },
     "folder-typescript": {
-      "iconPath": "../../icon-themes/dark/folder-typescript.svg"
+      "iconPath": "../../assets/svg/dark/folder-typescript.svg"
     },
     "folder-typescript-open": {
-      "iconPath": "../../icon-themes/dark/folder-typescript-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-typescript-open.svg"
     },
     "folder-graphql": {
-      "iconPath": "../../icon-themes/dark/folder-graphql.svg"
+      "iconPath": "../../assets/svg/dark/folder-graphql.svg"
     },
     "folder-graphql-open": {
-      "iconPath": "../../icon-themes/dark/folder-graphql-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-graphql-open.svg"
     },
     "folder-routes": {
-      "iconPath": "../../icon-themes/dark/folder-routes.svg"
+      "iconPath": "../../assets/svg/dark/folder-routes.svg"
     },
     "folder-routes-open": {
-      "iconPath": "../../icon-themes/dark/folder-routes-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-routes-open.svg"
     },
     "folder-ci": {
-      "iconPath": "../../icon-themes/dark/folder-ci.svg"
+      "iconPath": "../../assets/svg/dark/folder-ci.svg"
     },
     "folder-ci-open": {
-      "iconPath": "../../icon-themes/dark/folder-ci-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-ci-open.svg"
     },
     "folder-benchmark": {
-      "iconPath": "../../icon-themes/dark/folder-benchmark.svg"
+      "iconPath": "../../assets/svg/dark/folder-benchmark.svg"
     },
     "folder-benchmark-open": {
-      "iconPath": "../../icon-themes/dark/folder-benchmark-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-benchmark-open.svg"
     },
     "folder-messages": {
-      "iconPath": "../../icon-themes/dark/folder-messages.svg"
+      "iconPath": "../../assets/svg/dark/folder-messages.svg"
     },
     "folder-messages-open": {
-      "iconPath": "../../icon-themes/dark/folder-messages-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-messages-open.svg"
     },
     "folder-less": {
-      "iconPath": "../../icon-themes/dark/folder-less.svg"
+      "iconPath": "../../assets/svg/dark/folder-less.svg"
     },
     "folder-less-open": {
-      "iconPath": "../../icon-themes/dark/folder-less-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-less-open.svg"
     },
     "folder-gulp": {
-      "iconPath": "../../icon-themes/dark/folder-gulp.svg"
+      "iconPath": "../../assets/svg/dark/folder-gulp.svg"
     },
     "folder-gulp-open": {
-      "iconPath": "../../icon-themes/dark/folder-gulp-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-gulp-open.svg"
     },
     "folder-python": {
-      "iconPath": "../../icon-themes/dark/folder-python.svg"
+      "iconPath": "../../assets/svg/dark/folder-python.svg"
     },
     "folder-python-open": {
-      "iconPath": "../../icon-themes/dark/folder-python-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-python-open.svg"
     },
     "folder-sandbox": {
-      "iconPath": "../../icon-themes/dark/folder-sandbox.svg"
+      "iconPath": "../../assets/svg/dark/folder-sandbox.svg"
     },
     "folder-sandbox-open": {
-      "iconPath": "../../icon-themes/dark/folder-sandbox-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-sandbox-open.svg"
     },
     "folder-scons": {
-      "iconPath": "../../icon-themes/dark/folder-scons.svg"
+      "iconPath": "../../assets/svg/dark/folder-scons.svg"
     },
     "folder-scons-open": {
-      "iconPath": "../../icon-themes/dark/folder-scons-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-scons-open.svg"
     },
     "folder-mojo": {
-      "iconPath": "../../icon-themes/dark/folder-mojo.svg"
+      "iconPath": "../../assets/svg/dark/folder-mojo.svg"
     },
     "folder-mojo-open": {
-      "iconPath": "../../icon-themes/dark/folder-mojo-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-mojo-open.svg"
     },
     "folder-moon": {
-      "iconPath": "../../icon-themes/dark/folder-moon.svg"
+      "iconPath": "../../assets/svg/dark/folder-moon.svg"
     },
     "folder-moon-open": {
-      "iconPath": "../../icon-themes/dark/folder-moon-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-moon-open.svg"
     },
     "folder-debug": {
-      "iconPath": "../../icon-themes/dark/folder-debug.svg"
+      "iconPath": "../../assets/svg/dark/folder-debug.svg"
     },
     "folder-debug-open": {
-      "iconPath": "../../icon-themes/dark/folder-debug-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-debug-open.svg"
     },
     "folder-fastlane": {
-      "iconPath": "../../icon-themes/dark/folder-fastlane.svg"
+      "iconPath": "../../assets/svg/dark/folder-fastlane.svg"
     },
     "folder-fastlane-open": {
-      "iconPath": "../../icon-themes/dark/folder-fastlane-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-fastlane-open.svg"
     },
     "folder-plugin": {
-      "iconPath": "../../icon-themes/dark/folder-plugin.svg"
+      "iconPath": "../../assets/svg/dark/folder-plugin.svg"
     },
     "folder-plugin-open": {
-      "iconPath": "../../icon-themes/dark/folder-plugin-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-plugin-open.svg"
     },
     "folder-middleware": {
-      "iconPath": "../../icon-themes/dark/folder-middleware.svg"
+      "iconPath": "../../assets/svg/dark/folder-middleware.svg"
     },
     "folder-middleware-open": {
-      "iconPath": "../../icon-themes/dark/folder-middleware-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-middleware-open.svg"
     },
     "folder-controller": {
-      "iconPath": "../../icon-themes/dark/folder-controller.svg"
+      "iconPath": "../../assets/svg/dark/folder-controller.svg"
     },
     "folder-controller-open": {
-      "iconPath": "../../icon-themes/dark/folder-controller-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-controller-open.svg"
     },
     "folder-ansible": {
-      "iconPath": "../../icon-themes/dark/folder-ansible.svg"
+      "iconPath": "../../assets/svg/dark/folder-ansible.svg"
     },
     "folder-ansible-open": {
-      "iconPath": "../../icon-themes/dark/folder-ansible-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-ansible-open.svg"
     },
     "folder-server": {
-      "iconPath": "../../icon-themes/dark/folder-server.svg"
+      "iconPath": "../../assets/svg/dark/folder-server.svg"
     },
     "folder-server-open": {
-      "iconPath": "../../icon-themes/dark/folder-server-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-server-open.svg"
     },
     "folder-client": {
-      "iconPath": "../../icon-themes/dark/folder-client.svg"
+      "iconPath": "../../assets/svg/dark/folder-client.svg"
     },
     "folder-client-open": {
-      "iconPath": "../../icon-themes/dark/folder-client-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-client-open.svg"
     },
     "folder-tasks": {
-      "iconPath": "../../icon-themes/dark/folder-tasks.svg"
+      "iconPath": "../../assets/svg/dark/folder-tasks.svg"
     },
     "folder-tasks-open": {
-      "iconPath": "../../icon-themes/dark/folder-tasks-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-tasks-open.svg"
     },
     "folder-android": {
-      "iconPath": "../../icon-themes/dark/folder-android.svg"
+      "iconPath": "../../assets/svg/dark/folder-android.svg"
     },
     "folder-android-open": {
-      "iconPath": "../../icon-themes/dark/folder-android-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-android-open.svg"
     },
     "folder-ios": {
-      "iconPath": "../../icon-themes/dark/folder-ios.svg"
+      "iconPath": "../../assets/svg/dark/folder-ios.svg"
     },
     "folder-ios-open": {
-      "iconPath": "../../icon-themes/dark/folder-ios-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-ios-open.svg"
     },
     "folder-ui": {
-      "iconPath": "../../icon-themes/dark/folder-ui.svg"
+      "iconPath": "../../assets/svg/dark/folder-ui.svg"
     },
     "folder-ui-open": {
-      "iconPath": "../../icon-themes/dark/folder-ui-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-ui-open.svg"
     },
     "folder-upload": {
-      "iconPath": "../../icon-themes/dark/folder-upload.svg"
+      "iconPath": "../../assets/svg/dark/folder-upload.svg"
     },
     "folder-upload-open": {
-      "iconPath": "../../icon-themes/dark/folder-upload-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-upload-open.svg"
     },
     "folder-download": {
-      "iconPath": "../../icon-themes/dark/folder-download.svg"
+      "iconPath": "../../assets/svg/dark/folder-download.svg"
     },
     "folder-download-open": {
-      "iconPath": "../../icon-themes/dark/folder-download-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-download-open.svg"
     },
     "folder-tools": {
-      "iconPath": "../../icon-themes/dark/folder-tools.svg"
+      "iconPath": "../../assets/svg/dark/folder-tools.svg"
     },
     "folder-tools-open": {
-      "iconPath": "../../icon-themes/dark/folder-tools-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-tools-open.svg"
     },
     "folder-helper": {
-      "iconPath": "../../icon-themes/dark/folder-helper.svg"
+      "iconPath": "../../assets/svg/dark/folder-helper.svg"
     },
     "folder-helper-open": {
-      "iconPath": "../../icon-themes/dark/folder-helper-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-helper-open.svg"
     },
     "folder-serverless": {
-      "iconPath": "../../icon-themes/dark/folder-serverless.svg"
+      "iconPath": "../../assets/svg/dark/folder-serverless.svg"
     },
     "folder-serverless-open": {
-      "iconPath": "../../icon-themes/dark/folder-serverless-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-serverless-open.svg"
     },
     "folder-api": {
-      "iconPath": "../../icon-themes/dark/folder-api.svg"
+      "iconPath": "../../assets/svg/dark/folder-api.svg"
     },
     "folder-api-open": {
-      "iconPath": "../../icon-themes/dark/folder-api-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-api-open.svg"
     },
     "folder-app": {
-      "iconPath": "../../icon-themes/dark/folder-app.svg"
+      "iconPath": "../../assets/svg/dark/folder-app.svg"
     },
     "folder-app-open": {
-      "iconPath": "../../icon-themes/dark/folder-app-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-app-open.svg"
     },
     "folder-apollo": {
-      "iconPath": "../../icon-themes/dark/folder-apollo.svg"
+      "iconPath": "../../assets/svg/dark/folder-apollo.svg"
     },
     "folder-apollo-open": {
-      "iconPath": "../../icon-themes/dark/folder-apollo-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-apollo-open.svg"
     },
     "folder-archive": {
-      "iconPath": "../../icon-themes/dark/folder-archive.svg"
+      "iconPath": "../../assets/svg/dark/folder-archive.svg"
     },
     "folder-archive-open": {
-      "iconPath": "../../icon-themes/dark/folder-archive-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-archive-open.svg"
     },
     "folder-backup": {
-      "iconPath": "../../icon-themes/dark/folder-backup.svg"
+      "iconPath": "../../assets/svg/dark/folder-backup.svg"
     },
     "folder-backup-open": {
-      "iconPath": "../../icon-themes/dark/folder-backup-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-backup-open.svg"
     },
     "folder-batch": {
-      "iconPath": "../../icon-themes/dark/folder-batch.svg"
+      "iconPath": "../../assets/svg/dark/folder-batch.svg"
     },
     "folder-batch-open": {
-      "iconPath": "../../icon-themes/dark/folder-batch-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-batch-open.svg"
     },
     "folder-buildkite": {
-      "iconPath": "../../icon-themes/dark/folder-buildkite.svg"
+      "iconPath": "../../assets/svg/dark/folder-buildkite.svg"
     },
     "folder-buildkite-open": {
-      "iconPath": "../../icon-themes/dark/folder-buildkite-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-buildkite-open.svg"
     },
     "folder-cluster": {
-      "iconPath": "../../icon-themes/dark/folder-cluster.svg"
+      "iconPath": "../../assets/svg/dark/folder-cluster.svg"
     },
     "folder-cluster-open": {
-      "iconPath": "../../icon-themes/dark/folder-cluster-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-cluster-open.svg"
     },
     "folder-command": {
-      "iconPath": "../../icon-themes/dark/folder-command.svg"
+      "iconPath": "../../assets/svg/dark/folder-command.svg"
     },
     "folder-command-open": {
-      "iconPath": "../../icon-themes/dark/folder-command-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-command-open.svg"
     },
     "folder-constant": {
-      "iconPath": "../../icon-themes/dark/folder-constant.svg"
+      "iconPath": "../../assets/svg/dark/folder-constant.svg"
     },
     "folder-constant-open": {
-      "iconPath": "../../icon-themes/dark/folder-constant-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-constant-open.svg"
     },
     "folder-container": {
-      "iconPath": "../../icon-themes/dark/folder-container.svg"
+      "iconPath": "../../assets/svg/dark/folder-container.svg"
     },
     "folder-container-open": {
-      "iconPath": "../../icon-themes/dark/folder-container-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-container-open.svg"
     },
     "folder-content": {
-      "iconPath": "../../icon-themes/dark/folder-content.svg"
+      "iconPath": "../../assets/svg/dark/folder-content.svg"
     },
     "folder-content-open": {
-      "iconPath": "../../icon-themes/dark/folder-content-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-content-open.svg"
     },
     "folder-context": {
-      "iconPath": "../../icon-themes/dark/folder-context.svg"
+      "iconPath": "../../assets/svg/dark/folder-context.svg"
     },
     "folder-context-open": {
-      "iconPath": "../../icon-themes/dark/folder-context-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-context-open.svg"
     },
     "folder-core": {
-      "iconPath": "../../icon-themes/dark/folder-core.svg"
+      "iconPath": "../../assets/svg/dark/folder-core.svg"
     },
     "folder-core-open": {
-      "iconPath": "../../icon-themes/dark/folder-core-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-core-open.svg"
     },
     "folder-delta": {
-      "iconPath": "../../icon-themes/dark/folder-delta.svg"
+      "iconPath": "../../assets/svg/dark/folder-delta.svg"
     },
     "folder-delta-open": {
-      "iconPath": "../../icon-themes/dark/folder-delta-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-delta-open.svg"
     },
     "folder-dump": {
-      "iconPath": "../../icon-themes/dark/folder-dump.svg"
+      "iconPath": "../../assets/svg/dark/folder-dump.svg"
     },
     "folder-dump-open": {
-      "iconPath": "../../icon-themes/dark/folder-dump-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-dump-open.svg"
     },
     "folder-examples": {
-      "iconPath": "../../icon-themes/dark/folder-examples.svg"
+      "iconPath": "../../assets/svg/dark/folder-examples.svg"
     },
     "folder-examples-open": {
-      "iconPath": "../../icon-themes/dark/folder-examples-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-examples-open.svg"
     },
     "folder-environment": {
-      "iconPath": "../../icon-themes/dark/folder-environment.svg"
+      "iconPath": "../../assets/svg/dark/folder-environment.svg"
     },
     "folder-environment-open": {
-      "iconPath": "../../icon-themes/dark/folder-environment-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-environment-open.svg"
     },
     "folder-functions": {
-      "iconPath": "../../icon-themes/dark/folder-functions.svg"
+      "iconPath": "../../assets/svg/dark/folder-functions.svg"
     },
     "folder-functions-open": {
-      "iconPath": "../../icon-themes/dark/folder-functions-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-functions-open.svg"
     },
     "folder-generator": {
-      "iconPath": "../../icon-themes/dark/folder-generator.svg"
+      "iconPath": "../../assets/svg/dark/folder-generator.svg"
     },
     "folder-generator-open": {
-      "iconPath": "../../icon-themes/dark/folder-generator-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-generator-open.svg"
     },
     "folder-hook": {
-      "iconPath": "../../icon-themes/dark/folder-hook.svg"
+      "iconPath": "../../assets/svg/dark/folder-hook.svg"
     },
     "folder-hook-open": {
-      "iconPath": "../../icon-themes/dark/folder-hook-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-hook-open.svg"
     },
     "folder-trigger": {
-      "iconPath": "../../icon-themes/dark/folder-trigger.svg"
+      "iconPath": "../../assets/svg/dark/folder-trigger.svg"
     },
     "folder-trigger-open": {
-      "iconPath": "../../icon-themes/dark/folder-trigger-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-trigger-open.svg"
     },
     "folder-job": {
-      "iconPath": "../../icon-themes/dark/folder-job.svg"
+      "iconPath": "../../assets/svg/dark/folder-job.svg"
     },
     "folder-job-open": {
-      "iconPath": "../../icon-themes/dark/folder-job-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-job-open.svg"
     },
     "folder-keys": {
-      "iconPath": "../../icon-themes/dark/folder-keys.svg"
+      "iconPath": "../../assets/svg/dark/folder-keys.svg"
     },
     "folder-keys-open": {
-      "iconPath": "../../icon-themes/dark/folder-keys-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-keys-open.svg"
     },
     "folder-layout": {
-      "iconPath": "../../icon-themes/dark/folder-layout.svg"
+      "iconPath": "../../assets/svg/dark/folder-layout.svg"
     },
     "folder-layout-open": {
-      "iconPath": "../../icon-themes/dark/folder-layout-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-layout-open.svg"
     },
     "folder-mail": {
-      "iconPath": "../../icon-themes/dark/folder-mail.svg"
+      "iconPath": "../../assets/svg/dark/folder-mail.svg"
     },
     "folder-mail-open": {
-      "iconPath": "../../icon-themes/dark/folder-mail-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-mail-open.svg"
     },
     "folder-mappings": {
-      "iconPath": "../../icon-themes/dark/folder-mappings.svg"
+      "iconPath": "../../assets/svg/dark/folder-mappings.svg"
     },
     "folder-mappings-open": {
-      "iconPath": "../../icon-themes/dark/folder-mappings-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-mappings-open.svg"
     },
     "folder-meta": {
-      "iconPath": "../../icon-themes/dark/folder-meta.svg"
+      "iconPath": "../../assets/svg/dark/folder-meta.svg"
     },
     "folder-meta-open": {
-      "iconPath": "../../icon-themes/dark/folder-meta-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-meta-open.svg"
     },
     "folder-changesets": {
-      "iconPath": "../../icon-themes/dark/folder-changesets.svg"
+      "iconPath": "../../assets/svg/dark/folder-changesets.svg"
     },
     "folder-changesets-open": {
-      "iconPath": "../../icon-themes/dark/folder-changesets-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-changesets-open.svg"
     },
     "folder-packages": {
-      "iconPath": "../../icon-themes/dark/folder-packages.svg"
+      "iconPath": "../../assets/svg/dark/folder-packages.svg"
     },
     "folder-packages-open": {
-      "iconPath": "../../icon-themes/dark/folder-packages-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-packages-open.svg"
     },
     "folder-shared": {
-      "iconPath": "../../icon-themes/dark/folder-shared.svg"
+      "iconPath": "../../assets/svg/dark/folder-shared.svg"
     },
     "folder-shared-open": {
-      "iconPath": "../../icon-themes/dark/folder-shared-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-shared-open.svg"
     },
     "folder-shader": {
-      "iconPath": "../../icon-themes/dark/folder-shader.svg"
+      "iconPath": "../../assets/svg/dark/folder-shader.svg"
     },
     "folder-shader-open": {
-      "iconPath": "../../icon-themes/dark/folder-shader-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-shader-open.svg"
     },
     "folder-stack": {
-      "iconPath": "../../icon-themes/dark/folder-stack.svg"
+      "iconPath": "../../assets/svg/dark/folder-stack.svg"
     },
     "folder-stack-open": {
-      "iconPath": "../../icon-themes/dark/folder-stack-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-stack-open.svg"
     },
     "folder-template": {
-      "iconPath": "../../icon-themes/dark/folder-template.svg"
+      "iconPath": "../../assets/svg/dark/folder-template.svg"
     },
     "folder-template-open": {
-      "iconPath": "../../icon-themes/dark/folder-template-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-template-open.svg"
     },
     "folder-utils": {
-      "iconPath": "../../icon-themes/dark/folder-utils.svg"
+      "iconPath": "../../assets/svg/dark/folder-utils.svg"
     },
     "folder-utils-open": {
-      "iconPath": "../../icon-themes/dark/folder-utils-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-utils-open.svg"
     },
     "folder-supabase": {
-      "iconPath": "../../icon-themes/dark/folder-supabase.svg"
+      "iconPath": "../../assets/svg/dark/folder-supabase.svg"
     },
     "folder-supabase-open": {
-      "iconPath": "../../icon-themes/dark/folder-supabase-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-supabase-open.svg"
     },
     "folder-private": {
-      "iconPath": "../../icon-themes/dark/folder-private.svg"
+      "iconPath": "../../assets/svg/dark/folder-private.svg"
     },
     "folder-private-open": {
-      "iconPath": "../../icon-themes/dark/folder-private-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-private-open.svg"
     },
     "folder-linux": {
-      "iconPath": "../../icon-themes/dark/linux-folder.svg"
+      "iconPath": "../../assets/svg/dark/linux-folder.svg"
     },
     "folder-linux-open": {
-      "iconPath": "../../icon-themes/dark/linux-folder-open.svg"
+      "iconPath": "../../assets/svg/dark/linux-folder-open.svg"
     },
     "folder-windows": {
-      "iconPath": "../../icon-themes/dark/folder-windows.svg"
+      "iconPath": "../../assets/svg/dark/folder-windows.svg"
     },
     "folder-windows-open": {
-      "iconPath": "../../icon-themes/dark/folder-windows-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-windows-open.svg"
     },
     "folder-macos": {
-      "iconPath": "../../icon-themes/dark/folder-macos.svg"
+      "iconPath": "../../assets/svg/dark/folder-macos.svg"
     },
     "folder-macos-open": {
-      "iconPath": "../../icon-themes/dark/folder-macos-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-macos-open.svg"
     },
     "folder-error": {
-      "iconPath": "../../icon-themes/dark/folder-error.svg"
+      "iconPath": "../../assets/svg/dark/folder-error.svg"
     },
     "folder-error-open": {
-      "iconPath": "../../icon-themes/dark/folder-error-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-error-open.svg"
     },
     "folder-event": {
-      "iconPath": "../../icon-themes/dark/folder-event.svg"
+      "iconPath": "../../assets/svg/dark/folder-event.svg"
     },
     "folder-event-open": {
-      "iconPath": "../../icon-themes/dark/folder-event-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-event-open.svg"
     },
     "folder-secure": {
-      "iconPath": "../../icon-themes/dark/folder-secure.svg"
+      "iconPath": "../../assets/svg/dark/folder-secure.svg"
     },
     "folder-secure-open": {
-      "iconPath": "../../icon-themes/dark/folder-secure-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-secure-open.svg"
     },
     "folder-custom": {
-      "iconPath": "../../icon-themes/dark/folder-custom.svg"
+      "iconPath": "../../assets/svg/dark/folder-custom.svg"
     },
     "folder-custom-open": {
-      "iconPath": "../../icon-themes/dark/folder-custom-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-custom-open.svg"
     },
     "folder-mock": {
-      "iconPath": "../../icon-themes/dark/folder-mock.svg"
+      "iconPath": "../../assets/svg/dark/folder-mock.svg"
     },
     "folder-mock-open": {
-      "iconPath": "../../icon-themes/dark/folder-mock-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-mock-open.svg"
     },
     "folder-syntax": {
-      "iconPath": "../../icon-themes/dark/folder-syntax.svg"
+      "iconPath": "../../assets/svg/dark/folder-syntax.svg"
     },
     "folder-syntax-open": {
-      "iconPath": "../../icon-themes/dark/folder-syntax-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-syntax-open.svg"
     },
     "folder-vm": {
-      "iconPath": "../../icon-themes/dark/folder-vm.svg"
+      "iconPath": "../../assets/svg/dark/folder-vm.svg"
     },
     "folder-vm-open": {
-      "iconPath": "../../icon-themes/dark/folder-vm-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-vm-open.svg"
     },
     "folder-stylus": {
-      "iconPath": "../../icon-themes/dark/folder-stylus.svg"
+      "iconPath": "../../assets/svg/dark/folder-stylus.svg"
     },
     "folder-stylus-open": {
-      "iconPath": "../../icon-themes/dark/folder-stylus-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-stylus-open.svg"
     },
     "folder-flow": {
-      "iconPath": "../../icon-themes/dark/folder-flow.svg"
+      "iconPath": "../../assets/svg/dark/folder-flow.svg"
     },
     "folder-flow-open": {
-      "iconPath": "../../icon-themes/dark/folder-flow-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-flow-open.svg"
     },
     "folder-rules": {
-      "iconPath": "../../icon-themes/dark/folder-rules.svg"
+      "iconPath": "../../assets/svg/dark/folder-rules.svg"
     },
     "folder-rules-open": {
-      "iconPath": "../../icon-themes/dark/folder-rules-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-rules-open.svg"
     },
     "folder-review": {
-      "iconPath": "../../icon-themes/dark/folder-review.svg"
+      "iconPath": "../../assets/svg/dark/folder-review.svg"
     },
     "folder-review-open": {
-      "iconPath": "../../icon-themes/dark/folder-review-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-review-open.svg"
     },
     "folder-animation": {
-      "iconPath": "../../icon-themes/dark/folder-animation.svg"
+      "iconPath": "../../assets/svg/dark/folder-animation.svg"
     },
     "folder-animation-open": {
-      "iconPath": "../../icon-themes/dark/folder-animation-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-animation-open.svg"
     },
     "folder-guard": {
-      "iconPath": "../../icon-themes/dark/folder-guard.svg"
+      "iconPath": "../../assets/svg/dark/folder-guard.svg"
     },
     "folder-guard-open": {
-      "iconPath": "../../icon-themes/dark/folder-guard-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-guard-open.svg"
     },
     "folder-prisma": {
-      "iconPath": "../../icon-themes/dark/folder-prisma.svg"
+      "iconPath": "../../assets/svg/dark/folder-prisma.svg"
     },
     "folder-prisma-open": {
-      "iconPath": "../../icon-themes/dark/folder-prisma-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-prisma-open.svg"
     },
     "folder-pipe": {
-      "iconPath": "../../icon-themes/dark/folder-pipe.svg"
+      "iconPath": "../../assets/svg/dark/folder-pipe.svg"
     },
     "folder-pipe-open": {
-      "iconPath": "../../icon-themes/dark/folder-pipe-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-pipe-open.svg"
     },
     "folder-svg": {
-      "iconPath": "../../icon-themes/dark/svg-folder.svg"
+      "iconPath": "../../assets/svg/dark/svg-folder.svg"
     },
     "folder-svg-open": {
-      "iconPath": "../../icon-themes/dark/svg-folder-open.svg"
+      "iconPath": "../../assets/svg/dark/svg-folder-open.svg"
     },
     "folder-svg-light": {
-      "iconPath": "../../icon-themes/dark/svg-folder-light.svg"
+      "iconPath": "../../assets/svg/dark/svg-folder-light.svg"
     },
     "folder-svg-open-light": {
-      "iconPath": "../../icon-themes/dark/svg-folder-open-light.svg"
+      "iconPath": "../../assets/svg/dark/svg-folder-open-light.svg"
     },
     "folder-vuex-store": {
-      "iconPath": "../../icon-themes/dark/folder-vuex-store.svg"
+      "iconPath": "../../assets/svg/dark/folder-vuex-store.svg"
     },
     "folder-vuex-store-open": {
-      "iconPath": "../../icon-themes/dark/folder-vuex-store-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-vuex-store-open.svg"
     },
     "folder-nuxt": {
-      "iconPath": "../../icon-themes/dark/folder-nuxt.svg"
+      "iconPath": "../../assets/svg/dark/folder-nuxt.svg"
     },
     "folder-nuxt-open": {
-      "iconPath": "../../icon-themes/dark/folder-nuxt-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-nuxt-open.svg"
     },
     "folder-vue-directives": {
-      "iconPath": "../../icon-themes/dark/folder-vue-directives.svg"
+      "iconPath": "../../assets/svg/dark/folder-vue-directives.svg"
     },
     "folder-vue-directives-open": {
-      "iconPath": "../../icon-themes/dark/folder-vue-directives-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-vue-directives-open.svg"
     },
     "folder-terraform": {
-      "iconPath": "../../icon-themes/dark/folder-terraform.svg"
+      "iconPath": "../../assets/svg/dark/folder-terraform.svg"
     },
     "folder-terraform-open": {
-      "iconPath": "../../icon-themes/dark/folder-terraform-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-terraform-open.svg"
     },
     "folder-mobile": {
-      "iconPath": "../../icon-themes/dark/folder-mobile.svg"
+      "iconPath": "../../assets/svg/dark/folder-mobile.svg"
     },
     "folder-mobile-open": {
-      "iconPath": "../../icon-themes/dark/folder-mobile-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-mobile-open.svg"
     },
     "folder-stencil": {
-      "iconPath": "../../icon-themes/dark/folder-stencil.svg"
+      "iconPath": "../../assets/svg/dark/folder-stencil.svg"
     },
     "folder-stencil-open": {
-      "iconPath": "../../icon-themes/dark/folder-stencil-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-stencil-open.svg"
     },
     "folder-firebase": {
-      "iconPath": "../../icon-themes/dark/folder-firebase.svg"
+      "iconPath": "../../assets/svg/dark/folder-firebase.svg"
     },
     "folder-firebase-open": {
-      "iconPath": "../../icon-themes/dark/folder-firebase-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-firebase-open.svg"
     },
     "folder-firestore": {
-      "iconPath": "../../icon-themes/dark/folder-firestore.svg"
+      "iconPath": "../../assets/svg/dark/folder-firestore.svg"
     },
     "folder-firestore-open": {
-      "iconPath": "../../icon-themes/dark/folder-firestore-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-firestore-open.svg"
     },
     "folder-cloud-functions": {
-      "iconPath": "../../icon-themes/dark/folder-cloud-functions.svg"
+      "iconPath": "../../assets/svg/dark/folder-cloud-functions.svg"
     },
     "folder-cloud-functions-open": {
-      "iconPath": "../../icon-themes/dark/folder-cloud-functions-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-cloud-functions-open.svg"
     },
     "folder-svelte": {
-      "iconPath": "../../icon-themes/dark/folder-svelte.svg"
+      "iconPath": "../../assets/svg/dark/folder-svelte.svg"
     },
     "folder-svelte-open": {
-      "iconPath": "../../icon-themes/dark/folder-svelte-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-svelte-open.svg"
     },
     "folder-update": {
-      "iconPath": "../../icon-themes/dark/folder-update.svg"
+      "iconPath": "../../assets/svg/dark/folder-update.svg"
     },
     "folder-update-open": {
-      "iconPath": "../../icon-themes/dark/folder-update-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-update-open.svg"
     },
     "folder-intellij": {
-      "iconPath": "../../icon-themes/dark/folder-intellij.svg"
+      "iconPath": "../../assets/svg/dark/folder-intellij.svg"
     },
     "folder-intellij-open": {
-      "iconPath": "../../icon-themes/dark/folder-intellij-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-intellij-open.svg"
     },
     "folder-intellij_light": {
-      "iconPath": "../../icon-themes/dark/folder-intellij_light.svg"
+      "iconPath": "../../assets/svg/dark/folder-intellij_light.svg"
     },
     "folder-intellij-open_light": {
-      "iconPath": "../../icon-themes/dark/folder-intellij-open_light.svg"
+      "iconPath": "../../assets/svg/dark/folder-intellij-open_light.svg"
     },
     "folder-azure-pipelines": {
-      "iconPath": "../../icon-themes/dark/folder-azure-pipelines.svg"
+      "iconPath": "../../assets/svg/dark/folder-azure-pipelines.svg"
     },
     "folder-azure-pipelines-open": {
-      "iconPath": "../../icon-themes/dark/folder-azure-pipelines-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-azure-pipelines-open.svg"
     },
     "folder-mjml": {
-      "iconPath": "../../icon-themes/dark/folder-mjml.svg"
+      "iconPath": "../../assets/svg/dark/folder-mjml.svg"
     },
     "folder-mjml-open": {
-      "iconPath": "../../icon-themes/dark/folder-mjml-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-mjml-open.svg"
     },
     "folder-admin": {
-      "iconPath": "../../icon-themes/dark/folder-admin.svg"
+      "iconPath": "../../assets/svg/dark/folder-admin.svg"
     },
     "folder-admin-open": {
-      "iconPath": "../../icon-themes/dark/folder-admin-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-admin-open.svg"
     },
     "folder-jupyter": {
-      "iconPath": "../../icon-themes/dark/folder-jupyter.svg"
+      "iconPath": "../../assets/svg/dark/folder-jupyter.svg"
     },
     "folder-jupyter-open": {
-      "iconPath": "../../icon-themes/dark/folder-jupyter-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-jupyter-open.svg"
     },
     "folder-scala": {
-      "iconPath": "../../icon-themes/dark/folder-scala.svg"
+      "iconPath": "../../assets/svg/dark/folder-scala.svg"
     },
     "folder-scala-open": {
-      "iconPath": "../../icon-themes/dark/folder-scala-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-scala-open.svg"
     },
     "folder-connection": {
-      "iconPath": "../../icon-themes/dark/folder-connection.svg"
+      "iconPath": "../../assets/svg/dark/folder-connection.svg"
     },
     "folder-connection-open": {
-      "iconPath": "../../icon-themes/dark/folder-connection-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-connection-open.svg"
     },
     "folder-quasar": {
-      "iconPath": "../../icon-themes/dark/folder-quasar.svg"
+      "iconPath": "../../assets/svg/dark/folder-quasar.svg"
     },
     "folder-quasar-open": {
-      "iconPath": "../../icon-themes/dark/folder-quasar-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-quasar-open.svg"
     },
     "folder-next": {
-      "iconPath": "../../icon-themes/dark/folder-next.svg"
+      "iconPath": "../../assets/svg/dark/folder-next.svg"
     },
     "folder-next-open": {
-      "iconPath": "../../icon-themes/dark/folder-next-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-next-open.svg"
     },
     "folder-cobol": {
-      "iconPath": "../../icon-themes/dark/folder-cobol.svg"
+      "iconPath": "../../assets/svg/dark/folder-cobol.svg"
     },
     "folder-cobol-open": {
-      "iconPath": "../../icon-themes/dark/folder-cobol-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-cobol-open.svg"
     },
     "folder-yarn": {
-      "iconPath": "../../icon-themes/dark/folder-yarn.svg"
+      "iconPath": "../../assets/svg/dark/folder-yarn.svg"
     },
     "folder-yarn-open": {
-      "iconPath": "../../icon-themes/dark/folder-yarn-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-yarn-open.svg"
     },
     "folder-husky": {
-      "iconPath": "../../icon-themes/dark/folder-husky.svg"
+      "iconPath": "../../assets/svg/dark/folder-husky.svg"
     },
     "folder-husky-open": {
-      "iconPath": "../../icon-themes/dark/folder-husky-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-husky-open.svg"
     },
     "folder-storybook": {
-      "iconPath": "../../icon-themes/dark/folder-storybook.svg"
+      "iconPath": "../../assets/svg/dark/folder-storybook.svg"
     },
     "folder-storybook-open": {
-      "iconPath": "../../icon-themes/dark/folder-storybook-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-storybook-open.svg"
     },
     "folder-base": {
-      "iconPath": "../../icon-themes/dark/folder-base.svg"
+      "iconPath": "../../assets/svg/dark/folder-base.svg"
     },
     "folder-base-open": {
-      "iconPath": "../../icon-themes/dark/folder-base-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-base-open.svg"
     },
     "folder-cart": {
-      "iconPath": "../../icon-themes/dark/folder-cart.svg"
+      "iconPath": "../../assets/svg/dark/folder-cart.svg"
     },
     "folder-cart-open": {
-      "iconPath": "../../icon-themes/dark/folder-cart-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-cart-open.svg"
     },
     "folder-home": {
-      "iconPath": "../../icon-themes/dark/folder-home.svg"
+      "iconPath": "../../assets/svg/dark/folder-home.svg"
     },
     "folder-home-open": {
-      "iconPath": "../../icon-themes/dark/folder-home-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-home-open.svg"
     },
     "folder-project": {
-      "iconPath": "../../icon-themes/dark/folder-project.svg"
+      "iconPath": "../../assets/svg/dark/folder-project.svg"
     },
     "folder-project-open": {
-      "iconPath": "../../icon-themes/dark/folder-project-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-project-open.svg"
     },
     "folder-interface": {
-      "iconPath": "../../icon-themes/dark/folder-interface.svg"
+      "iconPath": "../../assets/svg/dark/folder-interface.svg"
     },
     "folder-interface-open": {
-      "iconPath": "../../icon-themes/dark/folder-interface-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-interface-open.svg"
     },
     "folder-netlify": {
-      "iconPath": "../../icon-themes/dark/folder-netlify.svg"
+      "iconPath": "../../assets/svg/dark/folder-netlify.svg"
     },
     "folder-netlify-open": {
-      "iconPath": "../../icon-themes/dark/folder-netlify-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-netlify-open.svg"
     },
     "folder-enum": {
-      "iconPath": "../../icon-themes/dark/folder-enum.svg"
+      "iconPath": "../../assets/svg/dark/folder-enum.svg"
     },
     "folder-enum-open": {
-      "iconPath": "../../icon-themes/dark/folder-enum-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-enum-open.svg"
     },
     "folder-contract": {
-      "iconPath": "../../icon-themes/dark/folder-contract.svg"
+      "iconPath": "../../assets/svg/dark/folder-contract.svg"
     },
     "folder-contract-open": {
-      "iconPath": "../../icon-themes/dark/folder-contract-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-contract-open.svg"
     },
     "folder-helm": {
-      "iconPath": "../../icon-themes/dark/folder-helm.svg"
+      "iconPath": "../../assets/svg/dark/folder-helm.svg"
     },
     "folder-helm-open": {
-      "iconPath": "../../icon-themes/dark/folder-helm-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-helm-open.svg"
     },
     "folder-queue": {
-      "iconPath": "../../icon-themes/dark/folder-queue.svg"
+      "iconPath": "../../assets/svg/dark/folder-queue.svg"
     },
     "folder-queue-open": {
-      "iconPath": "../../icon-themes/dark/folder-queue-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-queue-open.svg"
     },
     "folder-vercel": {
-      "iconPath": "../../icon-themes/dark/folder-vercel.svg"
+      "iconPath": "../../assets/svg/dark/folder-vercel.svg"
     },
     "folder-vercel-open": {
-      "iconPath": "../../icon-themes/dark/folder-vercel-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-vercel-open.svg"
     },
     "folder-cypress": {
-      "iconPath": "../../icon-themes/dark/folder-cypress.svg"
+      "iconPath": "../../assets/svg/dark/folder-cypress.svg"
     },
     "folder-cypress-open": {
-      "iconPath": "../../icon-themes/dark/folder-cypress-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-cypress-open.svg"
     },
     "folder-decorators": {
-      "iconPath": "../../icon-themes/dark/folder-decorators.svg"
+      "iconPath": "../../assets/svg/dark/folder-decorators.svg"
     },
     "folder-decorators-open": {
-      "iconPath": "../../icon-themes/dark/folder-decorators-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-decorators-open.svg"
     },
     "folder-java": {
-      "iconPath": "../../icon-themes/dark/folder-java.svg"
+      "iconPath": "../../assets/svg/dark/folder-java.svg"
     },
     "folder-java-open": {
-      "iconPath": "../../icon-themes/dark/folder-java-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-java-open.svg"
     },
     "folder-resolver": {
-      "iconPath": "../../icon-themes/dark/folder-resolver.svg"
+      "iconPath": "../../assets/svg/dark/folder-resolver.svg"
     },
     "folder-resolver-open": {
-      "iconPath": "../../icon-themes/dark/folder-resolver-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-resolver-open.svg"
     },
     "folder-angular": {
-      "iconPath": "../../icon-themes/dark/folder-angular.svg"
+      "iconPath": "../../assets/svg/dark/folder-angular.svg"
     },
     "folder-angular-open": {
-      "iconPath": "../../icon-themes/dark/folder-angular-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-angular-open.svg"
     },
     "folder-unity": {
-      "iconPath": "../../icon-themes/dark/folder-unity.svg"
+      "iconPath": "../../assets/svg/dark/folder-unity.svg"
     },
     "folder-unity-open": {
-      "iconPath": "../../icon-themes/dark/folder-unity-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-unity-open.svg"
     },
     "folder-pdf": {
-      "iconPath": "../../icon-themes/dark/folder-pdf.svg"
+      "iconPath": "../../assets/svg/dark/folder-pdf.svg"
     },
     "folder-pdf-open": {
-      "iconPath": "../../icon-themes/dark/folder-pdf-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-pdf-open.svg"
     },
     "folder-proto": {
-      "iconPath": "../../icon-themes/dark/folder-proto.svg"
+      "iconPath": "../../assets/svg/dark/folder-proto.svg"
     },
     "folder-proto-open": {
-      "iconPath": "../../icon-themes/dark/folder-proto-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-proto-open.svg"
     },
     "folder-plastic": {
-      "iconPath": "../../icon-themes/dark/folder-plastic.svg"
+      "iconPath": "../../assets/svg/dark/folder-plastic.svg"
     },
     "folder-plastic-open": {
-      "iconPath": "../../icon-themes/dark/folder-plastic-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-plastic-open.svg"
     },
     "folder-gamemaker": {
-      "iconPath": "../../icon-themes/dark/folder-gamemaker.svg"
+      "iconPath": "../../assets/svg/dark/folder-gamemaker.svg"
     },
     "folder-gamemaker-open": {
-      "iconPath": "../../icon-themes/dark/folder-gamemaker-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-gamemaker-open.svg"
     },
     "folder-mercurial": {
-      "iconPath": "../../icon-themes/dark/folder-mercurial.svg"
+      "iconPath": "../../assets/svg/dark/folder-mercurial.svg"
     },
     "folder-mercurial-open": {
-      "iconPath": "../../icon-themes/dark/folder-mercurial-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-mercurial-open.svg"
     },
     "folder-godot": {
-      "iconPath": "../../icon-themes/dark/folder-godot.svg"
+      "iconPath": "../../assets/svg/dark/folder-godot.svg"
     },
     "folder-godot-open": {
-      "iconPath": "../../icon-themes/dark/folder-godot-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-godot-open.svg"
     },
     "folder-lottie": {
-      "iconPath": "../../icon-themes/dark/folder-lottie.svg"
+      "iconPath": "../../assets/svg/dark/folder-lottie.svg"
     },
     "folder-lottie-open": {
-      "iconPath": "../../icon-themes/dark/folder-lottie-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-lottie-open.svg"
     },
     "folder-taskfile": {
-      "iconPath": "../../icon-themes/dark/folder-taskfile.svg"
+      "iconPath": "../../assets/svg/dark/folder-taskfile.svg"
     },
     "folder-taskfile-open": {
-      "iconPath": "../../icon-themes/dark/folder-taskfile-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-taskfile-open.svg"
     },
     "folder-drizzle": {
-      "iconPath": "../../icon-themes/dark/folder-drizzle.svg"
+      "iconPath": "../../assets/svg/dark/folder-drizzle.svg"
     },
     "folder-drizzle-open": {
-      "iconPath": "../../icon-themes/dark/folder-drizzle-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-drizzle-open.svg"
     },
     "folder-cloudflare": {
-      "iconPath": "../../icon-themes/dark/folder-cloudflare.svg"
+      "iconPath": "../../assets/svg/dark/folder-cloudflare.svg"
     },
     "folder-cloudflare-open": {
-      "iconPath": "../../icon-themes/dark/folder-cloudflare-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-cloudflare-open.svg"
     },
     "folder-seeders": {
-      "iconPath": "../../icon-themes/dark/folder-seeders.svg"
+      "iconPath": "../../assets/svg/dark/folder-seeders.svg"
     },
     "folder-seeders-open": {
-      "iconPath": "../../icon-themes/dark/folder-seeders-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-seeders-open.svg"
     },
     "folder-store": {
-      "iconPath": "../../icon-themes/dark/folder-store.svg"
+      "iconPath": "../../assets/svg/dark/folder-store.svg"
     },
     "folder-store-open": {
-      "iconPath": "../../icon-themes/dark/folder-store-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-store-open.svg"
     },
     "folder-bicep": {
-      "iconPath": "../../icon-themes/dark/folder-bicep.svg"
+      "iconPath": "../../assets/svg/dark/folder-bicep.svg"
     },
     "folder-bicep-open": {
-      "iconPath": "../../icon-themes/dark/folder-bicep-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-bicep-open.svg"
     },
     "folder-snapcraft": {
-      "iconPath": "../../icon-themes/dark/folder-snapcraft.svg"
+      "iconPath": "../../assets/svg/dark/folder-snapcraft.svg"
     },
     "folder-snapcraft-open": {
-      "iconPath": "../../icon-themes/dark/folder-snapcraft-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-snapcraft-open.svg"
     },
     "folder-development": {
-      "iconPath": "../../icon-themes/dark/folder-development.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-development.clone.svg"
     },
     "folder-development-open": {
-      "iconPath": "../../icon-themes/dark/folder-development-open.clone.svg"
+      "iconPath": "../../assets/svg/dark/folder-development-open.clone.svg"
     },
     "folder-flutter": {
-      "iconPath": "../../icon-themes/dark/folder-flutter.svg"
+      "iconPath": "../../assets/svg/dark/folder-flutter.svg"
     },
     "folder-flutter-open": {
-      "iconPath": "../../icon-themes/dark/folder-flutter-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-flutter-open.svg"
     },
     "folder-snippet": {
-      "iconPath": "../../icon-themes/dark/folder-snippet.svg"
+      "iconPath": "../../assets/svg/dark/folder-snippet.svg"
     },
     "folder-snippet-open": {
-      "iconPath": "../../icon-themes/dark/folder-snippet-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-snippet-open.svg"
     },
     "folder-element": {
-      "iconPath": "../../icon-themes/dark/folder-element.svg"
+      "iconPath": "../../assets/svg/dark/folder-element.svg"
     },
     "folder-element-open": {
-      "iconPath": "../../icon-themes/dark/folder-element-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-element-open.svg"
     },
     "folder-src-tauri": {
-      "iconPath": "../../icon-themes/dark/folder-src-tauri.svg"
+      "iconPath": "../../assets/svg/dark/folder-src-tauri.svg"
     },
     "folder-src-tauri-open": {
-      "iconPath": "../../icon-themes/dark/folder-src-tauri-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-src-tauri-open.svg"
     },
     "folder-favicon": {
-      "iconPath": "../../icon-themes/dark/folder-favicon.svg"
+      "iconPath": "../../assets/svg/dark/folder-favicon.svg"
     },
     "folder-favicon-open": {
-      "iconPath": "../../icon-themes/dark/folder-favicon-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-favicon-open.svg"
     },
     "folder-lefthook": {
-      "iconPath": "../../icon-themes/dark/folder-lefthook.svg"
+      "iconPath": "../../assets/svg/dark/folder-lefthook.svg"
     },
     "folder-lefthook-open": {
-      "iconPath": "../../icon-themes/dark/folder-lefthook-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-lefthook-open.svg"
     },
     "folder-bloc": {
-      "iconPath": "../../icon-themes/dark/bloc-folder.svg"
+      "iconPath": "../../assets/svg/dark/bloc-folder.svg"
     },
     "folder-bloc-open": {
-      "iconPath": "../../icon-themes/dark/folder-bloc-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-bloc-open.svg"
     },
     "folder-powershell": {
-      "iconPath": "../../icon-themes/dark/folder-powershell.svg"
+      "iconPath": "../../assets/svg/dark/folder-powershell.svg"
     },
     "folder-powershell-open": {
-      "iconPath": "../../icon-themes/dark/folder-powershell-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-powershell-open.svg"
     },
     "folder-repository": {
-      "iconPath": "../../icon-themes/dark/folder-repository.svg"
+      "iconPath": "../../assets/svg/dark/folder-repository.svg"
     },
     "folder-repository-open": {
-      "iconPath": "../../icon-themes/dark/folder-repository-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-repository-open.svg"
     },
     "folder-luau": {
-      "iconPath": "../../icon-themes/dark/folder-luau.svg"
+      "iconPath": "../../assets/svg/dark/folder-luau.svg"
     },
     "folder-luau-open": {
-      "iconPath": "../../icon-themes/dark/folder-luau-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-luau-open.svg"
     },
     "folder-obsidian": {
-      "iconPath": "../../icon-themes/dark/folder-obsidian.svg"
+      "iconPath": "../../assets/svg/dark/folder-obsidian.svg"
     },
     "folder-obsidian-open": {
-      "iconPath": "../../icon-themes/dark/folder-obsidian-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-obsidian-open.svg"
     },
     "folder-trash": {
-      "iconPath": "../../icon-themes/dark/folder-trash.svg"
+      "iconPath": "../../assets/svg/dark/folder-trash.svg"
     },
     "folder-trash-open": {
-      "iconPath": "../../icon-themes/dark/folder-trash-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-trash-open.svg"
     },
     "folder-cline": {
-      "iconPath": "../../icon-themes/dark/folder-cline.svg"
+      "iconPath": "../../assets/svg/dark/folder-cline.svg"
     },
     "folder-cline-open": {
-      "iconPath": "../../icon-themes/dark/folder-cline-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-cline-open.svg"
     },
     "folder-liquibase": {
-      "iconPath": "../../icon-themes/dark/folder-liquibase.svg"
+      "iconPath": "../../assets/svg/dark/folder-liquibase.svg"
     },
     "folder-liquibase-open": {
-      "iconPath": "../../icon-themes/dark/folder-liquibase-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-liquibase-open.svg"
     },
     "folder-dart": {
-      "iconPath": "../../icon-themes/dark/folder-dart.svg"
+      "iconPath": "../../assets/svg/dark/folder-dart.svg"
     },
     "folder-dart-open": {
-      "iconPath": "../../icon-themes/dark/folder-dart-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-dart-open.svg"
     },
     "folder-zeabur": {
-      "iconPath": "../../icon-themes/dark/folder-zeabur.svg"
+      "iconPath": "../../assets/svg/dark/folder-zeabur.svg"
     },
     "folder-zeabur-open": {
-      "iconPath": "../../icon-themes/dark/folder-zeabur-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-zeabur-open.svg"
     },
     "folder-kusto": {
-      "iconPath": "../../icon-themes/dark/folder-kusto.svg"
+      "iconPath": "../../assets/svg/dark/folder-kusto.svg"
     },
     "folder-kusto-open": {
-      "iconPath": "../../icon-themes/dark/folder-kusto-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-kusto-open.svg"
     },
     "folder-policy": {
-      "iconPath": "../../icon-themes/dark/folder-policy.svg"
+      "iconPath": "../../assets/svg/dark/folder-policy.svg"
     },
     "folder-policy-open": {
-      "iconPath": "../../icon-themes/dark/folder-policy-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-policy-open.svg"
     },
     "folder-attachment": {
-      "iconPath": "../../icon-themes/dark/folder-attachment.svg"
+      "iconPath": "../../assets/svg/dark/folder-attachment.svg"
     },
     "folder-attachment-open": {
-      "iconPath": "../../icon-themes/dark/folder-attachment-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-attachment-open.svg"
     },
     "folder-bibliography": {
-      "iconPath": "../../icon-themes/dark/folder-bibliography.svg"
+      "iconPath": "../../assets/svg/dark/folder-bibliography.svg"
     },
     "folder-bibliography-open": {
-      "iconPath": "../../icon-themes/dark/folder-bibliography-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-bibliography-open.svg"
     },
     "folder-link": {
-      "iconPath": "../../icon-themes/dark/folder-link.svg"
+      "iconPath": "../../assets/svg/dark/folder-link.svg"
     },
     "folder-link-open": {
-      "iconPath": "../../icon-themes/dark/folder-link-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-link-open.svg"
     },
     "folder-pytorch": {
-      "iconPath": "../../icon-themes/dark/folder-pytorch.svg"
+      "iconPath": "../../assets/svg/dark/folder-pytorch.svg"
     },
     "folder-pytorch-open": {
-      "iconPath": "../../icon-themes/dark/folder-pytorch-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-pytorch-open.svg"
     },
     "folder-blender": {
-      "iconPath": "../../icon-themes/dark/folder-blender.svg"
+      "iconPath": "../../assets/svg/dark/folder-blender.svg"
     },
     "folder-blender-open": {
-      "iconPath": "../../icon-themes/dark/folder-blender-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-blender-open.svg"
     },
     "folder": {
-      "iconPath": "../../icon-themes/dark/folder.svg"
+      "iconPath": "../../assets/svg/dark/folder.svg"
     },
     "folder-open": {
-      "iconPath": "../../icon-themes/dark/folder-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-open.svg"
     },
     "folder-root": {
-      "iconPath": "../../icon-themes/dark/folder-root.svg"
+      "iconPath": "../../assets/svg/dark/folder-root.svg"
     },
     "folder-root-open": {
-      "iconPath": "../../icon-themes/dark/folder-root-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-root-open.svg"
     },
     "flutter-file": {
-      "iconPath": "../../icon-themes/dark/flutter-file.svg"
+      "iconPath": "../../assets/svg/dark/flutter-file.svg"
     },
     "bloc-file": {
-      "iconPath": "../../icon-themes/dark/bloc-file.svg"
+      "iconPath": "../../assets/svg/dark/bloc-file.svg"
     },
     "getx-file": {
-      "iconPath": "../../icon-themes/dark/getx-file.svg"
+      "iconPath": "../../assets/svg/dark/getx-file.svg"
     },
     "riverpod-file": {
-      "iconPath": "../../icon-themes/dark/riverpod-file.svg"
+      "iconPath": "../../assets/svg/dark/riverpod-file.svg"
     },
     "mobx-file": {
-      "iconPath": "../../icon-themes/dark/mobx-file.svg"
+      "iconPath": "../../assets/svg/dark/mobx-file.svg"
     },
     "state-file": {
-      "iconPath": "../../icon-themes/dark/state-file.svg"
+      "iconPath": "../../assets/svg/dark/state-file.svg"
     },
     "service-file": {
-      "iconPath": "../../icon-themes/dark/service-file.svg"
+      "iconPath": "../../assets/svg/dark/service-file.svg"
     },
     "module-file": {
-      "iconPath": "../../icon-themes/dark/module-file.svg"
+      "iconPath": "../../assets/svg/dark/module-file.svg"
     },
     "getx-folder": {
-      "iconPath": "../../icon-themes/dark/getx-folder.svg"
+      "iconPath": "../../assets/svg/dark/getx-folder.svg"
     },
     "getx-folder-open": {
-      "iconPath": "../../icon-themes/dark/getx-folder-open.svg"
+      "iconPath": "../../assets/svg/dark/getx-folder-open.svg"
     },
     "mobx-folder": {
-      "iconPath": "../../icon-themes/dark/mobx-folder.svg"
+      "iconPath": "../../assets/svg/dark/mobx-folder.svg"
     },
     "mobx-folder-open": {
-      "iconPath": "../../icon-themes/dark/mobx-folder-open.svg"
+      "iconPath": "../../assets/svg/dark/mobx-folder-open.svg"
     },
     "riverpod-folder": {
-      "iconPath": "../../icon-themes/dark/riverpod-folder.svg"
+      "iconPath": "../../assets/svg/dark/riverpod-folder.svg"
     },
     "riverpod-folder-open": {
-      "iconPath": "../../icon-themes/dark/riverpod-folder-open.svg"
+      "iconPath": "../../assets/svg/dark/riverpod-folder-open.svg"
     },
     "state-folder": {
-      "iconPath": "../../icon-themes/dark/state-folder.svg"
+      "iconPath": "../../assets/svg/dark/state-folder.svg"
     },
     "state-folder-open": {
-      "iconPath": "../../icon-themes/dark/state-folder-open.svg"
+      "iconPath": "../../assets/svg/dark/state-folder-open.svg"
     },
     "lynx": {
-      "iconPath": "../../icon-themes/dark/lynx-file.svg"
+      "iconPath": "../../assets/svg/dark/lynx-file.svg"
     },
     "lynx-dark": {
-      "iconPath": "../../icon-themes/dark/lynx-file-dark.svg"
+      "iconPath": "../../assets/svg/dark/lynx-file-dark.svg"
     },
     "lynx-config-file": {
-      "iconPath": "../../icon-themes/dark/lynx-config-file.svg"
+      "iconPath": "../../assets/svg/dark/lynx-config-file.svg"
     },
     "lynx-config-file-dark": {
-      "iconPath": "../../icon-themes/dark/lynx-config-file-dark.svg"
+      "iconPath": "../../assets/svg/dark/lynx-config-file-dark.svg"
     },
     "folder-notification": {
-      "iconPath": "../../icon-themes/dark/folder-notification.svg"
+      "iconPath": "../../assets/svg/dark/folder-notification.svg"
     },
     "folder-notification-open": {
-      "iconPath": "../../icon-themes/dark/folder-notification-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-notification-open.svg"
     },
     "folder-keymaps": {
-      "iconPath": "../../icon-themes/dark/folder-keymaps.svg"
+      "iconPath": "../../assets/svg/dark/folder-keymaps.svg"
     },
     "folder-keymaps-open": {
-      "iconPath": "../../icon-themes/dark/folder-keymaps-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-keymaps-open.svg"
     },
     "folder-shortcuts": {
-      "iconPath": "../../icon-themes/dark/folder-shortcuts.svg"
+      "iconPath": "../../assets/svg/dark/folder-shortcuts.svg"
     },
     "folder-shortcuts-open": {
-      "iconPath": "../../icon-themes/dark/folder-shortcuts-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-shortcuts-open.svg"
     },
     "folder-claude": {
-      "iconPath": "../../icon-themes/dark/folder-claude.svg"
+      "iconPath": "../../assets/svg/dark/folder-claude.svg"
     },
     "folder-claude-open": {
-      "iconPath": "../../icon-themes/dark/folder-claude-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-claude-open.svg"
     },
     "file-claude": {
-      "iconPath": "../../icon-themes/dark/claude.svg"
+      "iconPath": "../../assets/svg/dark/claude.svg"
     },
     "folder-kiro": {
-      "iconPath": "../../icon-themes/dark/folder-kiro.svg"
+      "iconPath": "../../assets/svg/dark/folder-kiro.svg"
     },
     "folder-kiro-open": {
-      "iconPath": "../../icon-themes/dark/folder-kiro-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-kiro-open.svg"
     },
     "bashly-hook": {
-      "iconPath": "../../icon-themes/dark/bashly-hook.svg"
+      "iconPath": "../../assets/svg/dark/bashly-hook.svg"
     },
     "bashly": {
-      "iconPath": "../../icon-themes/dark/bashly.svg"
+      "iconPath": "../../assets/svg/dark/bashly.svg"
     },
     "bloc-folder-open": {
-      "iconPath": "../../icon-themes/dark/bloc-folder-open.svg"
+      "iconPath": "../../assets/svg/dark/bloc-folder-open.svg"
     },
     "chromatic": {
-      "iconPath": "../../icon-themes/dark/chromatic.svg"
+      "iconPath": "../../assets/svg/dark/chromatic.svg"
     },
     "cue": {
-      "iconPath": "../../icon-themes/dark/cue.svg"
+      "iconPath": "../../assets/svg/dark/cue.svg"
     },
     "cursor": {
-      "iconPath": "../../icon-themes/dark/cursor.svg"
+      "iconPath": "../../assets/svg/dark/cursor.svg"
     },
     "cursor_light": {
-      "iconPath": "../../icon-themes/dark/cursor_light.svg"
+      "iconPath": "../../assets/svg/dark/cursor_light.svg"
     },
     "folder-atom-open": {
-      "iconPath": "../../icon-themes/dark/folder-atom-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-atom-open.svg"
     },
     "folder-atom": {
-      "iconPath": "../../icon-themes/dark/folder-atom.svg"
+      "iconPath": "../../assets/svg/dark/folder-atom.svg"
     },
     "folder-cue-open": {
-      "iconPath": "../../icon-themes/dark/folder-cue-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-cue-open.svg"
     },
     "folder-cue": {
-      "iconPath": "../../icon-themes/dark/folder-cue.svg"
+      "iconPath": "../../assets/svg/dark/folder-cue.svg"
     },
     "folder-cursor-open": {
-      "iconPath": "../../icon-themes/dark/folder-cursor-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-cursor-open.svg"
     },
     "folder-cursor-open_light": {
-      "iconPath": "../../icon-themes/dark/folder-cursor-open_light.svg"
+      "iconPath": "../../assets/svg/dark/folder-cursor-open_light.svg"
     },
     "folder-cursor": {
-      "iconPath": "../../icon-themes/dark/folder-cursor.svg"
+      "iconPath": "../../assets/svg/dark/folder-cursor.svg"
     },
     "folder-cursor_light": {
-      "iconPath": "../../icon-themes/dark/folder-cursor_light.svg"
+      "iconPath": "../../assets/svg/dark/folder-cursor_light.svg"
     },
     "folder-dal-open": {
-      "iconPath": "../../icon-themes/dark/folder-dal-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-dal-open.svg"
     },
     "folder-dal": {
-      "iconPath": "../../icon-themes/dark/folder-dal.svg"
+      "iconPath": "../../assets/svg/dark/folder-dal.svg"
     },
     "folder-eslint-open": {
-      "iconPath": "../../icon-themes/dark/folder-eslint-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-eslint-open.svg"
     },
     "folder-eslint": {
-      "iconPath": "../../icon-themes/dark/folder-eslint.svg"
+      "iconPath": "../../assets/svg/dark/folder-eslint.svg"
     },
     "folder-features-open": {
-      "iconPath": "../../icon-themes/dark/folder-features-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-features-open.svg"
     },
     "folder-features": {
-      "iconPath": "../../icon-themes/dark/folder-features.svg"
+      "iconPath": "../../assets/svg/dark/folder-features.svg"
     },
     "folder-filter-open": {
-      "iconPath": "../../icon-themes/dark/folder-filter-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-filter-open.svg"
     },
     "folder-filter": {
-      "iconPath": "../../icon-themes/dark/folder-filter.svg"
+      "iconPath": "../../assets/svg/dark/folder-filter.svg"
     },
     "folder-input-open": {
-      "iconPath": "../../icon-themes/dark/folder-input-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-input-open.svg"
     },
     "folder-input": {
-      "iconPath": "../../icon-themes/dark/folder-input.svg"
+      "iconPath": "../../assets/svg/dark/folder-input.svg"
     },
     "folder-interceptor-open": {
-      "iconPath": "../../icon-themes/dark/folder-interceptor-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-interceptor-open.svg"
     },
     "folder-interceptor": {
-      "iconPath": "../../icon-themes/dark/folder-interceptor.svg"
+      "iconPath": "../../assets/svg/dark/folder-interceptor.svg"
     },
     "folder-license-open": {
-      "iconPath": "../../icon-themes/dark/folder-license-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-license-open.svg"
     },
     "folder-license": {
-      "iconPath": "../../icon-themes/dark/folder-license.svg"
+      "iconPath": "../../assets/svg/dark/folder-license.svg"
     },
     "folder-metro-open": {
-      "iconPath": "../../icon-themes/dark/folder-metro-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-metro-open.svg"
     },
     "folder-metro": {
-      "iconPath": "../../icon-themes/dark/folder-metro.svg"
+      "iconPath": "../../assets/svg/dark/folder-metro.svg"
     },
     "folder-migrations-open": {
-      "iconPath": "../../icon-themes/dark/folder-migrations-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-migrations-open.svg"
     },
     "folder-migrations": {
-      "iconPath": "../../icon-themes/dark/folder-migrations.svg"
+      "iconPath": "../../assets/svg/dark/folder-migrations.svg"
     },
     "folder-molecule-open": {
-      "iconPath": "../../icon-themes/dark/folder-molecule-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-molecule-open.svg"
     },
     "folder-molecule": {
-      "iconPath": "../../icon-themes/dark/folder-molecule.svg"
+      "iconPath": "../../assets/svg/dark/folder-molecule.svg"
     },
     "folder-organism-open": {
-      "iconPath": "../../icon-themes/dark/folder-organism-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-organism-open.svg"
     },
     "folder-organism": {
-      "iconPath": "../../icon-themes/dark/folder-organism.svg"
+      "iconPath": "../../assets/svg/dark/folder-organism.svg"
     },
     "folder-prompts-open": {
-      "iconPath": "../../icon-themes/dark/folder-prompts-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-prompts-open.svg"
     },
     "folder-prompts": {
-      "iconPath": "../../icon-themes/dark/folder-prompts.svg"
+      "iconPath": "../../assets/svg/dark/folder-prompts.svg"
     },
     "folder-salt-open": {
-      "iconPath": "../../icon-themes/dark/folder-salt-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-salt-open.svg"
     },
     "folder-salt": {
-      "iconPath": "../../icon-themes/dark/folder-salt.svg"
+      "iconPath": "../../assets/svg/dark/folder-salt.svg"
     },
     "folder-simulations-open": {
-      "iconPath": "../../icon-themes/dark/folder-simulations-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-simulations-open.svg"
     },
     "folder-simulations": {
-      "iconPath": "../../icon-themes/dark/folder-simulations.svg"
+      "iconPath": "../../assets/svg/dark/folder-simulations.svg"
     },
     "folder-toc-open": {
-      "iconPath": "../../icon-themes/dark/folder-toc-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-toc-open.svg"
     },
     "folder-toc": {
-      "iconPath": "../../icon-themes/dark/folder-toc.svg"
+      "iconPath": "../../assets/svg/dark/folder-toc.svg"
     },
     "folder-tabs-open": {
-      "iconPath": "../../icon-themes/dark/folder-tabs-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-tabs-open.svg"
     },
     "folder-tabs": {
-      "iconPath": "../../icon-themes/dark/folder-tabs.svg"
+      "iconPath": "../../assets/svg/dark/folder-tabs.svg"
     },
     "folder-skeleton-open": {
-      "iconPath": "../../icon-themes/dark/folder-skeleton-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-skeleton-open.svg"
     },
     "folder-skeleton": {
-      "iconPath": "../../icon-themes/dark/folder-skeleton.svg"
+      "iconPath": "../../assets/svg/dark/folder-skeleton.svg"
     },
     "google": {
-      "iconPath": "../../icon-themes/dark/google.svg"
+      "iconPath": "../../assets/svg/dark/google.svg"
     },
     "happo": {
-      "iconPath": "../../icon-themes/dark/happo.svg"
+      "iconPath": "../../assets/svg/dark/happo.svg"
     },
     "lean": {
-      "iconPath": "../../icon-themes/dark/lean.svg"
+      "iconPath": "../../assets/svg/dark/lean.svg"
     },
     "license": {
-      "iconPath": "../../icon-themes/dark/license.svg"
+      "iconPath": "../../assets/svg/dark/license.svg"
     },
     "lintstaged": {
-      "iconPath": "../../icon-themes/dark/lintstaged.svg"
+      "iconPath": "../../assets/svg/dark/lintstaged.svg"
     },
     "metro": {
-      "iconPath": "../../icon-themes/dark/metro.svg"
+      "iconPath": "../../assets/svg/dark/metro.svg"
     },
     "mobx2-file": {
-      "iconPath": "../../icon-themes/dark/mobx2-file.svg"
+      "iconPath": "../../assets/svg/dark/mobx2-file.svg"
     },
     "onnx": {
-      "iconPath": "../../icon-themes/dark/onnx.svg"
+      "iconPath": "../../assets/svg/dark/onnx.svg"
     },
     "opentofu": {
-      "iconPath": "../../icon-themes/dark/opentofu.svg"
+      "iconPath": "../../assets/svg/dark/opentofu.svg"
     },
     "opentofu_light": {
-      "iconPath": "../../icon-themes/dark/opentofu_light.svg"
+      "iconPath": "../../assets/svg/dark/opentofu_light.svg"
     },
     "oxc": {
-      "iconPath": "../../icon-themes/dark/oxc.svg"
+      "iconPath": "../../assets/svg/dark/oxc.svg"
     },
     "prompt": {
-      "iconPath": "../../icon-themes/dark/prompt.svg"
+      "iconPath": "../../assets/svg/dark/prompt.svg"
     },
     "quarto": {
-      "iconPath": "../../icon-themes/dark/quarto.svg"
+      "iconPath": "../../assets/svg/dark/quarto.svg"
     },
     "rstack": {
-      "iconPath": "../../icon-themes/dark/rstack.svg"
+      "iconPath": "../../assets/svg/dark/rstack.svg"
     },
     "salt": {
-      "iconPath": "../../icon-themes/dark/salt.svg"
+      "iconPath": "../../assets/svg/dark/salt.svg"
     },
     "shellcheck": {
-      "iconPath": "../../icon-themes/dark/shellcheck.svg"
+      "iconPath": "../../assets/svg/dark/shellcheck.svg"
     },
     "shellcheck_light": {
-      "iconPath": "../../icon-themes/dark/shellcheck_light.svg"
+      "iconPath": "../../assets/svg/dark/shellcheck_light.svg"
     },
     "toc": {
-      "iconPath": "../../icon-themes/dark/toc.svg"
+      "iconPath": "../../assets/svg/dark/toc.svg"
     },
     "tsdoc": {
-      "iconPath": "../../icon-themes/dark/tsdoc.svg"
+      "iconPath": "../../assets/svg/dark/tsdoc.svg"
     },
     "unlicense": {
-      "iconPath": "../../icon-themes/dark/unlicense.svg"
+      "iconPath": "../../assets/svg/dark/unlicense.svg"
     },
     "vanilla-extract": {
-      "iconPath": "../../icon-themes/dark/vanilla-extract.svg"
+      "iconPath": "../../assets/svg/dark/vanilla-extract.svg"
     },
     "varnish": {
-      "iconPath": "../../icon-themes/dark/varnish.svg"
+      "iconPath": "../../assets/svg/dark/varnish.svg"
     },
     "verse": {
-      "iconPath": "../../icon-themes/dark/verse.svg"
+      "iconPath": "../../assets/svg/dark/verse.svg"
     },
     "verse_light": {
-      "iconPath": "../../icon-themes/dark/verse_light.svg"
+      "iconPath": "../../assets/svg/dark/verse_light.svg"
     },
     "warp": {
-      "iconPath": "../../icon-themes/dark/warp.svg"
+      "iconPath": "../../assets/svg/dark/warp.svg"
     },
     "warp_light": {
-      "iconPath": "../../icon-themes/dark/warp_light.svg"
+      "iconPath": "../../assets/svg/dark/warp_light.svg"
     },
     "xml-before": {
-      "iconPath": "../../icon-themes/dark/xml-before.svg"
+      "iconPath": "../../assets/svg/dark/xml-before.svg"
     },
     "expo-app": {
-      "iconPath": "../../icon-themes/dark/expo-app.svg"
+      "iconPath": "../../assets/svg/dark/expo-app.svg"
     },
     "expo-eas": {
-      "iconPath": "../../icon-themes/dark/expo-b.svg"
+      "iconPath": "../../assets/svg/dark/expo-b.svg"
     },
     "woff": {
-      "iconPath": "../../icon-themes/dark/wo-1.svg"
+      "iconPath": "../../assets/svg/dark/wo-1.svg"
     }
   },
   "folderNames": {
