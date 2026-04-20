@@ -19,7 +19,7 @@
     "menu.background":                       "#111113",    // - Menu bg
     "menu.foreground":                       "#edeef0",    // - Menu text
     "menu.border":                           "#212225",    // - Border line
-    "menu.selectionBackground":              "#0090ff55",    // - Selected item bg
+    "menu.selectionBackground":              "#0090ff55",  // - Selected item bg
     "menu.selectionForeground":              "#0090ff",    // - Active click color
     "menu.separatorBackground":              "#212225",    // - Separator line
     "menubar.selectionBackground":           "#2870bd35",  // - Menubar selection bg
@@ -37,12 +37,12 @@
     "banner.iconForeground":                 "#0090ff",    // - Banner icon
     "activityBar.background":                "#0C0D0E",    // - Activity bar bg
     "activityBar.foreground":                "#b0b4ba",    // - Activity bar text
-    "activityBar.border":                    "#00000000",    // - Activity bar border
+    "activityBar.border":                    "#00000000",  // - Activity bar border
     "activityBarTop.inactiveForeground":     "#696e77",    // - No selection icon
     "activityBarBadge.background":           "#0090ff",    // - Badge bg
     "activityBarBadge.foreground":           "#000000",    // - Badge text
     "activityBar.activeBorder":              "#0090ff",    // - Active item border
-    "activityBar.activeBackground":          "#0090ff40",    // - Active item 
+    "activityBar.activeBackground":          "#0090ff40",  // - Active item 
     "activityBar.activeFocusBorder":         "#0090ff",    // - Active item focus border
     "activityBarTop.foreground":             "#0090ff",    // - Select icon
     "list.warningForeground":                "#ffca16",    // - Warning text color
@@ -51,11 +51,11 @@
     "tree.indentGuidesStroke":               "#363a3f",    // - Line guide Folder
     
     // --- -- - Menu hover - click & select = RIGHT
-    "list.activeSelectionBackground":        "#0090ff40",    // - Active bg
+    "list.activeSelectionBackground":        "#0090ff40",  // - Active bg
     "list.activeSelectionForeground":        "#edeef0",    // - Active text color
     "list.inactiveSelectionForeground":      "#edeef0",    // - Inactive text color
     "list.inactiveSelectionBackground":      "#18191b",    // - Inactive bg
-    "list.focusBackground":                  "#0090ff40",    // - Focus bg
+    "list.focusBackground":                  "#0090ff40",  // - Focus bg
     "list.focusForeground":                  "#edeef0",    // - Focus text
     "list.focusOutline":                     "#00000000",  // - Focus outline
     "contrastActiveBorder":                  "#00000000",  // - contrast active border BOX-----
@@ -100,16 +100,16 @@
     // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#111113",    // - Editor bg
     "editor.foreground":                     "#edeef0",    // - Editor [STORE] text
-    "editor.lineHighlightBackground":        "#0090ff08",    // - Line highlight bg (Modern subtle)
+    "editor.lineHighlightBackground":        "#0090ff08",  // - Line highlight bg (improved contrast)
     "editor.foldBackground":                 "#0090ff10",
     "editor.lineHighlightBorder":            "#212225",    // - Line highlight border (visible)
-    "editor.selectionBackground":            "#0091ff33",    // - Selection bg (theme consistent)
+    "editor.selectionBackground":            "#0091ff33",  // - Selection bg (theme consistent)
     "editor.rangeHighlightBackground":       "#0090ff15",  // - Range highlight bg
     "editor.linkedEditingBackground":        "#2870bd30",
-    "editor.wordHighlightBackground":        "#2e3135fb",    // - Word highlight bg
-    "editor.wordHighlightStrongBackground":  "#2e3135fb",    // - Word highlight strong bg
-    "editor.selectionHighlightBackground":   "#2e3135fb",    // - Selection highlight bg
-    
+    "editor.wordHighlightBackground":        "#2e3135fb",  // - Word highlight bg
+    "editor.wordHighlightStrongBackground":  "#2e3135fb",  // - Word highlight strong bg
+    "editor.selectionHighlightBackground":   "#2e3135fb",  // - Selection highlight bg
+
     "editorIndentGuide.background1":        "#2f4f3340",   // - Indent line
     "editorIndentGuide.activeBackground1":  "#0090ff50",   // - Active indent line
 
@@ -118,7 +118,7 @@
     "editorGroupHeader.tabsBorder":          "#212225",    // - Tabs header border line horizontal
     "editorGroupHeader.border":              "#111113",    // - Editor group header border=_
     "tab.border":                            "#111113",    // - Tab border Vertical
-    "tab.activeBackground":                  "#111113",    // - bg select file (Seamless)
+    "tab.activeBackground":                  "#111113",    // - bg select file 
     "tab.activeBorderTop":                   "#0090ff",    // - Active tab border top
     "tab.activeForeground":                  "#edeef0",    // - Active tab text
     "tab.activeBorder":                      "#18191b",    // - Active tab border
@@ -139,10 +139,10 @@
     "editorStickyScrollHover.background":    "#212225",    // - Select hover before white now black
 
     // --- -- - Scrollbar - RIGHT & (MINIMAP)
-    "scrollbarSlider.background":            "#212225bc",    // - Scroll bar small and large
-    "scrollbarSlider.hoverBackground":       "#272a2ddc",    // - Hover bg
-    "scrollbarSlider.activeBackground":      "#2e3135dc",    // - Active bg
-    "scrollbar.shadow":                      "#0C0D0Edc",    // - SHADOW SCROLL
+    "scrollbarSlider.background":            "#212225bc",  // - Scroll bar small and large
+    "scrollbarSlider.hoverBackground":       "#272a2ddc",  // - Hover bg
+    "scrollbarSlider.activeBackground":      "#2e3135dc",  // - Active bg
+    "scrollbar.shadow":                      "#0C0D0Edc",  // - SHADOW SCROLL
 
     // --- -- - Minimap
     "minimap.background":                          "#0C0D0E",    // - Minimap bg
@@ -151,9 +151,9 @@
     "minimap.findMatchHighlight":                  "#003362fb",  // - Mini map Find match
     "minimap.selectionHighlight":                  "#004662fb",  // - Selection
 
-    // "minimapSlider.background":                    "#00000033",    // - Slider bg
-    // "minimapSlider.hoverBackground":               "#00000059",    // - Slider hover
-    // "minimapSlider.activeBackground":              "#00000059",    // - Slider active
+    "minimapSlider.background":                    "#0090ff40",  // - Slider bg
+    "minimapSlider.hoverBackground":               "#0090ff50",  // - Slider hover
+    "minimapSlider.activeBackground":              "#0090ff60",  // - Slider active
 
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground":     "#0090ff",    // - Active line number
@@ -209,7 +209,7 @@
     "progressBar.background":                "#0090ff",    // - Progress bar bg
 
     //--- -- - ctrl+shift+p | Inputs & Quick
-    "editorWidget.background":               "#111113",    // - bg (Removed duplicate)
+    "editorWidget.background":               "#111113",    // - bg
     "quickInputList.focusBackground":        "#2e3135",    // - Focus bg
     "list.highlightForeground":              "#0090ff",    // - Highlight text color
 
@@ -283,15 +283,15 @@
     "statusBar.foreground":                  "#777b84",    // - Status bar text color
     "statusBar.debuggingBackground":         "#191c2a",    // - Status bar debugging bg___
     "statusBar.debuggingForeground":         "#edeef0",    // - Status bar debugging text
-    "statusBar.noFolderBackground":          "#0c0d0e",    // - Status bar box bg -HOVER
+    "statusBar.noFolderBackground":          "#00000000",  // - Status bar box bg -HOVER
     "statusBarItem.hoverBackground":         "#212225",    // - Status bar hover bg -Text
-    "statusBar.noFolderForeground":          "#edeef0",    // - Status bar no folder text
-    "statusBarItem.hoverForeground":         "#edeef0",    // - Status bar item hover text
+    "statusBar.noFolderForeground":          "#9ca9a0",    // - Status bar no folder text
+    "statusBarItem.hoverForeground":         "#ffffff",    // - Status bar item hover text
     "statusBarItem.activeBackground":        "#2870bd15",  // - Status bar active item bg
-    "statusBarItem.remoteBackground":        "#2870bd",    // - Remote corner bg
+    "statusBarItem.remoteBackground":        "#30865e",    // - Remote corner bg
     "statusBarItem.remoteForeground":        "#ffffff",    // - Remote corner logo-ICON
-    "statusBarItem.remoteHoverForeground":   "#0090ff",    // - Hover corner logo-ICON
-    "statusBarItem.prominentBackground":     "#363a3f",    // - Bottom box bg
+    "statusBarItem.remoteHoverForeground":   "#f2f2f2",    // - Hover corner logo-ICON
+    "statusBarItem.prominentBackground":     "#3a453d",    // - Bottom box bg
 
     // --- -- - Market place VScode txt color
     "extensionIcon.verifiedForeground":      "#e5e5e5",    // - Verified icon
@@ -535,7 +535,7 @@
         "foreground": "#edeef0"
       }
     },
-
+    
     // ===== KEYWORDS & STORAGE =====
     {
       "name": "Keywords Control",
@@ -627,7 +627,7 @@
         "foreground": "#b0b4ba"
       }
     },
-
+    
     // ===== OPERATORS & PUNCTUATION =====
     {
       "name": "Keyword Operator",
@@ -712,7 +712,7 @@
         "foreground": "#ffca16"
       }
     },
-
+    
     // ===== VARIABLES =====
     {
       "name": "Variables General",
@@ -773,7 +773,7 @@
         "foreground": "#edeef0"
       }
     },
-
+    
     // ===== FUNCTIONS & METHODS =====
     {
       "name": "Function Names",
@@ -827,7 +827,7 @@
         "foreground": "#3b9eff"
       }
     },
-
+    
     // ===== STRINGS & TEMPLATES =====
     {
       "name": "String Quoted",
@@ -864,7 +864,7 @@
         "foreground": "#3b9eff"
       }
     },
-
+    
     // ===== NUMBERS & CONSTANTS =====
     {
       "name": "Constant Numeric",
@@ -896,7 +896,7 @@
         "foreground": "#3dd68c"
       }
     },
-
+    
     // ===== CLASSES & TYPES =====
     {
       "name": "Entity Name Tag",
@@ -966,7 +966,7 @@
         "foreground": "#0090ff"
       }
     },
-
+    
     // ===== SUPPORT TYPES =====
     {
       "name": "Support Type Primitive",
@@ -1005,7 +1005,7 @@
         "foreground": "#3b9eff"
       }
     },
-
+    
     // ===== META =====
     {
       "name": "Meta Brace",
@@ -1035,7 +1035,7 @@
         "foreground": "#edeef0"
       }
     },
-
+    
     // ===== CSS SPECIFIC =====
     {
       "name": "CSS Selector",
@@ -1072,7 +1072,7 @@
         "foreground": "#9a5cd0"
       }
     },
-
+    
     // ===== JSON SPECIFIC =====
     {
       "name": "JSON Key - Level 0",
@@ -1106,7 +1106,7 @@
         "foreground": "#ffca16"
       }
     },
-
+    
     // ===== YAML SPECIFIC =====
     {
       "name": "YAML Key",
@@ -1115,23 +1115,25 @@
         "foreground": "#f76b15"
       }
     },
-
+    
     // ===== ERROR & INVALID =====
     {
       "name": "Invalid",
       "scope": ["invalid"],
       "settings": {
         "foreground": "#e5484d",
+        "fontStyle": "bold underline"
       }
     },
     {
       "name": "Invalid Deprecated",
       "scope": ["invalid.deprecated"],
       "settings": {
-        "foreground": "#e5484d"
+        "foreground": "#e5484d",
+        "fontStyle": "strikethrough"
       }
     },
-
+    
     // ===== LANGUAGE SPECIFIC - MARKDOWN =====
     {
       "name": "Markdown Fenced Code Language",
@@ -1215,7 +1217,7 @@
         "foreground": "#777b84"
       }
     },
-
+    
     // ===== REACT/JSX SPECIFIC =====
     {
       "name": "JSX Component",
@@ -1239,7 +1241,7 @@
         "foreground": "#696e77"
       }
     },
-
+    
     // ===== TYPESCRIPT SPECIFIC =====
     {
       "name": "TypeScript Type",
@@ -1265,7 +1267,7 @@
         "fontStyle": "bold"
       }
     },
-
+    
     // ===== DECORATORS & ANNOTATIONS =====
     {
       "name": "Decorator Symbol",
@@ -1283,7 +1285,7 @@
         "fontStyle": "bold"
       }
     },
-
+    
     // ===== PYTHON SPECIFIC =====
     {
       "name": "Python Magic Method",
@@ -1300,7 +1302,7 @@
         "foreground": "#3b9eff"
       }
     },
-
+    
     // ===== ADDITIONAL MODERN =====
     {
       "name": "Lambda Arrow",
@@ -1325,6 +1327,4 @@
       }
     }
   ]
-
-
 }
