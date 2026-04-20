@@ -7,10 +7,10 @@
       "iconPath": "../../assets/svg/light/xml.svg"
     },
     "prettier": {
-      "iconPath": "../../icon-themes/dark/prettier.svg"
+      "iconPath": "../../assets/svg/dark/prettier.svg"
     },
     "prettier-file": {
-      "iconPath": "../../icon-themes/dark/prettier.svg"
+      "iconPath": "../../assets/svg/dark/prettier.svg"
     },
     "toml": {
       "iconPath": "../../assets/svg/light/toml.svg"
