@@ -87,7 +87,7 @@
     "gitDecoration.conflictingResourceForeground":   "#4da6ff",    // - Merge conflicts
     "gitDecoration.deletedResourceForeground":       "#ff7a85",    // - Deleted files
     "gitDecoration.ignoredResourceForeground":       "#6a6a6ada",  // - Ignored files
-    "gitDecoration.untrackedResourceForeground":     "#57b689",    // - Untracked files
+    "gitDecoration.untrackedResourceForeground":     "#13ff3e",    // - Untracked files
     "gitDecoration.stageModifiedResourceForeground": "#f5d76e",    // - Staged modified files
     "gitDecoration.stageDeletedResourceForeground":  "#f5d76e",    // - Staged deleted files
     "gitDecoration.submoduleResourceForeground":     "#f5d76e",    // - Submodules
@@ -96,7 +96,7 @@
     "editorGhostText.foreground":                    "#757575",    // - git commit txt
     "editorGutter.deletedBackground":                "#ff6b73",    // - Delete code
     "editorGutter.modifiedBackground":               "#4dc9ff",    // - Modified code
- 
+
     // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#0e0f0e",    // - Editor bg
     "editor.foreground":                     "#ffffff",    // - Editor [STORE] text
