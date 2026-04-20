@@ -505,28 +505,19 @@
   "tokenColors": [
     // ===== COMMENTS =====
     {
-      "name": "Comment Line",
-      "scope": ["comment.line", "punctuation.definition.comment,source.astr"],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#5a7a6a"
-      }
+      "name": "Comment — Line",
+      "scope": ["comment.line", "punctuation.definition.comment"],
+      "settings": { "fontStyle": "italic", "foreground": "#4e7a60" }
     },
     {
-      "name": "Comment Block",
+      "name": "Comment — Block",
       "scope": "comment.block",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#5a7a6a"
-      }
+      "settings": { "fontStyle": "italic", "foreground": "#4e7a60" }
     },
     {
-      "name": "Comment Documentation",
+      "name": "Comment — Documentation",
       "scope": ["comment.block.documentation", "comment.line.documentation"],
-      "settings": {
-        "fontStyle": "italic bold",
-        "foreground": "#64748b"
-      }
+      "settings": { "fontStyle": "italic bold", "foreground": "#547a6a" }
     },
     
     // ===== Astro =======
