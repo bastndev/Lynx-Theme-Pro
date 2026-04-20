@@ -312,7 +312,7 @@
     "statusBar.border":                      "#00000000",    // - Status bar LINE border (Bottom)
 
     // ---- -- - Selection BG - ctrl+F
-    "selection.background":                        "#2f5a3f",   // - selection bg
+    "selection.background":                        "#2f5a3f",   // - selection bg | AI+
 
     "editor.findMatchBackground":                  "#96633fcc", // - Find match bg ---|
     "editor.findMatchBorder":                      "#d48a6a",   // - Find match border
