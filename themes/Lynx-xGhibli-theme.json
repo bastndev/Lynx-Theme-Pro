@@ -287,8 +287,8 @@
     "statusBar.noFolderForeground":          "#8a7b6d",    // - Status bar no folder text
     "statusBarItem.hoverForeground":         "#000000",    // - Status bar item hover text
     "statusBarItem.activeBackground":        "#c4a37380",  // - Status bar active item bg
-    "statusBarItem.remoteBackground":        "#00000000",  // - Remote corner bg
-    "statusBarItem.remoteForeground":        "#000000",    // - Remote corner logo-ICON
+    "statusBarItem.remoteBackground":        "#b19b7d",    // - Remote corner bg
+    "statusBarItem.remoteForeground":        "#101010",    // - Remote corner logo-ICON
     "statusBarItem.remoteHoverForeground":   "#000000",    // - Hover corner logo-ICON
     "statusBarItem.prominentBackground":     "#e8d5c4",    // - Bottom box bg
 
