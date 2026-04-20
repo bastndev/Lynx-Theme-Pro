@@ -81,11 +81,6 @@
         "label": "7. NVIMㅤㅤ(Lynx Theme)",
         "uiTheme": "vs-dark",
         "path": "./themes/Lynx-NVIM-theme.json"
-      },
-      {
-        "label": "8. TESTㅤㅤ(Lynx Theme)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Lynx-Test-theme.json"
       }
     ],
 
