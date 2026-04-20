@@ -87,7 +87,7 @@
     "gitDecoration.conflictingResourceForeground":   "#9a5cd0",    // - Merge conflicts
     "gitDecoration.deletedResourceForeground":       "#e5484d",    // - Deleted files
     "gitDecoration.ignoredResourceForeground":       "#696e77",    // - Ignored files
-    "gitDecoration.untrackedResourceForeground":     "#13ff3e",    // - Untracked files
+    "gitDecoration.untrackedResourceForeground":     "#28EB65",    // - Untracked files
     "gitDecoration.stageModifiedResourceForeground": "#ffca16",    // - Staged modified files
     "gitDecoration.stageDeletedResourceForeground":  "#ffca16",    // - Staged deleted files
     "gitDecoration.submoduleResourceForeground":     "#ffca16",    // - Submodules
