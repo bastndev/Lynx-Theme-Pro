@@ -288,9 +288,9 @@
     "statusBar.noFolderForeground":          "#aca5b0",    // - Status bar no folder text
     "statusBarItem.hoverForeground":         "#ffffff",    // - Status bar item hover text
     "statusBarItem.activeBackground":        "#b080ff15",  // - Status bar active item bg
-    "statusBarItem.remoteBackground":        "#00000000",  // - Remote corner bg
-    "statusBarItem.remoteForeground":        "#b080ff",    // - Remote corner logo-ICON
-    "statusBarItem.remoteHoverForeground":   "#b080ff",    // - Hover corner logo-ICON
+    "statusBarItem.remoteBackground":        "#7630e6",    // - Remote corner bg
+    "statusBarItem.remoteForeground":        "#ffffff",    // - Remote corner logo-ICON
+    "statusBarItem.remoteHoverForeground":   "#f2f2f2",    // - Hover corner logo-ICON
     "statusBarItem.prominentBackground":     "#4a3a5a",    // - Bottom box bg
 
     // --- -- - Market place VScode txt color
