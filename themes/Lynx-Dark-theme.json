@@ -12,8 +12,8 @@
     "titleBar.inactiveBackground":           "#080808",    // - Title bar bg inactive
     "titleBar.inactiveForeground":           "#8a9a8a",    // - Title bar text inactive
     "commandCenter.background":              "#080808",    // - Command Center bg
-    "commandCenter.border":                  "#1e3a1e",
-    "commandCenter.activeBackground":        "#101610",
+    "commandCenter.border":                  "#1e3a1e",    // - Command Center border
+    "commandCenter.activeBackground":        "#101610",    // - Command Center active bg
 
     // --- -- - Menu Click & select
     "menu.background":                       "#0f1511",    // - Menu bg
@@ -32,9 +32,9 @@
     "list.dropBackground":                   "#000000",    // - Drop bg
     
     // TODO: ACTIVITY BAR MARK: [ONE-1]
-    "banner.background":                     "#101610",
-    "banner.foreground":                     "#ffffff",
-    "banner.iconForeground":                 "#57b689",
+    "banner.background":                     "#101610",    // - Banner bg
+    "banner.foreground":                     "#ffffff",    // - Banner text
+    "banner.iconForeground":                 "#57b689",    // - Banner icon
     "activityBar.background":                "#0d0d0d",    // - Activity bar bg
     "activityBar.foreground":                "#ffffff",    // - Activity bar text
     "activityBar.border":                    "#0d0d0d",    // - Activity bar border
@@ -96,7 +96,7 @@
     "editorGhostText.foreground":                    "#757575",    // - git commit txt
     "editorGutter.deletedBackground":                "#ff6b73",    // - Delete code
     "editorGutter.modifiedBackground":               "#4dc9ff",    // - Modified code
- 
+
     // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#0e0f0e",    // - Editor bg
     "editor.foreground":                     "#ffffff",    // - Editor [STORE] text
@@ -109,6 +109,9 @@
     "editor.wordHighlightBackground":        "#f5d76e30",  // - Word highlight bg
     "editor.wordHighlightStrongBackground":  "#85b3ff30",  // - Word highlight strong bg
     "editor.selectionHighlightBackground":   "#f5d76e25",  // - Selection highlight bg
+
+    "editorIndentGuide.background1":        "#2f4f3340",   // - Indent line
+    "editorIndentGuide.activeBackground1":  "#57b68950",   // - Active indent line
 
     // --- -- - Tabs Header - TOP
     "editorGroupHeader.tabsBackground":      "#0d0d0d",    // - Tabs header bg
@@ -136,10 +139,10 @@
     "editorStickyScrollHover.background":    "#1a1a1a",    // - Select hover before white now black
 
     // --- -- - Scrollbar - RIGHT & (MINIMAP)
-    "scrollbarSlider.background":            "#57b68940",  // - Scroll bar small and large
-    "scrollbarSlider.hoverBackground":       "#57b68960",  // - Hover bg
-    "scrollbarSlider.activeBackground":      "#57b68980",  // - Active bg
-    "scrollbar.shadow":                      "#dff5e911",  // - SHADOW SCROLL
+    "scrollbarSlider.background":            "#3d726040",  // - Scroll bar small and large
+    "scrollbarSlider.hoverBackground":       "#3d726060",  // - Hover bg
+    "scrollbarSlider.activeBackground":      "#3d726080",  // - Active bg
+    "scrollbar.shadow":                      "#3d726018",  // - SHADOW SCROLL
 
     // --- -- - Minimap
     "minimap.background":                          "#0d0d0d",    // - Minimap bg
@@ -153,8 +156,8 @@
     "minimapSlider.activeBackground":              "#57b68960",  // - Slider active
 
     // --- -- - Editor Line Number - LEFT
-    "editorLineNumber.activeForeground":     "#ffffff",    // - Active line number
-    "editorLineNumber.foreground":           "#8a9a8a",    // - Line numbers
+    "editorLineNumber.activeForeground":     "#5ef0a0",    // - Active line number
+    "editorLineNumber.foreground":           "#2e5040",    // - Line numbers
 
     // --- -- - Editor Suggest widget MID
     "editorSuggestWidget.background":         "#0f1511",    // - bg suggestion
@@ -181,9 +184,9 @@
     // TODO: COPILOT -AI MARK: [THREE-3]-[AI]
     "input.background":                      "#101610",    // - bg color
     "input.foreground":                      "#ffffff",    // - Input text color
-    "input.border":                          "#2a4a2a",    // - Input border color
+    "input.border":                          "#3a6a3a",    // - Input border color
     "input.placeholderForeground":           "#8a9a8a",    // - Input placeholder text
-    "focusBorder":                           "#57b689",    // - Border - AI and box 1
+    "focusBorder":                           "#65dfa6",    // - Border - AI and box 1 | ES
     "editorCursor.foreground":               "#9ca9a0",    // - Line point
 
     "disabledForeground":                    "#9ca9a0",    // - Disabled text color
@@ -197,13 +200,13 @@
     "editorWidget.foreground":               "#f0f0f0",    // - AI Select text & ctrl+p
 
     "peekViewTitleDescription.foreground":   "#57b689",    // - Select copilot
-    "editorGutter.addedBackground":          "#13ff3e",    // - Added lines bg
+    "editorGutter.addedBackground":          "#57b689",    // - Added lines bg
     "inputOption.activeBackground":          "#57b68960",  // - Active option bg
     "inputOption.activeForeground":          "#ffffff",    // - Active option text
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar | LOADING
-    "progressBar.background":                "#13ff3e",    // - Progress bar bg
+    "progressBar.background":                "#57b689",    // - Progress bar bg
 
     //--- -- - ctrl+shift+p | Inputs & Quick
     "editorWidget.background":               "#101610",    // - bg
@@ -229,13 +232,13 @@
     "panelSection.border":                   "#2f4f33",    // - Panel section border
     "panelSection.dropBackground":           "#57b68940",  // - Panel section drop bg
     "panelSectionHeader.background":         "#1f2d24",    // - Panel section header bg
-    "panelSectionHeader.foreground":         "#13ff3e",    // - Panel section header text
+    "panelSectionHeader.foreground":         "#6dd46a",    // - Panel section header text
 
     // --- -- - Terminal colors
     "terminal.background":                   "#0a0a0a",    // - Terminal bg
     "terminal.foreground":                   "#e8f0e8",    // - Terminal text
     "terminal.ansiBlack":                    "#000000",    // - Terminal black color
-    "terminal.ansiBlue":                     "#6dd46a",    // - Terminal blue color
+    "terminal.ansiBlue":                     "#4da6ff",    // - Terminal blue color
     "terminal.ansiBrightBlack":              "#5a5a5a",    // - Terminal bright black color
     "terminal.ansiBrightBlue":               "#7de8ff",    // - Terminal bright blue color
     "terminal.ansiBrightCyan":               "#4de5f7",    // - Terminal bright cyan color
@@ -260,7 +263,7 @@
     "notifications.border":                  "#2f4f33",    // - Notification border
     "notificationCenter.border":             "#2f4f33",    // - Notification center border
     "notificationCenterHeader.background":   "#1f2d24",    // - Notification center header bg
-    "notificationCenterHeader.foreground":   "#13ff3e",    // - Notification center header text
+    "notificationCenterHeader.foreground":   "#6dd46a",    // - Notification center header text
     "notificationToast.border":              "#2f4f33",    // - Notification toast border
     "notificationsErrorIcon.foreground":     "#ff6b73",    // - Error notification icon 
     "notificationsWarningIcon.foreground":   "#f5d76e",    // - Warning notification icon 
@@ -277,7 +280,7 @@
 
     // TODO: STATUS BAR MARK: - [BOTTOM]
     "statusBar.background":                  "#0d0d0d",    // - Status bar bg
-    "statusBar.foreground":                  "#8a9a8a",    // - Status bar text color
+    "statusBar.foreground":                  "#4e7a60",    // - Status bar text color
     "statusBar.debuggingBackground":         "#192a20",    // - Status bar debugging bg___
     "statusBar.debuggingForeground":         "#ffffff",    // - Status bar debugging text
     "statusBar.noFolderBackground":          "#00000000",  // - Status bar box bg -HOVER
@@ -285,15 +288,15 @@
     "statusBar.noFolderForeground":          "#9ca9a0",    // - Status bar no folder text
     "statusBarItem.hoverForeground":         "#ffffff",    // - Status bar item hover text
     "statusBarItem.activeBackground":        "#57b68a15",  // - Status bar active item bg
-    "statusBarItem.remoteBackground":        "#00000000",  // - Remote corner bg
-    "statusBarItem.remoteForeground":        "#57b689",    // - Remote corner logo-ICON
-    "statusBarItem.remoteHoverForeground":   "#57b689",    // - Hover corner logo-ICON
+    "statusBarItem.remoteBackground":        "#30865e",    // - Remote corner bg
+    "statusBarItem.remoteForeground":        "#ffffff",    // - Remote corner logo-ICON
+    "statusBarItem.remoteHoverForeground":   "#f2f2f2",    // - Hover corner logo-ICON
     "statusBarItem.prominentBackground":     "#3a453d",    // - Bottom box bg
 
     // --- -- - Market place VScode txt color
-    "extensionIcon.verifiedForeground":      "#13ff3e",    // - Verified icon
+    "extensionIcon.verifiedForeground":      "#57b689",    // - Verified icon
     "textPreformat.foreground":              "#f5d76e",    // - Preformatted text
-    "textLink.foreground":                   "#13ff3e",    // - Link text color - Status Bar
+    "textLink.foreground":                   "#6dd46a",    // - Link text color - Status Bar
     "textLink.activeForeground":             "#57b689",    // - Active link color - HOVER
 
     // TODO: -  BG STORE VSCODE MARK:[+]
@@ -309,7 +312,7 @@
     "statusBar.border":                      "#00000000",    // - Status bar LINE border (Bottom)
 
     // ---- -- - Selection BG - ctrl+F
-    "selection.background":                        "#2f5a3f",   // - selection bg
+    "selection.background":                        "#2f5a3f",   // - selection bg | AI+
 
     "editor.findMatchBackground":                  "#96633fcc", // - Find match bg ---|
     "editor.findMatchBorder":                      "#d48a6a",   // - Find match border
@@ -343,12 +346,12 @@
     "editorBracketHighlight.unexpectedBracket.foreground": "#d4958a",  // - Unexpected bracket color
 
     // TODO: INLAY HINTS | VSCODE FEATURES MARK: [MODERN]
-    "editorInlayHint.background":            "#00000040",  // - Inlay hint bg
-    "editorInlayHint.foreground":            "#9ca9a0",    // - Inlay hint text
-    "editorInlayHint.typeForeground":        "#9ca9a0",    // - Inlay hint type text
-    "editorInlayHint.typeBackground":        "#00000040",  // - Inlay hint type bg
-    "editorInlayHint.parameterForeground":   "#9ca9a0",    // - Inlay hint parameter text
-    "editorInlayHint.parameterBackground":   "#00000040",  // - Inlay hint parameter bg
+    "editorInlayHint.background":            "#0d1a1250",  // - Inlay hint bg (subtle green tint)
+    "editorInlayHint.foreground":            "#7a9a88",    // - Inlay hint text
+    "editorInlayHint.typeForeground":        "#5bc8a0",    // - Inlay hint type text (teal-green, types are distinct)
+    "editorInlayHint.typeBackground":        "#0a1f1860",  // - Inlay hint type bg
+    "editorInlayHint.parameterForeground":   "#b08fe0",    // - Inlay hint parameter text (soft purple, params stand out)
+    "editorInlayHint.parameterBackground":   "#1a10300a",  // - Inlay hint parameter bg
     
     // --- -- - Sticky Scroll
     "editorStickyScroll.background":         "#101610",    // - Sticky scroll bg
@@ -472,58 +475,51 @@
   },
 
   "semanticTokenColors": {
-    "namespace": "#f88141",
-    "class": "#4ade80",
-    "enum": "#fbbf24",
-    "interface": "#60a5fa",
-    "struct": "#4ade80",
-    "typeParameter": "#a78bfa",
-    "type": "#4ade80",
-    "parameter": "#fb7185",
-    "variable": "#94a3b8",
-    "property": "#94a3b8",
-    "enumMember": "#22d3ee",
-    "event": "#f472b6",
-    "function": "#38bdf8",
-    "method": "#38bdf8",
-    "macro": "#a78bfa",
-    "keyword": "#f88141",
-    "modifier": "#f88141",
-    "comment": "#64748b",
-    "string": "#048b6b",
-    "number": "#10b981",
-    "regexp": "#06b6d4",
-    "operator": "#e2e8f0",
-    "decorator": "#818cf8"
+    // --- Namespaces & Modules
+    "namespace": { "foreground": "#f59e6a", "fontStyle": "italic" },
+    // --- Types & Structures
+    "class": { "foreground": "#5cd98a", "fontStyle": "bold" },
+    "enum": { "foreground": "#f5d76e", "fontStyle": "bold" },
+    "interface": { "foreground": "#7ab8ff", "fontStyle": "bold italic" },
+    "struct": { "foreground": "#5cd98a", "fontStyle": "bold" },
+    "typeParameter": { "foreground": "#b39dff", "fontStyle": "italic" },
+    "type": { "foreground": "#5cd98a", "fontStyle": "bold" },
+    // --- Variables & Properties
+    "parameter": { "foreground": "#ff8fa3", "fontStyle": "italic" },
+    "variable": "#d8e8f0",
+    "variable.readonly": { "foreground": "#57c8e8", "fontStyle": "italic" },
+    "variable.defaultLibrary": { "foreground": "#4dc9d8", "fontStyle": "bold" },
+    "property": "#7ab8e8",
+    "property.readonly": { "foreground": "#7ab8e8", "fontStyle": "italic" },
+    "enumMember": { "foreground": "#4dc9d8", "fontStyle": "bold" },
+    // --- Functions & Events
+    "event": { "foreground": "#f472b6", "fontStyle": "italic" },
+    "function": { "foreground": "#3de090", "fontStyle": "bold" },
+    "method": { "foreground": "#57b8e8", "fontStyle": "bold" },
+    // --- Special
+    "macro": { "foreground": "#b39dff", "fontStyle": "bold italic" },
+    "decorator": { "foreground": "#9d8cf8", "fontStyle": "bold" },
+    "label": { "foreground": "#f5d76e" }
   },
 
   "tokenColors": [
     // ===== COMMENTS =====
     {
-      "name": "Comment Line",
-      "scope": ["comment.line", "punctuation.definition.comment,source.astr"],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#64748b"
-      }
+      "name": "Comment — Line",
+      "scope": ["comment.line", "punctuation.definition.comment"],
+      "settings": { "fontStyle": "italic", "foreground": "#4e7a60" }
     },
     {
-      "name": "Comment Block",
+      "name": "Comment — Block",
       "scope": "comment.block",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#64748b"
-      }
+      "settings": { "fontStyle": "italic", "foreground": "#4e7a60" }
     },
     {
-      "name": "Comment Documentation",
+      "name": "Comment — Documentation",
       "scope": ["comment.block.documentation", "comment.line.documentation"],
-      "settings": {
-        "fontStyle": "italic bold",
-        "foreground": "#64748b"
-      }
+      "settings": { "fontStyle": "italic bold", "foreground": "#547a6a" }
     },
-
+    
     // ===== Astro =======
     {
       "name": "Astro String Quoted",
@@ -631,7 +627,7 @@
         "foreground": "#94a3b8"
       }
     },
-
+    
     // ===== OPERATORS & PUNCTUATION =====
     {
       "name": "Keyword Operator",
@@ -716,7 +712,7 @@
         "foreground": "#818cf8"
       }
     },
-
+    
     // ===== VARIABLES =====
     {
       "name": "Variables General",
@@ -777,7 +773,7 @@
         "foreground": "#38bdf8"
       }
     },
-
+    
     // ===== FUNCTIONS & METHODS =====
     {
       "name": "Function Names",
@@ -831,20 +827,20 @@
         "foreground": "#94a3b8"
       }
     },
-
+    
     // ===== STRINGS & TEMPLATES =====
     {
       "name": "String Quoted",
       "scope": ["string.quoted.single", "string.quoted.double"],
       "settings": {
-        "foreground": "#048b6b"
+        "foreground": "#1aab82"
       }
     },
     {
       "name": "String Template",
       "scope": ["string.template"],
       "settings": {
-        "foreground": "#048b6b"
+        "foreground": "#1aab82"
       }
     },
     {
@@ -868,7 +864,7 @@
         "foreground": "#60a5fa"
       }
     },
-
+    
     // ===== NUMBERS & CONSTANTS =====
     {
       "name": "Constant Numeric",
@@ -890,7 +886,7 @@
       "name": "Constant Other Variable",
       "scope": ["constant.other.variable"],
       "settings": {
-        "foreground": "#048b6b"
+        "foreground": "#1aab82"
       }
     },
     {
@@ -900,7 +896,7 @@
         "foreground": "#06b6d4"
       }
     },
-
+    
     // ===== CLASSES & TYPES =====
     {
       "name": "Entity Name Tag",
@@ -970,7 +966,7 @@
         "foreground": "#60a5fa"
       }
     },
-
+    
     // ===== SUPPORT TYPES =====
     {
       "name": "Support Type Primitive",
@@ -1009,7 +1005,7 @@
         "foreground": "#4ade80"
       }
     },
-
+    
     // ===== META =====
     {
       "name": "Meta Brace",
@@ -1039,7 +1035,7 @@
         "foreground": "#38bdf8"
       }
     },
-
+    
     // ===== CSS SPECIFIC =====
     {
       "name": "CSS Selector",
@@ -1076,7 +1072,7 @@
         "foreground": "#a78bfa"
       }
     },
-
+    
     // ===== JSON SPECIFIC =====
     {
       "name": "JSON Key - Level 0",
@@ -1110,7 +1106,7 @@
         "foreground": "#048b6b"
       }
     },
-
+    
     // ===== YAML SPECIFIC =====
     {
       "name": "YAML Key",
@@ -1119,7 +1115,7 @@
         "foreground": "#fbbf24"
       }
     },
-
+    
     // ===== ERROR & INVALID =====
     {
       "name": "Invalid",
@@ -1137,7 +1133,7 @@
         // "fontStyle": "strikethrough"
       }
     },
-
+    
     // ===== LANGUAGE SPECIFIC - MARKDOWN =====
     {
       "name": "Markdown Fenced Code Language",
@@ -1221,7 +1217,7 @@
         "foreground": "#64748b"
       }
     },
-
+    
     // ===== REACT/JSX SPECIFIC =====
     {
       "name": "JSX Component",
@@ -1245,7 +1241,7 @@
         "foreground": "#e2e8f0"
       }
     },
-
+    
     // ===== TYPESCRIPT SPECIFIC =====
     {
       "name": "TypeScript Type",
@@ -1271,7 +1267,7 @@
         "fontStyle": "bold"
       }
     },
-
+    
     // ===== DECORATORS & ANNOTATIONS =====
     {
       "name": "Decorator Symbol",
@@ -1289,7 +1285,7 @@
         "fontStyle": "bold"
       }
     },
-
+    
     // ===== PYTHON SPECIFIC =====
     {
       "name": "Python Magic Method",
@@ -1306,7 +1302,7 @@
         "foreground": "#38bdf8"
       }
     },
-
+    
     // ===== ADDITIONAL MODERN =====
     {
       "name": "Lambda Arrow",
@@ -1331,5 +1327,4 @@
       }
     }
   ]
-
 }

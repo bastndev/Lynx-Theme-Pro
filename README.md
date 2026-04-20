@@ -19,15 +19,15 @@
 
 #### A. Style
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/icons/a-style.png" alt="Icon Style A Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/a-style.png" alt="Icon Style A Screenshot" width="100%">
 
 #### B. Style
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/icons/b-style.png" alt="Icon Style B Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/b-style.png" alt="Icon Style B Screenshot" width="100%">
 
 #### C. Style
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/icons/c-style.png" alt="Icon Style C Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/c-style.png" alt="Icon Style C Screenshot" width="100%">
   </details>
 
   <details>
@@ -35,35 +35,31 @@
 
 #### 1. DARK
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/dark-theme.png" alt="DARK Theme Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/dark-theme.png" alt="DARK Theme Screenshot" width="100%">
 
 #### 2. LIGHT
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/light-theme.png" alt="LIGHT Theme Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/light-theme.png" alt="LIGHT Theme Screenshot" width="100%">
 
 #### 3. NIGHT
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/night-theme.png" alt="NIGHT Theme Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/night-theme.png" alt="NIGHT Theme Screenshot" width="100%">
 
 #### 4. GHIBLI
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/ghibli-theme.png" alt="GHIBLI Theme Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/ghibli-theme.png" alt="GHIBLI Theme Screenshot" width="100%">
 
 #### 5. COFFEE
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/coffee-theme.png" alt="COFFEE Theme Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/coffee-theme.png" alt="COFFEE Theme Screenshot" width="100%">
 
 #### 6. KIRO
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/kiro-theme.png" alt="KIRO Theme Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/kiro-theme.png" alt="KIRO Theme Screenshot" width="100%">
 
 #### 7. NVIM
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/nvim-theme.png" alt="NVIM Theme Screenshot" width="100%">
-
-#### 8. TEST
-
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/assets/screenshots/themes/test-theme.png" alt="TEST Theme Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/nvim-theme.png" alt="NVIM Theme Screenshot" width="100%">
   </details>
 </details>
 
