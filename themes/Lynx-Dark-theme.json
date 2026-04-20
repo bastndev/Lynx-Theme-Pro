@@ -139,10 +139,10 @@
     "editorStickyScrollHover.background":    "#1a1a1a",    // - Select hover before white now black
 
     // --- -- - Scrollbar - RIGHT & (MINIMAP)
-    "scrollbarSlider.background":            "#57b68940",  // - Scroll bar small and large
-    "scrollbarSlider.hoverBackground":       "#57b68960",  // - Hover bg
-    "scrollbarSlider.activeBackground":      "#57b68980",  // - Active bg
-    "scrollbar.shadow":                      "#dff5e911",  // - SHADOW SCROLL
+    "scrollbarSlider.background":            "#3d726040",  // - Scroll bar small and large
+    "scrollbarSlider.hoverBackground":       "#3d726060",  // - Hover bg
+    "scrollbarSlider.activeBackground":      "#3d726080",  // - Active bg
+    "scrollbar.shadow":                      "#3d726018",  // - SHADOW SCROLL
 
     // --- -- - Minimap
     "minimap.background":                          "#0d0d0d",    // - Minimap bg
