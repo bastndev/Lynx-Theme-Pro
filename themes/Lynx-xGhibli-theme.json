@@ -44,7 +44,7 @@
     "activityBar.activeBorder":              "#b19b7d",    // - Active item border
     "activityBar.activeBackground":          "#e8d5c4",    // - Active item
     "activityBar.activeFocusBorder":         "#b19b7d",    // - Active item focus border
-    "activityBarTop.foreground":             "#b19b7d",    // - Select icon
+    "activityBarTop.foreground":             "#a76913",    // - Select icon
     "list.warningForeground":                "#F59E0B",    // - Warning text color
     "list.errorForeground":                  "#b5836a",    // - Error text color
     "list.invalidItemForeground":            "#b5836a",    // - Invalid item color
