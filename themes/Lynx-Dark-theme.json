@@ -156,8 +156,8 @@
     "minimapSlider.activeBackground":              "#57b68960",  // - Slider active
 
     // --- -- - Editor Line Number - LEFT
-    "editorLineNumber.activeForeground":     "#ffffff",    // - Active line number
-    "editorLineNumber.foreground":           "#8a9a8a",    // - Line numbers
+    "editorLineNumber.activeForeground":     "#5ef0a0",    // - Active line number
+    "editorLineNumber.foreground":           "#2e5040",    // - Line numbers
 
     // --- -- - Editor Suggest widget MID
     "editorSuggestWidget.background":         "#0f1511",    // - bg suggestion
