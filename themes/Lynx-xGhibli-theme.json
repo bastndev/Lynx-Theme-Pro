@@ -505,29 +505,21 @@
   "tokenColors": [
     // ===== COMMENTS =====
     {
-      "name": "Comment Line",
+      "name": "Comment — Line",
       "scope": ["comment.line", "punctuation.definition.comment"],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#aaaaaa"
-      }
+      "settings": { "fontStyle": "italic", "foreground": "#9a8b7a" }
     },
     {
-      "name": "Comment Block",
+      "name": "Comment — Block",
       "scope": "comment.block",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#aaaaaa"
-      }
+      "settings": { "fontStyle": "italic", "foreground": "#9a8b7a" }
     },
     {
-      "name": "Comment Documentation",
+      "name": "Comment — Documentation",
       "scope": ["comment.block.documentation", "comment.line.documentation"],
-      "settings": {
-        "fontStyle": "italic bold",
-        "foreground": "#aaaaaa"
-      }
+      "settings": { "fontStyle": "italic bold", "foreground": "#8a7b6a" }
     },
+    
     // ===== Astro =======
     {
       "name": "Astro String Quoted",
