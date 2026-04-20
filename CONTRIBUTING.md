@@ -91,9 +91,11 @@ You can enhance any of our current themes:
 
 ### 3. Adding Icons
 
-**Icon files location**: `./assets/icons/`
+**Icon files location**: `./assets/icon-themes/`
 
-**Configuration**: `./icons/themes-icons/lynx-icons-dark.json` (and other variants in the same folder)
+**Configuration**: `./assets/icon-system/themes-icons/lynx-icons-dark.json` (and other variants in the same folder)
+
+**Product icons configuration**: `./assets/icon-system/material-icons/lynx-material-icon.json`
 
 **Naming conventions**:
 - Files: `name-file.svg`

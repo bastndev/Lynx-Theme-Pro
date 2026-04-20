@@ -30,7 +30,7 @@ graph TB
         subgraph "🔧 Core Structure"
             direction TB
             B[Contributes] --> C[themes/<br/>🎨 Themes Dir]
-            B --> D[icons/<br/>🎯 Icons Dir]
+            B --> D[assets/icon-system/<br/>🎯 Icons Config Dir]
         end
 
         subgraph "🎨 Color Themes Collection"
@@ -42,13 +42,12 @@ graph TB
             C --> I[Lynx-yCoffee-theme.json<br/>☕ Coffee Theme]
             C --> J[Lynx-zKiro-theme.json<br/>🤖 Kiro Theme]
             C --> K1[Lynx-NVIM-theme.json<br/>⚡ NVIM Theme]
-            C --> K2[Lynx-Test-theme.json<br/>🧪 Test Theme]
         end
 
-        subgraph "🎯 Icon System (in icons/)"
+        subgraph "🎯 Icon System (in assets/icon-system/)"
             direction TB
             D --> L1[themes-icons/<br/>🎨 Theme Icons]
-            D --> L2[material-icons/<br/>📦 Material Icons]
+            D --> L2[material-icons/<br/>📦 Product Icons]
 
             subgraph "📦 Icon Theme Variants"
                 direction LR
@@ -64,11 +63,12 @@ graph TB
             end
         end
 
-        subgraph "🖼️ Assets (in assets/)"
+        subgraph "🖼️ Assets & Public"
             direction TB
-            AS[assets/] --> AI[icons/]
-            AS --> AM[images/]
-            AS --> ASS[screenshots/]
+            AS[assets/] --> AI[icon-themes/]
+            AS --> AIS[icon-system/]
+            PU[public/] --> AM[images/]
+            PU --> ASS[screenshots/]
 
             subgraph "📂 Icon Assets"
                 direction LR
