@@ -15,6 +15,303 @@
   "iconDefinitions": {
     "extensions": {
       "fontCharacter": "\\EAE6"
+    },
+    "credit-card": {
+      "fontCharacter": "\\EAC9"
+    },
+    "dash": {
+      "fontCharacter": "\\EACC"
+    },
+    "dashboard": {
+      "fontCharacter": "\\EACD"
+    },
+    "database": {
+      "fontCharacter": "\\EACE"
+    },
+    "debug-all": {
+      "fontCharacter": "\\EBDC"
+    },
+    "debug-alt": {
+      "fontCharacter": "\\EBA8"
+    },
+    "debug-alt-test": {
+      "fontCharacter": "\\EB91"
+    },
+    "debug-breakpoint": {
+      "fontCharacter": "\\EAA6"
+    },
+    "debug-breakpoint-log": {
+      "fontCharacter": "\\EAA7"
+    },
+    "debug-breakpoint-unsupported": {
+      "fontCharacter": "\\EAAB"
+    },
+    "account": {
+      "fontCharacter": "\\EB99"
+    },
+    "activate-breakpoints": {
+      "fontCharacter": "\\EA97"
+    },
+    "add": {
+      "fontCharacter": "\\EA60"
+    },
+    "archive": {
+      "fontCharacter": "\\EA98"
+    },
+    "arrow-both": {
+      "fontCharacter": "\\EA99"
+    },
+    "arrow-circle-down": {
+      "fontCharacter": "\\EBFC"
+    },
+    "arrow-circle-left": {
+      "fontCharacter": "\\EBFD"
+    },
+    "arrow-circle-right": {
+      "fontCharacter": "\\EBFE"
+    },
+    "arrow-circle-up": {
+      "fontCharacter": "\\EBFF"
+    },
+    "arrow-down": {
+      "fontCharacter": "\\EA9A"
+    },
+    "arrow-left": {
+      "fontCharacter": "\\EA9B"
+    },
+    "arrow-right": {
+      "fontCharacter": "\\EA9C"
+    },
+    "arrow-small-down": {
+      "fontCharacter": "\\EA9D"
+    },
+    "arrow-small-left": {
+      "fontCharacter": "\\EA9E"
+    },
+    "arrow-small-right": {
+      "fontCharacter": "\\EA9F"
+    },
+    "arrow-small-up": {
+      "fontCharacter": "\\EAA0"
+    },
+    "arrow-swap": {
+      "fontCharacter": "\\EBCB"
+    },
+    "arrow-up": {
+      "fontCharacter": "\\EAA1"
+    },
+    "attach": {
+      "fontCharacter": "\\EC34"
+    },
+    "beaker-stop": {
+      "fontCharacter": "\\EBE1"
+    },
+    "beaker": {
+      "fontCharacter": "\\EA79"
+    },
+    "bell-dot": {
+      "fontCharacter": "\\EB9A"
+    },
+    "bell-slash-dot": {
+      "fontCharacter": "\\EC09"
+    },
+    "bell-slash": {
+      "fontCharacter": "\\EC08"
+    },
+    "bell": {
+      "fontCharacter": "\\EAA2"
+    },
+    "bold": {
+      "fontCharacter": "\\EAA3"
+    },
+    "book": {
+      "fontCharacter": "\\EAA4"
+    },
+    "bookmark": {
+      "fontCharacter": "\\EAA5"
+    },
+    "bracket-dot": {
+      "fontCharacter": "\\EBE5"
+    },
+    "bracket-error": {
+      "fontCharacter": "\\EBE6"
+    },
+    "briefcase": {
+      "fontCharacter": "\\EAAC"
+    },
+    "broadcast": {
+      "fontCharacter": "\\EAAD"
+    },
+    "browser": {
+      "fontCharacter": "\\EAAE"
+    },
+    "brush": {
+      "fontCharacter": "\\F113"
+    },
+    "bug": {
+      "fontCharacter": "\\EAAF"
+    },
+    "calendar": {
+      "fontCharacter": "\\EBD0"
+    },
+    "call-incoming": {
+      "fontCharacter": "\\EB92"
+    },
+    "call-outgoing": {
+      "fontCharacter": "\\EB93"
+    },
+    "call": {
+      "fontCharacter": "\\F112"
+    },
+    "cancel-queue": {
+      "fontCharacter": "\\F111"
+    },
+    "case-sensitive": {
+      "fontCharacter": "\\EAB1"
+    },
+    "check-all": {
+      "fontCharacter": "\\EBD1"
+    },
+    "check": {
+      "fontCharacter": "\\EAB2"
+    },
+    "checklist": {
+      "fontCharacter": "\\EAB3"
+    },
+    "checkpoint": {
+      "fontCharacter": "\\F116"
+    },
+    "chevron-down": {
+      "fontCharacter": "\\EAB4"
+    },
+    "chevron-left": {
+      "fontCharacter": "\\EAB5"
+    },
+    "chevron-right": {
+      "fontCharacter": "\\EAB6"
+    },
+    "chevron-up": {
+      "fontCharacter": "\\EAB7"
+    },
+    "chip": {
+      "fontCharacter": "\\EC19"
+    },
+    "chrome-close": {
+      "fontCharacter": "\\EA76"
+    },
+    "chrome-maximize": {
+      "fontCharacter": "\\EA89"
+    },
+    "chrome-minimize": {
+      "fontCharacter": "\\EABA"
+    },
+    "chrome-restore": {
+      "fontCharacter": "\\EABB"
+    },
+    "circle-filled": {
+      "fontCharacter": "\\EA71"
+    },
+    "circle-large-outline": {
+      "fontCharacter": "\\EBB4"
+    },
+    "circle-large": {
+      "fontCharacter": "\\EBB5"
+    },
+    "circle-slash": {
+      "fontCharacter": "\\EBBD"
+    },
+    "circle-small-filled": {
+      "fontCharacter": "\\EBBA"
+    },
+    "circle-small": {
+      "fontCharacter": "\\EC07"
+    },
+    "circle-outline": {
+      "fontCharacter": "\\EABC"
+    },
+    "circle": {
+      "fontCharacter": "\\EABC"
+    },
+    "circuit-board": {
+      "fontCharacter": "\\EABE"
+    },
+    "clear-all": {
+      "fontCharacter": "\\EABF"
+    },
+    "clipboard": {
+      "fontCharacter": "\\F10F"
+    },
+    "clippy": {
+      "fontCharacter": "\\EAC0"
+    },
+    "close-all": {
+      "fontCharacter": "\\EAC1"
+    },
+    "cloud-download": {
+      "fontCharacter": "\\EAC2"
+    },
+    "cloud-upload": {
+      "fontCharacter": "\\EAC3"
+    },
+    "cloud": {
+      "fontCharacter": "\\EBAA"
+    },
+    "cmd": {
+      "fontCharacter": "\\F10E"
+    },
+    "code-oss": {
+      "fontCharacter": "\\EC2B"
+    },
+    "code-review": {
+      "fontCharacter": "\\EC37"
+    },
+    "code": {
+      "fontCharacter": "\\EAC4"
+    },
+    "coffee": {
+      "fontCharacter": "\\EC15"
+    },
+    "collapse-all": {
+      "fontCharacter": "\\EAC5"
+    },
+    "color-mode": {
+      "fontCharacter": "\\EAC6"
+    },
+    "combine": {
+      "fontCharacter": "\\EBD6"
+    },
+    "comment-discussion": {
+      "fontCharacter": "\\EAC7"
+    },
+    "comment-draft": {
+      "fontCharacter": "\\EC0F"
+    },
+    "comment-filter": {
+      "fontCharacter": "\\F115"
+    },
+    "comment-unresolved": {
+      "fontCharacter": "\\EC0A"
+    },
+    "comment": {
+      "fontCharacter": "\\EA6B"
+    },
+    "compass-activity": {
+      "fontCharacter": "\\EBD7"
+    },
+    "compass-dot": {
+      "fontCharacter": "\\EBD8"
+    },
+    "compass": {
+      "fontCharacter": "\\EBD5"
+    },
+    "complete": {
+      "fontCharacter": "\\F10D"
+    },
+    "copy": {
+      "fontCharacter": "\\EBCC"
+    },
+    "coverage": {
+      "fontCharacter": "\\EC2E"
     }
   }
 }
