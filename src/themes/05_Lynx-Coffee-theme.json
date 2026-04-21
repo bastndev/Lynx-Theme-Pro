@@ -54,7 +54,7 @@
     "list.activeSelectionBackground":        "#2E303E80",  // - Active bg
     "list.activeSelectionForeground":        "#D5D8DA",    // - Active text color
     "list.inactiveSelectionForeground":      "#D5D8DA",    // - Inactive text color
-    "list.inactiveSelectionBackground":      "#2E303E4D",    // - Inactive bg
+    "list.inactiveSelectionBackground":      "#2E303E4D",  // - Inactive bg
     "list.focusBackground":                  "#2E303E80",    // - Focus bg
     "list.focusForeground":                  "#D5D8DA",    // - Focus text
     "list.focusOutline":                     "#BCA16A",    // - Focus outline
