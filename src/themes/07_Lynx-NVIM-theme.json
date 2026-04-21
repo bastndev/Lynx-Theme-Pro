@@ -38,7 +38,7 @@
     "activityBar.background":                "#0C0D0E",    // - Activity bar bg
     "activityBar.foreground":                "#b0b4ba",    // - Activity bar text
     "activityBar.border":                    "#00000000",  // - Activity bar border
-    "activityBarTop.inactiveForeground":     "#696e77",    // - No selection icon
+    "activityBarTop.inactiveForeground":     "#5a5e66",    // - No selection icon
     "activityBarBadge.background":           "#0090ff",    // - Badge bg
     "activityBarBadge.foreground":           "#000000",    // - Badge text
     "activityBar.activeBorder":              "#0090ff",    // - Active item border
