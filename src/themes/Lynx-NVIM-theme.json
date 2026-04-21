@@ -87,7 +87,7 @@
     "gitDecoration.conflictingResourceForeground":   "#9a5cd0",    // - Merge conflicts
     "gitDecoration.deletedResourceForeground":       "#e5484d",    // - Deleted files
     "gitDecoration.ignoredResourceForeground":       "#696e77",    // - Ignored files
-    "gitDecoration.untrackedResourceForeground":     "#3dd68c",    // - Untracked files
+    "gitDecoration.untrackedResourceForeground":     "#28EB65",    // - Untracked files
     "gitDecoration.stageModifiedResourceForeground": "#ffca16",    // - Staged modified files
     "gitDecoration.stageDeletedResourceForeground":  "#ffca16",    // - Staged deleted files
     "gitDecoration.submoduleResourceForeground":     "#ffca16",    // - Submodules
@@ -288,7 +288,7 @@
     "statusBar.noFolderForeground":          "#9ca9a0",    // - Status bar no folder text
     "statusBarItem.hoverForeground":         "#ffffff",    // - Status bar item hover text
     "statusBarItem.activeBackground":        "#2870bd15",  // - Status bar active item bg
-    "statusBarItem.remoteBackground":        "#30865e",    // - Remote corner bg
+    "statusBarItem.remoteBackground":        "#0054a8",    // - Remote corner bg
     "statusBarItem.remoteForeground":        "#ffffff",    // - Remote corner logo-ICON
     "statusBarItem.remoteHoverForeground":   "#f2f2f2",    // - Hover corner logo-ICON
     "statusBarItem.prominentBackground":     "#3a453d",    // - Bottom box bg
