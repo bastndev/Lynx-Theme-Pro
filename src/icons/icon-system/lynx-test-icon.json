@@ -1292,13 +1292,13 @@
       "fontCharacter": "\\EC41"
     },
     "symbol-misc": {
-      "fontCharacter": "\\EABC"
+      "fontCharacter": "\\EA8C"
     },
     "symbol-namespace": {
       "fontCharacter": "\\EB63"
     },
     "symbol-numeric": {
-      "fontCharacter": "\\EABD"
+      "fontCharacter": "\\EA90"
     },
     "symbol-null": {
       "fontCharacter": "\\EA90"
@@ -1319,7 +1319,7 @@
       "fontCharacter": "\\EB66"
     },
     "symbol-string": {
-      "fontCharacter": "\\EB6D"
+      "fontCharacter": "\\EB8D"
     },
     "symbol-structure": {
       "fontCharacter": "\\EA91"
@@ -1328,7 +1328,7 @@
       "fontCharacter": "\\EA88"
     },
     "sync-ignored": {
-      "fontCharacter": "\\EB6F"
+      "fontCharacter": "\\EB9F"
     },
     "sync": {
       "fontCharacter": "\\EA77"
@@ -1352,10 +1352,10 @@
       "fontCharacter": "\\EA85"
     },
     "thumbsdown": {
-      "fontCharacter": "\\EC13"
+      "fontCharacter": "\\EB6B"
     },
     "thumbsdown-filled": {
-      "fontCharacter": "\\EB6B"
+      "fontCharacter": "\\EC13"
     },
     "thumbsup-filled": {
       "fontCharacter": "\\EC14"
