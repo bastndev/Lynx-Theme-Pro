@@ -99,7 +99,7 @@
 
     // TODO: CODE EDITOR MARK: [TWO-2]
     "editor.background":                     "#0e0e0e",    // - Editor bg
-    "editor.foreground":                     "#ffd0bb",    // - Editor [STORE] text
+    "editor.foreground":                     "#D5D8DA",    // - Editor [STORE] text
     "editor.lineHighlightBackground":        "#080808",  // - Line highlight bg (improved contrast)
     "editor.foldBackground":                 "#c9935a10",
     "editor.lineHighlightBorder":            "#ffffff10",  // - Line highlight border (visible)
@@ -108,7 +108,7 @@
     "editor.linkedEditingBackground":        "#c9935a30",
     "editor.wordHighlightBackground":        "#a42aeb3d",  // - Word highlight bg
     "editor.wordHighlightStrongBackground":  "#a42aeb3d",  // - Word highlight strong bg
-    "editor.selectionHighlightBackground":   "#1b1b1b80",  // - Selection highlight bg
+    "editor.selectionHighlightBackground":   "#1b1b1bf9",  // - Selection highlight bg
 
     "editorIndentGuide.background1":        "#1f1f1f57",   // - Indent line
     "editorIndentGuide.activeBackground1":  "#2E303E",   // - Active indent line
