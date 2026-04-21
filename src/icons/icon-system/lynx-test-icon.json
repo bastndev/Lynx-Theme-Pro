@@ -32,7 +32,7 @@
       "fontCharacter": "\\EBDC"
     },
     "debug-alt": {
-      "fontCharacter": "\\EBA8"
+      "fontCharacter": "\\EB91"
     },
     "debug-alt-test": {
       "fontCharacter": "\\EB91"
@@ -320,7 +320,7 @@
       "fontCharacter": "\\EC28"
     },
     "git-stash": {
-      "fontCharacter": "\\EC29"
+      "fontCharacter": "\\EC26"
     },
     "github-action": {
       "fontCharacter": "\\EAFF"
@@ -614,7 +614,7 @@
       "fontCharacter": "\\EBB7"
     },
     "debug-breakpoint-conditional": {
-      "fontCharacter": "\\EAA6"
+      "fontCharacter": "\\EAA8"
     },
     "debug-breakpoint-data-unverified": {
       "fontCharacter": "\\EAAA"
@@ -638,7 +638,7 @@
       "fontCharacter": "\\EBDD"
     },
     "debug-disconnect": {
-      "fontCharacter": "\\EA00"
+      "fontCharacter": "\\EAD0"
     },
     "debug-line-by-line": {
       "fontCharacter": "\\EBD0"
@@ -656,19 +656,19 @@
       "fontCharacter": "\\EAD2"
     },
     "debug-reverse-continue": {
-      "fontCharacter": "\\EBBE"
+      "fontCharacter": "\\EB8E"
     },
     "debug-stackframe-active": {
       "fontCharacter": "\\EB89"
     },
     "debug-stackframe": {
-      "fontCharacter": "\\EB88"
+      "fontCharacter": "\\EB8B"
     },
     "debug-start": {
       "fontCharacter": "\\EAD3"
     },
     "debug-step-back": {
-      "fontCharacter": "\\EBBF"
+      "fontCharacter": "\\EB8F"
     },
     "debug-step-into": {
       "fontCharacter": "\\EAD4"
