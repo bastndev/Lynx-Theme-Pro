@@ -152,7 +152,7 @@
       "fontCharacter": "\\EAAF"
     },
     "calendar": {
-      "fontCharacter": "\\EBD0"
+      "fontCharacter": "\\EAB0"
     },
     "call-incoming": {
       "fontCharacter": "\\EB92"
@@ -164,13 +164,13 @@
       "fontCharacter": "\\F112"
     },
     "cancel-queue": {
-      "fontCharacter": "\\F111"
+      "fontCharacter": "\\F110"
     },
     "case-sensitive": {
       "fontCharacter": "\\EAB1"
     },
     "check-all": {
-      "fontCharacter": "\\EBD1"
+      "fontCharacter": "\\EBB1"
     },
     "check": {
       "fontCharacter": "\\EAB2"
@@ -218,10 +218,10 @@
       "fontCharacter": "\\EBB5"
     },
     "circle-slash": {
-      "fontCharacter": "\\EBBD"
+      "fontCharacter": "\\EABD"
     },
     "circle-small-filled": {
-      "fontCharacter": "\\EBBA"
+      "fontCharacter": "\\EB8A"
     },
     "circle-small": {
       "fontCharacter": "\\EC07"
@@ -278,13 +278,13 @@
       "fontCharacter": "\\EAC6"
     },
     "combine": {
-      "fontCharacter": "\\EBD6"
+      "fontCharacter": "\\EBB6"
     },
     "comment-discussion": {
       "fontCharacter": "\\EAC7"
     },
     "comment-draft": {
-      "fontCharacter": "\\EC0F"
+      "fontCharacter": "\\EC0E"
     },
     "comment-filter": {
       "fontCharacter": "\\F115"
@@ -299,7 +299,7 @@
       "fontCharacter": "\\EBD7"
     },
     "compass-dot": {
-      "fontCharacter": "\\EBD8"
+      "fontCharacter": "\\EBD6"
     },
     "compass": {
       "fontCharacter": "\\EBD5"
@@ -614,7 +614,7 @@
       "fontCharacter": "\\EBB7"
     },
     "debug-breakpoint-conditional": {
-      "fontCharacter": "\\EBB8"
+      "fontCharacter": "\\EAA6"
     },
     "debug-breakpoint-data-unverified": {
       "fontCharacter": "\\EAAA"
