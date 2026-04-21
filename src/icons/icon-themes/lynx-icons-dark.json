@@ -3857,6 +3857,7 @@
     }
   },
   "folderNames": {
+    ".agents": "folder-robot",
     "skeleton": "folder-skeleton",
     "skeletons": "folder-skeleton",
     ".skeleton": "folder-skeleton",
@@ -7161,6 +7162,7 @@
     "skill": "folder-skills"
   },
   "folderNamesExpanded": {
+    ".agents": "folder-robot-open",
     "skeleton": "folder-skeleton-open",
     "skeletons": "folder-skeleton-open",
     ".skeleton": "folder-skeleton-open",
