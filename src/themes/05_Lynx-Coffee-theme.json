@@ -92,7 +92,7 @@
     "gitDecoration.stageDeletedResourceForeground":  "#FFD700",    // - Staged deleted files
     "gitDecoration.submoduleResourceForeground":     "#FFD700",    // - Submodules
     "gitDecoration.renamedResourceForeground":       "#FFD700",    // - Renamed files
-    "gitDecoration.addedResourceForeground":         "#27D797B3",    // - Added files
+    "gitDecoration.addedResourceForeground":         "#FFD700",    // - Added files
     "editorGhostText.foreground":                    "#8a7562",    // - git commit txt
     "editorGutter.deletedBackground":                "#F43E5CB3",    // - Delete code
     "editorGutter.modifiedBackground":               "#21BFC2B3",  // - Modified code
