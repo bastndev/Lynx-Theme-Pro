@@ -549,6 +549,9 @@
     "vscode": {
       "iconPath": "../../assets/svg/dark/vscode.svg"
     },
+    "vscode-ignore": {
+      "iconPath": "../../assets/svg/dark/vscode-ignore.svg"
+    },
     "qsharp": {
       "iconPath": "../../assets/svg/dark/qsharp.svg"
     },
@@ -10499,7 +10502,7 @@
     "tsv": "table",
     "psv": "table",
     "ods": "table",
-    "vscodeignore": "vscode",
+    "vscodeignore": "vscode-ignore",
     "vsixmanifest": "vscode",
     "vsix": "vscode",
     "code-workplace": "vscode",
