@@ -48,7 +48,7 @@
     "list.warningForeground":                "#ffca16",    // - Warning text color
     "list.errorForeground":                  "#e5484d",    // - Error text color
     "list.invalidItemForeground":            "#e5484d",    // - Invalid item color
-    "tree.indentGuidesStroke":               "#363a3f",    // - Line guide Folder
+    "tree.indentGuidesStroke":               "#05355a",    // - Line guide Folder
     
     // --- -- - Menu hover - click & select = RIGHT
     "list.activeSelectionBackground":        "#0090ff40",  // - Active bg
