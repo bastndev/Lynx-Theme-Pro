@@ -32,22 +32,22 @@
     "list.dropBackground":                   "#6C6F9380",  // - Drop bg
     
     // TODO: ACTIVITY BAR MARK: [ONE-1]
-    "banner.background":                     "#231514",    // - Banner bg
-    "banner.foreground":                     "#ffd0bb",    // - Banner text
-    "banner.iconForeground":                 "#c9935a",    // - Banner icon
+    "banner.background":                     "#0e0e0e",    // - Banner bg
+    "banner.foreground":                     "#D5D8DA",    // - Banner text
+    "banner.iconForeground":                 "#E95378",    // - Banner icon
     "activityBar.background":                "#080808",    // - Activity bar bg
-    "activityBar.foreground":                "#D5D8DAB3",    // - Activity bar text
-    "activityBar.border":                    "#231514",    // - Activity bar border
+    "activityBar.foreground":                "#D5D8DAB3",  // - Activity bar text
+    "activityBar.border":                    "#080808",    // - Activity bar border
     "activityBarTop.inactiveForeground":     "#a0a0a0",    // - No selection icon
     "activityBarBadge.background":           "#E95378",    // - Badge bg
     "activityBarBadge.foreground":           "#06060C",    // - Badge text
     "activityBar.activeBorder":              "#E95378",    // - Active item border
-    "activityBar.activeBackground":          "#170F10",    // - Active item 
+    "activityBar.activeBackground":          "#1C1E26",    // - Active item 
     "activityBar.activeFocusBorder":         "#E95378",    // - Active item focus border
     "activityBarTop.foreground":             "#ec8c7b",    // - Select icon
-    "list.warningForeground":                "#27D797B3",    // - Warning text color
-    "list.errorForeground":                  "#F43E5CE6",    // - Error text color
-    "list.invalidItemForeground":            "#d47373",    // - Invalid item color
+    "list.warningForeground":                "#27D797B3",  // - Warning text color
+    "list.errorForeground":                  "#F43E5CE6",  // - Error text color
+    "list.invalidItemForeground":            "#F43E5CE6",  // - Invalid item color
     "tree.indentGuidesStroke":               "#a85a4c48",  // - Line guide Folder
     
     // --- -- - Menu hover - click & select = RIGHT
