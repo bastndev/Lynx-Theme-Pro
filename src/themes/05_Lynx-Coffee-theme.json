@@ -8,28 +8,28 @@
   "colors": {
     // TODO: MENU STATUS BAR MARK: - [TOP]
     "titleBar.activeBackground":             "#0e0e0e",    // - Title bar bg 
-    "titleBar.activeForeground":             "#f5d6c8",    // - Title bar text 
+    "titleBar.activeForeground":             "#D5D8DA",    // - Title bar text 
     "titleBar.inactiveBackground":           "#1C1E26",    // - Title bar bg inactive
     "titleBar.inactiveForeground":           "#a0a0a0",    // - Title bar text inactive
-    "commandCenter.background":              "#170F10",    // - Command Center bg
+    "commandCenter.background":              "#141414",    // - Command Center bg
     "commandCenter.border":                  "#4d412f50",  // - Command Center border
-    "commandCenter.activeBackground":        "#231514",    // - Command Center active bg
+    "commandCenter.activeBackground":        "#0e0e0e",    // - Command Center active bg
 
     // --- -- - Menu Click & select
-    "menu.background":                       "#170F10",    // - Menu bg
-    "menu.foreground":                       "#ffd0bb",    // - Menu text
-    "menu.border":                           "#170F10",    // - Border line
-    "menu.selectionBackground":              "#c9935a50",  // - Selected item bg
-    "menu.selectionForeground":              "#c9935a",    // - Active click color
+    "menu.background":                       "#141414",    // - Menu bg
+    "menu.foreground":                       "#D5D8DA",    // - Menu text
+    "menu.border":                           "#141414",    // - Border line
+    "menu.selectionBackground":              "#2E303E80",  // - Selected item bg
+    "menu.selectionForeground":              "#D5D8DA",    // - Active click color
     "menu.separatorBackground":              "#4d332a",    // - Separator line
-    "menubar.selectionBackground":           "#c9935a30",  // - Menubar selection bg
-    "menubar.selectionForeground":           "#c9935a",    // - Hover TOP text 1
-    "menu.selectionBorder":                  "#c9935a",    // - Selected item border
-    "menubar.selectionBorder":               "#c9935a",    // - Menubar selection border
+    "menubar.selectionBackground":           "#2E303E80",  // - Menubar selection bg
+    "menubar.selectionForeground":           "#D5D8DA",    // - Hover TOP text 1
+    "menu.selectionBorder":                  "#E95378",    // - Selected item border
+    "menubar.selectionBorder":               "#E95378",    // - Menubar selection border
 
     "list.hoverBackground":                  "#2E303E80",  // - Hover bg
-    "list.hoverForeground":                  "#ffffff",    // - Text select
-    "list.dropBackground":                   "#6C6F9380",    // - Drop bg
+    "list.hoverForeground":                  "#D5D8DA",    // - Text select
+    "list.dropBackground":                   "#6C6F9380",  // - Drop bg
     
     // TODO: ACTIVITY BAR MARK: [ONE-1]
     "banner.background":                     "#231514",    // - Banner bg
