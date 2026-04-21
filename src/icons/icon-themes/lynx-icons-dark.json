@@ -3612,6 +3612,60 @@
     "folder-kiro-open": {
       "iconPath": "../../assets/svg/dark/folder-kiro-open.svg"
     },
+    "folder-appwrite": {
+      "iconPath": "../../assets/svg/dark/folder-appwrite.svg"
+    },
+    "folder-appwrite-open": {
+      "iconPath": "../../assets/svg/dark/folder-appwrite-open.svg"
+    },
+    "folder-assembly": {
+      "iconPath": "../../assets/svg/dark/folder-assembly.svg"
+    },
+    "folder-assembly-open": {
+      "iconPath": "../../assets/svg/dark/folder-assembly-open.svg"
+    },
+    "folder-fcm": {
+      "iconPath": "../../assets/svg/dark/folder-form.svg"
+    },
+    "folder-fcm-open": {
+      "iconPath": "../../assets/svg/dark/folder-form-open.svg"
+    },
+    "folder-gemini": {
+      "iconPath": "../../assets/svg/dark/folder-gemini-ai.svg"
+    },
+    "folder-gemini-open": {
+      "iconPath": "../../assets/svg/dark/folder-gemini-ai-open.svg"
+    },
+    "folder-go": {
+      "iconPath": "../../assets/svg/dark/folder-go.svg"
+    },
+    "folder-go-open": {
+      "iconPath": "../../assets/svg/dark/folder-go-open.svg"
+    },
+    "folder-nginx": {
+      "iconPath": "../../assets/svg/dark/folder-nginx.svg"
+    },
+    "folder-nginx-open": {
+      "iconPath": "../../assets/svg/dark/folder-nginx-open.svg"
+    },
+    "folder-postman": {
+      "iconPath": "../../assets/svg/dark/folder-postman.svg"
+    },
+    "folder-postman-open": {
+      "iconPath": "../../assets/svg/dark/folder-postman-open.svg"
+    },
+    "folder-r": {
+      "iconPath": "../../assets/svg/dark/folder-r.svg"
+    },
+    "folder-r-open": {
+      "iconPath": "../../assets/svg/dark/folder-r-open.svg"
+    },
+    "folder-skills": {
+      "iconPath": "../../assets/svg/dark/folder-skills.svg"
+    },
+    "folder-skills-open": {
+      "iconPath": "../../assets/svg/dark/folder-skills-open.svg"
+    },
     "folder": {
       "iconPath": "../../assets/svg/dark/folder-file.svg"
     },
@@ -3779,6 +3833,27 @@
     },
     "icon-png": {
       "iconPath": "../../assets/svg/dark/icon.svg"
+    },
+    "appwrite": {
+      "iconPath": "../../assets/svg/dark/appwrite.svg"
+    },
+    "pear_schema": {
+      "iconPath": "../../assets/svg/dark/json_schema.svg"
+    },
+    "macaulay2": {
+      "iconPath": "../../assets/svg/dark/macaulay2.svg"
+    },
+    "rolldown": {
+      "iconPath": "../../assets/svg/dark/rolldown.svg"
+    },
+    "skill": {
+      "iconPath": "../../assets/svg/dark/skill.svg"
+    },
+    "toon": {
+      "iconPath": "../../assets/svg/dark/toon.svg"
+    },
+    "typespec": {
+      "iconPath": "../../assets/svg/dark/typedoc.svg"
     }
   },
   "folderNames": {
