@@ -3693,11 +3693,11 @@
     "lean": {
       "iconPath": "../../assets/svg/dark/lean.svg"
     },
-    "license-file": {
-      "iconPath": "../../assets/svg/dark/license-file.svg"
-    },
     "license": {
       "iconPath": "../../assets/svg/dark/license-file.svg"
+    },
+    "license-file": {
+      "iconPath": "../../assets/svg/dark/license.svg"
     },
     "unlicense": {
       "iconPath": "../../assets/svg/dark/unlicense.svg"
