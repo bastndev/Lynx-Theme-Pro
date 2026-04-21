@@ -69,18 +69,18 @@
 
     // --- -- - Buttons
     "button.background":                     "#2E303E",    // - Button bg
-    "button.foreground":                     "#ffffff",    // - Button text
-    "button.hoverBackground":                "#d36e63",    // - Button hover
-    "button.secondaryBackground":            "#170F10",    // - Secondary button bg
-    "button.secondaryForeground":            "#ffd0bb",    // - Secondary button text
-    "button.secondaryHoverBackground":       "#2e2419",    // - Secondary button hover
+    "button.foreground":                     "#D5D8DA",    // - Button text
+    "button.hoverBackground":                "#2E303E",    // - Button hover
+    "button.secondaryBackground":            "#141414",    // - Secondary button bg
+    "button.secondaryForeground":            "#D5D8DA",    // - Secondary button text
+    "button.secondaryHoverBackground":       "#2E303E",    // - Secondary button hover
     "toolbar.hoverBackground":               "#ffffff4b",  // - button hover bg
 
     // --- -- - Editor hover widget
-    "editorHoverWidget.border":              "#4d412f20",  // - Hover widget border
-    "editorHoverWidget.foreground":          "#ffd0bb",    // - Hover widget text
-    "editorHoverWidget.background":          "#170F10",    // - bg check information
-    "editorHoverWidget.statusBarBackground": "#231514",    // - Hover widget status bar bg
+    "editorHoverWidget.border":              "#232530",  // - Hover widget border
+    "editorHoverWidget.foreground":          "#D5D8DA",    // - Hover widget text
+    "editorHoverWidget.background":          "#141414",    // - bg check information
+    "editorHoverWidget.statusBarBackground": "#0e0e0e",    // - Hover widget status bar bg
 
     //--- -- - GIT Decoration
     "gitDecoration.modifiedResourceForeground":      "#FAB38E",    // - Modified files
