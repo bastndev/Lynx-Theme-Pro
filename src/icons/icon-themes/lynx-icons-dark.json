@@ -873,6 +873,9 @@
     "nodejs": {
       "iconPath": "../../assets/svg/dark/nodejs.svg"
     },
+    "nodejs-file": {
+      "iconPath": "../../assets/svg/dark/nodejs-file.svg"
+    },
     "npm": {
       "iconPath": "../../assets/svg/dark/npm-file.svg"
     },
@@ -12085,7 +12088,7 @@
     "gulpfile.cts": "gulp",
     "gulpfile.mts": "gulp",
     "gulpfile.babel.js": "gulp",
-    "package.json": "nodejs",
+    "package.json": "nodejs-file",
     "package-lock.json": "npm",
     ".nvmrc": "nodejs",
     ".esmrc": "nodejs",
