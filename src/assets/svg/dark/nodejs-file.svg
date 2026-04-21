@@ -6,7 +6,7 @@
     </linearGradient>
 
     <mask id="hexMask">
-      <path fill="white" d="m160 0 140 80v160l-140 80-140-80V80z"/>
+      <path fill="white" d="m160 12 130 75v150l-130 75-130-75V87z"/>
     </mask>
 
     <path id="waveProp" d="M 0 250 C 80 230 120 270 200 250 C 280 230 320 270 400 250 V 320 H 0 Z" fill="rgba(255,255,255,0.3)">
@@ -23,7 +23,7 @@
     </path>
   </defs>
 
-  <path fill="url(#grad)" stroke="#2a6604" stroke-width="4" stroke-linejoin="round" d="m160 0 140 80v160l-140 80-140-80V80z"/>
+  <path fill="url(#grad)" stroke="#2a6604" stroke-width="4" stroke-linejoin="round" d="m160 12 130 75v150l-130 75-130-75V87z"/>
 
   <g mask="url(#hexMask)">
     <use href="#waveProp" x="0" y="15" opacity="0.6" />
