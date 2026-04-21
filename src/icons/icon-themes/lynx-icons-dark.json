@@ -3690,8 +3690,14 @@
     "lean": {
       "iconPath": "../../assets/svg/dark/lean.svg"
     },
+    "license-file": {
+      "iconPath": "../../assets/svg/dark/license-file.svg"
+    },
     "license": {
       "iconPath": "../../assets/svg/dark/license.svg"
+    },
+    "unlicense": {
+      "iconPath": "../../assets/svg/dark/unlicense.svg"
     },
     "lintstaged": {
       "iconPath": "../../assets/svg/dark/lintstaged.svg"
@@ -3737,9 +3743,6 @@
     },
     "tsdoc": {
       "iconPath": "../../assets/svg/dark/tsdoc.svg"
-    },
-    "unlicense": {
-      "iconPath": "../../assets/svg/dark/unlicense.svg"
     },
     "vanilla-extract": {
       "iconPath": "../../assets/svg/dark/vanilla-extract.svg"
@@ -11545,7 +11548,7 @@
     "license.md": "certificate",
     "license.rst": "certificate",
     "license.txt": "certificate",
-    "licence": "certificate",
+    "licence": "license-file",
     "licence-agpl": "certificate",
     "licence-apache": "certificate",
     "licence-bsd": "certificate",
