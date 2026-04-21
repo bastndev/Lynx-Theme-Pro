@@ -3,6 +3,9 @@
     "git": {
       "iconPath": "../../assets/svg/dark/git.svg"
     },
+    "git-ignore": {
+      "iconPath": "../../assets/svg/dark/git-ignore.svg"
+    },
     "github-actions-workflow": {
       "iconPath": "../../assets/svg/dark/github-actions-workflow.svg"
     },
@@ -546,6 +549,9 @@
     "vscode": {
       "iconPath": "../../assets/svg/dark/vscode.svg"
     },
+    "vscode-ignore": {
+      "iconPath": "../../assets/svg/dark/vscode-ignore.svg"
+    },
     "qsharp": {
       "iconPath": "../../assets/svg/dark/qsharp.svg"
     },
@@ -867,8 +873,11 @@
     "nodejs": {
       "iconPath": "../../assets/svg/dark/nodejs.svg"
     },
+    "nodejs-file": {
+      "iconPath": "../../assets/svg/dark/nodejs-file.svg"
+    },
     "npm": {
-      "iconPath": "../../assets/svg/dark/npm.svg"
+      "iconPath": "../../assets/svg/dark/npm-file.svg"
     },
     "yarn": {
       "iconPath": "../../assets/svg/dark/yarn.svg"
@@ -3423,42 +3432,6 @@
     "folder-blender-open": {
       "iconPath": "../../assets/svg/dark/folder-blender-open.svg"
     },
-    "folder": {
-      "iconPath": "../../assets/svg/dark/folder.svg"
-    },
-    "folder-open": {
-      "iconPath": "../../assets/svg/dark/folder-open.svg"
-    },
-    "folder-root": {
-      "iconPath": "../../assets/svg/dark/folder-root.svg"
-    },
-    "folder-root-open": {
-      "iconPath": "../../assets/svg/dark/folder-root-open.svg"
-    },
-    "flutter-file": {
-      "iconPath": "../../assets/svg/dark/flutter-file.svg"
-    },
-    "bloc-file": {
-      "iconPath": "../../assets/svg/dark/bloc-file.svg"
-    },
-    "getx-file": {
-      "iconPath": "../../assets/svg/dark/getx-file.svg"
-    },
-    "riverpod-file": {
-      "iconPath": "../../assets/svg/dark/riverpod-file.svg"
-    },
-    "mobx-file": {
-      "iconPath": "../../assets/svg/dark/mobx-file.svg"
-    },
-    "state-file": {
-      "iconPath": "../../assets/svg/dark/state-file.svg"
-    },
-    "service-file": {
-      "iconPath": "../../assets/svg/dark/service-file.svg"
-    },
-    "module-file": {
-      "iconPath": "../../assets/svg/dark/module-file.svg"
-    },
     "getx-folder": {
       "iconPath": "../../assets/svg/dark/getx-folder.svg"
     },
@@ -3483,73 +3456,7 @@
     "state-folder-open": {
       "iconPath": "../../assets/svg/dark/state-folder-open.svg"
     },
-    "lynx": {
-      "iconPath": "../../assets/svg/dark/lynx-file.svg"
-    },
-    "lynx-dark": {
-      "iconPath": "../../assets/svg/dark/lynx-file-dark.svg"
-    },
-    "lynx-config-file": {
-      "iconPath": "../../assets/svg/dark/lynx-config-file.svg"
-    },
-    "lynx-config-file-dark": {
-      "iconPath": "../../assets/svg/dark/lynx-config-file-dark.svg"
-    },
-    "folder-notification": {
-      "iconPath": "../../assets/svg/dark/folder-notification.svg"
-    },
-    "folder-notification-open": {
-      "iconPath": "../../assets/svg/dark/folder-notification-open.svg"
-    },
-    "folder-keymaps": {
-      "iconPath": "../../assets/svg/dark/folder-keymaps.svg"
-    },
-    "folder-keymaps-open": {
-      "iconPath": "../../assets/svg/dark/folder-keymaps-open.svg"
-    },
-    "folder-shortcuts": {
-      "iconPath": "../../assets/svg/dark/folder-shortcuts.svg"
-    },
-    "folder-shortcuts-open": {
-      "iconPath": "../../assets/svg/dark/folder-shortcuts-open.svg"
-    },
-    "folder-claude": {
-      "iconPath": "../../assets/svg/dark/folder-claude.svg"
-    },
-    "folder-claude-open": {
-      "iconPath": "../../assets/svg/dark/folder-claude-open.svg"
-    },
-    "file-claude": {
-      "iconPath": "../../assets/svg/dark/claude.svg"
-    },
-    "folder-kiro": {
-      "iconPath": "../../assets/svg/dark/folder-kiro.svg"
-    },
-    "folder-kiro-open": {
-      "iconPath": "../../assets/svg/dark/folder-kiro-open.svg"
-    },
-    "bashly-hook": {
-      "iconPath": "../../assets/svg/dark/bashly-hook.svg"
-    },
-    "bashly": {
-      "iconPath": "../../assets/svg/dark/bashly.svg"
-    },
-    "bloc-folder-open": {
-      "iconPath": "../../assets/svg/dark/bloc-folder-open.svg"
-    },
-    "chromatic": {
-      "iconPath": "../../assets/svg/dark/chromatic.svg"
-    },
-    "cue": {
-      "iconPath": "../../assets/svg/dark/cue.svg"
-    },
-    "cursor": {
-      "iconPath": "../../assets/svg/dark/cursor.svg"
-    },
-    "cursor_light": {
-      "iconPath": "../../assets/svg/dark/cursor_light.svg"
-    },
-    "folder-atom-open": {
+"folder-atom-open": {
       "iconPath": "../../assets/svg/dark/folder-atom-open.svg"
     },
     "folder-atom": {
@@ -3675,6 +3582,108 @@
     "folder-skeleton": {
       "iconPath": "../../assets/svg/dark/folder-skeleton.svg"
     },
+    "folder-notification": {
+      "iconPath": "../../assets/svg/dark/folder-notification.svg"
+    },
+    "folder-notification-open": {
+      "iconPath": "../../assets/svg/dark/folder-notification-open.svg"
+    },
+    "folder-keymaps": {
+      "iconPath": "../../assets/svg/dark/folder-keymaps.svg"
+    },
+    "folder-keymaps-open": {
+      "iconPath": "../../assets/svg/dark/folder-keymaps-open.svg"
+    },
+    "folder-shortcuts": {
+      "iconPath": "../../assets/svg/dark/folder-shortcuts.svg"
+    },
+    "folder-shortcuts-open": {
+      "iconPath": "../../assets/svg/dark/folder-shortcuts-open.svg"
+    },
+    "folder-claude": {
+      "iconPath": "../../assets/svg/dark/folder-claude.svg"
+    },
+    "folder-claude-open": {
+      "iconPath": "../../assets/svg/dark/folder-claude-open.svg"
+    },
+    "folder-kiro": {
+      "iconPath": "../../assets/svg/dark/folder-kiro.svg"
+    },
+    "folder-kiro-open": {
+      "iconPath": "../../assets/svg/dark/folder-kiro-open.svg"
+    },
+    "folder": {
+      "iconPath": "../../assets/svg/dark/folder-file.svg"
+    },
+    "folder-open": {
+      "iconPath": "../../assets/svg/dark/folder-file-open.svg"
+    },
+    "file-claude": {
+      "iconPath": "../../assets/svg/dark/claude.svg"
+    },
+    "folder-root": {
+      "iconPath": "../../assets/svg/dark/folder-root.svg"
+    },
+    "folder-root-open": {
+      "iconPath": "../../assets/svg/dark/folder-root-open.svg"
+    },
+    "flutter-file": {
+      "iconPath": "../../assets/svg/dark/flutter-file.svg"
+    },
+    "bloc-file": {
+      "iconPath": "../../assets/svg/dark/bloc-file.svg"
+    },
+    "getx-file": {
+      "iconPath": "../../assets/svg/dark/getx-file.svg"
+    },
+    "riverpod-file": {
+      "iconPath": "../../assets/svg/dark/riverpod-file.svg"
+    },
+    "mobx-file": {
+      "iconPath": "../../assets/svg/dark/mobx-file.svg"
+    },
+    "state-file": {
+      "iconPath": "../../assets/svg/dark/state-file.svg"
+    },
+    "service-file": {
+      "iconPath": "../../assets/svg/dark/service-file.svg"
+    },
+    "module-file": {
+      "iconPath": "../../assets/svg/dark/module-file.svg"
+    },
+    "lynx": {
+      "iconPath": "../../assets/svg/dark/lynx-file.svg"
+    },
+    "lynx-dark": {
+      "iconPath": "../../assets/svg/dark/lynx-file-dark.svg"
+    },
+    "lynx-config-file": {
+      "iconPath": "../../assets/svg/dark/lynx-config-file.svg"
+    },
+    "lynx-config-file-dark": {
+      "iconPath": "../../assets/svg/dark/lynx-config-file-dark.svg"
+    },
+    "bashly-hook": {
+      "iconPath": "../../assets/svg/dark/bashly-hook.svg"
+    },
+    "bashly": {
+      "iconPath": "../../assets/svg/dark/bashly.svg"
+    },
+    "bloc-folder-open": {
+      "iconPath": "../../assets/svg/dark/bloc-folder-open.svg"
+    },
+    "chromatic": {
+      "iconPath": "../../assets/svg/dark/chromatic.svg"
+    },
+    "cue": {
+      "iconPath": "../../assets/svg/dark/cue.svg"
+    },
+    "cursor": {
+      "iconPath": "../../assets/svg/dark/cursor.svg"
+    },
+    "cursor_light": {
+      "iconPath": "../../assets/svg/dark/cursor_light.svg"
+    },
     "google": {
       "iconPath": "../../assets/svg/dark/google.svg"
     },
@@ -3684,8 +3693,14 @@
     "lean": {
       "iconPath": "../../assets/svg/dark/lean.svg"
     },
+    "license-file": {
+      "iconPath": "../../assets/svg/dark/license-file.svg"
+    },
     "license": {
       "iconPath": "../../assets/svg/dark/license.svg"
+    },
+    "unlicense": {
+      "iconPath": "../../assets/svg/dark/unlicense.svg"
     },
     "lintstaged": {
       "iconPath": "../../assets/svg/dark/lintstaged.svg"
@@ -3694,7 +3709,7 @@
       "iconPath": "../../assets/svg/dark/metro.svg"
     },
     "mobx2-file": {
-      "iconPath": "../../assets/svg/dark/mobx2-file.svg"
+      "iconPath": "../../assets/svg/dark/mobx-file.svg"
     },
     "onnx": {
       "iconPath": "../../assets/svg/dark/onnx.svg"
@@ -3732,9 +3747,6 @@
     "tsdoc": {
       "iconPath": "../../assets/svg/dark/tsdoc.svg"
     },
-    "unlicense": {
-      "iconPath": "../../assets/svg/dark/unlicense.svg"
-    },
     "vanilla-extract": {
       "iconPath": "../../assets/svg/dark/vanilla-extract.svg"
     },
@@ -3764,6 +3776,9 @@
     },
     "woff": {
       "iconPath": "../../assets/svg/dark/wo-1.svg"
+    },
+    "icon-png": {
+      "iconPath": "../../assets/svg/dark/icon.svg"
     }
   },
   "folderNames": {
@@ -10493,7 +10508,7 @@
     "tsv": "table",
     "psv": "table",
     "ods": "table",
-    "vscodeignore": "vscode",
+    "vscodeignore": "vscode-ignore",
     "vsixmanifest": "vscode",
     "vsix": "vscode",
     "code-workplace": "vscode",
@@ -11411,6 +11426,9 @@
     "verse": "verse"
   },
   "fileNames": {
+    "icon.png": "icon-png",
+    "icon.svg": "icon-png",
+    "icon.ico": "icon-png",
     "global.css": "global-css",
     "main.lynx.bundle": "lynx",
     "lynx.config.ts": "lynx-config-file",
@@ -11533,7 +11551,7 @@
     "license.md": "certificate",
     "license.rst": "certificate",
     "license.txt": "certificate",
-    "licence": "certificate",
+    "licence": "license-file",
     "licence-agpl": "certificate",
     "licence-apache": "certificate",
     "licence-bsd": "certificate",
@@ -11696,10 +11714,10 @@
     "graphql.config.cts": "graphql",
     ".graphqlconfig": "graphql",
     ".git": "git",
-    ".gitignore": "git",
+    ".gitignore": "git-ignore",
     ".gitmessage": "git",
-    ".gitignore-global": "git",
-    ".gitignore_global": "git",
+    ".gitignore-global": "git-ignore",
+    ".gitignore_global": "git-ignore",
     ".gitattributes": "git",
     ".gitattributes-global": "git",
     ".gitattributes_global": "git",
@@ -12070,8 +12088,8 @@
     "gulpfile.cts": "gulp",
     "gulpfile.mts": "gulp",
     "gulpfile.babel.js": "gulp",
-    "package.json": "nodejs",
-    "package-lock.json": "nodejs",
+    "package.json": "nodejs-file",
+    "package-lock.json": "npm",
     ".nvmrc": "nodejs",
     ".esmrc": "nodejs",
     ".node-version": "nodejs",

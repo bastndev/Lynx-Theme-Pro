@@ -50,37 +50,37 @@
       {
         "label": "1. DARKㅤㅤ(Lynx Theme)",
         "uiTheme": "vs-dark",
-        "path": "./src/themes/Lynx-Dark-theme.json"
+        "path": "./src/themes/01_Lynx-Dark-theme.json"
       },
       {
         "label": "2. LIGHT ㅤ (Lynx Theme)",
         "uiTheme": "vs",
-        "path": "./src/themes/Lynx-Light-theme.json"
+        "path": "./src/themes/02_Lynx-Light-theme.json"
       },
       {
         "label": "3. NIGHT ㅤ(Lynx Theme)",
         "uiTheme": "vs-dark",
-        "path": "./src/themes/Lynx-Night-theme.json"
+        "path": "./src/themes/03_Lynx-Night-theme.json"
       },
       {
         "label": "4. GHIBLI ㅤ(Lynx Theme)",
         "uiTheme": "vs",
-        "path": "./src/themes/Lynx-xGhibli-theme.json"
+        "path": "./src/themes/04_Lynx-Ghibli-theme.json"
       },
       {
         "label": "5. COFFEE (Lynx Theme)",
         "uiTheme": "vs-dark",
-        "path": "./src/themes/Lynx-yCoffee-theme.json"
+        "path": "./src/themes/05_Lynx-Coffee-theme.json"
       },
       {
         "label": "6. KIROㅤㅤ(Lynx Theme)",
         "uiTheme": "vs-dark",
-        "path": "./src/themes/Lynx-zKiro-theme.json"
+        "path": "./src/themes/06_Lynx-Kiro-theme.json"
       },
       {
         "label": "7. NVIMㅤㅤ(Lynx Theme)",
         "uiTheme": "vs-dark",
-        "path": "./src/themes/Lynx-NVIM-theme.json"
+        "path": "./src/themes/07_Lynx-NVIM-theme.json"
       }
     ],
 
