@@ -3764,6 +3764,9 @@
     },
     "woff": {
       "iconPath": "../../assets/svg/dark/wo-1.svg"
+    },
+    "icon-png": {
+      "iconPath": "../../assets/svg/dark/icon.svg"
     }
   },
   "folderNames": {
@@ -11411,6 +11414,7 @@
     "verse": "verse"
   },
   "fileNames": {
+    "icon.png": "icon-png",
     "global.css": "global-css",
     "main.lynx.bundle": "lynx",
     "lynx.config.ts": "lynx-config-file",

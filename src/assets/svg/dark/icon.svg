@@ -1,0 +1,25 @@
+<svg width="32" height="32" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="seal">
+      <path d="M8 1L9.8 2.6L12.2 2.2L13.2 4.4L15.2 5.8L14.6 8.2L15.2 10.6L13.2 12L12.2 14.2L9.8 13.8L8 15.4L6.2 13.8L3.8 14.2L2.8 12L0.8 10.6L1.4 8.2L0.8 5.8L2.8 4.4L3.8 2.2L6.2 2.6Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Sello con puntas suavizadas -->
+  <path d="M8 1L9.8 2.6L12.2 2.2L13.2 4.4L15.2 5.8L14.6 8.2L15.2 10.6L13.2 12L12.2 14.2L9.8 13.8L8 15.4L6.2 13.8L3.8 14.2L2.8 12L0.8 10.6L1.4 8.2L0.8 5.8L2.8 4.4L3.8 2.2L6.2 2.6Z"
+    fill="#0057FF" stroke="#0057FF" stroke-width="0.65" stroke-linejoin="round"/>
+
+  <g clip-path="url(#seal)">
+    <!-- Rayos del sol -->
+    <line x1="10.5" y1="4.2" x2="10.5" y2="4.78" stroke="white" stroke-width="0.6" stroke-linecap="round"/>
+    <line x1="12.3" y1="6" x2="11.72" y2="6" stroke="white" stroke-width="0.6" stroke-linecap="round"/>
+    <line x1="8.7" y1="6" x2="9.28" y2="6" stroke="white" stroke-width="0.6" stroke-linecap="round"/>
+    <line x1="11.9" y1="4.6" x2="11.46" y2="5.04" stroke="white" stroke-width="0.5" stroke-linecap="round" opacity="0.7"/>
+    <!-- Sol -->
+    <circle cx="10.5" cy="6" r="1.15" fill="white"/>
+    <!-- Montañas fondo (profundidad) -->
+    <path d="M3 11L5.8 7.2L8.5 10L10.8 7.2L13.5 11V15.5H3Z" fill="white" opacity="0.38"/>
+    <!-- Montañas frente -->
+    <path d="M3 15.5L5.5 10.4L7.5 11.9L9.5 10.2L11.5 11.6L13.5 15.5Z" fill="white"/>
+  </g>
+</svg>
