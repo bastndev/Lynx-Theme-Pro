@@ -16,15 +16,17 @@
         type="translate" 
         from="0 0" 
         to="-200 0" 
-        dur="3s" 
-        repeatCount="indefinite" />
+        dur="4s" 
+        repeatCount="indefinite"
+        calcMode="spline"
+        keySplines="0.4 0 0.2 1"/>
     </path>
   </defs>
 
   <path fill="url(#grad)" stroke="#2a6604" stroke-width="4" stroke-linejoin="round" d="m160 0 140 80v160l-140 80-140-80V80z"/>
 
   <g mask="url(#hexMask)">
-    <use href="#waveProp" x="0" y="5" opacity="0.6" />
-    <use href="#waveProp" x="-100" y="20" />
+    <use href="#waveProp" x="0" y="15" opacity="0.6" />
+    <use href="#waveProp" x="-100" y="30" />
   </g>
 </svg>
