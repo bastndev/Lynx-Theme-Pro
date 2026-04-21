@@ -1,0 +1,20 @@
+{
+  "fonts": [
+    {
+      "id": "lynx-test-icons",
+      "src": [
+        {
+          "path": "../../assets/woff/lynx-test-icons.woff",
+          "format": "truetype"
+        }
+      ],
+      "weight": "normal",
+      "style": "normal"
+    }
+  ],
+  "iconDefinitions": {
+    "extensions": {
+      "fontCharacter": "\\EAE6"
+    }
+  }
+}
