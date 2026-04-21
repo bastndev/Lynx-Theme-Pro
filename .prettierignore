@@ -1,19 +1,20 @@
 package.json
+src/__test__
 
 # Themes
-themes/Lynx-Dark-theme.json
-themes/Lynx-Light-theme.json
-themes/Lynx-Night-theme.json
-
-themes/Lynx-NVIM-theme.json
-
-themes/Lynx-xGhibli-theme.json
-themes/Lynx-yCoffee-theme.json
-themes/Lynx-zKiro-theme.json
+src/themes/01_Lynx-Dark-theme.json
+src/themes/02_Lynx-Light-theme.json
+src/themes/03_Lynx-Night-theme.json
+src/themes/04_Lynx-Ghibli-theme.json
+src/themes/05_Lynx-Coffee-theme.json
+src/themes/06_Lynx-Kiro-theme.json
+src/themes/07_Lynx-NVIM-theme.json
+src/themes/08_Lynx-Test-theme.json
 
 # Icons
-icons-themes/lynx-icons-dark.json
-icons-themes/lynx-icons-light.json
+src/icons/icon-themes/lynx-icons-dark.json
+src/icons/icon-themes/lynx-icons-gray.json
+src/icons/icon-themes/lynx-icons-light.json
 
 # Others
 ARCHITECTURE.md

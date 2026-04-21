@@ -2016,6 +2016,12 @@
     "folder-test-open": {
       "iconPath": "../../assets/svg/dark/folder-test-open.svg"
     },
+    "folder-test-lite": {
+      "iconPath": "../../assets/svg/dark/test-folder.svg"
+    },
+    "folder-test-lite-open": {
+      "iconPath": "../../assets/svg/dark/test-folder-open.svg"
+    },
     "folder-directive": {
       "iconPath": "../../assets/svg/dark/folder-directive.svg"
     },
@@ -2202,7 +2208,7 @@
     "folder-theme-open": {
       "iconPath": "../../assets/svg/dark/folder-theme-open.svg"
     },
-   "folder-color": {
+    "folder-color": {
       "iconPath": "../../assets/svg/dark/folder-color.svg"
     },
     "folder-color-open": {
@@ -3456,7 +3462,7 @@
     "state-folder-open": {
       "iconPath": "../../assets/svg/dark/state-folder-open.svg"
     },
-"folder-atom-open": {
+    "folder-atom-open": {
       "iconPath": "../../assets/svg/dark/folder-atom-open.svg"
     },
     "folder-atom": {
@@ -3611,6 +3617,60 @@
     },
     "folder-kiro-open": {
       "iconPath": "../../assets/svg/dark/folder-kiro-open.svg"
+    },
+    "folder-appwrite": {
+      "iconPath": "../../assets/svg/dark/folder-appwrite.svg"
+    },
+    "folder-appwrite-open": {
+      "iconPath": "../../assets/svg/dark/folder-appwrite-open.svg"
+    },
+    "folder-assembly": {
+      "iconPath": "../../assets/svg/dark/folder-assembly.svg"
+    },
+    "folder-assembly-open": {
+      "iconPath": "../../assets/svg/dark/folder-assembly-open.svg"
+    },
+    "folder-fcm": {
+      "iconPath": "../../assets/svg/dark/folder-form.svg"
+    },
+    "folder-fcm-open": {
+      "iconPath": "../../assets/svg/dark/folder-form-open.svg"
+    },
+    "folder-gemini": {
+      "iconPath": "../../assets/svg/dark/folder-gemini-ai.svg"
+    },
+    "folder-gemini-open": {
+      "iconPath": "../../assets/svg/dark/folder-gemini-ai-open.svg"
+    },
+    "folder-go": {
+      "iconPath": "../../assets/svg/dark/folder-go.svg"
+    },
+    "folder-go-open": {
+      "iconPath": "../../assets/svg/dark/folder-go-open.svg"
+    },
+    "folder-nginx": {
+      "iconPath": "../../assets/svg/dark/folder-nginx.svg"
+    },
+    "folder-nginx-open": {
+      "iconPath": "../../assets/svg/dark/folder-nginx-open.svg"
+    },
+    "folder-postman": {
+      "iconPath": "../../assets/svg/dark/folder-postman.svg"
+    },
+    "folder-postman-open": {
+      "iconPath": "../../assets/svg/dark/folder-postman-open.svg"
+    },
+    "folder-r": {
+      "iconPath": "../../assets/svg/dark/folder-r.svg"
+    },
+    "folder-r-open": {
+      "iconPath": "../../assets/svg/dark/folder-r-open.svg"
+    },
+    "folder-skills": {
+      "iconPath": "../../assets/svg/dark/folder-skills.svg"
+    },
+    "folder-skills-open": {
+      "iconPath": "../../assets/svg/dark/folder-skills-open.svg"
     },
     "folder": {
       "iconPath": "../../assets/svg/dark/folder-file.svg"
@@ -3779,9 +3839,31 @@
     },
     "icon-png": {
       "iconPath": "../../assets/svg/dark/icon.svg"
+    },
+    "appwrite": {
+      "iconPath": "../../assets/svg/dark/appwrite.svg"
+    },
+    "pear_schema": {
+      "iconPath": "../../assets/svg/dark/json_schema.svg"
+    },
+    "macaulay2": {
+      "iconPath": "../../assets/svg/dark/macaulay2.svg"
+    },
+    "rolldown": {
+      "iconPath": "../../assets/svg/dark/rolldown.svg"
+    },
+    "skill": {
+      "iconPath": "../../assets/svg/dark/skill.svg"
+    },
+    "toon": {
+      "iconPath": "../../assets/svg/dark/toon.svg"
+    },
+    "typespec": {
+      "iconPath": "../../assets/svg/dark/typedoc.svg"
     }
   },
   "folderNames": {
+    ".agents": "folder-robot",
     "skeleton": "folder-skeleton",
     "skeletons": "folder-skeleton",
     ".skeleton": "folder-skeleton",
@@ -4076,7 +4158,7 @@
     "test": "folder-test",
     ".test": "folder-test",
     "_test": "folder-test",
-    "__test__": "folder-test",
+    "__test__": "folder-test-lite",
     "tests": "folder-test",
     ".tests": "folder-test",
     "_tests": "folder-test",
@@ -7039,9 +7121,54 @@
     "toc": "folder-toc",
     ".toc": "folder-toc",
     "_toc": "folder-toc",
-    "__toc__": "folder-toc"
+    "__toc__": "folder-toc",
+    "appwrite": "folder-appwrite",
+    ".appwrite": "folder-appwrite",
+    "_appwrite": "folder-appwrite",
+    "__appwrite__": "folder-appwrite",
+    "assembly": "folder-assembly",
+    ".assembly": "folder-assembly",
+    "_assembly": "folder-assembly",
+    "__assembly__": "folder-assembly",
+    "fcm": "folder-fcm",
+    ".fcm": "folder-fcm",
+    "_fcm": "folder-fcm",
+    "__fcm__": "folder-fcm",
+    "firebase-messaging": "folder-fcm",
+    "cloud-messaging": "folder-fcm",
+    "gemini": "folder-gemini",
+    ".gemini": "folder-gemini",
+    "_gemini": "folder-gemini",
+    "__gemini__": "folder-gemini",
+    "gemini-ai": "folder-gemini",
+    "go": "folder-go",
+    ".go": "folder-go",
+    "_go": "folder-go",
+    "__go__": "folder-go",
+    "golang": "folder-go",
+    "nginx": "folder-nginx",
+    ".nginx": "folder-nginx",
+    "_nginx": "folder-nginx",
+    "__nginx__": "folder-nginx",
+    "conf.d": "folder-nginx",
+    "postman": "folder-postman",
+    ".postman": "folder-postman",
+    "_postman": "folder-postman",
+    "__postman__": "folder-postman",
+    "postman-collections": "folder-postman",
+    "r": "folder-r",
+    ".r": "folder-r",
+    "_r": "folder-r",
+    "__r__": "folder-r",
+    "r-project": "folder-r",
+    "skills": "folder-skills",
+    ".skills": "folder-skills",
+    "_skills": "folder-skills",
+    "__skills__": "folder-skills",
+    "skill": "folder-skills"
   },
   "folderNamesExpanded": {
+    ".agents": "folder-robot-open",
     "skeleton": "folder-skeleton-open",
     "skeletons": "folder-skeleton-open",
     ".skeleton": "folder-skeleton-open",
@@ -7336,7 +7463,7 @@
     "test": "folder-test-open",
     ".test": "folder-test-open",
     "_test": "folder-test-open",
-    "__test__": "folder-test-open",
+    "__test__": "folder-test-lite-open",
     "tests": "folder-test-open",
     ".tests": "folder-test-open",
     "_tests": "folder-test-open",
@@ -10299,7 +10426,51 @@
     "toc": "folder-toc-open",
     ".toc": "folder-toc-open",
     "_toc": "folder-toc-open",
-    "__toc__": "folder-toc-open"
+    "__toc__": "folder-toc-open",
+    "appwrite": "folder-appwrite-open",
+    ".appwrite": "folder-appwrite-open",
+    "_appwrite": "folder-appwrite-open",
+    "__appwrite__": "folder-appwrite-open",
+    "assembly": "folder-assembly-open",
+    ".assembly": "folder-assembly-open",
+    "_assembly": "folder-assembly-open",
+    "__assembly__": "folder-assembly-open",
+    "fcm": "folder-fcm-open",
+    ".fcm": "folder-fcm-open",
+    "_fcm": "folder-fcm-open",
+    "__fcm__": "folder-fcm-open",
+    "firebase-messaging": "folder-fcm-open",
+    "cloud-messaging": "folder-fcm-open",
+    "gemini": "folder-gemini-open",
+    ".gemini": "folder-gemini-open",
+    "_gemini": "folder-gemini-open",
+    "__gemini__": "folder-gemini-open",
+    "gemini-ai": "folder-gemini-open",
+    "go": "folder-go-open",
+    ".go": "folder-go-open",
+    "_go": "folder-go-open",
+    "__go__": "folder-go-open",
+    "golang": "folder-go-open",
+    "nginx": "folder-nginx-open",
+    ".nginx": "folder-nginx-open",
+    "_nginx": "folder-nginx-open",
+    "__nginx__": "folder-nginx-open",
+    "conf.d": "folder-nginx-open",
+    "postman": "folder-postman-open",
+    ".postman": "folder-postman-open",
+    "_postman": "folder-postman-open",
+    "__postman__": "folder-postman-open",
+    "postman-collections": "folder-postman-open",
+    "r": "folder-r-open",
+    ".r": "folder-r-open",
+    "_r": "folder-r-open",
+    "__r__": "folder-r-open",
+    "r-project": "folder-r-open",
+    "skills": "folder-skills-open",
+    ".skills": "folder-skills-open",
+    "_skills": "folder-skills-open",
+    "__skills__": "folder-skills-open",
+    "skill": "folder-skills-open"
   },
   "rootFolderNames": {},
   "rootFolderNamesExpanded": {},
@@ -11341,7 +11512,7 @@
     "mmd": "mermaid",
     "mermaid": "mermaid",
     "mojo": "mojo",
-    "\ud83d\udd25": "mojo",
+    "🔥": "mojo",
     "rbxl": "roblox",
     "rbxlx": "roblox",
     "rbxm": "roblox",
@@ -11367,7 +11538,7 @@
     "cairo": "cairo",
     "alloy": "grafana-alloy",
     "ftl": "freemarker",
-    "\u0446": "tsil",
+    "ц": "tsil",
     "tape": "tape",
     "hurl": "hurl",
     "cds": "cds",
@@ -11423,7 +11594,11 @@
     "toc": "toc",
     "css.ts": "vanilla-extract",
     "vcl": "varnish",
-    "verse": "verse"
+    "verse": "verse",
+    "m2": "macaulay2",
+    "skill": "skill",
+    "toon": "toon",
+    "tsp": "typespec"
   },
   "fileNames": {
     "icon.png": "icon-png",
@@ -13348,7 +13523,18 @@
     "UNLICENSE": "unlicense",
     "warp.toml": "warp",
     "app.json": "expo-app",
-    "eas.json": "expo-eas"
+    "eas.json": "expo-eas",
+    "appwrite.json": "appwrite",
+    ".appwrite.json": "appwrite",
+    "appwrite.config.js": "appwrite",
+    "appwrite.config.ts": "appwrite",
+    "pear.schema.json": "pear_schema",
+    "pear-schema.json": "pear_schema",
+    "rolldown.config.js": "rolldown",
+    "rolldown.config.ts": "rolldown",
+    "rolldown.config.mjs": "rolldown",
+    "typespec.json": "typespec",
+    "tspconfig.json": "typespec"
   },
   "languageIds": {
     "git": "git",
