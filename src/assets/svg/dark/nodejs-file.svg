@@ -19,7 +19,7 @@
         dur="4s" 
         repeatCount="indefinite"
         calcMode="spline"
-        keySplines="0.4 0 0.2 1"/>
+        keySplines="0.9 0 0.2 1"/>
     </path>
   </defs>
 
