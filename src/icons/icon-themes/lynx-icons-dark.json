@@ -3616,7 +3616,7 @@
       "iconPath": "../../assets/svg/dark/folder-file.svg"
     },
     "folder-open": {
-      "iconPath": "../../assets/svg/dark/folder-open.svg"
+      "iconPath": "../../assets/svg/dark/folder-file-open.svg"
     },
     "file-claude": {
       "iconPath": "../../assets/svg/dark/claude.svg"
