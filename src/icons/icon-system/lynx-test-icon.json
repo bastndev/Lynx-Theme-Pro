@@ -436,7 +436,7 @@
     "keyboard-tab-prev": {
       "fontCharacter": "\\EC3C"
     },
-    "kiri": {
+    "kiro": {
       "fontCharacter": "\\F114"
     },
     "law": {
@@ -932,7 +932,7 @@
       "fontCharacter": "\\EB9C"
     },
     "lightbulb-auto-fix": {
-      "fontCharacter": "\\F113"
+      "fontCharacter": "\\EB13"
     },
     "lightbulb-error": {
       "fontCharacter": "\\EC40"
@@ -950,16 +950,16 @@
       "fontCharacter": "\\EB15"
     },
     "list-filter": {
-      "fontCharacter": "\\EB03"
+      "fontCharacter": "\\EB83"
     },
     "list-flat": {
-      "fontCharacter": "\\EB04"
+      "fontCharacter": "\\EB84"
     },
     "list-ordered": {
       "fontCharacter": "\\EB16"
     },
     "list-selection": {
-      "fontCharacter": "\\EB05"
+      "fontCharacter": "\\EB85"
     },
     "list-tree": {
       "fontCharacter": "\\EB86"
@@ -1016,10 +1016,10 @@
       "fontCharacter": "\\EB1F"
     },
     "menu": {
-      "fontCharacter": "\\EB84"
+      "fontCharacter": "\\EB94"
     },
     "merge": {
-      "fontCharacter": "\\EAAB"
+      "fontCharacter": "\\EBAB"
     },
     "mic-filled": {
       "fontCharacter": "\\EC1C"
