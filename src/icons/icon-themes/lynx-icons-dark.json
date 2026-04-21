@@ -3,6 +3,9 @@
     "git": {
       "iconPath": "../../assets/svg/dark/git.svg"
     },
+    "git-ignore": {
+      "iconPath": "../../assets/svg/dark/git-ignore.svg"
+    },
     "github-actions-workflow": {
       "iconPath": "../../assets/svg/dark/github-actions-workflow.svg"
     },
@@ -11702,10 +11705,10 @@
     "graphql.config.cts": "graphql",
     ".graphqlconfig": "graphql",
     ".git": "git",
-    ".gitignore": "git",
+    ".gitignore": "git-ignore",
     ".gitmessage": "git",
-    ".gitignore-global": "git",
-    ".gitignore_global": "git",
+    ".gitignore-global": "git-ignore",
+    ".gitignore_global": "git-ignore",
     ".gitattributes": "git",
     ".gitattributes-global": "git",
     ".gitattributes_global": "git",
