@@ -2016,6 +2016,12 @@
     "folder-test-open": {
       "iconPath": "../../assets/svg/dark/folder-test-open.svg"
     },
+    "folder-test-lite": {
+      "iconPath": "../../assets/svg/dark/test-folder.svg"
+    },
+    "folder-test-lite-open": {
+      "iconPath": "../../assets/svg/dark/folder-test-open.svg"
+    },
     "folder-directive": {
       "iconPath": "../../assets/svg/dark/folder-directive.svg"
     },
@@ -4152,7 +4158,7 @@
     "test": "folder-test",
     ".test": "folder-test",
     "_test": "folder-test",
-    "__test__": "folder-test",
+    "__test__": "folder-test-lite",
     "tests": "folder-test",
     ".tests": "folder-test",
     "_tests": "folder-test",
@@ -7457,7 +7463,7 @@
     "test": "folder-test-open",
     ".test": "folder-test-open",
     "_test": "folder-test-open",
-    "__test__": "folder-test-open",
+    "__test__": "folder-test-lite-open",
     "tests": "folder-test-open",
     ".tests": "folder-test-open",
     "_tests": "folder-test-open",
