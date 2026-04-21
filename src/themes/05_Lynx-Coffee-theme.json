@@ -169,40 +169,40 @@
     "editorSuggestWidget.focusHighlightForeground": "#E95378", // - Focus highlight
 
     // --- -- - Editor Widgets - MID + AI
-    "editorWidget.resizeBorder":             "#E95378",    // - Widget resize border
+    "editorWidget.resizeBorder":             "#a85a4c",    // - Widget resize border
     "editorWidget.border":                   "#232530",  // - Widget border +AI
-    "widget.border":                         "#4d412f20",  // - General widget border
+    "widget.border":                         "#232530",  // - General widget border
     "widget.shadow":                         "#16161C",  // - Widget shadow
 
     // --- -- - Editor Diff git
     "diffEditor.insertedTextBackground":    "#09F7A01A",   // - Inserted text bg
     "diffEditor.removedTextBackground":     "#F43E5C1A",   // - Removed text bg
-    "diffEditor.insertedLineBackground":    "#97c93d10",   // - Inserted line bg
-    "diffEditor.removedLineBackground":     "#d4737310",   // - Removed line bg
+    "diffEditor.insertedLineBackground":    "#09F7A01A",   // - Inserted line bg
+    "diffEditor.removedLineBackground":     "#F43E5C1A",   // - Removed line bg
     "diffEditor.diagonalFill":              "#ffffff20",   // - Diagonal fill
 
     // TODO: COPILOT -AI MARK: [THREE-3]-[AI]
     "input.background":                      "#141414",    // - bg color
-    "input.foreground":                      "#ffffff",    // - Input text color
-    "input.border":                          "#311d1c",    // - Input border color
+    "input.foreground":                      "#D5D8DA",    // - Input text color
+    "input.border":                          "#4d412f20",    // - Input border color
     "input.placeholderForeground":           "#a0a0a0",    // - Input placeholder text
     "focusBorder":                           "#1A1C23",    // - Border - AI and box 1 | ES
     "editorCursor.foreground":               "#FB8B24",    // - Line point
 
-    "disabledForeground":                    "#d0d0d0",    // - Disabled text color
-    "chat.avatarBackground":                 "#170F10",    // - Chat avatar bg
+    "disabledForeground":                    "#D5D8DA",    // - Disabled text color
+    "chat.avatarBackground":                 "#141414",    // - Chat avatar bg
 
-    "icon.foreground":                       "#ffd0bb",    // - Icon color
-    "chat.avatarForeground":                 "#ffffff",    // - Chat avatar text color
+    "icon.foreground":                       "#D5D8DA",    // - Icon color
+    "chat.avatarForeground":                 "#D5D8DA",    // - Chat avatar text color
     "foreground":                            "#D5D8DA",    // - General text color
 
     "chat.requestBorder":                    "#b05a5088",  // - Chat request border
-    "editorWidget.foreground":               "#ffffff",    // - AI Select text & ctrl+p
+    "editorWidget.foreground":               "#D5D8DA",    // - AI Select text & ctrl+p
 
-    "peekViewTitleDescription.foreground":   "#E95378",    // - Select copilot
+    "peekViewTitleDescription.foreground":   "#a85a4c",    // - Select copilot
     "editorGutter.addedBackground":          "#09F7A0B3",    // - Added lines bg
     "inputOption.activeBackground":          "#a85a4c50",  // - Active option bg
-    "inputOption.activeForeground":          "#ffd0bb",    // - Active option text
+    "inputOption.activeForeground":          "#D5D8DA",    // - Active option text
 
     // TODO: MARK: [PLUS]
     // --- -- - progress bar | LOADING
