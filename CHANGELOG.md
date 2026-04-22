@@ -6,7 +6,7 @@ A complete and versatile theme collection designed for optimal coding experience
 
 ## Features
 
-- **7 Beautiful Theme Variants**: Dark Mode, Light Mode, Night Mode, Ghibli Mode, Coffee Mode, Kiro Mode, and NVIM Mode
+- **7 Beautiful Theme Variants**: Dark Mode, Light Mode, Night Mode, Ghibli Mode, Fury Mode, Kiro Mode, and NVIM Mode
 - **Universal Compatibility**: Perfect for coding in any lighting environment
 - **Eye Comfort**: Warm and comfortable coding experience with optional Sun filter
 - **Professional Design**: Thoughtfully crafted for extended coding sessions
@@ -20,6 +20,43 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 
 <br>
 <!-- --- -->
+
+---
+## [4.4.0] - 2026-04-20
+
+### Added
+
+- Introduced **Lynx Fury Theme** as a new dark variant with a bold, high-contrast visual identity.
+
+### Changed
+
+- Replaced **Lynx Coffee Theme** with **Lynx Fury Theme** in the active theme lineup.
+- Maintained the catalog at 7 total theme variants after the lineup change.
+- Updated release metadata and version references for `4.4.0`.
+
+### Improved
+
+- Refined Fury UI colors across title bar, side bar, activity bar, editor widgets, minimap, and scrollbars.
+- Enhanced syntax readability with tuned comment and keyword colors.
+
+---
+## [4.3.0] - 2026-04-20
+
+### Improved
+
+- Modernized visual styling across the theme collection for a cleaner and more consistent interface.
+- Refined key UI surfaces including menus, banners, activity bar, editor states, widgets, and selections.
+- Improved syntax readability with better import/module path highlighting and token emphasis updates.
+
+### Changed
+
+- Refreshed older icons with updated designs for better consistency and clarity.
+- Standardized icon tones and visual weight across existing icon sets.
+- Refactored theme structure and formatting for improved maintainability.
+
+### Added
+
+- Added new icons to expand file and folder coverage across more project types.
 
 ---
 ## [4.2.0] - 2026-04-20
