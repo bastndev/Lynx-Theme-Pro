@@ -139,21 +139,21 @@
     "editorStickyScrollHover.background":    "#000000",    // - Select hover before white now black
 
     // --- -- - Scrollbar - RIGHT & (MINIMAP)
-    "scrollbarSlider.background":            "#ee07071a",  // - Scroll bar small and large
-    "scrollbarSlider.hoverBackground":       "#6E6E6E4D",  // - Hover bg
-    "scrollbarSlider.activeBackground":      "#6E6E6E80",  // - Active bg
-    "scrollbar.shadow":                      "#111111",  // - SHADOW SCROLL
+    "scrollbarSlider.background":            "#1e2124a0",  // - Scroll bar (más sutil)
+    "scrollbarSlider.hoverBackground":       "#272a2dc0",  // - Hover bg
+    "scrollbarSlider.activeBackground":      "#2e3135d0",  // - Active bg
+    "scrollbar.shadow":                      "#0a0b0ce0",  // - SHADOW SCROLL
 
-    // --- -- - Minimap
-    "minimap.background":                          "#000000",    // - Minimap bg
-    "minimap.errorHighlight":                      "#000000",    // - Error highlight
-    "minimap.warningHighlight":                    "#c9935a",    // - Warning highlight
-    "minimap.findMatchHighlight":                  "#a0522d50",  // - Mini map Find match
-    "minimap.selectionHighlight":                  "#c9935a50",  // - Selection
+    // --- -- - Minimap (gris al seleccionar)
+    "minimap.background":                    "#000000",    // - Minimap bg
+    "minimap.errorHighlight":                "#ff5555",    // - Error highlight
+    "minimap.warningHighlight":              "#f5a623",    // - Warning highlight
+    "minimap.findMatchHighlight":            "#9a9a9a88",  // - Mini map Find match (gris)
+    "minimap.selectionHighlight":            "#b0b0b066",  // - Selection (gris)
 
-    "minimapSlider.background":                    "#8a6a4a30",  // - Slider bg
-    "minimapSlider.hoverBackground":               "#8a6a4a40",  // - Slider hover
-    "minimapSlider.activeBackground":              "#8a6a4a50",  // - Slider active
+    "minimapSlider.background":              "#8a8a8a24",  // - Slider bg (gris)
+    "minimapSlider.hoverBackground":         "#a0a0a03d",  // - Slider hover (gris)
+    "minimapSlider.activeBackground":        "#b8b8b852",  // - Slider active (gris)
 
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground":     "#D6B48B",    // - Active line number
