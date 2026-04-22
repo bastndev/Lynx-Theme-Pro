@@ -247,7 +247,7 @@
     "terminal.ansiBrightRed":                "#F8BBD0",    // - Terminal bright red color
     "terminal.ansiBrightWhite":              "#ffffff",    // - Terminal bright white color
     "terminal.ansiBrightYellow":             "#D4A574",    // - Terminal bright yellow color
-    "terminal.ansiCyan":                     "#F8BBD0",    // - Terminal cyan color
+    "terminal.ansiCyan":                     "#D4A574",    // - Terminal cyan color
     "terminal.ansiGreen":                    "#E8B88A",    // - Terminal green color
     "terminal.ansiMagenta":                  "#EC407A",    // - Terminal magenta color
     "terminal.ansiRed":                      "#E91E63",    // - Terminal red color
