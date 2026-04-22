@@ -170,9 +170,9 @@
 
     // --- -- - Editor Widgets - MID + AI
     "editorWidget.resizeBorder":             "#a0522d",    // - Widget resize border
-    "editorWidget.border":                   "#1a1a1a",  // - Widget border +AI
-    "widget.border":                         "#1a1a1a",  // - General widget border
-    "widget.shadow":                         "#111111",  // - Widget shadow
+    "editorWidget.border":                   "#1a1a1a",    // - Widget border +AI
+    "widget.border":                         "#1a1a1a",    // - General widget border
+    "widget.shadow":                         "#111111",    // - Widget shadow
 
     // --- -- - Editor Diff git
     "diffEditor.insertedTextBackground":    "#F5C6A51A",   // - Inserted text bg
@@ -184,7 +184,7 @@
     // TODO: COPILOT -AI MARK: [THREE-3]-[AI]
     "input.background":                      "#0A0A0A",    // - bg color
     "input.foreground":                      "#FFFFFF",    // - Input text color
-    "input.border":                          "#D6B48B40",    // - Input border color
+    "input.border":                          "#D6B48B40",  // - Input border color
     "input.placeholderForeground":           "#505050",    // - Input placeholder text
     "focusBorder":                           "#000000",    // - Border - AI and box 1 | ES
     "editorCursor.foreground":               "#F10086",    // - Line point
