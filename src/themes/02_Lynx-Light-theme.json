@@ -525,14 +525,14 @@
       "name": "Astro String Quoted",
       "scope": ["string.quoted.astro"],
       "settings": {
-      "foreground": "#1d6910"
+        "foreground": "#1d6910"
       }
     },
     {
       "name": "Astro Source",
       "scope": ["source.astro"],
       "settings": {
-      "foreground": "#2d2d2d"
+        "foreground": "#2d2d2d"
       }
     },
     
@@ -1026,6 +1026,27 @@
       "scope": ["meta.import"],
       "settings": {
         "foreground": "#1F2937"
+      }
+    },
+    {
+      "name": "Import Module Path",
+      "scope": [
+        "meta.import string.quoted",
+        "meta.import.from string.quoted",
+        "meta.import.js string.quoted",
+        "meta.import.ts string.quoted",
+        "meta.import.astro string.quoted",
+        "meta.import string.quoted.single",
+        "meta.import string.quoted.double",
+        "meta.import string.quoted.single.astro",
+        "meta.import string.quoted.double.astro",
+        "meta.import string.quoted.single.js",
+        "meta.import string.quoted.double.js",
+        "meta.import string.quoted.single.ts",
+        "meta.import string.quoted.double.ts"
+      ],
+      "settings": {
+        "foreground": "#c234ca"
       }
     },
     {

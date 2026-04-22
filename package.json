@@ -2,7 +2,7 @@
   "name": "lynx-theme",
   "displayName": "Lynx Theme Pro + (Icons)",
   "description": "Available now: VSCode • Antigravity • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
-  "version": "4.3.1",
+  "version": "4.4.0",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
@@ -21,6 +21,7 @@
     "minimal",
     "productivity",
     "eye-friendly",
+    "l theme",
     "lynx"
   ],
   "icon": "icon.png",
@@ -68,9 +69,9 @@
         "path": "./src/themes/04_Lynx-Ghibli-theme.json"
       },
       {
-        "label": "5. COFFEE (Lynx Theme)",
+        "label": "5. FURY ㅤ(Lynx Theme)",
         "uiTheme": "vs-dark",
-        "path": "./src/themes/05_Lynx-Coffee-theme.json"
+        "path": "./src/themes/05_Lynx-Fury-theme.json"
       },
       {
         "label": "6. KIROㅤㅤ(Lynx Theme)",
