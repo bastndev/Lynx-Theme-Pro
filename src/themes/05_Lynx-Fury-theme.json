@@ -494,8 +494,8 @@
     "enumMember": { "foreground": "#FFB300", "fontStyle": "bold" },
     // --- Functions & Events
     "event": { "foreground": "#C4547A", "fontStyle": "italic" },
-    "function": { "foreground": "#FF9D00", "fontStyle": "bold" },
-    "method": { "foreground": "#FF9D00", "fontStyle": "bold" },
+    "function": { "foreground": "#F3B23D", "fontStyle": "bold" },
+    "method": { "foreground": "#F3B23D", "fontStyle": "bold" },
     // --- Special
     "macro": { "foreground": "#ff8a1d", "fontStyle": "bold italic" },
     "decorator": { "foreground": "#C4547A", "fontStyle": "bold" },
