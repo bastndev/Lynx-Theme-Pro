@@ -281,7 +281,7 @@
     // TODO: STATUS BAR MARK: - [BOTTOM]
     "statusBar.background":                  "#000000",    // - Status bar bg
     "statusBar.foreground":                  "#D5D5D580",    // - Status bar text color
-    "statusBar.debuggingBackground":         "#1c0a16",    // - Status bar debugging bg___
+    "statusBar.debuggingBackground":         "#1c0a11",    // - Status bar debugging bg___
     "statusBar.debuggingForeground":         "#ffffff",    // - Status bar debugging text
     "statusBar.noFolderBackground":          "#151515",  // - Status bar box bg -HOVER
     "statusBarItem.hoverBackground":         "#222222",    // - Status bar hover bg -Text
