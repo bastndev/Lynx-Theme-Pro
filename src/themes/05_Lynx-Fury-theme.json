@@ -40,7 +40,7 @@
     "activityBar.border":                    "#080808",    // - Activity bar border
     "activityBarTop.inactiveForeground":     "#a0a0a0",    // - No selection icon
     "activityBarBadge.background":           "#E91E63",    // - Badge bg
-    "activityBarBadge.foreground":           "#0A0A0A",    // - Badge text
+    "activityBarBadge.foreground":           "#ffffff",    // - Badge text
     "activityBar.activeBorder":              "#E91E63",    // - Active item border
     "activityBar.activeBackground":          "#151515",    // - Active item 
     "activityBar.activeFocusBorder":         "#E91E63",    // - Active item focus border
