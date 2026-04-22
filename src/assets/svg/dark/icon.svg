@@ -1,25 +1,20 @@
-<svg width="32" height="32" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="32" height="32" viewBox="0.5 0.5 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <clipPath id="seal">
       <path d="M8 1.8L9.55 3.15L11.65 2.85L12.5 4.75L14.3 6L13.75 8.2L14.3 10.4L12.5 11.65L11.65 13.55L9.55 13.25L8 14.6L6.45 13.25L4.35 13.55L3.5 11.65L1.7 10.4L2.25 8.2L1.7 6L3.5 4.75L4.35 2.85L6.45 3.15Z"/>
     </clipPath>
   </defs>
 
-  <!-- Sello con puntas suavizadas -->
   <path d="M8 1.8L9.55 3.15L11.65 2.85L12.5 4.75L14.3 6L13.75 8.2L14.3 10.4L12.5 11.65L11.65 13.55L9.55 13.25L8 14.6L6.45 13.25L4.35 13.55L3.5 11.65L1.7 10.4L2.25 8.2L1.7 6L3.5 4.75L4.35 2.85L6.45 3.15Z"
     fill="#0057FF" stroke="#0057FF" stroke-width="0.65" stroke-linejoin="round"/>
 
   <g clip-path="url(#seal)">
-    <!-- Rayos del sol -->
     <line x1="10.5" y1="4.8" x2="10.5" y2="5.35" stroke="white" stroke-width="0.6" stroke-linecap="round"/>
     <line x1="12.1" y1="6.6" x2="11.55" y2="6.6" stroke="white" stroke-width="0.6" stroke-linecap="round"/>
     <line x1="8.9" y1="6.6" x2="9.45" y2="6.6" stroke="white" stroke-width="0.6" stroke-linecap="round"/>
     <line x1="11.7" y1="5.2" x2="11.3" y2="5.6" stroke="white" stroke-width="0.5" stroke-linecap="round" opacity="0.7"/>
-    <!-- Sol -->
     <circle cx="10.5" cy="6.6" r="1.15" fill="white"/>
-    <!-- Montañas fondo (profundidad) -->
     <path d="M3.8 11.3L6.2 7.8L8.6 10.3L10.7 7.8L13 11.3V15H3.8Z" fill="white" opacity="0.38"/>
-    <!-- Montañas frente -->
     <path d="M3.8 15L6 10.35L7.8 11.7L9.6 10.15L11.4 11.45L13 15Z" fill="white"/>
   </g>
 </svg>
