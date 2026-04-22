@@ -22,7 +22,20 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 <!-- --- -->
 
 ---
-## [5.0.0] - 2026-04-21
+## [5.0.0] - 2026-04-25
+
+---
+## [4.4.1] - 2026-04-22
+
+### Improved
+
+- Refined **Lynx Fury Theme** (Theme 05) with aesthetic enhancements and better color balance.
+- Enhanced gray icon set for improved clarity and consistent visual weight.
+- Optimized dark mode color palette for better visibility and reduced eye strain.
+
+### Added
+
+- Added explorer arrows to the icon set for better navigation and folder state indication.
 
 ---
 ## [4.4.0] - 2026-04-20
