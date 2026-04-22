@@ -281,14 +281,14 @@
     // TODO: STATUS BAR MARK: - [BOTTOM]
     "statusBar.background":                  "#000000",    // - Status bar bg
     "statusBar.foreground":                  "#D5D5D580",    // - Status bar text color
-    "statusBar.debuggingBackground":         "#D4A574",    // - Status bar debugging bg___
+    "statusBar.debuggingBackground":         "#695858",    // - Status bar debugging bg___
     "statusBar.debuggingForeground":         "#0A0A0A",    // - Status bar debugging text
     "statusBar.noFolderBackground":          "#151515",  // - Status bar box bg -HOVER
     "statusBarItem.hoverBackground":         "#222222",    // - Status bar hover bg -Text
     "statusBar.noFolderForeground":          "#d0d0d0",    // - Status bar no folder text
     "statusBarItem.hoverForeground":         "#ffffff",    // - Status bar item hover text
     "statusBarItem.activeBackground":        "#a0522d",    // - Status bar active item bg
-    "statusBarItem.remoteBackground":        "#000000",    // - Remote corner bg
+    "statusBarItem.remoteBackground":        "#E91E63",    // - Remote corner bg
     "statusBarItem.remoteForeground":        "#ffffff",    // - Remote corner logo-ICON
     "statusBarItem.remoteHoverForeground":   "#f0f0f0",    // - Hover corner logo-ICON
     "statusBarItem.prominentBackground":     "#222222",    // - Bottom box bg
