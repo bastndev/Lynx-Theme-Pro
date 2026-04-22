@@ -566,7 +566,6 @@
       "scope": ["keyword.control.import", "keyword.control.export", "keyword.control.from"],
       "settings": {
         "foreground": "#46ACAD",
-        "fontStyle": "bold"
       }
     },
     {
@@ -574,7 +573,7 @@
       "scope": ["keyword.control.async", "keyword.control.await"],
       "settings": {
         "foreground": "#46ACAD",
-        "fontStyle": "bold"
+        "fontStyle": "bold italic"
       }
     },
     {
@@ -582,7 +581,6 @@
       "scope": ["keyword.other"],
       "settings": {
         "foreground": "#46ACAD",
-        "fontStyle": "bold"
       }
     },
     {
@@ -598,7 +596,6 @@
       "scope": ["storage.type.annotation"],
       "settings": {
         "foreground": "#46ACAD",
-        "fontStyle": "bold"
       }
     },
     {
@@ -606,7 +603,6 @@
       "scope": ["storage.type.generic"],
       "settings": {
         "foreground": "#46ACAD",
-        "fontStyle": "bold"
       }
     },
     {
@@ -621,7 +617,6 @@
       "scope": ["storage.modifier"],
       "settings": {
         "foreground": "#46ACAD",
-        "fontStyle": "bold"
       }
     },
     {
@@ -629,7 +624,6 @@
       "scope": ["storage.modifier.import"],
       "settings": {
         "foreground": "#46ACAD",
-        "fontStyle": "bold"
       }
     },
     
@@ -1119,7 +1113,6 @@
       "scope": ["entity.name.tag.yaml"],
       "settings": {
         "foreground": "#FF4797",
-        "fontStyle": "bold"
       }
     },
     
