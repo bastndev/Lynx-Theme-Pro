@@ -68,7 +68,7 @@
     "sideBarSectionHeader.foreground":       "#D5D8DAB3",    // - Css text and BOT txt
 
     // --- -- - Buttons
-    "button.background":                     "#E91E63",    // - Button bg
+    "button.background":                     "#222222",    // - Button bg
     "button.foreground":                     "#D5D5D5",    // - Button text
     "button.hoverBackground":                "#ad2553",    // - Button hover
     "button.secondaryBackground":            "#141414",    // - Secondary button bg
@@ -83,11 +83,11 @@
     "editorHoverWidget.statusBarBackground": "#000000",    // - Hover widget status bar bg
 
     //--- -- - GIT Decoration
-    "gitDecoration.modifiedResourceForeground":      "#D4A574",    // - Modified files
+    "gitDecoration.modifiedResourceForeground":      "#d6c2a1",    // - Modified files
     "gitDecoration.conflictingResourceForeground":   "#ff408190",  // - Merge conflicts
     "gitDecoration.deletedResourceForeground":       "#F06292",  // - Deleted files
     "gitDecoration.ignoredResourceForeground":       "#D5D5D54D",  // - Ignored files
-    "gitDecoration.untrackedResourceForeground":     "#fead2a",    // - Untracked files
+    "gitDecoration.untrackedResourceForeground":     "#D4A574",    // - Untracked files
     "gitDecoration.stageModifiedResourceForeground": "#ff4081",    // - Staged modified files
     "gitDecoration.stageDeletedResourceForeground":  "#ff4081",    // - Staged deleted files
     "gitDecoration.submoduleResourceForeground":     "#ff4081",    // - Submodules
