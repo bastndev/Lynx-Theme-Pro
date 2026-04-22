@@ -69,9 +69,9 @@
 
     // --- -- - Buttons
     "button.background":                     "#cbb8a0",    // - Button bg
-    "button.foreground":                     "#4a3f35",    // - Button text
+    "button.foreground":                     "#6b5d4f",    // - Button text
     "button.hoverBackground":                "#dfccb5",    // - Button hover
-    "button.secondaryBackground":            "#e8d5c4",    // - Secondary button bg
+    "button.secondaryBackground":            "#e8d5c4",    // - Secondary button bg | FM-AM
     "button.secondaryForeground":            "#8b7865",    // - Secondary button text
     "button.secondaryHoverBackground":       "#f2e6d3",    // - Secondary button hover
     "toolbar.hoverBackground":               "#f8efe2",    // - button hover bg
