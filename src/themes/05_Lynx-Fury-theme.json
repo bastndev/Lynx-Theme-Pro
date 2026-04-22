@@ -610,7 +610,6 @@
       "scope": ["storage.type.function.arrow"],
       "settings": {
         "foreground": "#00E5FF",
-        "fontStyle": "bold"
       }
     },
     {
@@ -960,7 +959,6 @@
       "scope": ["entity.other.attribute-name"],
       "settings": {
         "foreground": "#FFD54F",
-        "fontStyle": "italic"
       }
     },
     {
@@ -1255,7 +1253,6 @@
       "scope": ["entity.other.attribute-name.jsx", "entity.other.attribute-name.tsx"],
       "settings": {
         "foreground": "#FFD54F",
-        "fontStyle": "italic"
       }
     },
     {
@@ -1333,7 +1330,6 @@
       "scope": ["storage.type.function.lambda"],
       "settings": {
         "foreground": "#00E5FF",
-        "fontStyle": "bold"
       }
     },
     {
