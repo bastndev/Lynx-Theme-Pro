@@ -525,14 +525,14 @@
       "name": "Astro String Quoted",
       "scope": ["string.quoted.astro"],
       "settings": {
-      "foreground": "#1d6910"
+        "foreground": "#1d6910"
       }
     },
     {
       "name": "Astro Source",
       "scope": ["source.astro"],
       "settings": {
-      "foreground": "#2d2d2d"
+        "foreground": "#2d2d2d"
       }
     },
     
