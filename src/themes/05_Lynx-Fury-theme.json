@@ -507,17 +507,17 @@
     {
       "name": "Comment — Line",
       "scope": ["comment.line", "punctuation.definition.comment"],
-      "settings": { "fontStyle": "italic", "foreground": "#A0A0A04D" }
+      "settings": { "fontStyle": "italic", "foreground": "#7A7A7A" }
     },
     {
       "name": "Comment — Block",
       "scope": "comment.block",
-      "settings": { "fontStyle": "italic", "foreground": "#A0A0A04D" }
+      "settings": { "fontStyle": "italic", "foreground": "#7A7A7A" }
     },
     {
       "name": "Comment — Documentation",
       "scope": ["comment.block.documentation", "comment.line.documentation"],
-      "settings": { "fontStyle": "italic", "foreground": "#A0A0A04D" }
+      "settings": { "fontStyle": "italic", "foreground": "#7A7A7A" }
     },
     
     // ===== Astro =======
