@@ -478,28 +478,28 @@
     // --- Namespaces & Modules
     "namespace": { "foreground": "#FF7A00", "fontStyle": "italic" },
     // --- Types & Structures
-    "class": { "foreground": "#FF2A55", "fontStyle": "bold" },
+    "class": { "foreground": "#D4607A", "fontStyle": "bold" },
     "enum": { "foreground": "#FF7A00", "fontStyle": "bold" },
-    "interface": { "foreground": "#FF2A55", "fontStyle": "bold italic" },
-    "struct": { "foreground": "#FF2A55", "fontStyle": "bold" },
+    "interface": { "foreground": "#D4607A", "fontStyle": "bold italic" },
+    "struct": { "foreground": "#D4607A", "fontStyle": "bold" },
     "typeParameter": { "foreground": "#FF9D00", "fontStyle": "italic" },
-    "type": { "foreground": "#FF2A55", "fontStyle": "bold" },
+    "type": { "foreground": "#D4607A", "fontStyle": "bold" },
     // --- Variables & Properties
     "parameter": { "foreground": "#FFB300", "fontStyle": "italic" },
     "variable": "#FFF3E0",
     "variable.readonly": { "foreground": "#FFF3E0", "fontStyle": "italic" },
-    "variable.defaultLibrary": { "foreground": "#FF007F", "fontStyle": "bold" },
+    "variable.defaultLibrary": { "foreground": "#C4547A", "fontStyle": "bold" },
     "property": "#FFD54F",
     "property.readonly": { "foreground": "#FFD54F", "fontStyle": "italic" },
     "enumMember": { "foreground": "#FFB300", "fontStyle": "bold" },
     // --- Functions & Events
-    "event": { "foreground": "#FF007F", "fontStyle": "italic" },
+    "event": { "foreground": "#C4547A", "fontStyle": "italic" },
     "function": { "foreground": "#FF9D00", "fontStyle": "bold" },
     "method": { "foreground": "#FF9D00", "fontStyle": "bold" },
     // --- Special
-    "macro": { "foreground": "#FF7A00", "fontStyle": "bold italic" },
-    "decorator": { "foreground": "#FF007F", "fontStyle": "bold" },
-    "label": { "foreground": "#FF7A00" }
+    "macro": { "foreground": "#ff8a1d", "fontStyle": "bold italic" },
+    "decorator": { "foreground": "#C4547A", "fontStyle": "bold" },
+    "label": { "foreground": "#ff8a1d" }
   },
 
   "tokenColors": [
