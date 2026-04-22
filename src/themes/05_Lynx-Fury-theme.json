@@ -61,11 +61,11 @@
     "contrastActiveBorder":                  "#00000000",  // - contrast active border BOX-----
 
     // --- -- - Side Bar
-    "sideBar.background":                    "#000000",    // - Ai and Side bar bg
-    "sideBar.foreground":                    "#D5D5D580",  // - Text vscode all
-    "sideBarSectionHeader.background":       "#000000",    // - right bot bg
-    "sideBarTitle.foreground":               "#ffffff",    // - Explorer
-    "sideBarSectionHeader.foreground":       "#D5D5D5B3",    // - Css text and BOT txt
+    "sideBar.background":                    "#050505",    // - Ai and Side bar bg
+    "sideBar.foreground":                    "#D5D8DA80",  // - Text vscode all
+    "sideBarSectionHeader.background":       "#050505",    // - right bot bg
+    "sideBarTitle.foreground":               "#D6B48B",    // - Explorer
+    "sideBarSectionHeader.foreground":       "#D5D8DAB3",    // - Css text and BOT txt
 
     // --- -- - Buttons
     "button.background":                     "#222222",    // - Button bg
