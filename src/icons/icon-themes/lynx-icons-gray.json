@@ -1,5 +1,5 @@
 {
-  "hidesExplorerArrows": true,
+  "hidesExplorerArrows": false,
   "iconDefinitions": {
     "_folder_dark": {
       "iconPath": "../../assets/svg/gray/folder_dark.svg"
