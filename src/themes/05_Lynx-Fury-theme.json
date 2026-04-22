@@ -240,8 +240,8 @@
     "terminal.ansiBlack":                    "#000000",    // - Terminal black color
     "terminal.ansiBlue":                     "#EC407A",    // - Terminal blue color
     "terminal.ansiBrightBlack":              "#545454",    // - Terminal bright black color
-    "terminal.ansiBrightBlue":               "#D4A574",    // - Terminal bright blue color
-    "terminal.ansiBrightCyan":               "#D4A574",    // - Terminal bright cyan color
+    "terminal.ansiBrightBlue":               "#F8BBD0",    // - Terminal bright blue color
+    "terminal.ansiBrightCyan":               "#F8BBD0",    // - Terminal bright cyan color
     "terminal.ansiBrightGreen":              "#F5C6A5",    // - Terminal bright green color
     "terminal.ansiBrightMagenta":            "#F8BBD0",    // - Terminal bright magenta color
     "terminal.ansiBrightRed":                "#F8BBD0",    // - Terminal bright red color
