@@ -224,7 +224,7 @@
     "keybindingLabel.bottomBorder":          "#c9935a",    // - Keybinding label bottom border
 
     // --- -- - Panel Terminal & Text BOTTOM
-    "panel.background":                      "#0d0d0d",    // - Panel bg
+    "panel.background":                      "#0a0a0a",    // - Panel bg
     "panel.border":                          "#8a6a4a60",  // - Panel border
     "panelTitle.activeBorder":               "#E91E63",    // - Active panel title border
     "panelTitle.activeForeground":           "#ffffff",    // - Active panel title text
@@ -235,7 +235,7 @@
     "panelSectionHeader.foreground":         "#c9935a",    // - Panel section header text
 
     // --- -- - Terminal colors
-    "terminal.background":                   "#0d0d0d",    // - Terminal bg
+    "terminal.background":                   "#0a0a0a",    // - Terminal bg
     "terminal.foreground":                   "#D5D5D5",    // - Terminal text
     "terminal.ansiBlack":                    "#000000",    // - Terminal black color
     "terminal.ansiBlue":                     "#EC407A",    // - Terminal blue color
