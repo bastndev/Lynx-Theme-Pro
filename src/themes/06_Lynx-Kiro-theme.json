@@ -71,9 +71,9 @@
     "button.background":                     "#7c3aed",    // - Button bg
     "button.foreground":                     "#c8c0d8",    // - Button text
     "button.hoverBackground":                "#9d6fff",    // - Button hover
-    "button.secondaryBackground":            "#241e30",    // - Secondary button bg | FM-AM
-    "button.secondaryForeground":            "#a78bfa",    // - Secondary button text
-    "button.secondaryHoverBackground":       "#2e2440",    // - Secondary button hover
+    "button.secondaryBackground":            "#7c3aed",    // - Secondary button bg | FM-AM
+    "button.secondaryForeground":            "#ffffff",    // - Secondary button text
+    "button.secondaryHoverBackground":       "#9056f5",    // - Secondary button hover
     "toolbar.hoverBackground":               "#ffffff18",  // - button hover bg
 
     // --- -- - Editor hover widget
