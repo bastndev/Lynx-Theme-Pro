@@ -370,7 +370,7 @@ async function install(context) {
     const injectData = {
       os: 'linux',
       themeCSS,
-      config: { refreshInterval: 1000, preventFlash: false },
+      config: { refreshInterval: 1000, preventFlash: true },
     };
     let mainJS = await fsPromises.readFile(JSFile, 'utf-8');
     mainJS = generateNewJS(mainJS, __filename, injectData, runtimeEntry);
