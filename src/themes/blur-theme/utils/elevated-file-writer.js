@@ -291,9 +291,174 @@ class StagedFileWriterMacOS {
   }
 }
 
+// ─── Windows elevation (PowerShell UAC) ───────────────────────────────────────
+
+/**
+ * Returns true if the appDir requires UAC elevation to write to (e.g. C:\Program Files).
+ */
+function checkNeedsElevationWindows(appDir) {
+  try {
+    const testFile = path.join(appDir, '.lynx-blur-write-test');
+    fs.writeFileSync(testFile, '');
+    fs.unlinkSync(testFile);
+    return false;
+  } catch (err) {
+    if (['EACCES', 'EPERM'].includes(err.code)) return true;
+    return false;
+  }
+}
+
+/** Escapes a string for PowerShell single quotes. */
+function psEscape(str) {
+  return str.replace(/'/g, "''");
+}
+
+/**
+ * Builds a PowerShell script that executes the file-system operations.
+ */
+function buildPowerShellScript(operations) {
+  const commands = [];
+  for (const op of operations) {
+    switch (op.type) {
+      case 'mkdir':
+        commands.push(`New-Item -Path '${psEscape(op.path)}' -ItemType Directory -Force | Out-Null`);
+        break;
+      case 'rmdir':
+        commands.push(`Remove-Item -Path '${psEscape(op.path)}' -Recurse -Force -ErrorAction SilentlyContinue`);
+        break;
+      case 'copy':
+        commands.push(`Copy-Item -Path '${psEscape(op.src)}' -Destination '${psEscape(op.dest)}' -Force`);
+        break;
+      case 'copyDir':
+        commands.push(`Copy-Item -Path '${psEscape(op.src)}\\*' -Destination '${psEscape(op.dest)}' -Recurse -Force`);
+        break;
+    }
+  }
+  return commands.join('\n');
+}
+
+/**
+ * Executes file-system operations with Windows UAC elevation via PowerShell.
+ */
+function elevatedCopyWindows(operations) {
+  return new Promise((resolve, reject) => {
+    if (operations.length === 0) return resolve();
+
+    const statusFile = path.join(os.tmpdir(), `lynx-elev-${Date.now()}.txt`);
+    const psScript = buildPowerShellScript(operations);
+
+    // Payload encodes the operations and writes 'OK' to a status file on success
+    const payload = [
+      '$ErrorActionPreference = "Continue"',
+      psScript,
+      `'OK' | Set-Content -Path '${psEscape(statusFile)}' -Encoding UTF8`,
+    ].join('\n');
+
+    const encodedPayload = Buffer.from(payload, 'utf16le').toString('base64');
+    const innerArgs = `-NoProfile -ExecutionPolicy Bypass -EncodedCommand ${encodedPayload}`;
+    
+    // Outer powershell asks for UAC prompt
+    const elevateCmd = [
+      'powershell.exe', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-Command',
+      `"Start-Process powershell.exe -ArgumentList '${innerArgs}' -Verb RunAs -WindowStyle Hidden -Wait"`
+    ].join(' ');
+
+    exec(elevateCmd, { encoding: 'utf-8' }, (error) => {
+      try {
+        const status = fs.readFileSync(statusFile, 'utf-8').trim();
+        fs.unlinkSync(statusFile);
+        if (status === 'OK') {
+          resolve();
+        } else {
+          reject(new Error(`Elevation failed: ${status}`));
+        }
+      } catch (readErr) {
+        if (error) {
+          reject(new Error('Elevation failed: User denied UAC or process cancelled'));
+        } else {
+          reject(new Error('Elevation failed: Elevated process did not complete'));
+        }
+      }
+    });
+  });
+}
+
+/** Staged writer for Windows — uses PowerShell UAC for elevated write operations. */
+class StagedFileWriterWindows {
+  constructor(requiresElevation) {
+    this.requiresElevation = requiresElevation;
+    this.tmpDir     = null;
+    this.operations = [];
+    this._counter   = 0;
+  }
+
+  async init() {
+    if (this.requiresElevation) {
+      this.tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'lynx-blur-win-'));
+    }
+  }
+
+  _tmpPath(targetPath) {
+    return path.join(this.tmpDir, `${this._counter++}_${path.basename(targetPath)}`);
+  }
+
+  async writeFile(targetPath, content, encoding) {
+    if (!this.requiresElevation) {
+      await fsPromises.writeFile(targetPath, content, encoding);
+    } else {
+      const tmp = this._tmpPath(targetPath);
+      await fsPromises.writeFile(tmp, content, encoding);
+      this.operations.push({ type: 'copy', src: tmp, dest: targetPath });
+    }
+  }
+
+  async mkdir(targetPath) {
+    if (!this.requiresElevation) {
+      await fsPromises.mkdir(targetPath, { recursive: true });
+    } else {
+      this.operations.push({ type: 'mkdir', path: targetPath });
+    }
+  }
+
+  async rmdir(targetPath) {
+    if (!this.requiresElevation) {
+      fs.rmSync(targetPath, { recursive: true, force: true });
+    } else {
+      this.operations.push({ type: 'rmdir', path: targetPath });
+    }
+  }
+
+  async copyDir(src, dest) {
+    if (!this.requiresElevation) {
+      copyDirSync(src, dest);
+    } else {
+      const tmpDest = path.join(this.tmpDir, `dir_${this._counter++}`);
+      copyDirSync(src, tmpDest);
+      this.operations.push({ type: 'copyDir', src: tmpDest, dest });
+    }
+  }
+
+  async flush() {
+    if (this.requiresElevation && this.operations.length > 0) {
+      await elevatedCopyWindows(this.operations);
+      this.operations = [];
+    }
+    this.cleanup();
+  }
+
+  cleanup() {
+    if (this.tmpDir) {
+      try { fs.rmSync(this.tmpDir, { recursive: true, force: true }); } catch {}
+      this.tmpDir = null;
+    }
+  }
+}
+
 module.exports = {
   checkNeedsElevation, hasPkexec, hasNoNewPrivs,
   copyDirSync, StagedFileWriter,
   // macOS
   checkNeedsElevationMacOS, StagedFileWriterMacOS,
+  // Windows
+  checkNeedsElevationWindows, StagedFileWriterWindows, psEscape, buildPowerShellScript
 };
