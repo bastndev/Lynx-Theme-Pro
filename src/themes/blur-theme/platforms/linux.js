@@ -398,7 +398,7 @@ async function install(context) {
 
     // 9. Pedir reinicio
     vscode.window.showInformationMessage(
-      '🔄 Efecto transparencia instalado. Reinicia VSCode para activarlo.',
+      'Efecto transparencia instalado. 🔄 Reinicia VSCode para activarlo.',
       { title: 'Reiniciar ahora' }
     ).then(msg => { if (msg) promptRestart(true); });
 
@@ -469,7 +469,7 @@ async function uninstall(context) {
     await context.globalState.update('lynxBlurInstalled', false);
 
     vscode.window.showInformationMessage(
-      '🔄 [Blur] Efecto transparencia eliminado. Reinicia VSCode.',
+      '🔄 Efecto transparencia eliminado. Reinicia VSCode.',
       { title: 'Reiniciar ahora' }
     ).then(msg => { if (msg) promptRestart(false); });
 
