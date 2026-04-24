@@ -5,6 +5,10 @@
   "version": "5.0.0",
   "publisher": "bastndev",
   "license": "MIT",
+  "main": "./src/themes/blur-theme/blur-theme.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "engines": {
     "vscode": "^1.74.0"
   },
