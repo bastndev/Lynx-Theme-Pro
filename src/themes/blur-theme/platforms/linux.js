@@ -21,48 +21,10 @@ const {
 const RUNTIME_VERSION = 'v1';
 const RUNTIME_DIR_NAME = `lynx-blur-runtime-${RUNTIME_VERSION}`;
 
-// ─── Background keys modified in workbench.colorCustomizations ────────────────
-// Same categories as vibrancy-code for transparent backgrounds
-
-const TRANSPARENT_BG_KEYS = [
-  'editorPane.background',
-  'editorGroupHeader.tabsBackground',
-  'editorGroupHeader.noTabsBackground',
-  'breadcrumb.background',
-  'editorGutter.background',
-  'panel.background',
-  'panelStickyScroll.background',
-  'tab.activeBackground',
-  'tab.unfocusedActiveBackground',
-];
-
-const SEMITRANSPARENT_BG_KEYS = [
-  'sideBar.background',
-  'sideBarTitle.background',
-  'sideBarStickyScroll.background',
-  'editor.background',
-  'editorStickyScroll.background',
-  'editorStickyScrollGutter.background',
-  'tab.inactiveBackground',
-  'tab.unfocusedInactiveBackground',
-];
-
-const OPAQUE_BG_KEYS = [
-  'inlineChat.background',
-  'editorWidget.background',
-  'editorHoverWidget.background',
-  'editorSuggestWidget.background',
-  'notifications.background',
-  'notificationCenterHeader.background',
-  'menu.background',
-  'quickInput.background',
-];
-
-const ALL_BG_KEYS = [...TRANSPARENT_BG_KEYS, ...SEMITRANSPARENT_BG_KEYS, ...OPAQUE_BG_KEYS];
-
-// Lynx Dark glassmorphism base color
-const THEME_BG = '060a08';
-const DEFAULT_OPACITY = 0.45;
+const {
+  TRANSPARENT_BG_KEYS, SEMITRANSPARENT_BG_KEYS, OPAQUE_BG_KEYS,
+  ALL_BG_KEYS, THEME_BG, DEFAULT_OPACITY,
+} = require('../utils/color-keys');
 
 // Supported editors: any VSCode fork with the same file structure
 const CLI_COMMANDS = {
@@ -405,7 +367,14 @@ async function uninstall(context) {
   // Restore colorCustomizations BEFORE touching files
   await restoreColorCustomizations(context);
 
-  const { appDir, JSFile, ElectronJSFile, HTMLFile, runtimeDir } = resolveVSCodePaths();
+  let paths;
+  try {
+    paths = resolveVSCodePaths();
+  } catch (err) {
+    _installing = false;
+    return;
+  }
+  const { appDir, JSFile, ElectronJSFile, HTMLFile, runtimeDir } = paths;
 
   const elevationNeeded = checkNeedsElevation(appDir);
   if (elevationNeeded === 'snap') { _installing = false; return; }
