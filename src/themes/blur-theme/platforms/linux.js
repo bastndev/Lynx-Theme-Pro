@@ -60,9 +60,9 @@ const OPAQUE_BG_KEYS = [
 
 const ALL_BG_KEYS = [...TRANSPARENT_BG_KEYS, ...SEMITRANSPARENT_BG_KEYS, ...OPAQUE_BG_KEYS];
 
-// Lynx Dark base color
-const THEME_BG = '0d0d0d';
-const DEFAULT_OPACITY = 0.5;
+// Lynx Dark glassmorphism base color
+const THEME_BG = '060a08';
+const DEFAULT_OPACITY = 0.45;
 
 // Supported editors: any VSCode fork with the same file structure
 const CLI_COMMANDS = {
