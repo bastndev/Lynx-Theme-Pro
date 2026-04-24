@@ -1,15 +1,3 @@
-/**
- * css/lynx-blur.css — Estilos del tema Lynx Blur
- *
- * Selectores tomados de la estructura real del DOM de VSCode.
- * Paleta base Lynx Dark: #0d0d0d / #111111
- *
- * Estrategia de opacidades:
- *   - Transparente puro: body, editor, tabs activos
- *   - Semi-transparente: sidebar, activity bar, tabs inactivos
- *   - Semi-opaco: widgets, tooltips, menús
- */
-
 /* ─── Scroll decoration ─────────────────────────────── */
 .scroll-decoration {
   box-shadow: none !important;

@@ -1,4 +1,3 @@
-'use strict';
 const fs          = require('fs');
 const fsPromises  = require('fs').promises;
 const path        = require('path');
@@ -8,15 +7,15 @@ const { execSync, execFile } = require('child_process');
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
 /**
- * Devuelve: false (sin elevación), true (necesita pkexec),
- *           'snap' (Snap, bloqueado), 'flatpak' (Flatpak, bloqueado).
+ * Returns: false (no elevation), true (needs pkexec),
+ *          'snap' (Snap, blocked), 'flatpak' (Flatpak, blocked).
  */
 function checkNeedsElevation(appDir) {
-  // Snap: squashfs — inmutable incluso para root
+  // Snap: squashfs — immutable even for root
   if (appDir.startsWith('/snap/') || process.env.SNAP) return 'snap';
 
-  // Flatpak: el directorio de la app está dentro del sandbox de solo lectura
-  // Se detecta por FLATPAK_ID o porque el path comienza con /app/
+  // Flatpak: the app directory is inside the read-only sandbox
+  // Detected via FLATPAK_ID or if the path starts with /app/
   if (process.env.FLATPAK_ID || appDir.startsWith('/app/')) return 'flatpak';
 
   try {
@@ -25,8 +24,8 @@ function checkNeedsElevation(appDir) {
     fs.unlinkSync(testFile);
     return false;
   } catch (err) {
-    // EACCES/EPERM: sin permiso → elevar con pkexec
-    // EROFS: filesystem de solo lectura (ej. AppImage) → elevar también
+    // EACCES/EPERM: no permission → elevate with pkexec
+    // EROFS: read-only filesystem (e.g., AppImage) → elevate as well
     if (['EACCES', 'EPERM', 'EROFS'].includes(err.code)) return true;
     return false;
   }
@@ -48,7 +47,7 @@ function shellEscape(str) {
   return str.replace(/'/g, "'\\''");
 }
 
-// ─── Copia de directorios (sin fs-extra) ─────────────────────────────────────
+// ─── Directory copy (without fs-extra) ───────────────────────────────────────
 
 function copyDirSync(src, dest) {
   if (!fs.existsSync(dest)) fs.mkdirSync(dest, { recursive: true });
@@ -63,7 +62,7 @@ function copyDirSync(src, dest) {
   }
 }
 
-// ─── Elevación Linux (pkexec) ─────────────────────────────────────────────────
+// ─── Linux elevation (pkexec) ─────────────────────────────────────────────────
 
 function buildShellScript(operations) {
   const cmds = ['set -e'];

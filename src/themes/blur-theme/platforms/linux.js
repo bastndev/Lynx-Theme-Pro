@@ -1,19 +1,3 @@
-// platforms/linux.js — Implementación completa del Blur Theme para Linux
-//
-// Pipeline de instalación:
-//   1. Detectar appDir (directorio de recursos de VSCode)
-//      → require.main.filename (igual que vibrancy-code)
-//      → _VSCODE_FILE_ROOT   (global interno que VSCode inyecta en el extension host)
-//      → vscode.env.appRoot  (API pública de VSCode, carpeta raíz de la app)
-//   2. Resolver rutas: JSFile, ElectronJSFile, HTMLFile
-//   3. Verificar elevación (pkexec si el directorio no es escribible)
-//   4. Copiar runtime/ al directorio de VSCode
-//   5. Parchear ElectronJSFile: frame:false + transparent:true
-//   6. Parchear JSFile: inyectar marcadores + import del runtime
-//   7. Parchear HTMLFile (workbench.html): CSP trusted-types
-//   8. Aplicar setting window.controlsStyle = "custom"
-//   9. Reiniciar VSCode con setsid + nohup
-
 'use strict';
 const vscode = require('vscode');
 const fs = require('fs');
@@ -32,13 +16,13 @@ const {
   checkNeedsElevation, hasPkexec, hasNoNewPrivs, StagedFileWriter,
 } = require('../utils/elevated-file-writer');
 
-// ─── Constantes ───────────────────────────────────────────────────────────────
+// ─── Constants ────────────────────────────────────────────────────────────────
 
 const RUNTIME_VERSION = 'v1';
 const RUNTIME_DIR_NAME = `lynx-blur-runtime-${RUNTIME_VERSION}`;
 
-// ─── Background keys que se modifican en workbench.colorCustomizations ────────
-// Mismas categorías que vibrancy-code para que los backgrounds sean transparentes
+// ─── Background keys modified in workbench.colorCustomizations ────────────────
+// Same categories as vibrancy-code for transparent backgrounds
 
 const TRANSPARENT_BG_KEYS = [
   'editorPane.background',
@@ -76,11 +60,11 @@ const OPAQUE_BG_KEYS = [
 
 const ALL_BG_KEYS = [...TRANSPARENT_BG_KEYS, ...SEMITRANSPARENT_BG_KEYS, ...OPAQUE_BG_KEYS];
 
-// Color base Lynx Dark
+// Lynx Dark base color
 const THEME_BG = '0d0d0d';
 const DEFAULT_OPACITY = 0.5;
 
-// Editores soportados: todo fork de VSCode con la misma estructura de archivos
+// Supported editors: any VSCode fork with the same file structure
 const CLI_COMMANDS = {
   'Visual Studio Code': 'code',
   'Visual Studio Code - Insiders': 'code-insiders',
@@ -94,33 +78,33 @@ const CLI_COMMANDS = {
   'Antigravity': 'antigravity',
 };
 
-// ─── Estado en memoria ────────────────────────────────────────────────────────
+// ─── In-memory state ──────────────────────────────────────────────────────────
 
-let _installing = false;  // Mutex para evitar instalaciones concurrentes
+let _installing = false;  // Mutex to avoid concurrent installations
 
-// ─── Helpers de rutas ─────────────────────────────────────────────────────────
+// ─── Path helpers ─────────────────────────────────────────────────────────────
 
 /**
- * Resuelve las rutas clave del directorio de recursos de VSCode.
- * Usa la misma cadena de fallbacks que vibrancy-code:
- *   1. require.main.filename  — en el extension host apunta al proceso principal
- *   2. _VSCODE_FILE_ROOT      — global interno que VSCode inyecta en el extension host
- *   3. vscode.env.appRoot     — API pública; puede necesitar subdir 'out/'
+ * Resolves key paths of the VSCode resources directory.
+ * Uses the same fallback chain as vibrancy-code:
+ *   1. require.main.filename  — in the extension host points to the main process
+ *   2. _VSCODE_FILE_ROOT      — internal global injected by VSCode in the extension host
+ *   3. vscode.env.appRoot     — public API; may need \'out/\' subdir
  */
 function resolveVSCodePaths() {
   let appDir;
 
-  // Estrategia 1 (mismo que vibrancy-code)
+  // Strategy 1 (same as vibrancy-code)
   try {
     appDir = path.dirname(require.main.filename);
   } catch {
-    // Estrategia 2: global interno que VSCode inyecta
+    // Strategy 2: internal global injected by VSCode
     // eslint-disable-next-line no-undef
     try { appDir = _VSCODE_FILE_ROOT; } catch { }
   }
 
-  // Estrategia 3: vscode.env.appRoot (API pública)
-  // Si main.js no existe en appDir, probamos subcarpetas comunes
+  // Strategy 3: vscode.env.appRoot (public API)
+  // If main.js does not exist in appDir, try common subfolders
   const candidates = appDir
     ? [appDir]
     : [];
@@ -130,7 +114,7 @@ function resolveVSCodePaths() {
     candidates.push(appRoot, path.join(appRoot, 'out'));
   }
 
-  // Seleccionar el primer candidato que contenga main.js
+  // Select the first candidate containing main.js
   let resolvedDir = null;
   for (const candidate of candidates) {
     if (candidate && fs.existsSync(path.join(candidate, 'main.js'))) {
@@ -142,21 +126,21 @@ function resolveVSCodePaths() {
   if (!resolvedDir) {
     const tried = candidates.join(', ');
     throw new Error(
-      `No se encontró main.js. Rutas intentadas: [${tried}]. ` +
-      `Editor: ${vscode.env.appName}. Plataforma: ${process.platform}.`
+      `main.js not found. Attempted paths: [${tried}]. ` +
+      `Editor: ${vscode.env.appName}. Platform: ${process.platform}.`
     );
   }
 
   appDir = resolvedDir;
-  console.log('[Lynx Blur] appDir resuelto:', appDir);
+  console.log('[Lynx Blur] resolved appDir:', appDir);
 
   const JSFile = path.join(appDir, 'main.js');
 
-  // VSCode 1.95+ fusiona ambos main.js en uno
+  // VSCode 1.95+ merges both main.js into one
   let ElectronJSFile = path.join(appDir, 'vs', 'code', 'electron-main', 'main.js');
   if (!fs.existsSync(ElectronJSFile)) ElectronJSFile = JSFile;
 
-  // Buscar workbench.html (la ruta cambia entre versiones de VSCode)
+  // Find workbench.html (path changes between VSCode versions)
   const htmlCandidates = [
     path.join(appDir, 'vs', 'code', 'electron-sandbox', 'workbench', 'workbench.html'),
     path.join(appDir, 'vs', 'code', 'electron-browser', 'workbench', 'workbench.html'),
@@ -170,18 +154,18 @@ function resolveVSCodePaths() {
 
   return { appDir, JSFile, ElectronJSFile, HTMLFile, runtimeDir, runtimeSrcDir, runtimeEntry };
 }
-// ─── Color Customizations (la pieza clave) ───────────────────────────────────
+// ─── Color Customizations (the core piece) ────────────────────────────────────
 
 /**
- * Aplica colorCustomizations para hacer los backgrounds transparentes.
- * Guarda los valores originales en globalState para poder restaurarlos.
+ * Applies colorCustomizations to make backgrounds transparent.
+ * Saves the original values in globalState to restore them later.
  */
 async function applyColorCustomizations(context) {
   const config = vscode.workspace.getConfiguration();
   const inspect = config.inspect('workbench.colorCustomizations');
   const current = inspect?.globalValue || {};
 
-  // Guardar los originales si no se han guardado antes
+  // Save the originals if they haven\'t been saved before
   const saved = context.globalState.get('lynxBlurOriginalColors');
   if (!saved) {
     const originals = {};
@@ -194,21 +178,21 @@ async function applyColorCustomizations(context) {
     await context.globalState.update('lynxBlurOriginalColors', originals);
   }
 
-  // Calcular colores transparentes
+  // Calculate transparent colors
   const alphaHex = (opacity) => Math.round(opacity * 255).toString(16).padStart(2, '0');
   const newColors = { ...current };
 
-  // Transparentes puros (#RRGGBB00)
+  // Pure transparent (#RRGGBB00)
   for (const key of TRANSPARENT_BG_KEYS) {
     newColors[key] = `#${THEME_BG}00`;
   }
 
-  // Semi-transparentes (#RRGGBBAA)
+  // Semi-transparent (#RRGGBBAA)
   for (const key of SEMITRANSPARENT_BG_KEYS) {
     newColors[key] = `#${THEME_BG}${alphaHex(DEFAULT_OPACITY)}`;
   }
 
-  // Semi-opacos (#RRGGBBE6 ≈ 0.9)
+  // Semi-opaque (#RRGGBBE6 ≈ 0.9)
   for (const key of OPAQUE_BG_KEYS) {
     newColors[key] = `#${THEME_BG}${alphaHex(0.9)}`;
   }
@@ -219,7 +203,7 @@ async function applyColorCustomizations(context) {
 }
 
 /**
- * Restaura los colorCustomizations originales del usuario.
+ * Restores the user\'s original colorCustomizations.
  */
 async function restoreColorCustomizations(context) {
   const saved = context.globalState.get('lynxBlurOriginalColors');
@@ -229,7 +213,7 @@ async function restoreColorCustomizations(context) {
   const inspect = config.inspect('workbench.colorCustomizations');
   const current = { ...(inspect?.globalValue || {}) };
 
-  // Restaurar o eliminar cada key
+  // Restore or remove each key
   for (const key of ALL_BG_KEYS) {
     if (saved[key] !== null && saved[key] !== undefined) {
       current[key] = saved[key];
@@ -238,7 +222,7 @@ async function restoreColorCustomizations(context) {
     }
   }
 
-  // Restaurar terminal background
+  // Restore terminal background
   if (saved['terminal.background'] !== null && saved['terminal.background'] !== undefined) {
     current['terminal.background'] = saved['terminal.background'];
   } else {
@@ -247,7 +231,7 @@ async function restoreColorCustomizations(context) {
 
   await config.update('workbench.colorCustomizations', current, vscode.ConfigurationTarget.Global);
 
-  // Restaurar GPU acceleration
+  // Restore GPU acceleration
   if (saved['terminal.integrated.gpuAcceleration'] !== undefined) {
     await config.update('terminal.integrated.gpuAcceleration',
       saved['terminal.integrated.gpuAcceleration'], vscode.ConfigurationTarget.Global);
@@ -258,10 +242,10 @@ async function restoreColorCustomizations(context) {
   await context.globalState.update('lynxBlurOriginalColors', undefined);
 }
 
-// ─── Reinicio limpio (setsid + nohup) ────────────────────────────────────────
+// ─── Clean restart (setsid + nohup) ───────────────────────────────────────────
 
 async function promptRestart() {
-  // Solo lanza el script de reinicio — sin cambiar settings.
+  // Only launches the restart script — without changing settings.
   const cliName = CLI_COMMANDS[vscode.env.appName] || 'code';
   const pid = process.pid;
   const binName = path.basename(process.execPath).replace(/'/g, "'\\''");
@@ -286,7 +270,7 @@ async function promptRestart() {
   vscode.commands.executeCommand('workbench.action.quit');
 }
 
-// ─── Instalación ──────────────────────────────────────────────────────────────
+// ─── Installation ─────────────────────────────────────────────────────────────
 
 async function install(context) {
   if (_installing) return;
@@ -295,26 +279,26 @@ async function install(context) {
   const { appDir, JSFile, ElectronJSFile, HTMLFile, runtimeDir, runtimeSrcDir, runtimeEntry } =
     resolveVSCodePaths();
 
-  // Verificar que los archivos clave existen (mostrar diagnóstico si fallan)
+  // Verify that key files exist (show diagnostic if they fail)
   if (!fs.existsSync(JSFile) || !fs.existsSync(HTMLFile)) {
     const info = `JSFile: ${JSFile} (${fs.existsSync(JSFile) ? '✓' : '✗'}) | HTMLFile: ${HTMLFile} (${fs.existsSync(HTMLFile) ? '✓' : '✗'})`;
-    console.error('[Lynx Blur][Linux] Archivos no encontrados:', info);
+    console.error('[Lynx Blur][Linux] Files not found:', info);
     vscode.window.showErrorMessage(
-      `[Lynx Blur] Archivos de VSCode no encontrados. Editor: ${vscode.env.appName}. ` +
-      `Si usas un fork de VSCode, abre un issue. Detalle: ${info}`
+      `[Lynx Blur] VSCode files not found. Editor: ${vscode.env.appName}. ` +
+      `If you use a VSCode fork, open an issue. Detail: ${info}`
     );
     _installing = false;
     return;
   }
 
-  // Verificar si se necesita elevación
+  // Check if elevation is needed
   const elevationNeeded = checkNeedsElevation(appDir);
 
   if (elevationNeeded === 'snap' || elevationNeeded === 'flatpak') {
     const kind = elevationNeeded === 'flatpak' ? 'Flatpak' : 'Snap';
     vscode.window.showErrorMessage(
-      `[Lynx Blur] ${kind} no soportado — instala VSCode como .deb para usar este efecto.`,
-      { title: '📥 Descargar .deb' }
+      `[Lynx Blur] ${kind} not supported — install VSCode as .deb to use this effect.`,
+      { title: '📥 Download .deb' }
     ).then(msg => {
       if (msg) vscode.env.openExternal(vscode.Uri.parse('https://code.visualstudio.com/download'));
     });
@@ -323,41 +307,41 @@ async function install(context) {
   }
 
   if (elevationNeeded && hasNoNewPrivs()) {
-    vscode.window.showErrorMessage('[Lynx Blur] No es posible elevar permisos en esta sesión. Reinicia VSCode normalmente e intenta de nuevo.');
+    vscode.window.showErrorMessage('[Lynx Blur] Cannot elevate permissions in this session. Restart VSCode normally and try again.');
     _installing = false;
     return;
   }
 
   if (elevationNeeded && !hasPkexec()) {
-    vscode.window.showErrorMessage('[Lynx Blur] Se requiere pkexec (Polkit) para escribir en el directorio de VSCode. Instálalo e intenta de nuevo.');
+    vscode.window.showErrorMessage('[Lynx Blur] pkexec (Polkit) is required to write to the VSCode directory. Install it and try again.');
     _installing = false;
     return;
   }
 
   if (elevationNeeded) {
     const choice = await vscode.window.showInformationMessage(
-      '[Lynx Theme Pro Blur] Se necesitan permisos de administrador para aplicar el efecto transparencia. ¿Continuar?',
-      { title: 'Sí, continuar' },
-      { title: 'Cancelar' }
+      '[Lynx Theme Pro Blur] Administrator permissions are required to apply the transparency effect. Continue?',
+      { title: 'Yes, continue' },
+      { title: 'Cancel' }
     );
-    if (!choice || choice.title === 'Cancelar') { _installing = false; return; }
+    if (!choice || choice.title === 'Cancel') { _installing = false; return; }
   }
 
   const writer = new StagedFileWriter(elevationNeeded);
   await writer.init();
 
   try {
-    // 1. Copiar runtime al directorio de VSCode
+    // 1. Copy runtime to VSCode directory
     if (fs.existsSync(runtimeDir)) await writer.rmdir(runtimeDir);
     await writer.mkdir(runtimeDir);
     await writer.copyDir(runtimeSrcDir, runtimeDir);
 
-    // 2. Parchear ElectronJSFile (frame:false + transparent:true)
+    // 2. Patch ElectronJSFile (frame:false + transparent:true)
     let electronJS = await fsPromises.readFile(ElectronJSFile, 'utf-8');
     electronJS = injectElectronOptions(electronJS);
     await writer.writeFile(ElectronJSFile, electronJS, 'utf-8');
 
-    // 3. Parchear main.js (inyectar runtime)
+    // 3. Patch main.js (inject runtime)
     const themeCSS = await fsPromises.readFile(
       path.resolve(__dirname, '../css/lynx-blur.css'), 'utf-8'
     );
@@ -370,55 +354,55 @@ async function install(context) {
     mainJS = generateNewJS(mainJS, __filename, injectData, runtimeEntry);
     await writer.writeFile(JSFile, mainJS, 'utf-8');
 
-    // 4. Parchear workbench.html (CSP)
+    // 4. Patch workbench.html (CSP)
     const html = await fsPromises.readFile(HTMLFile, 'utf-8');
     const { result: patchedHTML, noMetaTag } = patchCSP(html);
     if (!noMetaTag) await writer.writeFile(HTMLFile, patchedHTML, 'utf-8');
 
-    // 5. Flush (copia elevada si es necesario)
+    // 5. Flush (elevated copy if necessary)
     await writer.flush();
 
-    // 6. Aplicar colorCustomizations para hacer los backgrounds transparentes
+    // 6. Apply colorCustomizations to make backgrounds transparent
     await applyColorCustomizations(context);
 
-    // 7. Desactivar GPU acceleration del terminal (artefactos visuales)
+    // 7. Disable terminal GPU acceleration (visual artifacts)
     try {
       await vscode.workspace.getConfiguration()
         .update('terminal.integrated.gpuAcceleration', 'off', vscode.ConfigurationTarget.Global);
     } catch { }
 
-    // 8. Guardar estado instalado
+    // 8. Save installed state
     await context.globalState.update('lynxBlurInstalled', true);
 
-    // 9. Pedir reinicio
+    // 9. Prompt for restart
     vscode.window.showInformationMessage(
-      'Efecto transparencia instalado. 🔄 Reinicia VSCode para activarlo.',
-      { title: 'Reiniciar ahora' }
+      'Transparency effect installed. 🔄 Restart VSCode to activate it.',
+      { title: 'Restart now' }
     ).then(msg => { if (msg) promptRestart(); });
 
   } catch (error) {
     writer.cleanup();
-    console.error('[Lynx Blur][Linux] Error en instalación:', error);
+    console.error('[Lynx Blur][Linux] Installation error:', error);
 
     if (error.message === 'no_new_privs') {
-      vscode.window.showErrorMessage('[Lynx Blur] No se puede elevar permisos en esta sesión. Reinicia VSCode e intenta de nuevo.');
+      vscode.window.showErrorMessage('[Lynx Blur] Cannot elevate permissions in this session. Restart VSCode and try again.');
     } else if (error.code === 'EACCES' || error.code === 'EPERM') {
-      vscode.window.showErrorMessage(`[Lynx Blur] Sin permisos para escribir: ${error.message}`);
+      vscode.window.showErrorMessage(`[Lynx Blur] No write permissions: ${error.message}`);
     } else {
-      vscode.window.showErrorMessage(`[Lynx Blur] Error inesperado: ${error.message}`);
+      vscode.window.showErrorMessage(`[Lynx Blur] Unexpected error: ${error.message}`);
     }
   } finally {
     _installing = false;
   }
 }
 
-// ─── Desinstalación ───────────────────────────────────────────────────────────
+// ─── Uninstallation ───────────────────────────────────────────────────────────
 
 async function uninstall(context) {
   if (_installing) return;
   _installing = true;
 
-  // Restaurar colorCustomizations ANTES de tocar archivos
+  // Restore colorCustomizations BEFORE touching files
   await restoreColorCustomizations(context);
 
   const { appDir, JSFile, ElectronJSFile, HTMLFile, runtimeDir } = resolveVSCodePaths();
@@ -430,58 +414,58 @@ async function uninstall(context) {
   await writer.init();
 
   try {
-    // 1. Limpiar marcadores de main.js
+    // 1. Clean main.js markers
     if (fs.existsSync(JSFile)) {
       let mainJS = await fsPromises.readFile(JSFile, 'utf-8');
       const { result, hadMarkers } = removeJSMarkers(mainJS);
       if (hadMarkers) await writer.writeFile(JSFile, result, 'utf-8');
 
-      // En VSCode 1.95+ ElectronJSFile === JSFile, aplicar en el mismo buffer
+      // In VSCode 1.95+ ElectronJSFile === JSFile, apply in the same buffer
       if (ElectronJSFile === JSFile) {
         const clean = removeElectronOptions(result);
         await writer.writeFile(JSFile, clean, 'utf-8');
       }
     }
 
-    // 2. Limpiar ElectronJSFile si es diferente
+    // 2. Clean ElectronJSFile if different
     if (ElectronJSFile !== JSFile && fs.existsSync(ElectronJSFile)) {
       let electronJS = await fsPromises.readFile(ElectronJSFile, 'utf-8');
       await writer.writeFile(ElectronJSFile, removeElectronOptions(electronJS), 'utf-8');
     }
 
-    // 3. Limpiar CSP de workbench.html
+    // 3. Clean workbench.html CSP
     if (fs.existsSync(HTMLFile)) {
       const html = await fsPromises.readFile(HTMLFile, 'utf-8');
       const cleaned = removeCSPPatch(html);
       if (cleaned !== html) await writer.writeFile(HTMLFile, cleaned, 'utf-8');
     }
 
-    // 4. Eliminar directorio del runtime
+    // 4. Remove runtime directory
     if (fs.existsSync(runtimeDir)) await writer.rmdir(runtimeDir);
 
     await writer.flush();
     await context.globalState.update('lynxBlurInstalled', false);
 
     vscode.window.showInformationMessage(
-      'Efecto transparencia eliminado. 🔄 Reinicia VSCode.',
-      { title: 'Reiniciar ahora' }
+      'Transparency effect removed. 🔄 Restart VSCode.',
+      { title: 'Restart now' }
     ).then(msg => { if (msg) promptRestart(); });
 
   } catch (error) {
     writer.cleanup();
-    console.error('[Lynx Blur][Linux] Error en desinstalación:', error);
-    vscode.window.showErrorMessage(`[Lynx Blur] Error al desinstalar: ${error.message}`);
+    console.error('[Lynx Blur][Linux] Uninstallation error:', error);
+    vscode.window.showErrorMessage(`[Lynx Blur] Error uninstalling: ${error.message}`);
   } finally {
     _installing = false;
   }
 }
 
-// ─── API pública ──────────────────────────────────────────────────────────────
+// ─── Public API ───────────────────────────────────────────────────────────────
 
 async function handleActivation(context) {
   const alreadyInstalled = context.globalState.get('lynxBlurInstalled', false);
   if (alreadyInstalled) {
-    console.log('[Lynx Blur][Linux] Ya instalado — sin acción necesaria.');
+    console.log('[Lynx Blur][Linux] Already installed — no action needed.');
     return;
   }
   await install(context);

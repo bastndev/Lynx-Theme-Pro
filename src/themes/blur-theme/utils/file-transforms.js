@@ -1,4 +1,3 @@
-'use strict';
 const { pathToFileURL } = require('url');
 
 const LYNX_BLUR_START = '/* !! LYNX-BLUR-START !! */';
@@ -6,7 +5,7 @@ const LYNX_BLUR_END   = '/* !! LYNX-BLUR-END !! */';
 const MARKER_REGEX    = /\n\/\* !! LYNX-BLUR-START !! \*\/[\s\S]*?\/\* !! LYNX-BLUR-END !! \*\//;
 const CSP_POLICY      = 'LynxBlurTheme';
 
-/** Inyecta el runtime de Lynx Blur en el main.js de VSCode */
+/** Injects the Lynx Blur runtime into VSCode's main.js */
 function generateNewJS(js, base, injectData, runtimePath) {
   const cleaned    = js.replace(MARKER_REGEX, '');
   const runtimeUrl = pathToFileURL(runtimePath).toString();
@@ -20,12 +19,12 @@ function generateNewJS(js, base, injectData, runtimePath) {
   );
 }
 
-/** Elimina marcadores de Lynx Blur del main.js */
+/** Removes Lynx Blur markers from main.js */
 function removeJSMarkers(js) {
   return { result: js.replace(MARKER_REGEX, ''), hadMarkers: MARKER_REGEX.test(js) };
 }
 
-/** Inyecta frame:false + transparent:true en las opciones de BrowserWindow (Linux) */
+/** Injects frame:false + transparent:true into BrowserWindow options (Linux) */
 function injectElectronOptions(electronJS) {
   if (electronJS.includes('frame:false,')) return electronJS;
   return electronJS.replace(
@@ -34,7 +33,7 @@ function injectElectronOptions(electronJS) {
   );
 }
 
-/** Elimina las opciones inyectadas de BrowserWindow */
+/** Removes the injected BrowserWindow options */
 function removeElectronOptions(electronJS) {
   return electronJS.replace(
     /frame:false,transparent:true,experimentalDarkMode/g,
@@ -42,7 +41,7 @@ function removeElectronOptions(electronJS) {
   );
 }
 
-/** Añade LynxBlurTheme a la directiva trusted-types del CSP */
+/** Adds LynxBlurTheme to the trusted-types CSP directive */
 function patchCSP(html) {
   const re    = /<meta\s+http-equiv="Content-Security-Policy"\s+content="([\s\S]+?)">/;
   const match = html.match(re);
@@ -62,7 +61,7 @@ function patchCSP(html) {
   };
 }
 
-/** Elimina LynxBlurTheme del CSP */
+/** Removes LynxBlurTheme from the CSP */
 function removeCSPPatch(html) {
   return html.replace(new RegExp(` ${CSP_POLICY}`, 'g'), '');
 }

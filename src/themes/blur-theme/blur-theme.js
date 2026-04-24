@@ -1,15 +1,11 @@
-// blur-theme.js — Entry point del Blur Theme de Lynx
-// Se activa en onStartupFinished pero NO instala nada hasta que
-// el usuario seleccione explícitamente "8. BLUR (Lynx Theme)"
-
 const vscode = require('vscode');
 
-// Nombre exacto del label del tema en package.json
+// Exact theme label name in package.json
 const BLUR_THEME_LABEL = '8. BLURㅤㅤ(Lynx Theme) 🧪';
 
 /**
- * Detecta la plataforma y retorna el módulo correspondiente.
- * Cada plataforma expone: { install, uninstall }
+ * Detects the platform and returns the corresponding module.
+ * Each platform exposes: { install, uninstall }
  */
 function getPlatformHandler() {
   switch (process.platform) {
@@ -25,7 +21,7 @@ function getPlatformHandler() {
 }
 
 /**
- * Verifica si el tema activo actualmente es el blur theme de Lynx.
+ * Checks if the currently active theme is the Lynx blur theme.
  */
 function isBlurThemeActive() {
   const current = vscode.workspace
@@ -35,29 +31,29 @@ function isBlurThemeActive() {
 }
 
 /**
- * Punto de activación de la extensión.
- * Se llama cuando VSCode termina de cargar (onStartupFinished).
+ * Extension activation point.
+ * Called when VSCode finishes loading (onStartupFinished).
  */
 function activate(context) {
-  console.log('[Lynx Blur] Extensión activa — esperando selección del tema blur.');
+  console.log('[Lynx Blur] Extension active — waiting for blur theme selection.');
 
   const handler = getPlatformHandler();
 
-  // Si la plataforma no está soportada aún, salimos sin hacer nada
+  // If the platform is not supported yet, exit without doing anything
   if (!handler) {
-    console.warn('[Lynx Blur] Plataforma no soportada:', process.platform);
+    console.warn('[Lynx Blur] Unsupported platform:', process.platform);
     return;
   }
 
-  // --- Verificación al arrancar ---
-  // Si el usuario ya tenía el blur theme seleccionado antes de reiniciar,
-  // verificamos si ya está instalado para no volver a pedir.
+  // --- Startup verification ---
+  // If the user already had the blur theme selected before restarting,
+  // check if it's already installed to avoid prompting again.
   if (isBlurThemeActive()) {
     handler.handleActivation(context);
   }
 
-  // --- Escucha de cambios de tema ---
-  // Solo actúa cuando el usuario cambia al blur theme o sale de él.
+  // --- Theme change listener ---
+  // Only acts when the user switches to or from the blur theme.
   const disposable = vscode.workspace.onDidChangeConfiguration((event) => {
     if (!event.affectsConfiguration('workbench.colorTheme')) return;
 
@@ -72,7 +68,7 @@ function activate(context) {
 }
 
 function deactivate() {
-  console.log('[Lynx Blur] Extensión desactivada.');
+  console.log('[Lynx Blur] Extension deactivated.');
 }
 
 module.exports = { activate, deactivate };
