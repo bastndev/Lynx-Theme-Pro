@@ -45,6 +45,16 @@ if (!app) {
       // Forzar fondo transparente
       window.setBackgroundColor('#00000000');
 
+      // macOS: activar vibrancy nativa de Electron para blur real del escritorio
+      if (app.os === 'macos' && app.vibrancyType) {
+        window.setVibrancy(app.vibrancyType);
+        // Hack de resize +1px para forzar que el compositor aplique la vibrancy.
+        // Sin esto, el blur puede no aparecer hasta que el usuario mueva la ventana.
+        const b = window.getBounds();
+        window.setBounds({ width: b.width + 1 });
+        window.setBounds({ width: b.width });
+      }
+
       // Iniciar método de mantenimiento de transparencia
       effects.install();
 

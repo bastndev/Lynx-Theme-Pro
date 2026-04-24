@@ -167,7 +167,133 @@ class StagedFileWriter {
   }
 }
 
+// ─── macOS elevation (osascript) ──────────────────────────────────────────────
+
+/**
+ * Returns false (no elevation needed) or true (needs osascript admin) for macOS.
+ * Unlike Linux, there is no Snap/Flatpak to check.
+ */
+function checkNeedsElevationMacOS(appDir) {
+  try {
+    const testFile = path.join(appDir, '.lynx-blur-write-test');
+    fs.writeFileSync(testFile, '');
+    fs.unlinkSync(testFile);
+    return false;
+  } catch (err) {
+    if (['EACCES', 'EPERM', 'EROFS'].includes(err.code)) return true;
+    return false;
+  }
+}
+
+/**
+ * Executes file-system operations with macOS admin privileges via osascript.
+ * Builds a POSIX shell script and runs it through
+ * `do shell script ... with administrator privileges`.
+ */
+function elevatedCopyMacOS(operations) {
+  return new Promise((resolve, reject) => {
+    if (operations.length === 0) return resolve();
+
+    const esc = (s) => s.replace(/'/g, "'\\''");
+    const cmds = ['set -e'];
+    for (const op of operations) {
+      switch (op.type) {
+        case 'mkdir':   cmds.push(`mkdir -p '${esc(op.path)}'`);                    break;
+        case 'rmdir':   cmds.push(`rm -rf '${esc(op.path)}'`);                      break;
+        case 'copy':    cmds.push(`cp '${esc(op.src)}' '${esc(op.dest)}'`);         break;
+        case 'copyDir': cmds.push(`cp -r '${esc(op.src)}/.' '${esc(op.dest)}/'`);  break;
+      }
+    }
+
+    const shellScript = cmds.join('; ');
+    // Escape backslashes and double-quotes for AppleScript string literal
+    const escaped = shellScript.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+    const appleScript = `do shell script "${escaped}" with administrator privileges`;
+
+    execFile('osascript', ['-e', appleScript], (error, _stdout, stderr) => {
+      if (error) {
+        reject(new Error(`macOS elevation failed: ${stderr || error.message}`));
+      } else {
+        resolve();
+      }
+    });
+  });
+}
+
+/** Staged writer for macOS — uses osascript for elevated write operations. */
+class StagedFileWriterMacOS {
+  constructor(requiresElevation) {
+    this.requiresElevation = requiresElevation;
+    this.tmpDir     = null;
+    this.operations = [];
+    this._counter   = 0;
+  }
+
+  async init() {
+    if (this.requiresElevation) {
+      this.tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'lynx-blur-mac-'));
+    }
+  }
+
+  _tmpPath(targetPath) {
+    return path.join(this.tmpDir, `${this._counter++}_${path.basename(targetPath)}`);
+  }
+
+  async writeFile(targetPath, content, encoding) {
+    if (!this.requiresElevation) {
+      await fsPromises.writeFile(targetPath, content, encoding);
+    } else {
+      const tmp = this._tmpPath(targetPath);
+      await fsPromises.writeFile(tmp, content, encoding);
+      this.operations.push({ type: 'copy', src: tmp, dest: targetPath });
+    }
+  }
+
+  async mkdir(targetPath) {
+    if (!this.requiresElevation) {
+      await fsPromises.mkdir(targetPath, { recursive: true });
+    } else {
+      this.operations.push({ type: 'mkdir', path: targetPath });
+    }
+  }
+
+  async rmdir(targetPath) {
+    if (!this.requiresElevation) {
+      fs.rmSync(targetPath, { recursive: true, force: true });
+    } else {
+      this.operations.push({ type: 'rmdir', path: targetPath });
+    }
+  }
+
+  async copyDir(src, dest) {
+    if (!this.requiresElevation) {
+      copyDirSync(src, dest);
+    } else {
+      const tmpDest = path.join(this.tmpDir, `dir_${this._counter++}`);
+      copyDirSync(src, tmpDest);
+      this.operations.push({ type: 'copyDir', src: tmpDest, dest });
+    }
+  }
+
+  async flush() {
+    if (this.requiresElevation && this.operations.length > 0) {
+      await elevatedCopyMacOS(this.operations);
+      this.operations = [];
+    }
+    this.cleanup();
+  }
+
+  cleanup() {
+    if (this.tmpDir) {
+      try { fs.rmSync(this.tmpDir, { recursive: true, force: true }); } catch {}
+      this.tmpDir = null;
+    }
+  }
+}
+
 module.exports = {
   checkNeedsElevation, hasPkexec, hasNoNewPrivs,
   copyDirSync, StagedFileWriter,
+  // macOS
+  checkNeedsElevationMacOS, StagedFileWriterMacOS,
 };

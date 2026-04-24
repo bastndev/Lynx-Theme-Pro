@@ -33,10 +33,31 @@ function injectElectronOptions(electronJS) {
   );
 }
 
-/** Removes the injected BrowserWindow options */
+/** Removes the Linux-injected BrowserWindow options */
 function removeElectronOptions(electronJS) {
   return electronJS.replace(
     /frame:false,transparent:true,experimentalDarkMode/g,
+    'experimentalDarkMode'
+  );
+}
+
+/**
+ * Injects visualEffectState:"active" into BrowserWindow options (macOS).
+ * This keeps the native vibrancy/blur active even when the window loses focus.
+ * Does NOT inject frame:false — macOS uses its native window frame.
+ */
+function injectElectronOptionsMacOS(electronJS) {
+  if (electronJS.includes('visualEffectState:')) return electronJS;
+  return electronJS.replace(
+    /experimentalDarkMode/g,
+    'visualEffectState:"active",experimentalDarkMode'
+  );
+}
+
+/** Removes the macOS-injected BrowserWindow options */
+function removeElectronOptionsMacOS(electronJS) {
+  return electronJS.replace(
+    /visualEffectState:"active",experimentalDarkMode/g,
     'experimentalDarkMode'
   );
 }
@@ -69,6 +90,9 @@ function removeCSPPatch(html) {
 module.exports = {
   LYNX_BLUR_START, LYNX_BLUR_END, MARKER_REGEX, CSP_POLICY,
   generateNewJS, removeJSMarkers,
+  // Linux
   injectElectronOptions, removeElectronOptions,
+  // macOS
+  injectElectronOptionsMacOS, removeElectronOptionsMacOS,
   patchCSP, removeCSPPatch,
 };
