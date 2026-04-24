@@ -1,0 +1,82 @@
+/**
+ * css/lynx-blur.css — Estilos del tema Lynx Blur
+ *
+ * Este CSS se inyecta en el DOM de VSCode cuando el Blur Theme está activo.
+ * Trabaja encima del fondo transparente (#00000000) para dar el efecto
+ * de "cristal esmerilado" / transparencia semitransparente.
+ *
+ * Paleta base Lynx Dark (de 01_Lynx-Dark-theme.json):
+ *   Background principal: #0d0d0d / #111111
+ *   Accent:               #00b4d8 / #0077b6
+ *   Texto principal:      #e0e0e0
+ *
+ * Estrategia de opacidades (igual que vibrancy-code):
+ *   - Transparente puro  (#RRGGBB00): tabs activos, editor pane, breadcrumbs
+ *   - Semi-transparente  (#RRGGBBAA): sidebar, activity bar, editor bg
+ *   - Semi-opaco         (opacity ~0.9): widgets, tooltips, menús
+ *
+ * TODO (Fase 2): Ajustar colores exactos con los valores del tema Lynx Dark.
+ *   Actualmente usa valores placeholder representativos.
+ */
+
+/* ─── Variables del tema ──────────────────────────────── */
+:root {
+  --lynx-blur-bg: rgba(13, 13, 13, 0.65);        /* fondo principal semitransparente */
+  --lynx-blur-sidebar: rgba(13, 13, 13, 0.55);   /* sidebar ligeramente más transparente */
+  --lynx-blur-tab-active: rgba(0, 0, 0, 0.0);    /* tab activo completamente transparente */
+  --lynx-blur-tab-inactive: rgba(13, 13, 13, 0.45);
+  --lynx-blur-widget: rgba(13, 13, 13, 0.88);    /* widgets/popups casi opacos */
+  --lynx-blur-accent: #00b4d8;
+}
+
+/* ─── Fondo raíz del html ────────────────────────────── */
+html {
+  background: var(--lynx-blur-bg) !important;
+}
+
+/* ─── Editor principal ───────────────────────────────── */
+.monaco-editor,
+.monaco-editor .overflow-guard {
+  background: transparent !important;
+}
+
+/* ─── Activity Bar ───────────────────────────────────── */
+.activitybar {
+  background: var(--lynx-blur-sidebar) !important;
+}
+
+/* ─── Sidebar / Panel lateral ────────────────────────── */
+.sidebar {
+  background: var(--lynx-blur-sidebar) !important;
+}
+
+/* ─── Tabs ───────────────────────────────────────────── */
+.tab.active {
+  background: var(--lynx-blur-tab-active) !important;
+}
+
+.tab:not(.active) {
+  background: var(--lynx-blur-tab-inactive) !important;
+}
+
+/* ─── Panel inferior (Terminal, Output, etc.) ────────── */
+.panel {
+  background: var(--lynx-blur-bg) !important;
+}
+
+/* ─── Widgets flotantes (autocomplete, hover, etc.) ─── */
+.monaco-editor .suggest-widget,
+.monaco-editor .parameter-hints-widget,
+.monaco-hover {
+  background: var(--lynx-blur-widget) !important;
+}
+
+/* ─── Status bar ─────────────────────────────────────── */
+.statusbar {
+  background: var(--lynx-blur-sidebar) !important;
+}
+
+/* ─── Breadcrumbs ────────────────────────────────────── */
+.breadcrumbs-container {
+  background: transparent !important;
+}
