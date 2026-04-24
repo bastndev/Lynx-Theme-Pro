@@ -260,14 +260,8 @@ async function restoreColorCustomizations(context) {
 
 // ─── Reinicio limpio (setsid + nohup) ────────────────────────────────────────
 
-async function promptRestart(setControlsStyle) {
-  // Aplicar / limpiar window.controlsStyle
-  try {
-    const value = setControlsStyle ? 'custom' : undefined;
-    await vscode.workspace.getConfiguration()
-      .update('window.controlsStyle', value, vscode.ConfigurationTarget.Global);
-  } catch { /* setting no disponible en esta versión */ }
-
+async function promptRestart() {
+  // Solo lanza el script de reinicio — sin cambiar settings.
   const cliName = CLI_COMMANDS[vscode.env.appName] || 'code';
   const pid = process.pid;
   const binName = path.basename(process.execPath).replace(/'/g, "'\\''");
@@ -400,7 +394,7 @@ async function install(context) {
     vscode.window.showInformationMessage(
       'Efecto transparencia instalado. 🔄 Reinicia VSCode para activarlo.',
       { title: 'Reiniciar ahora' }
-    ).then(msg => { if (msg) promptRestart(true); });
+    ).then(msg => { if (msg) promptRestart(); });
 
   } catch (error) {
     writer.cleanup();
@@ -469,9 +463,9 @@ async function uninstall(context) {
     await context.globalState.update('lynxBlurInstalled', false);
 
     vscode.window.showInformationMessage(
-      '🔄 Efecto transparencia eliminado. Reinicia VSCode.',
+      'Efecto transparencia eliminado. 🔄 Reinicia VSCode.',
       { title: 'Reiniciar ahora' }
-    ).then(msg => { if (msg) promptRestart(false); });
+    ).then(msg => { if (msg) promptRestart(); });
 
   } catch (error) {
     writer.cleanup();
