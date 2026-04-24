@@ -34,7 +34,7 @@ const {
 
 // ─── Constantes ───────────────────────────────────────────────────────────────
 
-const RUNTIME_VERSION  = 'v1';
+const RUNTIME_VERSION = 'v1';
 const RUNTIME_DIR_NAME = `lynx-blur-runtime-${RUNTIME_VERSION}`;
 
 // ─── Background keys que se modifican en workbench.colorCustomizations ────────
@@ -341,8 +341,8 @@ async function install(context) {
   }
 
   if (elevationNeeded) {
-    const choice = await vscode.window.showWarningMessage(
-      '[Lynx Blur] Se necesitan permisos de administrador para aplicar el efecto transparencia. ¿Continuar?',
+    const choice = await vscode.window.showInformationMessage(
+      '[Lynx Theme Pro Blur] Se necesitan permisos de administrador para aplicar el efecto transparencia. ¿Continuar?',
       { title: 'Sí, continuar' },
       { title: 'Cancelar' }
     );
@@ -391,7 +391,7 @@ async function install(context) {
     try {
       await vscode.workspace.getConfiguration()
         .update('terminal.integrated.gpuAcceleration', 'off', vscode.ConfigurationTarget.Global);
-    } catch {}
+    } catch { }
 
     // 8. Guardar estado instalado
     await context.globalState.update('lynxBlurInstalled', true);
