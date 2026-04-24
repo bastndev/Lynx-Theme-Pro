@@ -1,0 +1,187 @@
+/* ─── Scroll decoration ─────────────────────────────── */
+.scroll-decoration {
+  box-shadow: none !important;
+}
+
+/* ─── Minimap + scrollbar ────────────────────────────── */
+.minimap, .editor-scrollable>.decorationsOverviewRuler {
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+.minimap:hover, .editor-scrollable>.decorationsOverviewRuler:hover {
+  opacity: 1;
+}
+
+/* ─── Editor container ───────────────────────────────── */
+.editor-container:not(.modal-editor-part .editor-container) {
+  background: transparent !important;
+}
+
+/* ─── Modal editor fix ───────────────────────────────── */
+.modal-editor-part > .content,
+.modal-editor-part .editor-container,
+.inline-chat-gutter-menu {
+  background-color: var(--vscode-quickInput-background) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4) !important;
+  backdrop-filter: blur(12px) !important;
+}
+
+/* ─── Core transparent elements ──────────────────────── */
+.search-view .search-widget .input-box,
+.search-view .search-widget .input-box .monaco-inputbox,
+.monaco-workbench .part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab,
+.monaco-editor-background,
+.monaco-editor .margin,
+.monaco-workbench .part:not(.modal-editor-part)>.content,
+.monaco-workbench .editor>.content>.one-editor-silo.editor-one,
+.monaco-workbench .part.editor>.content>.one-editor-silo>.container>.title,
+.monaco-workbench .part>.title,
+.monaco-workbench,
+.monaco-workbench .part,
+body {
+  background: transparent !important;
+}
+
+/* ─── Tabs (Glassmorphism + Transitions) ─────────────── */
+.editor-group-container>.tabs {
+  background-color: transparent !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
+}
+
+.editor-group-container>.tabs .tab {
+  background-color: transparent !important;
+  border: none !important;
+  transition: background-color 0.2s ease, border-bottom 0.2s ease;
+}
+
+.editor-group-container>.tabs .tab:hover {
+  background-color: rgba(255, 255, 255, 0.03) !important;
+}
+
+.editor-group-container>.tabs .tab.active {
+  background-color: rgba(13, 13, 13, 0.4) !important;
+  border-top: 2px solid #00d882 !important;
+}
+
+.editor-group-container>.tabs .monaco-breadcrumbs {
+  background-color: rgba(13, 13, 13, 0.2) !important;
+}
+
+/* ─── Lists & Trees (Micro-animations) ───────────────── */
+.monaco-list .monaco-list-row {
+  transition: background-color 0.15s ease, transform 0.15s ease;
+  border-radius: 4px;
+  margin: 0 4px;
+  width: calc(100% - 8px) !important;
+}
+
+.monaco-list .monaco-list-row.focused {
+  outline-color: rgba(13, 13, 13, 0.6) !important;
+}
+
+.monaco-list .monaco-list-row.selected {
+  background-color: rgba(0, 216, 130, 0.15) !important;
+  border: 1px solid rgba(0, 216, 130, 0.2) !important;
+}
+
+.monaco-list .monaco-list-row:hover:not(.selected):not(.focused) {
+  background-color: rgba(255, 255, 255, 0.04) !important;
+}
+
+.monaco-list.settings-editor-tree .monaco-list-row {
+  background-color: transparent !important;
+  outline-color: transparent !important;
+}
+
+/* ─── Input boxes ────────────────────────────────────── */
+.monaco-inputbox {
+  background-color: rgba(13, 13, 13, 0.3) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 4px !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.monaco-inputbox.synthetic-focus {
+  border-color: #00d882 !important;
+  box-shadow: 0 0 0 1px rgba(0, 216, 130, 0.3) !important;
+}
+
+/* ─── Text selection ─────────────────────────────────── */
+.monaco-editor .selected-text {
+  background-color: rgba(0, 216, 130, 0.15) !important;
+}
+
+.monaco-editor .focused .selected-text {
+  background-color: rgba(0, 216, 130, 0.25) !important;
+}
+
+/* ─── Current line ───────────────────────────────────── */
+.monaco-editor .view-overlays .current-line {
+  border-color: rgba(255, 255, 255, 0.04) !important;
+  background-color: rgba(255, 255, 255, 0.01) !important;
+}
+
+/* ─── Extension editor + preferences ─────────────────── */
+.extension-editor,
+.monaco-workbench .part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab.active,
+.preferences-editor>.preferences-header,
+.preferences-editor>.preferences-editors-container.side-by-side-preferences-editor .preferences-header-container,
+.monaco-editor,
+.monaco-editor .inputarea.ime-input,
+.monaco-list .monaco-list-rows {
+  background: transparent !important;
+}
+
+/* ─── Sidebar & Statusbar (Glassmorphism Borders) ────── */
+.monaco-workbench .part.sidebar {
+  background-color: rgba(13, 13, 13, 0.4) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+.monaco-workbench .part.statusbar {
+  background-color: rgba(13, 13, 13, 0.45) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+.monaco-workbench .part.panel {
+  border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+.monaco-workbench .part.activitybar {
+  border-right: 1px solid rgba(255, 255, 255, 0.03) !important;
+}
+
+/* ─── Buttons (Micro-animations) ─────────────────────── */
+.monaco-button {
+  transition: background-color 0.2s ease, transform 0.1s ease !important;
+}
+.monaco-button:active {
+  transform: scale(0.97);
+}
+
+/* ─── Terminal ───────────────────────────────────────── */
+.terminal-outer-container,
+.xterm-viewport,
+.xterm-rows {
+  background-color: transparent !important;
+}
+
+/* ─── Fullscreen ─────────────────────────────────────── */
+.monaco-workbench.fullscreen {
+  background-color: #0d0d0d !important;
+}
+
+/* ─── Notebooks + list hover ─────────────────────────── */
+.notebookOverlay.notebook-editor,
+.cell-statusbar-container,
+.margin-view-overlays {
+  background-color: transparent !important;
+}
+
+/* ─── Label ──────────────────────────────────────────── */
+.label-container .label {
+  color: #e8f0ec !important;
+}
