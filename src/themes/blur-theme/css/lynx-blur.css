@@ -1,82 +1,140 @@
 /**
  * css/lynx-blur.css — Estilos del tema Lynx Blur
  *
- * Este CSS se inyecta en el DOM de VSCode cuando el Blur Theme está activo.
- * Trabaja encima del fondo transparente (#00000000) para dar el efecto
- * de "cristal esmerilado" / transparencia semitransparente.
+ * Selectores tomados de la estructura real del DOM de VSCode.
+ * Paleta base Lynx Dark: #0d0d0d / #111111
  *
- * Paleta base Lynx Dark (de 01_Lynx-Dark-theme.json):
- *   Background principal: #0d0d0d / #111111
- *   Accent:               #00b4d8 / #0077b6
- *   Texto principal:      #e0e0e0
- *
- * Estrategia de opacidades (igual que vibrancy-code):
- *   - Transparente puro  (#RRGGBB00): tabs activos, editor pane, breadcrumbs
- *   - Semi-transparente  (#RRGGBBAA): sidebar, activity bar, editor bg
- *   - Semi-opaco         (opacity ~0.9): widgets, tooltips, menús
- *
- * TODO (Fase 2): Ajustar colores exactos con los valores del tema Lynx Dark.
- *   Actualmente usa valores placeholder representativos.
+ * Estrategia de opacidades:
+ *   - Transparente puro: body, editor, tabs activos
+ *   - Semi-transparente: sidebar, activity bar, tabs inactivos
+ *   - Semi-opaco: widgets, tooltips, menús
  */
 
-/* ─── Variables del tema ──────────────────────────────── */
-:root {
-  --lynx-blur-bg: rgba(13, 13, 13, 0.65);        /* fondo principal semitransparente */
-  --lynx-blur-sidebar: rgba(13, 13, 13, 0.55);   /* sidebar ligeramente más transparente */
-  --lynx-blur-tab-active: rgba(0, 0, 0, 0.0);    /* tab activo completamente transparente */
-  --lynx-blur-tab-inactive: rgba(13, 13, 13, 0.45);
-  --lynx-blur-widget: rgba(13, 13, 13, 0.88);    /* widgets/popups casi opacos */
-  --lynx-blur-accent: #00b4d8;
+/* ─── Scroll decoration ─────────────────────────────── */
+.scroll-decoration {
+  box-shadow: none !important;
 }
 
-/* ─── Fondo raíz del html ────────────────────────────── */
-html {
-  background: var(--lynx-blur-bg) !important;
+/* ─── Minimap + scrollbar ────────────────────────────── */
+.minimap, .editor-scrollable>.decorationsOverviewRuler {
+  opacity: 0.8;
 }
 
-/* ─── Editor principal ───────────────────────────────── */
-.monaco-editor,
-.monaco-editor .overflow-guard {
+/* ─── Editor container ───────────────────────────────── */
+.editor-container:not(.modal-editor-part .editor-container) {
   background: transparent !important;
 }
 
-/* ─── Activity Bar ───────────────────────────────────── */
-.activitybar {
-  background: var(--lynx-blur-sidebar) !important;
+/* ─── Modal editor fix ───────────────────────────────── */
+.modal-editor-part > .content,
+.modal-editor-part .editor-container,
+.inline-chat-gutter-menu {
+  background-color: var(--vscode-quickInput-background) !important;
 }
 
-/* ─── Sidebar / Panel lateral ────────────────────────── */
-.sidebar {
-  background: var(--lynx-blur-sidebar) !important;
+/* ─── Core transparent elements ──────────────────────── */
+.search-view .search-widget .input-box,
+.search-view .search-widget .input-box .monaco-inputbox,
+.monaco-workbench .part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab,
+.monaco-editor-background,
+.monaco-editor .margin,
+.monaco-workbench .part:not(.modal-editor-part)>.content,
+.monaco-workbench .editor>.content>.one-editor-silo.editor-one,
+.monaco-workbench .part.editor>.content>.one-editor-silo>.container>.title,
+.monaco-workbench .part>.title,
+.monaco-workbench,
+.monaco-workbench .part,
+body {
+  background: transparent !important;
 }
 
 /* ─── Tabs ───────────────────────────────────────────── */
-.tab.active {
-  background: var(--lynx-blur-tab-active) !important;
+.editor-group-container>.tabs {
+  background-color: transparent !important;
 }
 
-.tab:not(.active) {
-  background: var(--lynx-blur-tab-inactive) !important;
+.editor-group-container>.tabs .tab {
+  background-color: transparent !important;
+  border: none !important;
 }
 
-/* ─── Panel inferior (Terminal, Output, etc.) ────────── */
-.panel {
-  background: var(--lynx-blur-bg) !important;
+.editor-group-container>.tabs .tab.active,
+.editor-group-container>.tabs .monaco-breadcrumbs {
+  background-color: rgba(13, 13, 13, 0.3) !important;
 }
 
-/* ─── Widgets flotantes (autocomplete, hover, etc.) ─── */
-.monaco-editor .suggest-widget,
-.monaco-editor .parameter-hints-widget,
-.monaco-hover {
-  background: var(--lynx-blur-widget) !important;
+/* ─── Settings tree ──────────────────────────────────── */
+.monaco-list.settings-toc-tree .monaco-list-row.focused {
+  outline-color: rgba(13, 13, 13, 0.6) !important;
 }
 
-/* ─── Status bar ─────────────────────────────────────── */
-.statusbar {
-  background: var(--lynx-blur-sidebar) !important;
+.monaco-list.settings-toc-tree .monaco-list-row.selected,
+.monaco-list.settings-toc-tree .monaco-list-row.focused,
+.monaco-list.settings-toc-tree:not(.drop-target) .monaco-list-row:hover:not(.selected):not(.focused) {
+  background-color: rgba(13, 13, 13, 0.6) !important;
 }
 
-/* ─── Breadcrumbs ────────────────────────────────────── */
-.breadcrumbs-container {
+.monaco-list.settings-editor-tree .monaco-list-row {
+  background-color: transparent !important;
+  outline-color: transparent !important;
+}
+
+/* ─── Input boxes ────────────────────────────────────── */
+.monaco-inputbox {
+  background-color: rgba(13, 13, 13, 0.2) !important;
+}
+
+/* ─── Text selection ─────────────────────────────────── */
+.monaco-editor .selected-text {
+  background-color: rgba(58, 61, 65, 0.6) !important;
+}
+
+.monaco-editor .focused .selected-text {
+  background-color: rgba(38, 79, 120, 0.6) !important;
+}
+
+/* ─── Current line ───────────────────────────────────── */
+.monaco-editor .view-overlays .current-line {
+  border-color: rgba(13, 13, 13, 0.2) !important;
+}
+
+/* ─── Extension editor + preferences ─────────────────── */
+.extension-editor,
+.monaco-workbench .part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab.active,
+.preferences-editor>.preferences-header,
+.preferences-editor>.preferences-editors-container.side-by-side-preferences-editor .preferences-header-container,
+.monaco-editor,
+.monaco-editor .inputarea.ime-input,
+.monaco-list .monaco-list-rows {
   background: transparent !important;
+}
+
+/* ─── Sidebar ────────────────────────────────────────── */
+.monaco-workbench .part.sidebar {
+  background-color: rgba(13, 13, 13, 0.3) !important;
+}
+
+/* ─── Terminal ───────────────────────────────────────── */
+.terminal-outer-container,
+.xterm-viewport,
+.xterm-rows {
+  background-color: transparent !important;
+}
+
+/* ─── Fullscreen ─────────────────────────────────────── */
+.monaco-workbench.fullscreen {
+  background-color: #0d0d0d !important;
+}
+
+/* ─── Notebooks + list hover ─────────────────────────── */
+.notebookOverlay.notebook-editor,
+.cell-statusbar-container,
+.margin-view-overlays,
+.monaco-list-row:hover:not(.selected):not(.focused) {
+  background-color: transparent !important;
+}
+
+/* ─── Label ──────────────────────────────────────────── */
+.label-container .label {
+  color: white !important;
 }

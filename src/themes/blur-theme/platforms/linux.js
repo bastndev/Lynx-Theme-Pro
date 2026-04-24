@@ -34,8 +34,51 @@ const {
 
 // ─── Constantes ───────────────────────────────────────────────────────────────
 
-const RUNTIME_VERSION = 'v1';
+const RUNTIME_VERSION  = 'v1';
 const RUNTIME_DIR_NAME = `lynx-blur-runtime-${RUNTIME_VERSION}`;
+
+// ─── Background keys que se modifican en workbench.colorCustomizations ────────
+// Mismas categorías que vibrancy-code para que los backgrounds sean transparentes
+
+const TRANSPARENT_BG_KEYS = [
+  'editorPane.background',
+  'editorGroupHeader.tabsBackground',
+  'editorGroupHeader.noTabsBackground',
+  'breadcrumb.background',
+  'editorGutter.background',
+  'panel.background',
+  'panelStickyScroll.background',
+  'tab.activeBackground',
+  'tab.unfocusedActiveBackground',
+];
+
+const SEMITRANSPARENT_BG_KEYS = [
+  'sideBar.background',
+  'sideBarTitle.background',
+  'sideBarStickyScroll.background',
+  'editor.background',
+  'editorStickyScroll.background',
+  'editorStickyScrollGutter.background',
+  'tab.inactiveBackground',
+  'tab.unfocusedInactiveBackground',
+];
+
+const OPAQUE_BG_KEYS = [
+  'inlineChat.background',
+  'editorWidget.background',
+  'editorHoverWidget.background',
+  'editorSuggestWidget.background',
+  'notifications.background',
+  'notificationCenterHeader.background',
+  'menu.background',
+  'quickInput.background',
+];
+
+const ALL_BG_KEYS = [...TRANSPARENT_BG_KEYS, ...SEMITRANSPARENT_BG_KEYS, ...OPAQUE_BG_KEYS];
+
+// Color base Lynx Dark
+const THEME_BG = '0d0d0d';
+const DEFAULT_OPACITY = 0.5;
 
 // Editores soportados: todo fork de VSCode con la misma estructura de archivos
 const CLI_COMMANDS = {
@@ -126,6 +169,93 @@ function resolveVSCodePaths() {
   const runtimeEntry = path.join(runtimeDir, 'inject.mjs');
 
   return { appDir, JSFile, ElectronJSFile, HTMLFile, runtimeDir, runtimeSrcDir, runtimeEntry };
+}
+// ─── Color Customizations (la pieza clave) ───────────────────────────────────
+
+/**
+ * Aplica colorCustomizations para hacer los backgrounds transparentes.
+ * Guarda los valores originales en globalState para poder restaurarlos.
+ */
+async function applyColorCustomizations(context) {
+  const config = vscode.workspace.getConfiguration();
+  const inspect = config.inspect('workbench.colorCustomizations');
+  const current = inspect?.globalValue || {};
+
+  // Guardar los originales si no se han guardado antes
+  const saved = context.globalState.get('lynxBlurOriginalColors');
+  if (!saved) {
+    const originals = {};
+    for (const key of ALL_BG_KEYS) {
+      originals[key] = current[key] ?? null;
+    }
+    originals['terminal.background'] = current['terminal.background'] ?? null;
+    originals['terminal.integrated.gpuAcceleration'] =
+      config.inspect('terminal.integrated.gpuAcceleration')?.globalValue ?? undefined;
+    await context.globalState.update('lynxBlurOriginalColors', originals);
+  }
+
+  // Calcular colores transparentes
+  const alphaHex = (opacity) => Math.round(opacity * 255).toString(16).padStart(2, '0');
+  const newColors = { ...current };
+
+  // Transparentes puros (#RRGGBB00)
+  for (const key of TRANSPARENT_BG_KEYS) {
+    newColors[key] = `#${THEME_BG}00`;
+  }
+
+  // Semi-transparentes (#RRGGBBAA)
+  for (const key of SEMITRANSPARENT_BG_KEYS) {
+    newColors[key] = `#${THEME_BG}${alphaHex(DEFAULT_OPACITY)}`;
+  }
+
+  // Semi-opacos (#RRGGBBE6 ≈ 0.9)
+  for (const key of OPAQUE_BG_KEYS) {
+    newColors[key] = `#${THEME_BG}${alphaHex(0.9)}`;
+  }
+
+  newColors['terminal.background'] = '#00000000';
+
+  await config.update('workbench.colorCustomizations', newColors, vscode.ConfigurationTarget.Global);
+}
+
+/**
+ * Restaura los colorCustomizations originales del usuario.
+ */
+async function restoreColorCustomizations(context) {
+  const saved = context.globalState.get('lynxBlurOriginalColors');
+  if (!saved) return;
+
+  const config = vscode.workspace.getConfiguration();
+  const inspect = config.inspect('workbench.colorCustomizations');
+  const current = { ...(inspect?.globalValue || {}) };
+
+  // Restaurar o eliminar cada key
+  for (const key of ALL_BG_KEYS) {
+    if (saved[key] !== null && saved[key] !== undefined) {
+      current[key] = saved[key];
+    } else {
+      delete current[key];
+    }
+  }
+
+  // Restaurar terminal background
+  if (saved['terminal.background'] !== null && saved['terminal.background'] !== undefined) {
+    current['terminal.background'] = saved['terminal.background'];
+  } else {
+    delete current['terminal.background'];
+  }
+
+  await config.update('workbench.colorCustomizations', current, vscode.ConfigurationTarget.Global);
+
+  // Restaurar GPU acceleration
+  if (saved['terminal.integrated.gpuAcceleration'] !== undefined) {
+    await config.update('terminal.integrated.gpuAcceleration',
+      saved['terminal.integrated.gpuAcceleration'], vscode.ConfigurationTarget.Global);
+  } else {
+    await config.update('terminal.integrated.gpuAcceleration', undefined, vscode.ConfigurationTarget.Global);
+  }
+
+  await context.globalState.update('lynxBlurOriginalColors', undefined);
 }
 
 // ─── Reinicio limpio (setsid + nohup) ────────────────────────────────────────
@@ -254,10 +384,19 @@ async function install(context) {
     // 5. Flush (copia elevada si es necesario)
     await writer.flush();
 
-    // 6. Guardar estado instalado
+    // 6. Aplicar colorCustomizations para hacer los backgrounds transparentes
+    await applyColorCustomizations(context);
+
+    // 7. Desactivar GPU acceleration del terminal (artefactos visuales)
+    try {
+      await vscode.workspace.getConfiguration()
+        .update('terminal.integrated.gpuAcceleration', 'off', vscode.ConfigurationTarget.Global);
+    } catch {}
+
+    // 8. Guardar estado instalado
     await context.globalState.update('lynxBlurInstalled', true);
 
-    // 7. Pedir reinicio
+    // 9. Pedir reinicio
     vscode.window.showInformationMessage(
       '✅ [Lynx Blur] Efecto transparencia instalado. Reinicia VSCode para activarlo.',
       { title: 'Reiniciar ahora' }
@@ -284,6 +423,9 @@ async function install(context) {
 async function uninstall(context) {
   if (_installing) return;
   _installing = true;
+
+  // Restaurar colorCustomizations ANTES de tocar archivos
+  await restoreColorCustomizations(context);
 
   const { appDir, JSFile, ElectronJSFile, HTMLFile, runtimeDir } = resolveVSCodePaths();
 
