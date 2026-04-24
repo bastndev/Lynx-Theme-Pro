@@ -6,9 +6,9 @@
   "name": "Lynx Test Theme",
   "type": "dark",
   "colors": {
-    "statusBar.background": "#00000000",
-    "statusBar.noFolderBackground": "#00000000",
-    "statusBar.debuggingBackground": "#00000000",
+    "statusBar.background": "#0d0d0d4d",
+    "statusBar.noFolderBackground": "#0d0d0d4d",
+    "statusBar.debuggingBackground": "#0d0d0d4d",
     "titleBar.activeBackground": "#00000000",
     "titleBar.inactiveBackground": "#00000000",
     "activityBar.background": "#00000000",
