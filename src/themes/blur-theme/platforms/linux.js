@@ -189,10 +189,11 @@ async function install(context) {
   if (elevationNeeded === 'snap' || elevationNeeded === 'flatpak') {
     const kind = elevationNeeded === 'flatpak' ? 'Flatpak' : 'Snap';
     vscode.window.showErrorMessage(
-      `[Lynx Blur] Las instalaciones ${kind} de VSCode son de solo lectura — ` +
-      `el efecto transparencia no puede aplicarse. ` +
-      `Instala VSCode desde el paquete .deb oficial de Microsoft (code.visualstudio.com/download) e intenta de nuevo.`
-    );
+      `[Lynx Blur] ${kind} no soportado — instala VSCode como .deb para usar este efecto.`,
+      { title: '📥 Descargar .deb' }
+    ).then(msg => {
+      if (msg) vscode.env.openExternal(vscode.Uri.parse('https://code.visualstudio.com/download'));
+    });
     _installing = false;
     return;
   }
