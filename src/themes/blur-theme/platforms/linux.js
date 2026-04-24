@@ -469,7 +469,7 @@ async function uninstall(context) {
     await context.globalState.update('lynxBlurInstalled', false);
 
     vscode.window.showInformationMessage(
-      '🔄 [Lynx Blur] Efecto transparencia eliminado. Reinicia VSCode.',
+      '🔄 [Blur] Efecto transparencia eliminado. Reinicia VSCode.',
       { title: 'Reiniciar ahora' }
     ).then(msg => { if (msg) promptRestart(false); });
 
