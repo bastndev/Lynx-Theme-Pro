@@ -376,7 +376,7 @@ async function install(context) {
 
     // 9. Prompt for restart
     vscode.window.showInformationMessage(
-      'Transparency effect installed. 🔄 Restart VSCode to activate it.',
+      '✔️ Transparency effect installed. 🔄 Restart VSCode to activate it.',
       { title: 'Restart now' }
     ).then(msg => { if (msg) promptRestart(); });
 

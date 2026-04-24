@@ -6,7 +6,10 @@
   "name": "Lynx Test Theme",
   "type": "dark",
 
-  "colors": {},
+  "colors": {
+    "statusBar.background": "#0d0d0d00",
+    "statusBar.noFolderBackground": "#0d0d0d00"
+  },
 
   "semanticTokenColors": {},
 

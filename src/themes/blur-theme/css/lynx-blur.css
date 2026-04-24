@@ -30,6 +30,7 @@
 .monaco-workbench .editor>.content>.one-editor-silo.editor-one,
 .monaco-workbench .part.editor>.content>.one-editor-silo>.container>.title,
 .monaco-workbench .part>.title,
+.monaco-workbench .part.statusbar,
 .monaco-workbench,
 .monaco-workbench .part,
 body {
