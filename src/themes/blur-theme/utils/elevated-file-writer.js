@@ -8,17 +8,27 @@ const { execSync, execFile } = require('child_process');
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
 /**
- * Devuelve false (sin elevación), true (necesita pkexec), o 'snap' (bloqueado).
+ * Devuelve: false (sin elevación), true (necesita pkexec),
+ *           'snap' (Snap, bloqueado), 'flatpak' (Flatpak, bloqueado).
  */
 function checkNeedsElevation(appDir) {
+  // Snap: squashfs — inmutable incluso para root
   if (appDir.startsWith('/snap/') || process.env.SNAP) return 'snap';
+
+  // Flatpak: el directorio de la app está dentro del sandbox de solo lectura
+  // Se detecta por FLATPAK_ID o porque el path comienza con /app/
+  if (process.env.FLATPAK_ID || appDir.startsWith('/app/')) return 'flatpak';
+
   try {
     const testFile = path.join(appDir, '.lynx-blur-write-test');
     fs.writeFileSync(testFile, '');
     fs.unlinkSync(testFile);
     return false;
   } catch (err) {
-    return (err.code === 'EACCES' || err.code === 'EPERM') ? true : false;
+    // EACCES/EPERM: sin permiso → elevar con pkexec
+    // EROFS: filesystem de solo lectura (ej. AppImage) → elevar también
+    if (['EACCES', 'EPERM', 'EROFS'].includes(err.code)) return true;
+    return false;
   }
 }
 

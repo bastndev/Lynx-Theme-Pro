@@ -2,6 +2,9 @@
 //
 // Pipeline de instalación:
 //   1. Detectar appDir (directorio de recursos de VSCode)
+//      → require.main.filename (igual que vibrancy-code)
+//      → _VSCODE_FILE_ROOT   (global interno que VSCode inyecta en el extension host)
+//      → vscode.env.appRoot  (API pública de VSCode, carpeta raíz de la app)
 //   2. Resolver rutas: JSFile, ElectronJSFile, HTMLFile
 //   3. Verificar elevación (pkexec si el directorio no es escribible)
 //   4. Copiar runtime/ al directorio de VSCode
@@ -12,12 +15,12 @@
 //   9. Reiniciar VSCode con setsid + nohup
 
 'use strict';
-const vscode      = require('vscode');
-const fs          = require('fs');
-const fsPromises  = require('fs').promises;
-const path        = require('path');
-const os          = require('os');
-const { spawn }   = require('child_process');
+const vscode = require('vscode');
+const fs = require('fs');
+const fsPromises = require('fs').promises;
+const path = require('path');
+const os = require('os');
+const { spawn } = require('child_process');
 
 const {
   generateNewJS, removeJSMarkers,
@@ -34,13 +37,18 @@ const {
 const RUNTIME_VERSION = 'v1';
 const RUNTIME_DIR_NAME = `lynx-blur-runtime-${RUNTIME_VERSION}`;
 
-// Nombre del CLI por editor (para el reinicio)
+// Editores soportados: todo fork de VSCode con la misma estructura de archivos
 const CLI_COMMANDS = {
-  'Visual Studio Code':           'code',
-  'Visual Studio Code - Insiders':'code-insiders',
-  'VSCodium':                     'codium',
-  'Cursor':                       'cursor',
-  'Code - OSS':                   'code-oss',
+  'Visual Studio Code': 'code',
+  'Visual Studio Code - Insiders': 'code-insiders',
+  'VSCodium': 'codium',
+  'Cursor': 'cursor',
+  'Code - OSS': 'code-oss',
+  'Windsurf': 'windsurf',
+  'Windsurf - Next': 'windsurf-next',
+  'Trae': 'trae',
+  'Kiro': 'kiro',
+  'Antigravity': 'antigravity',
 };
 
 // ─── Estado en memoria ────────────────────────────────────────────────────────
@@ -49,14 +57,55 @@ let _installing = false;  // Mutex para evitar instalaciones concurrentes
 
 // ─── Helpers de rutas ─────────────────────────────────────────────────────────
 
+/**
+ * Resuelve las rutas clave del directorio de recursos de VSCode.
+ * Usa la misma cadena de fallbacks que vibrancy-code:
+ *   1. require.main.filename  — en el extension host apunta al proceso principal
+ *   2. _VSCODE_FILE_ROOT      — global interno que VSCode inyecta en el extension host
+ *   3. vscode.env.appRoot     — API pública; puede necesitar subdir 'out/'
+ */
 function resolveVSCodePaths() {
   let appDir;
+
+  // Estrategia 1 (mismo que vibrancy-code)
   try {
     appDir = path.dirname(require.main.filename);
   } catch {
-    // Fallback: navegar desde el ejecutable de Electron
-    appDir = path.join(path.dirname(process.execPath), 'resources', 'app');
+    // Estrategia 2: global interno que VSCode inyecta
+    // eslint-disable-next-line no-undef
+    try { appDir = _VSCODE_FILE_ROOT; } catch { }
   }
+
+  // Estrategia 3: vscode.env.appRoot (API pública)
+  // Si main.js no existe en appDir, probamos subcarpetas comunes
+  const candidates = appDir
+    ? [appDir]
+    : [];
+
+  const appRoot = vscode.env.appRoot; // e.g. /usr/share/code/resources/app
+  if (appRoot) {
+    candidates.push(appRoot, path.join(appRoot, 'out'));
+  }
+
+  // Seleccionar el primer candidato que contenga main.js
+  let resolvedDir = null;
+  for (const candidate of candidates) {
+    if (candidate && fs.existsSync(path.join(candidate, 'main.js'))) {
+      resolvedDir = candidate;
+      break;
+    }
+  }
+
+  if (!resolvedDir) {
+    const tried = candidates.join(', ');
+    throw new Error(
+      `No se encontró main.js. Rutas intentadas: [${tried}]. ` +
+      `Editor: ${vscode.env.appName}. Plataforma: ${process.platform}.`
+    );
+  }
+
+  appDir = resolvedDir;
+  console.log('[Lynx Blur] appDir resuelto:', appDir);
 
   const JSFile = path.join(appDir, 'main.js');
 
@@ -64,17 +113,17 @@ function resolveVSCodePaths() {
   let ElectronJSFile = path.join(appDir, 'vs', 'code', 'electron-main', 'main.js');
   if (!fs.existsSync(ElectronJSFile)) ElectronJSFile = JSFile;
 
-  // Buscar workbench.html (la ruta cambia entre versiones)
+  // Buscar workbench.html (la ruta cambia entre versiones de VSCode)
   const htmlCandidates = [
     path.join(appDir, 'vs', 'code', 'electron-sandbox', 'workbench', 'workbench.html'),
-    path.join(appDir, 'vs', 'code', 'electron-browser',  'workbench', 'workbench.html'),
+    path.join(appDir, 'vs', 'code', 'electron-browser', 'workbench', 'workbench.html'),
     path.join(appDir, 'vs', 'code', 'electron-sandbox', 'workbench', 'workbench.esm.html'),
   ];
   const HTMLFile = htmlCandidates.find(p => fs.existsSync(p)) || htmlCandidates[0];
 
-  const runtimeDir     = path.join(appDir, RUNTIME_DIR_NAME);
-  const runtimeSrcDir  = path.resolve(__dirname, '../runtime');
-  const runtimeEntry   = path.join(runtimeDir, 'inject.mjs');
+  const runtimeDir = path.join(appDir, RUNTIME_DIR_NAME);
+  const runtimeSrcDir = path.resolve(__dirname, '../runtime');
+  const runtimeEntry = path.join(runtimeDir, 'inject.mjs');
 
   return { appDir, JSFile, ElectronJSFile, HTMLFile, runtimeDir, runtimeSrcDir, runtimeEntry };
 }
@@ -89,9 +138,9 @@ async function promptRestart(setControlsStyle) {
       .update('window.controlsStyle', value, vscode.ConfigurationTarget.Global);
   } catch { /* setting no disponible en esta versión */ }
 
-  const cliName  = CLI_COMMANDS[vscode.env.appName] || 'code';
-  const pid      = process.pid;
-  const binName  = path.basename(process.execPath).replace(/'/g, "'\\''");
+  const cliName = CLI_COMMANDS[vscode.env.appName] || 'code';
+  const pid = process.pid;
+  const binName = path.basename(process.execPath).replace(/'/g, "'\\''");
 
   const script = [
     '#!/bin/sh',
@@ -122,9 +171,14 @@ async function install(context) {
   const { appDir, JSFile, ElectronJSFile, HTMLFile, runtimeDir, runtimeSrcDir, runtimeEntry } =
     resolveVSCodePaths();
 
-  // Verificar que los archivos clave existen
+  // Verificar que los archivos clave existen (mostrar diagnóstico si fallan)
   if (!fs.existsSync(JSFile) || !fs.existsSync(HTMLFile)) {
-    vscode.window.showErrorMessage('[Lynx Blur] No se encontraron los archivos de VSCode. Instalación cancelada.');
+    const info = `JSFile: ${JSFile} (${fs.existsSync(JSFile) ? '✓' : '✗'}) | HTMLFile: ${HTMLFile} (${fs.existsSync(HTMLFile) ? '✓' : '✗'})`;
+    console.error('[Lynx Blur][Linux] Archivos no encontrados:', info);
+    vscode.window.showErrorMessage(
+      `[Lynx Blur] Archivos de VSCode no encontrados. Editor: ${vscode.env.appName}. ` +
+      `Si usas un fork de VSCode, abre un issue. Detalle: ${info}`
+    );
     _installing = false;
     return;
   }
@@ -132,8 +186,13 @@ async function install(context) {
   // Verificar si se necesita elevación
   const elevationNeeded = checkNeedsElevation(appDir);
 
-  if (elevationNeeded === 'snap') {
-    vscode.window.showErrorMessage('[Lynx Blur] Las instalaciones Snap son de solo lectura. El efecto blur no puede aplicarse.');
+  if (elevationNeeded === 'snap' || elevationNeeded === 'flatpak') {
+    const kind = elevationNeeded === 'flatpak' ? 'Flatpak' : 'Snap';
+    vscode.window.showErrorMessage(
+      `[Lynx Blur] Las instalaciones ${kind} de VSCode son de solo lectura — ` +
+      `el efecto transparencia no puede aplicarse. ` +
+      `Instala VSCode desde el paquete .deb oficial de Microsoft (code.visualstudio.com/download) e intenta de nuevo.`
+    );
     _installing = false;
     return;
   }
@@ -187,7 +246,7 @@ async function install(context) {
     await writer.writeFile(JSFile, mainJS, 'utf-8');
 
     // 4. Parchear workbench.html (CSP)
-    const html    = await fsPromises.readFile(HTMLFile, 'utf-8');
+    const html = await fsPromises.readFile(HTMLFile, 'utf-8');
     const { result: patchedHTML, noMetaTag } = patchCSP(html);
     if (!noMetaTag) await writer.writeFile(HTMLFile, patchedHTML, 'utf-8');
 
@@ -255,7 +314,7 @@ async function uninstall(context) {
 
     // 3. Limpiar CSP de workbench.html
     if (fs.existsSync(HTMLFile)) {
-      const html    = await fsPromises.readFile(HTMLFile, 'utf-8');
+      const html = await fsPromises.readFile(HTMLFile, 'utf-8');
       const cleaned = removeCSPPatch(html);
       if (cleaned !== html) await writer.writeFile(HTMLFile, cleaned, 'utf-8');
     }
