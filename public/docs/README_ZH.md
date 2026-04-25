@@ -157,6 +157,6 @@ ext install bastndev.lynx-theme
   **享受吧 🎉 (Lynx Theme Pro) 现已安装！**  
   *如果您发现任何错误或有反馈，请随时 [报告问题](https://github.com/bastndev/Lynx-Theme-Pro/issues)。*
 
-<sub>由 <a href="https://gohit.xyz">Gohit X</a> 在 🇵🇪 制造 · 采用 <a href="./LICENSE">MIT</a> 许可证</sub>
+<sub>由 <a href="https://gohit.xyz">Gohit X</a> 在 🇵🇪 制造 · 采用 <a href="./LICENSE">`MIT`</a> 许可证</sub>
 
 </div>

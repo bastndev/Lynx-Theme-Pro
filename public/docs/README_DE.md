@@ -157,6 +157,6 @@ Vielen Dank an alle, die dieses Projekt unterstützen! Ihre Beiträge ermöglich
   **Viel Spaß 🎉 (Lynx Theme Pro) ist jetzt installiert!**  
   *Wenn Sie Fehler finden oder Feedback haben, können Sie gerne [ein Problem melden](https://github.com/bastndev/Lynx-Theme-Pro/issues).*
 
-  <sub>Hergestellt in 🇵🇪 von <a href="https://gohit.xyz">Gohit X</a> · Lizenziert unter <a href="./LICENSE">MIT</a></sub>
+  <sub>Hergestellt in 🇵🇪 von <a href="https://gohit.xyz">Gohit X</a> · Lizenziert unter <a href="./LICENSE">`MIT`</a></sub>
 
 </div>
