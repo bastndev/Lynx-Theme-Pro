@@ -4,8 +4,8 @@
 
 <p align="center">
   <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=7F5BFF&label=VERSION" alt="Version">&nbsp;
-  <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=FF5ACF&label=RATING" alt="Rating">&nbsp;
   <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=4EF4E2&label=Downloads" alt="Downloads">&nbsp;
+    <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=FF5ACF&label=RATING" alt="Rating">&nbsp;
   <a href="https://github.com/bastndev/Lynx-Theme-Pro"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
 </p>
 
@@ -59,17 +59,18 @@
 
 #### 7. NVIM
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/nvim-theme.webp" alt="message Blur Theme Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/nvim-theme.png" alt="NVIM Theme Screenshot" width="100%">
   </details>
 </details>
 
 <!--New Message Added  -->
+<br>
 
 > [!IMPORTANT]
-> - 🧪 `new` **Theme Blur:** We have a new theme `8. BLUR(Lynx Theme)` that is currently experimental
+> - `new` **Theme Blur:** We have a new theme `8. BLUR ㅤ(Lynx Theme)` that is currently experimentalㅤ 🧪
 > 
-> <div align="center">
->   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/message-warning.jpg" width="60%" alt="Experimental Theme Warning">
+> <div align="right">
+>   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/message-warning.webp" width="60%" alt="Experimental Theme Warning">
 > </div>
 
 ## Installation
@@ -93,22 +94,25 @@ ext install bastndev.lynx-theme
 |                     **[Gohit X](https://gohit.xyz)**                      |
 |                          _Creator & Maintainer_                           |
 
-- [🐦 X](https://twitter.com/gohitx) - For questions and discussions.
 - 🔴 [Youtube](https://www.youtube.com/@gohitx?sub_confirmation=1) - Code, Software and development insights.
-- 💼 [Linkedin](https://www.linkedin.com/in/gohitx) - Professional networking and career updates.
+- 🖤 [TikTok](https://www.tiktok.com/@gohitx) - Short coding tutorials, tech tips & more.
+- 🌱 **[IG](https://instagram.com/gohitx)** : **`new`** – Project previews & life updates.
 
 <br>
 
 | Icon                                                                                                                                                                                                                                     | Name                                                           | Description                                                                                                                                                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://github.com/bastndev/ATM) | [ATM](https://github.com/bastndev/ATM) | An all-in-one toolkit 👻 that supercharges your workflow with essential features like Error Lens, Git Blame, Env Protection, and code screenshots across major editors. |
 | [![Lynx Keymap Pro](https://raw.githubusercontent.com/bastndev/Lynx-Keymap-Pro/refs/heads/main/assets/images/logo.png)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-keymap)                                        | [Lynx Keymap Pro](https://github.com/bastndev/Lynx-Keymap-Pro) | Standardizes keyboard shortcuts across all code editors, allowing you to use key combinations to access any functionality. It improves workflow and development experience.                   |
-| [![LynxJS Pack](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynxjs-pack/0.1.8/1745206864969/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynxjs-pack)    | [LynxJS Pack](https://github.com/bastndev/LynxJs-Packge)       | An all-in-one toolkit for web and mobile development with LynxJS: includes keyboard shortcuts, error alerts, text correction, snippets, and more. Tools designed to streamline your workflow. |
 | [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.compare-code) | [Compare Code](https://github.com/bastndev/Compare-Code)       | Lets you compare code in a professional, fast, and clear way. With a modern and intuitive interface, it's ideal for developers looking to boost their productivity.                           |
 
 <br>
 
 <div align="center">
   
-  **Enjoy 🎉 Your (Lynx theme Pro) are now installed!**  
-  *If you find any bugs or have feedback, you can [open an issue](https://github.com/bastndev/Lynx-Theme-Pro/issues)*
+  **Enjoy 🎉 (Lynx Theme Pro) is now installed!**  
+  *If you find any bugs or have feedback, feel free to [open an issue](https://github.com/bastndev/Lynx-Theme-Pro/issues).*
+
+  <sub>Made in 🇵🇪 by <a href="https://gohit.xyz">Gohit X</a> · Licensed under <a href="./LICENSE">MIT</a></sub>
+
 </div>
