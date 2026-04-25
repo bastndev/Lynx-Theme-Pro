@@ -17,6 +17,10 @@
   <details>
     <summary>🎭 Icons ㅤ (Screenshots)</summary>
 
+#### System Icons (IDE) 
+
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="System Icons Screenshot" width="100%">
+
 #### A. Style
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/a-style.png" alt="Icon Style A Screenshot" width="100%">
