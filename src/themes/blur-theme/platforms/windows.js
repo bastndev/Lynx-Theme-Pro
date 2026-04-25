@@ -3,6 +3,7 @@ const vscode      = require('vscode');
 const fs          = require('fs');
 const fsPromises  = require('fs').promises;
 const path        = require('path');
+const { t }       = require('../utils/l10n');
 const {
   generateNewJS, removeJSMarkers,
   injectElectronOptions, removeElectronOptions,
@@ -163,7 +164,7 @@ async function install(context) {
     paths = resolveVSCodePaths();
   } catch (err) {
     console.error('[Lynx Blur][Windows] Path resolution failed:', err);
-    vscode.window.showErrorMessage(`[Lynx Blur] ${err.message}`);
+    vscode.window.showErrorMessage(t('lynx.blur.error.generic', err.message));
     _installing = false;
     return;
   }
@@ -172,7 +173,7 @@ async function install(context) {
 
   if (!fs.existsSync(JSFile) || !fs.existsSync(HTMLFile)) {
     const info = `JSFile: ${fs.existsSync(JSFile)}, HTMLFile: ${fs.existsSync(HTMLFile)}`;
-    vscode.window.showErrorMessage(`[Lynx Blur] VSCode files not found. ${info}`);
+    vscode.window.showErrorMessage(t('lynx.blur.error.win.notFound', info));
     _installing = false;
     return;
   }
@@ -181,12 +182,11 @@ async function install(context) {
 
   if (elevationNeeded) {
     const choice = await vscode.window.showInformationMessage(
-      '[Lynx Theme Pro] Administrator permissions are required to modify VSCode installation in C:\\Program Files. ' +
-      'A UAC prompt will appear.',
-      { title: 'Yes, continue' },
-      { title: 'Cancel' }
+      t('lynx.blur.prompt.win'),
+      { title: t('lynx.blur.btn.continue') },
+      { title: t('lynx.blur.btn.cancel') }
     );
-    if (!choice || choice.title === 'Cancel') { _installing = false; return; }
+    if (!choice || choice.title === t('lynx.blur.btn.cancel')) { _installing = false; return; }
   }
 
   const writer = new StagedFileWriterWindows(elevationNeeded);
@@ -232,14 +232,14 @@ async function install(context) {
 
     // 8. Restart prompt
     vscode.window.showInformationMessage(
-      '✔️ Windows Transparent effect installed. 🔄 Restart VSCode to activate it.',
-      { title: 'Restart now' }
+      t('lynx.blur.install.success.win'),
+      { title: t('lynx.blur.btn.restart') }
     ).then(msg => { if (msg) promptRestart(); });
 
   } catch (error) {
     writer.cleanup();
     console.error('[Lynx Blur][Windows] Installation error:', error);
-    vscode.window.showErrorMessage(`[Lynx Blur] Installation failed: ${error.message}`);
+    vscode.window.showErrorMessage(t('lynx.blur.error.installFailed', error.message));
   } finally {
     _installing = false;
   }
@@ -297,13 +297,13 @@ async function uninstall(context) {
     await context.globalState.update('lynxBlurInstalled', false);
 
     vscode.window.showInformationMessage(
-      'Windows Transparent effect removed. 🔄 Restart VSCode.',
-      { title: 'Restart now' }
+      t('lynx.blur.uninstall.success.win'),
+      { title: t('lynx.blur.btn.restart') }
     ).then(msg => { if (msg) promptRestart(); });
 
   } catch (error) {
     writer.cleanup();
-    vscode.window.showErrorMessage(`[Lynx Blur] Uninstallation failed: ${error.message}`);
+    vscode.window.showErrorMessage(t('lynx.blur.error.uninstallFailed', error.message));
   } finally {
     _installing = false;
   }

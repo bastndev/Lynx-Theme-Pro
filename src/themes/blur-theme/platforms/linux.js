@@ -5,6 +5,7 @@ const fsPromises = require('fs').promises;
 const path = require('path');
 const os = require('os');
 const { spawn } = require('child_process');
+const { t } = require('../utils/l10n');
 
 const {
   generateNewJS, removeJSMarkers,
@@ -246,8 +247,7 @@ async function install(context) {
     const info = `JSFile: ${JSFile} (${fs.existsSync(JSFile) ? '✓' : '✗'}) | HTMLFile: ${HTMLFile} (${fs.existsSync(HTMLFile) ? '✓' : '✗'})`;
     console.error('[Lynx Blur][Linux] Files not found:', info);
     vscode.window.showErrorMessage(
-      `[Lynx Blur] VSCode files not found. Editor: ${vscode.env.appName}. ` +
-      `If you use a VSCode fork, open an issue. Detail: ${info}`
+      t('lynx.blur.error.linux.notFound', vscode.env.appName, info)
     );
     _installing = false;
     return;
@@ -259,8 +259,8 @@ async function install(context) {
   if (elevationNeeded === 'snap' || elevationNeeded === 'flatpak') {
     const kind = elevationNeeded === 'flatpak' ? 'Flatpak' : 'Snap';
     vscode.window.showErrorMessage(
-      `[Lynx Blur] ${kind} not supported — install VSCode as .deb to use this effect.`,
-      { title: '📥 Download .deb' }
+      t('lynx.blur.error.linux.snapFlatpak', kind),
+      { title: t('lynx.blur.btn.download') }
     ).then(msg => {
       if (msg) vscode.env.openExternal(vscode.Uri.parse('https://code.visualstudio.com/download'));
     });
@@ -269,24 +269,24 @@ async function install(context) {
   }
 
   if (elevationNeeded && hasNoNewPrivs()) {
-    vscode.window.showErrorMessage('[Lynx Blur] Cannot elevate permissions in this session. Restart VSCode normally and try again.');
+    vscode.window.showErrorMessage(t('lynx.blur.error.linux.noElevate'));
     _installing = false;
     return;
   }
 
   if (elevationNeeded && !hasPkexec()) {
-    vscode.window.showErrorMessage('[Lynx Blur] pkexec (Polkit) is required to write to the VSCode directory. Install it and try again.');
+    vscode.window.showErrorMessage(t('lynx.blur.error.linux.noPkexec'));
     _installing = false;
     return;
   }
 
   if (elevationNeeded) {
     const choice = await vscode.window.showInformationMessage(
-      '[Lynx Theme Pro Blur] Administrator permissions are required to apply the transparency effect. Continue?',
-      { title: 'Yes, continue' },
-      { title: 'Cancel' }
+      t('lynx.blur.prompt.linux'),
+      { title: t('lynx.blur.btn.continue') },
+      { title: t('lynx.blur.btn.cancel') }
     );
-    if (!choice || choice.title === 'Cancel') { _installing = false; return; }
+    if (!choice || choice.title === t('lynx.blur.btn.cancel')) { _installing = false; return; }
   }
 
   const writer = new StagedFileWriter(elevationNeeded);
@@ -338,8 +338,8 @@ async function install(context) {
 
     // 9. Prompt for restart
     vscode.window.showInformationMessage(
-      '✔️ Linux transparency effect installed. 🔄 Restart VSCode to activate it.',
-      { title: 'Restart now' }
+      t('lynx.blur.install.success.linux'),
+      { title: t('lynx.blur.btn.restart') }
     ).then(msg => { if (msg) promptRestart(); });
 
   } catch (error) {
@@ -347,11 +347,11 @@ async function install(context) {
     console.error('[Lynx Blur][Linux] Installation error:', error);
 
     if (error.message === 'no_new_privs') {
-      vscode.window.showErrorMessage('[Lynx Blur] Cannot elevate permissions in this session. Restart VSCode and try again.');
+      vscode.window.showErrorMessage(t('lynx.blur.error.linux.noElevate'));
     } else if (error.code === 'EACCES' || error.code === 'EPERM') {
-      vscode.window.showErrorMessage(`[Lynx Blur] No write permissions: ${error.message}`);
+      vscode.window.showErrorMessage(t('lynx.blur.error.noWrite', error.message));
     } else {
-      vscode.window.showErrorMessage(`[Lynx Blur] Unexpected error: ${error.message}`);
+      vscode.window.showErrorMessage(t('lynx.blur.error.unexpected', error.message));
     }
   } finally {
     _installing = false;
@@ -416,14 +416,14 @@ async function uninstall(context) {
     await context.globalState.update('lynxBlurInstalled', false);
 
     vscode.window.showInformationMessage(
-      'Transparency effect removed. 🔄 Restart VSCode.',
-      { title: 'Restart now' }
+      t('lynx.blur.uninstall.success.linux'),
+      { title: t('lynx.blur.btn.restart') }
     ).then(msg => { if (msg) promptRestart(); });
 
   } catch (error) {
     writer.cleanup();
     console.error('[Lynx Blur][Linux] Uninstallation error:', error);
-    vscode.window.showErrorMessage(`[Lynx Blur] Error uninstalling: ${error.message}`);
+    vscode.window.showErrorMessage(t('lynx.blur.error.uninstallFailed', error.message));
   } finally {
     _installing = false;
   }
