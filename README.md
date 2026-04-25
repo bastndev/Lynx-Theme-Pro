@@ -66,9 +66,9 @@
 <!--New Message Added  -->
 
 > [!IMPORTANT]
-> **🧪 NEW Theme Blur:** We have a new theme `8. BLURㅤㅤ(Lynx Theme)` that is currently experimental
+> - 🧪 `new` **Theme Blur:** We have a new theme `8. BLUR(Lynx Theme)` that is currently experimental
 > 
-> <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/message-warning.jpg" width="100%" alt="Experimental Theme Warning">
+> <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/message-warning.jpg" width="80%" alt="Experimental Theme Warning">
 
 ## Installation
 
