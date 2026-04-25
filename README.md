@@ -94,9 +94,9 @@ ext install bastndev.lynx-theme
 |                     **[Gohit X](https://gohit.xyz)**                      |
 |                          _Creator & Maintainer_                           |
 
-- [🐦 X](https://twitter.com/gohitx) - For questions and discussions.
 - 🔴 [Youtube](https://www.youtube.com/@gohitx?sub_confirmation=1) - Code, Software and development insights.
-- 💼 [Linkedin](https://www.linkedin.com/in/gohitx) - Professional networking and career updates.
+- 🖤 [TikTok](https://www.tiktok.com/@gohitx) - Short coding tutorials, tech tips & more.
+- 🌱 **[IG](https://instagram.com/gohitx)** : **`new`** – Project previews & life updates.
 
 <br>
 
