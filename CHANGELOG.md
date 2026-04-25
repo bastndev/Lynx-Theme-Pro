@@ -24,6 +24,10 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 ---
 ## [5.0.0] - 2026-04-25
 
+### Added
+
+- **Lynx Blur Theme**: New theme variant (Theme 08) featuring cross-platform blur support for Linux, macOS, and Windows.
+
 ---
 ## [4.4.1] - 2026-04-22
 

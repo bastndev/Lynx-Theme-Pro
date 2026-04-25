@@ -2,13 +2,19 @@
   "name": "lynx-theme",
   "displayName": "Lynx Theme Pro + (Icons)",
   "description": "Available now: VSCode • Antigravity • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
-  "version": "4.4.1",
+  "version": "5.0.0",
   "publisher": "bastndev",
   "license": "MIT",
+  "main": "./src/themes/blur-theme/blur-theme.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "engines": {
     "vscode": "^1.74.0"
   },
-  "categories": ["Themes"],
+  "categories": [
+    "Themes"
+  ],
   "keywords": [
     "theme",
     "color-theme",
@@ -38,14 +44,13 @@
     "url": "https://github.com/bastndev/Lynx-Theme-Pro/issues"
   },
   "author": {
-    "name": "Gohit Bastian", 
+    "name": "Gohit Bastian",
     "email": "hello@gohit.xyz",
     "url": "https://www.gohit.xyz/me"
   },
   "sponsor": {
     "url": "https://github.com/sponsors/bastndev"
   },
-
   "contributes": {
     "themes": [
       {
@@ -69,7 +74,7 @@
         "path": "./src/themes/04_Lynx-Ghibli-theme.json"
       },
       {
-        "label": "5. FURY ㅤ(Lynx Theme)",
+        "label": "5. FURY ㅤ (Lynx Theme)",
         "uiTheme": "vs-dark",
         "path": "./src/themes/05_Lynx-Fury-theme.json"
       },
@@ -82,9 +87,13 @@
         "label": "7. NVIMㅤㅤ(Lynx Theme)",
         "uiTheme": "vs-dark",
         "path": "./src/themes/07_Lynx-NVIM-theme.json"
+      },
+      {
+        "label": "8. BLURㅤㅤ(Lynx Theme) 🧪",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/08_Lynx-Blur-theme.json"
       }
     ],
-
     "iconThemes": [
       {
         "id": "lynx-pro-dark",
