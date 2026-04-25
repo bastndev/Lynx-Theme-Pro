@@ -13,21 +13,27 @@
     "vscode": "^1.74.0"
   },
   "categories": [
-    "Themes"
+    "Themes",
+    "Other"
   ],
   "keywords": [
     "theme",
-    "color-theme",
-    "dark-theme",
-    "light-theme",
-    "icon-theme",
+    "color theme",
+    "dark theme",
+    "light theme",
+    "icon theme",
     "icons",
-    "2026",
-    "syntax-highlighting",
+    "file icons",
+    "syntax highlighting",
+    "dark mode",
+    "light mode",
     "minimal",
     "productivity",
-    "eye-friendly",
-    "l theme",
+    "eye strain",
+    "blur",
+    "glassmorphism",
+    "cursor",
+    "windsurf",
     "lynx"
   ],
   "icon": "icon.png",
