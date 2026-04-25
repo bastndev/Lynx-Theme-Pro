@@ -1,11 +1,11 @@
 <div align="center">
-  <a href="https://github.com/bastndev/Lynx-Theme-Pro/releases/latest"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/images/banner.png" width="100%" alt="CodePen"></a>
+  <a href="https://github.com/bastndev/Lynx-Theme-Pro/releases/latest"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/images/banner.png" width="100%" alt="Lynx Theme Pro Banner"></a>
 </div>
 
 <p align="center">
   <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=7F5BFF&label=VERSION" alt="Version">&nbsp;
   <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=4EF4E2&label=Downloads" alt="Downloads">&nbsp;
-    <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=FF5ACF&label=RATING" alt="Rating">&nbsp;
+  <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=FF5ACF&label=RATING" alt="Rating">&nbsp;
   <a href="https://github.com/bastndev/Lynx-Theme-Pro"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
 </p>
 
@@ -13,6 +13,8 @@
 
 <details>
   <summary align="center"><strong>(𝗖𝗹𝗶𝗰𝗸) Lynx Theme + Icons</strong></summary>
+
+  <br>
 
   <details>
     <summary>🎭 Icons ㅤ (Screenshots)</summary>
@@ -53,9 +55,9 @@
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/ghibli-theme.png" alt="GHIBLI Theme Screenshot" width="100%">
 
-#### 5. COFFEE
+#### 5. FURY
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/coffee-theme.png" alt="COFFEE Theme Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/coffee-theme.png" alt="FURY Theme Screenshot" width="100%">
 
 #### 6. KIRO
 
@@ -67,7 +69,6 @@
   </details>
 </details>
 
-<!--New Message Added  -->
 <br>
 
 > [!IMPORTANT]
@@ -76,6 +77,8 @@
 > <div align="right">
 >   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/message-warning.webp" width="60%" alt="Experimental Theme Warning">
 > </div>
+
+<br>
 
 ## Installation
 
@@ -87,7 +90,7 @@ Launch _Quick Open_
 
 Paste the following command and press `Enter`:
 
-```
+```bash
 ext install bastndev.lynx-theme
 ```
 
