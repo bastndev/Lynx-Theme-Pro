@@ -1,6 +1,3 @@
 node_modules
 *.vsix
 src/__test__
-
-# new 
-vibrancy-code/

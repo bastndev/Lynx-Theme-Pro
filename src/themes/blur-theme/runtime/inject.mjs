@@ -3,15 +3,16 @@
  *
  * Este archivo NO corre en el extension host — corre dentro del proceso
  * principal de Electron de VSCode, importado desde main.js después de que
- * linux.js inyectó los marcadores.
+ * la plataforma (Linux, macOS, o Windows) inyectó los marcadores.
  *
  * Flujo:
- *   1. Leer global.lynx_blur_plugin (inyectado por linux.js)
+ *   1. Leer global.lynx_blur_plugin (inyectado por la plataforma)
  *   2. Escuchar 'browser-window-created' en electron.app
  *   3. Cuando se abre la ventana principal (workbench.html):
  *      a. setBackgroundColor('#00000000') — fondo totalmente transparente
- *      b. Instalar método interval o overwrite para mantener transparencia
- *      c. Inyectar lynx-blur.css en el DOM via executeJavaScript
+ *      b. macOS: Activar vibrancy nativo
+ *      c. Linux/Windows: Instalar método CSS para mantener transparencia
+ *      d. Inyectar lynx-blur.css en el DOM via executeJavaScript
  */
 
 import electron from 'electron';
@@ -55,7 +56,7 @@ if (!app) {
         window.setBounds({ width: b.width });
       }
 
-      // Iniciar método de mantenimiento de transparencia
+      // Iniciar método de mantenimiento de transparencia (Linux / Windows CSS)
       effects.install();
 
       // Inyectar CSS del tema Lynx Blur
