@@ -17,7 +17,7 @@
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_JA.md">日本語 🇯🇵</a> |
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_KO.md">한국어 🇰🇷</a> |
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_PT.md">Português 🇧🇷</a> |
-  <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_RU.md">Русский 🇷🇺</a>
+  <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_RU.md">Русский 🇷🇺</a><span>...</span>
 </p>
 <br>
 
@@ -155,7 +155,7 @@ ext install bastndev.lynx-theme
 <div align="center">
   
   **¡Disfruta 🎉 (Lynx Theme Pro) ya está instalado!**  
-  *Si encuentras algún error o tienes comentarios, no dudes en [abrir un problema](https://github.com/bastndev/Lynx-Theme-Pro/issues).*
+  *Si encuentras algún error o tienes comentarios, no dudes en [reportar un problema](https://github.com/bastndev/Lynx-Theme-Pro/issues).*
 
 <sub>Hecho en 🇵🇪 por <a href="https://gohit.xyz">Gohit X</a> · Licencia <a href="./LICENSE">MIT</a></sub>
 
