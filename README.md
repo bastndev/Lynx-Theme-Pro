@@ -59,16 +59,18 @@
 
 #### 7. NVIM
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/nvim-theme.png" alt="NVIM Theme Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/nvim-theme.webp" alt="message Blur Theme Screenshot" width="100%">
   </details>
 </details>
 
 <!--New Message Added  -->
 
-> [!WARNING]
-> **NEW:** We have a new theme `src/themes/08_Lynx-Blur-theme.json` that is currently experimental 🧪
+> [!IMPORTANT]
+> - 🧪 `new` **Theme Blur:** We have a new theme `8. BLUR(Lynx Theme)` that is currently experimental
 > 
-> <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/message-warning.jpg" width="100%" alt="Experimental Theme Warning">
+> <div align="center">
+>   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/message-warning.jpg" width="60%" alt="Experimental Theme Warning">
+> </div>
 
 ## Installation
 
