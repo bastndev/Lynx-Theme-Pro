@@ -6,14 +6,17 @@ Before contributing, read the **[Architecture Guide](https://github.com/bastndev
 
 ## Quick Start
 
+1. **[Fork the repository](https://github.com/bastndev/Lynx-Theme-Pro/fork)** on GitHub
+2. Clone your fork and set up:
+
 ```bash
-git clone https://github.com/bastndev/Lynx-Theme-Pro.git
+git clone https://github.com/YOUR-USERNAME/Lynx-Theme-Pro.git
 cd Lynx-Theme-Pro
 git checkout dev   # always work on dev
 code .             # press F5 to test your changes live
 ```
 
-> Submit all PRs to the `dev` branch. Never edit `package.json` — that's maintainer-only.
+> Submit all PRs to the `dev` branch of the original repo. Never edit `package.json` — that's maintainer-only.
 
 ---
 
