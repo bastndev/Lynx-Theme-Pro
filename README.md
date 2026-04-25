@@ -64,6 +64,7 @@
 </details>
 
 <!--New Message Added  -->
+<br>
 
 > [!IMPORTANT]
 > - `new` **Theme Blur:** We have a new theme `8. BLUR ㅤ(Lynx Theme)` that is currently experimental 🧪
@@ -101,8 +102,8 @@ ext install bastndev.lynx-theme
 
 | Icon                                                                                                                                                                                                                                     | Name                                                           | Description                                                                                                                                                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://github.com/bastndev/ATM) | [ATM](https://github.com/bastndev/ATM) | All-in-One 👻 Multilanguage Toolkit: Error Lens · Git Blame · Env Protection · Image Preview · Screenshot Code · Voice TTS · Pomodoro · SVG Optimizer · MDX · AI Data · Spell Check · Translate · Lint & more. Fast as a ghost. Works on VS Code, Cursor, Windsurf, Trae.ai & Kiro. |
 | [![Lynx Keymap Pro](https://raw.githubusercontent.com/bastndev/Lynx-Keymap-Pro/refs/heads/main/assets/images/logo.png)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-keymap)                                        | [Lynx Keymap Pro](https://github.com/bastndev/Lynx-Keymap-Pro) | Standardizes keyboard shortcuts across all code editors, allowing you to use key combinations to access any functionality. It improves workflow and development experience.                   |
-| [![LynxJS Pack](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynxjs-pack/0.1.8/1745206864969/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynxjs-pack)    | [LynxJS Pack](https://github.com/bastndev/LynxJs-Packge)       | An all-in-one toolkit for web and mobile development with LynxJS: includes keyboard shortcuts, error alerts, text correction, snippets, and more. Tools designed to streamline your workflow. |
 | [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.compare-code) | [Compare Code](https://github.com/bastndev/Compare-Code)       | Lets you compare code in a professional, fast, and clear way. With a modern and intuitive interface, it's ideal for developers looking to boost their productivity.                           |
 
 <br>
