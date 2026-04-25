@@ -1,158 +1,99 @@
-# Lynx Theme Pro Architecture
+# 🏗️ Lynx Theme Pro Architecture
 
-## Overview
-
-**Lynx Theme Pro** is a comprehensive extension for Visual Studio Code that provides multiple color themes and a custom icon system. The extension is designed to enhance the development experience with visually appealing and eye-friendly themes, along with intuitive `icons` for different file and folder types.
-
-## How it Works
-
-When a user activates the **Lynx Theme Pro** extension in VS Code:
-
-1. The `package.json` file registers the themes and icons through the `contributes` field.
-2. Based on user settings or interactions, the **Theme Engine** or **Icon Theme Engine** loads the respective JSON configurations.
-3. These configurations are interpreted by the VS Code host and applied to the **User Interface**.
-4. Supporting files like icons (SVGs) and documentation provide both visual fidelity and development support.
-
-> 💡 **Note on naming conventions:**  
-> Color themes use a prefix (`Lynx-`) followed by a sorting letter (`x`, `y`, `z`) to control display order in the VS Code UI. For example:  
-> `Lynx-xGhibli-theme.json`, `Lynx-yCoffee-theme.json`, `Lynx-zKiro-theme.json`.
+This document outlines the high-level architecture of **Lynx Theme Pro**, detailing the interaction between its declarative resources and its imperative logic engine.
 
 ---
 
-## Project Structure
+## 📁 System Overview
 
-```
+Lynx Theme Pro is built on a **Hybrid Architecture** that combines standard VS Code theme declarations with a custom JavaScript-driven injection engine.
+
+```text
 Lynx-Theme-Pro/
-├── src/                           # Source files
-│   ├── themes/                    # Color theme definitions
-│   │   ├── Lynx-Dark-theme.json
-│   │   ├── Lynx-Light-theme.json
-│   │   ├── Lynx-Night-theme.json
-│   │   ├── Lynx-xGhibli-theme.json
-│   │   ├── Lynx-yCoffee-theme.json
-│   │   ├── Lynx-zKiro-theme.json
-│   │   └── Lynx-NVIM-theme.json
-│   └── assets/                    # Icon system and resources
-│       ├── icon-system/           # Icon configurations
-│       │   ├── themes-icons/      # File/folder icon themes
-│       │   │   ├── lynx-icons-dark.json
-│       │   │   ├── lynx-icons-light.json
-│       │   │   └── lynx-icons-gray.json
-│       │   └── material-icons/    # Product icons (UI)
-│       │       ├── lynx-material-icon.json
-│       │       └── lynx-material-icons.woff
-│       └── icon-themes/           # Icon SVG assets
-│           ├── dark/              # 1283+ SVG icons
-│           ├── light/             # 305+ SVG icons
-│           └── gray/              # Grayscale variants
-├── public/                        # Marketing and documentation assets
-│   ├── images/
-│   └── screenshots/
-├── package.json                   # Extension manifest
-├── ARCHITECTURE.md                # This file
-├── README.md
-└── ...
+├── 📂 src/
+│   ├── 🎨 themes/             # Color definitions & custom logic
+│   │   ├── 📄 01-08_*.json    # Theme manifests
+│   │   └── 🧪 blur-theme/     # JavaScript Blur Engine
+│   ├── 🛠️ icons/              # JSON Icon configurations
+│   └── 🖼️ assets/             # SVG/WOFF binary resources
+├── 📂 public/                 # Documentation & Media
+└── 📄 package.json            # Extension Manifest
 ```
 
-## Architecture Diagram
+---
+
+## ⚙️ Core Architecture Layers
+
+| Layer | Responsibility | Components |
+| :--- | :--- | :--- |
+| **Declarative (JSON)** | Native VS Code integration for themes and icons. | `src/themes/*.json`, `src/icons/*.json` |
+| **Imperative (JS)** | Platform detection and dynamic CSS injection. | `src/themes/blur-theme/blur-theme.js` |
+| **Resource (Assets)** | Raw visual data for the UI. | `src/assets/svg/`, `src/assets/woff/` |
+
+### 1. The Declarative Core
+VS Code's Extension Host natively parses the `.json` files registered in the `contributes` section of `package.json`. These files define the color tokens and icon mappings used across the IDE.
+
+### 2. The Blur Engine (Imperative Logic)
+To achieve effects like **Glassmorphism**, which are not natively supported by VS Code's theme API, Lynx Theme Pro uses a custom injection engine.
+
+> [!IMPORTANT]
+> The Blur Engine is platform-aware. It identifies the host OS (Linux, macOS, or Windows) to apply specific CSS patches that enable transparency and blur at the window level.
+
+---
+
+## 🗺️ Component Interaction Map
 
 ```mermaid
 graph TB
-    subgraph "📦 Lynx Theme Pro Extension"
-        direction TB
-        A[package.json<br/>📋 Main Configuration]
-
-        subgraph "🔧 Core Structure"
-            direction TB
-            B[Contributes] --> SRC[src/<br/>📁 Source Directory]
-            SRC --> C[themes/<br/>🎨 Themes Dir]
-            SRC --> D[assets/<br/>🎯 Assets Dir]
-        end
-
-        subgraph "🎨 Color Themes Collection (in src/themes/)"
-            direction TB
-            C --> E[Lynx-Dark-theme.json<br/>🌙 Dark Theme]
-            C --> F[Lynx-Light-theme.json<br/>☀️ Light Theme]
-            C --> G[Lynx-Night-theme.json<br/>🌃 Night Theme]
-            C --> H[Lynx-xGhibli-theme.json<br/>🌸 Ghibli Theme]
-            C --> I[Lynx-yCoffee-theme.json<br/>☕ Coffee Theme]
-            C --> J[Lynx-zKiro-theme.json<br/>🤖 Kiro Theme]
-            C --> K1[Lynx-NVIM-theme.json<br/>⚡ NVIM Theme]
-        end
-
-        subgraph "🎯 Icon System (in src/assets/)"
-            direction TB
-            D --> L1[icon-system/themes-icons/<br/>🎨 Theme Icons]
-            D --> L2[icon-system/material-icons/<br/>📦 Product Icons]
-            D --> L3[icon-themes/<br/>🖼️ SVG Assets]
-
-            subgraph "📦 Icon Theme Variants"
-                direction LR
-                L1 --> M1[lynx-icons-dark.json<br/>🌙 Style A]
-                L1 --> M2[lynx-icons-light.json<br/>☀️ Style B]
-                L1 --> M3[lynx-icons-gray.json<br/>⚪ Style C]
-            end
-
-            subgraph "🎨 Product Icons"
-                direction LR
-                L2 --> N1[lynx-material-icon.json<br/>📦 Material Design]
-                L2 --> N2[lynx-material-icons.woff<br/>🔤 Font File]
-            end
-
-            subgraph "📂 Icon Assets"
-                direction LR
-                L3 --> AID[dark/ - 1283 SVGs]
-                L3 --> AIL[light/ - 305 SVGs]
-                L3 --> AIG[gray/ - Variants]
-            end
-        end
-
-        subgraph "🖼️ Public Resources"
-            direction TB
-            PU[public/] --> AM[images/]
-            PU --> ASS[screenshots/]
-        end
-
-        subgraph "📚 Documentation & Resources"
-            direction LR
-            P[README.md<br/>📖 Documentation]
-            Q[CONTRIBUTING.md<br/>🤝 Guide]
-            S[CHANGELOG.md<br/>📝 History]
-        end
-
-        subgraph "🛠️ Build & Release"
-            direction LR
-            T[CI/CD Pipeline<br/>GitHub Actions]
-            U[vsce / Release Process]
-        end
+    %% Nodes
+    Manifest[package.json]
+    
+    subgraph "Logic & Style Layers"
+        Standard[Standard JSON Themes]
+        Engine[Blur Engine JS/CSS]
+        Icons[Icon System]
     end
 
-    subgraph "🎯 VS Code Integration Layer"
-        direction TB
-        V[VS Code Extension Host<br/>🏠 Runtime Environment]
-
-        subgraph "⚙️ Engine Systems"
-            direction LR
-            W[Theme Engine<br/>🎨 Color Processing]
-            X[Icon Theme Engine<br/>📁 Icon Processing]
-        end
-
-        Y[User Interface<br/>👤 Visual Output]
+    subgraph "Internal Engine Logic"
+        direction LR
+        Engine --> Platforms[OS Compatibility]
+        Engine --> Styles[CSS Templates]
+        Engine --> Runtime[State Management]
     end
 
-    A --> B
-    A --> T
-    T --> U
-    U -.-> S
-    V -.-> W
-    V -.-> X
-    W --> Y
-    X --> Y
+    subgraph "Binary Resources"
+        Icons --> Config[JSON Configs]
+        Config --> SVGs[SVG Assets]
+    end
 
-    %% Connect logic
-    E -.-> W
-    F -.-> W
-    M1 -.-> X
-    M2 -.-> X
-    N1 -.-> X
+    %% Connections
+    Manifest --> Standard
+    Manifest --> Engine
+    Manifest --> Icons
+
+    Standard --> VS[VS Code Workbench UI]
+    Engine --> VS
+    SVGs --> VS
+
+    %% Styling
+    style Manifest fill:#f9f,stroke:#333,stroke-width:2px
+    style Engine fill:#bbf,stroke:#333,stroke-width:2px
+    style VS fill:#bfb,stroke:#333,stroke-width:4px
 ```
+
+---
+
+## 🚀 Key Directories & Responsibilities
+
+### `src/themes/`
+Contains the definition of the 8 unique themes. The naming convention `01_` to `08_` ensures a logical sorting in the VS Code theme picker. The `blur-theme/` subdirectory contains the logic for platform-specific CSS injection.
+
+### `src/icons/`
+Centralizes the mapping of file extensions to the 1280+ SVG assets stored in `src/assets/svg/`. It supports three distinct styles: **Dark**, **Light**, and **Gray**.
+
+### `public/docs/`
+A sophisticated, multilingual documentation system that provides a seamless experience for a global audience, supporting 9+ languages with a dynamic cross-linking structure.
+
+---
+
+<sub>Maintained by [Gohit X](https://gohit.xyz) · Licensed under MIT</sub>
