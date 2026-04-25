@@ -72,7 +72,7 @@
 <br>
 
 > [!IMPORTANT]
-> - `new` **Theme Blur:** We have a new theme `8. BLUR ㅤ(Lynx Theme)` that is currently experimentalㅤ 🧪
+> - `new` **Theme Blur:** We have a new theme `8. BLUR ㅤ(Lynx Theme)` that is currently *experimental*ㅤ 🧪
 > 
 > <div align="right">
 >   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/message-warning.webp" width="60%" alt="Experimental Theme Warning">
@@ -80,13 +80,13 @@
 
 <br>
 
-## Installation
+## ➤ Installation
 
-Launch _Quick Open_
+Launch _Quick Open_ depending on your operating system:
 
-- <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> Linux `Ctrl+P`
-- <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> macOS `⌘P`
-- <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> Windows `Ctrl+P`
+- 🐧 **Linux**: `Ctrl+P`
+- 🍎 **macOS**: `⌘P`
+- 🪟 **Windows**: `Ctrl+P`
 
 Paste the following command and press `Enter`:
 
@@ -94,7 +94,8 @@ Paste the following command and press `Enter`:
 ext install bastndev.lynx-theme
 ```
 
-## About Me
+
+## ➤ About Me
 
 | [![gohitx](https://github.com/gohitx.png?size=100)](https://gohit.xyz/me) |
 | :-----------------------------------------------------------------------: |
@@ -106,6 +107,31 @@ ext install bastndev.lynx-theme
 - 🌱 **[IG](https://instagram.com/gohitx)** : **`new`** – Project previews & life updates.
 
 <br>
+
+---
+
+## ➤ Sponsors 
+Thank you to everyone who supports this project! Your contributions make updates and new extensions possible.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="20%">
+        <img src="https://avatars.githubusercontent.com/u/22199520?v=4" width="80" height="80" style="border-radius: 50%;" alt="Sponsor M"/>
+        <br><b>M</b>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <em>Thank you to all our amazing sponsors! 💖</em><br>
+  <a href="https://github.com/sponsors/bastndev"><b>👉 Become a sponsor</b></a>
+</div>
+
+<br>
+
+<h2 align="center">
+  Complementary  Extensions 🧩 
+</h2>
 
 | Icon                                                                                                                                                                                                                                     | Name                                                           | Description                                                                                                                                                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
