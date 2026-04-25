@@ -59,7 +59,7 @@
 
 #### 7. NVIM
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/nvim-theme.png" alt="NVIM Theme Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/nvim-theme.webp" alt="message Blur Theme Screenshot" width="100%">
   </details>
 </details>
 
