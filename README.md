@@ -80,13 +80,13 @@
 
 <br>
 
-## Installation
+## ➤ Installation
 
-Launch _Quick Open_
+Launch _Quick Open_ depending on your operating system:
 
-- <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> Linux `Ctrl+P`
-- <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> macOS `⌘P`
-- <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> Windows `Ctrl+P`
+- 🐧 **Linux**: `Ctrl+P`
+- 🍎 **macOS**: `⌘P`
+- 🪟 **Windows**: `Ctrl+P`
 
 Paste the following command and press `Enter`:
 
@@ -94,7 +94,8 @@ Paste the following command and press `Enter`:
 ext install bastndev.lynx-theme
 ```
 
-## About Me
+
+## ➤ About Me
 
 | [![gohitx](https://github.com/gohitx.png?size=100)](https://gohit.xyz/me) |
 | :-----------------------------------------------------------------------: |
@@ -109,8 +110,7 @@ ext install bastndev.lynx-theme
 
 ---
 
-## Sponsors <a href="https://github.com/sponsors/bastndev"><img src="https://raw.githubusercontent.com/bastndev/ATM/refs/heads/main/public/github/icons/sponsor.png" alt="Image" width="28px" align="center"/></a>
-
+## ➤ Sponsors 
 Thank you to everyone who supports this project! Your contributions make updates and new extensions possible.
 
 <div align="center">
@@ -123,14 +123,14 @@ Thank you to everyone who supports this project! Your contributions make updates
     </tr>
   </table>
   <br>
-  <em>Thank you to all our amazing sponsors! ✨</em><br>
+  <em>Thank you to all our amazing sponsors! 💖</em><br>
   <a href="https://github.com/sponsors/bastndev"><b>👉 Become a sponsor</b></a>
 </div>
 
 <br>
 
 <h2 align="center">
-  🧩 Complementary Extensions
+  Complementary  Extensions 🧩 
 </h2>
 
 | Icon                                                                                                                                                                                                                                     | Name                                                           | Description                                                                                                                                                                                   |
