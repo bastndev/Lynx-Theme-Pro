@@ -107,6 +107,32 @@ ext install bastndev.lynx-theme
 
 <br>
 
+---
+
+## Sponsors <a href="https://github.com/sponsors/bastndev"><img src="https://raw.githubusercontent.com/bastndev/ATM/refs/heads/main/public/github/icons/sponsor.png" alt="Image" width="28px" align="center"/></a>
+
+Thank you to everyone who supports this project! Your contributions make updates and new extensions possible.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="20%">
+        <img src="https://avatars.githubusercontent.com/u/22199520?v=4" width="80" height="80" style="border-radius: 50%;" alt="Sponsor M"/>
+        <br><b>M</b>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <em>Thank you to all our amazing sponsors! ✨</em><br>
+  <a href="https://github.com/sponsors/bastndev"><b>👉 Become a sponsor</b></a>
+</div>
+
+<br>
+
+<h2 align="center">
+  🧩 Complementary Extensions
+</h2>
+
 | Icon                                                                                                                                                                                                                                     | Name                                                           | Description                                                                                                                                                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://github.com/bastndev/ATM) | [ATM](https://github.com/bastndev/ATM) | An all-in-one toolkit 👻 that supercharges your workflow with essential features like Error Lens, Git Blame, Env Protection, and code screenshots across major editors. |
