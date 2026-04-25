@@ -1,7 +1,7 @@
 {
   "name": "lynx-theme",
-  "displayName": "Lynx Theme Pro + (Icons)",
-  "description": "Available now: VSCode • Antigravity • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
+  "displayName": "%extension.displayName%",
+  "description": "%extension.description%",
   "version": "5.0.0",
   "publisher": "bastndev",
   "license": "MIT",
@@ -13,21 +13,27 @@
     "vscode": "^1.74.0"
   },
   "categories": [
-    "Themes"
+    "Themes",
+    "Other"
   ],
   "keywords": [
     "theme",
-    "color-theme",
-    "dark-theme",
-    "light-theme",
-    "icon-theme",
+    "color theme",
+    "dark theme",
+    "light theme",
+    "icon theme",
     "icons",
-    "2026",
-    "syntax-highlighting",
+    "file icons",
+    "syntax highlighting",
+    "dark mode",
+    "light mode",
     "minimal",
     "productivity",
-    "eye-friendly",
-    "l theme",
+    "eye strain",
+    "blur",
+    "glassmorphism",
+    "cursor",
+    "windsurf",
     "lynx"
   ],
   "icon": "icon.png",
@@ -45,7 +51,7 @@
   },
   "author": {
     "name": "Gohit Bastian",
-    "email": "hello@gohit.xyz",
+    "email": "bastndev@gohit.xyz",
     "url": "https://www.gohit.xyz/me"
   },
   "sponsor": {

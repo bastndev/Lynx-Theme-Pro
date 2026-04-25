@@ -1,0 +1,28 @@
+{
+  "extension.displayName": "Lynx Theme Pro + (Icons)",
+  "extension.description": "8 stunning themes + 3 icon packs for VS Code, Cursor, Windsurf & more. Dark, Light, Night, Ghibli, Fury, Kiro, NVIM & Blur. Reduce eye strain and boost your coding productivity.",
+
+  "lynx.blur.error.generic": "[Lynx Blur] Error: {0}",
+  "lynx.blur.error.noWrite": "[Lynx Blur] No write permissions: {0}",
+  "lynx.blur.error.unexpected": "[Lynx Blur] Unexpected error: {0}",
+  "lynx.blur.error.installFailed": "[Lynx Blur] Installation failed: {0}",
+  "lynx.blur.error.uninstallFailed": "[Lynx Blur] Uninstallation failed: {0}",
+  "lynx.blur.install.success.mac": "✔️ macOS Vibrancy effect installed. 🔄 Restart VSCode to activate it.",
+  "lynx.blur.install.success.linux": "✔️ Linux transparency effect installed. 🔄 Restart VSCode to activate it.",
+  "lynx.blur.install.success.win": "✔️ Windows Transparent effect installed. 🔄 Restart VSCode to activate it.",
+  "lynx.blur.uninstall.success.mac": "macOS Vibrancy effect removed. 🔄 Restart VSCode.",
+  "lynx.blur.uninstall.success.linux": "Transparency effect removed. 🔄 Restart VSCode.",
+  "lynx.blur.uninstall.success.win": "Windows Transparent effect removed. 🔄 Restart VSCode.",
+  "lynx.blur.prompt.mac": "[Lynx Theme Pro] Administrator permissions are required to apply the vibrancy effect on macOS. You will be prompted for your password.",
+  "lynx.blur.prompt.linux": "[Lynx Theme Pro Blur] Administrator permissions are required to apply the transparency effect. Continue?",
+  "lynx.blur.prompt.win": "[Lynx Theme Pro] Administrator permissions are required to modify VSCode installation in C:\\Program Files. A UAC prompt will appear.",
+  "lynx.blur.btn.continue": "Yes, continue",
+  "lynx.blur.btn.cancel": "Cancel",
+  "lynx.blur.btn.restart": "Restart now",
+  "lynx.blur.btn.download": "📥 Download .deb",
+  "lynx.blur.error.notFound": "[Lynx Blur] VSCode files not found. Editor: {0}. Detail: {1}",
+  "lynx.blur.error.linux.notFound": "[Lynx Blur] VSCode files not found. Editor: {0}. If you use a VSCode fork, open an issue. Detail: {1}",
+  "lynx.blur.error.linux.snapFlatpak": "[Lynx Blur] {0} not supported — install VSCode as .deb to use this effect.",
+  "lynx.blur.error.linux.noElevate": "[Lynx Blur] Cannot elevate permissions in this session. Restart VSCode normally and try again.",
+  "lynx.blur.error.linux.noPkexec": "[Lynx Blur] pkexec (Polkit) is required to write to the VSCode directory. Install it and try again."
+}

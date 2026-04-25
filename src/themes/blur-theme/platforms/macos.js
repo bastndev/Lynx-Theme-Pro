@@ -4,6 +4,7 @@ const fs          = require('fs');
 const fsPromises  = require('fs').promises;
 const path        = require('path');
 const os          = require('os');
+const { t }       = require('../utils/l10n');
 
 const {
   generateNewJS, removeJSMarkers,
@@ -207,7 +208,7 @@ async function install(context) {
     paths = resolveVSCodePaths();
   } catch (err) {
     console.error('[Lynx Blur][macOS] Path resolution failed:', err);
-    vscode.window.showErrorMessage(`[Lynx Blur] ${err.message}`);
+    vscode.window.showErrorMessage(t('lynx.blur.error.generic', err.message));
     _installing = false;
     return;
   }
@@ -222,7 +223,7 @@ async function install(context) {
     ].join(' | ');
     console.error('[Lynx Blur][macOS] Files not found:', info);
     vscode.window.showErrorMessage(
-      `[Lynx Blur] VSCode files not found. Editor: ${vscode.env.appName}. Detail: ${info}`
+      t('lynx.blur.error.notFound', vscode.env.appName, info)
     );
     _installing = false;
     return;
@@ -233,12 +234,11 @@ async function install(context) {
 
   if (elevationNeeded) {
     const choice = await vscode.window.showInformationMessage(
-      '[Lynx Theme Pro] Administrator permissions are required to apply the vibrancy effect on macOS. ' +
-      'You will be prompted for your password.',
-      { title: 'Yes, continue' },
-      { title: 'Cancel' }
+      t('lynx.blur.prompt.mac'),
+      { title: t('lynx.blur.btn.continue') },
+      { title: t('lynx.blur.btn.cancel') }
     );
-    if (!choice || choice.title === 'Cancel') { _installing = false; return; }
+    if (!choice || choice.title === t('lynx.blur.btn.cancel')) { _installing = false; return; }
   }
 
   const writer = new StagedFileWriterMacOS(elevationNeeded);
@@ -286,8 +286,8 @@ async function install(context) {
 
     // 8. Prompt for restart
     vscode.window.showInformationMessage(
-      '✔️ macOS Vibrancy effect installed. 🔄 Restart VSCode to activate it.',
-      { title: 'Restart now' }
+      t('lynx.blur.install.success.mac'),
+      { title: t('lynx.blur.btn.restart') }
     ).then(msg => { if (msg) promptRestart(); });
 
   } catch (error) {
@@ -295,9 +295,9 @@ async function install(context) {
     console.error('[Lynx Blur][macOS] Installation error:', error);
 
     if (error.code === 'EACCES' || error.code === 'EPERM') {
-      vscode.window.showErrorMessage(`[Lynx Blur] No write permissions: ${error.message}`);
+      vscode.window.showErrorMessage(t('lynx.blur.error.noWrite', error.message));
     } else {
-      vscode.window.showErrorMessage(`[Lynx Blur] Unexpected error: ${error.message}`);
+      vscode.window.showErrorMessage(t('lynx.blur.error.unexpected', error.message));
     }
   } finally {
     _installing = false;
@@ -363,14 +363,14 @@ async function uninstall(context) {
     await context.globalState.update('lynxBlurInstalled', false);
 
     vscode.window.showInformationMessage(
-      'macOS Vibrancy effect removed. 🔄 Restart VSCode.',
-      { title: 'Restart now' }
+      t('lynx.blur.uninstall.success.mac'),
+      { title: t('lynx.blur.btn.restart') }
     ).then(msg => { if (msg) promptRestart(); });
 
   } catch (error) {
     writer.cleanup();
     console.error('[Lynx Blur][macOS] Uninstallation error:', error);
-    vscode.window.showErrorMessage(`[Lynx Blur] Error uninstalling: ${error.message}`);
+    vscode.window.showErrorMessage(t('lynx.blur.error.uninstallFailed', error.message));
   } finally {
     _installing = false;
   }

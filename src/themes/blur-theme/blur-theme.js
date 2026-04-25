@@ -1,4 +1,5 @@
 const vscode = require('vscode');
+const l10n = require('./utils/l10n');
 
 // Exact theme label name in package.json
 const BLUR_THEME_LABEL = '8. BLURㅤㅤ(Lynx Theme) 🧪';
@@ -35,6 +36,7 @@ function isBlurThemeActive() {
  * Called when VSCode finishes loading (onStartupFinished).
  */
 function activate(context) {
+  l10n.init(context);
   console.log('[Lynx Blur] Extension active — waiting for blur theme selection.');
 
   const handler = getPlatformHandler();

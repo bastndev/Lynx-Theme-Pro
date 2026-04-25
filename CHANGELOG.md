@@ -27,6 +27,14 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 ### Added
 
 - **Lynx Blur Theme**: New theme variant (Theme 08) featuring cross-platform blur support for Linux, macOS, and Windows.
+- **Full Multi-Language Support**: Documentation and extension now support 9 languages (ES, EN, ZH, DE, FR, JA, KO, PT, RU) for a global audience.
+- **Translation Naturalization**: Refined all translated documents to ensure professional and native-sounding phrasing.
+- **Style Fixes**: Resolved unwanted strikethrough decorations in markdown across all theme variants.
+
+- **Documentation Overhaul**:
+  - Redesigned **README** with a dynamic, professional language selector.
+  - New high-level **Architecture** guide (`ARCHITECTURE.md`) detailing the hybrid engine logic.
+  - Formalized **Contributing** guidelines and **Code of Conduct** for community standards.
 
 ---
 ## [4.4.1] - 2026-04-22
