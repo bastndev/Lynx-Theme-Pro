@@ -1,7 +1,7 @@
 {
   "name": "lynx-theme",
-  "displayName": "Lynx Theme Pro + (Icons)",
-  "description": "Available now: VSCode • Antigravity • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
+  "displayName": "%extension.displayName%",
+  "description": "%extension.description%",
   "version": "5.0.0",
   "publisher": "bastndev",
   "license": "MIT",
