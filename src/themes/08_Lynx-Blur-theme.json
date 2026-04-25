@@ -21,7 +21,10 @@
     "panel.background": "#00000000",
     "terminal.background": "#00000000",
     "window.activeBorder": "#00000000",
-    "window.inactiveBorder": "#00000000"
+    "window.inactiveBorder": "#00000000",
+    "minimap.background": "#000000cc",
+    "editorLineNumber.foreground": "#505a65",
+    "editorLineNumber.activeForeground": "#ffffff"
   },
   "semanticTokenColors": {
     "namespace": {
@@ -107,7 +110,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#1e4a30"
+        "foreground": "#a0aab5"
       }
     },
     {
@@ -115,7 +118,7 @@
       "scope": "comment.block",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#1e4a30"
+        "foreground": "#a0aab5"
       }
     },
     {
@@ -126,7 +129,7 @@
       ],
       "settings": {
         "fontStyle": "italic bold",
-        "foreground": "#285a3c"
+        "foreground": "#b4c0cc"
       }
     },
     {
