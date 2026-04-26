@@ -8,10 +8,7 @@
 
 const TRANSPARENT_BG_KEYS = [
   'editorPane.background',
-  'editorGroupHeader.tabsBackground',
-  'editorGroupHeader.noTabsBackground',
   'breadcrumb.background',
-  'editorGutter.background',
   'panel.background',
   'panelStickyScroll.background',
   'tab.activeBackground',
@@ -19,14 +16,23 @@ const TRANSPARENT_BG_KEYS = [
 ];
 
 const SEMITRANSPARENT_BG_KEYS = [
+  'editorGroupHeader.tabsBackground',
+  'editorGroupHeader.noTabsBackground',
   'sideBar.background',
   'sideBarTitle.background',
   'sideBarStickyScroll.background',
+  'auxiliaryBar.background',
+  'chat.background',
+  'chat.requestBackground',
+  'interactive.background',
   'editor.background',
+  'editorGutter.background',
   'editorStickyScroll.background',
   'editorStickyScrollGutter.background',
   'tab.inactiveBackground',
   'tab.unfocusedInactiveBackground',
+  'titleBar.activeBackground',
+  'titleBar.inactiveBackground',
 ];
 
 const OPAQUE_BG_KEYS = [
@@ -43,8 +49,8 @@ const OPAQUE_BG_KEYS = [
 const ALL_BG_KEYS = [...TRANSPARENT_BG_KEYS, ...SEMITRANSPARENT_BG_KEYS, ...OPAQUE_BG_KEYS];
 
 // Lynx Dark glassmorphism base color & opacity
-const THEME_BG = '060a08';
-const DEFAULT_OPACITY = 0.45;
+const THEME_BG = '181e28';
+const DEFAULT_OPACITY = 0.70;
 
 module.exports = {
   TRANSPARENT_BG_KEYS,

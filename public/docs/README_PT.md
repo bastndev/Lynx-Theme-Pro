@@ -3,9 +3,9 @@
 </div>
 
 <p align="center">
-  <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=7F5BFF&label=VERSÃO" alt="Versão">&nbsp;
+  <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=7F5BFF&label=VERSION" alt="Version">&nbsp;
   <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=4EF4E2&label=Downloads" alt="Downloads">&nbsp;
-  <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=FF5ACF&label=AVALIAÇÃO" alt="Avaliação">&nbsp;
+  <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=FF5ACF&label=RATING" alt="Rating">&nbsp;
   <a href="https://github.com/bastndev/Lynx-Theme-Pro"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
 </p>
 
@@ -30,7 +30,7 @@
   <details>
     <summary>🎭 Ícones ㅤ (Capturas de tela)</summary>
 
-#### Ícones do Sistema (IDE) 
+#### Ícones do Sistema (IDE)
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="Captura de tela dos ícones do sistema" width="100%">
 
@@ -83,8 +83,9 @@
 <br>
 
 > [!IMPORTANT]
+>
 > - `novo` **Tema Blur:** Temos um novo tema `8. BLUR ㅤ(Lynx Theme)` que é atualmente *experimental*ㅤ 🧪
-> 
+>
 > <div align="right">
 >   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/message-warning.webp" width="60%" alt="Aviso de tema experimental">
 > </div>
@@ -105,7 +106,6 @@ Cole o seguinte comando e pressione `Enter`:
 ext install bastndev.lynx-theme
 ```
 
-
 ## ➤ Sobre Mim
 
 | [![gohitx](https://github.com/gohitx.png?size=100)](https://gohit.xyz/me) |
@@ -121,7 +121,8 @@ ext install bastndev.lynx-theme
 
 ---
 
-## ➤ Patrocinadores 
+## ➤ Patrocinadores
+
 Obrigado a todos que apoiam este projeto! Suas contribuições tornam possíveis as atualizações e novas extensões.
 
 <div align="center">
@@ -144,11 +145,11 @@ Obrigado a todos que apoiam este projeto! Suas contribuições tornam possíveis
   Extensões Complementares 🧩 
 </h2>
 
-| Ícone                                                                                                                                                                                                                                     | Nome                                                           | Descrição                                                                                                                                                                                   |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://github.com/bastndev/ATM) | [ATM](https://github.com/bastndev/ATM) | Um kit de ferramentas tudo-em-um 👻 que turbina seu fluxo de trabalho com recursos essenciais como Error Lens, Git Blame, Env Protection e capturas de tela de código em todos os principais editores. |
+| Ícone                                                                                                                                                                                                                                    | Nome                                                           | Descrição                                                                                                                                                                                                           |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://github.com/bastndev/ATM)                                                                                                                                     | [ATM](https://github.com/bastndev/ATM)                         | Um kit de ferramentas tudo-em-um 👻 que turbina seu fluxo de trabalho com recursos essenciais como Error Lens, Git Blame, Env Protection e capturas de tela de código em todos os principais editores.              |
 | [![Lynx Keymap Pro](https://raw.githubusercontent.com/bastndev/Lynx-Keymap-Pro/refs/heads/main/assets/images/logo.png)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-keymap)                                        | [Lynx Keymap Pro](https://github.com/bastndev/Lynx-Keymap-Pro) | Padroniza os atalhos de teclado em todos os editores de código, permitindo que você use combinações de teclas para acessar qualquer funcionalidade. Melhora o fluxo de trabalho e a experiência de desenvolvimento. |
-| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.compare-code) | [Compare Code](https://github.com/bastndev/Compare-Code)       | Permite comparar código de forma profissional, rápida e clara. Com uma interface moderna e intuitiva, é ideal para desenvolvedores que buscam aumentar sua produtividade. |
+| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.compare-code) | [Compare Code](https://github.com/bastndev/Compare-Code)       | Permite comparar código de forma profissional, rápida e clara. Com uma interface moderna e intuitiva, é ideal para desenvolvedores que buscam aumentar sua produtividade.                                           |
 
 <br>
 
@@ -157,6 +158,6 @@ Obrigado a todos que apoiam este projeto! Suas contribuições tornam possíveis
   **Aproveite 🎉 (Lynx Theme Pro) agora está instalado!**  
   *Se você encontrar algum erro ou tiver feedback, sinta-se à vontade para [reportar um problema](https://github.com/bastndev/Lynx-Theme-Pro/issues).*
 
-  <sub>Feito no 🇵🇪 por <a href="https://gohit.xyz">Gohit X</a> · Licenciado sob <a href="./LICENSE">`MIT`</a></sub>
+<sub>Feito no 🇵🇪 por <a href="https://gohit.xyz">Gohit X</a> · Licenciado sob <a href="./LICENSE">`MIT`</a></sub>
 
 </div>

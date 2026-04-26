@@ -3,9 +3,9 @@
 </div>
 
 <p align="center">
-  <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=7F5BFF&label=バージョン" alt="バージョン">&nbsp;
-  <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=4EF4E2&label=ダウンロード数" alt="ダウンロード数">&nbsp;
-  <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=FF5ACF&label=評価" alt="評価">&nbsp;
+  <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=7F5BFF&label=VERSION" alt="Version">&nbsp;
+  <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=4EF4E2&label=Downloads" alt="Downloads">&nbsp;
+  <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=FF5ACF&label=RATING" alt="Rating">&nbsp;
   <a href="https://github.com/bastndev/Lynx-Theme-Pro"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
 </p>
 
@@ -30,7 +30,7 @@
   <details>
     <summary>🎭 アイコン ㅤ (スクリーンショット)</summary>
 
-#### システムアイコン (IDE) 
+#### システムアイコン (IDE)
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="システムアイコンのスクリーンショット" width="100%">
 
@@ -83,8 +83,9 @@
 <br>
 
 > [!IMPORTANT]
-> - `新` **Blur テーマ:** 新しいテーマ `8. BLUR ㅤ(Lynx Theme)` が追加されました。現在 *実験的* な段階ですㅤ 🧪
-> 
+>
+> - `新` **Blur テーマ:** 新しいテーマ `8. BLUR ㅤ(Lynx Theme)` が追加されました。現在 _実験的_ な段階ですㅤ 🧪
+>
 > <div align="right">
 >   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/message-warning.webp" width="60%" alt="実験的テーマの警告">
 > </div>
@@ -105,13 +106,12 @@
 ext install bastndev.lynx-theme
 ```
 
-
 ## ➤ 私について
 
 | [![gohitx](https://github.com/gohitx.png?size=100)](https://gohit.xyz/me) |
 | :-----------------------------------------------------------------------: |
 |                     **[Gohit X](https://gohit.xyz)**                      |
-|                           _作成者 & メンテナンス_                         |
+|                          _作成者 & メンテナンス_                          |
 
 - 🔴 [Youtube](https://www.youtube.com/@gohitx?sub_confirmation=1) - コード、ソフトウェア、開発の洞察。
 - 🖤 [TikTok](https://www.tiktok.com/@gohitx) - 短いコーディングチュートリアル、技術的なヒントなど。
@@ -121,7 +121,8 @@ ext install bastndev.lynx-theme
 
 ---
 
-## ➤ スポンサー 
+## ➤ スポンサー
+
 このプロジェクトをサポートしてくださる皆様に感謝します！皆様のご支援により、アップデートや新しい拡張機能が可能になります。
 
 <div align="center">
@@ -144,11 +145,11 @@ ext install bastndev.lynx-theme
   補完的な拡張機能 🧩 
 </h2>
 
-| アイコン                                                                                                                                                                                                                                     | 名前                                                           | 説明                                                                                                                                                                                   |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://github.com/bastndev/ATM) | [ATM](https://github.com/bastndev/ATM) | Error Lens、Git Blame、Env Protection、主要なエディタ間でのコードスクリーンショットなどの基本機能でワークフローを強化するオールインワンツールキット 👻 です。 |
+| アイコン                                                                                                                                                                                                                                 | 名前                                                           | 説明                                                                                                                                                                 |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://github.com/bastndev/ATM)                                                                                                                                     | [ATM](https://github.com/bastndev/ATM)                         | Error Lens、Git Blame、Env Protection、主要なエディタ間でのコードスクリーンショットなどの基本機能でワークフローを強化するオールインワンツールキット 👻 です。        |
 | [![Lynx Keymap Pro](https://raw.githubusercontent.com/bastndev/Lynx-Keymap-Pro/refs/heads/main/assets/images/logo.png)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-keymap)                                        | [Lynx Keymap Pro](https://github.com/bastndev/Lynx-Keymap-Pro) | すべてのコードエディタでキーボードショートカットを標準化し、キーの組み合わせを使用して任意の機能にアクセスできるようにします。ワークフローと開発体験を向上させます。 |
-| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.compare-code) | [Compare Code](https://github.com/bastndev/Compare-Code)       | コードをプロフェッショナルかつ迅速、明確に比較できます。モダンで直感的なインターフェースを備えており、生産性を向上させたい開発者に最適です。 |
+| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.compare-code) | [Compare Code](https://github.com/bastndev/Compare-Code)       | コードをプロフェッショナルかつ迅速、明確に比較できます。モダンで直感的なインターフェースを備えており、生産性を向上させたい開発者に最適です。                         |
 
 <br>
 
@@ -157,6 +158,6 @@ ext install bastndev.lynx-theme
   **お楽しみください 🎉 (Lynx Theme Pro) がインストールされました！**  
   *バグを見つけた場合やフィードバックがある場合は、お気軽に [問題を報告する](https://github.com/bastndev/Lynx-Theme-Pro/issues)。*
 
-  <sub>🇵🇪 で <a href="https://gohit.xyz">Gohit X</a> によって作成 · <a href="./LICENSE">`MIT`</a> ライセンスの下で提供</sub>
+<sub>🇵🇪 で <a href="https://gohit.xyz">Gohit X</a> によって作成 · <a href="./LICENSE">`MIT`</a> ライセンスの下で提供</sub>
 
 </div>
