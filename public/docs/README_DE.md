@@ -30,7 +30,7 @@
   <details>
     <summary>🎭 Icons ㅤ (Screenshots)</summary>
 
-#### System-Icons (IDE) 
+#### System-Icons (IDE)
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="System Icons Screenshot" width="100%">
 
@@ -83,8 +83,9 @@
 <br>
 
 > [!IMPORTANT]
-> - `neu` **Theme Blur:** Wir haben ein neues Theme `8. BLUR ㅤ(Lynx Theme)`, das sich derzeit im *experimentellen* Stadium befindetㅤ 🧪
-> 
+>
+> - `neu` **Theme Blur:** Wir haben ein neues Theme `8. BLUR ㅤ(Lynx Theme)`, das sich derzeit im _experimentellen_ Stadium befindetㅤ 🧪
+>
 > <div align="right">
 >   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/message-warning.webp" width="60%" alt="Warnung für experimentelles Theme">
 > </div>
@@ -105,13 +106,12 @@ Fügen Sie den folgenden Befehl ein und drücken Sie `Enter`:
 ext install bastndev.lynx-theme
 ```
 
-
 ## ➤ Über mich
 
 | [![gohitx](https://github.com/gohitx.png?size=100)](https://gohit.xyz/me) |
 | :-----------------------------------------------------------------------: |
 |                     **[Gohit X](https://gohit.xyz)**                      |
-|                          _Ersteller & Maintainer_                         |
+|                         _Ersteller & Maintainer_                          |
 
 - 🔴 [Youtube](https://www.youtube.com/@gohitx?sub_confirmation=1) - Code, Software und Einblicke in die Entwicklung.
 - 🖤 [TikTok](https://www.tiktok.com/@gohitx) - Kurze Coding-Tutorials, Technik-Tipps & mehr.
@@ -121,7 +121,8 @@ ext install bastndev.lynx-theme
 
 ---
 
-## ➤ Sponsoren 
+## ➤ Sponsoren
+
 Vielen Dank an alle, die dieses Projekt unterstützen! Ihre Beiträge ermöglichen Updates und neue Erweiterungen.
 
 <div align="center">
@@ -144,10 +145,10 @@ Vielen Dank an alle, die dieses Projekt unterstützen! Ihre Beiträge ermöglich
   Ergänzende Erweiterungen 🧩 
 </h2>
 
-| Icon                                                                                                                                                                                                                                     | Name                                                           | Beschreibung                                                                                                                                                                                   |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://github.com/bastndev/ATM) | [ATM](https://github.com/bastndev/ATM) | Ein All-in-One-Toolkit 👻, das Ihren Workflow mit wichtigen Funktionen wie Error Lens, Git Blame, Env Protection und Code-Screenshots über alle gängigen Editoren hinweg optimiert. |
-| [![Lynx Keymap Pro](https://raw.githubusercontent.com/bastndev/Lynx-Keymap-Pro/refs/heads/main/assets/images/logo.png)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-keymap)                                        | [Lynx Keymap Pro](https://github.com/bastndev/Lynx-Keymap-Pro) | Standardisiert Tastenkombinationen in allen Code-Editoren, sodass Sie Tastenkombinationen verwenden können, um auf jede Funktionalität zuzugreifen. Es verbessert den Workflow und das Entwicklungserlebnis. |
+| Icon                                                                                                                                                                                                                                     | Name                                                           | Beschreibung                                                                                                                                                                                                     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://github.com/bastndev/ATM)                                                                                                                                     | [ATM](https://github.com/bastndev/ATM)                         | Ein All-in-One-Toolkit 👻, das Ihren Workflow mit wichtigen Funktionen wie Error Lens, Git Blame, Env Protection und Code-Screenshots über alle gängigen Editoren hinweg optimiert.                              |
+| [![Lynx Keymap Pro](https://raw.githubusercontent.com/bastndev/Lynx-Keymap-Pro/refs/heads/main/assets/images/logo.png)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-keymap)                                        | [Lynx Keymap Pro](https://github.com/bastndev/Lynx-Keymap-Pro) | Standardisiert Tastenkombinationen in allen Code-Editoren, sodass Sie Tastenkombinationen verwenden können, um auf jede Funktionalität zuzugreifen. Es verbessert den Workflow und das Entwicklungserlebnis.     |
 | [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.compare-code) | [Compare Code](https://github.com/bastndev/Compare-Code)       | Ermöglicht Ihnen den Vergleich von Code auf professionelle, schnelle und klare Weise. Mit einer modernen und intuitiven Benutzeroberfläche ist es ideal für Entwickler, die ihre Produktivität steigern möchten. |
 
 <br>
@@ -157,6 +158,6 @@ Vielen Dank an alle, die dieses Projekt unterstützen! Ihre Beiträge ermöglich
   **Viel Spaß 🎉 (Lynx Theme Pro) ist jetzt installiert!**  
   *Wenn Sie Fehler finden oder Feedback haben, können Sie gerne [ein Problem melden](https://github.com/bastndev/Lynx-Theme-Pro/issues).*
 
-  <sub>Hergestellt in 🇵🇪 von <a href="https://gohit.xyz">Gohit X</a> · Lizenziert unter <a href="./LICENSE">`MIT`</a></sub>
+<sub>Hergestellt in 🇵🇪 von <a href="https://gohit.xyz">Gohit X</a> · Lizenziert unter <a href="./LICENSE">`MIT`</a></sub>
 
 </div>

@@ -3,9 +3,9 @@
 </div>
 
 <p align="center">
-  <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=7F5BFF&label=ВЕРСИЯ" alt="Версия">&nbsp;
-  <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=4EF4E2&label=Загрузки" alt="Загрузки">&nbsp;
-  <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=FF5ACF&label=РЕЙТИНГ" alt="Рейтинг">&nbsp;
+  <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=7F5BFF&label=VERSION" alt="Version">&nbsp;
+  <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=4EF4E2&label=Downloads" alt="Downloads">&nbsp;
+  <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=FF5ACF&label=RATING" alt="Rating">&nbsp;
   <a href="https://github.com/bastndev/Lynx-Theme-Pro"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
 </p>
 
@@ -30,7 +30,7 @@
   <details>
     <summary>🎭 Иконки ㅤ (Скриншоты)</summary>
 
-#### Системные иконки (IDE) 
+#### Системные иконки (IDE)
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="Скриншот системных иконок" width="100%">
 
@@ -83,8 +83,9 @@
 <br>
 
 > [!IMPORTANT]
+>
 > - `новое` **Theme Blur:** У нас есть новая тема `8. BLUR ㅤ(Lynx Theme)`, которая в данный момент является *экспериментальной*ㅤ 🧪
-> 
+>
 > <div align="right">
 >   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/message-warning.webp" width="60%" alt="Предупреждение об экспериментальной теме">
 > </div>
@@ -105,7 +106,6 @@
 ext install bastndev.lynx-theme
 ```
 
-
 ## ➤ Обо мне
 
 | [![gohitx](https://github.com/gohitx.png?size=100)](https://gohit.xyz/me) |
@@ -121,7 +121,8 @@ ext install bastndev.lynx-theme
 
 ---
 
-## ➤ Спонсоры 
+## ➤ Спонсоры
+
 Спасибо всем, кто поддерживает этот проект! Ваши вклады делают возможными обновления и новые расширения.
 
 <div align="center">
@@ -144,10 +145,10 @@ ext install bastndev.lynx-theme
   Дополнительные расширения 🧩 
 </h2>
 
-| Иконка                                                                                                                                                                                                                                     | Название                                                           | Описание                                                                                                                                                                                   |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://github.com/bastndev/ATM) | [ATM](https://github.com/bastndev/ATM) | Универсальный инструментарий 👻, который расширяет ваш рабочий процесс такими важными функциями, как Error Lens, Git Blame, Env Protection и скриншоты кода во всех основных редакторах. |
-| [![Lynx Keymap Pro](https://raw.githubusercontent.com/bastndev/Lynx-Keymap-Pro/refs/heads/main/assets/images/logo.png)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-keymap)                                        | [Lynx Keymap Pro](https://github.com/bastndev/Lynx-Keymap-Pro) | Стандартизирует сочетания клавиш во всех редакторах кода, позволяя использовать комбинации клавиш для доступа к любой функциональности. Улучшает рабочий процесс и опыт разработки. |
+| Иконка                                                                                                                                                                                                                                   | Название                                                       | Описание                                                                                                                                                                                     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://github.com/bastndev/ATM)                                                                                                                                     | [ATM](https://github.com/bastndev/ATM)                         | Универсальный инструментарий 👻, который расширяет ваш рабочий процесс такими важными функциями, как Error Lens, Git Blame, Env Protection и скриншоты кода во всех основных редакторах.     |
+| [![Lynx Keymap Pro](https://raw.githubusercontent.com/bastndev/Lynx-Keymap-Pro/refs/heads/main/assets/images/logo.png)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-keymap)                                        | [Lynx Keymap Pro](https://github.com/bastndev/Lynx-Keymap-Pro) | Стандартизирует сочетания клавиш во всех редакторах кода, позволяя использовать комбинации клавиш для доступа к любой функциональности. Улучшает рабочий процесс и опыт разработки.          |
 | [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.compare-code) | [Compare Code](https://github.com/bastndev/Compare-Code)       | Позволяет профессионально, быстро и четко сравнивать код. С современным и интуитивно понятным интерфейсом это идеальный вариант для разработчиков, стремящихся повысить свою продуктивность. |
 
 <br>
@@ -157,6 +158,6 @@ ext install bastndev.lynx-theme
   **Наслаждайтесь 🎉 (Lynx Theme Pro) теперь установлено!**  
   *Если вы обнаружите ошибки или у вас есть отзывы, не стесняйтесь [сообщить о проблеме](https://github.com/bastndev/Lynx-Theme-Pro/issues).*
 
-  <sub>Сделано в 🇵🇪 пользователем <a href="https://gohit.xyz">Gohit X</a> · Лицензия <a href="./LICENSE">`MIT`</a></sub>
+<sub>Сделано в 🇵🇪 пользователем <a href="https://gohit.xyz">Gohit X</a> · Лицензия <a href="./LICENSE">`MIT`</a></sub>
 
 </div>
