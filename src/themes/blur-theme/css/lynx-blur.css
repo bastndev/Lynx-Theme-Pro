@@ -757,3 +757,14 @@ body,
   opacity: 0.40 !important;
   font-style: italic !important;
 }
+
+/* ─── Explorer: hover slide animation ───────────────── */
+.explorer-viewlet .monaco-list .monaco-list-row {
+  transition:
+    background-color var(--transition-fast),
+    transform        var(--transition-fast) !important;
+}
+
+.explorer-viewlet .monaco-list .monaco-list-row:hover:not(.selected):not(.focused) {
+  transform: translateX(2px) !important;
+}
