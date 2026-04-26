@@ -8,8 +8,6 @@
 
 const TRANSPARENT_BG_KEYS = [
   'editorPane.background',
-  'editorGroupHeader.tabsBackground',
-  'editorGroupHeader.noTabsBackground',
   'breadcrumb.background',
   'panel.background',
   'panelStickyScroll.background',
@@ -18,6 +16,8 @@ const TRANSPARENT_BG_KEYS = [
 ];
 
 const SEMITRANSPARENT_BG_KEYS = [
+  'editorGroupHeader.tabsBackground',
+  'editorGroupHeader.noTabsBackground',
   'sideBar.background',
   'sideBarTitle.background',
   'sideBarStickyScroll.background',

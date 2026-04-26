@@ -43,8 +43,9 @@ body {
 
 /* ─── Tabs (Glassmorphism + Transitions) ─────────────── */
 .editor-group-container>.tabs {
-  background-color: transparent !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
+  background-color: rgba(24, 30, 40, 0.7) !important; /* FIX: era transparent, ahora semitransparente */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+  backdrop-filter: blur(12px) !important;
 }
 
 .editor-group-container>.tabs .tab {
