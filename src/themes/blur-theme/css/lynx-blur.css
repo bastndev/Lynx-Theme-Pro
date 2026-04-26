@@ -35,7 +35,6 @@
 .monaco-workbench .part:not(.modal-editor-part)>.content,
 .monaco-workbench .editor>.content>.one-editor-silo.editor-one,
 .monaco-workbench .part.editor>.content>.one-editor-silo>.container>.title,
-.monaco-workbench .part>.title,
 .monaco-workbench,
 .monaco-workbench .part,
 body {
@@ -131,7 +130,8 @@ body {
 
 /* ─── Sidebar & Statusbar (Glassmorphism Borders) ────── */
 .monaco-workbench .part.sidebar,
-.monaco-workbench .part.auxiliarybar {
+.monaco-workbench .part.auxiliarybar,
+.monaco-workbench .part.titlebar {
   background-color: rgba(24, 30, 40, 0.7) !important;
   border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
   border-left: 1px solid rgba(255, 255, 255, 0.08) !important;

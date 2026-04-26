@@ -31,6 +31,8 @@ const SEMITRANSPARENT_BG_KEYS = [
   'editorStickyScrollGutter.background',
   'tab.inactiveBackground',
   'tab.unfocusedInactiveBackground',
+  'titleBar.activeBackground',
+  'titleBar.inactiveBackground',
 ];
 
 const OPAQUE_BG_KEYS = [
