@@ -32,8 +32,6 @@
 .search-view .search-widget .input-box,
 .search-view .search-widget .input-box .monaco-inputbox,
 .monaco-workbench .part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab,
-.monaco-editor-background,
-.monaco-editor .margin,
 .monaco-workbench .part:not(.modal-editor-part)>.content,
 .monaco-workbench .editor>.content>.one-editor-silo.editor-one,
 .monaco-workbench .part.editor>.content>.one-editor-silo>.container>.title,
@@ -61,12 +59,12 @@ body {
 }
 
 .editor-group-container>.tabs .tab.active {
-  background-color: rgba(10, 16, 26, 0.4) !important;
+  background-color: rgba(24, 30, 40, 0.7) !important;
   border-top: 2px solid #0cb89c !important;
 }
 
 .editor-group-container>.tabs .monaco-breadcrumbs {
-  background-color: rgba(10, 16, 26, 0.2) !important;
+  background-color: rgba(24, 30, 40, 0.6) !important;
 }
 
 /* ─── Lists & Trees (Micro-animations) ───────────────── */
@@ -97,7 +95,7 @@ body {
 
 /* ─── Input boxes ────────────────────────────────────── */
 .monaco-inputbox {
-  background-color: rgba(10, 16, 26, 0.3) !important;
+  background-color: rgba(24, 30, 40, 0.6) !important;
   border: 1px solid rgba(255, 255, 255, 0.08) !important;
   border-radius: 4px !important;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
@@ -124,29 +122,29 @@ body {
 }
 
 /* ─── Extension editor + preferences ─────────────────── */
-.extension-editor,
-.monaco-workbench .part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab.active,
 .preferences-editor>.preferences-header,
 .preferences-editor>.preferences-editors-container.side-by-side-preferences-editor .preferences-header-container,
-.monaco-editor,
 .monaco-editor .inputarea.ime-input,
 .monaco-list .monaco-list-rows {
   background: transparent !important;
 }
 
 /* ─── Sidebar & Statusbar (Glassmorphism Borders) ────── */
-.monaco-workbench .part.sidebar {
-  background-color: rgba(10, 16, 26, 0.4) !important;
+.monaco-workbench .part.sidebar,
+.monaco-workbench .part.auxiliarybar {
+  background-color: rgba(24, 30, 40, 0.7) !important;
   border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.08) !important;
 }
 
 .monaco-workbench .part.statusbar {
-  background-color: rgba(10, 16, 26, 0.45) !important;
+  background-color: rgba(24, 30, 40, 0.8) !important;
   border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
   backdrop-filter: blur(10px) !important;
 }
 
 .monaco-workbench .part.panel {
+  background-color: rgba(24, 30, 40, 0.7) !important;
   border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
 }
 
