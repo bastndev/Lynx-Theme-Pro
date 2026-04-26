@@ -129,6 +129,26 @@ body {
   background: transparent !important;
 }
 
+/* ─── Webview (Extensions / Settings / Browser tabs) ─── */
+/*
+ * El contenedor del webview hereda transparent del padre.
+ * Le damos fondo semitransparente para que el contenido
+ * (páginas de extensiones, settings UI, etc.) sea legible.
+ */
+.webview,
+.monaco-workbench .editor-group-container .editor-instance .webview,
+.webview-editor .webview {
+  background-color: rgba(18, 24, 34, 0.424) !important;
+}
+
+/* Wrapper externo del editor de extensiones */
+.extension-editor,
+.extension-editor > .header,
+.extension-editor > .body {
+  background-color: rgba(18, 24, 34, 0.399) !important;
+  backdrop-filter: blur(16px) !important;
+}
+
 /* ─── Sidebar & Statusbar (Glassmorphism Borders) ────── */
 .monaco-workbench .part.sidebar,
 .monaco-workbench .part.auxiliarybar,
