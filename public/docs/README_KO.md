@@ -30,10 +30,6 @@
   <details>
     <summary>🎭 아이콘 ㅤ (스크린샷)</summary>
 
-#### 시스템 아이콘 (IDE)
-
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="시스템 아이콘 스크린샷" width="100%">
-
 #### 스타일 A
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/a-style.png" alt="아이콘 스타일 A 스크린샷" width="100%">
@@ -45,7 +41,13 @@
 #### 스타일 C
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/c-style.png" alt="아이콘 스타일 C 스크린샷" width="100%">
+
+<h4 align="center">시스템 아이콘 (IDE)</h4>
+
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="시스템 아이콘 스크린샷" width="100%">
   </details>
+
+<br>
 
   <details>
     <summary>🎨 테마 (스크린샷)</summary>

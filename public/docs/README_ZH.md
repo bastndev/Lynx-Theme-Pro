@@ -29,10 +29,6 @@
   <details>
     <summary>🎭 图标 ㅤ (截图)</summary>
 
-#### 系统图标 (IDE)
-
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="系统图标截图" width="100%">
-
 #### A 风格
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/a-style.png" alt="图标风格 A 截图" width="100%">
@@ -44,7 +40,13 @@
 #### C 风格
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/c-style.png" alt="图标风格 C 截图" width="100%">
+
+<h4 align="center">系统图标 (IDE)</h4>
+
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="系统图标截图" width="100%">
   </details>
+
+<br>
 
   <details>
     <summary>🎨 主题 (截图)</summary>

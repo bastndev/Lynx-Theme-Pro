@@ -30,10 +30,6 @@
   <details>
     <summary>🎭 アイコン ㅤ (スクリーンショット)</summary>
 
-#### システムアイコン (IDE)
-
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="システムアイコンのスクリーンショット" width="100%">
-
 #### スタイル A
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/a-style.png" alt="アイコンスタイル A のスクリーンショット" width="100%">
@@ -45,7 +41,13 @@
 #### スタイル C
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/c-style.png" alt="アイコンスタイル C のスクリーンショット" width="100%">
+
+<h4 align="center">システムアイコン (IDE)</h4>
+
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="システムアイコンのスクリーンショット" width="100%">
   </details>
+
+<br>
 
   <details>
     <summary>🎨 テーマ (スクリーンショット)</summary>

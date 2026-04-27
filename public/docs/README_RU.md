@@ -30,10 +30,6 @@
   <details>
     <summary>🎭 Иконки ㅤ (Скриншоты)</summary>
 
-#### Системные иконки (IDE)
-
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="Скриншот системных иконок" width="100%">
-
 #### Стиль A
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/a-style.png" alt="Скриншот стиля иконок A" width="100%">
@@ -45,7 +41,13 @@
 #### Стиль C
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/c-style.png" alt="Скриншот стиля иконок C" width="100%">
+
+<h4 align="center">Системные иконки (IDE)</h4>
+
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="Скриншот системных иконок" width="100%">
   </details>
+
+<br>
 
   <details>
     <summary>🎨 Темы (Скриншоты)</summary>

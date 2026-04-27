@@ -30,10 +30,6 @@
   <details>
     <summary>🎭 Icons ㅤ (Screenshots)</summary>
 
-#### System-Icons (IDE)
-
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="System Icons Screenshot" width="100%">
-
 #### A. Stil
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/a-style.png" alt="Icon Style A Screenshot" width="100%">
@@ -45,7 +41,13 @@
 #### C. Stil
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/c-style.png" alt="Icon Style C Screenshot" width="100%">
+
+<h4 align="center">System-Icons (IDE)</h4>
+
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="System Icons Screenshot" width="100%">
   </details>
+
+  <br>
 
   <details>
     <summary>🎨 Themes (Screenshots)</summary>

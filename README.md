@@ -25,8 +25,6 @@
 <details >
   <summary align="center"><strong>(𝗖𝗹𝗶𝗰𝗸) Lynx Theme + Icons</strong></summary>
 
-  <br>
-
   <details>
     <summary>🎭 Icons ㅤ (Screenshots)</summary>
 
@@ -46,6 +44,8 @@
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="System Icons Screenshot" width="100%">
   </details>
+
+<br>
 
   <details>
     <summary>🎨 Themes (Screenshots)</summary>
