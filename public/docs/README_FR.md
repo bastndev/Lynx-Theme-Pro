@@ -47,8 +47,6 @@
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="Capture d'écran des icônes système" width="100%">
   </details>
 
-  <br>
-
   <details>
     <summary>🎨 Thèmes (Captures d'écran)</summary>
 

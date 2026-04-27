@@ -46,8 +46,6 @@
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="系统图标截图" width="100%">
   </details>
 
-<br>
-
   <details>
     <summary>🎨 主题 (截图)</summary>
 

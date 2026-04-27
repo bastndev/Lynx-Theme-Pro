@@ -47,8 +47,6 @@
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="시스템 아이콘 스크린샷" width="100%">
   </details>
 
-<br>
-
   <details>
     <summary>🎨 테마 (스크린샷)</summary>
 

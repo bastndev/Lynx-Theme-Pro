@@ -45,8 +45,6 @@
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="System Icons Screenshot" width="100%">
   </details>
 
-<br>
-
   <details>
     <summary>🎨 Themes (Screenshots)</summary>
 
