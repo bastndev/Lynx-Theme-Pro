@@ -128,9 +128,9 @@ ext install bastndev.lynx-theme
 |                     **[Gohit X](https://gohit.xyz)**                      |
 |                           _Создатель и куратор_                           |
 
-- 🔴 [Youtube](https://www.youtube.com/@gohitx?sub_confirmation=1) - Код, программное обеспечение и идеи для разработки.
-- 🖤 [TikTok](https://www.tiktok.com/@gohitx) - Короткие туториалы по программированию, технические советы и многое другое.
+- 🐦 **[X](https://twitter.com/gohitx)** : Для вопросов и обсуждений.
 - 🌱 **[IG](https://instagram.com/gohitx)** : **`новое`** – Превью проектов и обновления из жизни.
+- 🔴 **[YouTube](https://www.youtube.com/@gohitx?sub_confirmation=1)** : Код, программное обеспечение и идеи для разработки.
 
 <br>
 
@@ -160,7 +160,7 @@ ext install bastndev.lynx-theme
   Дополнительные расширения 🧩 
 </h2>
 
-| Расширение                                                                                                                                                                                                           | Название                                                               | Описание                                                                                                                                                                                     |
+| Расширение                                                                                                                                                                                                           | Название/>                                                             | Описание                                                                                                                                                                                     |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | Универсальный инструментарий 👻, который расширяет ваш рабочий процесс такими важными функциями, как Error Lens, Git Blame, Env Protection и скриншоты кода во всех основных редакторах.     |
 | [![Lynx Keymap Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-keymap/2.2.4/1777954360451/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://open-vsx.org/extension/bastndev/lynx-keymap) | Стандартизирует сочетания клавиш во всех редакторах кода, позволяя использовать комбинации клавиш для доступа к любой функциональности. Улучшает рабочий процесс и опыт разработки.          |

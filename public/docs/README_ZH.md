@@ -128,9 +128,9 @@ ext install bastndev.lynx-theme
 |                     **[Gohit X](https://gohit.xyz)**                      |
 |                             _创建者和维护者_                              |
 
-- 🔴 [Youtube](https://www.youtube.com/@gohitx?sub_confirmation=1) - 代码、软件和开发见解。
-- 🖤 [TikTok](https://www.tiktok.com/@gohitx) - 短代码教程、技术技巧等。
+- 🐦 **[X](https://twitter.com/gohitx)** : 用于问题和讨论。
 - 🌱 **[IG](https://instagram.com/gohitx)** : **`新`** – 项目预览和生活更新。
+- 🔴 **[YouTube](https://www.youtube.com/@gohitx?sub_confirmation=1)** : 代码、软件和开发见解。
 
 <br>
 
@@ -160,7 +160,7 @@ ext install bastndev.lynx-theme
   配套扩展 🧩 
 </h2>
 
-| 图标                                                                                                                                                                                                                 | 名称                                                                   | 描述                                                                                                                 |
+| 图标                                                                                                                                                                                                                 | 名称/>                                                                 | 描述                                                                                                                 |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | 一个多功能工具包 👻，通过 Error Lens、Git Blame、Env Protection 和跨主流编辑器的代码截图等基本功能增强您的工作流程。 |
 | [![Lynx Keymap Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-keymap/2.2.4/1777954360451/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://open-vsx.org/extension/bastndev/lynx-keymap) | 标准化所有代码编辑器的键盘快捷键，允许您使用组合键访问任何功能。它改进了工作流程和开发体验。                         |
