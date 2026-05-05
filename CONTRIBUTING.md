@@ -81,7 +81,7 @@ Your PR description should include:
 
 ## Need Help?
 
-- **Bug or idea?** → [Open an issue](https://github.com/bastndev/Lynx-Theme-Pro/issues)
+- **Bug or idea?** → [Open an issue](https://github.com/bastndev/Lynx-Theme-Pro/issues/new)
 - **Architecture questions?** → [ARCHITECTURE.md](https://github.com/bastndev/Lynx-Theme-Pro/blob/main/ARCHITECTURE.md)
 - **VS Code theme API** → [code.visualstudio.com/api](https://code.visualstudio.com/api/extension-guides/color-theme)
 - **Contact** → bastndev@gohit.xyz

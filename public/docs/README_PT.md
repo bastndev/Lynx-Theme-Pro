@@ -171,7 +171,7 @@ Obrigado a todos que apoiam este projeto! Suas contribuições tornam possíveis
 <div align="center">
   
   **Aproveite 🎉 (Lynx Theme Pro) já está instalado!**  
-  *Se você encontrar algum bug ou tiver feedback, sinta-se à vontade para [abrir um problema](https://github.com/bastndev/Lynx-Theme-Pro/issues).*
+  *Se você encontrar algum bug ou tiver feedback, sinta-se à vontade para [abrir um problema](https://github.com/bastndev/Lynx-Theme-Pro/issues/new).*
 
 <sub>Feito em 🇵🇪 por <a href="https://gohit.xyz">Gohit X</a> · Licenciado sob <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/LICENSE">`MIT`</a></sub>
 
