@@ -98,9 +98,9 @@
 
 Launch _Quick Open_ depending on your operating system:
 
-- 🐧 **Linux**: `Ctrl+P`
-- 🍎 **macOS**: `⌘P`
-- 🪟 **Windows**: `Ctrl+P`
+- <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> Linux `Ctrl+P`
+- <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> macOS `⌘P`
+- <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> Windows `Ctrl+P`
 
 Paste the following command and press `Enter`:
 
@@ -147,11 +147,11 @@ Thank you to everyone who supports this project! Your contributions make updates
   Complementary  Extensions 🧩 
 </h2>
 
-| Extension                                                                                                                                                                                                            | Name/>                                                         | Description                                                                                                                                                                                                                                       |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                                   | [ATM](https://open-vsx.org/extension/bastndev/atm)                         | An all-in-one toolkit 👻 that supercharges your workflow with essential features like Error Lens, Git Blame, Env Protection, and code screenshots across major editors.                                                                           |
+| Extension                                                                                                                                                                                                            | Name/>                                                                 | Description                                                                                                                                                                                                                                       |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | An all-in-one toolkit 👻 that supercharges your workflow with essential features like Error Lens, Git Blame, Env Protection, and code screenshots across major editors.                                                                           |
 | [![Lynx Keymap Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-keymap/2.2.4/1777954360451/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://open-vsx.org/extension/bastndev/lynx-keymap) | Standardizes keyboard shortcuts across all code editors, giving you instant access to any functionality with a single key combination — boosting your workflow and dev experience. **`If you have a normal keyboard, better download this one.`** |
-| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/compare-code)                | [Compare Code](https://open-vsx.org/extension/bastndev/compare-code)       | Lets you compare code in a professional, fast, and clear way. With a modern and intuitive interface, it's ideal for developers looking to boost their productivity.                                                                               |
+| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/compare-code)  | [Compare Code](https://open-vsx.org/extension/bastndev/compare-code)   | Lets you compare code in a professional, fast, and clear way. With a modern and intuitive interface, it's ideal for developers looking to boost their productivity.                                                                               |
 
 <br>
 
