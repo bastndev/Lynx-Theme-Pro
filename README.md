@@ -156,7 +156,7 @@ Thank you to everyone who supports this project! Your contributions make updates
 <br>
 
 <h2 align="center">
-  Complementary  Extensions 🧩 
+  Complementary Extensions 🧩 
 </h2>
 
 | Extension                                                                                                                                                                                                            | Name/>                                                                 | Description                                                                                                                                                                                                                                       |
