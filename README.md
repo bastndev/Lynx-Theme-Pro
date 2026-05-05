@@ -94,6 +94,8 @@
 
 <br>
 
+---
+
 ## Installation
 
 Launch _Quick Open_ depending on your operating system:
@@ -107,6 +109,16 @@ Paste the following command and press `Enter`:
 ```bash
 ext install bastndev.lynx-theme
 ```
+
+### Method 2 — Extensions View
+
+1. Open Extensions (`Ctrl+Shift+X` / `⌘+Shift+X`)
+2. Search **"Lynx Theme Pro"**
+3. Click **Install**
+
+<br>
+
+---
 
 ## About Me
 
