@@ -1,49 +1,49 @@
 <div align="center">
-  <a href="https://github.com/bastndev/Lynx-Theme-Pro/releases/latest"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/images/banner.png" width="100%" alt="Lynx Theme Pro 横幅"></a>
+  <a href="https://github.com/bastndev/Lynx-Theme-Pro/releases/latest"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/images/banner.png" width="100%" alt="Lynx Theme Pro 横幅"></a>
 </div>
 
 <p align="center">
   <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=7F5BFF&label=VERSION" alt="Version">&nbsp;
   <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=4EF4E2&label=Downloads" alt="Downloads">&nbsp;
   <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=FF5ACF&label=RATING" alt="Rating">&nbsp;
-  <a href="https://github.com/bastndev/Lynx-Theme-Pro"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
+  <a href="https://github.com/bastndev/Lynx-Theme-Pro"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/icon/star.png" width="26.6px" alt="Github Star ⭐️"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_ES.md">Español 🇪🇸</a> |
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/README.md">English 🇺🇸</a> |
+  <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_ES.md">Español 🇪🇸</a> |
+  <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_ZH.md">中文 🇨🇳</a> |
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_DE.md">Deutsch 🇩🇪</a> |
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_FR.md">Français 🇫🇷</a> |
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_JA.md">日本語 🇯🇵</a> |
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_KO.md">한국어 🇰🇷</a> |
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_PT.md">Português 🇧🇷</a> |
-  <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_RU.md">Русский 🇷🇺</a><span>...</span>
+  <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_RU.md">Русский 🇷🇺</a> |
+  <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_VI.md">Tiếng Việt 🇻🇳</a><span>...</span>
 </p>
 <br>
 
 <details>
   <summary align="center"><strong>(点击) Lynx 主题 + 图标</strong></summary>
 
-  <br>
-
   <details>
     <summary>🎭 图标 ㅤ (截图)</summary>
 
 #### A 风格
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/a-style.png" alt="图标风格 A 截图" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/a-style.png" alt="图标风格 A 截图" width="100%">
 
 #### B 风格
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/b-style.png" alt="图标风格 B 截图" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/b-style.png" alt="图标风格 B 截图" width="100%">
 
 #### C 风格
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/c-style.png" alt="图标风格 C 截图" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/c-style.png" alt="图标风格 C 截图" width="100%">
 
 <h4 align="center">系统图标 (IDE)</h4>
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="系统图标截图" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/system.webp" alt="系统图标截图" width="100%">
   </details>
 
   <details>
@@ -51,31 +51,35 @@
 
 #### 1. DARK (深色)
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/dark-theme.png" alt="DARK 主题截图" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/dark-theme.png" alt="DARK 主题截图" width="100%">
 
 #### 2. LIGHT (浅色)
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/light-theme.png" alt="LIGHT 主题截图" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/light-theme.png" alt="LIGHT 主题截图" width="100%">
 
 #### 3. NIGHT (夜间)
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/night-theme.png" alt="NIGHT 主题截图" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/night-theme.png" alt="NIGHT 主题截图" width="100%">
 
 #### 4. GHIBLI (吉卜力)
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/ghibli-theme.png" alt="GHIBLI 主题截图" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/ghibli-theme.png" alt="GHIBLI 主题截图" width="100%">
 
 #### 5. FURY (狂暴)
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/coffee-theme.png" alt="FURY 主题截图" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/fury-theme.webp" alt="FURY 主题截图" width="100%">
 
 #### 6. KIRO (基罗)
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/kiro-theme.png" alt="KIRO 主题截图" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/kiro-theme.png" alt="KIRO 主题截图" width="100%">
 
 #### 7. NVIM
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/nvim-theme.png" alt="NVIM 主题截图" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/nvim-theme.png" alt="NVIM 主题截图" width="100%">
+
+#### 8. BLUR (模糊)
+
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/blur-theme.webp" alt="BLUR 主题截图" width="100%">
   </details>
 </details>
 
@@ -86,24 +90,36 @@
 > - `新` **Blur 主题：** 我们有一个新主题 `8. BLUR ㅤ(Lynx Theme)`，目前处于 *实验阶段*ㅤ 🧪
 >
 > <div align="right">
->   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/message-warning.webp" width="60%" alt="实验性主题警告">
+>   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/message-warning.webp" width="60%" alt="实验性主题警告">
 > </div>
 
 <br>
+
+---
 
 ## ➤ 安装
 
 根据您的操作系统启动 _Quick Open_：
 
-- 🐧 **Linux**: `Ctrl+P`
-- 🍎 **macOS**: `⌘P`
-- 🪟 **Windows**: `Ctrl+P`
+- <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> Linux `Ctrl+P`
+- <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> macOS `⌘P`
+- <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> Windows `Ctrl+P`
 
 粘贴以下命令并按 `Enter`：
 
 ```bash
 ext install bastndev.lynx-theme
 ```
+
+### 方法 2 — 扩展视图
+
+1. 打开扩展 (`Ctrl+Shift+X` / `⌘+Shift+X`)
+2. 搜索 **"Lynx Theme Pro"**
+3. 点击 **安装**
+
+<br>
+
+---
 
 ## ➤ 关于我
 
@@ -112,9 +128,9 @@ ext install bastndev.lynx-theme
 |                     **[Gohit X](https://gohit.xyz)**                      |
 |                             _创建者和维护者_                              |
 
-- 🔴 [Youtube](https://www.youtube.com/@gohitx?sub_confirmation=1) - 代码、软件和开发见解。
-- 🖤 [TikTok](https://www.tiktok.com/@gohitx) - 短代码教程、技术技巧等。
+- 🐦 **[X](https://twitter.com/gohitx)** : 用于问题和讨论。
 - 🌱 **[IG](https://instagram.com/gohitx)** : **`新`** – 项目预览和生活更新。
+- 🔴 **[YouTube](https://www.youtube.com/@gohitx?sub_confirmation=1)** : 代码、软件和开发见解。
 
 <br>
 
@@ -144,19 +160,19 @@ ext install bastndev.lynx-theme
   配套扩展 🧩 
 </h2>
 
-| 图标                                                                                                                                                                                                                                     | 名称                                                           | 描述                                                                                                                 |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://github.com/bastndev/ATM)                                                                                                                                     | [ATM](https://github.com/bastndev/ATM)                         | 一个多功能工具包 👻，通过 Error Lens、Git Blame、Env Protection 和跨主流编辑器的代码截图等基本功能增强您的工作流程。 |
-| [![Lynx Keymap Pro](https://raw.githubusercontent.com/bastndev/Lynx-Keymap-Pro/refs/heads/main/assets/images/logo.png)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-keymap)                                        | [Lynx Keymap Pro](https://github.com/bastndev/Lynx-Keymap-Pro) | 标准化所有代码编辑器的键盘快捷键，允许您使用组合键访问任何功能。它改进了工作流程和开发体验。                         |
-| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.compare-code) | [Compare Code](https://github.com/bastndev/Compare-Code)       | 让您以专业、快速且清晰的方式比较代码。拥有现代且直观的界面，是寻求提高生产力的开发者的理想选择。                     |
+| 图标                                                                                                                                                                                                                 | 名称/>                                                                 | 描述                                                                                                                 |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | 一个多功能工具包 👻，通过 Error Lens、Git Blame、Env Protection 和跨主流编辑器的代码截图等基本功能增强您的工作流程。 |
+| [![Lynx Keymap Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-keymap/2.2.4/1777954360451/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://open-vsx.org/extension/bastndev/lynx-keymap) | 标准化所有代码编辑器的键盘快捷键，允许您使用组合键访问任何功能。它改进了工作流程和开发体验。                         |
+| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/compare-code)  | [Compare Code](https://open-vsx.org/extension/bastndev/compare-code)   | 让您以专业、快速且清晰的方式比较代码。拥有现代且直观的界面，是寻求提高生产力的开发者的理想选择。                     |
 
 <br>
 
 <div align="center">
   
   **享受吧 🎉 (Lynx Theme Pro) 现已安装！**  
-  *如果您发现任何错误或有反馈，请随时 [报告问题](https://github.com/bastndev/Lynx-Theme-Pro/issues)。*
+  *如果您发现任何错误或有反馈，请随时 [报告问题](https://github.com/bastndev/Lynx-Theme-Pro/issues/new)。*
 
-<sub>由 <a href="https://gohit.xyz">Gohit X</a> 在 🇵🇪 制造 · 采用 <a href="./LICENSE">`MIT`</a> 许可证</sub>
+<sub>由 <a href="https://gohit.xyz">Gohit X</a> 在 🇵🇪 制造 · 采用 <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/LICENSE">`MIT`</a> 许可证</sub>
 
 </div>
