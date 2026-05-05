@@ -90,7 +90,7 @@
 
 <br>
 
-## ➤ Installation
+## Installation
 
 Launch _Quick Open_ depending on your operating system:
 
@@ -104,7 +104,7 @@ Paste the following command and press `Enter`:
 ext install bastndev.lynx-theme
 ```
 
-## ➤ About Me
+## About Me
 
 | [![gohitx](https://github.com/gohitx.png?size=100)](https://gohit.xyz/me) |
 | :-----------------------------------------------------------------------: |
@@ -119,7 +119,7 @@ ext install bastndev.lynx-theme
 
 ---
 
-## ➤ Sponsors
+## Sponsors
 
 Thank you to everyone who supports this project! Your contributions make updates and new extensions possible.
 
@@ -143,11 +143,11 @@ Thank you to everyone who supports this project! Your contributions make updates
   Complementary  Extensions 🧩 
 </h2>
 
-| ㅤㅤ Extension                                                                                                                                                                                        | < Name/>                                                       | Description                                                                                                                                                                 |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](vscode:extension/bastndev.atm)                                                                                                    | [ATM](https://github.com/bastndev/ATM)                         | An all-in-one toolkit 👻 that supercharges your workflow with essential features like Error Lens, Git Blame, Env Protection, and code screenshots across major editors.     |
-| [![Lynx Keymap Pro](https://raw.githubusercontent.com/bastndev/Lynx-Keymap-Pro/refs/heads/main/assets/images/logo.png)](vscode:extension/bastndev.lynx-keymap)                                        | [Lynx Keymap Pro](https://github.com/bastndev/Lynx-Keymap-Pro) | Standardizes keyboard shortcuts across all code editors, allowing you to use key combinations to access any functionality. It improves workflow and development experience. |
-| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](vscode:extension/bastndev.compare-code) | [Compare Code](https://github.com/bastndev/Compare-Code)       | Lets you compare code in a professional, fast, and clear way. With a modern and intuitive interface, it's ideal for developers looking to boost their productivity.         |
+| Extension                                                                                                                                                                                                            | Name/>                                                         | Description                                                                                                                                                                                                                                       |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](vscode:extension/bastndev.atm)                                                                                                                   | [ATM](https://github.com/bastndev/ATM)                         | An all-in-one toolkit 👻 that supercharges your workflow with essential features like Error Lens, Git Blame, Env Protection, and code screenshots across major editors.                                                                           |
+| [![Lynx Keymap Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-keymap/2.2.4/1777954360451/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://github.com/bastndev/Lynx-Keymap-Pro) | Standardizes keyboard shortcuts across all code editors, giving you instant access to any functionality with a single key combination — boosting your workflow and dev experience. **`If you have a normal keyboard, better download this one.`** |
+| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](vscode:extension/bastndev.compare-code)                | [Compare Code](https://github.com/bastndev/Compare-Code)       | Lets you compare code in a professional, fast, and clear way. With a modern and intuitive interface, it's ideal for developers looking to boost their productivity.                                                                               |
 
 <br>
 
