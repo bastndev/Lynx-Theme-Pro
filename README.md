@@ -1,12 +1,12 @@
 <div align="center">
-  <a href="https://github.com/bastndev/Lynx-Theme-Pro/releases/latest"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/images/banner.png" width="100%" alt="Lynx Theme Pro Banner"></a>
+  <a href="https://github.com/bastndev/Lynx-Theme-Pro/releases/latest"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/images/banner.png" width="100%" alt="Lynx Theme Pro Banner"></a>
 </div>
 
 <p align="center">
   <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=7F5BFF&label=VERSION" alt="Version">&nbsp;
   <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=4EF4E2&label=Downloads" alt="Downloads">&nbsp;
   <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=FF5ACF&label=RATING" alt="Rating">&nbsp;
-  <a href="https://github.com/bastndev/Lynx-Theme-Pro"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
+  <a href="https://github.com/bastndev/Lynx-Theme-Pro"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/icon/star.png" width="26.6px" alt="Github Star ⭐️"></a>
 </p>
 
 <p align="center">
@@ -30,19 +30,19 @@
 
 #### A. Style
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/a-style.png" alt="Icon Style A Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/a-style.png" alt="Icon Style A Screenshot" width="100%">
 
 #### B. Style
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/b-style.png" alt="Icon Style B Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/b-style.png" alt="Icon Style B Screenshot" width="100%">
 
 #### C. Style
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/c-style.png" alt="Icon Style C Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/c-style.png" alt="Icon Style C Screenshot" width="100%">
 
 <h4 align="center">System Icons (IDE)</h4>
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="System Icons Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/system.webp" alt="System Icons Screenshot" width="100%">
   </details>
 
   <details>
@@ -50,31 +50,35 @@
 
 #### 1. DARK
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/dark-theme.png" alt="DARK Theme Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/dark-theme.png" alt="DARK Theme Screenshot" width="100%">
 
 #### 2. LIGHT
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/light-theme.png" alt="LIGHT Theme Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/light-theme.png" alt="LIGHT Theme Screenshot" width="100%">
 
 #### 3. NIGHT
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/night-theme.png" alt="NIGHT Theme Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/night-theme.png" alt="NIGHT Theme Screenshot" width="100%">
 
 #### 4. GHIBLI
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/ghibli-theme.png" alt="GHIBLI Theme Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/ghibli-theme.png" alt="GHIBLI Theme Screenshot" width="100%">
 
 #### 5. FURY
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/coffee-theme.png" alt="FURY Theme Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/fury-theme.webp" alt="FURY Theme Screenshot" width="100%">
 
 #### 6. KIRO
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/kiro-theme.png" alt="KIRO Theme Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/kiro-theme.png" alt="KIRO Theme Screenshot" width="100%">
 
 #### 7. NVIM
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/themes/nvim-theme.png" alt="NVIM Theme Screenshot" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/nvim-theme.png" alt="NVIM Theme Screenshot" width="100%">
+
+#### 8. BLUR
+
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/blur-theme.webp" alt="BLUR Theme Screenshot" width="100%">
   </details>
 </details>
 
@@ -85,7 +89,7 @@
 > - `new` **Theme Blur:** We have a new theme `8. BLUR ㅤ(Lynx Theme)` that is currently *experimental*ㅤ 🧪
 >
 > <div align="right">
->   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/message-warning.webp" width="60%" alt="Experimental Theme Warning">
+>   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/message-warning.webp" width="60%" alt="Experimental Theme Warning">
 > </div>
 
 <br>
