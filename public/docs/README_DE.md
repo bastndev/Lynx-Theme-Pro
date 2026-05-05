@@ -97,7 +97,7 @@
 
 ---
 
-## ➤ Installation
+## Installation
 
 Starten Sie _Quick Open_ je nach Betriebssystem:
 
@@ -121,7 +121,7 @@ ext install bastndev.lynx-theme
 
 ---
 
-## ➤ Über mich
+## Über mich
 
 | [![gohitx](https://github.com/gohitx.png?size=100)](https://gohit.xyz/me) |
 | :-----------------------------------------------------------------------: |
@@ -132,11 +132,11 @@ ext install bastndev.lynx-theme
 - 🌱 **[IG](https://instagram.com/gohitx)** : **`neu`** – Projektvorschauen & Lebens-Updates.
 - 🔴 **[YouTube](https://www.youtube.com/@gohitx?sub_confirmation=1)** : Code, Software und Einblicke in die Entwicklung.
 
-<br>
+  <br>
 
 ---
 
-## ➤ Sponsoren
+## Sponsoren
 
 Vielen Dank an alle, die dieses Projekt unterstützen! Ihre Beiträge ermöglichen Updates und neue Erweiterungen.
 

@@ -131,7 +131,7 @@ ext install bastndev.lynx-theme
 - 🌱 **[IG](https://instagram.com/gohitx)** : **`mới`** – Xem trước dự án & cập nhật cuộc sống.
 - 🔴 **[YouTube](https://www.youtube.com/@gohitx?sub_confirmation=1)** : Mã, Phần mềm và hiểu biết về phát triển.
 
-<br>
+  <br>
 
 ---
 
