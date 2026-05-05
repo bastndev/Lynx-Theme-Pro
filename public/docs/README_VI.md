@@ -10,6 +10,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/README.md">English 🇺🇸</a> |
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_ES.md">Español 🇪🇸</a> |
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_ZH.md">中文 🇨🇳</a> |
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_DE.md">Deutsch 🇩🇪</a> |
@@ -27,27 +28,27 @@
   <summary align="center"><strong>(𝗖𝗹𝗶𝗰𝗸) Lynx Theme + Icons</strong></summary>
 
   <details>
-    <summary>🎭 Icons ㅤ (Screenshots)</summary>
+    <summary>🎭 Icons ㅤ (Ảnh chụp màn hình)</summary>
 
-#### A. Style
+#### Phong cách A
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/a-style.png" alt="Icon Style A Screenshot" width="100%">
 
-#### B. Style
+#### Phong cách B
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/b-style.png" alt="Icon Style B Screenshot" width="100%">
 
-#### C. Style
+#### Phong cách C
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/c-style.png" alt="Icon Style C Screenshot" width="100%">
 
-<h4 align="center">System Icons (IDE)</h4>
+<h4 align="center">Biểu tượng hệ thống (IDE)</h4>
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/system.webp" alt="System Icons Screenshot" width="100%">
   </details>
 
   <details>
-    <summary>🎨 Themes (Screenshots)</summary>
+    <summary>🎨 Themes (Ảnh chụp màn hình)</summary>
 
 #### 1. DARK
 
@@ -87,7 +88,7 @@
 
 > [!IMPORTANT]
 >
-> - `new` **Theme Blur:** We have a new theme `8. BLUR ㅤ(Lynx Theme)` that is currently *experimental*ㅤ 🧪
+> - `mới` **Theme Blur:** Chúng tôi có một chủ đề mới `8. BLUR ㅤ(Lynx Theme)` hiện đang ở giai đoạn *thử nghiệm*ㅤ 🧪
 >
 > <div align="right">
 >   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/message-warning.webp" width="60%" alt="Experimental Theme Warning">
@@ -95,50 +96,48 @@
 
 <br>
 
----
+## Cài đặt
 
-## Installation
-
-Launch _Quick Open_ depending on your operating system:
+Khởi động _Quick Open_ tùy thuộc vào hệ điều hành của bạn:
 
 - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> Linux `Ctrl+P`
 - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> macOS `⌘P`
 - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> Windows `Ctrl+P`
 
-Paste the following command and press `Enter`:
+Dán lệnh sau và nhấn `Enter`:
 
 ```bash
 ext install bastndev.lynx-theme
 ```
 
-### Method 2 — Extensions View
+### Cách 2 — Chế độ xem Tiện ích mở rộng
 
-1. Open Extensions (`Ctrl+Shift+X` / `⌘+Shift+X`)
-2. Search **"Lynx Theme Pro"**
-3. Click **Install**
+1. Mở Tiện ích mở rộng (`Ctrl+Shift+X` / `⌘+Shift+X`)
+2. Tìm kiếm **"Lynx Theme Pro"**
+3. Nhấp vào **Cài đặt**
 
 <br>
 
 ---
 
-## About Me
+## Về tôi
 
 | [![gohitx](https://github.com/gohitx.png?size=100)](https://gohit.xyz/me) |
 | :-----------------------------------------------------------------------: |
 |                     **[Gohit X](https://gohit.xyz)**                      |
-|                          _Creator & Maintainer_                           |
+|                        _Người sáng tạo & Duy trì_                         |
 
-- 🔴 [Youtube](https://www.youtube.com/@gohitx?sub_confirmation=1) - Code, Software and development insights.
-- 🖤 [TikTok](https://www.tiktok.com/@gohitx) - Short coding tutorials, tech tips & more.
-- 🌱 **[IG](https://instagram.com/gohitx)** : **`new`** – Project previews & life updates.
+- 🔴 [Youtube](https://www.youtube.com/@gohitx?sub_confirmation=1) - Mã, Phần mềm và hiểu biết về phát triển.
+- 🖤 [TikTok](https://www.tiktok.com/@gohitx) - Các hướng dẫn lập trình ngắn, mẹo công nghệ & hơn thế nữa.
+- 🌱 **[IG](https://instagram.com/gohitx)** : **`mới`** – Xem trước dự án & cập nhật cuộc sống.
 
 <br>
 
 ---
 
-## Sponsors
+## Nhà tài trợ
 
-Thank you to everyone who supports this project! Your contributions make updates and new extensions possible.
+Cảm ơn tất cả những người đã ủng hộ dự án này! Những đóng góp của bạn giúp cho các bản cập nhật và tiện ích mới có thể thực hiện được.
 
 <div align="center">
   <table>
@@ -150,29 +149,29 @@ Thank you to everyone who supports this project! Your contributions make updates
     </tr>
   </table>
   <br>
-  <em>Thank you to all our amazing sponsors! 💖</em><br>
-  <a href="https://github.com/sponsors/bastndev"><b>👉 Become a sponsor</b></a>
+  <em>Cảm ơn tất cả các nhà tài trợ tuyệt vời của chúng tôi! 💖</em><br>
+  <a href="https://github.com/sponsors/bastndev"><b>👉 Trở thành nhà tài trợ</b></a>
 </div>
 
 <br>
 
 <h2 align="center">
-  Complementary Extensions 🧩 
+  Tiện ích mở rộng bổ sung 🧩 
 </h2>
 
-| Extension                                                                                                                                                                                                            | Name                                                                   | Description                                                                                                                                                                                                                                       |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | An all-in-one toolkit 👻 that supercharges your workflow with essential features like Error Lens, Git Blame, Env Protection, and code screenshots across major editors.                                                                           |
-| [![Lynx Keymap Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-keymap/2.2.4/1777954360451/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://open-vsx.org/extension/bastndev/lynx-keymap) | Standardizes keyboard shortcuts across all code editors, giving you instant access to any functionality with a single key combination — boosting your workflow and dev experience. **`If you have a normal keyboard, better download this one.`** |
-| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/compare-code)  | [Compare Code](https://open-vsx.org/extension/bastndev/compare-code)   | Lets you compare code in a professional, fast, and clear way. With a modern and intuitive interface, it's ideal for developers looking to boost their productivity.                                                                               |
+| Tiện ích                                                                                                                                                                                                             | Tên                                                                    | Mô tả                                                                                                                                                                                                                   |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | Bộ công cụ tất cả trong một 👻 giúp tăng cường quy trình làm việc của bạn với các tính năng thiết yếu như Error Lens, Git Blame, Env Protection và ảnh chụp màn hình mã trên các trình biên tập chính.                  |
+| [![Lynx Keymap Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-keymap/2.2.4/1777954360451/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://open-vsx.org/extension/bastndev/lynx-keymap) | Chuẩn hóa các phím tắt bàn phím trên tất cả các trình biên tập mã, giúp bạn truy cập tức thì vào bất kỳ chức năng nào chỉ với một tổ hợp phím duy nhất — thúc đẩy quy trình làm việc và trải nghiệm phát triển của bạn. |
+| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/compare-code)  | [Compare Code](https://open-vsx.org/extension/bastndev/compare-code)   | Cho phép bạn so sánh mã một cách chuyên nghiệp, nhanh chóng và rõ ràng. Với giao diện hiện đại và trực quan, nó lý tưởng cho các nhà phát triển đang tìm cách tăng năng suất của mình.                                  |
 
 <br>
 
 <div align="center">
   
-  **Enjoy 🎉 (Lynx Theme Pro) is now installed!**  
-  *If you find any bugs or have feedback, feel free to [open an issue](https://github.com/bastndev/Lynx-Theme-Pro/issues).*
+  **Tận hưởng 🎉 (Lynx Theme Pro) hiện đã được cài đặt!**  
+  *Nếu bạn tìm thấy bất kỳ lỗi nào hoặc có phản hồi, vui lòng [mở một vấn đề](https://github.com/bastndev/Lynx-Theme-Pro/issues).*
 
-<sub>Made in 🇵🇪 by <a href="https://gohit.xyz">Gohit X</a> · Licensed under <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/LICENSE">`MIT`</a></sub>
+<sub>Được thực hiện tại 🇵🇪 bởi <a href="https://gohit.xyz">Gohit X</a> · Cấp phép theo <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/LICENSE">`MIT`</a></sub>
 
 </div>
