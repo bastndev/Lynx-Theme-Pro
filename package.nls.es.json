@@ -13,7 +13,7 @@
   "lynx.blur.uninstall.success.mac": "Efecto Vibrancy de macOS eliminado. 🔄 Reinicia VSCode.",
   "lynx.blur.uninstall.success.linux": "Efecto de transparencia eliminado. 🔄 Reinicia VSCode.",
   "lynx.blur.uninstall.success.win": "Efecto de transparencia de Windows eliminado. 🔄 Reinicia VSCode.",
-  "lynx.blur.prompt.mac": "[Lynx Theme Pro] Se requieren permisos de administrador para aplicar el efecto de vibrancia en macOS. Se solicitará tu contraseña.",
+  "lynx.blur.prompt.mac": "[Lynx Theme Pro] Se requieren permisos de administrador para aplicar el efecto Vibrancy en macOS. Se solicitará tu contraseña.",
   "lynx.blur.prompt.linux": "[Lynx Theme Pro Blur] Se requieren permisos de administrador para aplicar el efecto de transparencia. ¿Continuar?",
   "lynx.blur.prompt.win": "[Lynx Theme Pro] Se requieren permisos de administrador para modificar la instalación de VSCode en C:\\Program Files. Aparecerá un aviso de UAC.",
   "lynx.blur.btn.continue": "Sí, continuar",

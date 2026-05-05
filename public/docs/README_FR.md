@@ -30,10 +30,6 @@
   <details>
     <summary>🎭 Icônes ㅤ (Captures d'écran)</summary>
 
-#### Icônes Système (IDE)
-
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="Capture d'écran des icônes système" width="100%">
-
 #### Style A
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/a-style.png" alt="Capture d'écran style d'icône A" width="100%">
@@ -45,6 +41,10 @@
 #### Style C
 
   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/c-style.png" alt="Capture d'écran style d'icône C" width="100%">
+
+<h4 align="center">Icônes Système (IDE)</h4>
+
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/screenshots/icons/system.webp" alt="Capture d'écran des icônes système" width="100%">
   </details>
 
   <details>
