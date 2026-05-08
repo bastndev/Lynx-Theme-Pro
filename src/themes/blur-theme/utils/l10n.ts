@@ -1,15 +1,15 @@
-const vscode = require('vscode');
-const fs = require('fs');
-const path = require('path');
+import * as vscode from 'vscode';
+import * as fs from 'fs';
+import * as path from 'path';
 
-let messages = {};
-let fallbackMessages = {};
+let messages: Record<string, string> = {};
+let fallbackMessages: Record<string, string> = {};
 
 /**
  * Initialize localization by loading the appropriate package.nls.json files.
  * @param {vscode.ExtensionContext} context 
  */
-function init(context) {
+export function init(context: vscode.ExtensionContext) {
     const lang = vscode.env.language;
     const extensionPath = context.extensionPath;
     
@@ -29,7 +29,7 @@ function init(context) {
         if (fs.existsSync(langPath)) {
             messages = JSON.parse(fs.readFileSync(langPath, 'utf8'));
         }
-    } catch (e) {
+    } catch {
         // It's ok if lang file doesn't exist, we use fallback
     }
 }
@@ -40,14 +40,12 @@ function init(context) {
  * @param  {...any} args 
  * @returns {string}
  */
-function t(key, ...args) {
+export function t(key: string, ...args: unknown[]): string {
     let text = messages[key] || fallbackMessages[key] || key;
     if (args.length > 0) {
         args.forEach((arg, i) => {
-            text = text.replace(new RegExp(`\\{${i}\\}`, 'g'), arg);
+            text = text.replace(new RegExp(`\\{${i}\\}`, 'g'), String(arg));
         });
     }
     return text;
 }
-
-module.exports = { init, t };

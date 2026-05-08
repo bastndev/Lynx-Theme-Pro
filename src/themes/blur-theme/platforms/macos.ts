@@ -1,20 +1,22 @@
-'use strict';
-const vscode      = require('vscode');
-const fs          = require('fs');
-const fsPromises  = require('fs').promises;
-const path        = require('path');
-const os          = require('os');
-const { t }       = require('../utils/l10n');
+import * as vscode from 'vscode';
+import * as fs from 'fs';
+import { promises as fsPromises } from 'fs';
+import * as path from 'path';
+import { t } from '../utils/l10n';
+import {
+  TRANSPARENT_BG_KEYS, SEMITRANSPARENT_BG_KEYS, OPAQUE_BG_KEYS,
+  ALL_BG_KEYS, THEME_BG, DEFAULT_OPACITY,
+} from '../utils/color-keys';
 
 const {
   generateNewJS, removeJSMarkers,
   injectElectronOptionsMacOS, removeElectronOptionsMacOS,
   patchCSP, removeCSPPatch,
-} = require('../utils/file-transforms');
+} = require('../utils/file-transforms') as typeof import('../utils/file-transforms');
 
 const {
   checkNeedsElevationMacOS, StagedFileWriterMacOS,
-} = require('../utils/elevated-file-writer');
+} = require('../utils/elevated-file-writer') as typeof import('../utils/elevated-file-writer');
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
@@ -29,10 +31,19 @@ const RUNTIME_DIR_NAME = `lynx-blur-runtime-${RUNTIME_VERSION}`;
  */
 const MACOS_VIBRANCY_TYPE = 'under-window';
 
-const {
-  TRANSPARENT_BG_KEYS, SEMITRANSPARENT_BG_KEYS, OPAQUE_BG_KEYS,
-  ALL_BG_KEYS, THEME_BG, DEFAULT_OPACITY,
-} = require('../utils/color-keys');
+declare const _VSCODE_FILE_ROOT: string | undefined;
+
+interface VSCodePaths {
+  appDir: string;
+  JSFile: string;
+  ElectronJSFile: string;
+  HTMLFile: string;
+  runtimeDir: string;
+  runtimeSrcDir: string;
+  runtimeEntry: string;
+}
+
+type SavedColors = Record<string, string | null | undefined>;
 
 // ─── In-memory mutex ──────────────────────────────────────────────────────────
 
@@ -47,16 +58,16 @@ let _installing = false;
  *
  * Uses the same three-strategy fallback chain as linux.js.
  */
-function resolveVSCodePaths() {
-  let appDir;
+function resolveVSCodePaths(): VSCodePaths {
+  let appDir: string | undefined;
 
   // Strategy 1: require.main.filename (extension host points to main process)
   try {
-    appDir = path.dirname(require.main.filename);
+    appDir = require.main?.filename ? path.dirname(require.main.filename) : undefined;
   } catch {
     // Strategy 2: internal global injected by VSCode
-    // eslint-disable-next-line no-undef
-    try { appDir = _VSCODE_FILE_ROOT; } catch { }
+     
+    try { appDir = _VSCODE_FILE_ROOT; } catch { /* noop */ }
   }
 
   // Strategy 3: vscode.env.appRoot (public API)
@@ -90,7 +101,7 @@ function resolveVSCodePaths() {
 
   // VSCode 1.95+ merges electron-main/main.js into the single main.js
   let ElectronJSFile = path.join(appDir, 'vs', 'code', 'electron-main', 'main.js');
-  if (!fs.existsSync(ElectronJSFile)) ElectronJSFile = JSFile;
+  if (!fs.existsSync(ElectronJSFile)) {ElectronJSFile = JSFile;}
 
   // Find workbench.html — path changes between VSCode versions
   const htmlCandidates = [
@@ -113,15 +124,15 @@ function resolveVSCodePaths() {
  * Applies transparent colorCustomizations.
  * Saves original values in globalState so they can be restored on uninstall.
  */
-async function applyColorCustomizations(context) {
+async function applyColorCustomizations(context: vscode.ExtensionContext): Promise<void> {
   const config  = vscode.workspace.getConfiguration();
   const inspect = config.inspect('workbench.colorCustomizations');
-  const current = inspect?.globalValue || {};
+  const current = (inspect?.globalValue || {}) as Record<string, string>;
 
   // Save originals only once (idempotent)
-  const saved = context.globalState.get('lynxBlurOriginalColors');
+  const saved = context.globalState.get<SavedColors>('lynxBlurOriginalColors');
   if (!saved) {
-    const originals = {};
+    const originals: SavedColors = {};
     for (const key of ALL_BG_KEYS) {
       originals[key] = current[key] ?? null;
     }
@@ -129,7 +140,7 @@ async function applyColorCustomizations(context) {
     await context.globalState.update('lynxBlurOriginalColors', originals);
   }
 
-  const alphaHex = (opacity) => Math.round(opacity * 255).toString(16).padStart(2, '0');
+  const alphaHex = (opacity: number) => Math.round(opacity * 255).toString(16).padStart(2, '0');
   const newColors = { ...current };
 
   // Pure transparent (#RRGGBB00)
@@ -152,13 +163,13 @@ async function applyColorCustomizations(context) {
 /**
  * Restores the user's original colorCustomizations saved before installation.
  */
-async function restoreColorCustomizations(context) {
-  const saved = context.globalState.get('lynxBlurOriginalColors');
-  if (!saved) return;
+async function restoreColorCustomizations(context: vscode.ExtensionContext): Promise<void> {
+  const saved = context.globalState.get<SavedColors>('lynxBlurOriginalColors');
+  if (!saved) {return;}
 
   const config  = vscode.workspace.getConfiguration();
   const inspect = config.inspect('workbench.colorCustomizations');
-  const current = { ...(inspect?.globalValue || {}) };
+  const current = { ...((inspect?.globalValue || {}) as Record<string, string>) };
 
   for (const key of ALL_BG_KEYS) {
     if (saved[key] !== null && saved[key] !== undefined) {
@@ -185,7 +196,7 @@ async function restoreColorCustomizations(context) {
  * window.titleBarStyle. This is the recommended macOS approach — no need
  * for shell scripts or process spawning.
  */
-async function promptRestart() {
+async function promptRestart(): Promise<void> {
   const config         = vscode.workspace.getConfiguration();
   const currentStyle   = config.get('window.titleBarStyle') ?? 'native';
   const toggledStyle   = currentStyle === 'native' ? 'custom' : 'native';
@@ -198,17 +209,17 @@ async function promptRestart() {
 
 // ─── Installation ─────────────────────────────────────────────────────────────
 
-async function install(context) {
-  if (_installing) return;
+async function install(context: vscode.ExtensionContext): Promise<void> {
+  if (_installing) {return;}
   _installing = true;
 
   // Resolve VSCode internal paths
   let paths;
   try {
     paths = resolveVSCodePaths();
-  } catch (err) {
+  } catch (err: unknown) {
     console.error('[Lynx Blur][macOS] Path resolution failed:', err);
-    vscode.window.showErrorMessage(t('lynx.blur.error.generic', err.message));
+    vscode.window.showErrorMessage(t('lynx.blur.error.generic', getErrorMessage(err)));
     _installing = false;
     return;
   }
@@ -246,7 +257,7 @@ async function install(context) {
 
   try {
     // 1. Copy runtime files into VSCode directory
-    if (fs.existsSync(runtimeDir)) await writer.rmdir(runtimeDir);
+    if (fs.existsSync(runtimeDir)) {await writer.rmdir(runtimeDir);}
     await writer.mkdir(runtimeDir);
     await writer.copyDir(runtimeSrcDir, runtimeDir);
 
@@ -265,7 +276,7 @@ async function install(context) {
       vibrancyType: MACOS_VIBRANCY_TYPE,
       themeCSS,
       config: { refreshInterval: 1000, preventFlash: true },
-    };
+    } as const;
     let mainJS = await fsPromises.readFile(JSFile, 'utf-8');
     mainJS = generateNewJS(mainJS, __filename, injectData, runtimeEntry);
     await writer.writeFile(JSFile, mainJS, 'utf-8');
@@ -273,7 +284,7 @@ async function install(context) {
     // 4. Patch workbench.html — add LynxBlurTheme to trusted-types CSP
     const html = await fsPromises.readFile(HTMLFile, 'utf-8');
     const { result: patchedHTML, noMetaTag } = patchCSP(html);
-    if (!noMetaTag) await writer.writeFile(HTMLFile, patchedHTML, 'utf-8');
+    if (!noMetaTag) {await writer.writeFile(HTMLFile, patchedHTML, 'utf-8');}
 
     // 5. Flush all staged writes (elevated copy via osascript if needed)
     await writer.flush();
@@ -285,19 +296,23 @@ async function install(context) {
     await context.globalState.update('lynxBlurInstalled', true);
 
     // 8. Prompt for restart
-    vscode.window.showInformationMessage(
+    void vscode.window.showInformationMessage(
       t('lynx.blur.install.success.mac'),
       { title: t('lynx.blur.btn.restart') }
-    ).then(msg => { if (msg) promptRestart(); });
+    ).then(msg => {
+      if (msg) {
+        void promptRestart();
+      }
+    });
 
-  } catch (error) {
+  } catch (error: unknown) {
     writer.cleanup();
     console.error('[Lynx Blur][macOS] Installation error:', error);
 
-    if (error.code === 'EACCES' || error.code === 'EPERM') {
-      vscode.window.showErrorMessage(t('lynx.blur.error.noWrite', error.message));
+    if (hasErrorCode(error, 'EACCES') || hasErrorCode(error, 'EPERM')) {
+      vscode.window.showErrorMessage(t('lynx.blur.error.noWrite', getErrorMessage(error)));
     } else {
-      vscode.window.showErrorMessage(t('lynx.blur.error.unexpected', error.message));
+      vscode.window.showErrorMessage(t('lynx.blur.error.unexpected', getErrorMessage(error)));
     }
   } finally {
     _installing = false;
@@ -306,8 +321,8 @@ async function install(context) {
 
 // ─── Uninstallation ───────────────────────────────────────────────────────────
 
-async function uninstall(context) {
-  if (_installing) return;
+async function uninstall(context: vscode.ExtensionContext): Promise<void> {
+  if (_installing) {return;}
   _installing = true;
 
   // Restore colorCustomizations BEFORE touching files
@@ -316,7 +331,7 @@ async function uninstall(context) {
   let paths;
   try {
     paths = resolveVSCodePaths();
-  } catch (err) {
+  } catch (err: unknown) {
     console.error('[Lynx Blur][macOS] Path resolution failed on uninstall:', err);
     _installing = false;
     return;
@@ -339,7 +354,7 @@ async function uninstall(context) {
         const clean = removeElectronOptionsMacOS(result);
         await writer.writeFile(JSFile, clean, 'utf-8');
       } else {
-        if (hadMarkers) await writer.writeFile(JSFile, result, 'utf-8');
+        if (hadMarkers) {await writer.writeFile(JSFile, result, 'utf-8');}
       }
     }
 
@@ -353,24 +368,28 @@ async function uninstall(context) {
     if (fs.existsSync(HTMLFile)) {
       const html    = await fsPromises.readFile(HTMLFile, 'utf-8');
       const cleaned = removeCSPPatch(html);
-      if (cleaned !== html) await writer.writeFile(HTMLFile, cleaned, 'utf-8');
+      if (cleaned !== html) {await writer.writeFile(HTMLFile, cleaned, 'utf-8');}
     }
 
     // 4. Remove runtime directory
-    if (fs.existsSync(runtimeDir)) await writer.rmdir(runtimeDir);
+    if (fs.existsSync(runtimeDir)) {await writer.rmdir(runtimeDir);}
 
     await writer.flush();
     await context.globalState.update('lynxBlurInstalled', false);
 
-    vscode.window.showInformationMessage(
+    void vscode.window.showInformationMessage(
       t('lynx.blur.uninstall.success.mac'),
       { title: t('lynx.blur.btn.restart') }
-    ).then(msg => { if (msg) promptRestart(); });
+    ).then(msg => {
+      if (msg) {
+        void promptRestart();
+      }
+    });
 
-  } catch (error) {
+  } catch (error: unknown) {
     writer.cleanup();
     console.error('[Lynx Blur][macOS] Uninstallation error:', error);
-    vscode.window.showErrorMessage(t('lynx.blur.error.uninstallFailed', error.message));
+    vscode.window.showErrorMessage(t('lynx.blur.error.uninstallFailed', getErrorMessage(error)));
   } finally {
     _installing = false;
   }
@@ -378,7 +397,7 @@ async function uninstall(context) {
 
 // ─── Public API ───────────────────────────────────────────────────────────────
 
-async function handleActivation(context) {
+export async function handleActivation(context: vscode.ExtensionContext): Promise<void> {
   const alreadyInstalled = context.globalState.get('lynxBlurInstalled', false);
   if (alreadyInstalled) {
     console.log('[Lynx Blur][macOS] Already installed — no action needed.');
@@ -387,10 +406,16 @@ async function handleActivation(context) {
   await install(context);
 }
 
-async function handleDeactivation(context) {
+export async function handleDeactivation(context: vscode.ExtensionContext): Promise<void> {
   const isInstalled = context.globalState.get('lynxBlurInstalled', false);
-  if (!isInstalled) return;
+  if (!isInstalled) {return;}
   await uninstall(context);
 }
 
-module.exports = { handleActivation, handleDeactivation };
+function hasErrorCode(error: unknown, code: string): boolean {
+  return typeof error === 'object' && error !== null && 'code' in error && error.code === code;
+}
+
+function getErrorMessage(error: unknown): string {
+  return error instanceof Error ? error.message : String(error);
+}
