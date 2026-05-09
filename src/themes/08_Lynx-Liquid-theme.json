@@ -24,9 +24,9 @@
     "panel.background": "#0b0f17a8",
     "terminal.background": "#00000000",
 
-    "statusBar.background": "#0b0f17a8",
-    "statusBar.noFolderBackground": "#0b0f17a8",
-    "statusBar.debuggingBackground": "#0b0f17a8",
+    "statusBar.background": "#00000000",
+    "statusBar.noFolderBackground": "#00000000",
+    "statusBar.debuggingBackground": "#00000000",
 
     "titleBar.activeBackground": "#0b0f17a8",
     "titleBar.inactiveBackground": "#0b0f1798",
