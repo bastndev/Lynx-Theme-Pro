@@ -26,7 +26,8 @@ export interface PatchCSPResult {
   noMetaTag: boolean;
 }
 
-/** Injects the Lynx Blur runtime into VSCode's main.js */
+// ─── main.js injection ────────────────────────────────────────────────────────
+
 export function generateNewJS(
   js: string,
   base: string,
@@ -45,12 +46,12 @@ export function generateNewJS(
   );
 }
 
-/** Removes Lynx Blur markers from main.js */
 export function removeJSMarkers(js: string): RemoveMarkersResult {
   return { result: js.replace(MARKER_REGEX, ''), hadMarkers: MARKER_REGEX.test(js) };
 }
 
-/** Injects frame:false + transparent:true into BrowserWindow options (Linux) */
+// ─── BrowserWindow options — Linux / Windows ──────────────────────────────────
+
 export function injectElectronOptions(electronJS: string): string {
   if (electronJS.includes('frame:false,')) {return electronJS;}
   return electronJS.replace(
@@ -59,7 +60,6 @@ export function injectElectronOptions(electronJS: string): string {
   );
 }
 
-/** Removes the Linux-injected BrowserWindow options */
 export function removeElectronOptions(electronJS: string): string {
   return electronJS.replace(
     /frame:false,transparent:true,experimentalDarkMode/g,
@@ -67,11 +67,8 @@ export function removeElectronOptions(electronJS: string): string {
   );
 }
 
-/**
- * Injects visualEffectState:"active" into BrowserWindow options (macOS).
- * This keeps the native vibrancy/blur active even when the window loses focus.
- * Does NOT inject frame:false — macOS uses its native window frame.
- */
+// ─── BrowserWindow options — macOS ────────────────────────────────────────────
+
 export function injectElectronOptionsMacOS(electronJS: string): string {
   if (electronJS.includes('visualEffectState:')) {return electronJS;}
   return electronJS.replace(
@@ -80,7 +77,6 @@ export function injectElectronOptionsMacOS(electronJS: string): string {
   );
 }
 
-/** Removes the macOS-injected BrowserWindow options */
 export function removeElectronOptionsMacOS(electronJS: string): string {
   return electronJS.replace(
     /visualEffectState:"active",experimentalDarkMode/g,
@@ -88,7 +84,8 @@ export function removeElectronOptionsMacOS(electronJS: string): string {
   );
 }
 
-/** Adds LynxBlurTheme to the trusted-types CSP directive */
+// ─── CSP patch ────────────────────────────────────────────────────────────────
+
 export function patchCSP(html: string): PatchCSPResult {
   const re    = /<meta\s+http-equiv="Content-Security-Policy"\s+content="([\s\S]+?)">/;
   const match = html.match(re);
@@ -108,7 +105,6 @@ export function patchCSP(html: string): PatchCSPResult {
   };
 }
 
-/** Removes LynxBlurTheme from the CSP */
 export function removeCSPPatch(html: string): string {
   return html.replace(new RegExp(` ${CSP_POLICY}`, 'g'), '');
 }

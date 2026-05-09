@@ -1,9 +1,14 @@
 'use strict';
 
 /**
- * Background keys modified in workbench.colorCustomizations.
- * These panels are made transparent so the native window background
- * (Linux/Windows CSS transparency or macOS vibrancy) can show through.
+ * Liquid Glass — Color keys for workbench.colorCustomizations
+ *
+ * Three tiers of transparency applied over the native Electron
+ * transparent window so the wallpaper "shines through" like glass:
+ *
+ *   TRANSPARENT  → fully clear (#RRGGBB00)
+ *   GLASS        → subtle tinted glass (DEFAULT_OPACITY ≈ 0.55)
+ *   FROSTED      → denser frosted glass (0.82) for floating UI
  */
 
 export const TRANSPARENT_BG_KEYS = [
@@ -15,7 +20,7 @@ export const TRANSPARENT_BG_KEYS = [
   'tab.unfocusedActiveBackground',
 ];
 
-export const SEMITRANSPARENT_BG_KEYS = [
+export const GLASS_BG_KEYS = [
   'editorGroupHeader.tabsBackground',
   'editorGroupHeader.noTabsBackground',
   'sideBar.background',
@@ -35,7 +40,7 @@ export const SEMITRANSPARENT_BG_KEYS = [
   'titleBar.inactiveBackground',
 ];
 
-export const OPAQUE_BG_KEYS = [
+export const FROSTED_BG_KEYS = [
   'inlineChat.background',
   'editorWidget.background',
   'editorHoverWidget.background',
@@ -46,8 +51,12 @@ export const OPAQUE_BG_KEYS = [
   'quickInput.background',
 ];
 
-export const ALL_BG_KEYS = [...TRANSPARENT_BG_KEYS, ...SEMITRANSPARENT_BG_KEYS, ...OPAQUE_BG_KEYS];
+export const ALL_BG_KEYS = [
+  ...TRANSPARENT_BG_KEYS,
+  ...GLASS_BG_KEYS,
+  ...FROSTED_BG_KEYS,
+];
 
-// Lynx Dark glassmorphism base color & opacity
-export const THEME_BG = '181e28';
-export const DEFAULT_OPACITY = 0.70;
+// Liquid Glass base color — cool dark blue-gray
+export const THEME_BG = '0c1118';
+export const DEFAULT_OPACITY = 0.55;

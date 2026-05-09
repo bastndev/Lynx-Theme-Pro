@@ -6,7 +6,7 @@ import * as os from 'os';
 import { spawn } from 'child_process';
 import { t } from '../utils/l10n';
 import {
-  TRANSPARENT_BG_KEYS, SEMITRANSPARENT_BG_KEYS, OPAQUE_BG_KEYS,
+  TRANSPARENT_BG_KEYS, GLASS_BG_KEYS, FROSTED_BG_KEYS,
   ALL_BG_KEYS, THEME_BG, DEFAULT_OPACITY,
 } from '../utils/color-keys';
 
@@ -20,9 +20,7 @@ const {
   checkNeedsElevation, hasPkexec, hasNoNewPrivs, StagedFileWriter,
 } = require('../utils/elevated-file-writer') as typeof import('../utils/elevated-file-writer');
 
-// ─── Constants ────────────────────────────────────────────────────────────────
-
-const RUNTIME_VERSION = 'v1';
+const RUNTIME_VERSION  = 'v2';
 const RUNTIME_DIR_NAME = `lynx-blur-runtime-${RUNTIME_VERSION}`;
 
 declare const _VSCODE_FILE_ROOT: string | undefined;
@@ -39,7 +37,6 @@ interface VSCodePaths {
 
 type SavedColors = Record<string, string | null | undefined>;
 
-// Supported editors: any VSCode fork with the same file structure
 const CLI_COMMANDS: Record<string, string> = {
   'Visual Studio Code': 'code',
   'Visual Studio Code - Insiders': 'code-insiders',
@@ -53,69 +50,31 @@ const CLI_COMMANDS: Record<string, string> = {
   'Antigravity': 'antigravity',
 };
 
-// ─── In-memory state ──────────────────────────────────────────────────────────
+let _installing = false;
 
-let _installing = false;  // Mutex to avoid concurrent installations
-
-// ─── Path helpers ─────────────────────────────────────────────────────────────
-
-/**
- * Resolves key paths of the VSCode resources directory.
- * Uses the same fallback chain as vibrancy-code:
- *   1. require.main.filename  — in the extension host points to the main process
- *   2. _VSCODE_FILE_ROOT      — internal global injected by VSCode in the extension host
- *   3. vscode.env.appRoot     — public API; may need \'out/\' subdir
- */
 function resolveVSCodePaths(): VSCodePaths {
   let appDir: string | undefined;
+  try { appDir = require.main?.filename ? path.dirname(require.main.filename) : undefined; } catch {}
+  if (!appDir) { try { appDir = _VSCODE_FILE_ROOT; } catch {} }
 
-  // Strategy 1 (same as vibrancy-code)
-  try {
-    appDir = require.main?.filename ? path.dirname(require.main.filename) : undefined;
-  } catch {
-    // Strategy 2: internal global injected by VSCode
-     
-    try { appDir = _VSCODE_FILE_ROOT; } catch { /* noop */ }
-  }
+  const candidates = appDir ? [appDir] : [];
+  const appRoot = vscode.env.appRoot;
+  if (appRoot) { candidates.push(appRoot, path.join(appRoot, 'out')); }
 
-  // Strategy 3: vscode.env.appRoot (public API)
-  // If main.js does not exist in appDir, try common subfolders
-  const candidates = appDir
-    ? [appDir]
-    : [];
-
-  const appRoot = vscode.env.appRoot; // e.g. /usr/share/code/resources/app
-  if (appRoot) {
-    candidates.push(appRoot, path.join(appRoot, 'out'));
-  }
-
-  // Select the first candidate containing main.js
   let resolvedDir = null;
   for (const candidate of candidates) {
     if (candidate && fs.existsSync(path.join(candidate, 'main.js'))) {
-      resolvedDir = candidate;
-      break;
+      resolvedDir = candidate; break;
     }
   }
 
-  if (!resolvedDir) {
-    const tried = candidates.join(', ');
-    throw new Error(
-      `main.js not found. Attempted paths: [${tried}]. ` +
-      `Editor: ${vscode.env.appName}. Platform: ${process.platform}.`
-    );
-  }
-
+  if (!resolvedDir) { throw new Error('main.js not found.'); }
   appDir = resolvedDir;
-  console.log('[Lynx Blur] resolved appDir:', appDir);
 
   const JSFile = path.join(appDir, 'main.js');
-
-  // VSCode 1.95+ merges both main.js into one
   let ElectronJSFile = path.join(appDir, 'vs', 'code', 'electron-main', 'main.js');
   if (!fs.existsSync(ElectronJSFile)) {ElectronJSFile = JSFile;}
 
-  // Find workbench.html (path changes between VSCode versions)
   const htmlCandidates = [
     path.join(appDir, 'vs', 'code', 'electron-sandbox', 'workbench', 'workbench.html'),
     path.join(appDir, 'vs', 'code', 'electron-browser', 'workbench', 'workbench.html'),
@@ -129,102 +88,63 @@ function resolveVSCodePaths(): VSCodePaths {
 
   return { appDir, JSFile, ElectronJSFile, HTMLFile, runtimeDir, runtimeSrcDir, runtimeEntry };
 }
-// ─── Color Customizations (the core piece) ────────────────────────────────────
 
-/**
- * Applies colorCustomizations to make backgrounds transparent.
- * Saves the original values in globalState to restore them later.
- */
 async function applyColorCustomizations(context: vscode.ExtensionContext): Promise<void> {
   const config = vscode.workspace.getConfiguration();
   const inspect = config.inspect('workbench.colorCustomizations');
   const current = (inspect?.globalValue || {}) as Record<string, string>;
 
-  // Save the originals if they haven\'t been saved before
   const saved = context.globalState.get<SavedColors>('lynxBlurOriginalColors');
   if (!saved) {
     const originals: SavedColors = {};
-    for (const key of ALL_BG_KEYS) {
-      originals[key] = current[key] ?? null;
-    }
+    for (const key of ALL_BG_KEYS) { originals[key] = current[key] ?? null; }
     originals['terminal.background'] = current['terminal.background'] ?? null;
     originals['terminal.integrated.gpuAcceleration'] =
       config.inspect<string>('terminal.integrated.gpuAcceleration')?.globalValue ?? undefined;
     await context.globalState.update('lynxBlurOriginalColors', originals);
   }
 
-  // Calculate transparent colors
   const alphaHex = (opacity: number) => Math.round(opacity * 255).toString(16).padStart(2, '0');
   const newColors = { ...current };
 
-  // Pure transparent (#RRGGBB00)
-  for (const key of TRANSPARENT_BG_KEYS) {
-    newColors[key] = `#${THEME_BG}00`;
-  }
-
-  // Semi-transparent (#RRGGBBAA)
-  for (const key of SEMITRANSPARENT_BG_KEYS) {
-    newColors[key] = `#${THEME_BG}${alphaHex(DEFAULT_OPACITY)}`;
-  }
-
-  // Semi-opaque (#RRGGBBE6 ≈ 0.9)
-  for (const key of OPAQUE_BG_KEYS) {
-    newColors[key] = `#${THEME_BG}${alphaHex(0.9)}`;
-  }
+  for (const key of TRANSPARENT_BG_KEYS) { newColors[key] = `#${THEME_BG}00`; }
+  for (const key of GLASS_BG_KEYS)       { newColors[key] = `#${THEME_BG}${alphaHex(DEFAULT_OPACITY)}`; }
+  for (const key of FROSTED_BG_KEYS)     { newColors[key] = `#${THEME_BG}${alphaHex(0.82)}`; }
 
   newColors['terminal.background'] = '#00000000';
-
   await config.update('workbench.colorCustomizations', newColors, vscode.ConfigurationTarget.Global);
 }
 
-/**
- * Restores the user\'s original colorCustomizations.
- */
 async function restoreColorCustomizations(context: vscode.ExtensionContext): Promise<void> {
   const saved = context.globalState.get<SavedColors>('lynxBlurOriginalColors');
   if (!saved) {return;}
-
   const config = vscode.workspace.getConfiguration();
   const inspect = config.inspect('workbench.colorCustomizations');
   const current = { ...((inspect?.globalValue || {}) as Record<string, string>) };
 
-  // Restore or remove each key
   for (const key of ALL_BG_KEYS) {
-    if (saved[key] !== null && saved[key] !== undefined) {
-      current[key] = saved[key];
-    } else {
-      delete current[key];
-    }
+    if (saved[key] !== null && saved[key] !== undefined) { current[key] = saved[key]; }
+    else { delete current[key]; }
   }
 
-  // Restore terminal background
   if (saved['terminal.background'] !== null && saved['terminal.background'] !== undefined) {
     current['terminal.background'] = saved['terminal.background'];
-  } else {
-    delete current['terminal.background'];
-  }
+  } else { delete current['terminal.background']; }
 
   await config.update('workbench.colorCustomizations', current, vscode.ConfigurationTarget.Global);
 
-  // Restore GPU acceleration
   if (saved['terminal.integrated.gpuAcceleration'] !== undefined) {
-    await config.update('terminal.integrated.gpuAcceleration',
-      saved['terminal.integrated.gpuAcceleration'], vscode.ConfigurationTarget.Global);
+    await config.update('terminal.integrated.gpuAcceleration', saved['terminal.integrated.gpuAcceleration'], vscode.ConfigurationTarget.Global);
   } else {
     await config.update('terminal.integrated.gpuAcceleration', undefined, vscode.ConfigurationTarget.Global);
   }
-
   await context.globalState.update('lynxBlurOriginalColors', undefined);
 }
 
-// ─── Clean restart (setsid + nohup) ───────────────────────────────────────────
-
 async function promptRestart(): Promise<void> {
-  // Only launches the restart script — without changing settings.
   const cliName = CLI_COMMANDS[vscode.env.appName] || 'code';
   const pid = process.pid;
   const binName = path.basename(process.execPath).replace(/'/g, "'\\''");
-
   const script = [
     '#!/bin/sh',
     `while pgrep -x '${binName}' > /dev/null 2>&1; do sleep 1; done`,
@@ -232,95 +152,46 @@ async function promptRestart(): Promise<void> {
     `${cliName} &`,
     'rm -f "$0"',
   ].join('\n');
-
   const scriptPath = path.join(os.tmpdir(), `lynx-blur-restart-${pid}.sh`);
   fs.writeFileSync(scriptPath, script, { mode: 0o755 });
-
-  spawn('setsid', ['nohup', scriptPath], {
-    detached: true,
-    stdio: ['ignore', 'ignore', 'ignore'],
-    env: { ...process.env },
-  }).unref();
-
+  spawn('setsid', ['nohup', scriptPath], { detached: true, stdio: 'ignore' }).unref();
   vscode.commands.executeCommand('workbench.action.quit');
 }
 
-// ─── Installation ─────────────────────────────────────────────────────────────
-
-async function install(context: vscode.ExtensionContext): Promise<void> {
+export async function install(context: vscode.ExtensionContext): Promise<void> {
   if (_installing) {return;}
   _installing = true;
+  const { appDir, JSFile, ElectronJSFile, HTMLFile, runtimeDir, runtimeSrcDir, runtimeEntry } = resolveVSCodePaths();
 
-  const { appDir, JSFile, ElectronJSFile, HTMLFile, runtimeDir, runtimeSrcDir, runtimeEntry } =
-    resolveVSCodePaths();
-
-  // Verify that key files exist (show diagnostic if they fail)
   if (!fs.existsSync(JSFile) || !fs.existsSync(HTMLFile)) {
-    const info = `JSFile: ${JSFile} (${fs.existsSync(JSFile) ? '✓' : '✗'}) | HTMLFile: ${HTMLFile} (${fs.existsSync(HTMLFile) ? '✓' : '✗'})`;
-    console.error('[Lynx Blur][Linux] Files not found:', info);
-    vscode.window.showErrorMessage(
-      t('lynx.blur.error.linux.notFound', vscode.env.appName, info)
-    );
-    _installing = false;
-    return;
+    vscode.window.showErrorMessage('Lynx Blur: Required VSCode files not found.');
+    _installing = false; return;
   }
 
-  // Check if elevation is needed
   const elevationNeeded = checkNeedsElevation(appDir);
-
   if (elevationNeeded === 'snap' || elevationNeeded === 'flatpak') {
-    const kind = elevationNeeded === 'flatpak' ? 'Flatpak' : 'Snap';
-    void vscode.window.showErrorMessage(
-      t('lynx.blur.error.linux.snapFlatpak', kind),
-      { title: t('lynx.blur.btn.download') }
-    ).then(msg => {
-      if (msg) {
-        void vscode.env.openExternal(vscode.Uri.parse('https://code.visualstudio.com/download'));
-      }
-    });
-    _installing = false;
-    return;
+    vscode.window.showErrorMessage(`Lynx Blur is not compatible with ${elevationNeeded} installations.`);
+    _installing = false; return;
   }
 
-  if (elevationNeeded && hasNoNewPrivs()) {
-    vscode.window.showErrorMessage(t('lynx.blur.error.linux.noElevate'));
-    _installing = false;
-    return;
-  }
-
-  if (elevationNeeded && !hasPkexec()) {
-    vscode.window.showErrorMessage(t('lynx.blur.error.linux.noPkexec'));
-    _installing = false;
-    return;
-  }
-
-  if (elevationNeeded) {
-    const choice = await vscode.window.showInformationMessage(
-      t('lynx.blur.prompt.linux'),
-      { title: t('lynx.blur.btn.continue') },
-      { title: t('lynx.blur.btn.cancel') }
-    );
-    if (!choice || choice.title === t('lynx.blur.btn.cancel')) { _installing = false; return; }
+  if (elevationNeeded && (hasNoNewPrivs() || !hasPkexec())) {
+    vscode.window.showErrorMessage('Lynx Blur requires pkexec to install on Linux.');
+    _installing = false; return;
   }
 
   const writer = new StagedFileWriter(elevationNeeded);
   await writer.init();
 
   try {
-    // 1. Copy runtime to VSCode directory
     if (fs.existsSync(runtimeDir)) {await writer.rmdir(runtimeDir);}
     await writer.mkdir(runtimeDir);
     await writer.copyDir(runtimeSrcDir, runtimeDir);
 
-    // 2. Patch ElectronJSFile (frame:false + transparent:true)
     let electronJS = await fsPromises.readFile(ElectronJSFile, 'utf-8');
     electronJS = injectElectronOptions(electronJS);
     await writer.writeFile(ElectronJSFile, electronJS, 'utf-8');
 
-    // 3. Patch main.js (inject runtime)
-    const themeCSS = await fsPromises.readFile(
-      path.resolve(__dirname, '../css/lynx-blur.css'), 'utf-8'
-    );
+    const themeCSS = await fsPromises.readFile(path.resolve(__dirname, '../css/lynx-blur.css'), 'utf-8');
     const injectData = {
       os: 'linux',
       themeCSS,
@@ -330,148 +201,62 @@ async function install(context: vscode.ExtensionContext): Promise<void> {
     mainJS = generateNewJS(mainJS, __filename, injectData, runtimeEntry);
     await writer.writeFile(JSFile, mainJS, 'utf-8');
 
-    // 4. Patch workbench.html (CSP)
     const html = await fsPromises.readFile(HTMLFile, 'utf-8');
     const { result: patchedHTML, noMetaTag } = patchCSP(html);
     if (!noMetaTag) {await writer.writeFile(HTMLFile, patchedHTML, 'utf-8');}
 
-    // 5. Flush (elevated copy if necessary)
     await writer.flush();
-
-    // 6. Apply colorCustomizations to make backgrounds transparent
     await applyColorCustomizations(context);
-
-    // 7. Disable terminal GPU acceleration (visual artifacts)
-    try {
-      await vscode.workspace.getConfiguration()
-        .update('terminal.integrated.gpuAcceleration', 'off', vscode.ConfigurationTarget.Global);
-    } catch { }
-
-    // 8. Save installed state
+    try { await vscode.workspace.getConfiguration().update('terminal.integrated.gpuAcceleration', 'off', vscode.ConfigurationTarget.Global); } catch {}
     await context.globalState.update('lynxBlurInstalled', true);
 
-    // 9. Prompt for restart
-    void vscode.window.showInformationMessage(
-      t('lynx.blur.install.success.linux'),
-      { title: t('lynx.blur.btn.restart') }
-    ).then(msg => {
-      if (msg) {
-        void promptRestart();
-      }
-    });
-
-  } catch (error: unknown) {
+    void vscode.window.showInformationMessage(t('lynx.blur.install.success.linux'), { title: t('lynx.blur.btn.restart') }).then(msg => { if (msg) {void promptRestart();} });
+  } catch (error) {
     writer.cleanup();
-    console.error('[Lynx Blur][Linux] Installation error:', error);
-
-    if (error instanceof Error && error.message === 'no_new_privs') {
-      vscode.window.showErrorMessage(t('lynx.blur.error.linux.noElevate'));
-    } else if (hasErrorCode(error, 'EACCES') || hasErrorCode(error, 'EPERM')) {
-      vscode.window.showErrorMessage(t('lynx.blur.error.noWrite', getErrorMessage(error)));
-    } else {
-      vscode.window.showErrorMessage(t('lynx.blur.error.unexpected', getErrorMessage(error)));
-    }
-  } finally {
-    _installing = false;
-  }
+    console.error(error);
+  } finally { _installing = false; }
 }
 
-// ─── Uninstallation ───────────────────────────────────────────────────────────
-
-async function uninstall(context: vscode.ExtensionContext): Promise<void> {
+export async function uninstall(context: vscode.ExtensionContext): Promise<void> {
   if (_installing) {return;}
   _installing = true;
-
-  // Restore colorCustomizations BEFORE touching files
   await restoreColorCustomizations(context);
-
-  let paths;
-  try {
-    paths = resolveVSCodePaths();
-  } catch {
-    _installing = false;
-    return;
-  }
-  const { appDir, JSFile, ElectronJSFile, HTMLFile, runtimeDir } = paths;
-
+  const { appDir, JSFile, ElectronJSFile, HTMLFile, runtimeDir } = resolveVSCodePaths();
   const elevationNeeded = checkNeedsElevation(appDir);
-  if (elevationNeeded === 'snap') { _installing = false; return; }
-
   const writer = new StagedFileWriter(elevationNeeded);
   await writer.init();
 
   try {
-    // 1. Clean main.js markers
     if (fs.existsSync(JSFile)) {
       let mainJS = await fsPromises.readFile(JSFile, 'utf-8');
       const { result, hadMarkers } = removeJSMarkers(mainJS);
       if (hadMarkers) {await writer.writeFile(JSFile, result, 'utf-8');}
-
-      // In VSCode 1.95+ ElectronJSFile === JSFile, apply in the same buffer
-      if (ElectronJSFile === JSFile) {
-        const clean = removeElectronOptions(result);
-        await writer.writeFile(JSFile, clean, 'utf-8');
-      }
+      if (ElectronJSFile === JSFile) { await writer.writeFile(JSFile, removeElectronOptions(result), 'utf-8'); }
     }
-
-    // 2. Clean ElectronJSFile if different
     if (ElectronJSFile !== JSFile && fs.existsSync(ElectronJSFile)) {
       let electronJS = await fsPromises.readFile(ElectronJSFile, 'utf-8');
       await writer.writeFile(ElectronJSFile, removeElectronOptions(electronJS), 'utf-8');
     }
-
-    // 3. Clean workbench.html CSP
     if (fs.existsSync(HTMLFile)) {
       const html = await fsPromises.readFile(HTMLFile, 'utf-8');
       const cleaned = removeCSPPatch(html);
       if (cleaned !== html) {await writer.writeFile(HTMLFile, cleaned, 'utf-8');}
     }
-
-    // 4. Remove runtime directory
     if (fs.existsSync(runtimeDir)) {await writer.rmdir(runtimeDir);}
-
     await writer.flush();
     await context.globalState.update('lynxBlurInstalled', false);
-
-    void vscode.window.showInformationMessage(
-      t('lynx.blur.uninstall.success.linux'),
-      { title: t('lynx.blur.btn.restart') }
-    ).then(msg => {
-      if (msg) {
-        void promptRestart();
-      }
-    });
-
-  } catch (error: unknown) {
+    void vscode.window.showInformationMessage(t('lynx.blur.uninstall.success.linux'), { title: t('lynx.blur.btn.restart') }).then(msg => { if (msg) {void promptRestart();} });
+  } catch {
     writer.cleanup();
-    console.error('[Lynx Blur][Linux] Uninstallation error:', error);
-    vscode.window.showErrorMessage(t('lynx.blur.error.uninstallFailed', getErrorMessage(error)));
-  } finally {
-    _installing = false;
-  }
+  } finally { _installing = false; }
 }
 
-// ─── Public API ───────────────────────────────────────────────────────────────
-
 export async function handleActivation(context: vscode.ExtensionContext): Promise<void> {
-  const alreadyInstalled = context.globalState.get('lynxBlurInstalled', false);
-  if (alreadyInstalled) {
-    console.log('[Lynx Blur][Linux] Already installed — no action needed.');
-    return;
-  }
+  if (context.globalState.get('lynxBlurInstalled', false)) {return;}
   await install(context);
 }
 
 export async function handleDeactivation(context: vscode.ExtensionContext): Promise<void> {
-  const isInstalled = context.globalState.get('lynxBlurInstalled', false);
-  if (!isInstalled) {return;}
+  if (!context.globalState.get('lynxBlurInstalled', false)) {return;}
   await uninstall(context);
-}
-
-function hasErrorCode(error: unknown, code: string): boolean {
-  return typeof error === 'object' && error !== null && 'code' in error && error.code === code;
-}
-
-function getErrorMessage(error: unknown): string {
-  return error instanceof Error ? error.message : String(error);
 }

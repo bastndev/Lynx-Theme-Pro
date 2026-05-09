@@ -2,4 +2,6 @@ node_modules
 dist
 *.vsix
 src/__test__
-analizar
+
+# new/new
+# analizar
