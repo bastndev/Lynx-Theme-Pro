@@ -5,18 +5,6 @@
   "version": "5.1.0",
   "publisher": "bastndev",
   "license": "MIT",
-  "main": "./dist/themes/blur-theme/blur-theme.js",
-  "activationEvents": [
-    "onStartupFinished"
-  ],
-  "scripts": {
-    "vscode:prepublish": "bun run package",
-    "compile": "node esbuild.js",
-    "watch": "node esbuild.js --watch",
-    "package": "node esbuild.js --production",
-    "lint": "eslint .",
-    "check-types": "tsc --noEmit"
-  },
   "engines": {
     "vscode": "^1.75.0"
   },
@@ -65,15 +53,12 @@
   "sponsor": {
     "url": "https://github.com/sponsors/bastndev"
   },
-  "devDependencies": {
-    "@eslint/js": "^9.21.0",
-    "@types/node": "^25.6.0",
-    "@types/vscode": "^1.75.0",
-    "esbuild": "^0.25.0",
-    "eslint": "^9.21.0",
-    "typescript": "^6.0.3",
-    "typescript-eslint": "^8.25.0"
-  },
+
+  "main": "./dist/themes/blur-theme/blur-theme.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+
   "contributes": {
     "themes": [
       {
@@ -146,5 +131,23 @@
         "path": "./src/icons/icon-system/lynx-material-icon.json"
       }
     ]
+  },
+
+    "scripts": {
+    "vscode:prepublish": "bun run package",
+    "compile": "node esbuild.js",
+    "watch": "node esbuild.js --watch",
+    "package": "node esbuild.js --production",
+    "lint": "eslint .",
+    "check-types": "tsc --noEmit"
+  },
+    "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/node": "^25.6.0",
+    "@types/vscode": "^1.75.0",
+    "esbuild": "^0.25.0",
+    "eslint": "^9.21.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.25.0"
   }
 }
