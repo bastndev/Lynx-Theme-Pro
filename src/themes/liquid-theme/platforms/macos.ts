@@ -4,7 +4,7 @@ import { promises as fsPromises } from 'fs';
 import { t } from '../utils/l10n';
 import {
   resolveVSCodePaths, applyColorCustomizations, restoreColorCustomizations,
-  buildThemeCSS, getErrorMessage, hasErrorCode,
+  buildThemeCSSMac, getErrorMessage, hasErrorCode,
 } from '../utils/platform-shared';
 
 const {
@@ -84,7 +84,7 @@ export async function install(context: vscode.ExtensionContext): Promise<void> {
       'utf-8'
     );
 
-    const themeCSS = buildThemeCSS(__dirname);
+    const themeCSS = buildThemeCSSMac(__dirname);
     const mainJS   = generateNewJS(
       await fsPromises.readFile(JSFile, 'utf-8'),
       __filename,
