@@ -1,17 +1,80 @@
-<svg width="100%" viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg" role="img" style="">
-  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Círculo orgánico con triángulo transparente</title>
+<svg width="100%" viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Círculo orgánico con círculo transparente</title>
+
   <defs>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#00000022"/>
+    <!-- Sombra suave -->
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#00000025"/>
     </filter>
-    <radialGradient id="grad" cx="50%" cy="36%">
-      <stop offset="0%" stop-color="#c8c8c8"/>
-      <stop offset="100%" stop-color="#9e9e9e"/>
+
+    <!-- Gradiente metálico -->
+    <radialGradient id="grad" cx="50%" cy="35%">
+      <stop offset="0%" stop-color="#d9d9d9"/>
+      <stop offset="45%" stop-color="#bfbfbf"/>
+      <stop offset="100%" stop-color="#8e8e8e"/>
     </radialGradient>
+
+    <!-- Máscara para perforar el círculo -->
+    <mask id="circle-cutout">
+      <!-- visible -->
+      <rect width="100%" height="100%" fill="white"/>
+      
+      <!-- agujero transparente -->
+      <circle cx="340" cy="340" r="120" fill="black" />
+    </mask>
   </defs>
-  <g transform="translate(340 340)" filter="url(#shadow)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
-    <path d="&#10;        M 0,-250&#10;        C 38,-255 68,-228 98,-212&#10;        C 132,-194 170,-206 202,-182&#10;        C 234,-158 228,-118 238,-82&#10;        C 248,-46 274,-18 270,16&#10;        C 266,50 234,74 222,108&#10;        C 210,142 222,180 194,205&#10;        C 166,230 126,218 90,228&#10;        C 54,238 20,264 -16,260&#10;        C -52,256 -74,224 -108,214&#10;        C -142,204 -184,216 -208,192&#10;        C -232,168 -224,128 -234,94&#10;        C -244,60 -272,30 -268,-8&#10;        C -264,-46 -236,-72 -226,-106&#10;        C -216,-140 -224,-180 -196,-204&#10;        C -168,-228 -128,-216 -94,-222&#10;        C -60,-228 -32,-248 0,-250&#10;        Z&#10;      " fill="url(#grad)" stroke="#d7d7d7" stroke-width="4" stroke-linejoin="round" style="stroke:rgb(215, 215, 215);color:rgb(255, 255, 255);stroke-width:4px;stroke-linecap:butt;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-    <circle r="183" fill="#b5b5b5" opacity="0.97" style="fill:rgb(181, 181, 181);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.97;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-    <polygon points="0,165 -140,-65 140,-65" fill="transparent" stroke="#ffffff" stroke-width="3" stroke-linejoin="round" opacity="0.3" style="fill:transparent;stroke:rgb(255, 255, 255);color:rgb(255, 255, 255);stroke-width:3px;stroke-linecap:butt;stroke-linejoin:round;opacity:0.3;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Forma principal -->
+  <g filter="url(#shadow)">
+    
+    <!-- Blob orgánico -->
+    <path
+      mask="url(#circle-cutout)"
+      d="
+        M 340,90
+        C 378,85 408,112 438,128
+        C 472,146 510,134 542,158
+        C 574,182 568,222 578,258
+        C 588,294 614,322 610,356
+        C 606,390 574,414 562,448
+        C 550,482 562,520 534,545
+        C 506,570 466,558 430,568
+        C 394,578 360,604 324,600
+        C 288,596 266,564 232,554
+        C 198,544 156,556 132,532
+        C 108,508 116,468 106,434
+        C 96,400 68,370 72,332
+        C 76,294 104,268 114,234
+        C 124,200 116,160 144,136
+        C 172,112 212,124 246,118
+        C 280,112 308,92 340,90
+        Z"
+      fill="url(#grad)"
+      stroke="#e5e5e5"
+      stroke-width="4"
+      stroke-linejoin="round"
+    />
+
+    <!-- Núcleo -->
+    <circle
+      cx="340"
+      cy="340"
+      r="183"
+      fill="#b5b5b5"
+      opacity="0.96"
+      mask="url(#circle-cutout)"
+    />
+
+    <!-- Borde sutil del círculo -->
+    <circle
+      cx="340"
+      cy="340"
+      r="120"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="2"
+      opacity="0.18"
+    />
+
   </g>
 </svg>
