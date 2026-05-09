@@ -6,7 +6,7 @@
  * (Linux/Windows CSS transparency or macOS vibrancy) can show through.
  */
 
-const TRANSPARENT_BG_KEYS = [
+export const TRANSPARENT_BG_KEYS = [
   'editorPane.background',
   'breadcrumb.background',
   'panel.background',
@@ -15,7 +15,7 @@ const TRANSPARENT_BG_KEYS = [
   'tab.unfocusedActiveBackground',
 ];
 
-const SEMITRANSPARENT_BG_KEYS = [
+export const SEMITRANSPARENT_BG_KEYS = [
   'editorGroupHeader.tabsBackground',
   'editorGroupHeader.noTabsBackground',
   'sideBar.background',
@@ -35,7 +35,7 @@ const SEMITRANSPARENT_BG_KEYS = [
   'titleBar.inactiveBackground',
 ];
 
-const OPAQUE_BG_KEYS = [
+export const OPAQUE_BG_KEYS = [
   'inlineChat.background',
   'editorWidget.background',
   'editorHoverWidget.background',
@@ -46,17 +46,8 @@ const OPAQUE_BG_KEYS = [
   'quickInput.background',
 ];
 
-const ALL_BG_KEYS = [...TRANSPARENT_BG_KEYS, ...SEMITRANSPARENT_BG_KEYS, ...OPAQUE_BG_KEYS];
+export const ALL_BG_KEYS = [...TRANSPARENT_BG_KEYS, ...SEMITRANSPARENT_BG_KEYS, ...OPAQUE_BG_KEYS];
 
 // Lynx Dark glassmorphism base color & opacity
-const THEME_BG = '181e28';
-const DEFAULT_OPACITY = 0.70;
-
-module.exports = {
-  TRANSPARENT_BG_KEYS,
-  SEMITRANSPARENT_BG_KEYS,
-  OPAQUE_BG_KEYS,
-  ALL_BG_KEYS,
-  THEME_BG,
-  DEFAULT_OPACITY,
-};
+export const THEME_BG = '181e28';
+export const DEFAULT_OPACITY = 0.70;

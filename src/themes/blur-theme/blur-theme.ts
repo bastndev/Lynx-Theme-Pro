@@ -1,14 +1,19 @@
-const vscode = require('vscode');
-const l10n = require('./utils/l10n');
+import * as vscode from 'vscode';
+import * as l10n from './utils/l10n';
 
 // Exact theme label name in package.json
 const BLUR_THEME_LABEL = '8. BLURㅤㅤ(Lynx Theme) 🧪';
+
+interface PlatformHandler {
+  handleActivation(context: vscode.ExtensionContext): Promise<void>;
+  handleDeactivation(context: vscode.ExtensionContext): Promise<void>;
+}
 
 /**
  * Detects the platform and returns the corresponding module.
  * Each platform exposes: { install, uninstall }
  */
-function getPlatformHandler() {
+function getPlatformHandler(): PlatformHandler | null {
   switch (process.platform) {
     case 'linux':
       return require('./platforms/linux');
@@ -27,7 +32,7 @@ function getPlatformHandler() {
 function isBlurThemeActive() {
   const current = vscode.workspace
     .getConfiguration()
-    .get('workbench.colorTheme');
+    .get<string>('workbench.colorTheme');
   return current === BLUR_THEME_LABEL;
 }
 
@@ -35,7 +40,7 @@ function isBlurThemeActive() {
  * Extension activation point.
  * Called when VSCode finishes loading (onStartupFinished).
  */
-function activate(context) {
+export function activate(context: vscode.ExtensionContext) {
   l10n.init(context);
   console.log('[Lynx Blur] Extension active — waiting for blur theme selection.');
 
@@ -51,26 +56,26 @@ function activate(context) {
   // If the user already had the blur theme selected before restarting,
   // check if it's already installed to avoid prompting again.
   if (isBlurThemeActive()) {
-    handler.handleActivation(context);
+    void handler.handleActivation(context);
   }
 
   // --- Theme change listener ---
   // Only acts when the user switches to or from the blur theme.
   const disposable = vscode.workspace.onDidChangeConfiguration((event) => {
-    if (!event.affectsConfiguration('workbench.colorTheme')) return;
+    if (!event.affectsConfiguration('workbench.colorTheme')) {
+      return;
+    }
 
     if (isBlurThemeActive()) {
-      handler.handleActivation(context);
+      void handler.handleActivation(context);
     } else {
-      handler.handleDeactivation(context);
+      void handler.handleDeactivation(context);
     }
   });
 
   context.subscriptions.push(disposable);
 }
 
-function deactivate() {
+export function deactivate() {
   console.log('[Lynx Blur] Extension deactivated.');
 }
-
-module.exports = { activate, deactivate };
