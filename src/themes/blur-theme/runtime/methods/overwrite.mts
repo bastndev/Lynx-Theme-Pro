@@ -11,16 +11,18 @@
  * @param {Electron.BrowserWindow} window
  * @returns {{ install: () => void, uninstall: () => void }}
  */
-export default (window) => {
-  let overwritten;
+import type { TransparencyEffects } from './index.mjs';
+
+export default (window: Electron.BrowserWindow): TransparencyEffects => {
+  let overwritten: Electron.BrowserWindow['setBackgroundColor'] | undefined;
 
   return {
     install() {
-      if (overwritten) return;
+      if (overwritten) {return;}
       overwritten = window.setBackgroundColor;
       const original = window.setBackgroundColor.bind(window);
       // Interceptamos cualquier llamada y forzamos siempre transparente
-      window.setBackgroundColor = (_bg) => original('#00000000');
+      window.setBackgroundColor = (_bg: string) => original('#00000000');
     },
     uninstall() {
       if (overwritten) {

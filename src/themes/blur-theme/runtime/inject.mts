@@ -18,14 +18,23 @@
 import electron from 'electron';
 import transparencyMethods from './methods/index.mjs';
 
-/** @type {{ os: string, themeCSS: string, config: { refreshInterval: number, preventFlash: boolean } }} */
-const app = global.lynx_blur_plugin;
+interface LynxBlurRuntimeConfig {
+  os: 'linux' | 'macos' | 'windows';
+  themeCSS: string;
+  vibrancyType?: string;
+  config?: {
+    refreshInterval: number;
+    preventFlash: boolean;
+  };
+}
+
+const app = global.lynx_blur_plugin as LynxBlurRuntimeConfig | undefined;
 
 if (!app) {
   console.error('[Lynx Blur Runtime] global.lynx_blur_plugin no encontrado — abortando.');
 } else {
 
-  electron.app.on('browser-window-created', (_event, window) => {
+  electron.app.on('browser-window-created', (_event: unknown, window: Electron.BrowserWindow) => {
     const methods    = transparencyMethods(window);
     const hackMethod = app.config?.preventFlash ? 'overwrite' : 'interval';
     const effects    = methods[hackMethod];
@@ -41,7 +50,7 @@ if (!app) {
         url.includes('workbench.esm.html') ||
         url.includes('workbench-monkey-patch.html');
 
-      if (!isWorkbench) return;
+      if (!isWorkbench) {return;}
 
       // Forzar fondo transparente
       window.setBackgroundColor('#00000000');
@@ -68,12 +77,12 @@ if (!app) {
 
 // ─── Inyección de CSS ─────────────────────────────────────────────────────────
 
-function buildStyleHTML() {
+function buildStyleHTML(): string {
   const css = app?.themeCSS ?? '';
   return `<style id="lynx-blur-theme-css">${css}</style>`;
 }
 
-function injectStyles(window) {
+function injectStyles(window: Electron.BrowserWindow): void {
   const styleHTML = buildStyleHTML();
 
   window.webContents.executeJavaScript(`
@@ -98,5 +107,5 @@ function injectStyles(window) {
         console.error('[Lynx Blur Runtime] Error inyectando estilos:', e);
       }
     })();
-  `).catch(err => console.error('[Lynx Blur Runtime] executeJavaScript falló:', err));
+  `).catch((err: unknown) => console.error('[Lynx Blur Runtime] executeJavaScript falló:', err));
 }

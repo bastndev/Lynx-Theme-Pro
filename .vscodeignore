@@ -1,6 +1,15 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+.prettierignore
+bun.lock
+esbuild.js
+eslint.config.mjs
+tsconfig.json
 vsc-extension-quickstart.md
 public/**
 src/__test__/**
+src/types/**
+src/themes/blur-theme/**
+dist/**/*.map
+analizar/**

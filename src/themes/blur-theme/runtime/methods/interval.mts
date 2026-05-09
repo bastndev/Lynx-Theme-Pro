@@ -14,10 +14,12 @@
  * TODO (Fase 2): Activar con refreshInterval configurable
  */
 
+import type { TransparencyEffects } from './index.mjs';
+
 const app = global.lynx_blur_plugin;
 
-export default (window) => {
-  let backgroundColorTimer;
+export default (window: Electron.BrowserWindow): TransparencyEffects => {
+  let backgroundColorTimer: NodeJS.Timeout | undefined;
 
   return {
     install() {
