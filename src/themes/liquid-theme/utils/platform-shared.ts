@@ -140,11 +140,13 @@ export function hasErrorCode(error: unknown, code: string): boolean {
 export function buildThemeCSS(platformDir: string): string {
   const globalCSS      = fs.readFileSync(path.resolve(platformDir, '../css/global.css'), 'utf-8');
   const platformCSS    = fs.readFileSync(path.resolve(platformDir, '../css/liquid-glass/liquid-glass.css'), 'utf-8');
-  return `${globalCSS}\n${platformCSS}`;
+  const animationCSS   = fs.readFileSync(path.resolve(platformDir, '../css/animation/text.css'), 'utf-8');
+  return `${globalCSS}\n${platformCSS}\n${animationCSS}`;
 }
 
 export function buildThemeCSSMac(platformDir: string): string {
   const globalCSS      = fs.readFileSync(path.resolve(platformDir, '../css/global.css'), 'utf-8');
   const platformCSS    = fs.readFileSync(path.resolve(platformDir, '../css/blur/blur.css'), 'utf-8');
-  return `${globalCSS}\n${platformCSS}`;
+  const animationCSS   = fs.readFileSync(path.resolve(platformDir, '../css/animation/text.css'), 'utf-8');
+  return `${globalCSS}\n${platformCSS}\n${animationCSS}`;
 }
