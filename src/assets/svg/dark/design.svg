@@ -1,35 +1,95 @@
 <svg width="100%" viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg" role="img" style="">
-  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Blob orgánico vibrante sin fondo</title>
-  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Forma orgánica con gradiente violeta, rosa y cyan, sin fondo.</desc>
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Blob orgánico vibrante mejorado</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Forma orgánica con gradiente violeta, rosa y cyan mejorado con profundidad y detalles premium</desc>
 
   <defs>
+    <!-- Gradiente principal más rico y saturado -->
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#8b5cf6"/>
-      <stop offset="35%" stop-color="#ec4899"/>
-      <stop offset="70%" stop-color="#06b6d4"/>
-      <stop offset="100%" stop-color="#3b82f6"/>
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="28%" stop-color="#db2777"/>
+      <stop offset="58%" stop-color="#0891b2"/>
+      <stop offset="100%" stop-color="#2563eb"/>
     </linearGradient>
 
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#00000055"/>
+    <!-- Gradiente secundario para el anillo interno -->
+    <linearGradient id="ring-grad" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="40%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+
+    <!-- Sombra más profunda y coloreada -->
+    <filter id="shadow" x="-35%" y="-35%" width="170%" height="170%">
+      <feDropShadow dx="0" dy="20" stdDeviation="30" flood-color="#7c3aed" flood-opacity="0.30"/>
     </filter>
 
-    <radialGradient id="shine" cx="30%" cy="20%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/>
+    <!-- Glow interior del hueco -->
+    <filter id="hole-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Highlight superior -->
+    <radialGradient id="shine" cx="32%" cy="22%" r="48%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.72"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.10"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
 
+    <!-- Brillo inferior complementario -->
+    <radialGradient id="shine-bottom" cx="68%" cy="80%" r="38%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Borde del hueco con glow -->
+    <radialGradient id="hole-edge" cx="50%" cy="50%" r="50%">
+      <stop offset="70%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.18"/>
+    </radialGradient>
+
+    <!-- Máscara: hueco circular -->
     <mask id="cutout">
       <rect width="100%" height="100%" fill="white"/>
-      <circle cx="340" cy="340" r="120" fill="black"/>
+      <circle cx="340" cy="340" r="122" fill="black"/>
     </mask>
+
+    <!-- Clip del blob para contener efectos -->
+    <clipPath id="blob-clip">
+      <path d="M 340,90 C 378,85 408,112 438,128 C 472,146 510,134 542,158 C 574,182 568,222 578,258 C 588,294 614,322 610,356 C 606,390 574,414 562,448 C 550,482 562,520 534,545 C 506,570 466,558 430,568 C 394,578 360,604 324,600 C 288,596 266,564 232,554 C 198,544 156,556 132,532 C 108,508 116,468 106,434 C 96,400 68,370 72,332 C 76,294 104,268 114,234 C 124,200 116,160 144,136 C 172,112 212,124 246,118 C 280,112 308,92 340,90 Z"/>
+    </clipPath>
   </defs>
 
   <g filter="url(#shadow)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
-    <path mask="url(#cutout)" d="M 340,90 C 378,85 408,112 438,128 C 472,146 510,134 542,158 C 574,182 568,222 578,258 C 588,294 614,322 610,356 C 606,390 574,414 562,448 C 550,482 562,520 534,545 C 506,570 466,558 430,568 C 394,578 360,604 324,600 C 288,596 266,564 232,554 C 198,544 156,556 132,532 C 108,508 116,468 106,434 C 96,400 68,370 72,332 C 76,294 104,268 114,234 C 124,200 116,160 144,136 C 172,112 212,124 246,118 C 280,112 308,92 340,90 Z" fill="url(#grad)" stroke="#ffffff44" stroke-width="3" stroke-linejoin="round" style="stroke:rgba(255, 255, 255, 0.267);color:rgb(255, 255, 255);stroke-width:3px;stroke-linecap:butt;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
-    <ellipse cx="270" cy="210" rx="180" ry="110" fill="url(#shine)" opacity="0.4" mask="url(#cutout)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <!-- Blob principal -->
+    <path mask="url(#cutout)" d="M 340,90 C 378,85 408,112 438,128 C 472,146 510,134 542,158 C 574,182 568,222 578,258 C 588,294 614,322 610,356 C 606,390 574,414 562,448 C 550,482 562,520 534,545 C 506,570 466,558 430,568 C 394,578 360,604 324,600 C 288,596 266,564 232,554 C 198,544 156,556 132,532 C 108,508 116,468 106,434 C 96,400 68,370 72,332 C 76,294 104,268 114,234 C 124,200 116,160 144,136 C 172,112 212,124 246,118 C 280,112 308,92 340,90 Z" fill="url(#grad)" stroke="#ffffff30" stroke-width="2.5" stroke-linejoin="round" style="stroke:rgba(255, 255, 255, 0.19);color:rgb(255, 255, 255);stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
-    <circle cx="340" cy="340" r="120" fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.25" style="fill:none;stroke:rgb(255, 255, 255);color:rgb(255, 255, 255);stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <!-- Highlight superior izquierdo -->
+    <g clip-path="url(#blob-clip)" mask="url(#cutout)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+      <ellipse cx="265" cy="200" rx="195" ry="115" fill="url(#shine)" opacity="0.55" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.55;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    </g>
+
+    <!-- Brillo inferior derecho complementario cyan -->
+    <g clip-path="url(#blob-clip)" mask="url(#cutout)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+      <rect x="60" y="90" width="560" height="520" fill="url(#shine-bottom)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    </g>
+
+    <!-- Anillo del hueco: degradado de color -->
+    <circle cx="340" cy="340" r="122" fill="none" stroke="url(#ring-grad)" stroke-width="3" opacity="0.70" style="fill:none;color:rgb(255, 255, 255);stroke-width:3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Borde exterior del hueco con glow blanco sutil -->
+    <circle cx="340" cy="340" r="122" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.22" style="fill:none;stroke:rgb(255, 255, 255);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.22;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Destellos en puntos del blob (esquinas orgánicas) -->
+    <circle cx="542" cy="158" r="5" fill="#ffffff" opacity="0.30" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.3;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <circle cx="132" cy="532" r="4" fill="#22d3ee" opacity="0.40" style="fill:rgb(34, 211, 238);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <circle cx="562" cy="448" r="3.5" fill="#f472b6" opacity="0.35" style="fill:rgb(244, 114, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.35;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <circle cx="246" cy="118" r="4" fill="#a78bfa" opacity="0.38" style="fill:rgb(167, 139, 250);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.38;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <circle cx="106" cy="434" r="3" fill="#ffffff" opacity="0.22" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.22;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Micro highlight en borde superior del hueco -->
+    <path d="M 268,228 A 122,122 0 0,1 412,228" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.28" stroke-linecap="round" style="fill:none;stroke:rgb(255, 255, 255);color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:round;stroke-linejoin:miter;opacity:0.28;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
   </g>
 </svg>
