@@ -3618,6 +3618,9 @@
     "folder-claude-open": {
       "iconPath": "../../assets/svg/dark/folder-claude-open.svg"
     },
+    "claude": {
+      "iconPath": "../../assets/svg/dark/claude.svg"
+    },
     "folder-kiro": {
       "iconPath": "../../assets/svg/dark/folder-kiro.svg"
     },
@@ -3683,9 +3686,6 @@
     },
     "folder-open": {
       "iconPath": "../../assets/svg/dark/folder-file-open.svg"
-    },
-    "file-claude": {
-      "iconPath": "../../assets/svg/dark/claude.svg"
     },
     "folder-root": {
       "iconPath": "../../assets/svg/dark/folder-root.svg"
@@ -11611,6 +11611,7 @@
     "tsp": "typespec"
   },
   "fileNames": {
+    "CLAUDE.md": "claude",
     "icon.png": "icon-png",
     "icon.svg": "icon-png",
     "icon.ico": "icon-png",
