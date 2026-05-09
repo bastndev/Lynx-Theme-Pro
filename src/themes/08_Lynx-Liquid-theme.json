@@ -288,7 +288,6 @@
     "string": { "foreground": "#9ece6a" },
     "number": { "foreground": "#bb9af7" },
     "regexp": { "foreground": "#ff8080" },
-    "operator": { "foreground": "#bb9af7" },
     "keyword": { "foreground": "#bb9af7", "fontStyle": "bold" },
     "selfKeyword": { "foreground": "#bb9af7", "fontStyle": "italic" }
   },

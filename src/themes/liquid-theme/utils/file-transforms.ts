@@ -22,7 +22,6 @@ export interface RemoveMarkersResult {
 
 export interface PatchCSPResult {
   result: string;
-  alreadyPatched: boolean;
   noMetaTag: boolean;
 }
 
@@ -89,10 +88,10 @@ export function removeElectronOptionsMacOS(electronJS: string): string {
 export function patchCSP(html: string): PatchCSPResult {
   const re    = /<meta\s+http-equiv="Content-Security-Policy"\s+content="([\s\S]+?)">/;
   const match = html.match(re);
-  if (!match) {return { result: html, alreadyPatched: false, noMetaTag: true };}
+  if (!match) {return { result: html, noMetaTag: true };}
 
   const csp = match[1];
-  if (csp.includes(CSP_POLICY)) {return { result: html, alreadyPatched: true, noMetaTag: false };}
+  if (csp.includes(CSP_POLICY)) {return { result: html, noMetaTag: false };}
 
   const newCsp = csp.includes('trusted-types')
     ? csp.replace(/(?<!-)trusted-types(?!-)/, `trusted-types ${CSP_POLICY}`)
@@ -100,7 +99,6 @@ export function patchCSP(html: string): PatchCSPResult {
 
   return {
     result: html.replace(match[0], match[0].replace(csp, newCsp)),
-    alreadyPatched: false,
     noMetaTag: false,
   };
 }

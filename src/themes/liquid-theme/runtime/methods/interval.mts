@@ -10,8 +10,6 @@
  *
  * @param {Electron.BrowserWindow} window
  * @returns {{ install: () => void, uninstall: () => void }}
- *
- * TODO (Fase 2): Activar con refreshInterval configurable
  */
 
 import type { TransparencyEffects } from './index.mjs';

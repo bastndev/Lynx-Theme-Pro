@@ -64,9 +64,10 @@ function resolveVSCodePaths(): VSCodePaths {
   // Strategy 1: require.main.filename (extension host points to main process)
   try {
     appDir = require.main?.filename ? path.dirname(require.main.filename) : undefined;
-  } catch {
-    // Strategy 2: internal global injected by VSCode
-     
+  } catch { /* noop */ }
+
+  // Strategy 2: internal global injected by VSCode (tried independently, not only on S1 failure)
+  if (!appDir) {
     try { appDir = _VSCODE_FILE_ROOT; } catch { /* noop */ }
   }
 

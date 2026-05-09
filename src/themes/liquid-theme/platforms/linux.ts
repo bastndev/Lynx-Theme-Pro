@@ -230,8 +230,12 @@ export async function uninstall(context: vscode.ExtensionContext): Promise<void>
     if (fs.existsSync(JSFile)) {
       let mainJS = await fsPromises.readFile(JSFile, 'utf-8');
       const { result, hadMarkers } = removeJSMarkers(mainJS);
-      if (hadMarkers) {await writer.writeFile(JSFile, result, 'utf-8');}
-      if (ElectronJSFile === JSFile) { await writer.writeFile(JSFile, removeElectronOptions(result), 'utf-8'); }
+      if (ElectronJSFile === JSFile) {
+        // VSCode 1.95+: both files are the same — apply all cleanups to one buffer
+        await writer.writeFile(JSFile, removeElectronOptions(result), 'utf-8');
+      } else if (hadMarkers) {
+        await writer.writeFile(JSFile, result, 'utf-8');
+      }
     }
     if (ElectronJSFile !== JSFile && fs.existsSync(ElectronJSFile)) {
       let electronJS = await fsPromises.readFile(ElectronJSFile, 'utf-8');
