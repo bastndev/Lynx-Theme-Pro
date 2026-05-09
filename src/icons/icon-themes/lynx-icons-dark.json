@@ -1911,6 +1911,9 @@
     "agents": {
       "iconPath": "../../assets/svg/dark/agents.svg"
     },
+    "agents-black": {
+      "iconPath": "../../assets/svg/dark/agents-black.svg"
+    },
     "folder-src": {
       "iconPath": "../../assets/svg/dark/folder-src.svg"
     },
