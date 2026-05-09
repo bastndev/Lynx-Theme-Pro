@@ -5,26 +5,41 @@
   "semanticClass": "theme.liquid-glass",
   "semanticHighlighting": true,
   "colors": {
-    "statusBar.background": "#00000000",
-    "statusBar.noFolderBackground": "#00000000",
-    "statusBar.debuggingBackground": "#00000000",
-    "titleBar.activeBackground": "#00000000",
-    "titleBar.inactiveBackground": "#00000000",
-    "activityBar.background": "#00000000",
-    "sideBar.background": "#00000000",
-    "sideBarSectionHeader.background": "#00000000",
-    "editorGroupHeader.tabsBackground": "#00000000",
-    "editorGroupHeader.noTabsBackground": "#00000000",
-    "tab.activeBackground": "#00000000",
-    "tab.inactiveBackground": "#00000000",
-    "panel.background": "#00000000",
-    "terminal.background": "#00000000",
-    "minimap.background": "#00000000",
-    "breadcrumb.background": "#00000000",
+
+    /* ═══ Splash / Loading — visible before glass CSS injects ══════════════ */
+
     "window.activeBorder": "#00000000",
     "window.inactiveBorder": "#00000000",
 
-    "editor.background": "#0a0e1468",
+    "editor.background": "#0c1018a8",
+    "editorGutter.background": "#00000000",
+    "editorGroupHeader.tabsBackground": "#0b0f17a0",
+    "editorGroupHeader.noTabsBackground": "#0b0f17a0",
+
+    "sideBar.background": "#0b0f17a8",
+    "sideBarSectionHeader.background": "#00000000",
+
+    "activityBar.background": "#0b0f17a8",
+
+    "panel.background": "#0b0f17a8",
+    "terminal.background": "#00000000",
+
+    "statusBar.background": "#0b0f17a8",
+    "statusBar.noFolderBackground": "#0b0f17a8",
+    "statusBar.debuggingBackground": "#0b0f17a8",
+
+    "titleBar.activeBackground": "#0b0f17a8",
+    "titleBar.inactiveBackground": "#0b0f1798",
+
+    "tab.activeBackground": "#00000000",
+    "tab.inactiveBackground": "#00000000",
+
+    "breadcrumb.background": "#00000000",
+    "minimap.background": "#00000000",
+    "welcomePage.background": "#0c1018",
+
+    /* ═══ Editor Content ═══════════════════════════════════════════════════ */
+
     "editorLineNumber.foreground": "#3a5570",
     "editorLineNumber.activeForeground": "#c0caf5",
     "editorCursor.foreground": "#7aa2f7",
@@ -41,7 +56,6 @@
     "editor.lineHighlightBackground": "#ffffff06",
     "editor.lineHighlightBorder": "#ffffff08",
 
-    "editorGutter.background": "#00000000",
     "editorGutter.addedBackground": "#73daca60",
     "editorGutter.modifiedBackground": "#7aa2f760",
     "editorGutter.deletedBackground": "#f7768e60",
@@ -52,6 +66,8 @@
     "editorBracketMatch.background": "#7aa2f714",
     "editorBracketMatch.border": "#ffffff30",
 
+    /* ═══ Tabs ═════════════════════════════════════════════════════════════ */
+
     "tab.activeBorderTop": "#00000000",
     "tab.activeBorder": "#00000000",
     "tab.unfocusedActiveBorderTop": "#00000000",
@@ -60,10 +76,15 @@
     "tab.inactiveForeground": "#8aabcc",
     "tab.unfocusedActiveForeground": "#a0c0e0",
     "tab.border": "#ffffff08",
+
+    /* ═══ Breadcrumbs ══════════════════════════════════════════════════════ */
+
     "breadcrumb.foreground": "#6a8aaa",
     "breadcrumb.focusForeground": "#c0caf5",
     "breadcrumb.activeSelectionForeground": "#7aa2f7",
     "breadcrumbPicker.background": "#0a0e1490",
+
+    /* ═══ Sidebar ═════════════════════════════════════════════════════════ */
 
     "sideBarTitle.foreground": "#8aabcc",
     "sideBarSectionHeader.foreground": "#7090b0",
@@ -79,6 +100,8 @@
     "list.dropBackground": "#7aa2f715",
     "tree.indentGuidesStroke": "#ffffff15",
 
+    /* ═══ Activity Bar ════════════════════════════════════════════════════ */
+
     "activityBarBadge.background": "#7aa2f7",
     "activityBarBadge.foreground": "#00080f",
     "activityBar.foreground": "#c0caf5",
@@ -87,6 +110,8 @@
     "activityBar.activeBorder": "#7aa2f7",
     "activityBar.activeBackground": "#7aa2f70a",
     "activityBar.activeFocusBorder": "#7aa2f7",
+
+    /* ═══ Status Bar ══════════════════════════════════════════════════════ */
 
     "statusBar.foreground": "#8aaac8",
     "statusBar.border": "#ffffff08",
@@ -97,14 +122,20 @@
     "statusBarItem.remoteBackground": "#7aa2f730",
     "statusBarItem.remoteForeground": "#e8f4ff",
 
+    /* ═══ Title Bar ═══════════════════════════════════════════════════════ */
+
     "titleBar.activeForeground": "#8aaac8",
     "titleBar.inactiveForeground": "#4a6a88",
     "titleBar.border": "#ffffff08",
+
+    /* ═══ Panel ═══════════════════════════════════════════════════════════ */
 
     "panel.border": "#ffffff08",
     "panelTitle.activeForeground": "#c0caf5",
     "panelTitle.inactiveForeground": "#4a6a88",
     "panelTitle.activeBorder": "#7aa2f7",
+
+    /* ═══ Terminal ════════════════════════════════════════════════════════ */
 
     "terminal.foreground": "#c0caf5",
     "terminal.selectionBackground": "#7aa2f728",
@@ -128,6 +159,8 @@
     "terminal.ansiBrightRed": "#f7768e",
     "terminal.ansiBrightWhite": "#e8f2fc",
     "terminal.ansiBrightYellow": "#e0af68",
+
+    /* ═══ Widgets & Overlays ══════════════════════════════════════════════ */
 
     "editorWidget.background": "#0a0e14c2",
     "editorWidget.border": "#ffffff15",
@@ -170,6 +203,8 @@
     "notificationsWarningIcon.foreground": "#e0af68",
     "notificationsInfoIcon.foreground": "#7aa2f7",
 
+    /* ═══ Inputs ══════════════════════════════════════════════════════════ */
+
     "input.background": "#ffffff05",
     "input.border": "#ffffff14",
     "input.foreground": "#c0caf5",
@@ -186,6 +221,8 @@
     "focusBorder": "#ffffff25",
     "selection.background": "#7aa2f735",
 
+    /* ═══ Buttons ═════════════════════════════════════════════════════════ */
+
     "button.background": "#7aa2f7a0",
     "button.foreground": "#ffffff",
     "button.hoverBackground": "#7aa2f7c0",
@@ -194,16 +231,22 @@
     "button.secondaryForeground": "#c0caf5",
     "button.secondaryHoverBackground": "#ffffff20",
 
+    /* ═══ Scrollbar ═══════════════════════════════════════════════════════ */
+
     "scrollbar.shadow": "#00000040",
     "scrollbarSlider.background": "#ffffff0f",
     "scrollbarSlider.hoverBackground": "#ffffff20",
     "scrollbarSlider.activeBackground": "#ffffff28",
+
+    /* ═══ Diff Editor ═════════════════════════════════════════════════════ */
 
     "diffEditor.insertedTextBackground": "#73daca0e",
     "diffEditor.removedTextBackground": "#f7768e0e",
     "diffEditor.insertedLineBackground": "#73daca08",
     "diffEditor.removedLineBackground": "#f7768e08",
     "diffEditor.diagonalFill": "#ffffff08",
+
+    /* ═══ Git ═════════════════════════════════════════════════════════════ */
 
     "gitDecoration.addedResourceForeground": "#73daca",
     "gitDecoration.modifiedResourceForeground": "#7aa2f7",
@@ -213,10 +256,13 @@
     "gitDecoration.conflictingResourceForeground": "#e0af68",
     "gitDecoration.submoduleResourceForeground": "#bb9af7",
 
+    /* ═══ Badge & Progress ════════════════════════════════════════════════ */
+
     "badge.background": "#7aa2f730",
     "badge.foreground": "#7aa2f7",
-
     "progressBar.background": "#7aa2f7",
+
+    /* ═══ Diagnostics ═════════════════════════════════════════════════════ */
 
     "editorError.foreground": "#f7768e",
     "editorWarning.foreground": "#e0af68",
@@ -227,6 +273,8 @@
     "problemsErrorIcon.foreground": "#f7768e",
     "problemsWarningIcon.foreground": "#e0af68",
     "problemsInfoIcon.foreground": "#7aa2f7",
+
+    /* ═══ Minimap ═════════════════════════════════════════════════════════ */
 
     "minimap.findMatchHighlight": "#7aa2f7f5",
     "minimap.selectionHighlight": "#7aa2f755",
@@ -240,16 +288,21 @@
     "minimapGutter.modifiedBackground": "#7aa2f7",
     "minimapGutter.deletedBackground": "#f7768e",
 
-    "welcomePage.background": "#00000000",
+    /* ═══ Welcome Page ════════════════════════════════════════════════════ */
+
     "welcomePage.tileBackground": "#ffffff06",
     "welcomePage.tileHoverBackground": "#7aa2f70a",
     "welcomePage.tileBorder": "#ffffff10",
+
+    /* ═══ Extensions ══════════════════════════════════════════════════════ */
 
     "extensionButton.prominentBackground": "#7aa2f790",
     "extensionButton.prominentForeground": "#ffffff",
     "extensionButton.prominentHoverBackground": "#7aa2f7b0",
     "extensionBadge.remoteBackground": "#7aa2f730",
     "extensionBadge.remoteForeground": "#7aa2f7",
+
+    /* ═══ Settings ════════════════════════════════════════════════════════ */
 
     "settings.headerForeground": "#c0caf5",
     "settings.modifiedItemIndicator": "#7aa2f7",
