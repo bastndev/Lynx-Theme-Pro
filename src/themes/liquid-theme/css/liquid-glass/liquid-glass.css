@@ -65,3 +65,62 @@
   border-bottom: 1px solid var(--glass-edge) !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.30) !important;
 }
+
+/* ─── Editor Tab Bar Separator ────────────────────────────────────────────── */
+
+.editor-group-container > .tabs-container::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(122, 162, 247, 0.08) 20%,
+    rgba(122, 162, 247, 0.08) 80%,
+    transparent 100%
+  );
+  pointer-events: none;
+}
+
+/* ─── Sidebar Section Headers ─────────────────────────────────────────────── */
+
+.sidebar .tree-explorer-viewlet-tree-view > .header {
+  transition: background var(--t-fast) ease !important;
+}
+
+.sidebar .tree-explorer-viewlet-tree-view > .header:hover {
+  background: rgba(255, 255, 255, 0.03) !important;
+}
+
+/* ─── Explorer Arrows ─────────────────────────────────────────────────────── */
+
+.monaco-tl-row .codicon.codicon-tree-item-expanded,
+.monaco-tl-row .codicon.codicon-tree-item-collapsed {
+  transition: transform var(--t-fast) var(--ease-glass), color var(--t-fast) ease !important;
+  color: rgba(150, 185, 220, 0.50) !important;
+}
+
+.monaco-tl-row:hover .codicon.codicon-tree-item-expanded,
+.monaco-tl-row:hover .codicon.codicon-tree-item-collapsed {
+  color: rgba(200, 230, 255, 0.80) !important;
+}
+
+/* ─── Sidebar File Decorations ────────────────────────────────────────────── */
+
+.sidebar .monaco-list-row .monaco-icon-label::after {
+  transition: opacity var(--t-fast) ease !important;
+}
+
+/* ─── Breadcrumb Separator ────────────────────────────────────────────────── */
+
+.breadcrumbs-container .breadcrumbs-separator {
+  opacity: 0.3;
+  transition: opacity var(--t-fast) ease !important;
+}
+
+.breadcrumbs-container:hover .breadcrumbs-separator {
+  opacity: 0.5;
+}

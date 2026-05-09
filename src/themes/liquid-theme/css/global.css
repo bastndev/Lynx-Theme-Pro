@@ -10,6 +10,7 @@
   --accent-glow-strong:  rgba(122, 162, 247, 0.25);
   --accent-tint:         rgba(122, 162, 247, 0.05);
   --accent-tint-hover:   rgba(122, 162, 247, 0.08);
+  --accent-tint-active:  rgba(122, 162, 247, 0.14);
 
   --glass-edge:          rgba(255, 255, 255, 0.04);
   --glass-edge-hover:    rgba(255, 255, 255, 0.08);
@@ -26,9 +27,11 @@
   --shadow-float:   0 8px 40px rgba(0, 0, 0, 0.65), 0 2px 8px rgba(0, 0, 0, 0.40);
   --shadow-inset:   inset 0 1px 0 var(--glass-edge-top),
                     inset 0 -1px 0 rgba(0, 0, 0, 0.20);
+  --shadow-lift:    0 6px 24px rgba(0, 0, 0, 0.45), 0 2px 6px rgba(0, 0, 0, 0.30);
 
   --glow-accent:  0 0 18px var(--accent-glow), 0 0 6px var(--accent-glow-strong);
   --glow-soft:    0 0 30px rgba(122, 162, 247, 0.08);
+  --glow-ring:    0 0 0 3px rgba(122, 162, 247, 0.12);
 
   --r-xs:  4px;
   --r-sm:  8px;
@@ -38,9 +41,32 @@
 
   --ease-glass:   cubic-bezier(0.16, 1, 0.3, 1);
   --ease-snap:    cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-smooth:  cubic-bezier(0.25, 0.1, 0.25, 1);
   --t-fast:       150ms;
   --t-mid:        250ms;
   --t-slow:       400ms;
+}
+
+/* ─── Keyframe Animations ──────────────────────────────────────────────────── */
+
+@keyframes lynx-fade-in {
+  from { opacity: 0; transform: translateY(-4px) scale(0.98); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes lynx-slide-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes lynx-glow-pulse {
+  0%, 100% { box-shadow: 0 0 12px rgba(122, 162, 247, 0.15); }
+  50%      { box-shadow: 0 0 20px rgba(122, 162, 247, 0.25); }
+}
+
+@keyframes lynx-shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
 }
 
 /* ─── Workbench root ──────────────────────────────────────────────────────── */
@@ -59,14 +85,15 @@
 
 .part.activitybar .action-label.codicon,
 .part.activitybar .action-label {
-  color: rgba(150, 185, 220, 0.65) !important;
-  transition: color var(--t-mid) ease, filter var(--t-mid) ease !important;
+  color: rgba(150, 185, 220, 0.55) !important;
+  transition: color var(--t-mid) var(--ease-glass), filter var(--t-mid) var(--ease-glass), transform var(--t-fast) var(--ease-snap) !important;
 }
 
 .part.activitybar .action-item:hover .action-label,
 .part.activitybar .action-item:hover .action-label.codicon {
   color: rgba(210, 235, 255, 0.95) !important;
-  filter: drop-shadow(0 0 6px var(--accent-dim));
+  filter: drop-shadow(0 0 8px var(--accent-dim));
+  transform: scale(1.08);
 }
 
 .part.activitybar .action-item.checked .action-label,
@@ -74,7 +101,7 @@
 .part.activitybar .action-item.checked .action-label.codicon,
 .part.activitybar .action-item.active .action-label.codicon {
   color: rgba(230, 248, 255, 1) !important;
-  filter: drop-shadow(0 0 6px var(--accent-dim));
+  filter: drop-shadow(0 0 8px var(--accent-dim));
 }
 
 .action-item.checked::before,
@@ -82,6 +109,7 @@
   background: var(--accent) !important;
   box-shadow: var(--glow-accent);
   border-radius: 0 var(--r-xs) var(--r-xs) 0 !important;
+  transition: box-shadow var(--t-mid) var(--ease-glass) !important;
 }
 
 /* ─── Editor & Tabs ───────────────────────────────────────────────────────── */
@@ -100,14 +128,14 @@
   border: none !important;
   border-right: 1px solid rgba(255, 255, 255, 0.04) !important;
   transition:
-    background var(--t-fast) ease,
-    box-shadow  var(--t-mid) ease !important;
+    background var(--t-fast) var(--ease-glass),
+    box-shadow  var(--t-mid) var(--ease-glass) !important;
   position: relative;
 }
 
 .tab:hover:not(.active) {
-  background: var(--accent-tint) !important;
-  box-shadow: inset 0 -2px 0 rgba(122, 162, 247, 0.15) !important;
+  background: rgba(122, 162, 247, 0.04) !important;
+  box-shadow: inset 0 -2px 0 rgba(122, 162, 247, 0.12) !important;
 }
 
 .tab.active {
@@ -119,17 +147,22 @@
   box-shadow:
     inset 0 -2px 0 var(--accent),
     inset 0  1px 0 var(--glass-edge-top),
-    0 2px 12px var(--accent-glow) !important;
+    0 2px 16px var(--accent-glow) !important;
   border-bottom-color: transparent !important;
 }
 
 .tab.active .monaco-icon-label {
   opacity: 1;
-  text-shadow: 0 0 12px rgba(122, 162, 247, 0.35);
+  text-shadow: 0 0 14px rgba(122, 162, 247, 0.35);
 }
 
 .tab:not(.active) .monaco-icon-label {
-  opacity: 0.60;
+  opacity: 0.55;
+  transition: opacity var(--t-fast) ease !important;
+}
+
+.tab:hover:not(.active) .monaco-icon-label {
+  opacity: 0.75;
 }
 
 .editor-container,
@@ -154,7 +187,7 @@
 }
 
 .statusbar-item {
-  transition: color var(--t-fast) ease, background var(--t-fast) ease !important;
+  transition: color var(--t-fast) ease, background var(--t-fast) var(--ease-glass) !important;
 }
 
 .statusbar-item:hover {
@@ -171,7 +204,8 @@
 .part.titlebar .action-label,
 .titlebar-right .action-label,
 .titlebar-left .action-label {
-  color: rgba(160, 195, 230, 0.75) !important;
+  color: rgba(160, 195, 230, 0.70) !important;
+  transition: color var(--t-fast) ease !important;
 }
 
 .part.titlebar .action-item:hover .action-label,
@@ -180,15 +214,18 @@
 }
 
 .part.titlebar .window-controls-container button {
-  color: rgba(160, 195, 230, 0.80) !important;
+  color: rgba(160, 195, 230, 0.75) !important;
+  transition: color var(--t-fast) ease, background var(--t-fast) ease !important;
 }
 
 .part.titlebar .window-controls-container button:hover {
   color: rgba(220, 240, 255, 1) !important;
+  background: rgba(255, 255, 255, 0.06) !important;
 }
 
 .menubar .menubar-menu-button > .menubar-menu-title {
-  color: rgba(160, 195, 230, 0.75) !important;
+  color: rgba(160, 195, 230, 0.70) !important;
+  transition: color var(--t-fast) ease !important;
 }
 
 .menubar .menubar-menu-button:hover > .menubar-menu-title,
@@ -214,7 +251,8 @@
 
 .part.panel .title .tabs-and-actions-container .action-label.codicon,
 .part.panel .composite.title .action-label {
-  color: rgba(140, 175, 210, 0.70) !important;
+  color: rgba(140, 175, 210, 0.65) !important;
+  transition: color var(--t-fast) ease !important;
 }
 
 .part.panel .title .tabs-and-actions-container .action-item:hover .action-label.codicon {
@@ -222,7 +260,8 @@
 }
 
 .part.panel .title .tabs-container .tab .tab-label {
-  color: rgba(140, 175, 210, 0.70);
+  color: rgba(140, 175, 210, 0.65);
+  transition: color var(--t-fast) ease !important;
 }
 
 .part.panel .title .tabs-container .tab.active .tab-label {
@@ -243,6 +282,7 @@
     var(--glow-soft) !important;
   overflow: hidden;
   margin-top: 24px;
+  animation: lynx-fade-in var(--t-mid) var(--ease-glass) !important;
 }
 
 .quick-input-widget::before {
@@ -277,6 +317,7 @@
   border-radius: var(--r-md) !important;
   box-shadow: var(--shadow-float), var(--shadow-inset) !important;
   overflow: hidden;
+  animation: lynx-fade-in var(--t-fast) var(--ease-glass) !important;
 }
 
 .monaco-hover {
@@ -286,6 +327,7 @@
   border: 1px solid var(--glass-edge-hover) !important;
   border-radius: var(--r-sm) !important;
   box-shadow: var(--shadow-float), var(--shadow-inset) !important;
+  animation: lynx-fade-in var(--t-fast) var(--ease-glass) !important;
 }
 
 .monaco-menu {
@@ -297,6 +339,7 @@
   box-shadow: var(--shadow-float), var(--shadow-inset) !important;
   overflow: hidden;
   padding: 4px !important;
+  animation: lynx-fade-in var(--t-fast) var(--ease-glass) !important;
 }
 
 .monaco-menu .action-item {
@@ -308,6 +351,12 @@
 .monaco-menu .action-item.focused,
 .monaco-menu .action-item:hover {
   background: var(--accent-tint-hover) !important;
+  box-shadow: inset 0 0 0 1px rgba(122, 162, 247, 0.08) !important;
+}
+
+.monaco-menu .action-item .action-label,
+.monaco-menu .action-item .action-label.codicon {
+  transition: color var(--t-fast) ease !important;
 }
 
 .notifications-toasts .notification-toast {
@@ -318,6 +367,7 @@
   border-radius: var(--r-lg) !important;
   box-shadow: var(--shadow-float), var(--shadow-inset) !important;
   overflow: hidden;
+  animation: lynx-slide-up var(--t-mid) var(--ease-glass) !important;
 }
 
 /* ─── List Items ──────────────────────────────────────────────────────────── */
@@ -325,7 +375,7 @@
 .monaco-list-row {
   border-radius: var(--r-xs) !important;
   transition:
-    background var(--t-fast) ease,
+    background var(--t-fast) var(--ease-glass),
     box-shadow  var(--t-fast) ease !important;
 }
 
@@ -337,6 +387,7 @@
 .monaco-list-row.selected,
 .monaco-list-row.focused {
   background: var(--accent-tint) !important;
+  box-shadow: inset 3px 0 0 var(--accent) !important;
 }
 
 .monaco-list-row.selected:hover {
@@ -350,21 +401,22 @@
   border: 1px solid var(--glass-edge-hover) !important;
   border-radius: var(--r-sm) !important;
   transition:
-    border-color  var(--t-mid) ease,
-    box-shadow    var(--t-mid) ease,
+    border-color  var(--t-mid) var(--ease-glass),
+    box-shadow    var(--t-mid) var(--ease-glass),
     background    var(--t-mid) ease !important;
 }
 
 .monaco-inputbox:hover {
   border-color: rgba(255, 255, 255, 0.15) !important;
+  background: rgba(255, 255, 255, 0.04) !important;
 }
 
 .monaco-inputbox.synthetic-focus,
 .monaco-inputbox:focus-within {
   background: rgba(255, 255, 255, 0.04) !important;
-  border-color: rgba(255, 255, 255, 0.22) !important;
+  border-color: rgba(122, 162, 247, 0.35) !important;
   box-shadow:
-    0 0 0 3px rgba(255, 255, 255, 0.06),
+    0 0 0 3px rgba(122, 162, 247, 0.08),
     inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
 }
 
@@ -373,8 +425,8 @@
 .monaco-button {
   border-radius: var(--r-sm) !important;
   transition:
-    background    var(--t-fast) ease,
-    box-shadow    var(--t-mid)  ease,
+    background    var(--t-fast) var(--ease-glass),
+    box-shadow    var(--t-mid)  var(--ease-glass),
     transform     var(--t-fast) var(--ease-snap) !important;
 }
 
@@ -397,13 +449,27 @@
     rgba(80, 110, 190, 0.70) 100%
   ) !important;
   box-shadow:
-    0 4px 20px rgba(122, 162, 247, 0.35),
+    0 4px 24px rgba(122, 162, 247, 0.35),
     inset 0 1px 0 rgba(255, 255, 255, 0.22) !important;
   transform: translateY(-1px);
 }
 
 .monaco-button.primary:active {
   transform: translateY(0);
+  box-shadow:
+    0 1px 6px rgba(122, 162, 247, 0.20),
+    inset 0 1px 0 rgba(255, 255, 255, 0.10) !important;
+}
+
+.monaco-button.secondary {
+  transition:
+    background var(--t-fast) var(--ease-glass),
+    border-color var(--t-fast) ease,
+    box-shadow var(--t-mid) var(--ease-glass) !important;
+}
+
+.monaco-button.secondary:hover {
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.06) !important;
 }
 
 /* ─── Scrollbars ──────────────────────────────────────────────────────────── */
@@ -411,18 +477,18 @@
 .slider {
   background: rgba(255, 255, 255, 0.06) !important;
   border-radius: var(--r-xs) !important;
-  transition: background var(--t-fast) ease !important;
+  transition: background var(--t-fast) ease, box-shadow var(--t-mid) ease !important;
 }
 
 .slider:hover,
 .slider.active {
   background: rgba(255, 255, 255, 0.14) !important;
-  box-shadow: 0 0 8px rgba(122, 162, 247, 0.15) !important;
+  box-shadow: 0 0 10px rgba(122, 162, 247, 0.12) !important;
 }
 
 ::-webkit-scrollbar         { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track   { background: transparent; }
-::-webkit-scrollbar-thumb   { background: rgba(255, 255, 255, 0.08); border-radius: 3px; }
+::-webkit-scrollbar-thumb   { background: rgba(255, 255, 255, 0.08); border-radius: 3px; transition: background 0.2s ease; }
 ::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.16); }
 ::-webkit-scrollbar-corner  { background: transparent; }
 
@@ -432,10 +498,12 @@
   background: rgba(122, 162, 247, 0.06) !important;
   border: 1px solid rgba(122, 162, 247, 0.12) !important;
   border-radius: var(--r-xs) !important;
+  transition: background var(--t-fast) ease, border-color var(--t-fast) ease !important;
 }
 
 .minimap-slider:hover {
   background: rgba(122, 162, 247, 0.10) !important;
+  border-color: rgba(122, 162, 247, 0.20) !important;
 }
 
 /* ─── Breadcrumbs ─────────────────────────────────────────────────────────── */
@@ -443,6 +511,11 @@
 .breadcrumbs-container {
   background: transparent !important;
   border-bottom: 1px solid var(--glass-edge) !important;
+}
+
+.breadcrumbs-container a,
+.breadcrumbs-container span {
+  transition: color var(--t-fast) ease !important;
 }
 
 /* ─── Drag & Drop ─────────────────────────────────────────────────────────── */
@@ -459,8 +532,12 @@
 
 .monaco-editor .zone-widget .zone-widget-container {
   background: rgba(8, 13, 22, 0.85) !important;
+  backdrop-filter: var(--blur-sm);
+  -webkit-backdrop-filter: var(--blur-sm);
   border: 1px solid var(--glass-edge-hover) !important;
   border-radius: var(--r-sm) !important;
+  box-shadow: var(--shadow-lift) !important;
+  animation: lynx-slide-up var(--t-mid) var(--ease-glass) !important;
 }
 
 /* ─── Find / Replace ──────────────────────────────────────────────────────── */
@@ -489,8 +566,8 @@
 .margin { background: transparent !important; }
 
 .line-numbers {
-  color: rgba(100, 140, 180, 0.50) !important;
-  transition: color var(--t-fast) ease !important;
+  color: rgba(100, 140, 180, 0.45) !important;
+  transition: color var(--t-fast) var(--ease-glass) !important;
 }
 
 .current-line ~ .line-numbers,
@@ -501,11 +578,13 @@
 /* ─── Indent Guide ────────────────────────────────────────────────────────── */
 
 .core-guide-indent        { opacity: 0.12 !important; }
-.core-guide-indent.active { opacity: 0.35 !important; }
+.core-guide-indent.active { opacity: 0.35 !important; transition: opacity var(--t-fast) ease !important; }
 
 /* ─── Cursor ──────────────────────────────────────────────────────────────── */
 
-.cursor { box-shadow: 0 0 10px rgba(122, 162, 247, 0.60) !important; }
+.cursor {
+  box-shadow: 0 0 12px rgba(122, 162, 247, 0.60), 0 0 4px rgba(122, 162, 247, 0.30) !important;
+}
 
 /* ─── Selection & Highlight ───────────────────────────────────────────────── */
 
@@ -516,6 +595,7 @@
   background: rgba(122, 162, 247, 0.08) !important;
   border: 1px solid rgba(122, 162, 247, 0.20) !important;
   border-radius: 2px !important;
+  transition: background var(--t-fast) ease, border-color var(--t-fast) ease !important;
 }
 
 /* ─── Welcome Page ────────────────────────────────────────────────────────── */
@@ -541,11 +621,15 @@
   border-bottom: 1px solid var(--glass-edge) !important;
 }
 
+.settings-editor .settings-body .settings-toc-container {
+  border-right: 1px solid var(--glass-edge) !important;
+}
+
 /* ─── Progress Bar ────────────────────────────────────────────────────────── */
 
 .progress-bit {
   background: linear-gradient(90deg, transparent, var(--accent), transparent) !important;
-  box-shadow: 0 0 12px var(--accent-glow) !important;
+  box-shadow: 0 0 14px var(--accent-glow) !important;
 }
 
 /* ─── Badge ───────────────────────────────────────────────────────────────── */
@@ -557,7 +641,7 @@
     rgba(122, 162, 247, 0.70),
     rgba(80, 110, 190, 0.60)
   ) !important;
-  box-shadow: 0 1px 6px rgba(122, 162, 247, 0.25) !important;
+  box-shadow: 0 1px 8px rgba(122, 162, 247, 0.25) !important;
   border-radius: 20px !important;
   font-weight: 700 !important;
 }
@@ -567,7 +651,8 @@
 .monaco-custom-checkbox.checked {
   background: var(--accent) !important;
   border-color: var(--accent) !important;
-  box-shadow: 0 0 8px rgba(122, 162, 247, 0.35) !important;
+  box-shadow: 0 0 10px rgba(122, 162, 247, 0.35) !important;
+  transition: background var(--t-fast) ease, box-shadow var(--t-fast) ease !important;
 }
 
 /* ─── List Focus / Keyboard Nav ───────────────────────────────────────────── */
@@ -587,6 +672,13 @@
   border: 1px solid rgba(255, 255, 255, 0.04) !important;
   border-radius: var(--r-sm) !important;
   margin: 4px 8px !important;
+  transition: background var(--t-fast) ease, border-color var(--t-fast) ease !important;
+}
+
+.interactive-request:hover,
+.chat-request-row:hover {
+  background: rgba(255, 255, 255, 0.035) !important;
+  border-color: rgba(255, 255, 255, 0.07) !important;
 }
 
 .interactive-response,
@@ -606,6 +698,7 @@
   border: 1px solid var(--glass-edge-hover) !important;
   border-radius: var(--r-md) !important;
   box-shadow: var(--shadow-float), var(--shadow-inset) !important;
+  animation: lynx-slide-up var(--t-mid) var(--ease-glass) !important;
 }
 
 /* ─── Panel Tab Switcher ──────────────────────────────────────────────────── */
@@ -615,6 +708,34 @@
 .panel > .title .tabs-container .tab.active {
   box-shadow: inset 0 2px 0 var(--accent) !important;
   background: var(--accent-tint) !important;
+}
+
+/* ─── Debug Toolbar ───────────────────────────────────────────────────────── */
+
+.debug-toolbar {
+  background: var(--glass-frosted) !important;
+  backdrop-filter: var(--blur-lg);
+  -webkit-backdrop-filter: var(--blur-lg);
+  border: 1px solid var(--glass-edge-hover) !important;
+  border-radius: var(--r-md) !important;
+  box-shadow: var(--shadow-float), var(--shadow-inset) !important;
+}
+
+/* ─── Terminal Tabs ───────────────────────────────────────────────────────── */
+
+.tabs-container .terminal-tab {
+  transition: background var(--t-fast) ease, color var(--t-fast) ease !important;
+}
+
+/* ─── Tree Indent Guides ──────────────────────────────────────────────────── */
+
+.monaco-tree .indent-guide {
+  opacity: 0.10 !important;
+  transition: opacity var(--t-fast) ease !important;
+}
+
+.monaco-tree .indent-guide:hover {
+  opacity: 0.25 !important;
 }
 
 /* ─── Focus Border ────────────────────────────────────────────────────────── */
