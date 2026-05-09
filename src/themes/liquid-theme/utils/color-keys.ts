@@ -10,6 +10,13 @@ export const TRANSPARENT_BG_KEYS = [
   'panelStickyScroll.background',
   'activityBar.background',
   'activityBarTop.background',
+  // Sidebar & window chrome — fully transparent so no dark overlay during loading
+  'sideBar.background',
+  'sideBarTitle.background',
+  'sideBarStickyScroll.background',
+  'auxiliaryBar.background',
+  'titleBar.activeBackground',
+  'titleBar.inactiveBackground',
 ];
 
 /* ─── Glass surfaces (light tint + blur via CSS) ──────────────────────────── */
@@ -22,12 +29,6 @@ export const GLASS_BG_KEYS = [
   'editorGroupHeader.tabsBackground',
   'editorGroupHeader.noTabsBackground',
 
-  // Sidebar family
-  'sideBar.background',
-  'sideBarTitle.background',
-  'sideBarStickyScroll.background',
-  'auxiliaryBar.background',
-
   // Chat & AI
   'chat.background',
   'chat.requestBackground',
@@ -36,10 +37,6 @@ export const GLASS_BG_KEYS = [
   // Inactive tabs
   'tab.inactiveBackground',
   'tab.unfocusedInactiveBackground',
-
-  // Window chrome
-  'titleBar.activeBackground',
-  'titleBar.inactiveBackground',
 ];
 
 /* ─── Frosted surfaces (denser, for floating overlays) ────────────────────── */

@@ -5,7 +5,6 @@
   "semanticClass": "theme.liquid-glass",
   "semanticHighlighting": true,
   "colors": {
-
     /* ═══ Splash / Loading — visible before glass CSS injects ══════════════ */
 
     "window.activeBorder": "#00000000",
@@ -16,20 +15,20 @@
     "editorGroupHeader.tabsBackground": "#0b0f17a0",
     "editorGroupHeader.noTabsBackground": "#0b0f17a0",
 
-    "sideBar.background": "#0b0f17a8",
+    "sideBar.background": "#00000000",
     "sideBarSectionHeader.background": "#00000000",
 
-    "activityBar.background": "#0b0f17a8",
+    "activityBar.background": "#00000000",
 
-    "panel.background": "#0b0f17a8",
+    "panel.background": "#00000000",
     "terminal.background": "#00000000",
 
     "statusBar.background": "#00000000",
     "statusBar.noFolderBackground": "#00000000",
     "statusBar.debuggingBackground": "#00000000",
 
-    "titleBar.activeBackground": "#0b0f17a8",
-    "titleBar.inactiveBackground": "#0b0f1798",
+    "titleBar.activeBackground": "#00000000",
+    "titleBar.inactiveBackground": "#00000000",
 
     "tab.activeBackground": "#00000000",
     "tab.inactiveBackground": "#00000000",
