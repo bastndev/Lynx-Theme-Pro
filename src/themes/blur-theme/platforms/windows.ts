@@ -5,7 +5,7 @@ import * as path from 'path';
 import { t } from '../utils/l10n';
 import {
   TRANSPARENT_BG_KEYS, GLASS_BG_KEYS, FROSTED_BG_KEYS,
-  ALL_BG_KEYS, THEME_BG, DEFAULT_OPACITY,
+  ALL_BG_KEYS, THEME_BG, DEFAULT_OPACITY, FROSTED_OPACITY,
 } from '../utils/color-keys';
 
 const {
@@ -91,7 +91,7 @@ async function applyColorCustomizations(context: vscode.ExtensionContext): Promi
 
   for (const key of TRANSPARENT_BG_KEYS) { newColors[key] = `#${THEME_BG}00`; }
   for (const key of GLASS_BG_KEYS)       { newColors[key] = `#${THEME_BG}${alphaHex(DEFAULT_OPACITY)}`; }
-  for (const key of FROSTED_BG_KEYS)     { newColors[key] = `#${THEME_BG}${alphaHex(0.82)}`; }
+  for (const key of FROSTED_BG_KEYS)     { newColors[key] = `#${THEME_BG}${alphaHex(FROSTED_OPACITY)}`; }
 
   newColors['terminal.background'] = '#00000000';
   await config.update('workbench.colorCustomizations', newColors, vscode.ConfigurationTarget.Global);

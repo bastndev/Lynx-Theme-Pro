@@ -4,8 +4,8 @@ import { promises as fsPromises } from 'fs';
 import * as path from 'path';
 import { t } from '../utils/l10n';
 import {
-  TRANSPARENT_BG_KEYS, SEMITRANSPARENT_BG_KEYS, OPAQUE_BG_KEYS,
-  ALL_BG_KEYS, THEME_BG, DEFAULT_OPACITY,
+  TRANSPARENT_BG_KEYS, GLASS_BG_KEYS, FROSTED_BG_KEYS,
+  ALL_BG_KEYS, THEME_BG, DEFAULT_OPACITY, FROSTED_OPACITY,
 } from '../utils/color-keys';
 
 const {
@@ -147,13 +147,13 @@ async function applyColorCustomizations(context: vscode.ExtensionContext): Promi
   for (const key of TRANSPARENT_BG_KEYS) {
     newColors[key] = `#${THEME_BG}00`;
   }
-  // Semi-transparent (#RRGGBBAA)
-  for (const key of SEMITRANSPARENT_BG_KEYS) {
+  // Glass surfaces — subtle tint
+  for (const key of GLASS_BG_KEYS) {
     newColors[key] = `#${THEME_BG}${alphaHex(DEFAULT_OPACITY)}`;
   }
-  // Nearly opaque (0.9) — for floating UI like suggestions
-  for (const key of OPAQUE_BG_KEYS) {
-    newColors[key] = `#${THEME_BG}${alphaHex(0.9)}`;
+  // Frosted surfaces — denser for floating UI
+  for (const key of FROSTED_BG_KEYS) {
+    newColors[key] = `#${THEME_BG}${alphaHex(FROSTED_OPACITY)}`;
   }
   newColors['terminal.background'] = '#00000000';
 
