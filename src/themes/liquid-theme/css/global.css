@@ -745,3 +745,180 @@
   outline-offset: 2px;
   border-radius: var(--r-xs);
 }
+
+/* ─── AI Chat Input — Liquid Glass ───────────────────────────────────────── */
+
+/*
+ * Outer wrapper: the entire bottom input zone of the chat panel.
+ * Selectors cover both GitHub Copilot Chat and generic inline AI chat.
+ */
+.interactive-input-part,
+.chat-input-part {
+  position: relative !important;
+  background: rgba(10, 14, 20, 0.52) !important;
+  backdrop-filter: blur(28px) saturate(160%) !important;
+  -webkit-backdrop-filter: blur(28px) saturate(160%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.09) !important;
+  border-radius: var(--r-xl) !important;
+  margin: 0 6px 8px !important;
+  padding: 6px 8px 6px !important;
+  box-shadow:
+    0 -4px 24px rgba(0, 0, 0, 0.40),
+    0 4px 16px rgba(0, 0, 0, 0.30),
+    inset 0 1px 0 rgba(255, 255, 255, 0.13),
+    inset 0 0 40px rgba(255, 255, 255, 0.02) !important;
+  transition: box-shadow var(--t-mid) var(--ease-glass), border-color var(--t-mid) ease !important;
+}
+
+/* Top shimmer line — mimics glass specular highlight */
+.interactive-input-part::before,
+.chat-input-part::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 12%; right: 12%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.30) 30%,
+    rgba(255, 255, 255, 0.55) 50%,
+    rgba(255, 255, 255, 0.30) 70%,
+    transparent 100%
+  );
+  border-radius: 1px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Side frost columns — subtle gray tint on both sides to frame the input */
+.interactive-input-part::after,
+.chat-input-part::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background:
+    linear-gradient(90deg,
+      rgba(180, 200, 230, 0.06) 0%,
+      transparent 18%,
+      transparent 82%,
+      rgba(180, 200, 230, 0.06) 100%
+    );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* The actual textarea / input box inside */
+.interactive-input-part .monaco-inputbox,
+.interactive-input-part .interactive-input-editor,
+.chat-input-part .monaco-inputbox,
+.chat-input-part .chat-input-editor,
+.chat-input-part .interactive-input-editor {
+  background: rgba(255, 255, 255, 0.045) !important;
+  border: 1px solid rgba(255, 255, 255, 0.10) !important;
+  border-radius: var(--r-md) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.15),
+    0 2px 12px rgba(0, 0, 0, 0.25) !important;
+  transition:
+    border-color var(--t-mid) ease,
+    box-shadow var(--t-mid) var(--ease-glass),
+    background var(--t-mid) ease !important;
+}
+
+/* Focus — sin outline morado, solo un brillo sutil interno */
+.interactive-input-part .interactive-input-editor:focus-within,
+.interactive-input-part .monaco-inputbox.synthetic-focus,
+.chat-input-part .interactive-input-editor:focus-within,
+.chat-input-part .chat-input-editor:focus-within {
+  border-color: rgba(255, 255, 255, 0.14) !important;
+  background: rgba(255, 255, 255, 0.055) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.12),
+    0 4px 20px rgba(0, 0, 0, 0.28) !important;
+  outline: none !important;
+}
+
+/* Hover lift on the outer wrapper */
+.interactive-input-part:hover,
+.chat-input-part:hover {
+  border-color: rgba(255, 255, 255, 0.15) !important;
+  box-shadow:
+    0 -6px 32px rgba(0, 0, 0, 0.45),
+    0 4px 20px rgba(0, 0, 0, 0.32),
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    inset 0 0 50px rgba(255, 255, 255, 0.025) !important;
+}
+
+/* Action icons row (attach file, model selector, etc.) */
+.interactive-input-part .interactive-execute-toolbar,
+.interactive-input-part .chat-input-toolbars,
+.chat-input-part .interactive-execute-toolbar,
+.chat-input-part .chat-input-toolbars {
+  opacity: 0.70;
+  transition: opacity var(--t-fast) ease !important;
+}
+
+.interactive-input-part:hover .interactive-execute-toolbar,
+.interactive-input-part:hover .chat-input-toolbars,
+.chat-input-part:hover .interactive-execute-toolbar,
+.chat-input-part:hover .chat-input-toolbars {
+  opacity: 1;
+}
+
+/* ─── Chat Panel — Fade-to-transparent at the bottom ─────────────────────── */
+/*
+ * Adds a gradient mask on the chat content area so it naturally dissolves
+ * into transparency before hitting the input box / status bar.
+ * Uses a pseudo-element anchored at the bottom of the scroll container.
+ */
+.interactive-list,
+.chat-list-container,
+.interactive-session {
+  position: relative !important;
+}
+
+.interactive-list::after,
+.chat-list-container::after,
+.interactive-session::after {
+  content: '';
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  display: block;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(6, 10, 16, 0.55) 100%
+  );
+  pointer-events: none;
+  z-index: 10;
+  flex-shrink: 0;
+}
+
+/* Also fade the bottom edge of the sidebar/panel that hosts the chat */
+.part.sidebar .composite.viewlet > .content,
+.part.auxiliarybar .composite.viewlet > .content {
+  position: relative !important;
+}
+
+.part.sidebar .composite.viewlet > .content::after,
+.part.auxiliarybar .composite.viewlet > .content::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 80px;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(6, 10, 16, 0.60) 100%
+  );
+  pointer-events: none;
+  z-index: 5;
+}
