@@ -20,7 +20,7 @@ export function init(context: vscode.ExtensionContext) {
             fallbackMessages = JSON.parse(fs.readFileSync(fallbackPath, 'utf8'));
         }
     } catch (e) {
-        console.error('[Lynx Blur] Failed to load fallback localization', e);
+        console.error('[Lynx Liquid] Failed to load fallback localization', e);
     }
 
     // Load language specific

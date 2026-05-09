@@ -1,7 +1,7 @@
 import electron from 'electron';
 import transparencyMethods from './methods/index.mjs';
 
-interface LynxBlurRuntimeConfig {
+interface LynxLiquidRuntimeConfig {
   os: 'linux' | 'macos' | 'windows';
   themeCSS: string;
   vibrancyType?: string;
@@ -11,10 +11,10 @@ interface LynxBlurRuntimeConfig {
   };
 }
 
-const app = global.lynx_blur_plugin as LynxBlurRuntimeConfig | undefined;
+const app = global.lynx_liquid_plugin as LynxLiquidRuntimeConfig | undefined;
 
 if (!app) {
-  console.error('[Lynx Blur Runtime] Extension config not found.');
+  console.error('[Lynx Liquid Runtime] Extension config not found.');
 } else {
   electron.app.on('browser-window-created', (_event: unknown, window: Electron.BrowserWindow) => {
     const methods    = transparencyMethods(window);
@@ -51,7 +51,7 @@ if (!app) {
 
 function buildStyleHTML(): string {
   const css = app?.themeCSS ?? '';
-  return `<style id="lynx-blur-theme-css">${css}</style>`;
+  return `<style id="lynx-liquid-theme-css">${css}</style>`;
 }
 
 function injectStyles(window: Electron.BrowserWindow): Promise<void> {
@@ -60,12 +60,12 @@ function injectStyles(window: Electron.BrowserWindow): Promise<void> {
     (function() {
       try {
         const ttp = window.trustedTypes
-          ? window.trustedTypes.createPolicy("LynxBlurTheme", { createHTML: (v) => v })
+          ? window.trustedTypes.createPolicy("LynxLiquidTheme", { createHTML: (v) => v })
           : null;
-        const existing = document.getElementById('lynx-blur-style-root');
+        const existing = document.getElementById('lynx-liquid-style-root');
         if (existing) existing.remove();
         const container = document.createElement('div');
-        container.id = 'lynx-blur-style-root';
+        container.id = 'lynx-liquid-style-root';
         container.innerHTML = ttp ? ttp.createHTML(${JSON.stringify(styleHTML)}) : ${JSON.stringify(styleHTML)};
         document.body.appendChild(container);
       } catch (e) { console.error(e); }

@@ -22,7 +22,7 @@ export function checkNeedsElevation(appDir: string): ElevationCheck {
   if (appDir.startsWith('/snap/') || process.env.SNAP) {return 'snap';}
   if (process.env.FLATPAK_ID || appDir.startsWith('/app/')) {return 'flatpak';}
   try {
-    const testFile = path.join(appDir, '.lynx-blur-write-test');
+    const testFile = path.join(appDir, '.lynx-liquid-write-test');
     fs.writeFileSync(testFile, '');
     fs.unlinkSync(testFile);
     return false;
@@ -106,7 +106,7 @@ export class StagedFileWriter {
 
   async init() {
     if (this.requiresElevation) {
-      this.tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'lynx-blur-'));
+      this.tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'lynx-liquid-'));
     }
   }
 
@@ -172,7 +172,7 @@ export class StagedFileWriter {
 
 export function checkNeedsElevationMacOS(appDir: string): boolean {
   try {
-    const testFile = path.join(appDir, '.lynx-blur-write-test');
+    const testFile = path.join(appDir, '.lynx-liquid-write-test');
     fs.writeFileSync(testFile, '');
     fs.unlinkSync(testFile);
     return false;
@@ -214,7 +214,7 @@ export class StagedFileWriterMacOS {
 
   async init() {
     if (this.requiresElevation) {
-      this.tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'lynx-blur-mac-'));
+      this.tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'lynx-liquid-mac-'));
     }
   }
 
@@ -272,7 +272,7 @@ export class StagedFileWriterMacOS {
 
 export function checkNeedsElevationWindows(appDir: string): boolean {
   try {
-    const testFile = path.join(appDir, '.lynx-blur-write-test');
+    const testFile = path.join(appDir, '.lynx-liquid-write-test');
     fs.writeFileSync(testFile, '');
     fs.unlinkSync(testFile);
     return false;
@@ -338,7 +338,7 @@ export class StagedFileWriterWindows {
 
   async init() {
     if (this.requiresElevation) {
-      this.tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'lynx-blur-win-'));
+      this.tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'lynx-liquid-win-'));
     }
   }
 

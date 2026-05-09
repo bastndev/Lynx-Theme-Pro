@@ -21,7 +21,7 @@ const {
 // ─── Constants ────────────────────────────────────────────────────────────────
 
 const RUNTIME_VERSION = 'v1';
-const RUNTIME_DIR_NAME = `lynx-blur-runtime-${RUNTIME_VERSION}`;
+const RUNTIME_DIR_NAME = `lynx-liquid-runtime-${RUNTIME_VERSION}`;
 
 /**
  * Vibrancy type passed to Electron's window.setVibrancy().
@@ -95,7 +95,7 @@ function resolveVSCodePaths(): VSCodePaths {
   }
 
   appDir = resolvedDir;
-  console.log('[Lynx Blur][macOS] resolved appDir:', appDir);
+  console.log('[Lynx Liquid][macOS] resolved appDir:', appDir);
 
   const JSFile = path.join(appDir, 'main.js');
 
@@ -130,14 +130,14 @@ async function applyColorCustomizations(context: vscode.ExtensionContext): Promi
   const current = (inspect?.globalValue || {}) as Record<string, string>;
 
   // Save originals only once (idempotent)
-  const saved = context.globalState.get<SavedColors>('lynxBlurOriginalColors');
+  const saved = context.globalState.get<SavedColors>('lynxLiquidOriginalColors');
   if (!saved) {
     const originals: SavedColors = {};
     for (const key of ALL_BG_KEYS) {
       originals[key] = current[key] ?? null;
     }
     originals['terminal.background'] = current['terminal.background'] ?? null;
-    await context.globalState.update('lynxBlurOriginalColors', originals);
+    await context.globalState.update('lynxLiquidOriginalColors', originals);
   }
 
   const alphaHex = (opacity: number) => Math.round(opacity * 255).toString(16).padStart(2, '0');
@@ -164,7 +164,7 @@ async function applyColorCustomizations(context: vscode.ExtensionContext): Promi
  * Restores the user's original colorCustomizations saved before installation.
  */
 async function restoreColorCustomizations(context: vscode.ExtensionContext): Promise<void> {
-  const saved = context.globalState.get<SavedColors>('lynxBlurOriginalColors');
+  const saved = context.globalState.get<SavedColors>('lynxLiquidOriginalColors');
   if (!saved) {return;}
 
   const config  = vscode.workspace.getConfiguration();
@@ -186,7 +186,7 @@ async function restoreColorCustomizations(context: vscode.ExtensionContext): Pro
   }
 
   await config.update('workbench.colorCustomizations', current, vscode.ConfigurationTarget.Global);
-  await context.globalState.update('lynxBlurOriginalColors', undefined);
+  await context.globalState.update('lynxLiquidOriginalColors', undefined);
 }
 
 // ─── Restart (macOS native approach) ──────────────────────────────────────────
@@ -218,8 +218,8 @@ async function install(context: vscode.ExtensionContext): Promise<void> {
   try {
     paths = resolveVSCodePaths();
   } catch (err: unknown) {
-    console.error('[Lynx Blur][macOS] Path resolution failed:', err);
-    vscode.window.showErrorMessage(t('lynx.blur.error.generic', getErrorMessage(err)));
+    console.error('[Lynx Liquid][macOS] Path resolution failed:', err);
+    vscode.window.showErrorMessage(t('lynx.liquid.error.generic', getErrorMessage(err)));
     _installing = false;
     return;
   }
@@ -232,9 +232,9 @@ async function install(context: vscode.ExtensionContext): Promise<void> {
       `JSFile: ${JSFile} (${fs.existsSync(JSFile) ? '✓' : '✗'})`,
       `HTMLFile: ${HTMLFile} (${fs.existsSync(HTMLFile) ? '✓' : '✗'})`,
     ].join(' | ');
-    console.error('[Lynx Blur][macOS] Files not found:', info);
+    console.error('[Lynx Liquid][macOS] Files not found:', info);
     vscode.window.showErrorMessage(
-      t('lynx.blur.error.notFound', vscode.env.appName, info)
+      t('lynx.liquid.error.notFound', vscode.env.appName, info)
     );
     _installing = false;
     return;
@@ -245,11 +245,11 @@ async function install(context: vscode.ExtensionContext): Promise<void> {
 
   if (elevationNeeded) {
     const choice = await vscode.window.showInformationMessage(
-      t('lynx.blur.prompt.mac'),
-      { title: t('lynx.blur.btn.continue') },
-      { title: t('lynx.blur.btn.cancel') }
+      t('lynx.liquid.prompt.mac'),
+      { title: t('lynx.liquid.btn.continue') },
+      { title: t('lynx.liquid.btn.cancel') }
     );
-    if (!choice || choice.title === t('lynx.blur.btn.cancel')) { _installing = false; return; }
+    if (!choice || choice.title === t('lynx.liquid.btn.cancel')) { _installing = false; return; }
   }
 
   const writer = new StagedFileWriterMacOS(elevationNeeded);
@@ -267,9 +267,9 @@ async function install(context: vscode.ExtensionContext): Promise<void> {
     electronJS = injectElectronOptionsMacOS(electronJS);
     await writer.writeFile(ElectronJSFile, electronJS, 'utf-8');
 
-    // 3. Patch main.js — inject the Lynx Blur runtime loader
+    // 3. Patch main.js — inject the Lynx Liquid runtime loader
     const themeCSS  = await fsPromises.readFile(
-      path.resolve(__dirname, '../css/lynx-blur.css'), 'utf-8'
+      path.resolve(__dirname, '../css/lynx-liquid.css'), 'utf-8'
     );
     const injectData = {
       os:           'macos',
@@ -281,7 +281,7 @@ async function install(context: vscode.ExtensionContext): Promise<void> {
     mainJS = generateNewJS(mainJS, __filename, injectData, runtimeEntry);
     await writer.writeFile(JSFile, mainJS, 'utf-8');
 
-    // 4. Patch workbench.html — add LynxBlurTheme to trusted-types CSP
+    // 4. Patch workbench.html — add LynxLiquidTheme to trusted-types CSP
     const html = await fsPromises.readFile(HTMLFile, 'utf-8');
     const { result: patchedHTML, noMetaTag } = patchCSP(html);
     if (!noMetaTag) {await writer.writeFile(HTMLFile, patchedHTML, 'utf-8');}
@@ -293,12 +293,12 @@ async function install(context: vscode.ExtensionContext): Promise<void> {
     await applyColorCustomizations(context);
 
     // 7. Save installed state
-    await context.globalState.update('lynxBlurInstalled', true);
+    await context.globalState.update('lynxLiquidInstalled', true);
 
     // 8. Prompt for restart
     void vscode.window.showInformationMessage(
-      t('lynx.blur.install.success.mac'),
-      { title: t('lynx.blur.btn.restart') }
+      t('lynx.liquid.install.success.mac'),
+      { title: t('lynx.liquid.btn.restart') }
     ).then(msg => {
       if (msg) {
         void promptRestart();
@@ -307,12 +307,12 @@ async function install(context: vscode.ExtensionContext): Promise<void> {
 
   } catch (error: unknown) {
     writer.cleanup();
-    console.error('[Lynx Blur][macOS] Installation error:', error);
+    console.error('[Lynx Liquid][macOS] Installation error:', error);
 
     if (hasErrorCode(error, 'EACCES') || hasErrorCode(error, 'EPERM')) {
-      vscode.window.showErrorMessage(t('lynx.blur.error.noWrite', getErrorMessage(error)));
+      vscode.window.showErrorMessage(t('lynx.liquid.error.noWrite', getErrorMessage(error)));
     } else {
-      vscode.window.showErrorMessage(t('lynx.blur.error.unexpected', getErrorMessage(error)));
+      vscode.window.showErrorMessage(t('lynx.liquid.error.unexpected', getErrorMessage(error)));
     }
   } finally {
     _installing = false;
@@ -332,7 +332,7 @@ async function uninstall(context: vscode.ExtensionContext): Promise<void> {
   try {
     paths = resolveVSCodePaths();
   } catch (err: unknown) {
-    console.error('[Lynx Blur][macOS] Path resolution failed on uninstall:', err);
+    console.error('[Lynx Liquid][macOS] Path resolution failed on uninstall:', err);
     _installing = false;
     return;
   }
@@ -375,11 +375,11 @@ async function uninstall(context: vscode.ExtensionContext): Promise<void> {
     if (fs.existsSync(runtimeDir)) {await writer.rmdir(runtimeDir);}
 
     await writer.flush();
-    await context.globalState.update('lynxBlurInstalled', false);
+    await context.globalState.update('lynxLiquidInstalled', false);
 
     void vscode.window.showInformationMessage(
-      t('lynx.blur.uninstall.success.mac'),
-      { title: t('lynx.blur.btn.restart') }
+      t('lynx.liquid.uninstall.success.mac'),
+      { title: t('lynx.liquid.btn.restart') }
     ).then(msg => {
       if (msg) {
         void promptRestart();
@@ -388,8 +388,8 @@ async function uninstall(context: vscode.ExtensionContext): Promise<void> {
 
   } catch (error: unknown) {
     writer.cleanup();
-    console.error('[Lynx Blur][macOS] Uninstallation error:', error);
-    vscode.window.showErrorMessage(t('lynx.blur.error.uninstallFailed', getErrorMessage(error)));
+    console.error('[Lynx Liquid][macOS] Uninstallation error:', error);
+    vscode.window.showErrorMessage(t('lynx.liquid.error.uninstallFailed', getErrorMessage(error)));
   } finally {
     _installing = false;
   }
@@ -398,16 +398,16 @@ async function uninstall(context: vscode.ExtensionContext): Promise<void> {
 // ─── Public API ───────────────────────────────────────────────────────────────
 
 export async function handleActivation(context: vscode.ExtensionContext): Promise<void> {
-  const alreadyInstalled = context.globalState.get('lynxBlurInstalled', false);
+  const alreadyInstalled = context.globalState.get('lynxLiquidInstalled', false);
   if (alreadyInstalled) {
-    console.log('[Lynx Blur][macOS] Already installed — no action needed.');
+    console.log('[Lynx Liquid][macOS] Already installed — no action needed.');
     return;
   }
   await install(context);
 }
 
 export async function handleDeactivation(context: vscode.ExtensionContext): Promise<void> {
-  const isInstalled = context.globalState.get('lynxBlurInstalled', false);
+  const isInstalled = context.globalState.get('lynxLiquidInstalled', false);
   if (!isInstalled) {return;}
   await uninstall(context);
 }

@@ -26,7 +26,7 @@
     "minimal",
     "productivity",
     "eye strain",
-    "blur",
+    "liquid",
     "glassmorphism",
     "cursor",
     "windsurf",
@@ -54,7 +54,7 @@
     "url": "https://github.com/sponsors/bastndev"
   },
 
-  "main": "./dist/themes/blur-theme/blur-theme.js",
+  "main": "./dist/themes/liquid-theme/liquid-theme.js",
   "activationEvents": [
     "onStartupFinished"
   ],
@@ -97,9 +97,9 @@
         "path": "./src/themes/07_Lynx-NVIM-theme.json"
       },
       {
-        "label": "8. BLURㅤㅤ(Lynx Theme) 🧪",
+        "label": "8. LIQUIDㅤㅤ(Lynx Theme) 🧪",
         "uiTheme": "vs-dark",
-        "path": "./src/themes/08_Lynx-Blur-theme.json"
+        "path": "./src/themes/08_Lynx-Liquid-theme.json"
       }
     ],
     "iconThemes": [

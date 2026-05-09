@@ -19,8 +19,8 @@ function collectFiles(dir, extension) {
 }
 
 function copyRuntimeAssets() {
-  const cssSource = path.join('src', 'themes', 'blur-theme', 'css');
-  const cssTarget = path.join('dist', 'themes', 'blur-theme', 'css');
+  const cssSource = path.join('src', 'themes', 'liquid-theme', 'css');
+  const cssTarget = path.join('dist', 'themes', 'liquid-theme', 'css');
 
   fs.rmSync(cssTarget, { recursive: true, force: true });
   fs.mkdirSync(path.dirname(cssTarget), { recursive: true });
@@ -70,14 +70,14 @@ function createBuildOptions() {
 
   const extensionHost = {
     ...commonOptions,
-    entryPoints: collectFiles(path.join('src', 'themes', 'blur-theme'), '.ts')
+    entryPoints: collectFiles(path.join('src', 'themes', 'liquid-theme'), '.ts')
       .filter((file) => !file.includes(`${path.sep}runtime${path.sep}`)),
     format: 'cjs',
   };
 
   const electronRuntime = {
     ...commonOptions,
-    entryPoints: collectFiles(path.join('src', 'themes', 'blur-theme', 'runtime'), '.mts'),
+    entryPoints: collectFiles(path.join('src', 'themes', 'liquid-theme', 'runtime'), '.mts'),
     format: 'esm',
     outExtension: { '.js': '.mjs' },
   };

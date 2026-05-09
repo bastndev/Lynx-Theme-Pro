@@ -16,7 +16,7 @@
 
 import type { TransparencyEffects } from './index.mjs';
 
-const app = global.lynx_blur_plugin;
+const app = global.lynx_liquid_plugin;
 
 export default (window: Electron.BrowserWindow): TransparencyEffects => {
   let backgroundColorTimer: NodeJS.Timeout | undefined;

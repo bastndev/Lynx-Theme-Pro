@@ -1,11 +1,11 @@
 import { pathToFileURL } from 'url';
 
-export const LYNX_BLUR_START = '/* !! LYNX-BLUR-START !! */';
-export const LYNX_BLUR_END   = '/* !! LYNX-BLUR-END !! */';
-export const MARKER_REGEX    = /\n\/\* !! LYNX-BLUR-START !! \*\/[\s\S]*?\/\* !! LYNX-BLUR-END !! \*\//;
-export const CSP_POLICY      = 'LynxBlurTheme';
+export const LYNX_BLUR_START = '/* !! LYNX-LIQUID-START !! */';
+export const LYNX_BLUR_END   = '/* !! LYNX-LIQUID-END !! */';
+export const MARKER_REGEX    = /\n\/\* !! LYNX-LIQUID-START !! \*\/[\s\S]*?\/\* !! LYNX-LIQUID-END !! \*\//;
+export const CSP_POLICY      = 'LynxLiquidTheme';
 
-export interface LynxBlurInjectData {
+export interface LynxLiquidInjectData {
   os: 'linux' | 'macos' | 'windows';
   themeCSS: string;
   vibrancyType?: string;
@@ -31,7 +31,7 @@ export interface PatchCSPResult {
 export function generateNewJS(
   js: string,
   base: string,
-  injectData: LynxBlurInjectData,
+  injectData: LynxLiquidInjectData,
   runtimePath: string,
 ): string {
   const cleaned    = js.replace(MARKER_REGEX, '');
@@ -40,8 +40,8 @@ export function generateNewJS(
     cleaned +
     `\n${LYNX_BLUR_START}\n;(function(){\n` +
     `try { if (!require('fs').existsSync(${JSON.stringify(base)})) return; } catch(e){}\n` +
-    `global.lynx_blur_plugin = ${JSON.stringify(injectData)};\n` +
-    `try { import(${JSON.stringify(runtimeUrl)}); } catch(e){ console.error('[LynxBlur]',e); }\n` +
+    `global.lynx_liquid_plugin = ${JSON.stringify(injectData)};\n` +
+    `try { import(${JSON.stringify(runtimeUrl)}); } catch(e){ console.error('[LynxLiquid]',e); }\n` +
     `})();\n${LYNX_BLUR_END}`
   );
 }
