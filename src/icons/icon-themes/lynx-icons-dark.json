@@ -13795,6 +13795,7 @@
       "zeabur": "zeabur_light"
     },
     "fileNames": {
+      "AGENTS.md": "agents-black",
       "main.lynx.bundle": "lynx-dark",
       "lynx.config.ts": "lynx-config-file-dark",
       "sconstruct": "scons_light",
