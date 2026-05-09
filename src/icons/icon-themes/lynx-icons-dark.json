@@ -1908,6 +1908,9 @@
     "folder-robot-open": {
       "iconPath": "../../assets/svg/dark/folder-robot-open.svg"
     },
+    "agent": {
+      "iconPath": "../../assets/svg/dark/agent.svg"
+    },
     "folder-src": {
       "iconPath": "../../assets/svg/dark/folder-src.svg"
     },
@@ -11618,7 +11621,7 @@
   },
   "fileNames": {
     "DESIGN.md": "design",
-    "AGENTS.md": "agents",
+    "AGENTS.md": "agent",
     "CLAUDE.md": "claude",
     "icon.png": "icon-png",
     "icon.svg": "icon-png",
