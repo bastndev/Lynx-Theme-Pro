@@ -3621,6 +3621,12 @@
     "claude": {
       "iconPath": "../../assets/svg/dark/claude.svg"
     },
+    "agents": {
+      "iconPath": "../../assets/svg/dark/agents.svg"
+    },
+    "design": {
+      "iconPath": "../../assets/svg/dark/design.svg"
+    },
     "folder-kiro": {
       "iconPath": "../../assets/svg/dark/folder-kiro.svg"
     },
@@ -11611,6 +11617,8 @@
     "tsp": "typespec"
   },
   "fileNames": {
+    "DESIGN.md": "design",
+    "AGENTS.md": "agents",
     "CLAUDE.md": "claude",
     "icon.png": "icon-png",
     "icon.svg": "icon-png",

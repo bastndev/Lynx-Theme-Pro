@@ -1,0 +1,17 @@
+<svg width="100%" viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg" role="img" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Círculo orgánico con triángulo transparente</title>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#00000022"/>
+    </filter>
+    <radialGradient id="grad" cx="50%" cy="36%">
+      <stop offset="0%" stop-color="#c8c8c8"/>
+      <stop offset="100%" stop-color="#9e9e9e"/>
+    </radialGradient>
+  </defs>
+  <g transform="translate(340 340)" filter="url(#shadow)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <path d="&#10;        M 0,-250&#10;        C 38,-255 68,-228 98,-212&#10;        C 132,-194 170,-206 202,-182&#10;        C 234,-158 228,-118 238,-82&#10;        C 248,-46 274,-18 270,16&#10;        C 266,50 234,74 222,108&#10;        C 210,142 222,180 194,205&#10;        C 166,230 126,218 90,228&#10;        C 54,238 20,264 -16,260&#10;        C -52,256 -74,224 -108,214&#10;        C -142,204 -184,216 -208,192&#10;        C -232,168 -224,128 -234,94&#10;        C -244,60 -272,30 -268,-8&#10;        C -264,-46 -236,-72 -226,-106&#10;        C -216,-140 -224,-180 -196,-204&#10;        C -168,-228 -128,-216 -94,-222&#10;        C -60,-228 -32,-248 0,-250&#10;        Z&#10;      " fill="url(#grad)" stroke="#d7d7d7" stroke-width="4" stroke-linejoin="round" style="stroke:rgb(215, 215, 215);color:rgb(255, 255, 255);stroke-width:4px;stroke-linecap:butt;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <circle r="183" fill="#b5b5b5" opacity="0.97" style="fill:rgb(181, 181, 181);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.97;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <polygon points="0,165 -140,-65 140,-65" fill="transparent" stroke="#ffffff" stroke-width="3" stroke-linejoin="round" opacity="0.3" style="fill:transparent;stroke:rgb(255, 255, 255);color:rgb(255, 255, 255);stroke-width:3px;stroke-linecap:butt;stroke-linejoin:round;opacity:0.3;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  </g>
+</svg>

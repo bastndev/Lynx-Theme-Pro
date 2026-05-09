@@ -1,0 +1,81 @@
+<svg width="100%" viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Círculo orgánico con triángulo transparente</title>
+
+  <defs>
+    <!-- Sombra suave -->
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#00000025"/>
+    </filter>
+
+    <!-- Gradiente metálico -->
+    <radialGradient id="grad" cx="50%" cy="35%">
+      <stop offset="0%" stop-color="#d9d9d9"/>
+      <stop offset="45%" stop-color="#bfbfbf"/>
+      <stop offset="100%" stop-color="#8e8e8e"/>
+    </radialGradient>
+
+    <!-- Máscara para perforar el triángulo -->
+    <mask id="triangle-cutout">
+      <!-- visible -->
+      <rect width="100%" height="100%" fill="white"/>
+      
+      <!-- agujero transparente -->
+      <polygon 
+        points="340,500 200,270 480,270"
+        fill="black"
+      />
+    </mask>
+  </defs>
+
+  <!-- Forma principal -->
+  <g filter="url(#shadow)">
+    
+    <!-- Blob orgánico -->
+    <path
+      mask="url(#triangle-cutout)"
+      d="
+        M 340,90
+        C 378,85 408,112 438,128
+        C 472,146 510,134 542,158
+        C 574,182 568,222 578,258
+        C 588,294 614,322 610,356
+        C 606,390 574,414 562,448
+        C 550,482 562,520 534,545
+        C 506,570 466,558 430,568
+        C 394,578 360,604 324,600
+        C 288,596 266,564 232,554
+        C 198,544 156,556 132,532
+        C 108,508 116,468 106,434
+        C 96,400 68,370 72,332
+        C 76,294 104,268 114,234
+        C 124,200 116,160 144,136
+        C 172,112 212,124 246,118
+        C 280,112 308,92 340,90
+        Z"
+      fill="url(#grad)"
+      stroke="#e5e5e5"
+      stroke-width="4"
+      stroke-linejoin="round"
+    />
+
+    <!-- Núcleo -->
+    <circle
+      cx="340"
+      cy="340"
+      r="183"
+      fill="#b5b5b5"
+      opacity="0.96"
+      mask="url(#triangle-cutout)"
+    />
+
+    <!-- Borde sutil del triángulo -->
+    <polygon
+      points="340,500 200,270 480,270"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="2"
+      opacity="0.18"
+    />
+
+  </g>
+</svg>
