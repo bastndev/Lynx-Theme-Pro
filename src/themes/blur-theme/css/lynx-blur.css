@@ -216,19 +216,15 @@
 
 /* ─── Title Bar ───────────────────────────────────────────────────────────── */
 /*
- * Same caution as panel: backdrop-filter on the title bar can cause
- * stacking issues. We keep it here since title bar is always on top,
- * but we force icon/button visibility explicitly.
+ * IMPORTANT: Do NOT use backdrop-filter on .part.titlebar.
+ * Just like .part.panel, backdrop-filter here creates a new CSS stacking
+ * context that TRAPS the Menu Bar dropdowns (File, Edit, View, etc.) —
+ * they cannot escape the titlebar layer to render above the rest of the UI.
+ * Use a plain semi-transparent background instead.
  */
 
 .part.titlebar {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.04) 0%,
-    rgba(10, 14, 20, 0.25) 100%
-  ) !important;
-  backdrop-filter: var(--blur-lg);
-  -webkit-backdrop-filter: var(--blur-lg);
+  background: rgba(8, 12, 20, 0.55) !important;
   border-bottom: 1px solid var(--glass-edge) !important;
 }
 
