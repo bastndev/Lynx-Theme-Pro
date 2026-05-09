@@ -480,10 +480,8 @@
 .monaco-inputbox.synthetic-focus,
 .monaco-inputbox:focus-within {
   background: rgba(255, 255, 255, 0.04) !important;
-  border-color: rgba(255, 255, 255, 0.15) !important;
-  box-shadow:
-    0 0 0 3px rgba(255, 255, 255, 0.04),
-    inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+  border-color: transparent !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
 }
 
 /* ─── Buttons ─────────────────────────────────────────────────────────────── */
@@ -807,8 +805,8 @@
 /* ─── Focus Border ────────────────────────────────────────────────────────── */
 
 :focus-visible {
-  outline: 1px solid rgba(255, 255, 255, 0.10) !important;
-  outline-offset: 2px;
+  outline: transparent !important;
+  outline-offset: 0;
   border-radius: var(--r-xs);
 }
 
@@ -904,7 +902,7 @@
 .interactive-input-part .monaco-inputbox.synthetic-focus,
 .chat-input-part .interactive-input-editor:focus-within,
 .chat-input-part .chat-input-editor:focus-within {
-  border-color: rgba(255, 255, 255, 0.14) !important;
+  border-color: transparent !important;
   background: rgba(255, 255, 255, 0.055) !important;
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.12),
