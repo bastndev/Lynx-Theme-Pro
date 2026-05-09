@@ -1,18 +1,9 @@
-/* ═══════════════════════════════════════════════════════════════════════════
-   LYNX LIQUID GLASS — Professional Glass Morphism System
-   Target: Windows & Linux (Electron transparent window)
-   ═══════════════════════════════════════════════════════════════════════════ */
-
-/* ─── Design Token System ─────────────────────────────────────────────────── */
-
 :root {
-  /* Base glass colors */
   --glass-base:          rgba(10, 14, 20, 0.45);
   --glass-mid:           rgba(10, 14, 20, 0.30);
   --glass-clear:         rgba(10, 14, 20, 0.15);
   --glass-frosted:       rgba(8, 12, 18, 0.72);
 
-  /* Accent — liquid silver / minimal blue */
   --accent:              #7aa2f7;
   --accent-dim:          rgba(122, 162, 247, 0.45);
   --accent-glow:         rgba(122, 162, 247, 0.12);
@@ -20,37 +11,31 @@
   --accent-tint:         rgba(122, 162, 247, 0.05);
   --accent-tint-hover:   rgba(122, 162, 247, 0.08);
 
-  /* Glass surfaces */
   --glass-edge:          rgba(255, 255, 255, 0.04);
   --glass-edge-hover:    rgba(255, 255, 255, 0.08);
-  --glass-edge-top:      rgba(255, 255, 255, 0.18);  /* specular top highlight */
+  --glass-edge-top:      rgba(255, 255, 255, 0.18);
   --glass-inner:         rgba(255, 255, 255, 0.025);
 
-  /* Blur levels */
   --blur-xl:   blur(48px) saturate(180%);
   --blur-lg:   blur(32px) saturate(160%);
   --blur-md:   blur(20px) saturate(140%);
   --blur-sm:   blur(12px) saturate(130%);
   --blur-xs:   blur(6px)  saturate(120%);
 
-  /* Shadows / depth */
   --shadow-ambient: 0 4px 24px rgba(0, 0, 0, 0.50);
   --shadow-float:   0 8px 40px rgba(0, 0, 0, 0.65), 0 2px 8px rgba(0, 0, 0, 0.40);
   --shadow-inset:   inset 0 1px 0 var(--glass-edge-top),
                     inset 0 -1px 0 rgba(0, 0, 0, 0.20);
 
-  /* Glow effects */
   --glow-accent:  0 0 18px var(--accent-glow), 0 0 6px var(--accent-glow-strong);
   --glow-soft:    0 0 30px rgba(122, 162, 247, 0.08);
 
-  /* Radius */
   --r-xs:  4px;
   --r-sm:  8px;
   --r-md:  12px;
   --r-lg:  16px;
   --r-xl:  20px;
 
-  /* Transitions */
   --ease-glass:   cubic-bezier(0.16, 1, 0.3, 1);
   --ease-snap:    cubic-bezier(0.34, 1.56, 0.64, 1);
   --t-fast:       150ms;
@@ -58,7 +43,7 @@
   --t-slow:       400ms;
 }
 
-/* ─── Workbench Root — True Transparent Canvas ────────────────────────────── */
+/* ─── Workbench root ──────────────────────────────────────────────────────── */
 
 .monaco-workbench {
   background: transparent !important;
@@ -72,7 +57,6 @@
   box-shadow: 1px 0 0 rgba(0, 0, 0, 0.30);
 }
 
-/* Make codicon icons visible against transparent background */
 .part.activitybar .action-label.codicon,
 .part.activitybar .action-label {
   color: rgba(150, 185, 220, 0.65) !important;
@@ -93,42 +77,11 @@
   filter: drop-shadow(0 0 6px var(--accent-dim));
 }
 
-/* Active indicator bar */
 .action-item.checked::before,
 .action-item.active::before {
   background: var(--accent) !important;
   box-shadow: var(--glow-accent);
   border-radius: 0 var(--r-xs) var(--r-xs) 0 !important;
-}
-
-/* ─── Side Bar ────────────────────────────────────────────────────────────── */
-
-.part.sidebar {
-  background: var(--glass-mid) !important;
-  backdrop-filter: var(--blur-lg);
-  -webkit-backdrop-filter: var(--blur-lg);
-  border-right: 1px solid var(--glass-edge) !important;
-  box-shadow: 1px 0 0 rgba(0, 0, 0, 0.20);
-}
-
-/* Specular top edge on the sidebar header */
-.part.sidebar .title,
-.part.sidebar .composite.title {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.04) 0%,
-    transparent 100%
-  ) !important;
-  border-bottom: 1px solid var(--glass-edge) !important;
-}
-
-.part.sidebar .title-label h2 {
-  font-weight: 600;
-  letter-spacing: 0.6px;
-  font-size: 11px;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.65) !important;
-  text-shadow: 0 1px 8px rgba(122, 162, 247, 0.15);
 }
 
 /* ─── Editor & Tabs ───────────────────────────────────────────────────────── */
@@ -137,13 +90,11 @@
   background: transparent !important;
 }
 
-/* Tab bar strip */
 .tabs-container {
   background: transparent !important;
   border-bottom: 1px solid var(--glass-edge) !important;
 }
 
-/* Individual tab base state */
 .tab {
   background: transparent !important;
   border: none !important;
@@ -154,13 +105,11 @@
   position: relative;
 }
 
-/* Tab hover — subtle frost */
 .tab:hover:not(.active) {
   background: var(--accent-tint) !important;
   box-shadow: inset 0 -2px 0 rgba(122, 162, 247, 0.15) !important;
 }
 
-/* Active tab — glass pane with specular top edge */
 .tab.active {
   background: linear-gradient(
     180deg,
@@ -174,7 +123,6 @@
   border-bottom-color: transparent !important;
 }
 
-/* Tab text contrast */
 .tab.active .monaco-icon-label {
   opacity: 1;
   text-shadow: 0 0 12px rgba(122, 162, 247, 0.35);
@@ -184,7 +132,6 @@
   opacity: 0.60;
 }
 
-/* Editor background pane */
 .editor-container,
 .editor-group-container {
   background: transparent !important;
@@ -215,20 +162,11 @@
 }
 
 /* ─── Title Bar ───────────────────────────────────────────────────────────── */
-/*
- * IMPORTANT: Do NOT use backdrop-filter on .part.titlebar.
- * Just like .part.panel, backdrop-filter here creates a new CSS stacking
- * context that TRAPS the Menu Bar dropdowns (File, Edit, View, etc.) —
- * they cannot escape the titlebar layer to render above the rest of the UI.
- * Use a plain semi-transparent background instead.
- */
 
 .part.titlebar {
-  background: rgba(8, 12, 20, 0.55) !important;
   border-bottom: 1px solid var(--glass-edge) !important;
 }
 
-/* Title bar icon buttons (layout, settings gear, etc.) */
 .part.titlebar .action-item .action-label.codicon,
 .part.titlebar .action-label,
 .titlebar-right .action-label,
@@ -241,7 +179,6 @@
   color: rgba(220, 240, 255, 1) !important;
 }
 
-/* Window control buttons (Linux: minimize, maximize, close) */
 .part.titlebar .window-controls-container button {
   color: rgba(160, 195, 230, 0.80) !important;
 }
@@ -250,7 +187,6 @@
   color: rgba(220, 240, 255, 1) !important;
 }
 
-/* Menu bar items */
 .menubar .menubar-menu-button > .menubar-menu-title {
   color: rgba(160, 195, 230, 0.75) !important;
 }
@@ -260,33 +196,21 @@
   color: rgba(220, 240, 255, 1) !important;
 }
 
-/* ─── Panel (Terminal & Output) ──────────────────────────────────── */
+/* ─── Panel (Terminal & Output) ───────────────────────────────────────────── */
 /*
- * IMPORTANT: Do NOT use backdrop-filter on .part.panel.
- * backdrop-filter creates a new CSS stacking context, which breaks
- * VSCode's internal z-index management and causes the panel content
- * (terminal, output, etc.) to render BEHIND the editor layer.
- * Use a plain background instead.
+ * No backdrop-filter here — creates a stacking context that breaks
+ * z-index management, causing panel content to render behind the editor.
  */
 
 .part.panel {
-  background: rgba(8, 12, 20, 0.60) !important;
   border-top: 1px solid var(--glass-edge) !important;
   position: relative !important;
 }
 
-.part.panel .title {
-  background: rgba(6, 10, 18, 0.50) !important;
-  border-bottom: 1px solid var(--glass-edge) !important;
-}
-
-/* Terminal container */
 .terminal-outer-container,
 .terminal-wrapper {
   background: transparent !important;
 }
-
-/* ─── Panel Tab Icons — ensure visibility ─────────────────────────────────── */
 
 .part.panel .title .tabs-and-actions-container .action-label.codicon,
 .part.panel .composite.title .action-label {
@@ -297,7 +221,6 @@
   color: rgba(210, 235, 255, 0.95) !important;
 }
 
-/* Panel tab text */
 .part.panel .title .tabs-container .tab .tab-label {
   color: rgba(140, 175, 210, 0.70);
 }
@@ -306,8 +229,7 @@
   color: rgba(220, 240, 255, 1);
 }
 
-/* ─── Floating Widgets — Frosted Glass Treatment ─────────────────────────── */
-/* Command Palette, Suggestions, Notifications, Hover, Menus */
+/* ─── Floating Widgets ────────────────────────────────────────────────────── */
 
 .quick-input-widget {
   background: var(--glass-frosted) !important;
@@ -323,13 +245,10 @@
   margin-top: 24px;
 }
 
-/* Specular highlight on top of command palette — pure white shimmer, no cyan */
 .quick-input-widget::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 0; left: 0; right: 0;
   height: 1px;
   background: linear-gradient(
     90deg,
@@ -343,7 +262,6 @@
   z-index: 10;
 }
 
-/* Quick input inner search box */
 .quick-input-widget .quick-input-filter .monaco-inputbox {
   background: rgba(255, 255, 255, 0.04) !important;
   border: 1px solid var(--glass-edge-hover) !important;
@@ -370,7 +288,6 @@
   box-shadow: var(--shadow-float), var(--shadow-inset) !important;
 }
 
-/* Context menus & right-click */
 .monaco-menu {
   background: var(--glass-frosted) !important;
   backdrop-filter: var(--blur-xl);
@@ -391,10 +308,8 @@
 .monaco-menu .action-item.focused,
 .monaco-menu .action-item:hover {
   background: var(--accent-tint-hover) !important;
-  /* no border — clean glass look */
 }
 
-/* Notifications */
 .notifications-toasts .notification-toast {
   background: var(--glass-frosted) !important;
   backdrop-filter: var(--blur-xl);
@@ -405,7 +320,7 @@
   overflow: hidden;
 }
 
-/* ─── List Items — Sidebar, Explorer, Search ─────────────────────────────── */
+/* ─── List Items ──────────────────────────────────────────────────────────── */
 
 .monaco-list-row {
   border-radius: var(--r-xs) !important;
@@ -422,7 +337,6 @@
 .monaco-list-row.selected,
 .monaco-list-row.focused {
   background: var(--accent-tint) !important;
-  /* no cyan border — tint alone is enough */
 }
 
 .monaco-list-row.selected:hover {
@@ -506,12 +420,13 @@
   box-shadow: 0 0 8px rgba(122, 162, 247, 0.15) !important;
 }
 
-/* ─── Minimap ─────────────────────────────────────────────────────────────── */
+::-webkit-scrollbar         { width: 6px; height: 6px; }
+::-webkit-scrollbar-track   { background: transparent; }
+::-webkit-scrollbar-thumb   { background: rgba(255, 255, 255, 0.08); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.16); }
+::-webkit-scrollbar-corner  { background: transparent; }
 
-.minimap {
-  background: rgba(8, 12, 20, 0.35) !important;
-  border-left: 1px solid var(--glass-edge) !important;
-}
+/* ─── Minimap ─────────────────────────────────────────────────────────────── */
 
 .minimap-slider {
   background: rgba(122, 162, 247, 0.06) !important;
@@ -530,17 +445,7 @@
   border-bottom: 1px solid var(--glass-edge) !important;
 }
 
-/* ─── Editor Sticky Scroll ────────────────────────────────────────────────── */
-
-.sticky-scroll-widget {
-  background: rgba(8, 12, 20, 0.80) !important;
-  backdrop-filter: var(--blur-sm);
-  -webkit-backdrop-filter: var(--blur-sm);
-  border-bottom: 1px solid var(--glass-edge) !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.30) !important;
-}
-
-/* ─── Drag & Drop Feedback ────────────────────────────────────────────────── */
+/* ─── Drag & Drop ─────────────────────────────────────────────────────────── */
 
 .monaco-drag-image {
   background: var(--glass-frosted) !important;
@@ -550,7 +455,7 @@
   box-shadow: var(--shadow-float) !important;
 }
 
-/* ─── Peek View (References / Definition) ────────────────────────────────── */
+/* ─── Peek View ───────────────────────────────────────────────────────────── */
 
 .monaco-editor .zone-widget .zone-widget-container {
   background: rgba(8, 13, 22, 0.85) !important;
@@ -558,7 +463,7 @@
   border-radius: var(--r-sm) !important;
 }
 
-/* ─── Find / Replace Widget ──────────────────────────────────────────────── */
+/* ─── Find / Replace ──────────────────────────────────────────────────────── */
 
 .editor-findresult-highlight,
 .findMatch {
@@ -567,15 +472,10 @@
   border-radius: 2px !important;
 }
 
-/* ─── Git Diff Decorations ────────────────────────────────────────────────── */
+/* ─── Git Diff ────────────────────────────────────────────────────────────── */
 
-.line-insert {
-  background: rgba(0, 220, 130, 0.06) !important;
-}
-
-.line-delete {
-  background: rgba(255, 80, 120, 0.06) !important;
-}
+.line-insert { background: rgba(0, 220, 130, 0.06) !important; }
+.line-delete { background: rgba(255, 80, 120, 0.06) !important; }
 
 /* ─── Search Results ──────────────────────────────────────────────────────── */
 
@@ -584,20 +484,9 @@
   border: 1px solid rgba(122, 162, 247, 0.25) !important;
 }
 
-/* ─── Auxiliary Bar (Secondary Sidebar) ───────────────────────────────────── */
-
-.part.auxiliarybar {
-  background: var(--glass-mid) !important;
-  backdrop-filter: var(--blur-lg);
-  -webkit-backdrop-filter: var(--blur-lg);
-  border-left: 1px solid var(--glass-edge) !important;
-}
-
 /* ─── Gutter & Line Numbers ───────────────────────────────────────────────── */
 
-.margin {
-  background: transparent !important;
-}
+.margin { background: transparent !important; }
 
 .line-numbers {
   color: rgba(100, 140, 180, 0.50) !important;
@@ -609,27 +498,18 @@
   color: rgba(200, 230, 255, 0.85) !important;
 }
 
-/* ─── Ruler / Indent Guide ────────────────────────────────────────────────── */
+/* ─── Indent Guide ────────────────────────────────────────────────────────── */
 
-.core-guide-indent {
-  opacity: 0.12 !important;
-}
-
-.core-guide-indent.active {
-  opacity: 0.35 !important;
-}
+.core-guide-indent        { opacity: 0.12 !important; }
+.core-guide-indent.active { opacity: 0.35 !important; }
 
 /* ─── Cursor ──────────────────────────────────────────────────────────────── */
 
-.cursor {
-  box-shadow: 0 0 10px rgba(122, 162, 247, 0.60) !important;
-}
+.cursor { box-shadow: 0 0 10px rgba(122, 162, 247, 0.60) !important; }
 
 /* ─── Selection & Highlight ───────────────────────────────────────────────── */
 
-.selected-text {
-  background: rgba(122, 162, 247, 0.15) !important;
-}
+.selected-text { background: rgba(122, 162, 247, 0.15) !important; }
 
 .wordHighlight,
 .wordHighlightStrong {
@@ -638,14 +518,14 @@
   border-radius: 2px !important;
 }
 
-/* ─── Welcome Page & Empty State ──────────────────────────────────────────── */
+/* ─── Welcome Page ────────────────────────────────────────────────────────── */
 
 .gettingStartedBackground,
 .gettingStarted {
   background: transparent !important;
 }
 
-/* ─── Extensions & Settings Pane ─────────────────────────────────────────── */
+/* ─── Settings & Extensions ───────────────────────────────────────────────── */
 
 .settings-editor,
 .extensions-viewlet {
@@ -664,16 +544,11 @@
 /* ─── Progress Bar ────────────────────────────────────────────────────────── */
 
 .progress-bit {
-  background: linear-gradient(
-    90deg,
-    transparent,
-    var(--accent),
-    transparent
-  ) !important;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent) !important;
   box-shadow: 0 0 12px var(--accent-glow) !important;
 }
 
-/* ─── Badge / Counter ─────────────────────────────────────────────────────── */
+/* ─── Badge ───────────────────────────────────────────────────────────────── */
 
 .badge .badge-content,
 .monaco-count-badge {
@@ -687,7 +562,7 @@
   font-weight: 700 !important;
 }
 
-/* ─── Checkbox & Toggle ───────────────────────────────────────────────────── */
+/* ─── Checkbox ────────────────────────────────────────────────────────────── */
 
 .monaco-custom-checkbox.checked {
   background: var(--accent) !important;
@@ -704,7 +579,7 @@
     inset 3px 0 0 var(--accent) !important;
 }
 
-/* ─── Chat / Copilot Panel ────────────────────────────────────────────────── */
+/* ─── Chat / Copilot ──────────────────────────────────────────────────────── */
 
 .interactive-request,
 .chat-request-row {
@@ -733,45 +608,19 @@
   box-shadow: var(--shadow-float), var(--shadow-inset) !important;
 }
 
-/* ─── Tabs — Side View Switcher (Panel Tabs) ──────────────────────────────── */
+/* ─── Panel Tab Switcher ──────────────────────────────────────────────────── */
 
-.panel > .title .tabs-container .tab {
-  background: transparent !important;
-}
+.panel > .title .tabs-container .tab { background: transparent !important; }
 
 .panel > .title .tabs-container .tab.active {
   box-shadow: inset 0 2px 0 var(--accent) !important;
   background: var(--accent-tint) !important;
 }
 
-/* ─── Focus Border override ───────────────────────────────────────────────── */
+/* ─── Focus Border ────────────────────────────────────────────────────────── */
 
 :focus-visible {
   outline: 1px solid rgba(122, 162, 247, 0.50) !important;
   outline-offset: 2px;
   border-radius: var(--r-xs);
-}
-
-/* ─── Custom scrollbar track ──────────────────────────────────────────────── */
-
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: 3px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.16);
-}
-
-::-webkit-scrollbar-corner {
-  background: transparent;
 }

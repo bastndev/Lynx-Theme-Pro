@@ -1,21 +1,12 @@
-/**
- * runtime/methods/interval.mjs — Método "interval" para mantener transparencia
- *
- * VSCode internamente llama a window.setBackgroundColor() periódicamente
- * para restaurar su color de fondo. Este método lo contrarresta con un
- * setInterval que re-aplica #00000000 cada N ms.
- *
- * Referencia original en vibrancy-code:
- * https://github.com/microsoft/vscode/blob/9f8431f7fccf7a048531043eb6b6d24819482781/src/vs/platform/theme/electron-main/themeMainService.ts#L80
- *
- * @param {Electron.BrowserWindow} window
- * @returns {{ install: () => void, uninstall: () => void }}
- */
-
 import type { TransparencyEffects } from './index.mjs';
 
 const app = global.lynx_liquid_plugin;
 
+/**
+ * Método "interval": contrarresta el setBackgroundColor() periódico de VSCode
+ * con un setInterval que re-aplica #00000000 cada N ms.
+ * Referencia: https://github.com/microsoft/vscode/blob/9f8431f7/src/vs/platform/theme/electron-main/themeMainService.ts#L80
+ */
 export default (window: Electron.BrowserWindow): TransparencyEffects => {
   let backgroundColorTimer: NodeJS.Timeout | undefined;
 

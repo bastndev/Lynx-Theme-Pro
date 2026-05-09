@@ -1,27 +1,18 @@
-/**
- * runtime/methods/overwrite.mjs — Método "overwrite" para mantener transparencia
- *
- * Alternativa al interval: en lugar de usar un timer, sobrescribe directamente
- * la función window.setBackgroundColor() para que SIEMPRE devuelva #00000000,
- * ignorando cualquier color que VSCode intente aplicar.
- *
- * Útil cuando config.preventFlash = true (evita el flash de color al enfocar/
- * desenfocar la ventana).
- *
- * @param {Electron.BrowserWindow} window
- * @returns {{ install: () => void, uninstall: () => void }}
- */
 import type { TransparencyEffects } from './index.mjs';
 
+/**
+ * Método "overwrite": intercepta window.setBackgroundColor() para que siempre
+ * devuelva #00000000, ignorando cualquier color que VSCode intente aplicar.
+ * Útil cuando config.preventFlash = true.
+ */
 export default (window: Electron.BrowserWindow): TransparencyEffects => {
   let overwritten: Electron.BrowserWindow['setBackgroundColor'] | undefined;
 
   return {
     install() {
-      if (overwritten) {return;}
+      if (overwritten) { return; }
       overwritten = window.setBackgroundColor;
       const original = window.setBackgroundColor.bind(window);
-      // Interceptamos cualquier llamada y forzamos siempre transparente
       window.setBackgroundColor = (_bg: string) => original('#00000000');
     },
     uninstall() {

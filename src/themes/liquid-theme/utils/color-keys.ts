@@ -1,5 +1,3 @@
-'use strict';
-
 export const TRANSPARENT_BG_KEYS = [
   // Editor chrome
   'editorPane.background',
