@@ -1909,7 +1909,7 @@
       "iconPath": "../../assets/svg/dark/folder-robot-open.svg"
     },
     "agent": {
-      "iconPath": "../../assets/svg/dark/agent.svg"
+      "iconPath": "../../assets/svg/dark/agents.svg"
     },
     "folder-src": {
       "iconPath": "../../assets/svg/dark/folder-src.svg"
@@ -3625,7 +3625,7 @@
       "iconPath": "../../assets/svg/dark/claude.svg"
     },
     "agents": {
-      "iconPath": "../../assets/svg/dark/agents.svg"
+      "iconPath": "../../assets/svg/dark/agent.svg"
     },
     "design": {
       "iconPath": "../../assets/svg/dark/design.svg"
@@ -11621,7 +11621,7 @@
   },
   "fileNames": {
     "DESIGN.md": "design",
-    "AGENTS.md": "agent",
+    "AGENTS.md": "agents",
     "CLAUDE.md": "claude",
     "icon.png": "icon-png",
     "icon.svg": "icon-png",
