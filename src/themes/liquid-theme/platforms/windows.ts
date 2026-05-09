@@ -78,7 +78,7 @@ export async function install(context: vscode.ExtensionContext): Promise<void> {
   } catch (error: unknown) {
     writer.cleanup();
     console.error('[Lynx Liquid][Windows] Installation error:', error);
-    vscode.window.showErrorMessage(`Lynx Liquid: Installation failed — ${getErrorMessage(error)}`);
+    vscode.window.showErrorMessage(t('lynx.liquid.error.installFailed', getErrorMessage(error)));
   } finally {
     _installing = false;
   }
@@ -124,7 +124,7 @@ export async function uninstall(context: vscode.ExtensionContext): Promise<void>
   } catch (error: unknown) {
     writer.cleanup();
     console.error('[Lynx Liquid][Windows] Uninstallation error:', error);
-    vscode.window.showErrorMessage(`Lynx Liquid: Uninstallation failed — ${getErrorMessage(error)}`);
+    vscode.window.showErrorMessage(t('lynx.liquid.error.uninstallFailed', getErrorMessage(error)));
   } finally {
     _installing = false;
   }

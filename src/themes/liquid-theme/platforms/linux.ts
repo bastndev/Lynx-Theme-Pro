@@ -66,17 +66,17 @@ export async function install(context: vscode.ExtensionContext): Promise<void> {
     resolveVSCodePaths(RUNTIME_DIR_NAME);
 
   if (!fs.existsSync(JSFile) || !fs.existsSync(HTMLFile)) {
-    vscode.window.showErrorMessage('Lynx Liquid: Required VSCode files not found.');
+    vscode.window.showErrorMessage(t('lynx.liquid.error.linux.notFound', vscode.env.appName, 'Missing JS/HTML'));
     _installing = false; return;
   }
 
   const elevationNeeded = checkNeedsElevation(appDir);
   if (elevationNeeded === 'snap' || elevationNeeded === 'flatpak') {
-    vscode.window.showErrorMessage(`Lynx Liquid is not compatible with ${elevationNeeded} installations.`);
+    vscode.window.showErrorMessage(t('lynx.liquid.error.linux.snapFlatpak', elevationNeeded));
     _installing = false; return;
   }
   if (elevationNeeded && (hasNoNewPrivs() || !hasPkexec())) {
-    vscode.window.showErrorMessage('Lynx Liquid requires pkexec to install on Linux.');
+    vscode.window.showErrorMessage(t('lynx.liquid.error.linux.noPkexec'));
     _installing = false; return;
   }
 
