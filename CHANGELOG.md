@@ -28,6 +28,7 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 
 - **TypeScript Migration (Critical)**: Successfully migrated the extension's codebase from JavaScript to TypeScript for improved type safety, structural integrity, and maintainability.
 - **Extended Localization**: Added Hindi and Arabic language support to the `README` files, expanding our multi-language documentation.
+- **Custom Icons**: Designed and integrated premium custom SVG icons for `AGENTS.md`, `DESIGN.md`, and `CLAUDE.md` files to enhance file explorer visuals.
 - **Developer Documentation**: Added `AGENTS.md` to document build commands, architecture, and core project conventions.
 
 ### Changed
