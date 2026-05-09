@@ -22,19 +22,23 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 <!-- --- -->
 
 ---
-## [5.0.0] - 2026-04-25
+## [5.1.0] - 2026-05-09
 
 ### Added
 
-- **Lynx Blur Theme**: New theme variant (Theme 08) featuring cross-platform blur support for Linux, macOS, and Windows.
-- **Full Multi-Language Support**: Documentation and extension now support 9 languages (ES, EN, ZH, DE, FR, JA, KO, PT, RU) for a global audience.
-- **Translation Naturalization**: Refined all translated documents to ensure professional and native-sounding phrasing.
-- **Style Fixes**: Resolved unwanted strikethrough decorations in markdown across all theme variants.
+- **TypeScript Migration (Critical)**: Successfully migrated the extension's codebase from JavaScript to TypeScript for improved type safety, structural integrity, and maintainability.
+- **Extended Localization**: Added Hindi and Arabic language support to the `README` files, expanding our multi-language documentation.
+- **Developer Documentation**: Added `AGENTS.md` to document build commands, architecture, and core project conventions.
 
-- **Documentation Overhaul**:
-  - Redesigned **README** with a dynamic, professional language selector.
-  - New high-level **Architecture** guide (`ARCHITECTURE.md`) detailing the hybrid engine logic.
-  - Formalized **Contributing** guidelines and **Code of Conduct** for community standards.
+### Changed
+
+- **Package Configuration Refactored**: Reorganized the `package.json` structure to improve readability, moving scripts and `devDependencies` after the `contributes` section.
+- **Engine Requirements**: Updated the minimum VS Code engine requirement to `1.75.0`.
+
+### Fixed
+
+- **International Readme Fixes**: Standardized document headers and fixed spacing issues in all internationalized `README` files.
+- **Issue Links**: Updated issue reporting links across documentation and package config to point to the correct new issue creation page.
 
 ---
 ## [5.0.0] - 2026-04-25
