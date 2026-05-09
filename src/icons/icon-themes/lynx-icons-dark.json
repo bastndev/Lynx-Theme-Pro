@@ -1908,7 +1908,7 @@
     "folder-robot-open": {
       "iconPath": "../../assets/svg/dark/folder-robot-open.svg"
     },
-    "agent": {
+    "agents": {
       "iconPath": "../../assets/svg/dark/agents.svg"
     },
     "folder-src": {
@@ -3624,7 +3624,7 @@
     "claude": {
       "iconPath": "../../assets/svg/dark/claude.svg"
     },
-    "agents": {
+    "agent": {
       "iconPath": "../../assets/svg/dark/agent.svg"
     },
     "design": {
