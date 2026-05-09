@@ -3618,6 +3618,15 @@
     "folder-claude-open": {
       "iconPath": "../../assets/svg/dark/folder-claude-open.svg"
     },
+    "claude": {
+      "iconPath": "../../assets/svg/dark/claude.svg"
+    },
+    "agents": {
+      "iconPath": "../../assets/svg/dark/agents.svg"
+    },
+    "design": {
+      "iconPath": "../../assets/svg/dark/design.svg"
+    },
     "folder-kiro": {
       "iconPath": "../../assets/svg/dark/folder-kiro.svg"
     },
@@ -3683,9 +3692,6 @@
     },
     "folder-open": {
       "iconPath": "../../assets/svg/dark/folder-file-open.svg"
-    },
-    "file-claude": {
-      "iconPath": "../../assets/svg/dark/claude.svg"
     },
     "folder-root": {
       "iconPath": "../../assets/svg/dark/folder-root.svg"
@@ -3869,6 +3875,8 @@
     }
   },
   "folderNames": {
+    ".opencode": "folder-robot",
+    ".myskills": "folder-robot",
     ".agents": "folder-robot",
     "skeleton": "folder-skeleton",
     "skeletons": "folder-skeleton",
@@ -7174,6 +7182,8 @@
     "skill": "folder-skills"
   },
   "folderNamesExpanded": {
+    ".opencode": "folder-robot-open",
+    ".myskills": "folder-robot-open",
     ".agents": "folder-robot-open",
     "skeleton": "folder-skeleton-open",
     "skeletons": "folder-skeleton-open",
@@ -11607,6 +11617,9 @@
     "tsp": "typespec"
   },
   "fileNames": {
+    "DESIGN.md": "design",
+    "AGENTS.md": "agents",
+    "CLAUDE.md": "claude",
     "icon.png": "icon-png",
     "icon.svg": "icon-png",
     "icon.ico": "icon-png",
