@@ -26,7 +26,7 @@ declare module 'electron' {
 }
 
 // Runtime data injected into VS Code's Electron main process.
-declare var lynx_blur_plugin: {
+declare var lynx_liquid_plugin: {
   os: 'linux' | 'macos' | 'windows';
   themeCSS: string;
   vibrancyType?: string;

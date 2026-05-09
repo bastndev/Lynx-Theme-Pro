@@ -1,0 +1,257 @@
+/* ─── Text & Selection Micro-animations ────────────────────────────────────────
+ *  Lightweight animations for text elements: sidebar, lists, menus, tabs.
+ *  Only uses transform + opacity (GPU-composited, no layout thrashing).
+ * ──────────────────────────────────────────────────────────────────────────── */
+
+/* ─── Sidebar / Explorer List Rows ─────────────────────────────────────────── */
+
+.monaco-list-row .monaco-icon-label .monaco-icon-label-description,
+.monaco-list-row .monaco-icon-label .monaco-icon-label-container {
+  transition: transform var(--t-fast) var(--ease-glass) !important;
+}
+
+.monaco-list-row:hover:not(.selected):not(.focused)
+  .monaco-icon-label .monaco-icon-label-container {
+  transform: translateX(2px);
+}
+
+.monaco-list-row.selected .monaco-icon-label .monaco-icon-label-container,
+.monaco-list-row.focused .monaco-icon-label .monaco-icon-label-container {
+  transform: translateX(3px);
+}
+
+/* Sidebar item label color shift on hover */
+.monaco-list-row .monaco-icon-label .label-name,
+.monaco-list-row .label {
+  transition: color var(--t-fast) var(--ease-glass) !important;
+}
+
+.monaco-list-row:hover:not(.selected):not(.focused) .label-name,
+.monaco-list-row:hover:not(.selected):not(.focused) .label {
+  color: rgba(220, 240, 255, 0.90) !important;
+}
+
+/* ─── Explorer Twistie (expand/collapse arrow) ─────────────────────────────── */
+
+.monaco-tl-row .codicon.codicon-tree-item-expanded,
+.monaco-tl-row .codicon.codicon-tree-item-collapsed,
+.monaco-tl-row .codicon.codicon-tree-item-not-collapsed {
+  transition:
+    transform var(--t-fast) var(--ease-snap),
+    color     var(--t-fast) ease !important;
+  color: rgba(150, 185, 220, 0.45) !important;
+}
+
+.monaco-tl-row:hover .codicon.codicon-tree-item-expanded,
+.monaco-tl-row:hover .codicon.codicon-tree-item-collapsed,
+.monaco-tl-row:hover .codicon.codicon-tree-item-not-collapsed {
+  color: rgba(200, 230, 255, 0.80) !important;
+}
+
+.monaco-tl-row .codicon.codicon-tree-item-expanded {
+  transform: rotate(90deg);
+}
+
+.monaco-tl-row .codicon.codicon-tree-item-not-collapsed {
+  transform: rotate(90deg);
+}
+
+/* ─── Context Menus & Dropdown Items ───────────────────────────────────────── */
+
+.monaco-menu .action-item {
+  transition:
+    background var(--t-fast) var(--ease-glass) !important;
+}
+
+.monaco-menu .action-item .action-label {
+  transition:
+    color      var(--t-fast) ease,
+    transform  var(--t-fast) var(--ease-glass) !important;
+}
+
+.monaco-menu .action-item.focused .action-label,
+.monaco-menu .action-item:hover .action-label {
+  transform: translateX(2px);
+}
+
+/* Keyboard shortcut hint shift */
+.monaco-menu .action-item .keybinding {
+  transition: opacity var(--t-fast) ease !important;
+}
+
+.monaco-menu .action-item:hover .keybinding,
+.monaco-menu .action-item.focused .keybinding {
+  opacity: 0.80 !important;
+}
+
+/* ─── Quick Input / Command Palette Items ──────────────────────────────────── */
+
+.quick-input-list .monaco-list-row {
+  transition:
+    background var(--t-fast) var(--ease-glass),
+    transform  var(--t-fast) var(--ease-glass) !important;
+}
+
+.quick-input-list .monaco-list-row:hover:not(.focused) {
+  transform: translateX(2px);
+}
+
+.quick-input-list .monaco-list-row.focused {
+  transform: translateX(3px);
+}
+
+.quick-input-list .monaco-list-row .quick-input-list-label {
+  transition: color var(--t-fast) ease !important;
+}
+
+.quick-input-list .monaco-list-row.focused .quick-input-list-label {
+  color: rgba(230, 248, 255, 1) !important;
+}
+
+/* ─── Breadcrumb Items ─────────────────────────────────────────────────────── */
+
+.breadcrumbs-container a,
+.breadcrumbs-container span {
+  transition:
+    color     var(--t-fast) ease,
+    transform var(--t-fast) var(--ease-glass) !important;
+}
+
+.breadcrumbs-container a:hover,
+.breadcrumbs-container span:hover {
+  color: rgba(200, 230, 255, 0.95) !important;
+  transform: translateY(-1px);
+}
+
+.breadcrumbs-container .breadcrumbs-separator {
+  transition: opacity var(--t-fast) ease !important;
+  opacity: 0.30;
+}
+
+.breadcrumbs-container:hover .breadcrumbs-separator {
+  opacity: 0.50;
+}
+
+/* ─── Editor Tabs ──────────────────────────────────────────────────────────── */
+
+.tab .monaco-icon-label {
+  transition:
+    opacity    var(--t-fast) ease,
+    text-shadow var(--t-mid) var(--ease-glass) !important;
+}
+
+.tab:hover:not(.active) .monaco-icon-label {
+  opacity: 0.75 !important;
+}
+
+.tab.active .monaco-icon-label {
+  text-shadow: 0 0 14px rgba(122, 162, 247, 0.30);
+}
+
+/* Tab close button fade */
+.tab .tab-close .codicon {
+  transition: opacity var(--t-fast) ease, color var(--t-fast) ease !important;
+  opacity: 0;
+}
+
+.tab:hover .tab-close .codicon {
+  opacity: 0.70;
+}
+
+.tab:hover .tab-close .codicon:hover {
+  opacity: 1;
+  color: rgba(247, 118, 142, 0.90) !important;
+}
+
+/* ─── Status Bar Items ─────────────────────────────────────────────────────── */
+
+.statusbar-item .statusbar-item-label {
+  transition: color var(--t-fast) ease !important;
+}
+
+.statusbar-item:hover .statusbar-item-label {
+  color: rgba(220, 240, 255, 0.95) !important;
+}
+
+/* ─── Panel Tab Labels ─────────────────────────────────────────────────────── */
+
+.part.panel .title .tabs-container .tab .tab-label {
+  transition:
+    color      var(--t-fast) ease,
+    text-shadow var(--t-fast) ease !important;
+}
+
+.part.panel .title .tabs-container .tab.active .tab-label {
+  text-shadow: 0 0 10px rgba(122, 162, 247, 0.20);
+}
+
+/* ─── Activity Bar Labels (hover glow) ─────────────────────────────────────── */
+
+.part.activitybar .action-label.codicon,
+.part.activitybar .action-label {
+  transition:
+    color   var(--t-mid) var(--ease-glass),
+    filter  var(--t-mid) var(--ease-glass),
+    transform var(--t-fast) var(--ease-snap) !important;
+}
+
+.part.activitybar .action-item:hover .action-label {
+  transform: scale(1.08);
+}
+
+/* ─── Suggest Widget (autocomplete) ────────────────────────────────────────── */
+
+.suggest-widget .monaco-list .monaco-list-row {
+  transition:
+    background var(--t-fast) var(--ease-glass) !important;
+}
+
+.suggest-widget .monaco-list .monaco-list-row .monaco-icon-label .label-name {
+  transition: color var(--t-fast) ease !important;
+}
+
+.suggest-widget .monaco-list .monaco-list-row.focused .monaco-icon-label .label-name {
+  color: rgba(230, 248, 255, 1) !important;
+}
+
+/* ─── Settings Page Labels ─────────────────────────────────────────────────── */
+
+.settings-editor .settings-tree .monaco-list-row .setting-item-label {
+  transition: color var(--t-fast) ease !important;
+}
+
+.settings-editor .settings-tree .monaco-list-row:hover .setting-item-label {
+  color: rgba(220, 240, 255, 0.90) !important;
+}
+
+/* ─── Notification Toast Text ──────────────────────────────────────────────── */
+
+.notifications-toasts .notification-toast .notification-list-item-message {
+  transition: opacity var(--t-fast) ease !important;
+}
+
+/* ─── Sidebar Section Header Expand/Collapse ───────────────────────────────── */
+
+.sidebar .tree-explorer-viewlet-tree-view > .header .codicon {
+  transition:
+    transform var(--t-fast) var(--ease-snap),
+    color     var(--t-fast) ease !important;
+}
+
+.sidebar .tree-explorer-viewlet-tree-view > .header:hover .codicon {
+  color: rgba(200, 230, 255, 0.80) !important;
+}
+
+/* ─── Inline Chat Input ────────────────────────────────────────────────────── */
+
+.inline-chat .monaco-inputbox {
+  transition:
+    border-color var(--t-mid) var(--ease-glass),
+    box-shadow   var(--t-mid) var(--ease-glass) !important;
+}
+
+.inline-chat .monaco-inputbox:focus-within {
+  box-shadow:
+    0 0 0 2px rgba(122, 162, 247, 0.10),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04) !important;
+}

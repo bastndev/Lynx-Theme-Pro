@@ -1908,6 +1908,12 @@
     "folder-robot-open": {
       "iconPath": "../../assets/svg/dark/folder-robot-open.svg"
     },
+    "agents": {
+      "iconPath": "../../assets/svg/dark/agents.svg"
+    },
+    "agents-black": {
+      "iconPath": "../../assets/svg/dark/agents-black.svg"
+    },
     "folder-src": {
       "iconPath": "../../assets/svg/dark/folder-src.svg"
     },
@@ -3621,8 +3627,8 @@
     "claude": {
       "iconPath": "../../assets/svg/dark/claude.svg"
     },
-    "agents": {
-      "iconPath": "../../assets/svg/dark/agents.svg"
+    "agent": {
+      "iconPath": "../../assets/svg/dark/agent.svg"
     },
     "design": {
       "iconPath": "../../assets/svg/dark/design.svg"
@@ -13789,6 +13795,7 @@
       "zeabur": "zeabur_light"
     },
     "fileNames": {
+      "AGENTS.md": "agents-black",
       "main.lynx.bundle": "lynx-dark",
       "lynx.config.ts": "lynx-config-file-dark",
       "sconstruct": "scons_light",

@@ -1,0 +1,992 @@
+:root {
+  --glass-base:          rgba(10, 14, 20, 0.45);
+  --glass-mid:           rgba(10, 14, 20, 0.30);
+  --glass-clear:         rgba(10, 14, 20, 0.15);
+  --glass-frosted:       rgba(8, 12, 18, 0.72);
+
+  --accent:              #7aa2f7;
+  --accent-dim:          rgba(122, 162, 247, 0.45);
+  --accent-glow:         rgba(122, 162, 247, 0.12);
+  --accent-glow-strong:  rgba(122, 162, 247, 0.25);
+  --accent-tint:         rgba(122, 162, 247, 0.05);
+  --accent-tint-hover:   rgba(122, 162, 247, 0.08);
+  --accent-tint-active:  rgba(122, 162, 247, 0.14);
+
+  --glass-edge:          rgba(255, 255, 255, 0.04);
+  --glass-edge-hover:    rgba(255, 255, 255, 0.08);
+  --glass-edge-top:      rgba(255, 255, 255, 0.18);
+  --glass-inner:         rgba(255, 255, 255, 0.025);
+
+  --blur-xl:   blur(48px) saturate(180%);
+  --blur-lg:   blur(32px) saturate(160%);
+  --blur-md:   blur(20px) saturate(140%);
+  --blur-sm:   blur(12px) saturate(130%);
+  --blur-xs:   blur(6px)  saturate(120%);
+
+  --shadow-ambient: 0 4px 24px rgba(0, 0, 0, 0.50);
+  --shadow-float:   0 8px 40px rgba(0, 0, 0, 0.65), 0 2px 8px rgba(0, 0, 0, 0.40);
+  --shadow-inset:   inset 0 1px 0 var(--glass-edge-top),
+                    inset 0 -1px 0 rgba(0, 0, 0, 0.20);
+  --shadow-lift:    0 6px 24px rgba(0, 0, 0, 0.45), 0 2px 6px rgba(0, 0, 0, 0.30);
+
+  --glow-accent:  0 0 18px var(--accent-glow), 0 0 6px var(--accent-glow-strong);
+  --glow-soft:    0 0 30px rgba(122, 162, 247, 0.08);
+  --glow-ring:    0 0 0 3px rgba(122, 162, 247, 0.12);
+
+  --r-xs:  4px;
+  --r-sm:  8px;
+  --r-md:  12px;
+  --r-lg:  16px;
+  --r-xl:  20px;
+
+  --ease-glass:   cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-snap:    cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-smooth:  cubic-bezier(0.25, 0.1, 0.25, 1);
+  --t-fast:       150ms;
+  --t-mid:        250ms;
+  --t-slow:       400ms;
+}
+
+/* ─── Keyframe Animations ──────────────────────────────────────────────────── */
+
+@keyframes lynx-fade-in {
+  from { opacity: 0; transform: translateY(-4px) scale(0.98); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes lynx-slide-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes lynx-glow-pulse {
+  0%, 100% { box-shadow: 0 0 12px rgba(122, 162, 247, 0.15); }
+  50%      { box-shadow: 0 0 20px rgba(122, 162, 247, 0.25); }
+}
+
+@keyframes lynx-shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* ─── Workbench root ──────────────────────────────────────────────────────── */
+
+.monaco-workbench {
+  background: transparent !important;
+}
+
+/* ─── Activity Bar ────────────────────────────────────────────────────────── */
+
+.part.activitybar {
+  background: transparent !important;
+  border-right: 1px solid var(--glass-edge) !important;
+  box-shadow: 1px 0 0 rgba(0, 0, 0, 0.30);
+}
+
+/* ─── Sidebar & Auxiliary Bar — Liquid Glass ──────────────────────────────── */
+
+.part.sidebar,
+.part.auxiliarybar {
+  position: relative !important;
+  background: rgba(8, 11, 18, 0.54) !important;
+  backdrop-filter: blur(32px) saturate(170%) !important;
+  -webkit-backdrop-filter: blur(32px) saturate(170%) !important;
+  box-shadow:
+    inset 0 0 60px rgba(255, 255, 255, 0.015),
+    0 0 40px rgba(0, 0, 0, 0.50) !important;
+  overflow: visible !important;
+}
+
+/* Left panel: right-side border + frost gradient on the right edge */
+.part.sidebar {
+  border-right: 1px solid rgba(255, 255, 255, 0.07) !important;
+}
+
+/* Right panel: left-side border + frost gradient on left edge */
+.part.auxiliarybar {
+  border-left: 1px solid rgba(255, 255, 255, 0.07) !important;
+}
+
+/* Top shimmer line on both panels */
+.part.sidebar::before,
+.part.auxiliarybar::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 8%; right: 8%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.22) 25%,
+    rgba(255, 255, 255, 0.45) 50%,
+    rgba(255, 255, 255, 0.22) 75%,
+    transparent 100%
+  );
+  pointer-events: none;
+  z-index: 100;
+}
+
+/* Vertical frost gradient: darker at top, fades toward center */
+.part.sidebar::after,
+.part.auxiliarybar::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg,
+      rgba(255, 255, 255, 0.028) 0%,
+      transparent 35%,
+      transparent 65%,
+      rgba(0, 0, 0, 0.08) 100%
+    ),
+    linear-gradient(90deg,
+      rgba(180, 200, 230, 0.05) 0%,
+      transparent 20%,
+      transparent 80%,
+      rgba(180, 200, 230, 0.05) 100%
+    );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.part.activitybar .action-label.codicon,
+.part.activitybar .action-label {
+  color: rgba(150, 185, 220, 0.55) !important;
+  transition: color var(--t-mid) var(--ease-glass), filter var(--t-mid) var(--ease-glass), transform var(--t-fast) var(--ease-snap) !important;
+}
+
+.part.activitybar .action-item:hover .action-label,
+.part.activitybar .action-item:hover .action-label.codicon {
+  color: rgba(210, 235, 255, 0.95) !important;
+  filter: drop-shadow(0 0 8px var(--accent-dim));
+  transform: scale(1.08);
+}
+
+.part.activitybar .action-item.checked .action-label,
+.part.activitybar .action-item.active .action-label,
+.part.activitybar .action-item.checked .action-label.codicon,
+.part.activitybar .action-item.active .action-label.codicon {
+  color: rgba(230, 248, 255, 1) !important;
+  filter: drop-shadow(0 0 8px var(--accent-dim));
+}
+
+.action-item.checked::before,
+.action-item.active::before {
+  background: var(--accent) !important;
+  box-shadow: var(--glow-accent);
+  border-radius: 0 var(--r-xs) var(--r-xs) 0 !important;
+  transition: box-shadow var(--t-mid) var(--ease-glass) !important;
+}
+
+/* ─── Editor & Tabs ───────────────────────────────────────────────────────── */
+
+.part.editor {
+  background: transparent !important;
+}
+
+.tabs-container {
+  background: transparent !important;
+  border-bottom: 1px solid var(--glass-edge) !important;
+}
+
+.tab {
+  background: transparent !important;
+  border: none !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.04) !important;
+  transition:
+    background var(--t-fast) var(--ease-glass),
+    box-shadow  var(--t-mid) var(--ease-glass) !important;
+  position: relative;
+}
+
+.tab:hover:not(.active) {
+  background: rgba(122, 162, 247, 0.04) !important;
+  box-shadow: inset 0 -2px 0 rgba(122, 162, 247, 0.12) !important;
+}
+
+.tab.active {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.06) 0%,
+    rgba(122, 162, 247, 0.04) 100%
+  ) !important;
+  box-shadow:
+    inset 0 -2px 0 var(--accent),
+    inset 0  1px 0 var(--glass-edge-top),
+    0 2px 16px var(--accent-glow) !important;
+  border-bottom-color: transparent !important;
+}
+
+.tab.active .monaco-icon-label {
+  opacity: 1;
+  text-shadow: 0 0 14px rgba(122, 162, 247, 0.35);
+}
+
+.tab:not(.active) .monaco-icon-label {
+  opacity: 0.55;
+  transition: opacity var(--t-fast) ease !important;
+}
+
+.tab:hover:not(.active) .monaco-icon-label {
+  opacity: 0.75;
+}
+
+.editor-container,
+.editor-group-container {
+  background: transparent !important;
+}
+
+/* ─── Status Bar ──────────────────────────────────────────────────────────── */
+
+.part.statusbar {
+  background: linear-gradient(
+    90deg,
+    rgba(8, 11, 18, 0.85) 0%,
+    rgba(10, 14, 20, 0.55) 25%,
+    rgba(10, 14, 20, 0.55) 75%,
+    rgba(8, 11, 18, 0.85) 100%
+  ) !important;
+  backdrop-filter: var(--blur-md);
+  -webkit-backdrop-filter: var(--blur-md);
+  border-top: 1px solid var(--glass-edge) !important;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.statusbar-item {
+  transition: color var(--t-fast) ease, background var(--t-fast) var(--ease-glass) !important;
+}
+
+.statusbar-item:hover {
+  background: var(--accent-tint-hover) !important;
+}
+
+/* ─── Title Bar ───────────────────────────────────────────────────────────── */
+
+.part.titlebar {
+  border-bottom: 1px solid var(--glass-edge) !important;
+}
+
+.part.titlebar .action-item .action-label.codicon,
+.part.titlebar .action-label,
+.titlebar-right .action-label,
+.titlebar-left .action-label {
+  color: rgba(160, 195, 230, 0.70) !important;
+  transition: color var(--t-fast) ease !important;
+}
+
+.part.titlebar .action-item:hover .action-label,
+.part.titlebar .action-item:hover .action-label.codicon {
+  color: rgba(220, 240, 255, 1) !important;
+}
+
+.part.titlebar .window-controls-container button {
+  color: rgba(160, 195, 230, 0.75) !important;
+  transition: color var(--t-fast) ease, background var(--t-fast) ease !important;
+}
+
+.part.titlebar .window-controls-container button:hover {
+  color: rgba(220, 240, 255, 1) !important;
+  background: rgba(255, 255, 255, 0.06) !important;
+}
+
+.menubar .menubar-menu-button > .menubar-menu-title {
+  color: rgba(160, 195, 230, 0.70) !important;
+  transition: color var(--t-fast) ease !important;
+}
+
+.menubar .menubar-menu-button:hover > .menubar-menu-title,
+.menubar .menubar-menu-button.open > .menubar-menu-title {
+  color: rgba(220, 240, 255, 1) !important;
+}
+
+/* ─── Panel (Terminal & Output) ───────────────────────────────────────────── */
+/*
+ * No backdrop-filter here — creates a stacking context that breaks
+ * z-index management, causing panel content to render behind the editor.
+ */
+
+.part.panel {
+  border-top: 1px solid var(--glass-edge) !important;
+  position: relative !important;
+}
+
+.terminal-outer-container,
+.terminal-wrapper {
+  background: transparent !important;
+}
+
+.part.panel .title .tabs-and-actions-container .action-label.codicon,
+.part.panel .composite.title .action-label {
+  color: rgba(140, 175, 210, 0.65) !important;
+  transition: color var(--t-fast) ease !important;
+}
+
+.part.panel .title .tabs-and-actions-container .action-item:hover .action-label.codicon {
+  color: rgba(210, 235, 255, 0.95) !important;
+}
+
+.part.panel .title .tabs-container .tab .tab-label {
+  color: rgba(140, 175, 210, 0.65);
+  transition: color var(--t-fast) ease !important;
+}
+
+.part.panel .title .tabs-container .tab.active .tab-label {
+  color: rgba(220, 240, 255, 1);
+}
+
+/* ─── Floating Widgets ────────────────────────────────────────────────────── */
+
+.quick-input-widget {
+  background: var(--glass-frosted) !important;
+  backdrop-filter: var(--blur-xl);
+  -webkit-backdrop-filter: var(--blur-xl);
+  border: 1px solid var(--glass-edge-hover) !important;
+  border-radius: var(--r-lg) !important;
+  box-shadow:
+    var(--shadow-float),
+    var(--shadow-inset),
+    var(--glow-soft) !important;
+  overflow: hidden;
+  margin-top: 24px;
+  animation: lynx-fade-in var(--t-mid) var(--ease-glass) !important;
+}
+
+.quick-input-widget::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--glass-edge-top) 30%,
+    rgba(255, 255, 255, 0.25) 50%,
+    var(--glass-edge-top) 70%,
+    transparent 100%
+  );
+  pointer-events: none;
+  z-index: 10;
+}
+
+.quick-input-widget .quick-input-filter .monaco-inputbox {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid var(--glass-edge-hover) !important;
+  border-radius: var(--r-sm) !important;
+}
+
+.suggest-widget,
+.editor-widget {
+  background: var(--glass-frosted) !important;
+  backdrop-filter: var(--blur-xl);
+  -webkit-backdrop-filter: var(--blur-xl);
+  border: 1px solid var(--glass-edge-hover) !important;
+  border-radius: var(--r-md) !important;
+  box-shadow: var(--shadow-float), var(--shadow-inset) !important;
+  overflow: hidden;
+  animation: lynx-fade-in var(--t-fast) var(--ease-glass) !important;
+}
+
+.monaco-hover {
+  background: rgba(8, 13, 22, 0.88) !important;
+  backdrop-filter: var(--blur-lg);
+  -webkit-backdrop-filter: var(--blur-lg);
+  border: 1px solid var(--glass-edge-hover) !important;
+  border-radius: var(--r-sm) !important;
+  box-shadow: var(--shadow-float), var(--shadow-inset) !important;
+  animation: lynx-fade-in var(--t-fast) var(--ease-glass) !important;
+}
+
+.monaco-menu {
+  background: var(--glass-frosted) !important;
+  backdrop-filter: var(--blur-xl);
+  -webkit-backdrop-filter: var(--blur-xl);
+  border: 1px solid var(--glass-edge-hover) !important;
+  border-radius: var(--r-md) !important;
+  box-shadow: var(--shadow-float), var(--shadow-inset) !important;
+  overflow: hidden;
+  padding: 4px !important;
+  animation: lynx-fade-in var(--t-fast) var(--ease-glass) !important;
+}
+
+.monaco-menu .action-item {
+  border-radius: var(--r-sm) !important;
+  margin: 1px 2px !important;
+  transition: background var(--t-fast) ease, box-shadow var(--t-fast) ease !important;
+}
+
+.monaco-menu .action-item.focused,
+.monaco-menu .action-item:hover {
+  background: rgba(255, 255, 255, 0.05) !important;
+  box-shadow: inset 0 0 0 1px transparent !important;
+}
+
+.monaco-menu .action-item .action-label,
+.monaco-menu .action-item .action-label.codicon {
+  transition: color var(--t-fast) ease !important;
+}
+
+.notifications-toasts .notification-toast {
+  background: var(--glass-frosted) !important;
+  backdrop-filter: var(--blur-xl);
+  -webkit-backdrop-filter: var(--blur-xl);
+  border: 1px solid var(--glass-edge-hover) !important;
+  border-radius: var(--r-lg) !important;
+  box-shadow: var(--shadow-float), var(--shadow-inset) !important;
+  overflow: hidden;
+  animation: lynx-slide-up var(--t-mid) var(--ease-glass) !important;
+}
+
+/* ─── List Items ──────────────────────────────────────────────────────────── */
+
+.monaco-list-row {
+  border-radius: var(--r-xs) !important;
+  transition:
+    background var(--t-fast) var(--ease-glass),
+    box-shadow  var(--t-fast) ease !important;
+}
+
+.monaco-list-row:hover:not(.selected):not(.focused) {
+  background: rgba(255, 255, 255, 0.035) !important;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05) !important;
+}
+
+.monaco-list-row.selected,
+.monaco-list-row.focused {
+  background: var(--accent-tint) !important;
+  box-shadow: inset 3px 0 0 var(--accent) !important;
+}
+
+.monaco-list-row.selected:hover {
+  background: var(--accent-tint-hover) !important;
+}
+
+/* ─── Input Fields ────────────────────────────────────────────────────────── */
+
+.monaco-inputbox {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid var(--glass-edge-hover) !important;
+  border-radius: var(--r-sm) !important;
+  transition:
+    border-color  var(--t-mid) var(--ease-glass),
+    box-shadow    var(--t-mid) var(--ease-glass),
+    background    var(--t-mid) ease !important;
+}
+
+.monaco-inputbox:hover {
+  border-color: rgba(255, 255, 255, 0.15) !important;
+  background: rgba(255, 255, 255, 0.04) !important;
+}
+
+.monaco-inputbox.synthetic-focus,
+.monaco-inputbox:focus-within {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border-color: transparent !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+}
+
+/* ─── Buttons ─────────────────────────────────────────────────────────────── */
+
+.monaco-button {
+  border-radius: var(--r-sm) !important;
+  transition:
+    background    var(--t-fast) var(--ease-glass),
+    box-shadow    var(--t-mid)  var(--ease-glass),
+    transform     var(--t-fast) var(--ease-snap) !important;
+}
+
+.monaco-button.primary {
+  background: linear-gradient(
+    135deg,
+    rgba(122, 162, 247, 0.65) 0%,
+    rgba(80, 110, 190, 0.55) 100%
+  ) !important;
+  border: 1px solid var(--accent-dim) !important;
+  box-shadow:
+    0 2px 12px rgba(122, 162, 247, 0.20),
+    inset 0 1px 0 rgba(255, 255, 255, 0.18) !important;
+}
+
+.monaco-button.primary:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(122, 162, 247, 0.80) 0%,
+    rgba(80, 110, 190, 0.70) 100%
+  ) !important;
+  box-shadow:
+    0 4px 24px rgba(122, 162, 247, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.22) !important;
+  transform: translateY(-1px);
+}
+
+.monaco-button.primary:active {
+  transform: translateY(0);
+  box-shadow:
+    0 1px 6px rgba(122, 162, 247, 0.20),
+    inset 0 1px 0 rgba(255, 255, 255, 0.10) !important;
+}
+
+.monaco-button.secondary {
+  transition:
+    background var(--t-fast) var(--ease-glass),
+    border-color var(--t-fast) ease,
+    box-shadow var(--t-mid) var(--ease-glass) !important;
+}
+
+.monaco-button.secondary:hover {
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.06) !important;
+}
+
+/* ─── Scrollbars ──────────────────────────────────────────────────────────── */
+
+.slider {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border-radius: var(--r-xs) !important;
+  transition: background var(--t-fast) ease, box-shadow var(--t-mid) ease !important;
+}
+
+.slider:hover,
+.slider.active {
+  background: rgba(255, 255, 255, 0.14) !important;
+  box-shadow: 0 0 10px rgba(122, 162, 247, 0.12) !important;
+}
+
+::-webkit-scrollbar         { width: 6px; height: 6px; }
+::-webkit-scrollbar-track   { background: transparent; }
+::-webkit-scrollbar-thumb   { background: rgba(255, 255, 255, 0.08); border-radius: 3px; transition: background 0.2s ease; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.16); }
+::-webkit-scrollbar-corner  { background: transparent; }
+
+/* ─── Minimap ─────────────────────────────────────────────────────────────── */
+
+.minimap-slider {
+  background: rgba(122, 162, 247, 0.06) !important;
+  border: 1px solid rgba(122, 162, 247, 0.12) !important;
+  border-radius: var(--r-xs) !important;
+  transition: background var(--t-fast) ease, border-color var(--t-fast) ease !important;
+}
+
+.minimap-slider:hover {
+  background: rgba(122, 162, 247, 0.10) !important;
+  border-color: rgba(122, 162, 247, 0.20) !important;
+}
+
+/* ─── Breadcrumbs ─────────────────────────────────────────────────────────── */
+
+.breadcrumbs-container {
+  background: transparent !important;
+  border-bottom: 1px solid var(--glass-edge) !important;
+}
+
+.breadcrumbs-container a,
+.breadcrumbs-container span {
+  transition: color var(--t-fast) ease !important;
+}
+
+/* ─── Drag & Drop ─────────────────────────────────────────────────────────── */
+
+.monaco-drag-image {
+  background: var(--glass-frosted) !important;
+  backdrop-filter: var(--blur-md);
+  border: 1px solid var(--glass-edge-hover) !important;
+  border-radius: var(--r-sm) !important;
+  box-shadow: var(--shadow-float) !important;
+}
+
+/* ─── Peek View ───────────────────────────────────────────────────────────── */
+
+.monaco-editor .zone-widget .zone-widget-container {
+  background: rgba(8, 13, 22, 0.85) !important;
+  backdrop-filter: var(--blur-sm);
+  -webkit-backdrop-filter: var(--blur-sm);
+  border: 1px solid var(--glass-edge-hover) !important;
+  border-radius: var(--r-sm) !important;
+  box-shadow: var(--shadow-lift) !important;
+  animation: lynx-slide-up var(--t-mid) var(--ease-glass) !important;
+}
+
+/* ─── Find / Replace ──────────────────────────────────────────────────────── */
+
+.editor-findresult-highlight,
+.findMatch {
+  background: rgba(122, 162, 247, 0.12) !important;
+  border: 1px solid rgba(122, 162, 247, 0.30) !important;
+  border-radius: 2px !important;
+}
+
+/* ─── Git Diff ────────────────────────────────────────────────────────────── */
+
+.line-insert { background: rgba(0, 220, 130, 0.06) !important; }
+.line-delete { background: rgba(255, 80, 120, 0.06) !important; }
+
+/* ─── Search Results ──────────────────────────────────────────────────────── */
+
+.search-editor-find-match {
+  background: rgba(122, 162, 247, 0.10) !important;
+  border: 1px solid rgba(122, 162, 247, 0.25) !important;
+}
+
+/* ─── Gutter & Line Numbers ───────────────────────────────────────────────── */
+
+.margin { background: transparent !important; }
+
+.line-numbers {
+  color: rgba(100, 140, 180, 0.45) !important;
+  transition: color var(--t-fast) var(--ease-glass) !important;
+}
+
+.current-line ~ .line-numbers,
+.monaco-editor .current-line .line-numbers {
+  color: rgba(200, 230, 255, 0.85) !important;
+}
+
+/* ─── Indent Guide ────────────────────────────────────────────────────────── */
+
+.core-guide-indent        { opacity: 0.12 !important; }
+.core-guide-indent.active { opacity: 0.35 !important; transition: opacity var(--t-fast) ease !important; }
+
+/* ─── Cursor ──────────────────────────────────────────────────────────────── */
+
+.cursor {
+  box-shadow: 0 0 12px rgba(122, 162, 247, 0.60), 0 0 4px rgba(122, 162, 247, 0.30) !important;
+}
+
+/* ─── Selection & Highlight ───────────────────────────────────────────────── */
+
+.selected-text { background: rgba(122, 162, 247, 0.15) !important; }
+
+.wordHighlight,
+.wordHighlightStrong {
+  background: rgba(122, 162, 247, 0.08) !important;
+  border: 1px solid rgba(122, 162, 247, 0.20) !important;
+  border-radius: 2px !important;
+  transition: background var(--t-fast) ease, border-color var(--t-fast) ease !important;
+}
+
+/* ─── Welcome Page ────────────────────────────────────────────────────────── */
+
+.gettingStartedBackground,
+.gettingStarted {
+  background: transparent !important;
+}
+
+/* ─── Settings & Extensions ───────────────────────────────────────────────── */
+
+.settings-editor,
+.extensions-viewlet {
+  background: transparent !important;
+}
+
+.settings-editor .settings-header {
+  background: linear-gradient(
+    180deg,
+    rgba(122, 162, 247, 0.04) 0%,
+    transparent 100%
+  ) !important;
+  border-bottom: 1px solid var(--glass-edge) !important;
+}
+
+.settings-editor .settings-body .settings-toc-container {
+  border-right: 1px solid var(--glass-edge) !important;
+}
+
+/* ─── Progress Bar ────────────────────────────────────────────────────────── */
+
+.progress-bit {
+  background: linear-gradient(90deg, transparent, var(--accent), transparent) !important;
+  box-shadow: 0 0 14px var(--accent-glow) !important;
+}
+
+/* ─── Badge ───────────────────────────────────────────────────────────────── */
+
+.badge .badge-content,
+.monaco-count-badge {
+  background: linear-gradient(
+    135deg,
+    rgba(122, 162, 247, 0.70),
+    rgba(80, 110, 190, 0.60)
+  ) !important;
+  box-shadow: 0 1px 8px rgba(122, 162, 247, 0.25) !important;
+  border-radius: 20px !important;
+  font-weight: 700 !important;
+}
+
+/* ─── Checkbox ────────────────────────────────────────────────────────────── */
+
+.monaco-custom-checkbox.checked {
+  background: var(--accent) !important;
+  border-color: var(--accent) !important;
+  box-shadow: 0 0 10px rgba(122, 162, 247, 0.35) !important;
+  transition: background var(--t-fast) ease, box-shadow var(--t-fast) ease !important;
+}
+
+/* ─── List Focus / Keyboard Nav ───────────────────────────────────────────── */
+
+.monaco-list:focus .monaco-list-row.focused {
+  outline: none !important;
+  box-shadow:
+    inset 0 0 0 1px rgba(122, 162, 247, 0.30),
+    inset 3px 0 0 var(--accent) !important;
+}
+
+/* ─── Chat / Copilot ──────────────────────────────────────────────────────── */
+
+.interactive-request,
+.chat-request-row {
+  background: rgba(255, 255, 255, 0.02) !important;
+  border: 1px solid rgba(255, 255, 255, 0.04) !important;
+  border-radius: var(--r-sm) !important;
+  margin: 4px 8px !important;
+  transition: background var(--t-fast) ease, border-color var(--t-fast) ease !important;
+}
+
+.interactive-request:hover,
+.chat-request-row:hover {
+  background: rgba(255, 255, 255, 0.035) !important;
+  border-color: rgba(255, 255, 255, 0.07) !important;
+}
+
+.interactive-response,
+.chat-response-row {
+  background: rgba(60, 80, 120, 0.12) !important;
+  border: 1px solid rgba(140, 180, 250, 0.05) !important;
+  border-radius: var(--r-sm) !important;
+  margin: 4px 8px !important;
+}
+
+/* ─── Inline Chat ─────────────────────────────────────────────────────────── */
+
+.inline-chat {
+  background: rgba(8, 13, 22, 0.88) !important;
+  backdrop-filter: var(--blur-lg);
+  -webkit-backdrop-filter: var(--blur-lg);
+  border: 1px solid var(--glass-edge-hover) !important;
+  border-radius: var(--r-md) !important;
+  box-shadow: var(--shadow-float), var(--shadow-inset) !important;
+  animation: lynx-slide-up var(--t-mid) var(--ease-glass) !important;
+}
+
+/* ─── Panel Tab Switcher ──────────────────────────────────────────────────── */
+
+.panel > .title .tabs-container .tab { background: transparent !important; }
+
+.panel > .title .tabs-container .tab.active {
+  box-shadow: inset 0 2px 0 var(--accent) !important;
+  background: var(--accent-tint) !important;
+}
+
+/* ─── Debug Toolbar ───────────────────────────────────────────────────────── */
+
+.debug-toolbar {
+  background: var(--glass-frosted) !important;
+  backdrop-filter: var(--blur-lg);
+  -webkit-backdrop-filter: var(--blur-lg);
+  border: 1px solid var(--glass-edge-hover) !important;
+  border-radius: var(--r-md) !important;
+  box-shadow: var(--shadow-float), var(--shadow-inset) !important;
+}
+
+/* ─── Terminal Tabs ───────────────────────────────────────────────────────── */
+
+.tabs-container .terminal-tab {
+  transition: background var(--t-fast) ease, color var(--t-fast) ease !important;
+}
+
+/* ─── Tree Indent Guides ──────────────────────────────────────────────────── */
+
+.monaco-tree .indent-guide {
+  opacity: 0.10 !important;
+  transition: opacity var(--t-fast) ease !important;
+}
+
+.monaco-tree .indent-guide:hover {
+  opacity: 0.25 !important;
+}
+
+/* ─── Focus Border ────────────────────────────────────────────────────────── */
+
+:focus-visible {
+  outline: transparent !important;
+  outline-offset: 0;
+  border-radius: var(--r-xs);
+}
+
+/* ─── AI Chat Input — Liquid Glass ───────────────────────────────────────── */
+
+/*
+ * Outer wrapper: the entire bottom input zone of the chat panel.
+ * Selectors cover both GitHub Copilot Chat and generic inline AI chat.
+ */
+.interactive-input-part,
+.chat-input-part {
+  position: relative !important;
+  /* Intermediate style — creates clear visual hierarchy */
+  background: rgba(11, 15, 24, 0.53) !important;
+  backdrop-filter: blur(28px) saturate(160%) !important;
+  -webkit-backdrop-filter: blur(28px) saturate(160%) !important;
+  /* Subtle tinted border for differentiation */
+  border: 1px solid rgba(180, 205, 255, 0.09) !important;
+  border-radius: var(--r-xl) !important;
+  margin: 0 8px 0px !important;
+  padding: 6px 8px 6px !important;
+  box-shadow:
+    0 -6px 32px rgba(0, 0, 0, 0.50),
+    0 4px 20px rgba(0, 0, 0, 0.35),
+    /* Ambient glow — makes it pop against dark panels */
+    0 0 0 1px rgba(160, 195, 255, 0.04),
+    inset 0 1px 0 rgba(255, 255, 255, 0.17),
+    inset 0 0 50px rgba(60, 90, 150, 0.1) !important;
+  transition: box-shadow var(--t-mid) var(--ease-glass), border-color var(--t-mid) ease !important;
+}
+
+/* Top shimmer line — mimics glass specular highlight */
+.interactive-input-part::before,
+.chat-input-part::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 12%; right: 12%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.30) 30%,
+    rgba(255, 255, 255, 0.55) 50%,
+    rgba(255, 255, 255, 0.30) 70%,
+    transparent 100%
+  );
+  border-radius: 1px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Side frost columns — subtle gray tint on both sides to frame the input */
+.interactive-input-part::after,
+.chat-input-part::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background:
+    linear-gradient(90deg,
+      rgba(200, 215, 240, 0.05) 0%,
+      transparent 18%,
+      transparent 82%,
+      rgba(200, 215, 240, 0.05) 100%
+    );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* The actual textarea / input box inside */
+.interactive-input-part .monaco-inputbox,
+.interactive-input-part .interactive-input-editor,
+.chat-input-part .monaco-inputbox,
+.chat-input-part .chat-input-editor,
+.chat-input-part .interactive-input-editor {
+  background: rgba(255, 255, 255, 0.045) !important;
+  border: 1px solid rgba(255, 255, 255, 0.10) !important;
+  border-radius: var(--r-md) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.15),
+    0 2px 12px rgba(0, 0, 0, 0.25) !important;
+  transition:
+    border-color var(--t-mid) ease,
+    box-shadow var(--t-mid) var(--ease-glass),
+    background var(--t-mid) ease !important;
+}
+
+/* Focus — sin outline morado, solo un brillo sutil interno */
+.interactive-input-part .interactive-input-editor:focus-within,
+.interactive-input-part .monaco-inputbox.synthetic-focus,
+.chat-input-part .interactive-input-editor:focus-within,
+.chat-input-part .chat-input-editor:focus-within {
+  border-color: transparent !important;
+  background: rgba(255, 255, 255, 0.055) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.12),
+    0 4px 20px rgba(0, 0, 0, 0.28) !important;
+  outline: none !important;
+}
+
+/* Hover lift on the outer wrapper */
+.interactive-input-part:hover,
+.chat-input-part:hover {
+  border-color: rgba(255, 255, 255, 0.15) !important;
+  box-shadow:
+    0 -6px 32px rgba(0, 0, 0, 0.45),
+    0 4px 20px rgba(0, 0, 0, 0.32),
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    inset 0 0 50px rgba(255, 255, 255, 0.025) !important;
+}
+
+/* Action icons row (attach file, model selector, etc.) */
+.interactive-input-part .interactive-execute-toolbar,
+.interactive-input-part .chat-input-toolbars,
+.chat-input-part .interactive-execute-toolbar,
+.chat-input-part .chat-input-toolbars {
+  opacity: 0.70;
+  transition: opacity var(--t-fast) ease !important;
+}
+
+.interactive-input-part:hover .interactive-execute-toolbar,
+.interactive-input-part:hover .chat-input-toolbars,
+.chat-input-part:hover .interactive-execute-toolbar,
+.chat-input-part:hover .chat-input-toolbars {
+  opacity: 1;
+}
+
+/* ─── Chat Panel — Fade-to-transparent at the bottom ─────────────────────── */
+/*
+ * Adds a gradient mask on the chat content area so it naturally dissolves
+ * into transparency before hitting the input box / status bar.
+ * Uses a pseudo-element anchored at the bottom of the scroll container.
+ */
+.interactive-list,
+.chat-list-container,
+.interactive-session {
+  position: relative !important;
+}
+
+.interactive-list::after,
+.chat-list-container::after,
+.interactive-session::after {
+  content: '';
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  display: block;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(6, 10, 16, 0.55) 100%
+  );
+  pointer-events: none;
+  z-index: 10;
+  flex-shrink: 0;
+}
+
+/* Also fade the bottom edge of the sidebar/panel that hosts the chat */
+.part.sidebar .composite.viewlet > .content,
+.part.auxiliarybar .composite.viewlet > .content {
+  position: relative !important;
+}
+
+.part.sidebar .composite.viewlet > .content::after,
+.part.auxiliarybar .composite.viewlet > .content::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 80px;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(6, 10, 16, 0.60) 100%
+  );
+  pointer-events: none;
+  z-index: 5;
+}

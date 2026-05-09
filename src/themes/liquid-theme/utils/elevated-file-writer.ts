@@ -16,28 +16,17 @@ function hasErrorCode(error: unknown, codes: string[]): boolean {
   return typeof error === 'object' && error !== null && 'code' in error && codes.includes(String(error.code));
 }
 
-// ─── Helpers ──────────────────────────────────────────────────────────────────
+// ─── Linux helpers ────────────────────────────────────────────────────────────
 
-/**
- * Returns: false (no elevation), true (needs pkexec),
- *          'snap' (Snap, blocked), 'flatpak' (Flatpak, blocked).
- */
 export function checkNeedsElevation(appDir: string): ElevationCheck {
-  // Snap: squashfs — immutable even for root
   if (appDir.startsWith('/snap/') || process.env.SNAP) {return 'snap';}
-
-  // Flatpak: the app directory is inside the read-only sandbox
-  // Detected via FLATPAK_ID or if the path starts with /app/
   if (process.env.FLATPAK_ID || appDir.startsWith('/app/')) {return 'flatpak';}
-
   try {
-    const testFile = path.join(appDir, '.lynx-blur-write-test');
+    const testFile = path.join(appDir, '.lynx-liquid-write-test');
     fs.writeFileSync(testFile, '');
     fs.unlinkSync(testFile);
     return false;
   } catch (err: unknown) {
-    // EACCES/EPERM: no permission → elevate with pkexec
-    // EROFS: read-only filesystem (e.g., AppImage) → elevate as well
     if (hasErrorCode(err, ['EACCES', 'EPERM', 'EROFS'])) {return true;}
     return false;
   }
@@ -59,7 +48,7 @@ function shellEscape(str: string): string {
   return str.replace(/'/g, "'\\''");
 }
 
-// ─── Directory copy (without fs-extra) ───────────────────────────────────────
+// ─── Directory copy ───────────────────────────────────────────────────────────
 
 export function copyDirSync(src: string, dest: string): void {
   if (!fs.existsSync(dest)) {fs.mkdirSync(dest, { recursive: true });}
@@ -94,7 +83,6 @@ function elevatedCopyLinux(operations: FileOperation[]): Promise<void> {
     if (operations.length === 0) {return resolve();}
     if (hasNoNewPrivs()) {return reject(new Error('no_new_privs'));}
     if (!hasPkexec())   {return reject(new Error('pkexec_missing'));}
-
     const script = buildShellScript(operations);
     execFile('pkexec', ['sh', '-c', script], (error, _stdout, stderr) => {
       if (error) {
@@ -107,19 +95,18 @@ function elevatedCopyLinux(operations: FileOperation[]): Promise<void> {
   });
 }
 
-// ─── StagedFileWriter ─────────────────────────────────────────────────────────
+// ─── Linux StagedFileWriter ───────────────────────────────────────────────────
 
 export class StagedFileWriter {
   private tmpDir: string | null = null;
   private operations: FileOperation[] = [];
   private _counter = 0;
 
-  constructor(private readonly requiresElevation: ElevationCheck) {
-  }
+  constructor(private readonly requiresElevation: ElevationCheck) {}
 
   async init() {
     if (this.requiresElevation) {
-      this.tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'lynx-blur-'));
+      this.tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'lynx-liquid-'));
     }
   }
 
@@ -183,13 +170,9 @@ export class StagedFileWriter {
 
 // ─── macOS elevation (osascript) ──────────────────────────────────────────────
 
-/**
- * Returns false (no elevation needed) or true (needs osascript admin) for macOS.
- * Unlike Linux, there is no Snap/Flatpak to check.
- */
 export function checkNeedsElevationMacOS(appDir: string): boolean {
   try {
-    const testFile = path.join(appDir, '.lynx-blur-write-test');
+    const testFile = path.join(appDir, '.lynx-liquid-write-test');
     fs.writeFileSync(testFile, '');
     fs.unlinkSync(testFile);
     return false;
@@ -199,53 +182,39 @@ export function checkNeedsElevationMacOS(appDir: string): boolean {
   }
 }
 
-/**
- * Executes file-system operations with macOS admin privileges via osascript.
- * Builds a POSIX shell script and runs it through
- * `do shell script ... with administrator privileges`.
- */
 function elevatedCopyMacOS(operations: FileOperation[]): Promise<void> {
   return new Promise((resolve, reject) => {
     if (operations.length === 0) {return resolve();}
-
     const esc = (s: string) => s.replace(/'/g, "'\\''");
     const cmds = ['set -e'];
     for (const op of operations) {
       switch (op.type) {
-        case 'mkdir':   cmds.push(`mkdir -p '${esc(op.path)}'`);                    break;
-        case 'rmdir':   cmds.push(`rm -rf '${esc(op.path)}'`);                      break;
-        case 'copy':    cmds.push(`cp '${esc(op.src)}' '${esc(op.dest)}'`);         break;
-        case 'copyDir': cmds.push(`cp -r '${esc(op.src)}/.' '${esc(op.dest)}/'`);  break;
+        case 'mkdir':   cmds.push(`mkdir -p '${esc(op.path)}'`); break;
+        case 'rmdir':   cmds.push(`rm -rf '${esc(op.path)}'`); break;
+        case 'copy':    cmds.push(`cp '${esc(op.src)}' '${esc(op.dest)}'`); break;
+        case 'copyDir': cmds.push(`cp -r '${esc(op.src)}/.' '${esc(op.dest)}/'`); break;
       }
     }
-
     const shellScript = cmds.join('; ');
-    // Escape backslashes and double-quotes for AppleScript string literal
     const escaped = shellScript.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
     const appleScript = `do shell script "${escaped}" with administrator privileges`;
-
     execFile('osascript', ['-e', appleScript], (error, _stdout, stderr) => {
-      if (error) {
-        reject(new Error(`macOS elevation failed: ${stderr || error.message}`));
-      } else {
-        resolve();
-      }
+      if (error) {reject(new Error(`macOS elevation failed: ${stderr || error.message}`));}
+      else {resolve();}
     });
   });
 }
 
-/** Staged writer for macOS — uses osascript for elevated write operations. */
 export class StagedFileWriterMacOS {
   private tmpDir: string | null = null;
   private operations: FileOperation[] = [];
   private _counter = 0;
 
-  constructor(private readonly requiresElevation: boolean) {
-  }
+  constructor(private readonly requiresElevation: boolean) {}
 
   async init() {
     if (this.requiresElevation) {
-      this.tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'lynx-blur-mac-'));
+      this.tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'lynx-liquid-mac-'));
     }
   }
 
@@ -255,9 +224,8 @@ export class StagedFileWriterMacOS {
   }
 
   async writeFile(targetPath: string, content: string, encoding: BufferEncoding) {
-    if (!this.requiresElevation) {
-      await fsPromises.writeFile(targetPath, content, encoding);
-    } else {
+    if (!this.requiresElevation) {await fsPromises.writeFile(targetPath, content, encoding);}
+    else {
       const tmp = this._tmpPath(targetPath);
       await fsPromises.writeFile(tmp, content, encoding);
       this.operations.push({ type: 'copy', src: tmp, dest: targetPath });
@@ -265,25 +233,18 @@ export class StagedFileWriterMacOS {
   }
 
   async mkdir(targetPath: string) {
-    if (!this.requiresElevation) {
-      await fsPromises.mkdir(targetPath, { recursive: true });
-    } else {
-      this.operations.push({ type: 'mkdir', path: targetPath });
-    }
+    if (!this.requiresElevation) {await fsPromises.mkdir(targetPath, { recursive: true });}
+    else {this.operations.push({ type: 'mkdir', path: targetPath });}
   }
 
   async rmdir(targetPath: string) {
-    if (!this.requiresElevation) {
-      fs.rmSync(targetPath, { recursive: true, force: true });
-    } else {
-      this.operations.push({ type: 'rmdir', path: targetPath });
-    }
+    if (!this.requiresElevation) {fs.rmSync(targetPath, { recursive: true, force: true });}
+    else {this.operations.push({ type: 'rmdir', path: targetPath });}
   }
 
   async copyDir(src: string, dest: string) {
-    if (!this.requiresElevation) {
-      copyDirSync(src, dest);
-    } else {
+    if (!this.requiresElevation) {copyDirSync(src, dest);}
+    else {
       if (!this.tmpDir) {throw new Error('Temporary directory is not initialized');}
       const tmpDest = path.join(this.tmpDir, `dir_${this._counter++}`);
       copyDirSync(src, tmpDest);
@@ -309,12 +270,9 @@ export class StagedFileWriterMacOS {
 
 // ─── Windows elevation (PowerShell UAC) ───────────────────────────────────────
 
-/**
- * Returns true if the appDir requires UAC elevation to write to (e.g. C:\Program Files).
- */
 export function checkNeedsElevationWindows(appDir: string): boolean {
   try {
-    const testFile = path.join(appDir, '.lynx-blur-write-test');
+    const testFile = path.join(appDir, '.lynx-liquid-write-test');
     fs.writeFileSync(testFile, '');
     fs.unlinkSync(testFile);
     return false;
@@ -324,93 +282,63 @@ export function checkNeedsElevationWindows(appDir: string): boolean {
   }
 }
 
-/** Escapes a string for PowerShell single quotes. */
-export function psEscape(str: string): string {
+function psEscape(str: string): string {
   return str.replace(/'/g, "''");
 }
 
-/**
- * Builds a PowerShell script that executes the file-system operations.
- */
-export function buildPowerShellScript(operations: FileOperation[]): string {
-  const commands = [];
+function buildPowerShellScript(operations: FileOperation[]): string {
+  const commands: string[] = [];
   for (const op of operations) {
     switch (op.type) {
-      case 'mkdir':
-        commands.push(`New-Item -Path '${psEscape(op.path)}' -ItemType Directory -Force | Out-Null`);
-        break;
-      case 'rmdir':
-        commands.push(`Remove-Item -Path '${psEscape(op.path)}' -Recurse -Force -ErrorAction SilentlyContinue`);
-        break;
-      case 'copy':
-        commands.push(`Copy-Item -Path '${psEscape(op.src)}' -Destination '${psEscape(op.dest)}' -Force`);
-        break;
-      case 'copyDir':
-        commands.push(`Copy-Item -Path '${psEscape(op.src)}\\*' -Destination '${psEscape(op.dest)}' -Recurse -Force`);
-        break;
+      case 'mkdir':   commands.push(`New-Item -Path '${psEscape(op.path)}' -ItemType Directory -Force | Out-Null`); break;
+      case 'rmdir':   commands.push(`Remove-Item -Path '${psEscape(op.path)}' -Recurse -Force -ErrorAction SilentlyContinue`); break;
+      case 'copy':    commands.push(`Copy-Item -Path '${psEscape(op.src)}' -Destination '${psEscape(op.dest)}' -Force`); break;
+      case 'copyDir': commands.push(`Copy-Item -Path '${psEscape(op.src)}\\*' -Destination '${psEscape(op.dest)}' -Recurse -Force`); break;
     }
   }
   return commands.join('\n');
 }
 
-/**
- * Executes file-system operations with Windows UAC elevation via PowerShell.
- */
 function elevatedCopyWindows(operations: FileOperation[]): Promise<void> {
   return new Promise((resolve, reject) => {
     if (operations.length === 0) {return resolve();}
-
     const statusFile = path.join(os.tmpdir(), `lynx-elev-${Date.now()}.txt`);
     const psScript = buildPowerShellScript(operations);
-
-    // Payload encodes the operations and writes 'OK' to a status file on success
     const payload = [
       '$ErrorActionPreference = "Continue"',
       psScript,
       `'OK' | Set-Content -Path '${psEscape(statusFile)}' -Encoding UTF8`,
     ].join('\n');
-
     const encodedPayload = Buffer.from(payload, 'utf16le').toString('base64');
     const innerArgs = `-NoProfile -ExecutionPolicy Bypass -EncodedCommand ${encodedPayload}`;
-    
-    // Outer powershell asks for UAC prompt
     const elevateCmd = [
       'powershell.exe', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-Command',
       `"Start-Process powershell.exe -ArgumentList '${innerArgs}' -Verb RunAs -WindowStyle Hidden -Wait"`
     ].join(' ');
-
     exec(elevateCmd, { encoding: 'utf-8' }, (error) => {
       try {
         const status = fs.readFileSync(statusFile, 'utf-8').trim();
         fs.unlinkSync(statusFile);
-        if (status === 'OK') {
-          resolve();
-        } else {
-          reject(new Error(`Elevation failed: ${status}`));
-        }
+        if (status === 'OK') {resolve();}
+        else {reject(new Error(`Elevation failed: ${status}`));}
       } catch {
-        if (error) {
-          reject(new Error('Elevation failed: User denied UAC or process cancelled'));
-        } else {
-          reject(new Error('Elevation failed: Elevated process did not complete'));
-        }
+        if (error) {reject(new Error('Elevation failed: User denied UAC or process cancelled'));}
+        else {reject(new Error('Elevation failed: Elevated process did not complete'));}
       }
     });
   });
 }
 
-/** Staged writer for Windows — uses PowerShell UAC for elevated write operations. */
 export class StagedFileWriterWindows {
   private tmpDir: string | null = null;
   private operations: FileOperation[] = [];
   private _counter = 0;
 
-  constructor(private readonly requiresElevation: boolean) {
-  }
+  constructor(private readonly requiresElevation: boolean) {}
 
   async init() {
     if (this.requiresElevation) {
-      this.tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'lynx-blur-win-'));
+      this.tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'lynx-liquid-win-'));
     }
   }
 
@@ -420,9 +348,8 @@ export class StagedFileWriterWindows {
   }
 
   async writeFile(targetPath: string, content: string, encoding: BufferEncoding) {
-    if (!this.requiresElevation) {
-      await fsPromises.writeFile(targetPath, content, encoding);
-    } else {
+    if (!this.requiresElevation) {await fsPromises.writeFile(targetPath, content, encoding);}
+    else {
       const tmp = this._tmpPath(targetPath);
       await fsPromises.writeFile(tmp, content, encoding);
       this.operations.push({ type: 'copy', src: tmp, dest: targetPath });
@@ -430,25 +357,18 @@ export class StagedFileWriterWindows {
   }
 
   async mkdir(targetPath: string) {
-    if (!this.requiresElevation) {
-      await fsPromises.mkdir(targetPath, { recursive: true });
-    } else {
-      this.operations.push({ type: 'mkdir', path: targetPath });
-    }
+    if (!this.requiresElevation) {await fsPromises.mkdir(targetPath, { recursive: true });}
+    else {this.operations.push({ type: 'mkdir', path: targetPath });}
   }
 
   async rmdir(targetPath: string) {
-    if (!this.requiresElevation) {
-      fs.rmSync(targetPath, { recursive: true, force: true });
-    } else {
-      this.operations.push({ type: 'rmdir', path: targetPath });
-    }
+    if (!this.requiresElevation) {fs.rmSync(targetPath, { recursive: true, force: true });}
+    else {this.operations.push({ type: 'rmdir', path: targetPath });}
   }
 
   async copyDir(src: string, dest: string) {
-    if (!this.requiresElevation) {
-      copyDirSync(src, dest);
-    } else {
+    if (!this.requiresElevation) {copyDirSync(src, dest);}
+    else {
       if (!this.tmpDir) {throw new Error('Temporary directory is not initialized');}
       const tmpDest = path.join(this.tmpDir, `dir_${this._counter++}`);
       copyDirSync(src, tmpDest);
