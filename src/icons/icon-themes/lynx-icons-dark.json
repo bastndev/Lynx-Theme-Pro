@@ -3633,6 +3633,9 @@
     "design": {
       "iconPath": "../../assets/svg/dark/design.svg"
     },
+    "notes": {
+      "iconPath": "../../assets/svg/dark/note.svg"
+    },
     "folder-kiro": {
       "iconPath": "../../assets/svg/dark/folder-kiro.svg"
     },
@@ -11623,6 +11626,7 @@
     "tsp": "typespec"
   },
   "fileNames": {
+    "NOTES.md": "notes",
     "DESIGN.md": "design",
     "AGENTS.md": "agents",
     "CLAUDE.md": "claude",
