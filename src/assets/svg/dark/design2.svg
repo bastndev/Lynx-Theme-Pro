@@ -1,0 +1,215 @@
+<svg width="100%" viewBox="0 0 760 760" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Brocha plana futurista</title>
+  <desc id="desc">
+    Brocha moderna transparente con glow neón violeta, rosa y cyan.
+  </desc>
+
+  <defs>
+
+    <!-- Glow ambiental -->
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.18"/>
+      <stop offset="45%" stop-color="#06b6d4" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Mango -->
+    <linearGradient id="handle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="45%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+
+    <!-- Highlight -->
+    <linearGradient id="shine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Metal -->
+    <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c4b5fd"/>
+      <stop offset="25%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="75%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c4b5fd"/>
+    </linearGradient>
+
+    <!-- Base -->
+    <linearGradient id="base" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8b4fe"/>
+      <stop offset="50%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#f5d0fe" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Cerdas -->
+    <linearGradient id="bristle" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#f0abfc" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Sombra -->
+    <filter id="shadow" x="-20%" y="-20%" width="160%" height="160%">
+      <feDropShadow
+        dx="0"
+        dy="14"
+        stdDeviation="18"
+        flood-color="#000000"
+        flood-opacity="0.22"/>
+    </filter>
+
+  </defs>
+
+  <!-- Glow externo -->
+  <circle
+    cx="380"
+    cy="360"
+    r="260"
+    fill="url(#bgGlow)"
+  />
+
+  <!-- Brocha -->
+  <g filter="url(#shadow)">
+
+    <!-- Mango -->
+    <rect
+      x="320"
+      y="60"
+      width="120"
+      height="300"
+      rx="60"
+      fill="url(#handle)"
+    />
+
+    <!-- Glow mango -->
+    <rect
+      x="320"
+      y="60"
+      width="120"
+      height="300"
+      rx="60"
+      fill="url(#handle)"
+      opacity="0.3"
+      filter="url(#glow)"
+    />
+
+    <!-- Reflejo -->
+    <rect
+      x="345"
+      y="84"
+      width="24"
+      height="220"
+      rx="12"
+      fill="url(#shine)"
+    />
+
+    <!-- Conector -->
+    <path
+      d="M320 345 L110 420 L650 420 L440 345 Z"
+      fill="url(#handle)"
+      opacity="0.92"
+    />
+
+    <!-- Férula -->
+    <rect
+      x="110"
+      y="415"
+      width="540"
+      height="72"
+      rx="12"
+      fill="url(#metal)"
+    />
+
+    <!-- Líneas metálicas -->
+    <rect
+      x="110"
+      y="430"
+      width="540"
+      height="6"
+      rx="3"
+      fill="#ffffff"
+      opacity="0.55"
+    />
+
+    <rect
+      x="110"
+      y="452"
+      width="540"
+      height="5"
+      rx="2.5"
+      fill="#ffffff"
+      opacity="0.2"
+    />
+
+    <!-- Base cerdas -->
+    <rect
+      x="110"
+      y="487"
+      width="540"
+      height="82"
+      rx="4"
+      fill="url(#base)"
+    />
+
+    <!-- Glow base -->
+    <rect
+      x="110"
+      y="487"
+      width="540"
+      height="82"
+      rx="4"
+      fill="#d946ef"
+      opacity="0.12"
+      filter="url(#glow)"
+    />
+
+    <!-- Cerdas -->
+    <g>
+
+      <path d="M118 560 Q112 635 122 692 Q126 710 132 692 Q138 635 132 560 Z" fill="url(#bristle)" opacity="0.95"/>
+      <path d="M142 560 Q136 642 146 700 Q150 718 156 700 Q162 642 156 560 Z" fill="#d946ef" opacity="0.82"/>
+      <path d="M166 560 Q160 646 170 705 Q174 722 180 705 Q186 646 180 560 Z" fill="#c084fc" opacity="0.9"/>
+      <path d="M190 560 Q184 648 194 707 Q198 725 204 707 Q210 648 204 560 Z" fill="url(#bristle)" opacity="0.88"/>
+      <path d="M214 560 Q208 650 218 710 Q222 728 228 710 Q234 650 228 560 Z" fill="#a855f7" opacity="0.92"/>
+      <path d="M238 560 Q232 651 242 711 Q246 729 252 711 Q258 651 252 560 Z" fill="#d946ef" opacity="0.8"/>
+      <path d="M262 560 Q256 652 266 712 Q270 730 276 712 Q282 652 276 560 Z" fill="url(#bristle)" opacity="0.95"/>
+      <path d="M286 560 Q280 653 290 714 Q294 732 300 714 Q306 653 300 560 Z" fill="#c084fc" opacity="0.88"/>
+      <path d="M310 560 Q304 654 314 715 Q318 733 324 715 Q330 654 324 560 Z" fill="#d946ef" opacity="0.86"/>
+      <path d="M334 560 Q328 654 338 716 Q342 734 348 716 Q354 654 348 560 Z" fill="#a855f7" opacity="0.95"/>
+      <path d="M358 560 Q352 655 362 717 Q366 735 372 717 Q378 655 372 560 Z" fill="url(#bristle)" opacity="0.9"/>
+      <path d="M382 560 Q376 655 386 718 Q390 736 396 718 Q402 655 396 560 Z" fill="#c084fc" opacity="0.95"/>
+      <path d="M406 560 Q400 654 410 716 Q414 734 420 716 Q426 654 420 560 Z" fill="#d946ef" opacity="0.84"/>
+      <path d="M430 560 Q424 653 434 714 Q438 732 444 714 Q450 653 444 560 Z" fill="url(#bristle)" opacity="0.92"/>
+      <path d="M454 560 Q448 651 458 711 Q462 729 468 711 Q474 651 468 560 Z" fill="#a855f7" opacity="0.95"/>
+      <path d="M478 560 Q472 648 482 707 Q486 725 492 707 Q498 648 492 560 Z" fill="#d946ef" opacity="0.82"/>
+      <path d="M502 560 Q496 646 506 704 Q510 722 516 704 Q522 646 516 560 Z" fill="#c084fc" opacity="0.9"/>
+      <path d="M526 560 Q520 642 530 699 Q534 716 540 699 Q546 642 540 560 Z" fill="url(#bristle)" opacity="0.88"/>
+      <path d="M550 560 Q544 637 554 692 Q558 708 564 692 Q570 637 564 560 Z" fill="#d946ef" opacity="0.82"/>
+      <path d="M574 560 Q568 630 578 682 Q582 697 588 682 Q594 630 588 560 Z" fill="#a855f7" opacity="0.95"/>
+      <path d="M598 560 Q592 622 600 670 Q604 684 610 670 Q616 622 610 560 Z" fill="url(#bristle)" opacity="0.9"/>
+
+    </g>
+
+    <!-- Sombra superior -->
+    <rect
+      x="110"
+      y="554"
+      width="540"
+      height="10"
+      rx="5"
+      fill="#581c87"
+      opacity="0.16"
+    />
+
+  </g>
+
+</svg>
