@@ -22,6 +22,12 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 <!-- --- -->
 
 ---
+## [5.1.1] - 2026-05-09
+
+### Added
+- **New Icons**: NOTES.md, CLAUDE.md, AGENTS.md,  agetns/ global.css
+
+---
 ## [5.1.0] - 2026-05-09
 
 ### Added

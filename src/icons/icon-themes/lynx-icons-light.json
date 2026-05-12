@@ -934,9 +934,60 @@
     },
     "folder-kiro-open": {
       "iconPath": "../../assets/svg/light/folder-kiro-open.svg"
+    },
+    "folder-robot": {
+      "iconPath": "../../assets/svg/dark/folder-robot.svg"
+    },
+    "folder-robot-open": {
+      "iconPath": "../../assets/svg/dark/folder-robot-open.svg"
+    },
+    "global-css": {
+      "iconPath": "../../assets/svg/dark/css-global.svg"
+    },
+    "claude": {
+      "iconPath": "../../assets/svg/dark/claude.svg"
+    },
+    "agent": {
+      "iconPath": "../../assets/svg/dark/agent.svg"
+    },
+    "design": {
+      "iconPath": "../../assets/svg/dark/design.svg"
+    },
+    "notes": {
+      "iconPath": "../../assets/svg/dark/notes.svg"
+    },
+    "agents-2": {
+      "iconPath": "../../assets/svg/dark/agents.svg"
+    },
+    "agents": {
+      "iconPath": "../../assets/svg/dark/agents-black.svg"
+    },
+    "warp": {
+      "iconPath": "../../assets/svg/dark/warp.svg"
+    },
+    "warp_light": {
+      "iconPath": "../../assets/svg/dark/warp_light.svg"
+    },
+    "xml-before": {
+      "iconPath": "../../assets/svg/dark/xml-before.svg"
+    },
+    "expo-app": {
+      "iconPath": "../../assets/svg/dark/expo-app.svg"
+    },
+    "expo-eas": {
+      "iconPath": "../../assets/svg/dark/expo-b.svg"
+    },
+    "woff": {
+      "iconPath": "../../assets/svg/dark/wo-1.svg"
+    },
+    "icon-png": {
+      "iconPath": "../../assets/svg/dark/icon.svg"
     }
   },
   "folderNames": {
+    ".opencode": "folder-robot",
+    ".myskills": "folder-robot",
+    ".agents": "folder-robot",
     ".kiro": "folder-kiro",
     "flutter":"folder-flutter",
     ".astro":"folder-astro",
@@ -2437,6 +2488,14 @@
     "zst": "zip"
   },
   "fileNames": {
+    "NOTES.md": "notes",
+    "DESIGN.md": "design",
+    "AGENTS.md": "agents",
+    "CLAUDE.md": "claude",
+    "icon.png": "icon-png",
+    "icon.svg": "icon-png",
+    "icon.ico": "icon-png",
+    "global.css": "global-css",
     "main.lynx.bundle": "lynx",
     "lynx.config.ts": "lynx-config-file",
     "astro.config.js": "astro-config",
