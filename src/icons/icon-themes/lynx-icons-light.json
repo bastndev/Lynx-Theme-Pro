@@ -935,6 +935,12 @@
     "folder-kiro-open": {
       "iconPath": "../../assets/svg/light/folder-kiro-open.svg"
     },
+    "folder-robot": {
+      "iconPath": "../../assets/svg/dark/folder-robot.svg"
+    },
+    "folder-robot-open": {
+      "iconPath": "../../assets/svg/dark/folder-robot-open.svg"
+    },
     "global-css": {
       "iconPath": "../../assets/svg/dark/css-global.svg"
     },
@@ -950,10 +956,10 @@
     "notes": {
       "iconPath": "../../assets/svg/dark/notes.svg"
     },
-    "agents": {
+    "agents-2": {
       "iconPath": "../../assets/svg/dark/agents.svg"
     },
-    "agents-black": {
+    "agents": {
       "iconPath": "../../assets/svg/dark/agents-black.svg"
     },
     "warp": {
@@ -979,6 +985,9 @@
     }
   },
   "folderNames": {
+    ".opencode": "folder-robot",
+    ".myskills": "folder-robot",
+    ".agents": "folder-robot",
     ".kiro": "folder-kiro",
     "flutter":"folder-flutter",
     ".astro":"folder-astro",
