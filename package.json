@@ -2,7 +2,7 @@
   "name": "lynx-theme",
   "displayName": "%extension.displayName%",
   "description": "%extension.description%",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
