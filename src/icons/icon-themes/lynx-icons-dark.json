@@ -3885,6 +3885,9 @@
     "skill-file": {
       "iconPath": "../../assets/svg/dark/skill-file.svg"
     },
+    "skill-file-dark": {
+      "iconPath": "../../assets/svg/dark/skill-file-dark.svg"
+    },
     "toon": {
       "iconPath": "../../assets/svg/dark/toon.svg"
     },
@@ -13812,6 +13815,7 @@
       "zeabur": "zeabur_light"
     },
     "fileNames": {
+      "skills-lock.json": "skill-file-dark",
       "AGENTS.md": "agents-black",
       "main.lynx.bundle": "lynx-dark",
       "lynx.config.ts": "lynx-config-file-dark",
