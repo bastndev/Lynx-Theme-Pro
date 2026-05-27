@@ -10,6 +10,9 @@
     "_file_dark": {
       "iconPath": "../../assets/svg/gray/file_dark.svg"
     },
+    "_file_license": {
+      "iconPath": "../../assets/svg/gray/license.svg"
+    },
     "_settings_dark": {
       "iconPath": "../../assets/svg/gray/settings_dark.svg"
     },
@@ -168,6 +171,7 @@
     "yaml": "_code_dark"
   },
   "fileNames": {
+    "LICENSE": "_file_license",
     "package.json": "_settings_dark",
     ".prettierrc": "_prettier_dark",
     ".prettierignore": "_prettier_dark",
