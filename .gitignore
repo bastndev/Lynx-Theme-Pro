@@ -3,5 +3,6 @@ dist
 *.vsix
 src/__test__
 
-# new/new
-# analizar
+# Go Git 
+NOTES.md
+analizar

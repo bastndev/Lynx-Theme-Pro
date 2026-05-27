@@ -1908,6 +1908,12 @@
     "folder-robot-open": {
       "iconPath": "../../assets/svg/dark/folder-robot-open.svg"
     },
+    "folder-codex": {
+      "iconPath": "../../assets/svg/dark/folder-codex.svg"
+    },
+    "folder-codex-open": {
+      "iconPath": "../../assets/svg/dark/folder-codex-open.svg"
+    },
     "agents": {
       "iconPath": "../../assets/svg/dark/agents.svg"
     },
@@ -3876,6 +3882,12 @@
     "skill": {
       "iconPath": "../../assets/svg/dark/skill.svg"
     },
+    "skill-file": {
+      "iconPath": "../../assets/svg/dark/skill-file.svg"
+    },
+    "skill-file-dark": {
+      "iconPath": "../../assets/svg/dark/skill-file-dark.svg"
+    },
     "toon": {
       "iconPath": "../../assets/svg/dark/toon.svg"
     },
@@ -3884,6 +3896,7 @@
     }
   },
   "folderNames": {
+    ".codex": "folder-codex",
     ".opencode": "folder-robot",
     ".myskills": "folder-robot",
     ".agents": "folder-robot",
@@ -7191,6 +7204,7 @@
     "skill": "folder-skills"
   },
   "folderNamesExpanded": {
+    ".codex": "folder-codex-open",
     ".opencode": "folder-robot-open",
     ".myskills": "folder-robot-open",
     ".agents": "folder-robot-open",
@@ -11626,6 +11640,8 @@
     "tsp": "typespec"
   },
   "fileNames": {
+    "skills-lock.json": "skill-file",
+    "SKILL.md": "skill",
     "NOTES.md": "notes",
     "DESIGN.md": "design",
     "AGENTS.md": "agents",
@@ -13799,6 +13815,7 @@
       "zeabur": "zeabur_light"
     },
     "fileNames": {
+      "skills-lock.json": "skill-file-dark",
       "AGENTS.md": "agents-black",
       "main.lynx.bundle": "lynx-dark",
       "lynx.config.ts": "lynx-config-file-dark",
