@@ -89,7 +89,7 @@
 
 > [!IMPORTANT]
 >
-> - `new` **Theme Blur:** We have a new theme `8. BLUR ㅤ(Lynx Theme)` that is currently *experimental*ㅤ 🧪
+> - `new` **Theme Blur:** We have a new theme `8. BLUR ㅤ(Lynx Theme)` that is currently *experimental* 🧪
 >
 > <div align="right">
 >   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/message-warning.webp" width="60%" alt="Experimental Theme Warning">
