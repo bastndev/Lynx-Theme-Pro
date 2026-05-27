@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/bastndev/Lynx-Theme-Pro/releases/latest"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/images/banner.png" width="100%" alt="Lynx Theme Pro बैनर"></a>
+  <a href="https://github.com/bastndev/Lynx-Theme-Pro/releases/latest"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/banner.png" width="100%" alt="Lynx Theme Pro बैनर"></a>
 </div>
 
 <p align="center">
@@ -90,7 +90,7 @@
 
 > [!IMPORTANT]
 >
-> - `नया` **Theme Blur:** हमारे पास एक नई थीम है `8. BLUR ㅤ(Lynx Theme)` जो वर्तमान में *प्रायोगिक* हैㅤ 🧪
+> - `नया` **Liquid Theme:** हमारे पास एक नई थीम `8. LIQUIDㅤㅤ(Lynx Theme)` है जो वर्तमान में *प्रयोगात्मक* है 🧪
 >
 > <div align="right">
 >   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/message-warning.webp" width="60%" alt="प्रायोगिक थीम चेतावनी">
@@ -165,9 +165,9 @@ ext install bastndev.lynx-theme
 
 | एक्सटेंशन                                                                                                                                                                                                            | नाम/>                                                                  | विवरण                                                                                                                                                                                                                                                       |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | एक ऑल-इन-वन टूलकिट 👻 जो Error Lens, Git Blame, Env Protection, और कोड स्क्रीनशॉट जैसी आवश्यक सुविधाओं के साथ आपके वर्कफ़्लो को सुपरचार्ज करता है।                                                                                                          |
+| [![My Skills](https://open-vsx.org/api/bastndev/my-skills/latest/file/icon.png)](https://open-vsx.org/extension/bastndev/my-skills) | [My Skills](https://github.com/bastndev/My-Skills) | अपने प्रोजेक्ट्स के लिए पुन: प्रयोज्य AI निर्देशों को बनाएं, इंस्टॉल करें और प्रबंधित करें, ताकि आपका कोडिंग सहायक आपकी शैली, नियमों और वर्कफ़्लो को पहले से जान सके। |
 | [![Lynx Keymap Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-keymap/2.2.4/1777954360451/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://open-vsx.org/extension/bastndev/lynx-keymap) | सभी कोड एडिटर में कीबोर्ड शॉर्टकट को मानकीकृत करता है, जिससे आप एक ही कुंजी संयोजन के साथ किसी भी कार्यक्षमता तक तुरंत पहुंच सकते हैं — आपके वर्कफ़्लो और डेव अनुभव को बढ़ाता है। **`यदि आपके पास सामान्य कीबोर्ड है, तो इसे बेहतर डाउनलोड करें।`** |
-| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/compare-code)  | [Compare Code](https://open-vsx.org/extension/bastndev/compare-code)   | आपको पेशेवर, तेज़ और स्पष्ट तरीके से कोड की तुलना करने देता है। आधुनिक और सहज इंटरफ़ेस के साथ, यह उत्पादकता बढ़ाने के इच्छुक डेवलपर्स के लिए आदर्श है।                                                                                                      |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | एक ऑल-इन-वन टूलकिट 👻 जो Error Lens, Git Blame, Env Protection, और कोड स्क्रीनशॉट जैसी आवश्यक सुविधाओं के साथ आपके वर्कफ़्लो को सुपरचार्ज करता है।                                                                                                          |
 
 <br>
 

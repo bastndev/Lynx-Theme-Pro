@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/bastndev/Lynx-Theme-Pro/releases/latest"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/images/banner.png" width="100%" alt="Banner de Lynx Theme Pro"></a>
+  <a href="https://github.com/bastndev/Lynx-Theme-Pro/releases/latest"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/banner.png" width="100%" alt="Banner de Lynx Theme Pro"></a>
 </div>
 
 <p align="center">
@@ -90,7 +90,7 @@
 
 > [!IMPORTANT]
 >
-> - `nuevo` **Theme Blur:** Tenemos un nuevo tema `8. BLUR ㅤ(Lynx Theme)` que actualmente es *experimental*ㅤ 🧪
+> - `nuevo` **Liquid Theme:** Tenemos un nuevo tema `8. LIQUIDㅤㅤ(Lynx Theme)` que actualmente es *experimental* 🧪
 >
 > <div align="right">
 >   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/message-warning.webp" width="60%" alt="Advertencia de Tema Experimental">
@@ -165,9 +165,9 @@ ext install bastndev.lynx-theme
 
 | Extensión                                                                                                                                                                                                            | Nombre/>                                                               | Descripción                                                                                                                                                                                                      |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | Un kit de herramientas todo en uno 👻 que potencia tu flujo de trabajo con funciones esenciales como Error Lens, Git Blame, Env Protection y capturas de código en los principales editores.                     |
+| [![My Skills](https://open-vsx.org/api/bastndev/my-skills/latest/file/icon.png)](https://open-vsx.org/extension/bastndev/my-skills) | [My Skills](https://github.com/bastndev/My-Skills) | Crea, instala y gestiona instrucciones de IA reutilizables para tus proyectos, de modo que tu asistente de código ya conozca tu estilo, reglas y flujo de trabajo. |
 | [![Lynx Keymap Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-keymap/2.2.4/1777954360451/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://open-vsx.org/extension/bastndev/lynx-keymap) | Estandariza los atajos de teclado en todos los editores de código, permitiéndote usar combinaciones de teclas para acceder a cualquier funcionalidad. Mejora el flujo de trabajo y la experiencia de desarrollo. |
-| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/compare-code)  | [Compare Code](https://open-vsx.org/extension/bastndev/compare-code)   | Te permite comparar código de forma profesional, rápida y clara. Con una interfaz moderna e intuitiva, es ideal para desarrolladores que buscan aumentar su productividad.                                       |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | Un kit de herramientas todo en uno 👻 que potencia tu flujo de trabajo con funciones esenciales como Error Lens, Git Blame, Env Protection y capturas de código en los principales editores.                     |
 
 <br>
 

@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/bastndev/Lynx-Theme-Pro/releases/latest"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/images/banner.png" width="100%" alt="Lynx Theme Pro Banner"></a>
+  <a href="https://github.com/bastndev/Lynx-Theme-Pro/releases/latest"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/banner.png" width="100%" alt="Lynx Theme Pro Banner"></a>
 </div>
 
 <p align="center">
@@ -89,7 +89,7 @@
 
 > [!IMPORTANT]
 >
-> - `neu` **Theme Blur:** Wir haben ein neues Theme `8. BLUR ㅤ(Lynx Theme)`, das derzeit _experimentell_ istㅤ 🧪
+> - `neu` **Liquid Theme:** Wir haben ein neues Theme `8. LIQUIDㅤㅤ(Lynx Theme)`, das derzeit *experimentell* ist 🧪
 >
 > <div align="right">
 >   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/message-warning.webp" width="60%" alt="Warnung für experimentelles Theme">
@@ -164,9 +164,9 @@ Vielen Dank an alle, die dieses Projekt unterstützen! Ihre Beiträge ermöglich
 
 | Erweiterung                                                                                                                                                                                                          | Name/>                                                                 | Beschreibung                                                                                                                                                                                                             |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | Ein All-in-One-Toolkit 👻, das Ihren Workflow mit wichtigen Funktionen wie Error Lens, Git Blame, Env Protection und Code-Screenshots über alle gängigen Editoren hinweg verbessert.                                     |
+| [![My Skills](https://open-vsx.org/api/bastndev/my-skills/latest/file/icon.png)](https://open-vsx.org/extension/bastndev/my-skills) | [My Skills](https://github.com/bastndev/My-Skills) | Erstellen, installieren und verwalten Sie wiederverwendbare KI-Anweisungen für Ihre Projekte, damit Ihr Programmierassistent Ihren Stil, Ihre Regeln und Ihren Workflow bereits kennt. |
 | [![Lynx Keymap Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-keymap/2.2.4/1777954360451/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://open-vsx.org/extension/bastndev/lynx-keymap) | Standardisiert Tastenkombinationen in allen Code-Editoren und ermöglicht den sofortigen Zugriff auf jede Funktion mit einer einzigen Tastenkombination – so wird Ihr Workflow und Ihre Entwicklungserfahrung verbessert. |
-| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/compare-code)  | [Compare Code](https://open-vsx.org/extension/bastndev/compare-code)   | Ermöglicht es Ihnen, Code professionell, schnell und übersichtlich zu vergleichen. Mit einer modernen und intuitiven Benutzeroberfläche ist es ideal für Entwickler, die ihre Produktivität steigern möchten.            |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | Ein All-in-One-Toolkit 👻, das Ihren Workflow mit wichtigen Funktionen wie Error Lens, Git Blame, Env Protection und Code-Screenshots über alle gängigen Editoren hinweg verbessert.                                     |
 
 <br>
 

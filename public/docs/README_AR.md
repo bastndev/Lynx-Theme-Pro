@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/bastndev/Lynx-Theme-Pro/releases/latest"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/images/banner.png" width="100%" alt="شعار Lynx Theme Pro"></a>
+  <a href="https://github.com/bastndev/Lynx-Theme-Pro/releases/latest"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/banner.png" width="100%" alt="شعار Lynx Theme Pro"></a>
 </div>
 
 <p align="center">
@@ -90,7 +90,7 @@
 
 > [!IMPORTANT]
 >
-> - `جديد` **Theme Blur:** لدينا سمة جديدة `8. BLUR ㅤ(Lynx Theme)` وهي حاليًا *تجريبية*ㅤ 🧪
+> - `جديد` **Liquid Theme:** لدينا سمة جديدة `8. LIQUIDㅤㅤ(Lynx Theme)` وهي حاليًا *تجريبية* 🧪
 >
 > <div align="right">
 >   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/message-warning.webp" width="60%" alt="تحذير السمة التجريبية">
@@ -165,9 +165,9 @@ ext install bastndev.lynx-theme
 
 | الإضافة                                                                                                                                                                                                            | الاسم/>                                                                | الوصف                                                                                                                                                                                                                                                       |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | مجموعة أدوات شاملة 👻 تعزز سير عملك بميزات أساسية مثل Error Lens و Git Blame و Env Protection ولقطات شاشة الكود عبر المحررات الرئيسية.                                                                                                          |
+| [![My Skills](https://open-vsx.org/api/bastndev/my-skills/latest/file/icon.png)](https://open-vsx.org/extension/bastndev/my-skills) | [My Skills](https://github.com/bastndev/My-Skills) | قم بإنشاء وتثبيت وإدارة تعليمات الذكاء الاصطناعي القابلة لإعادة الاستخدام لمشاريعك، حتى يعرف مساعد الترميز الخاص بك بالفعل أسلوبك وقواعدك وسير عملك. |
 | [![Lynx Keymap Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-keymap/2.2.4/1777954360451/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://open-vsx.org/extension/bastndev/lynx-keymap) | يوحد اختصارات لوحة المفاتيح عبر جميع محررات الأكواد، مما يمنحك وصولاً فوريًا إلى أي وظيفة بمجموعة مفاتيح واحدة — يعزز سير عملك وتجربة التطوير. **`إذا كان لديك لوحة مفاتيح عادية، فمن الأفضل تنزيل هذا.`** |
-| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/compare-code)  | [Compare Code](https://open-vsx.org/extension/bastndev/compare-code)   | يتيح لك مقارنة الكود بطريقة احترافية وسريعة وواضحة. مع واجهة حديثة وبديهية، فهو مثالي للمطورين الذين يتطلعون إلى تعزيز إنتاجيتهم.                                                                                                      |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | مجموعة أدوات شاملة 👻 تعزز سير عملك بميزات أساسية مثل Error Lens و Git Blame و Env Protection ولقطات شاشة الكود عبر المحررات الرئيسية.                                                                                                          |
 
 <br>
 

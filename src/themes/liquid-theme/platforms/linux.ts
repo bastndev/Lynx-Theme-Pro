@@ -6,7 +6,7 @@ import * as os from 'os';
 import { spawn } from 'child_process';
 import { t } from '../utils/l10n';
 import {
-  resolveVSCodePaths, applyColorCustomizations, restoreColorCustomizations, buildThemeCSS,
+  resolveVSCodePaths, saveColorBackup, restoreColorCustomizations, buildThemeCSS,
 } from '../utils/platform-shared';
 
 const {
@@ -108,13 +108,14 @@ export async function install(context: vscode.ExtensionContext): Promise<void> {
     if (!noMetaTag) { await writer.writeFile(HTMLFile, patchedHTML, 'utf-8'); }
 
     await writer.flush();
-    await applyColorCustomizations(context, { saveGpuAcceleration: true });
+    await saveColorBackup(context, { saveGpuAcceleration: true });
+    await context.globalState.update('lynxLiquidInstalled', true);
+    await context.globalState.update('lynxLiquidPendingColorApply', true);
     try {
       await vscode.workspace.getConfiguration().update(
         'terminal.integrated.gpuAcceleration', 'off', vscode.ConfigurationTarget.Global
       );
     } catch {}
-    await context.globalState.update('lynxLiquidInstalled', true);
 
     void vscode.window.showInformationMessage(
       t('lynx.liquid.install.success.linux'), { title: t('lynx.liquid.btn.restart') }
