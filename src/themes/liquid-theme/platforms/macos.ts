@@ -3,8 +3,8 @@ import * as fs from 'fs';
 import { promises as fsPromises } from 'fs';
 import { t } from '../utils/l10n';
 import {
-  resolveVSCodePaths, applyColorCustomizations, restoreColorCustomizations,
-  buildThemeCSSMac, getErrorMessage, hasErrorCode,
+  resolveVSCodePaths, saveColorBackup, restoreColorCustomizations,
+  applyPendingColorCustomizations, buildThemeCSSMac, getErrorMessage, hasErrorCode,
 } from '../utils/platform-shared';
 
 const {
@@ -26,11 +26,14 @@ let _installing = false;
 
 // ─── Restart ──────────────────────────────────────────────────────────────────
 
-async function promptRestart(): Promise<void> {
+async function promptRestart(context?: vscode.ExtensionContext): Promise<void> {
   const config = vscode.workspace.getConfiguration();
   const style  = config.get('window.titleBarStyle') ?? 'native';
   await config.update('window.titleBarStyle', style === 'native' ? 'custom' : 'native', vscode.ConfigurationTarget.Global);
   await config.update('window.titleBarStyle', style, vscode.ConfigurationTarget.Global);
+  if (context) {
+    await applyPendingColorCustomizations(context);
+  }
 }
 
 // ─── Installation ─────────────────────────────────────────────────────────────
@@ -98,12 +101,13 @@ export async function install(context: vscode.ExtensionContext): Promise<void> {
     if (!noMetaTag) { await writer.writeFile(HTMLFile, patchedHTML, 'utf-8'); }
 
     await writer.flush();
-    await applyColorCustomizations(context);
+    await saveColorBackup(context);
     await context.globalState.update('lynxLiquidInstalled', true);
+    await context.globalState.update('lynxLiquidPendingColorApply', true);
 
     void vscode.window.showInformationMessage(
       t('lynx.liquid.install.success.mac'), { title: t('lynx.liquid.btn.restart') }
-    ).then(msg => { if (msg) { void promptRestart(); } });
+    ).then(msg => { if (msg) { void promptRestart(context); } });
   } catch (error: unknown) {
     writer.cleanup();
     console.error('[Lynx Liquid][macOS] Installation error:', error);

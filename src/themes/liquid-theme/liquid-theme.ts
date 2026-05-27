@@ -1,5 +1,8 @@
 import * as vscode from 'vscode';
 import * as l10n from './utils/l10n';
+import {
+  applyPendingColorCustomizations, cleanupLiquidResidue,
+} from './utils/platform-shared';
 
 // Exact theme label name in package.json
 const LIQUID_THEME_LABEL = '8. LIQUIDㅤㅤ(Lynx Theme) 🧪';
@@ -46,21 +49,25 @@ export function activate(context: vscode.ExtensionContext) {
 
   const handler = getPlatformHandler();
 
-  // If the platform is not supported yet, exit without doing anything
   if (!handler) {
     console.warn('[Lynx Liquid] Unsupported platform:', process.platform);
     return;
   }
 
-  // --- Startup verification ---
-  // If the user already had the liquid theme selected before restarting,
-  // check if it's already installed to avoid prompting again.
+  const isInstalled = context.globalState.get('lynxLiquidInstalled', false);
+
+  if (isLiquidThemeActive()) {
+    void applyPendingColorCustomizations(context);
+  }
+
+  if (!isLiquidThemeActive() && !isInstalled) {
+    void cleanupLiquidResidue(context);
+  }
+
   if (isLiquidThemeActive()) {
     void handler.handleActivation(context);
   }
 
-  // --- Theme change listener ---
-  // Only acts when the user switches to or from the liquid theme.
   const disposable = vscode.workspace.onDidChangeConfiguration((event) => {
     if (!event.affectsConfiguration('workbench.colorTheme')) {
       return;
