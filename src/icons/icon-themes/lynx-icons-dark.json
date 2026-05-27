@@ -11634,6 +11634,7 @@
     "tsp": "typespec"
   },
   "fileNames": {
+    "SKILL.md": "skill",
     "NOTES.md": "notes",
     "DESIGN.md": "design",
     "AGENTS.md": "agents",
