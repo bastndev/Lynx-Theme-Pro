@@ -89,7 +89,7 @@
 
 > [!IMPORTANT]
 >
-> - `новое` **Theme Blur:** У нас есть новая тема `8. BLUR ㅤ(Lynx Theme)`, которая в данный момент является *экспериментальной*ㅤ 🧪
+> - `новый` **Liquid Theme:** У нас есть новая тема `8. LIQUIDㅤㅤ(Lynx Theme)`, которая в настоящее время является *экспериментальной* 🧪
 >
 > <div align="right">
 >   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/message-warning.webp" width="60%" alt="Предупреждение об экспериментальной теме">
@@ -164,9 +164,9 @@ ext install bastndev.lynx-theme
 
 | Расширение                                                                                                                                                                                                           | Название/>                                                             | Описание                                                                                                                                                                                     |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | Универсальный инструментарий 👻, который расширяет ваш рабочий процесс такими важными функциями, как Error Lens, Git Blame, Env Protection и скриншоты кода во всех основных редакторах.     |
+| [![My Skills](https://open-vsx.org/api/bastndev/my-skills/latest/file/icon.png)](https://open-vsx.org/extension/bastndev/my-skills) | [My Skills](https://github.com/bastndev/My-Skills) | Создавайте, устанавливайте и управляйте многократно используемыми инструкциями ИИ для ваших проектов, чтобы ваш помощник по кодированию уже знал ваш стиль, правила и рабочий процесс. |
 | [![Lynx Keymap Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-keymap/2.2.4/1777954360451/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://open-vsx.org/extension/bastndev/lynx-keymap) | Стандартизирует сочетания клавиш во всех редакторах кода, позволяя использовать комбинации клавиш для доступа к любой функциональности. Улучшает рабочий процесс и опыт разработки.          |
-| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/compare-code)  | [Compare Code](https://open-vsx.org/extension/bastndev/compare-code)   | Позволяет профессионально, быстро и четко сравнивать код. С современным и интуитивно понятным интерфейсом это идеальный вариант для разработчиков, стремящихся повысить свою продуктивность. |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | Универсальный инструментарий 👻, который расширяет ваш рабочий процесс такими важными функциями, как Error Lens, Git Blame, Env Protection и скриншоты кода во всех основных редакторах.     |
 
 <br>
 

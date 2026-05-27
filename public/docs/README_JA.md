@@ -89,7 +89,7 @@
 
 > [!IMPORTANT]
 >
-> - `新規` **Theme Blur:** 新しいテーマ `8. BLUR ㅤ(Lynx Theme)` が追加されました。現在は _実験的_ ですㅤ 🧪
+> - `新` **Liquid Theme:** 現在 *実験的* な新しいテーマ `8. LIQUIDㅤㅤ(Lynx Theme)` があります 🧪
 >
 > <div align="right">
 >   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/message-warning.webp" width="60%" alt="実験的テーマの警告">
@@ -164,9 +164,9 @@ ext install bastndev.lynx-theme
 
 | 拡張機能                                                                                                                                                                                                             | 名前/>                                                                 | 説明                                                                                                                                                                       |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | Error Lens、Git Blame、Env Protection、主要なエディタ間でのコードスクリーンショットなどの必須機能を備え、ワークフローを強化するオールインワンツールキット 👻 です。        |
+| [![My Skills](https://open-vsx.org/api/bastndev/my-skills/latest/file/icon.png)](https://open-vsx.org/extension/bastndev/my-skills) | [My Skills](https://github.com/bastndev/My-Skills) | プロジェクト用に再利用可能な AI 命令を作成、インストール、管理することで、コーディング アシスタントがあなたのスタイル、ルール、ワークフローをすでに把握できるようになります。 |
 | [![Lynx Keymap Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-keymap/2.2.4/1777954360451/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://open-vsx.org/extension/bastndev/lynx-keymap) | すべてのコードエディタでキーボードショートカットを標準化し、単一のキーの組み合わせであらゆる機能に即座にアクセスできるようにします。ワークフローと開発体験を向上させます。 |
-| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/compare-code)  | [Compare Code](https://open-vsx.org/extension/bastndev/compare-code)   | コードをプロフェッショナル、高速、かつ明確に比較できます。モダンで直感的なインターフェースを備えており、生産性を向上させたい開発者に最適です。                             |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | Error Lens、Git Blame、Env Protection、主要なエディタ間でのコードスクリーンショットなどの必須機能を備え、ワークフローを強化するオールインワンツールキット 👻 です。        |
 
 <br>
 

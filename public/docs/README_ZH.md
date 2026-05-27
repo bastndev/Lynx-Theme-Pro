@@ -89,7 +89,7 @@
 
 > [!IMPORTANT]
 >
-> - `新` **Blur 主题：** 我们有一个新主题 `8. BLUR ㅤ(Lynx Theme)`，目前处于 *实验阶段*ㅤ 🧪
+> - `新` **Liquid Theme:** 我们有一个新主题 `8. LIQUIDㅤㅤ(Lynx Theme)`，目前处于 *实验阶段* 🧪
 >
 > <div align="right">
 >   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/message-warning.webp" width="60%" alt="实验性主题警告">
@@ -164,9 +164,9 @@ ext install bastndev.lynx-theme
 
 | 图标                                                                                                                                                                                                                 | 名称/>                                                                 | 描述                                                                                                                 |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | 一个多功能工具包 👻，通过 Error Lens、Git Blame、Env Protection 和跨主流编辑器的代码截图等基本功能增强您的工作流程。 |
+| [![My Skills](https://open-vsx.org/api/bastndev/my-skills/latest/file/icon.png)](https://open-vsx.org/extension/bastndev/my-skills) | [My Skills](https://github.com/bastndev/My-Skills) | 为您的项目创建、安装和管理可重用的 AI 指令，让您的编码助手了解您的风格、规则和工作流程。 |
 | [![Lynx Keymap Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-keymap/2.2.4/1777954360451/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://open-vsx.org/extension/bastndev/lynx-keymap) | 标准化所有代码编辑器的键盘快捷键，允许您使用组合键访问任何功能。它改进了工作流程和开发体验。                         |
-| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/compare-code)  | [Compare Code](https://open-vsx.org/extension/bastndev/compare-code)   | 让您以专业、快速且清晰的方式比较代码。拥有现代且直观的界面，是寻求提高生产力的开发者的理想选择。                     |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | 一个多功能工具包 👻，通过 Error Lens、Git Blame、Env Protection 和跨主流编辑器的代码截图等基本功能增强您的工作流程。 |
 
 <br>
 

@@ -89,7 +89,7 @@
 
 > [!IMPORTANT]
 >
-> - `nouveau` **Thème Blur :** Nous avons un nouveau thème `8. BLUR ㅤ(Lynx Theme)` qui est actuellement *expérimental*ㅤ 🧪
+> - `nouveau` **Liquid Theme:** Nous avons un nouveau thème `8. LIQUIDㅤㅤ(Lynx Theme)` qui est actuellement *expérimental* 🧪
 >
 > <div align="right">
 >   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/message-warning.webp" width="60%" alt="Avertissement Thème Expérimental">
@@ -164,9 +164,9 @@ Merci à tous ceux qui soutiennent ce projet ! Vos contributions rendent possibl
 
 | Extension                                                                                                                                                                                                            | Nom/>                                                                  | Description                                                                                                                                                                                                                             |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | Une boîte à outils tout-en-un 👻 qui booste votre flux de travail avec des fonctionnalités essentielles comme Error Lens, Git Blame, Env Protection et des captures de code sur les principaux éditeurs.                                |
+| [![My Skills](https://open-vsx.org/api/bastndev/my-skills/latest/file/icon.png)](https://open-vsx.org/extension/bastndev/my-skills) | [My Skills](https://github.com/bastndev/My-Skills) | Créez, installez et gérez des instructions d'IA réutilisables pour vos projets, afin que votre assistant de codage connaisse déjà votre style, vos règles et votre flux de travail. |
 | [![Lynx Keymap Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-keymap/2.2.4/1777954360451/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://open-vsx.org/extension/bastndev/lynx-keymap) | Standardise les raccourcis clavier sur tous les éditeurs de code, vous donnant un accès instantané à n'importe quelle fonctionnalité avec une seule combinaison de touches — boostant votre flux de travail et votre expérience de dev. |
-| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/compare-code)  | [Compare Code](https://open-vsx.org/extension/bastndev/compare-code)   | Vous permet de comparer du code de manière professionnelle, rapide et claire. Avec une interface moderne et intuitive, c'est idéal pour les développeurs cherchant à booster leur productivité.                                         |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | Une boîte à outils tout-en-un 👻 qui booste votre flux de travail avec des fonctionnalités essentielles comme Error Lens, Git Blame, Env Protection et des captures de code sur les principaux éditeurs.                                |
 
 <br>
 
