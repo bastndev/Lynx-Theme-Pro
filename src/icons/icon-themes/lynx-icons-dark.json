@@ -3882,6 +3882,9 @@
     "skill": {
       "iconPath": "../../assets/svg/dark/skill.svg"
     },
+    "skill-file": {
+      "iconPath": "../../assets/svg/dark/skill-file.svg"
+    },
     "toon": {
       "iconPath": "../../assets/svg/dark/toon.svg"
     },
@@ -11634,6 +11637,7 @@
     "tsp": "typespec"
   },
   "fileNames": {
+    "skills-lock.json": "skill-file",
     "SKILL.md": "skill",
     "NOTES.md": "notes",
     "DESIGN.md": "design",
