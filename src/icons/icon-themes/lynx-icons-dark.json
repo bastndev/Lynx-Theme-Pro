@@ -1908,6 +1908,12 @@
     "folder-robot-open": {
       "iconPath": "../../assets/svg/dark/folder-robot-open.svg"
     },
+    "folder-codex": {
+      "iconPath": "../../assets/svg/dark/folder-codex.svg"
+    },
+    "folder-codex-open": {
+      "iconPath": "../../assets/svg/dark/folder-codex-open.svg"
+    },
     "agents": {
       "iconPath": "../../assets/svg/dark/agents.svg"
     },
@@ -3884,6 +3890,7 @@
     }
   },
   "folderNames": {
+    ".codex": "folder-codex",
     ".opencode": "folder-robot",
     ".myskills": "folder-robot",
     ".agents": "folder-robot",
@@ -7191,6 +7198,7 @@
     "skill": "folder-skills"
   },
   "folderNamesExpanded": {
+    ".codex": "folder-codex-open",
     ".opencode": "folder-robot-open",
     ".myskills": "folder-robot-open",
     ".agents": "folder-robot-open",
