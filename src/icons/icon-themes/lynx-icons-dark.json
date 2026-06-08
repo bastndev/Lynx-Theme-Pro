@@ -1893,6 +1893,9 @@
     "blender": {
       "iconPath": "../../assets/svg/dark/blender.svg"
     },
+    "main-ts": {
+      "iconPath": "../../assets/svg/dark/main-ts.svg"
+    },
     "file": {
       "iconPath": "../../assets/svg/dark/file.svg"
     },
@@ -11646,6 +11649,7 @@
     "tsp": "typespec"
   },
   "fileNames": {
+    "main.ts": "main-ts",
     "skills-lock.json": "skill-file",
     "SKILL.md": "skill",
     "NOTES.md": "notes",
