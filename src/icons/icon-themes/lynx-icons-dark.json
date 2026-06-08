@@ -63,6 +63,12 @@
     "typescript-light": {
       "iconPath": "../../assets/svg/dark/typescript.svg"
     },
+    "typescript-def": {
+      "iconPath": "../../assets/svg/dark/typescript-def.svg"
+    },
+    "main-ts": {
+      "iconPath": "../../assets/svg/dark/main-ts.svg"
+    },
     "scala": {
       "iconPath": "../../assets/svg/dark/scala.svg"
     },
@@ -527,9 +533,6 @@
     },
     "redux-store": {
       "iconPath": "../../assets/svg/dark/redux-store.svg"
-    },
-    "typescript-def": {
-      "iconPath": "../../assets/svg/dark/typescript-def.svg"
     },
     "markdoc-config": {
       "iconPath": "../../assets/svg/dark/markdoc-config.svg"
@@ -1892,9 +1895,6 @@
     },
     "blender": {
       "iconPath": "../../assets/svg/dark/blender.svg"
-    },
-    "main-ts": {
-      "iconPath": "../../assets/svg/dark/main-ts.svg"
     },
     "file": {
       "iconPath": "../../assets/svg/dark/file.svg"
