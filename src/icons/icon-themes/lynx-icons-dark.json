@@ -63,6 +63,12 @@
     "typescript-light": {
       "iconPath": "../../assets/svg/dark/typescript.svg"
     },
+    "typescript-def": {
+      "iconPath": "../../assets/svg/dark/typescript-def.svg"
+    },
+    "main-ts": {
+      "iconPath": "../../assets/svg/dark/main-ts.svg"
+    },
     "scala": {
       "iconPath": "../../assets/svg/dark/scala.svg"
     },
@@ -527,9 +533,6 @@
     },
     "redux-store": {
       "iconPath": "../../assets/svg/dark/redux-store.svg"
-    },
-    "typescript-def": {
-      "iconPath": "../../assets/svg/dark/typescript-def.svg"
     },
     "markdoc-config": {
       "iconPath": "../../assets/svg/dark/markdoc-config.svg"
@@ -2213,6 +2216,12 @@
     },
     "folder-resource-open": {
       "iconPath": "../../assets/svg/dark/folder-resource-open.svg"
+    },
+    "folder-assets": {
+      "iconPath": "../../assets/svg/dark/folder-assets-open.svg"
+    },
+    "folder-assets-open": {
+      "iconPath": "../../assets/svg/dark/folder-assets.svg"
     },
     "folder-lib": {
       "iconPath": "../../assets/svg/dark/folder-lib.svg"
@@ -4559,14 +4568,14 @@
     ".res": "folder-resource",
     "_res": "folder-resource",
     "__res__": "folder-resource",
-    "asset": "folder-resource",
-    ".asset": "folder-resource",
-    "_asset": "folder-resource",
-    "__asset__": "folder-resource",
-    "assets": "folder-resource",
-    ".assets": "folder-resource",
-    "_assets": "folder-resource",
-    "__assets__": "folder-resource",
+    "asset": "folder-assets",
+    ".asset": "folder-assets",
+    "_asset": "folder-assets",
+    "__asset__": "folder-assets",
+    "assets": "folder-assets",
+    ".assets": "folder-assets",
+    "_assets": "folder-assets",
+    "__assets__": "folder-assets",
     "static": "folder-resource",
     ".static": "folder-resource",
     "_static": "folder-resource",
@@ -7867,14 +7876,14 @@
     ".res": "folder-resource-open",
     "_res": "folder-resource-open",
     "__res__": "folder-resource-open",
-    "asset": "folder-resource-open",
-    ".asset": "folder-resource-open",
-    "_asset": "folder-resource-open",
-    "__asset__": "folder-resource-open",
-    "assets": "folder-resource-open",
-    ".assets": "folder-resource-open",
-    "_assets": "folder-resource-open",
-    "__assets__": "folder-resource-open",
+    "asset": "folder-assets-open",
+    ".asset": "folder-assets-open",
+    "_asset": "folder-assets-open",
+    "__asset__": "folder-assets-open",
+    "assets": "folder-assets-open",
+    ".assets": "folder-assets-open",
+    "_assets": "folder-assets-open",
+    "__assets__": "folder-assets-open",
     "static": "folder-resource-open",
     ".static": "folder-resource-open",
     "_static": "folder-resource-open",
@@ -11640,6 +11649,7 @@
     "tsp": "typespec"
   },
   "fileNames": {
+    "main.ts": "main-ts",
     "skills-lock.json": "skill-file",
     "SKILL.md": "skill",
     "NOTES.md": "notes",
