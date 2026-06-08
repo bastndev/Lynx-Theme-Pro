@@ -1,10 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1976d2"/>
-      <stop offset="100%" stop-color="#ab47bc"/>
+    <linearGradient id="folderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E676"/>
+      <stop offset="45%" stop-color="#00BFA5"/>
+      <stop offset="100%" stop-color="#2979FF"/>
+    </linearGradient>
+
+    <linearGradient id="panelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8FFF7"/>
+      <stop offset="100%" stop-color="#B2EBF2"/>
+    </linearGradient>
+
+    <linearGradient id="arrowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00695C"/>
+      <stop offset="100%" stop-color="#1A237E"/>
     </linearGradient>
   </defs>
-  <path fill="url(#g)" d="m13.844 7.536-1.288-1.072A2 2 0 0 0 11.276 6H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2H15.124a2 2 0 0 1-1.28-.464"/>
-  <path fill="#e1bee7" d="M28 26a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2H18a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h-4v2h18v-2Zm-5-6v-2l4 2.798L23 24v-2a4.12 4.12 0 0 0-4 2c.448-2.003.888-3.595 4-4"/>
+
+  <path
+    fill="url(#folderGradient)"
+    d="m13.844 7.536-1.288-1.072A2 2 0 0 0 11.276 6H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2H15.124a2 2 0 0 1-1.28-.464"
+  />
+
+  <path
+    fill="url(#panelGradient)"
+    d="M28 26a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2H18a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h-4v2h18v-2Zm-5-6v-2l4 2.798L23 24v-2a4.12 4.12 0 0 0-4 2c.448-2.003.888-3.595 4-4"
+  />
+
+  <path
+    fill="url(#arrowGradient)"
+    d="M23 20v-2l4 2.798L23 24v-2a4.12 4.12 0 0 0-4 2c.448-2.003.888-3.595 4-4"
+  />
 </svg>
