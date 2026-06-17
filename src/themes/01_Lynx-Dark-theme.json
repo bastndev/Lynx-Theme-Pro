@@ -292,7 +292,7 @@
     "statusBar.noFolderForeground":          "#3d5c48",    // - Status bar no folder text
     "statusBarItem.hoverForeground":         "#d4ead8",    // - Status bar item hover text
     "statusBarItem.activeBackground":        "#00d88215",  // - Status bar active item bg
-    "statusBarItem.remoteBackground":        "#009960",    // - Remote corner bg
+    "statusBarItem.remoteBackground":        "#007848",    // - Remote corner bg
     "statusBarItem.remoteForeground":        "#e8f0ec",    // - Remote corner logo-ICON
     "statusBarItem.remoteHoverForeground":   "#ffffff",    // - Hover corner logo-ICON
     "statusBarItem.prominentBackground":     "#1a3020",    // - Bottom box bg
