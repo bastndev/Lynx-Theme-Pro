@@ -3882,6 +3882,9 @@
     "icon-png": {
       "iconPath": "../../assets/svg/dark/files/icon.svg"
     },
+    "f1": {
+      "iconPath": "../../assets/svg/dark/files/f1.svg"
+    },
     "appwrite": {
       "iconPath": "../../assets/svg/dark/files/appwrite.svg"
     },
@@ -11657,6 +11660,7 @@
     "tsp": "typespec"
   },
   "fileNames": {
+    "GRAPH_REPORT.md": "f1",
     "main.ts": "main-ts",
     "skills-lock.json": "skill-file",
     "SKILL.md": "skill",
