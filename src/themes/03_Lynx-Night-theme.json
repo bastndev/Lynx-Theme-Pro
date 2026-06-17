@@ -155,6 +155,10 @@
     "minimapSlider.hoverBackground":               "#2db8b050",  // - Slider hover
     "minimapSlider.activeBackground":              "#2db8b068",  // - Slider active
 
+    "minimapGutter.addedBackground":               "#1fa870",    // - Minimap added (git)
+    "minimapGutter.modifiedBackground":            "#2db8b0",    // - Minimap modified (git)
+    "minimapGutter.deletedBackground":             "#b84850",    // - Minimap deleted (git)
+
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground":     "#2db8b0",    // - Active line number
     "editorLineNumber.foreground":           "#1e3e48",    // - Line numbers
@@ -322,6 +326,12 @@
 
     "editorOverviewRuler.findMatchForeground":     "#2db8b075", // - Mini map overview ruler ---|
     "editorOverviewRuler.rangeHighlightForeground":"#3dd8ce70", // - Mini map overview ruler ---|
+    "editorOverviewRuler.errorForeground":         "#f07075cc", // - Error mark
+    "editorOverviewRuler.warningForeground":       "#d4a83acc", // - Warning mark
+    "editorOverviewRuler.infoForeground":          "#2db8b0cc", // - Info mark
+    "editorOverviewRuler.addedForeground":         "#1fa87090", // - Added mark (git)
+    "editorOverviewRuler.modifiedForeground":      "#2db8b090", // - Modified mark (git)
+    "editorOverviewRuler.deletedForeground":       "#b8485090", // - Deleted mark (git)
 
     // --- -- - BG message error
     "inputValidation.errorBackground":       "#f0707520",  // - Error message bg
@@ -353,6 +363,16 @@
     "editorInlayHint.parameterForeground":   "#9870c8",    // - Inlay hint parameter text (soft purple, params stand out)
     "editorInlayHint.parameterBackground":   "#281830a0",  // - Inlay hint parameter bg
     
+    // --- -- - Code Lens, Light Bulb & Editor Cues
+    "editorCodeLens.foreground":             "#3d5560",    // - Code lens text
+    "editorLightBulb.foreground":            "#d4a83a",    // - Quick fix bulb
+    "editorLightBulbAutoFix.foreground":     "#1fa870",    // - Auto-fix bulb
+    "editorLightBulbAi.foreground":          "#2db8b0",    // - AI fix bulb
+    "editorLink.activeForeground":           "#3dd8ce",    // - Ctrl+click link
+    "editorGutter.foldingControlForeground": "#3d5560",    // - Folding chevron
+    "editorWhitespace.foreground":           "#1e3e4860",  // - Whitespace dots
+    "editorRuler.foreground":                "#1e334060",  // - Vertical rulers
+
     // --- -- - Sticky Scroll
     "editorStickyScroll.background":         "#10191f",    // - Sticky scroll bg
     "editorStickyScroll.border":             "#1e3340",    // - Sticky scroll border
@@ -429,6 +449,12 @@
     "settings.numberInputBackground":        "#10191f",    // - Number input bg
     "settings.numberInputForeground":        "#ddeef0",    // - Number input text
     "settings.numberInputBorder":            "#1e3340",    // - Number input border
+
+    // --- -- - Editor Diagnostics (squiggles)
+    "editorError.foreground":                "#f07075",    // - Error squiggle
+    "editorWarning.foreground":              "#d4a83a",    // - Warning squiggle
+    "editorInfo.foreground":                 "#2db8b0",    // - Info squiggle
+    "editorHint.foreground":                 "#2db8b0",    // - Hint squiggle
 
     // --- -- - Problems Panel
     "problemsErrorIcon.foreground":          "#f07075",    // - Error icon
