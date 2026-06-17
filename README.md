@@ -89,7 +89,7 @@
 
 > [!IMPORTANT]
 >
-> - `new` **Liquid Theme:** We have a new theme `8. LIQUIDㅤㅤ(Lynx Theme)` that is currently *experimental* 🧪
+> - `new` **Liquid Theme:** We have a new theme `8. LIQUIDㅤㅤ(Lynx Theme)` that is currently _experimental_ 🧪
 >
 > <div align="right">
 >   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/message-warning.webp" width="60%" alt="Experimental Theme Warning">
@@ -130,7 +130,7 @@ ext install bastndev.lynx-theme
 |                     **[Gohit X](https://gohit.xyz)**                      |
 |                          _Creator & Maintainer_                           |
 
-- 🐦 **[X](https://twitter.com/gohitx)** : For questions and discussions.
+- 🐦 **[X](https://x.com/intent/follow?screen_name=gohitx)** : For questions and discussions.
 - 🌱 **[IG](https://instagram.com/gohitx)** : **`new`** – Project previews & life updates.
 - 🔴 **[YouTube](https://www.youtube.com/@gohitx?sub_confirmation=1)** : Code, Software and development insights.
 
@@ -164,7 +164,7 @@ Thank you to everyone who supports this project! Your contributions make updates
 
 | Extension                                                                                                                                                                                                            | Name/>                                                                 | Description                                                                                                                                                                                                                                       |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![My Skills](https://open-vsx.org/api/bastndev/my-skills/latest/file/icon.png)](https://open-vsx.org/extension/bastndev/my-skills)                                                                                  | [My Skills](https://github.com/bastndev/My-Skills)             | Create, install, and manage reusable AI instructions for your projects, so your coding assistant already knows your style, rules, and workflow.                                                                                                   |
+| [![F1](https://open-vsx.org/api/bastndev/my-skills/latest/file/icon.png)](https://open-vsx.org/extension/bastndev/my-skills)                                                                                         | [My Skills](https://github.com/bastndev/My-Skills)                     | Create, install, and manage reusable AI instructions for your projects, so your coding assistant already knows your style, rules, and workflow.                                                                                                   |
 | [![Lynx Keymap Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-keymap/2.2.4/1777954360451/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://open-vsx.org/extension/bastndev/lynx-keymap) | Standardizes keyboard shortcuts across all code editors, giving you instant access to any functionality with a single key combination — boosting your workflow and dev experience. **`If you have a normal keyboard, better download this one.`** |
 | [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | An all-in-one toolkit 👻 that supercharges your workflow with essential features like Error Lens, Git Blame, Env Protection, and code screenshots across major editors.                                                                           |
 
