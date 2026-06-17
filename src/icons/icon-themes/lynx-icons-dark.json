@@ -3633,6 +3633,12 @@
     "folder-shortcuts-open": {
       "iconPath": "../../assets/svg/dark/folders/folder-shortcuts-open.svg"
     },
+    "folder-f1": {
+      "iconPath": "../../assets/svg/dark/folders/folder-f1.svg"
+    },
+    "folder-f1-open": {
+      "iconPath": "../../assets/svg/dark/folders/folder-f1-open.svg"
+    },
     "folder-claude": {
       "iconPath": "../../assets/svg/dark/folders/folder-claude.svg"
     },
@@ -3905,6 +3911,7 @@
     }
   },
   "folderNames": {
+    ".f1": "folder-f1",
     ".codex": "folder-codex",
     ".opencode": "folder-robot",
     ".myskills": "folder-robot",
@@ -7213,6 +7220,7 @@
     "skill": "folder-skills"
   },
   "folderNamesExpanded": {
+    ".f1": "folder-f1-open",
     ".codex": "folder-codex-open",
     ".opencode": "folder-robot-open",
     ".myskills": "folder-robot-open",

@@ -1,0 +1,10 @@
+<svg width="512" height="580" viewBox="88 -16 390 494" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bolt-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdae2c"/>
+      <stop offset="100%" stop-color="#fd9413"/>
+    </linearGradient>
+  </defs>
+  <path fill="#0090ff" d="M268 -2 L412 -2 L326 160 L466 160 L176 474 L246 248 L106 248 Z"/>
+  <path fill="url(#bolt-grad)" d="M254 -12 L398 -12 L312 148 L452 148 L162 460 L232 236 L92 236 Z"/>
+</svg>
