@@ -1,987 +1,985 @@
 {
   "iconDefinitions": {
     "git": {
-      "iconPath": "../../assets/svg/light/git.svg"
+      "iconPath": "../../assets/svg/light/files/git.svg"
     },
     "xml": {
-      "iconPath": "../../assets/svg/light/xml.svg"
+      "iconPath": "../../assets/svg/light/files/xml.svg"
     },
     "prettier": {
-      "iconPath": "../../assets/svg/dark/prettier.svg"
+      "iconPath": "../../assets/svg/dark/files/prettier.svg"
     },
     "prettier-file": {
-      "iconPath": "../../assets/svg/dark/prettier.svg"
+      "iconPath": "../../assets/svg/dark/files/prettier.svg"
     },
     "toml": {
-      "iconPath": "../../assets/svg/light/toml.svg"
+      "iconPath": "../../assets/svg/light/files/toml.svg"
     },
     "json": {
-      "iconPath": "../../assets/svg/light/json.svg"
+      "iconPath": "../../assets/svg/light/files/json.svg"
     },
     "java": {
-      "iconPath": "../../assets/svg/light/java.svg"
+      "iconPath": "../../assets/svg/light/files/java.svg"
     },
     "python": {
-      "iconPath": "../../assets/svg/light/python.svg"
+      "iconPath": "../../assets/svg/light/files/python.svg"
     },
     "javascript": {
-      "iconPath": "../../assets/svg/light/javascript.svg"
+      "iconPath": "../../assets/svg/light/files/javascript.svg"
     },
     "typescript": {
-      "iconPath": "../../assets/svg/light/typescript.svg"
+      "iconPath": "../../assets/svg/light/files/typescript.svg"
     },
     "scala": {
-      "iconPath": "../../assets/svg/light/scala.svg"
+      "iconPath": "../../assets/svg/light/files/scala.svg"
     },
     "perl": {
-      "iconPath": "../../assets/svg/light/perl.svg"
+      "iconPath": "../../assets/svg/light/files/perl.svg"
     },
     "julia": {
-      "iconPath": "../../assets/svg/light/julia.svg"
+      "iconPath": "../../assets/svg/light/files/julia.svg"
     },
     "scss": {
-      "iconPath": "../../assets/svg/light/scss.svg"
+      "iconPath": "../../assets/svg/light/files/scss.svg"
     },
     "css": {
-      "iconPath": "../../assets/svg/light/css.svg"
+      "iconPath": "../../assets/svg/light/files/css.svg"
     },
     "visual-studio": {
-      "iconPath": "../../assets/svg/light/visual-studio.svg"
+      "iconPath": "../../assets/svg/light/files/visual-studio.svg"
     },
     "terraform": {
-      "iconPath": "../../assets/svg/light/terraform.svg"
+      "iconPath": "../../assets/svg/light/files/terraform.svg"
     },
     "nim": {
-      "iconPath": "../../assets/svg/light/nim.svg"
+      "iconPath": "../../assets/svg/light/files/nim.svg"
     },
     "nix": {
-      "iconPath": "../../assets/svg/light/nix.svg"
+      "iconPath": "../../assets/svg/light/files/nix.svg"
     },
     "ruby": {
-      "iconPath": "../../assets/svg/light/ruby.svg"
+      "iconPath": "../../assets/svg/light/files/ruby.svg"
     },
     "php": {
-      "iconPath": "../../assets/svg/light/php.svg"
+      "iconPath": "../../assets/svg/light/files/php.svg"
     },
     "react": {
-      "iconPath": "../../assets/svg/light/react.svg"
+      "iconPath": "../../assets/svg/light/files/react.svg"
     },
     "hcl": {
-      "iconPath": "../../assets/svg/light/hcl.svg"
+      "iconPath": "../../assets/svg/light/files/hcl.svg"
     },
     "go": {
-      "iconPath": "../../assets/svg/light/go.svg"
+      "iconPath": "../../assets/svg/light/files/go.svg"
     },
     "html": {
-      "iconPath": "../../assets/svg/light/html.svg"
+      "iconPath": "../../assets/svg/light/files/html.svg"
     },
     "godot": {
-      "iconPath": "../../assets/svg/light/godot.svg"
+      "iconPath": "../../assets/svg/light/files/godot.svg"
     },
     "godot-assets": {
-      "iconPath": "../../assets/svg/light/godot-assets.svg"
+      "iconPath": "../../assets/svg/light/files/godot-assets.svg"
     },
     "latex": {
-      "iconPath": "../../assets/svg/light/latex.svg"
+      "iconPath": "../../assets/svg/light/files/latex.svg"
     },
     "docker": {
-      "iconPath": "../../assets/svg/light/docker.svg"
+      "iconPath": "../../assets/svg/light/files/docker.svg"
     },
     "c": {
-      "iconPath": "../../assets/svg/light/c.svg"
+      "iconPath": "../../assets/svg/light/files/c.svg"
     },
     "cpp": {
-      "iconPath": "../../assets/svg/light/cpp.svg"
+      "iconPath": "../../assets/svg/light/files/cpp.svg"
     },
     "markdown": {
-      "iconPath": "../../assets/svg/light/markdown.svg"
+      "iconPath": "../../assets/svg/light/files/markdown.svg"
     },
     "vue": {
-      "iconPath": "../../assets/svg/light/vue.svg"
+      "iconPath": "../../assets/svg/light/files/vue.svg"
     },
     "lua": {
-      "iconPath": "../../assets/svg/light/lua.svg"
+      "iconPath": "../../assets/svg/light/files/lua.svg"
     },
     "pdf": {
-      "iconPath": "../../assets/svg/light/pdf.svg"
+      "iconPath": "../../assets/svg/light/files/pdf.svg"
     },
     "powershell": {
-      "iconPath": "../../assets/svg/light/powershell.svg"
+      "iconPath": "../../assets/svg/light/files/powershell.svg"
     },
     "rust": {
-      "iconPath": "../../assets/svg/light/rust.svg"
+      "iconPath": "../../assets/svg/light/files/rust.svg"
     },
     "database": {
-      "iconPath": "../../assets/svg/light/database.svg"
+      "iconPath": "../../assets/svg/light/files/database.svg"
     },
     "lock": {
-      "iconPath": "../../assets/svg/light/lock.svg"
+      "iconPath": "../../assets/svg/light/files/lock.svg"
     },
     "svg": {
-      "iconPath": "../../assets/svg/light/svg.svg"
+      "iconPath": "../../assets/svg/light/files/svg.svg"
     },
     "swift": {
-      "iconPath": "../../assets/svg/light/swift.svg"
+      "iconPath": "../../assets/svg/light/files/swift.svg"
     },
     "react-typescript": {
-      "iconPath": "../../assets/svg/light/react-typescript.svg"
+      "iconPath": "../../assets/svg/light/files/react-typescript.svg"
     },
     "svelte": {
-      "iconPath": "../../assets/svg/light/svelte.svg"
+      "iconPath": "../../assets/svg/light/files/svelte.svg"
     },
     "dart": {
-      "iconPath": "../../assets/svg/light/dart.svg"
+      "iconPath": "../../assets/svg/light/files/dart.svg"
     },
     "luau": {
-      "iconPath": "../../assets/svg/light/luau.svg"
+      "iconPath": "../../assets/svg/light/files/luau.svg"
     },
     "just": {
-      "iconPath": "../../assets/svg/light/just.svg"
+      "iconPath": "../../assets/svg/light/files/just.svg"
     },
     "image": {
-      "iconPath": "../../assets/svg/light/image.svg"
+      "iconPath": "../../assets/svg/light/files/image.svg"
     },
     "typescript-def": {
-      "iconPath": "../../assets/svg/light/typescript-def.svg"
+      "iconPath": "../../assets/svg/light/files/typescript-def.svg"
     },
     "astro": {
-      "iconPath": "../../assets/svg/light/astro.svg"
+      "iconPath": "../../assets/svg/light/files/astro.svg"
     },
     "astro-config": {
-      "iconPath": "../../assets/svg/light/astro-config.svg"
+      "iconPath": "../../assets/svg/light/files/astro-config.svg"
     },
     "vscode": {
-      "iconPath": "../../assets/svg/light/vscode.svg"
+      "iconPath": "../../assets/svg/light/files/vscode.svg"
     },
     "zip": {
-      "iconPath": "../../assets/svg/light/zip.svg"
+      "iconPath": "../../assets/svg/light/files/zip.svg"
     },
     "assembly": {
-      "iconPath": "../../assets/svg/light/assembly.svg"
+      "iconPath": "../../assets/svg/light/files/assembly.svg"
     },
     "c-header": {
-      "iconPath": "../../assets/svg/light/c-header.svg"
+      "iconPath": "../../assets/svg/light/files/c-header.svg"
     },
     "cpp-header": {
-      "iconPath": "../../assets/svg/light/cpp-header.svg"
+      "iconPath": "../../assets/svg/light/files/cpp-header.svg"
     },
     "go-mod": {
-      "iconPath": "../../assets/svg/light/go-mod.svg"
+      "iconPath": "../../assets/svg/light/files/go-mod.svg"
     },
     "key": {
-      "iconPath": "../../assets/svg/light/key.svg"
+      "iconPath": "../../assets/svg/light/files/key.svg"
     },
     "font": {
-      "iconPath": "../../assets/svg/light/font.svg"
+      "iconPath": "../../assets/svg/light/files/font.svg"
     },
     "video": {
-      "iconPath": "../../assets/svg/light/video.svg"
+      "iconPath": "../../assets/svg/light/files/video.svg"
     },
     "audio": {
-      "iconPath": "../../assets/svg/light/audio.svg"
+      "iconPath": "../../assets/svg/light/files/audio.svg"
     },
     "kotlin": {
-      "iconPath": "../../assets/svg/light/kotlin.svg"
+      "iconPath": "../../assets/svg/light/files/kotlin.svg"
     },
     "storybook": {
-      "iconPath": "../../assets/svg/light/storybook.svg"
+      "iconPath": "../../assets/svg/light/files/storybook.svg"
     },
     "fortran": {
-      "iconPath": "../../assets/svg/light/fortran.svg"
+      "iconPath": "../../assets/svg/light/files/fortran.svg"
     },
     "vite": {
-      "iconPath": "../../assets/svg/light/vite.svg"
+      "iconPath": "../../assets/svg/light/files/vite.svg"
     },
     "gleam": {
-      "iconPath": "../../assets/svg/light/gleam.svg"
+      "iconPath": "../../assets/svg/light/files/gleam.svg"
     },
     "bun": {
-      "iconPath": "../../assets/svg/light/bun.svg"
+      "iconPath": "../../assets/svg/light/files/bun.svg"
     },
     "roblox": {
-      "iconPath": "../../assets/svg/light/roblox.svg"
+      "iconPath": "../../assets/svg/light/files/roblox.svg"
     },
     "changelog": {
-      "iconPath": "../../assets/svg/light/changelog.svg"
+      "iconPath": "../../assets/svg/light/files/changelog.svg"
     },
     "readme": {
-      "iconPath": "../../assets/svg/light/readme.svg"
+      "iconPath": "../../assets/svg/light/files/readme.svg"
     },
     "eslint": {
-      "iconPath": "../../assets/svg/light/eslint.svg"
+      "iconPath": "../../assets/svg/light/files/eslint.svg"
     },
     "code-of-conduct": {
-      "iconPath": "../../assets/svg/light/code-of-conduct.svg"
+      "iconPath": "../../assets/svg/light/files/code-of-conduct.svg"
     },
     "npm": {
-      "iconPath": "../../assets/svg/light/npm.svg"
+      "iconPath": "../../assets/svg/light/files/npm.svg"
     },
     "yarn": {
-      "iconPath": "../../assets/svg/light/yarn.svg"
+      "iconPath": "../../assets/svg/light/files/yarn.svg"
     },
     "next": {
-      "iconPath": "../../assets/svg/light/next.svg"
+      "iconPath": "../../assets/svg/light/files/next.svg"
     },
     "todo": {
-      "iconPath": "../../assets/svg/light/todo.svg"
+      "iconPath": "../../assets/svg/light/files/todo.svg"
     },
     "codeowners": {
-      "iconPath": "../../assets/svg/light/codeowners.svg"
+      "iconPath": "../../assets/svg/light/files/codeowners.svg"
     },
     "odin": {
-      "iconPath": "../../assets/svg/light/odin.svg"
+      "iconPath": "../../assets/svg/light/files/odin.svg"
     },
     "wally": {
-      "iconPath": "../../assets/svg/light/wally.svg"
+      "iconPath": "../../assets/svg/light/files/wally.svg"
     },
     "zig": {
-      "iconPath": "../../assets/svg/light/zig.svg"
+      "iconPath": "../../assets/svg/light/files/zig.svg"
     },
     "folder_dist": {
-      "iconPath": "../../assets/svg/light/folder_dist.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_dist.svg"
     },
     "folder_dist_open": {
-      "iconPath": "../../assets/svg/light/folder_dist_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_dist_open.svg"
     },
     "folder_images": {
-      "iconPath": "../../assets/svg/light/folder_image.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_image.svg"
     },
     "folder_images_open": {
-      "iconPath": "../../assets/svg/light/folder_image_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_image_open.svg"
     },
     "folder_scripts": {
-      "iconPath": "../../assets/svg/light/folder_script.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_script.svg"
     },
     "folder_scripts_open": {
-      "iconPath": "../../assets/svg/light/folder_script_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_script_open.svg"
     },
     "folder_node": {
-      "iconPath": "../../assets/svg/light/folder_node.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_node.svg"
     },
     "folder_node_open": {
-      "iconPath": "../../assets/svg/light/folder_node_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_node_open.svg"
     },
     "folder_javascript": {
-      "iconPath": "../../assets/svg/light/folder_javascript.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_javascript.svg"
     },
     "folder_javascript_open": {
-      "iconPath": "../../assets/svg/light/folder_javascript_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_javascript_open.svg"
     },
     "folder_json": {
-      "iconPath": "../../assets/svg/light/folder_json.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_json.svg"
     },
     "folder_json_open": {
-      "iconPath": "../../assets/svg/light/folder_json_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_json_open.svg"
     },
     "folder_font": {
-      "iconPath": "../../assets/svg/light/folder_fonts.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_fonts.svg"
     },
     "folder_font_open": {
-      "iconPath": "../../assets/svg/light/folder_fonts_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_fonts_open.svg"
     },
     "folder_test": {
-      "iconPath": "../../assets/svg/light/folder_test.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_test.svg"
     },
     "folder_test_open": {
-      "iconPath": "../../assets/svg/light/folder_test_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_test_open.svg"
     },
-
     "folder_docs": {
-      "iconPath": "../../assets/svg/light/folder_docs.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_docs.svg"
     },
     "folder_docs_open": {
-      "iconPath": "../../assets/svg/light/folder_docs_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_docs_open.svg"
     },
-
     "folder_github": {
-      "iconPath": "../../assets/svg/light/folder_github.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_github.svg"
     },
     "folder_github_open": {
-      "iconPath": "../../assets/svg/light/folder_github_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_github_open.svg"
     },
     "folder_vscode": {
-      "iconPath": "../../assets/svg/light/folder_vscode.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_vscode.svg"
     },
     "folder_vscode_open": {
-      "iconPath": "../../assets/svg/light/folder_vscode_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_vscode_open.svg"
     },
     "folder_config": {
-      "iconPath": "../../assets/svg/light/folder_config.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_config.svg"
     },
     "folder_config_open": {
-      "iconPath": "../../assets/svg/light/folder_config_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_config_open.svg"
     },
     "folder_components": {
-      "iconPath": "../../assets/svg/light/folder_component.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_component.svg"
     },
     "folder_components_open": {
-      "iconPath": "../../assets/svg/light/folder_component_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_component_open.svg"
     },
     "folder_lib": {
-      "iconPath": "../../assets/svg/light/folder_lib.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_lib.svg"
     },
     "folder_lib_open": {
-      "iconPath": "../../assets/svg/light/folder_lib_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_lib_open.svg"
     },
     "folder_database": {
-      "iconPath": "../../assets/svg/light/folder_database.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_database.svg"
     },
     "folder_database_open": {
-      "iconPath": "../../assets/svg/light/folder_database_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_database_open.svg"
     },
     "folder_temp": {
-      "iconPath": "../../assets/svg/light/folder_temp.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_temp.svg"
     },
     "folder_temp_open": {
-      "iconPath": "../../assets/svg/light/folder_temp_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_temp_open.svg"
     },
     "folder_audio": {
-      "iconPath": "../../assets/svg/light/folder_audio.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_audio.svg"
     },
     "folder_audio_open": {
-      "iconPath": "../../assets/svg/light/folder_audio_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_audio_open.svg"
     },
     "folder_benchmark": {
-      "iconPath": "../../assets/svg/light/folder_benchmark.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_benchmark.svg"
     },
     "folder_benchmark_open": {
-      "iconPath": "../../assets/svg/light/folder_benchmark_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_benchmark_open.svg"
     },
     "folder_client": {
-      "iconPath": "../../assets/svg/light/folder_client.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_client.svg"
     },
     "folder_client_open": {
-      "iconPath": "../../assets/svg/light/folder_client_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_client_open.svg"
     },
     "folder_constant": {
-      "iconPath": "../../assets/svg/light/folder_constant.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_constant.svg"
     },
     "folder_constant_open": {
-      "iconPath": "../../assets/svg/light/folder_constant_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_constant_open.svg"
     },
     "folder_content": {
-      "iconPath": "../../assets/svg/light/folder_content.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_content.svg"
     },
     "folder_content_open": {
-      "iconPath": "../../assets/svg/light/folder_content_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_content_open.svg"
     },
     "folder_context": {
-      "iconPath": "../../assets/svg/light/folder_context.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_context.svg"
     },
     "folder_context_open": {
-      "iconPath": "../../assets/svg/light/folder_context_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_context_open.svg"
     },
     "folder_coverage": {
-      "iconPath": "../../assets/svg/light/folder_coverage.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_coverage.svg"
     },
     "folder_coverage_open": {
-      "iconPath": "../../assets/svg/light/folder_coverage_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_coverage_open.svg"
     },
     "folder_event": {
-      "iconPath": "../../assets/svg/light/folder_event.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_event.svg"
     },
     "folder_event_open": {
-      "iconPath": "../../assets/svg/light/folder_event_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_event_open.svg"
     },
     "folder_fonts": {
-      "iconPath": "../../assets/svg/light/folder_fonts.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_fonts.svg"
     },
     "folder_fonts_open": {
-      "iconPath": "../../assets/svg/light/folder_fonts_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_fonts_open.svg"
     },
     "folder_layout": {
-      "iconPath": "../../assets/svg/light/folder_layout.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_layout.svg"
     },
     "folder_layout_open": {
-      "iconPath": "../../assets/svg/light/folder_layout_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_layout_open.svg"
     },
     "folder_middleware": {
-      "iconPath": "../../assets/svg/light/folder_middleware.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_middleware.svg"
     },
     "folder_middleware_open": {
-      "iconPath": "../../assets/svg/light/folder_middleware_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_middleware_open.svg"
     },
     "folder_nuxt": {
-      "iconPath": "../../assets/svg/light/folder_nuxt.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_nuxt.svg"
     },
     "folder_nuxt_open": {
-      "iconPath": "../../assets/svg/light/folder_nuxt_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_nuxt_open.svg"
     },
     "folder_page": {
-      "iconPath": "../../assets/svg/light/folder_page.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_page.svg"
     },
     "folder_page_open": {
-      "iconPath": "../../assets/svg/light/folder_page_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_page_open.svg"
     },
     "folder_routes": {
-      "iconPath": "../../assets/svg/light/folder_routes.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_routes.svg"
     },
     "folder_routes_open": {
-      "iconPath": "../../assets/svg/light/folder_routes_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_routes_open.svg"
     },
     "folder_server": {
-      "iconPath": "../../assets/svg/light/folder_server.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_server.svg"
     },
     "folder_server_open": {
-      "iconPath": "../../assets/svg/light/folder_server_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_server_open.svg"
     },
     "folder_storybook": {
-      "iconPath": "../../assets/svg/light/folder_storybook.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_storybook.svg"
     },
     "folder_storybook_open": {
-      "iconPath": "../../assets/svg/light/folder_storybook_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_storybook_open.svg"
     },
     "folder_svg": {
-      "iconPath": "../../assets/svg/light/folder_svg.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_svg.svg"
     },
     "folder_svg_open": {
-      "iconPath": "../../assets/svg/light/folder_svg_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_svg_open.svg"
     },
     "folder_template": {
-      "iconPath": "../../assets/svg/light/folder_template.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_template.svg"
     },
     "folder_template_open": {
-      "iconPath": "../../assets/svg/light/folder_template_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_template_open.svg"
     },
     "folder_typescript": {
-      "iconPath": "../../assets/svg/light/folder_typescript.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_typescript.svg"
     },
     "folder_typescript_open": {
-      "iconPath": "../../assets/svg/light/folder_typescript_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_typescript_open.svg"
     },
     "folder_video": {
-      "iconPath": "../../assets/svg/light/folder_video.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_video.svg"
     },
     "folder_video_open": {
-      "iconPath": "../../assets/svg/light/folder_video_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_video_open.svg"
     },
     "folder_yarn": {
-      "iconPath": "../../assets/svg/light/folder_yarn.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_yarn.svg"
     },
     "folder_yarn_open": {
-      "iconPath": "../../assets/svg/light/folder_yarn_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_yarn_open.svg"
     },
     "_file": {
-      "iconPath": "../../assets/svg/light/_file.svg"
+      "iconPath": "../../assets/svg/light/files/_file.svg"
     },
     "_folder": {
-      "iconPath": "../../assets/svg/light/_folder.svg"
+      "iconPath": "../../assets/svg/light/folders/_folder.svg"
     },
     "_folder_open": {
-      "iconPath": "../../assets/svg/light/_folder_open.svg"
+      "iconPath": "../../assets/svg/light/folders/_folder_open.svg"
     },
     "binary": {
-      "iconPath": "../../assets/svg/light/binary.svg"
+      "iconPath": "../../assets/svg/light/files/binary.svg"
     },
     "bun-lock": {
-      "iconPath": "../../assets/svg/light/bun-lock.svg"
+      "iconPath": "../../assets/svg/light/files/bun-lock.svg"
     },
     "config": {
-      "iconPath": "../../assets/svg/light/config.svg"
+      "iconPath": "../../assets/svg/light/files/config.svg"
     },
     "cs": {
-      "iconPath": "../../assets/svg/light/cs.svg"
+      "iconPath": "../../assets/svg/light/files/cs.svg"
     },
     "css3": {
-      "iconPath": "../../assets/svg/light/css3.svg"
+      "iconPath": "../../assets/svg/light/files/css3.svg"
     },
     "csv": {
-      "iconPath": "../../assets/svg/light/csv.svg"
+      "iconPath": "../../assets/svg/light/files/csv.svg"
     },
     "drizzle-orm": {
-      "iconPath": "../../assets/svg/light/drizzle-orm.svg"
+      "iconPath": "../../assets/svg/light/files/drizzle-orm.svg"
     },
     "event": {
-      "iconPath": "../../assets/svg/light/event.svg"
+      "iconPath": "../../assets/svg/light/files/event.svg"
     },
     "folder_admin": {
-      "iconPath": "../../assets/svg/light/folder_admin.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_admin.svg"
     },
     "folder_admin_open": {
-      "iconPath": "../../assets/svg/light/folder_admin_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_admin_open.svg"
     },
     "folder_animation": {
-      "iconPath": "../../assets/svg/light/folder_animation.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_animation.svg"
     },
     "folder_animation_open": {
-      "iconPath": "../../assets/svg/light/folder_animation_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_animation_open.svg"
     },
     "folder_assets": {
-      "iconPath": "../../assets/svg/light/folder_assets.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_assets.svg"
     },
     "folder_assets_open": {
-      "iconPath": "../../assets/svg/light/folder_assets_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_assets_open.svg"
     },
     "folder_auth": {
-      "iconPath": "../../assets/svg/light/folder_auth.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_auth.svg"
     },
     "folder_auth_open": {
-      "iconPath": "../../assets/svg/light/folder_auth_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_auth_open.svg"
     },
     "folder_bin": {
-      "iconPath": "../../assets/svg/light/folder_bin.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_bin.svg"
     },
     "folder_bin_open": {
-      "iconPath": "../../assets/svg/light/folder_bin_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_bin_open.svg"
     },
     "folder_builder": {
-      "iconPath": "../../assets/svg/light/folder_builder.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_builder.svg"
     },
     "folder_builder_open": {
-      "iconPath": "../../assets/svg/light/folder_builder_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_builder_open.svg"
     },
     "folder_camera": {
-      "iconPath": "../../assets/svg/light/folder_camera.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_camera.svg"
     },
     "folder_camera_open": {
-      "iconPath": "../../assets/svg/light/folder_camera_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_camera_open.svg"
     },
     "folder_changesets": {
-      "iconPath": "../../assets/svg/light/folder_changesets.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_changesets.svg"
     },
     "folder_changesets_open": {
-      "iconPath": "../../assets/svg/light/folder_changesets_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_changesets_open.svg"
     },
     "folder_commands": {
-      "iconPath": "../../assets/svg/light/folder_commands.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_commands.svg"
     },
     "folder_commands_open": {
-      "iconPath": "../../assets/svg/light/folder_commands_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_commands_open.svg"
     },
     "folder_component": {
-      "iconPath": "../../assets/svg/light/folder_component.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_component.svg"
     },
     "folder_component_open": {
-      "iconPath": "../../assets/svg/light/folder_component_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_component_open.svg"
     },
     "folder_connection": {
-      "iconPath": "../../assets/svg/light/folder_connection.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_connection.svg"
     },
     "folder_connection_open": {
-      "iconPath": "../../assets/svg/light/folder_connection_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_connection_open.svg"
     },
     "folder_effects": {
-      "iconPath": "../../assets/svg/light/folder_effects.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_effects.svg"
     },
     "folder_effects_open": {
-      "iconPath": "../../assets/svg/light/folder_effects_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_effects_open.svg"
     },
     "folder_error": {
-      "iconPath": "../../assets/svg/light/folder_error.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_error.svg"
     },
     "folder_error_open": {
-      "iconPath": "../../assets/svg/light/folder_error_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_error_open.svg"
     },
     "folder_function": {
-      "iconPath": "../../assets/svg/light/folder_function.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_function.svg"
     },
     "folder_function_open": {
-      "iconPath": "../../assets/svg/light/folder_function_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_function_open.svg"
     },
     "folder_hooks": {
-      "iconPath": "../../assets/svg/light/folder_hooks.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_hooks.svg"
     },
     "folder_hooks_open": {
-      "iconPath": "../../assets/svg/light/folder_hooks_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_hooks_open.svg"
     },
     "folder_image": {
-      "iconPath": "../../assets/svg/light/folder_image.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_image.svg"
     },
     "folder_image_open": {
-      "iconPath": "../../assets/svg/light/folder_image_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_image_open.svg"
     },
     "folder_icon": {
-      "iconPath": "../../assets/svg/light/folder_icon.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_icon.svg"
     },
     "folder_icon_open": {
-      "iconPath": "../../assets/svg/light/folder_icon_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_icon_open.svg"
     },
     "folder_input": {
-      "iconPath": "../../assets/svg/light/folder_input.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_input.svg"
     },
     "folder_input_open": {
-      "iconPath": "../../assets/svg/light/folder_input_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_input_open.svg"
     },
     "folder_luau": {
-      "iconPath": "../../assets/svg/light/folder_luau.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_luau.svg"
     },
     "folder_luau_open": {
-      "iconPath": "../../assets/svg/light/folder_luau_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_luau_open.svg"
     },
     "folder_lune": {
-      "iconPath": "../../assets/svg/light/folder_lune.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_lune.svg"
     },
     "folder_lune_open": {
-      "iconPath": "../../assets/svg/light/folder_lune_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_lune_open.svg"
     },
     "folder_marketing": {
-      "iconPath": "../../assets/svg/light/folder_marketing.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_marketing.svg"
     },
     "folder_marketing_open": {
-      "iconPath": "../../assets/svg/light/folder_marketing_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_marketing_open.svg"
     },
     "folder_model": {
-      "iconPath": "../../assets/svg/light/folder_model.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_model.svg"
     },
     "folder_model_open": {
-      "iconPath": "../../assets/svg/light/folder_model_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_model_open.svg"
     },
     "folder_module": {
-      "iconPath": "../../assets/svg/light/folder_module.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_module.svg"
     },
     "folder_module_open": {
-      "iconPath": "../../assets/svg/light/folder_module_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_module_open.svg"
     },
     "folder_package": {
-      "iconPath": "../../assets/svg/light/folder_package.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_package.svg"
     },
     "folder_package_open": {
-      "iconPath": "../../assets/svg/light/folder_package_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_package_open.svg"
     },
     "folder_provider": {
-      "iconPath": "../../assets/svg/light/folder_provider.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_provider.svg"
     },
     "folder_provider_open": {
-      "iconPath": "../../assets/svg/light/folder_provider_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_provider_open.svg"
     },
     "folder_roblox": {
-      "iconPath": "../../assets/svg/light/folder_roblox.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_roblox.svg"
     },
     "folder_roblox_open": {
-      "iconPath": "../../assets/svg/light/folder_roblox_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_roblox_open.svg"
     },
     "folder_script": {
-      "iconPath": "../../assets/svg/light/folder_script.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_script.svg"
     },
     "folder_script_open": {
-      "iconPath": "../../assets/svg/light/folder_script_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_script_open.svg"
     },
     "folder_service": {
-      "iconPath": "../../assets/svg/light/folder_service.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_service.svg"
     },
     "folder_service_open": {
-      "iconPath": "../../assets/svg/light/folder_service_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_service_open.svg"
     },
     "folder_source": {
-      "iconPath": "../../assets/svg/light/folder_source.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_source.svg"
     },
     "folder_source_open": {
-      "iconPath": "../../assets/svg/light/folder_source_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_source_open.svg"
     },
     "folder_styles": {
-      "iconPath": "../../assets/svg/light/folder_styles.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_styles.svg"
     },
     "folder_styles_open": {
-      "iconPath": "../../assets/svg/light/folder_styles_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_styles_open.svg"
     },
     "folder_types": {
-      "iconPath": "../../assets/svg/light/folder_types.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_types.svg"
     },
     "folder_types_open": {
-      "iconPath": "../../assets/svg/light/folder_types_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_types_open.svg"
     },
     "folder_util": {
-      "iconPath": "../../assets/svg/light/folder_util.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_util.svg"
     },
     "folder_util_open": {
-      "iconPath": "../../assets/svg/light/folder_util_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_util_open.svg"
     },
     "folder_web": {
-      "iconPath": "../../assets/svg/light/folder_web.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_web.svg"
     },
     "folder_web_open": {
-      "iconPath": "../../assets/svg/light/folder_web_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_web_open.svg"
     },
     "fortran-fixed": {
-      "iconPath": "../../assets/svg/light/fortran-fixed.svg"
+      "iconPath": "../../assets/svg/light/files/fortran-fixed.svg"
     },
     "javascript-config": {
-      "iconPath": "../../assets/svg/light/javascript-config.svg"
+      "iconPath": "../../assets/svg/light/files/javascript-config.svg"
     },
     "license": {
-      "iconPath": "../../assets/svg/light/license.svg"
+      "iconPath": "../../assets/svg/light/files/license.svg"
     },
     "lua-config": {
-      "iconPath": "../../assets/svg/light/lua-config.svg"
+      "iconPath": "../../assets/svg/light/files/lua-config.svg"
     },
     "luau-config": {
-      "iconPath": "../../assets/svg/light/luau-config.svg"
+      "iconPath": "../../assets/svg/light/files/luau-config.svg"
     },
     "luau-def": {
-      "iconPath": "../../assets/svg/light/luau-def.svg"
+      "iconPath": "../../assets/svg/light/files/luau-def.svg"
     },
     "markdownx": {
-      "iconPath": "../../assets/svg/light/markdownx.svg"
+      "iconPath": "../../assets/svg/light/files/markdownx.svg"
     },
     "npm-lock": {
-      "iconPath": "../../assets/svg/light/npm-lock.svg"
+      "iconPath": "../../assets/svg/light/files/npm-lock.svg"
     },
     "package-config": {
-      "iconPath": "../../assets/svg/light/package-config.svg"
+      "iconPath": "../../assets/svg/light/files/package-config.svg"
     },
     "package-lock": {
-      "iconPath": "../../assets/svg/light/package-lock.svg"
+      "iconPath": "../../assets/svg/light/files/package-lock.svg"
     },
     "pcss": {
-      "iconPath": "../../assets/svg/light/pcss.svg"
+      "iconPath": "../../assets/svg/light/files/pcss.svg"
     },
     "roblox-config": {
-      "iconPath": "../../assets/svg/light/roblox-config.svg"
+      "iconPath": "../../assets/svg/light/files/roblox-config.svg"
     },
     "roblox-lock": {
-      "iconPath": "../../assets/svg/light/roblox-lock.svg"
+      "iconPath": "../../assets/svg/light/files/roblox-lock.svg"
     },
     "roblox-model": {
-      "iconPath": "../../assets/svg/light/roblox-model.svg"
+      "iconPath": "../../assets/svg/light/files/roblox-model.svg"
     },
     "rust-config": {
-      "iconPath": "../../assets/svg/light/rust-config.svg"
+      "iconPath": "../../assets/svg/light/files/rust-config.svg"
     },
     "security": {
-      "iconPath": "../../assets/svg/light/security.svg"
+      "iconPath": "../../assets/svg/light/files/security.svg"
     },
     "shell": {
-      "iconPath": "../../assets/svg/light/shell.svg"
+      "iconPath": "../../assets/svg/light/files/shell.svg"
     },
     "tailwind": {
-      "iconPath": "../../assets/svg/light/tailwind.svg"
+      "iconPath": "../../assets/svg/light/files/tailwind.svg"
     },
     "test-blue": {
-      "iconPath": "../../assets/svg/light/test-blue.svg"
+      "iconPath": "../../assets/svg/light/files/test-blue.svg"
     },
     "test-teal": {
-      "iconPath": "../../assets/svg/light/test-teal.svg"
+      "iconPath": "../../assets/svg/light/files/test-teal.svg"
     },
     "test-yellow": {
-      "iconPath": "../../assets/svg/light/test-yellow.svg"
+      "iconPath": "../../assets/svg/light/files/test-yellow.svg"
     },
     "text": {
-      "iconPath": "../../assets/svg/light/text.svg"
+      "iconPath": "../../assets/svg/light/files/text.svg"
     },
     "typescript-config": {
-      "iconPath": "../../assets/svg/light/typescript-config.svg"
+      "iconPath": "../../assets/svg/light/files/typescript-config.svg"
     },
     "wally-lock": {
-      "iconPath": "../../assets/svg/light/wally-lock.svg"
+      "iconPath": "../../assets/svg/light/files/wally-lock.svg"
     },
     "makefile": {
-      "iconPath": "../../assets/svg/light/makefile.svg"
+      "iconPath": "../../assets/svg/light/files/makefile.svg"
     },
     "node": {
-      "iconPath": "../../assets/svg/light/node.svg"
+      "iconPath": "../../assets/svg/light/files/node.svg"
     },
     "nuxt": {
-      "iconPath": "../../assets/svg/light/nuxt.svg"
+      "iconPath": "../../assets/svg/light/files/nuxt.svg"
     },
     "yaml": {
-      "iconPath": "../../assets/svg/light/yaml.svg"
+      "iconPath": "../../assets/svg/light/files/yaml.svg"
     },
     "folder_test2": {
-      "iconPath": "../../assets/svg/light/folder_test2.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_test2.svg"
     },
     "folder_test2_open": {
-      "iconPath": "../../assets/svg/light/folder_test2_open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder_test2_open.svg"
     },
     "folder-target-open": {
-      "iconPath": "../../assets/svg/light/folder-target-open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-target-open.svg"
     },
     "web-assembly": {
-      "iconPath": "../../assets/svg/light/web-assembly.svg"
+      "iconPath": "../../assets/svg/light/files/web-assembly.svg"
     },
     "workflow": {
-      "iconPath": "../../assets/svg/light/workflow.svg"
+      "iconPath": "../../assets/svg/light/files/workflow.svg"
     },
     "yarn-lock": {
-      "iconPath": "../../assets/svg/light/yarn-lock.svg"
+      "iconPath": "../../assets/svg/light/files/yarn-lock.svg"
     },
-      "folder-windows": {
-      "iconPath": "../../assets/svg/light/folder-windows.svg"
+    "folder-windows": {
+      "iconPath": "../../assets/svg/light/folders/folder-windows.svg"
     },
     "folder-windows-open": {
-      "iconPath": "../../assets/svg/light/folder-windows-open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-windows-open.svg"
     },
     "folder-macos": {
-      "iconPath": "../../assets/svg/light/folder-macos.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-macos.svg"
     },
     "folder-macos-open": {
-      "iconPath": "../../assets/svg/light/folder-macos-open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-macos-open.svg"
     },
     "folder-ios": {
-      "iconPath": "../../assets/svg/light/folder-ios.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-ios.svg"
     },
     "folder-ios-open": {
-      "iconPath": "../../assets/svg/light/folder-ios-open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-ios-open.svg"
     },
     "folder-linux": {
-      "iconPath": "../../assets/svg/light/folder-linux.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-linux.svg"
     },
     "folder-linux-open": {
-      "iconPath": "../../assets/svg/light/folder-linux-open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-linux-open.svg"
     },
     "folder-android": {
-      "iconPath": "../../assets/svg/light/folder-android.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-android.svg"
     },
     "folder-android-open": {
-      "iconPath": "../../assets/svg/light/folder-android-open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-android-open.svg"
     },
     "folder-dart-tool": {
-      "iconPath": "../../assets/svg/light/folder-dart-tool.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-dart-tool.svg"
     },
     "folder-dart-tool-open": {
-      "iconPath": "../../assets/svg/light/folder-dart-tool-open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-dart-tool-open.svg"
     },
     "folder-astro": {
-      "iconPath": "../../assets/svg/light/folder-astro.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-astro.svg"
     },
     "folder-astro-open": {
-      "iconPath": "../../assets/svg/light/folder-astro-open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-astro-open.svg"
     },
     "folder-flutter": {
-      "iconPath": "../../assets/svg/light/folder-flutter.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-flutter.svg"
     },
     "folder-flutter-open": {
-      "iconPath": "../../assets/svg/light/folder-flutter-open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-flutter-open.svg"
     },
     "flutter-file": {
-      "iconPath": "../../assets/svg/light/flutter-file.svg"
+      "iconPath": "../../assets/svg/light/files/flutter-file.svg"
     },
     "bloc-file": {
-      "iconPath": "../../assets/svg/light/bloc-file.svg"
+      "iconPath": "../../assets/svg/light/files/bloc-file.svg"
     },
     "getx-file": {
-      "iconPath": "../../assets/svg/light/getx-file.svg"
+      "iconPath": "../../assets/svg/light/files/getx-file.svg"
     },
     "riverpod-file": {
-      "iconPath": "../../assets/svg/light/riverpod-file.svg"
+      "iconPath": "../../assets/svg/light/files/riverpod-file.svg"
     },
     "mobx-file": {
-      "iconPath": "../../assets/svg/light/mobx-file.svg"
+      "iconPath": "../../assets/svg/light/files/mobx-file.svg"
     },
     "state-file": {
-      "iconPath": "../../assets/svg/light/state-file.svg"
+      "iconPath": "../../assets/svg/light/files/state-file.svg"
     },
     "service-file": {
-      "iconPath": "../../assets/svg/light/service-file.svg"
+      "iconPath": "../../assets/svg/light/files/service-file.svg"
     },
     "module-file": {
-      "iconPath": "../../assets/svg/light/module-file.svg"
+      "iconPath": "../../assets/svg/light/files/module-file.svg"
     },
     "getx-folder": {
-      "iconPath": "../../assets/svg/light/getx-folder.svg"
+      "iconPath": "../../assets/svg/light/folders/getx-folder.svg"
     },
     "getx-folder-open": {
-      "iconPath": "../../assets/svg/light/getx-folder-open.svg"
+      "iconPath": "../../assets/svg/light/folders/getx-folder-open.svg"
     },
     "mobx-folder": {
-      "iconPath": "../../assets/svg/light/mobx-folder.svg"
+      "iconPath": "../../assets/svg/light/folders/mobx-folder.svg"
     },
     "mobx-folder-open": {
-      "iconPath": "../../assets/svg/light/mobx-folder-open.svg"
+      "iconPath": "../../assets/svg/light/folders/mobx-folder-open.svg"
     },
     "riverpod-folder": {
-      "iconPath": "../../assets/svg/light/riverpod-folder.svg"
+      "iconPath": "../../assets/svg/light/folders/riverpod-folder.svg"
     },
     "riverpod-folder-open": {
-      "iconPath": "../../assets/svg/light/riverpod-folder-open.svg"
+      "iconPath": "../../assets/svg/light/folders/riverpod-folder-open.svg"
     },
     "state-folder": {
-      "iconPath": "../../assets/svg/light/state-folder.svg"
+      "iconPath": "../../assets/svg/light/folders/state-folder.svg"
     },
     "state-folder-open": {
-      "iconPath": "../../assets/svg/light/state-folder-open.svg"
+      "iconPath": "../../assets/svg/light/folders/state-folder-open.svg"
     },
     "lynx": {
-      "iconPath": "../../assets/svg/light/lynx-file.svg"
+      "iconPath": "../../assets/svg/light/files/lynx-file.svg"
     },
     "lynx-dark": {
-      "iconPath": "../../assets/svg/light/lynx-file-dark.svg"
+      "iconPath": "../../assets/svg/light/files/lynx-file-dark.svg"
     },
     "lynx-config-file": {
-      "iconPath": "../../assets/svg/light/lynx-config-file.svg"
+      "iconPath": "../../assets/svg/light/files/lynx-config-file.svg"
     },
     "lynx-config-file-dark": {
-      "iconPath": "../../assets/svg/light/lynx-config-file-dark.svg"
+      "iconPath": "../../assets/svg/light/files/lynx-config-file-dark.svg"
     },
     "folder-notification": {
-      "iconPath": "../../assets/svg/light/folder-notification.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-notification.svg"
     },
     "folder-notification-open": {
-      "iconPath": "../../assets/svg/light/folder-notification-open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-notification-open.svg"
     },
     "folder-keymaps": {
-      "iconPath": "../../assets/svg/light/folder-keymaps.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-keymaps.svg"
     },
     "folder-keymaps-open": {
-      "iconPath": "../../assets/svg/light/folder-keymaps-open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-keymaps-open.svg"
     },
     "folder-shortcuts": {
-      "iconPath": "../../assets/svg/light/folder-shortcuts.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-shortcuts.svg"
     },
     "folder-shortcuts-open": {
-      "iconPath": "../../assets/svg/light/folder-shortcuts-open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-shortcuts-open.svg"
     },
     "folder-claude": {
-      "iconPath": "../../assets/svg/light/folder-claude.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-claude.svg"
     },
     "folder-claude-open": {
-      "iconPath": "../../assets/svg/light/folder-claude-open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-claude-open.svg"
     },
     "file-claude": {
-      "iconPath": "../../assets/svg/light/claude.svg"
+      "iconPath": "../../assets/svg/light/files/claude.svg"
     },
     "folder-kiro": {
-      "iconPath": "../../assets/svg/light/folder-kiro.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-kiro.svg"
     },
     "folder-kiro-open": {
-      "iconPath": "../../assets/svg/light/folder-kiro-open.svg"
+      "iconPath": "../../assets/svg/light/folders/folder-kiro-open.svg"
     },
     "folder-robot": {
-      "iconPath": "../../assets/svg/dark/folder-robot.svg"
+      "iconPath": "../../assets/svg/dark/folders/folder-robot.svg"
     },
     "folder-robot-open": {
-      "iconPath": "../../assets/svg/dark/folder-robot-open.svg"
+      "iconPath": "../../assets/svg/dark/folders/folder-robot-open.svg"
     },
     "global-css": {
-      "iconPath": "../../assets/svg/dark/css-global.svg"
+      "iconPath": "../../assets/svg/dark/files/css-global.svg"
     },
     "claude": {
-      "iconPath": "../../assets/svg/dark/claude.svg"
+      "iconPath": "../../assets/svg/dark/files/claude.svg"
     },
     "agent": {
-      "iconPath": "../../assets/svg/dark/agent.svg"
+      "iconPath": "../../assets/svg/dark/files/agent.svg"
     },
     "design": {
-      "iconPath": "../../assets/svg/dark/design.svg"
+      "iconPath": "../../assets/svg/dark/files/design.svg"
     },
     "notes": {
-      "iconPath": "../../assets/svg/dark/notes.svg"
+      "iconPath": "../../assets/svg/dark/files/notes.svg"
     },
     "agents-2": {
-      "iconPath": "../../assets/svg/dark/agents.svg"
+      "iconPath": "../../assets/svg/dark/files/agents.svg"
     },
     "agents": {
-      "iconPath": "../../assets/svg/dark/agents-black.svg"
+      "iconPath": "../../assets/svg/dark/files/agents-black.svg"
     },
     "warp": {
-      "iconPath": "../../assets/svg/dark/warp.svg"
+      "iconPath": "../../assets/svg/dark/files/warp.svg"
     },
     "warp_light": {
-      "iconPath": "../../assets/svg/dark/warp_light.svg"
+      "iconPath": "../../assets/svg/dark/files/warp_light.svg"
     },
     "xml-before": {
-      "iconPath": "../../assets/svg/dark/xml-before.svg"
+      "iconPath": "../../assets/svg/dark/files/xml-before.svg"
     },
     "expo-app": {
-      "iconPath": "../../assets/svg/dark/expo-app.svg"
+      "iconPath": "../../assets/svg/dark/files/expo-app.svg"
     },
     "expo-eas": {
-      "iconPath": "../../assets/svg/dark/expo-b.svg"
+      "iconPath": "../../assets/svg/dark/files/expo-b.svg"
     },
     "woff": {
-      "iconPath": "../../assets/svg/dark/wo-1.svg"
+      "iconPath": "../../assets/svg/dark/files/wo-1.svg"
     },
     "icon-png": {
-      "iconPath": "../../assets/svg/dark/icon.svg"
+      "iconPath": "../../assets/svg/dark/files/icon.svg"
     }
   },
   "folderNames": {
@@ -989,17 +987,17 @@
     ".myskills": "folder-robot",
     ".agents": "folder-robot",
     ".kiro": "folder-kiro",
-    "flutter":"folder-flutter",
-    ".astro":"folder-astro",
-    "astro":"folder-astro",
-    ".dart_tool":"folder-dart-tool",
-    "android":"folder-android",
-    "linux":"folder-linux",
-    "macos":"folder-macos",
-    "apple":"folder-macos",
-    "ios":"folder-ios",
-    "windows":"folder-windows",
-    "window":"folder-windows",
+    "flutter": "folder-flutter",
+    ".astro": "folder-astro",
+    "astro": "folder-astro",
+    ".dart_tool": "folder-dart-tool",
+    "android": "folder-android",
+    "linux": "folder-linux",
+    "macos": "folder-macos",
+    "apple": "folder-macos",
+    "ios": "folder-ios",
+    "windows": "folder-windows",
+    "window": "folder-windows",
     "shortcuts": "folder-shortcuts",
     "shortcut": "folder-shortcuts",
     "keymaps": "folder-keymaps",
@@ -1471,17 +1469,17 @@
   },
   "folderNamesExpanded": {
     ".kiro": "folder-kiro-open",
-    "flutter":"folder-flutter-open",
-    ".astro":"folder-astro-open",
-    "astro":"folder-astro-open",
-    ".dart_tool":"folder-dart-tool-open",
-    "android":"folder-android-open",
-    "linux":"folder-linux-open",
-    "macos":"folder-macos-open",
-    "apple":"folder-macos-open",
-    "ios":"folder-ios-open",
-    "windows":"folder-windows-open",
-    "window":"folder-windows-open",
+    "flutter": "folder-flutter-open",
+    ".astro": "folder-astro-open",
+    "astro": "folder-astro-open",
+    ".dart_tool": "folder-dart-tool-open",
+    "android": "folder-android-open",
+    "linux": "folder-linux-open",
+    "macos": "folder-macos-open",
+    "apple": "folder-macos-open",
+    "ios": "folder-ios-open",
+    "windows": "folder-windows-open",
+    "window": "folder-windows-open",
     "shortcuts": "folder-shortcuts-open",
     "shortcut": "folder-shortcuts-open",
     "keymaps": "folder-keymaps-open",

@@ -68,8 +68,8 @@
     "sideBarSectionHeader.foreground":       "#00d882",    // - Css text and BOT txt
 
     // --- -- - Buttons
-    "button.background":                     "#00d882",    // - Button bg
-    "button.foreground":                     "#020a04",    // - Button text
+    "button.background":                     "#007848",    // - Button bg
+    "button.foreground":                     "#ffffff",    // - Button text
     "button.hoverBackground":                "#00b86e",    // - Button hover
     "button.secondaryBackground":            "#05965c",    // - Secondary button bg | FM-AM
     "button.secondaryForeground":            "#ffffff",    // - Secondary button text
@@ -154,6 +154,10 @@
     "minimapSlider.background":                    "#00d88230",  // - Slider bg
     "minimapSlider.hoverBackground":               "#00d88245",  // - Slider hover
     "minimapSlider.activeBackground":              "#00d88255",  // - Slider active
+
+    "minimapGutter.addedBackground":               "#00d882",    // - Minimap added (git)
+    "minimapGutter.modifiedBackground":            "#4dc9ff",    // - Minimap modified (git)
+    "minimapGutter.deletedBackground":             "#ff5c6a",    // - Minimap deleted (git)
 
     // --- -- - Editor Line Number - LEFT
     "editorLineNumber.activeForeground":     "#00d882",    // - Active line number
@@ -288,7 +292,7 @@
     "statusBar.noFolderForeground":          "#3d5c48",    // - Status bar no folder text
     "statusBarItem.hoverForeground":         "#d4ead8",    // - Status bar item hover text
     "statusBarItem.activeBackground":        "#00d88215",  // - Status bar active item bg
-    "statusBarItem.remoteBackground":        "#009960",    // - Remote corner bg
+    "statusBarItem.remoteBackground":        "#007848",    // - Remote corner bg
     "statusBarItem.remoteForeground":        "#e8f0ec",    // - Remote corner logo-ICON
     "statusBarItem.remoteHoverForeground":   "#ffffff",    // - Hover corner logo-ICON
     "statusBarItem.prominentBackground":     "#1a3020",    // - Bottom box bg
@@ -322,6 +326,12 @@
 
     "editorOverviewRuler.findMatchForeground":     "#00d88270", // - Mini map overview ruler ---|
     "editorOverviewRuler.rangeHighlightForeground":"#00ff9d70", // - Mini map overview ruler ---|
+    "editorOverviewRuler.errorForeground":         "#ff5c6acc", // - Error mark
+    "editorOverviewRuler.warningForeground":       "#f5c842cc", // - Warning mark
+    "editorOverviewRuler.infoForeground":          "#4dc9ffcc", // - Info mark
+    "editorOverviewRuler.addedForeground":         "#00d88290", // - Added mark (git)
+    "editorOverviewRuler.modifiedForeground":      "#4dc9ff90", // - Modified mark (git)
+    "editorOverviewRuler.deletedForeground":       "#ff5c6a90", // - Deleted mark (git)
 
     // --- -- - BG message error
     "inputValidation.errorBackground":       "#ff5c6a20",  // - Error message bg
@@ -353,6 +363,16 @@
     "editorInlayHint.parameterForeground":   "#9d70e8",    // - Inlay hint parameter text
     "editorInlayHint.parameterBackground":   "#10082008", // - Inlay hint parameter bg
     
+    // --- -- - Code Lens, Light Bulb & Editor Cues
+    "editorCodeLens.foreground":             "#3d5c48",    // - Code lens text
+    "editorLightBulb.foreground":            "#f5c842",    // - Quick fix bulb
+    "editorLightBulbAutoFix.foreground":     "#00d882",    // - Auto-fix bulb
+    "editorLightBulbAi.foreground":          "#00e8c8",    // - AI fix bulb
+    "editorLink.activeForeground":           "#00ff9d",    // - Ctrl+click link
+    "editorGutter.foldingControlForeground": "#3d5c48",    // - Folding chevron
+    "editorWhitespace.foreground":           "#1e3d2860",  // - Whitespace dots
+    "editorRuler.foreground":                "#1a302060",  // - Vertical rulers
+
     // --- -- - Sticky Scroll
     "editorStickyScroll.background":         "#0b1410",    // - Sticky scroll bg
     "editorStickyScroll.border":             "#1a3020",    // - Sticky scroll border
@@ -429,6 +449,12 @@
     "settings.numberInputBackground":        "#0b1410",    // - Number input bg
     "settings.numberInputForeground":        "#d4ead8",    // - Number input text
     "settings.numberInputBorder":            "#1a3020",    // - Number input border
+
+    // --- -- - Editor Diagnostics (squiggles)
+    "editorError.foreground":                "#ff5c6a",    // - Error squiggle
+    "editorWarning.foreground":              "#f5c842",    // - Warning squiggle
+    "editorInfo.foreground":                 "#4dc9ff",    // - Info squiggle
+    "editorHint.foreground":                 "#00b870",    // - Hint squiggle
 
     // --- -- - Problems Panel
     "problemsErrorIcon.foreground":          "#ff5c6a",    // - Error icon
