@@ -22,7 +22,7 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 <!-- --- -->
 
 ---
-## [5.3.0] - 2026-06-17
+## [5.3.2] - 2026-06-17
 
 ### Added
 - **New Icons** F1 Icons.
