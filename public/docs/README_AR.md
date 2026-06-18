@@ -90,7 +90,7 @@
 
 > [!IMPORTANT]
 >
-> - `جديد` **Liquid Theme:** لدينا سمة جديدة `8. LIQUIDㅤㅤ(Lynx Theme)` وهي حاليًا *تجريبية* 🧪
+> - `جديد` **Liquid Theme:** لدينا سمة جديدة `8. LIQUIDㅤㅤ(Lynx Theme)` وهي حاليًا _تجريبية_ 🧪
 >
 > <div align="right">
 >   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/message-warning.webp" width="60%" alt="تحذير السمة التجريبية">
@@ -129,7 +129,7 @@ ext install bastndev.lynx-theme
 | [![gohitx](https://github.com/gohitx.png?size=100)](https://gohit.xyz/me) |
 | :-----------------------------------------------------------------------: |
 |                     **[Gohit X](https://gohit.xyz)**                      |
-|                          _المنشئ والمشرف_                           |
+|                             _المنشئ والمشرف_                              |
 
 - 🐦 **[X](https://twitter.com/gohitx)** : للأسئلة والمناقشات.
 - 🌱 **[IG](https://instagram.com/gohitx)** : **`جديد`** – معاينات المشاريع وتحديثات الحياة.
@@ -163,11 +163,11 @@ ext install bastndev.lynx-theme
   الإضافات التكميلية 🧩 
 </h2>
 
-| الإضافة                                                                                                                                                                                                            | الاسم/>                                                                | الوصف                                                                                                                                                                                                                                                       |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![My Skills](https://open-vsx.org/api/bastndev/my-skills/latest/file/icon.png)](https://open-vsx.org/extension/bastndev/my-skills) | [My Skills](https://github.com/bastndev/My-Skills) | قم بإنشاء وتثبيت وإدارة تعليمات الذكاء الاصطناعي القابلة لإعادة الاستخدام لمشاريعك، حتى يعرف مساعد الترميز الخاص بك بالفعل أسلوبك وقواعدك وسير عملك. |
-| [![Lynx Keymap Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-keymap/2.2.4/1777954360451/Microsoft.VisualStudio.Services.Icons.Default)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://open-vsx.org/extension/bastndev/lynx-keymap) | يوحد اختصارات لوحة المفاتيح عبر جميع محررات الأكواد، مما يمنحك وصولاً فوريًا إلى أي وظيفة بمجموعة مفاتيح واحدة — يعزز سير عملك وتجربة التطوير. **`إذا كان لديك لوحة مفاتيح عادية، فمن الأفضل تنزيل هذا.`** |
-| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | مجموعة أدوات شاملة 👻 تعزز سير عملك بميزات أساسية مثل Error Lens و Git Blame و Env Protection ولقطات شاشة الكود عبر المحررات الرئيسية.                                                                                                          |
+| الإضافة                                                                                                                                      | الاسم/>                                                        | الوصف                                                                                                                                                                                                         |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![F1](https://open-vsx.org/api/bastndev/f1/1.0.0/file/icon.png)](https://open-vsx.org/extension/bastndev/f1)                                | [F1](https://github.com/bastndev/F1)                           | مركز التحكم النهائي للذكاء الاصطناعي. قم بمركزة Claude أو Copilot أو Cursor في محطات تفاعلية، وأنشئ مسارات عمل مخصصة باستخدام 'My Skills'، وامنح الذكاء الاصطناعي سياقًا فوريًا لمشروعك باستخدام 'My Memory'. |
+| [![Lynx Keymap Pro](https://open-vsx.org/api/bastndev/lynx-keymap/2.6.0/file/icon.png)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://github.com/bastndev/Lynx-Keymap-Pro) | يوحد اختصارات لوحة المفاتيح عبر جميع محررات الأكواد، مما يمنحك وصولاً فوريًا إلى أي وظيفة بمجموعة مفاتيح واحدة — مما يعزز سير عملك وتجربة التطوير. **`يتضمن الآن اختصارات للوحات المفاتيح بنسبة 75%`**        |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                             | [ATM](https://open-vsx.org/extension/bastndev/atm)             | مجموعة أدوات شاملة 👻 تعزز سير عملك بميزات أساسية مثل Error Lens و Git Blame و Env Protection ولقطات شاشة الكود عبر المحررات الرئيسية.                                                                        |
 
 <br>
 
