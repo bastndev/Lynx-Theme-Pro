@@ -26,7 +26,7 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 
 ### Added
 - **New Icons** F1 Icons.
-- **Better** Themes 01 to 07.
+- **Better** Themes 01 to 07 & README.md.
 - **new** banner.webp.
 
 ---
