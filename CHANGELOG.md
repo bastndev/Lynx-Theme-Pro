@@ -22,15 +22,19 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 <!-- --- -->
 
 ---
-## [5.3.2] - 2026-06-17
+## [5.3.3] - 2026-06-20
+
+### Improved
+- **Lynx Dark Theme**: Improved general colors.
+- **Lynx NVIM Theme**: Added new minimap colors.
 
 ---
 ## [5.3.2] - 2026-06-17
 
 ### Added
-- **New Icons** F1 Icons.
-- **Better** Themes 01 to 07 & README.md.
-- **new** banner.webp.
+- **New Icons**: F1 Icons.
+- **Better**: Themes 01 to 07 & README.md.
+- **New**: banner.webp.
 
 ---
 ## [5.2.2] - 2026-06-07
