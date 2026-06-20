@@ -151,9 +151,9 @@
     "minimap.findMatchHighlight":                  "#003870f0",  // - Mini map Find match
     "minimap.selectionHighlight":                  "#004b6ec4",  // - Selection
 
-    // "minimapSlider.background":                    "#0090ff35",  // - Slider bg
-    // "minimapSlider.hoverBackground":               "#0090ff48",  // - Slider hover
-    // "minimapSlider.activeBackground":              "#0090ff60",  // - Slider active
+    "minimapSlider.background":                    "#063f6f8b",  // - Slider bg
+    "minimapSlider.hoverBackground":               "#05528786",  // - Slider hover
+    "minimapSlider.activeBackground":              "#045c9f7d",  // - Slider active
 
     "minimapGutter.addedBackground":               "#3dd68c",    // - Minimap added (git)
     "minimapGutter.modifiedBackground":            "#0078e7",    // - Minimap modified (git)
