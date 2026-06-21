@@ -1,15 +1,59 @@
+# Editor and local workspace state
 .vscode/**
 .vscode-test/**
 .gitignore
+.gitattributes
+.vscodeignore
 .prettierignore
-bun.lock
+
+# Source — excluded, EXCEPT the runtime assets the extension loads straight
+# from src/ at runtime:
+#   • package.json "contributes" points themes at src/themes/*.json and the
+#     icon themes at src/icons/**/*.json
+#   • those icon JSON reference the artwork under src/assets/ (*.svg, *.woff)
+#   • src/themes/liquid-theme/ holds the CSS that powers the transparent /
+#     liquid-glass mode, so the whole folder is kept.
+# Do NOT remove these negations or themes, icons, or transparent mode break.
+src/**
+!src/themes/
+!src/themes/*.json
+!src/themes/liquid-theme/
+!src/themes/liquid-theme/**/
+!src/themes/liquid-theme/**/*
+!src/icons/
+!src/icons/**/
+!src/icons/**/*.json
+!src/assets/
+!src/assets/**/
+!src/assets/**/*.svg
+!src/assets/**/*.woff
+
+# Repo/GitHub-only assets and documentation — README links these through
+# raw.githubusercontent.com URLs, so the Marketplace pulls them from Git.
+# README.md, CHANGELOG.md, LICENSE and package.nls*.json stay (rendered by
+# the Marketplace).
+public/**
+AGENTS.md
+ARCHITECTURE.md
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+vsc-extension-quickstart.md
+
+# Tests and generated development maps
+**/__test__/**
+**/__tests__/**
+**/*.test.*
+**/*.spec.*
+**/*.map
+
+# Build, lint, typecheck, and package-manager inputs
 esbuild.js
 eslint.config.mjs
 tsconfig.json
-vsc-extension-quickstart.md
-public/**
-src/__test__/**
-src/types/**
-src/themes/blur-theme/**
-dist/**/*.map
-analizar/**
+bun.lock
+
+# Agent/context caches
+.claude/**
+
+# Local package artifacts
+*.vsix
