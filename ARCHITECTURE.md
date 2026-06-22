@@ -8,17 +8,63 @@ A VS Code extension that ships **8 themes**, a **1280+ SVG icon pack**, and an e
 
 ```text
 Lynx-Theme-Pro/
+├── .vscode/                             # Editor workspace settings
 ├── src/
-│   ├── themes/          # 8 theme JSONs + blur engine
-│   │   ├── 01_dark … 07_nvim
-│   │   └── blur-theme/  # 🧪 JS/CSS injection engine
-│   ├── icons/           # 3 file/folder styles (A, B, C) + System
-│   └── assets/
-│       ├── svg/         # 1280+ SVG icons
-│       └── woff/        # Font assets
-├── public/              # Screenshots & marketing (excluded from VSIX)
-├── package.json         # Extension manifest
-└── .vscodeignore        # VSIX bundle rules
+│   ├── themes/                          # 8 theme JSONs + Liquid (blur) engine
+│   │   ├── 01_Lynx-Dark-theme.json
+│   │   ├── 02_Lynx-Light-theme.json
+│   │   ├── 03_Lynx-Night-theme.json
+│   │   ├── 04_Lynx-Ghibli-theme.json
+│   │   ├── 05_Lynx-Fury-theme.json
+│   │   ├── 06_Lynx-Kiro-theme.json
+│   │   ├── 07_Lynx-NVIM-theme.json
+│   │   ├── 08_Lynx-Liquid-theme.json
+│   │   └── liquid-theme/                # 🧪 Glassmorphism engine (TS)
+│   │       ├── css/                     # Per-OS CSS patches
+│   │       ├── platforms/               # OS detection & integration
+│   │       ├── runtime/                 # Injection + activation
+│   │       ├── utils/                   # Shared helpers
+│   │       └── liquid-theme.ts          # Entry point
+│   ├── icons/                           # Icon system (JSON configs)
+│   │   ├── icon-system/                 # IDE chrome icons (material/test)
+│   │   └── icon-themes/                 # File/folder icon themes
+│   │       ├── lynx-icons-dark.json     # Style A — dark variant
+│   │       ├── lynx-icons-light.json    # Style B — light variant
+│   │       └── lynx-icons-gray.json     # Style C — gray variant
+│   ├── assets/
+│   │   ├── svg/                         # 1280+ SVG icon files
+│   │   └── woff/                        # Font assets
+│   ├── types/                           # Shared TypeScript types
+│   └── __test__/                        # Unit tests
+├── public/                              # Marketing & docs (excluded from VSIX)
+│   ├── banner.webp                      # README banner
+│   ├── docs/                            # Translated READMEs (11 languages)
+│   │   └── README_AR / DE / ES / FR / HI / JA / KO / PT / RU / VI / ZH
+│   └── github/
+│       ├── icon/                        # Marketplace badges & icons
+│       ├── images/                      # Marketing images
+│       └── screenshots/                 # Theme & icon previews
+├── dist/                                # esbuild output (gitignored)
+├── .gitattributes
+├── .gitignore
+├── .prettierignore
+├── .vscodeignore                        # Controls what ships in the VSIX bundle
+├── AGENTS.md                            # Build commands & conventions
+├── ARCHITECTURE.md
+├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE                              # MIT
+├── README.md
+├── bun.lock                             # Bun lockfile
+├── esbuild.js                           # Bundler config
+├── eslint.config.mjs                    # Lint rules
+├── icon.png                             # Extension marketplace icon
+├── package.json                         # Extension manifest & contributes
+├── package.nls.json                     # Default UI strings (en)
+├── package.nls.{ar,de,es,fr,hi,ja,ko,pt-br,ru,vi,zh-cn}.json   # i18n
+├── tsconfig.json                        # TypeScript config
+└── vsc-extension-quickstart.md
 ```
 
 ---
