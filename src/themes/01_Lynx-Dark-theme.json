@@ -87,7 +87,7 @@
     "gitDecoration.conflictingResourceForeground":   "#4db8ff",    // - Merge conflicts
     "gitDecoration.deletedResourceForeground":       "#ff6878",    // - Deleted files
     "gitDecoration.ignoredResourceForeground":       "#3a4a3abe",  // - Ignored files
-    "gitDecoration.untrackedResourceForeground":     "#4ade80",    // - Untracked files
+    "gitDecoration.untrackedResourceForeground":     "#28EB65",    // - Untracked files
     "gitDecoration.stageModifiedResourceForeground": "#f5c842",    // - Staged modified files
     "gitDecoration.stageDeletedResourceForeground":  "#f5c842",    // - Staged deleted files
     "gitDecoration.submoduleResourceForeground":     "#f5c842",    // - Submodules
@@ -1238,7 +1238,7 @@
       "name": "Markdown Punctuation Definition Heading",
       "scope": ["text.html.markdown punctuation.definition.heading"],
       "settings": {
-        "foreground": "#4db8ff",
+        "foreground": "#c870ff",
         "fontStyle": "bold"
       }
     },
@@ -1246,7 +1246,7 @@
       "name": "Markdown Heading",
       "scope": ["text.html.markdown entity.name.section"],
       "settings": {
-        "foreground": "#10b981",
+        "foreground": "#c870ff",
         "fontStyle": "bold"
       }
     },
@@ -1254,7 +1254,7 @@
       "name": "Markdown String Other Link Title",
       "scope": ["text.html.markdown string.other.link.title"],
       "settings": {
-        "foreground": "#10b981"
+        "foreground": "#38c4e8"
       }
     },
     {
