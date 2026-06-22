@@ -2,15 +2,15 @@
 
 ✨ **Step Into the Light** ✨
 
-A complete and versatile theme collection designed for optimal coding experience in both dark and bright environments. Lynx Theme Pro features carefully calibrated colors and contrast ratios to provide excellent visibility and comfort in any lighting condition.
+A complete and versatile theme collection designed for optimal coding experience in both dark and bright environments. Lynx Theme Pro ships carefully calibrated colors, a 1280+ SVG icon pack, and an experimental Glassmorphism blur engine — built for excellent visibility and comfort in any lighting condition.
 
 ## Features
 
-- **7 Beautiful Theme Variants**: Dark Mode, Light Mode, Night Mode, Ghibli Mode, Fury Mode, Kiro Mode, and NVIM Mode
+- **8 Beautiful Theme Variants**: Dark, Light, Night, Ghibli, Fury, Kiro, NVIM, and Blur 🧪
+- **1280+ SVG Icons**: Three file/folder styles plus a dedicated System icon set
 - **Universal Compatibility**: Perfect for coding in any lighting environment
-- **Eye Comfort**: Warm and comfortable coding experience with optional Sun filter
-- **Professional Design**: Thoughtfully crafted for extended coding sessions
-- **One-time Registration**: Simple activation process
+- **Eye Comfort**: Warm, accessible palettes for extended coding sessions
+- **Professional Design**: Thoughtfully crafted for long, focused work
 
   Discover more extensions [here](https://gohit.xyz/)
 
