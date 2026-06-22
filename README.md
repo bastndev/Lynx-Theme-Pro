@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://github.com/bastndev/Lynx-Theme-Pro/releases/latest"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/banner.webp" width="100%" alt="Lynx Theme Pro Banner"></a>
+[![Lynx Theme Pro](https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/banner.webp)](https://www.gohit.xyz/extensions/Lynx-Theme-Pro)
 
 <p>
   <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=7F5BFF&label=VERSION" alt="Version">&nbsp;
