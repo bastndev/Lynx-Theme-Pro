@@ -127,9 +127,9 @@ ext install bastndev.lynx-theme
 
 ## About Me
 
-| [![gohitx](https://github.com/gohitx.png?size=100)](https://gohit.xyz/me) |
+| [![gohitx](https://github.com/gohitx.png?size=100)](https://gohit.xyz) |
 | :-----------------------------------------------------------------------: |
-|                     **[Gohit X](https://gohit.xyz)**                      |
+|                     **[Gohit X](https://gohit.xyz/me)**                      |
 |                          _Creator & Maintainer_                           |
 
 - 🐦 **[X](https://x.com/intent/follow?screen_name=gohitx)** : For questions and discussions.
