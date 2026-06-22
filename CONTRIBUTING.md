@@ -71,6 +71,8 @@ Screenshots go in `public/screenshots/themes/` or `public/screenshots/icons/` an
 
 ## Submitting a PR
 
+Keep PRs small and focused on one theme, icon set, or fix. If you're touching many things at once, split it into separate PRs — it's faster to review and faster to merge.
+
 Your PR description should include:
 
 - **What** changed and why
