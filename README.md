@@ -1,15 +1,15 @@
 <div align="center">
-  <a href="https://github.com/bastndev/Lynx-Theme-Pro/releases/latest"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/banner.webp" width="100%" alt="Lynx Theme Pro Banner"></a>
-</div>
 
-<p align="center">
+<a href="https://github.com/bastndev/Lynx-Theme-Pro/releases/latest"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/banner.webp" width="100%" alt="Lynx Theme Pro Banner"></a>
+
+<p>
   <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=7F5BFF&label=VERSION" alt="Version">&nbsp;
   <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=4EF4E2&label=Downloads" alt="Downloads">&nbsp;
   <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=FF5ACF&label=RATING" alt="Rating">&nbsp;
   <a href="https://github.com/bastndev/Lynx-Theme-Pro"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/icon/star.png" width="26.6px" alt="Github Star ⭐️"></a>
 </p>
 
-<p align="center">
+<p>
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_ES.md">Español 🇪🇸</a> |
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_ZH.md">中文 🇨🇳</a> |
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_DE.md">Deutsch 🇩🇪</a> |
@@ -22,6 +22,8 @@
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_HI.md">हिन्दी 🇮🇳</a> |
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_AR.md">العربية 🇸🇦</a><span>...</span>
 </p>
+
+</div>
 
 <br>
 
