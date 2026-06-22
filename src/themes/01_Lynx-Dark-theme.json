@@ -1238,7 +1238,7 @@
       "name": "Markdown Punctuation Definition Heading",
       "scope": ["text.html.markdown punctuation.definition.heading"],
       "settings": {
-        "foreground": "#4db8ff",
+        "foreground": "#c870ff",
         "fontStyle": "bold"
       }
     },
@@ -1246,7 +1246,7 @@
       "name": "Markdown Heading",
       "scope": ["text.html.markdown entity.name.section"],
       "settings": {
-        "foreground": "#10b981",
+        "foreground": "#c870ff",
         "fontStyle": "bold"
       }
     },
@@ -1254,7 +1254,7 @@
       "name": "Markdown String Other Link Title",
       "scope": ["text.html.markdown string.other.link.title"],
       "settings": {
-        "foreground": "#10b981"
+        "foreground": "#38c4e8"
       }
     },
     {
