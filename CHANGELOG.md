@@ -12,7 +12,7 @@ A complete and versatile theme collection designed for optimal coding experience
 - **Eye Comfort**: Warm, accessible palettes for extended coding sessions
 - **Professional Design**: Thoughtfully crafted for long, focused work
 
-  Discover more extensions [here](https://gohit.xyz/)
+  Discover more extensions [here](https://gohit.xyz/extensions)
 
 ## Changelog
 
