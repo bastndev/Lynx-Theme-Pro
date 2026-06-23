@@ -54,11 +54,9 @@
     "url": "https://github.com/sponsors/bastndev"
   },
 
-  "main": "./dist/themes/liquid-theme/liquid-theme.js",
   "l10n": "./l10n",
-  "activationEvents": [
-    "onStartupFinished"
-  ],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./dist/themes/liquid-theme/liquid-theme.js",
 
   "contributes": {
     "themes": [
