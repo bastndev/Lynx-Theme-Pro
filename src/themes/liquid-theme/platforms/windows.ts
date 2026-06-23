@@ -77,12 +77,12 @@ export async function install(context: vscode.ExtensionContext): Promise<void> {
     await context.globalState.update('lynxLiquidPendingColorApply', true);
 
     void vscode.window.showInformationMessage(
-      t('lynx.liquid.install.success.win'), { title: t('lynx.liquid.btn.restart') }
+      t('✔️ Windows Transparent effect installed. 🔄 Restart VSCode to activate it.'), { title: t('Restart now') }
     ).then(msg => { if (msg) { void promptRestart(context); } });
   } catch (error: unknown) {
     writer.cleanup();
     console.error('[Lynx Liquid][Windows] Installation error:', error);
-    vscode.window.showErrorMessage(t('lynx.liquid.error.installFailed', getErrorMessage(error)));
+    vscode.window.showErrorMessage(t('[Lynx Liquid] Installation failed: {0}', getErrorMessage(error)));
   } finally {
     _installing = false;
   }
@@ -123,12 +123,12 @@ export async function uninstall(context: vscode.ExtensionContext): Promise<void>
     await context.globalState.update('lynxLiquidInstalled', false);
 
     void vscode.window.showInformationMessage(
-      t('lynx.liquid.uninstall.success.win'), { title: t('lynx.liquid.btn.restart') }
+      t('Windows Transparent effect removed. 🔄 Restart VSCode.'), { title: t('Restart now') }
     ).then(msg => { if (msg) { void promptRestart(); } });
   } catch (error: unknown) {
     writer.cleanup();
     console.error('[Lynx Liquid][Windows] Uninstallation error:', error);
-    vscode.window.showErrorMessage(t('lynx.liquid.error.uninstallFailed', getErrorMessage(error)));
+    vscode.window.showErrorMessage(t('[Lynx Liquid] Uninstallation failed: {0}', getErrorMessage(error)));
   } finally {
     _installing = false;
   }

@@ -47,7 +47,7 @@ export async function install(context: vscode.ExtensionContext): Promise<void> {
     paths = resolveVSCodePaths(RUNTIME_DIR_NAME);
   } catch (err: unknown) {
     console.error('[Lynx Liquid][macOS] Path resolution failed:', err);
-    vscode.window.showErrorMessage(t('lynx.liquid.error.generic', getErrorMessage(err)));
+    vscode.window.showErrorMessage(t('[Lynx Liquid] Error: {0}', getErrorMessage(err)));
     _installing = false; return;
   }
 
@@ -59,18 +59,18 @@ export async function install(context: vscode.ExtensionContext): Promise<void> {
       `HTMLFile: ${HTMLFile} (${fs.existsSync(HTMLFile) ? '✓' : '✗'})`,
     ].join(' | ');
     console.error('[Lynx Liquid][macOS] Files not found:', info);
-    vscode.window.showErrorMessage(t('lynx.liquid.error.notFound', vscode.env.appName, info));
+    vscode.window.showErrorMessage(t('[Lynx Liquid] VSCode files not found. Editor: {0}. Detail: {1}', vscode.env.appName, info));
     _installing = false; return;
   }
 
   const elevationNeeded = checkNeedsElevationMacOS(appDir);
   if (elevationNeeded) {
     const choice = await vscode.window.showInformationMessage(
-      t('lynx.liquid.prompt.mac'),
-      { title: t('lynx.liquid.btn.continue') },
-      { title: t('lynx.liquid.btn.cancel') }
+      t('[Lynx Theme Pro] Administrator permissions are required to apply the vibrancy effect on macOS. You will be prompted for your password.'),
+      { title: t('Yes, continue') },
+      { title: t('Cancel') }
     );
-    if (!choice || choice.title === t('lynx.liquid.btn.cancel')) { _installing = false; return; }
+    if (!choice || choice.title === t('Cancel')) { _installing = false; return; }
   }
 
   const writer = new StagedFileWriterMacOS(elevationNeeded);
@@ -106,15 +106,15 @@ export async function install(context: vscode.ExtensionContext): Promise<void> {
     await context.globalState.update('lynxLiquidPendingColorApply', true);
 
     void vscode.window.showInformationMessage(
-      t('lynx.liquid.install.success.mac'), { title: t('lynx.liquid.btn.restart') }
+      t('✔️ macOS Vibrancy effect installed. 🔄 Restart VSCode to activate it.'), { title: t('Restart now') }
     ).then(msg => { if (msg) { void promptRestart(context); } });
   } catch (error: unknown) {
     writer.cleanup();
     console.error('[Lynx Liquid][macOS] Installation error:', error);
     if (hasErrorCode(error, 'EACCES') || hasErrorCode(error, 'EPERM')) {
-      vscode.window.showErrorMessage(t('lynx.liquid.error.noWrite', getErrorMessage(error)));
+      vscode.window.showErrorMessage(t('[Lynx Liquid] No write permissions: {0}', getErrorMessage(error)));
     } else {
-      vscode.window.showErrorMessage(t('lynx.liquid.error.unexpected', getErrorMessage(error)));
+      vscode.window.showErrorMessage(t('[Lynx Liquid] Unexpected error: {0}', getErrorMessage(error)));
     }
   } finally {
     _installing = false;
@@ -164,12 +164,12 @@ export async function uninstall(context: vscode.ExtensionContext): Promise<void>
     await context.globalState.update('lynxLiquidInstalled', false);
 
     void vscode.window.showInformationMessage(
-      t('lynx.liquid.uninstall.success.mac'), { title: t('lynx.liquid.btn.restart') }
+      t('macOS Vibrancy effect removed. 🔄 Restart VSCode.'), { title: t('Restart now') }
     ).then(msg => { if (msg) { void promptRestart(); } });
   } catch (error: unknown) {
     writer.cleanup();
     console.error('[Lynx Liquid][macOS] Uninstallation error:', error);
-    vscode.window.showErrorMessage(t('lynx.liquid.error.uninstallFailed', getErrorMessage(error)));
+    vscode.window.showErrorMessage(t('[Lynx Liquid] Uninstallation failed: {0}', getErrorMessage(error)));
   } finally {
     _installing = false;
   }
