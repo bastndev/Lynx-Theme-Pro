@@ -2,17 +2,14 @@
 
 [![Lynx Theme Pro](https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/banner.webp)](https://www.gohit.xyz/extension/lynx-theme-pro)
 
-</div>
-
-<p align="center">
+<p>
   <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=7F5BFF&label=VERSION" alt="Version">&nbsp;
   <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=4EF4E2&label=Downloads" alt="Downloads">&nbsp;
   <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-theme.jpg?style=for-the-badge&colorA=000000&colorB=FF5ACF&label=RATING" alt="Rating">&nbsp;
   <a href="https://github.com/bastndev/Lynx-Theme-Pro"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/icon/star.png" width="26.6px" alt="Github Star ⭐️"></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/README.md">English 🇺🇸</a> |
+<p>
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_ES.md">Español 🇪🇸</a> |
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_ZH.md">中文 🇨🇳</a> |
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_DE.md">Deutsch 🇩🇪</a> |
@@ -25,65 +22,68 @@
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_HI.md">हिन्दी 🇮🇳</a> |
   <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/public/docs/README_AR.md">العربية 🇸🇦</a><span>...</span>
 </p>
+
+</div>
+
 <br>
 
-<details>
-  <summary align="center"><strong>(𝗖𝗹𝗶𝗰𝗸) Lynx Theme + Icônes</strong></summary>
+<details >
+  <summary align="center"><strong>(Cliquez) Lynx Theme + Icons</strong></summary>
 
   <details>
-    <summary>🎭 Icônes ㅤ (Captures d'écran)</summary>
+    <summary>🎭 Icons ㅤ (Captures d'écran)</summary>
 
-#### Style A
+#### A. Style
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/a-style.png" alt="Capture d'écran Style d'icône A" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/a-style.png" alt="Icon Style A Screenshot" width="100%">
 
-#### Style B
+#### B. Style
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/b-style.png" alt="Capture d'écran Style d'icône B" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/b-style.png" alt="Icon Style B Screenshot" width="100%">
 
-#### Style C
+#### C. Style
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/c-style.png" alt="Capture d'écran Style d'icône C" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/c-style.png" alt="Icon Style C Screenshot" width="100%">
 
-<h4 align="center">Icônes Système (IDE)</h4>
+<h4 align="center">System Icons (IDE)</h4>
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/system.webp" alt="Capture d'écran Icônes Système" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/icons/system.webp" alt="System Icons Screenshot" width="100%">
   </details>
 
   <details>
-    <summary>🎨 Thèmes (Captures d'écran)</summary>
+    <summary>🎨 Themes (Captures d'écran)</summary>
 
 #### 1. DARK
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/dark-theme.png" alt="Capture d'écran Thème DARK" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/dark-theme.png" alt="DARK Theme Screenshot" width="100%">
 
 #### 2. LIGHT
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/light-theme.png" alt="Capture d'écran Thème LIGHT" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/light-theme.png" alt="LIGHT Theme Screenshot" width="100%">
 
 #### 3. NIGHT
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/night-theme.png" alt="Capture d'écran Thème NIGHT" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/night-theme.png" alt="NIGHT Theme Screenshot" width="100%">
 
 #### 4. GHIBLI
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/ghibli-theme.png" alt="Capture d'écran Thème GHIBLI" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/ghibli-theme.png" alt="GHIBLI Theme Screenshot" width="100%">
 
 #### 5. FURY
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/fury-theme.webp" alt="Capture d'écran Thème FURY" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/fury-theme.webp" alt="FURY Theme Screenshot" width="100%">
 
 #### 6. KIRO
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/kiro-theme.png" alt="Capture d'écran Thème KIRO" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/kiro-theme.png" alt="KIRO Theme Screenshot" width="100%">
 
 #### 7. NVIM
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/nvim-theme.png" alt="Capture d'écran Thème NVIM" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/nvim-theme.png" alt="NVIM Theme Screenshot" width="100%">
 
 #### 8. BLUR
 
-  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/blur-theme.webp" alt="Capture d'écran Thème BLUR" width="100%">
+  <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/themes/blur-theme.webp" alt="BLUR Theme Screenshot" width="100%">
   </details>
 </details>
 
@@ -91,10 +91,10 @@
 
 > [!IMPORTANT]
 >
-> - `nouveau` **Liquid Theme:** Nous avons un nouveau thème `8. LIQUIDㅤㅤ(Lynx Theme)` qui est actuellement *expérimental* 🧪
+> - `new` **Liquid Theme:** Nous avons un nouveau thème `8. LIQUIDㅤㅤ(Lynx Theme)` qui est actuellement _experimental_ 🧪
 >
 > <div align="right">
->   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/message-warning.webp" width="60%" alt="Avertissement Thème Expérimental">
+>   <img src="https://raw.githubusercontent.com/bastndev/Lynx-Theme-Pro/refs/heads/main/public/github/screenshots/message-warning.webp" width="60%" alt="Experimental Theme Warning">
 > </div>
 
 <br>
@@ -115,34 +115,34 @@ Collez la commande suivante et appuyez sur `Enter` :
 ext install bastndev.lynx-theme
 ```
 
-### Méthode 2 — Vue des extensions
+### Méthode 2 — Vue des Extensions
 
-1. Ouvrez les extensions (`Ctrl+Shift+X` / `⌘+Shift+X`)
+1. Ouvrez Extensions (`Ctrl+Shift+X` / `⌘+Shift+X`)
 2. Recherchez **"Lynx Theme Pro"**
-3. Cliquez sur **Installer**
+3. Cliquez sur **Install**
 
 <br>
 
 ---
 
-## À propos de moi
+## À Propos de Moi
 
-| [![gohitx](https://github.com/gohitx.png?size=100)](https://gohit.xyz/me) |
+| [![gohitx](https://github.com/gohitx.png?size=100)](https://gohit.xyz) |
 | :-----------------------------------------------------------------------: |
-|                     **[Gohit X](https://gohit.xyz)**                      |
-|                         _Créateur et mainteneur_                          |
+|                     **[Gohit X](https://gohit.xyz/me)**                      |
+|                          _Créateur & Mainteneur_                           |
 
-- 🐦 **[X](https://twitter.com/gohitx)** : Pour les questions et discussions.
-- 🌱 **[IG](https://instagram.com/gohitx)** : **`nouveau`** – Aperçus de projets et mises à jour de vie.
-- 🔴 **[YouTube](https://www.youtube.com/@gohitx?sub_confirmation=1)** : Code, logiciels et informations sur le développement.
+- 🐦 **[X](https://x.com/intent/follow?screen_name=gohitx)** : Pour les questions et discussions.
+- 🌱 **[IG](https://instagram.com/gohitx)** : **`new`** – Aperçus du projet & actualités.
+- 🔴 **[YouTube](https://www.youtube.com/@gohitx?sub_confirmation=1)** : Code, Logiciels et développement.
 
-  <br>
+<br>
 
 ---
 
 ## Sponsors
 
-Merci à tous ceux qui soutiennent ce projet ! Vos contributions rendent possibles les mises à jour et les nouvelles extensions.
+Merci à tous ceux qui soutiennent ce projet ! Vos contributions rendent les mises à jour et les nouvelles extensions possibles.
 
 <div align="center">
   <table>
@@ -161,22 +161,22 @@ Merci à tous ceux qui soutiennent ce projet ! Vos contributions rendent possibl
 <br>
 
 <h2 align="center">
-  Extensions complémentaires 🧩 
+  Extensions Complémentaires 🧩 
 </h2>
 
-| Extension                                                                                                                                                                                                            | Nom/>                                                                  | Description                                                                                                                                                                                                                             |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![F1](https://open-vsx.org/api/bastndev/f1/1.0.0/file/icon.png)](https://open-vsx.org/extension/bastndev/f1) | [F1](https://github.com/bastndev/F1) | Le centre de contrôle IA ultime. Centralisez Claude, Copilot ou Cursor dans des terminaux interactifs, créez des flux de travail personnalisés avec 'My Skills' et donnez à l'IA un contexte de code instantané avec 'My Memory'. |
-| [![Lynx Keymap Pro](https://open-vsx.org/api/bastndev/lynx-keymap/2.6.0/file/icon.png)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://github.com/bastndev/Lynx-Keymap-Pro) | Standardise les raccourcis clavier sur tous les éditeurs de code, vous donnant un accès instantané à n'importe quelle fonctionnalité avec une seule combinaison de touches — stimulant votre flux de travail et votre expérience de développement. **`Inclut désormais des raccourcis pour les claviers 75%`** |
-| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                                                                                                     | [ATM](https://open-vsx.org/extension/bastndev/atm)                     | Une boîte à outils tout-en-un 👻 qui booste votre flux de travail avec des fonctionnalités essentielles comme Error Lens, Git Blame, Env Protection et des captures de code sur les principaux éditeurs.                                |
+| Extension                                                                                                                                    | Name                                                         | Description                                                                                                                                                                                                                       |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![F1](https://open-vsx.org/api/bastndev/f1/1.0.0/file/icon.png)](https://open-vsx.org/extension/bastndev/f1)                                | [F1](https://github.com/bastndev/F1)                           | Le centre de contrôle IA ultime. Centralisez Claude, Copilot ou Cursor dans des terminaux interactifs, créez des flux de travail personnalisés avec 'My Skills', et donnez à l'IA un contexte immédiat de votre code avec 'My Memory'. |
+| [![Lynx Keymap Pro](https://open-vsx.org/api/bastndev/lynx-keymap/2.6.0/file/icon.png)](https://open-vsx.org/extension/bastndev/lynx-keymap) | [Lynx Keymap Pro](https://github.com/bastndev/Lynx-Keymap-Pro) | Standardise les raccourcis clavier dans tous les éditeurs de code, vous donnant un accès instantané à n'importe quelle fonctionnalité avec une seule combinaison de touches — améliorant ainsi votre flux de travail et votre expérience de développement. **`Now includes shortcuts for 75% keyboards`** |
+| [![ATM](https://open-vsx.org/api/bastndev/atm/1.9.4/file/icon.png)](https://open-vsx.org/extension/bastndev/atm)                             | [ATM](https://github.com/bastndev/atm)                         | Une boîte à outils tout-en-un 👻 qui booste votre flux de travail avec des fonctionnalités essentielles comme Error Lens, Git Blame, Env Protection, et des captures d'écran de code sur les principaux éditeurs. |
 
 <br>
 
 <div align="center">
   
-  **Profitez bien 🎉 (Lynx Theme Pro) est maintenant installé !**  
-  *Si vous trouvez des bugs ou avez des commentaires, n'hésitez pas à [ouvrir un ticket](https://github.com/bastndev/Lynx-Theme-Pro/issues/new).*
+  **Profitez-en 🎉 (Lynx Theme Pro) est maintenant installé !**  
+  *Si vous trouvez des bugs ou avez des commentaires, n'hésitez pas à [open an issue](https://github.com/bastndev/Lynx-Theme-Pro/issues/new).*
 
-<sub>Fait en 🇵🇪 par <a href="https://gohit.xyz">Gohit X</a> · Sous licence <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/LICENSE">`MIT`</a></sub>
+<sub>Made in 🇵🇪 by <a href="https://gohit.xyz">Gohit X</a> · Licensed under <a href="https://github.com/bastndev/Lynx-Theme-Pro/blob/main/LICENSE">`MIT`</a></sub>
 
 </div>
