@@ -1,0 +1,21 @@
+{
+  "[Lynx Liquid] Error: {0}": "[Lynx Liquid] خطأ: {0}",
+  "[Lynx Liquid] No write permissions: {0}": "[Lynx Liquid] لا توجد أذونات كتابة: {0}",
+  "[Lynx Liquid] Unexpected error: {0}": "[Lynx Liquid] خطأ غير متوقع: {0}",
+  "[Lynx Liquid] Installation failed: {0}": "[Lynx Liquid] فشل التثبيت: {0}",
+  "[Lynx Liquid] Uninstallation failed: {0}": "[Lynx Liquid] فشل إلغاء التثبيت: {0}",
+  "✔️ macOS Vibrancy effect installed. 🔄 Restart VSCode to activate it.": "✔️ تم تثبيت تأثير Vibrancy لـ macOS. 🔄 أعد تشغيل VSCode لتفعيله.",
+  "✔️ Linux transparency effect installed. 🔄 Restart VSCode to activate it.": "✔️ تم تثبيت تأثير الشفافية لـ Linux. 🔄 أعد تشغيل VSCode لتفعيله.",
+  "✔️ Windows Transparent effect installed. 🔄 Restart VSCode to activate it.": "✔️ تم تثبيت تأثير الشفافية لـ Windows. 🔄 أعد تشغيل VSCode لتفعيله.",
+  "macOS Vibrancy effect removed. 🔄 Restart VSCode.": "تمت إزالة تأثير Vibrancy لـ macOS. 🔄 أعد تشغيل VSCode.",
+  "Transparency effect removed. 🔄 Restart VSCode.": "تمت إزالة تأثير الشفافية. 🔄 أعد تشغيل VSCode.",
+  "Windows Transparent effect removed. 🔄 Restart VSCode.": "تمت إزالة تأثير الشفافية لـ Windows. 🔄 أعد تشغيل VSCode.",
+  "[Lynx Theme Pro] Administrator permissions are required to apply the vibrancy effect on macOS. You will be prompted for your password.": "[Lynx Theme Pro] مطلوب أذونات المسؤول لتطبيق تأثير Vibrancy على macOS. سيُطلب منك كلمة المرور.",
+  "Yes, continue": "نعم، تابع",
+  "Cancel": "إلغاء",
+  "Restart now": "أعد التشغيل الآن",
+  "[Lynx Liquid] VSCode files not found. Editor: {0}. Detail: {1}": "[Lynx Liquid] لم يتم العثور على ملفات VSCode. المحرر: {0}. التفاصيل: {1}",
+  "[Lynx Liquid] VSCode files not found. Editor: {0}. If you use a VSCode fork, open an issue. Detail: {1}": "[Lynx Liquid] لم يتم العثور على ملفات VSCode. المحرر: {0}. إذا كنت تستخدم نسخة معدلة من VSCode، افتح مشكلة. التفاصيل: {1}",
+  "[Lynx Liquid] {0} not supported — install VSCode as .deb to use this effect.": "[Lynx Liquid] {0} غير مدعوم — قم بتثبيت VSCode كـ .deb لاستخدام هذا التأثير.",
+  "[Lynx Liquid] pkexec (Polkit) is required to write to the VSCode directory. Install it and try again.": "[Lynx Liquid] مطلوب pkexec (Polkit) للكتابة في دليل VSCode. قم بتثبيته وحاول مرة أخرى."
+}

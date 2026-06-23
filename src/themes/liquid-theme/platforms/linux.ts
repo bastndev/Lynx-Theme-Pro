@@ -66,17 +66,17 @@ export async function install(context: vscode.ExtensionContext): Promise<void> {
     resolveVSCodePaths(RUNTIME_DIR_NAME);
 
   if (!fs.existsSync(JSFile) || !fs.existsSync(HTMLFile)) {
-    vscode.window.showErrorMessage(t('lynx.liquid.error.linux.notFound', vscode.env.appName, 'Missing JS/HTML'));
+    vscode.window.showErrorMessage(t('[Lynx Liquid] VSCode files not found. Editor: {0}. If you use a VSCode fork, open an issue. Detail: {1}', vscode.env.appName, 'Missing JS/HTML'));
     _installing = false; return;
   }
 
   const elevationNeeded = checkNeedsElevation(appDir);
   if (elevationNeeded === 'snap' || elevationNeeded === 'flatpak') {
-    vscode.window.showErrorMessage(t('lynx.liquid.error.linux.snapFlatpak', elevationNeeded));
+    vscode.window.showErrorMessage(t('[Lynx Liquid] {0} not supported — install VSCode as .deb to use this effect.', elevationNeeded));
     _installing = false; return;
   }
   if (elevationNeeded && (hasNoNewPrivs() || !hasPkexec())) {
-    vscode.window.showErrorMessage(t('lynx.liquid.error.linux.noPkexec'));
+    vscode.window.showErrorMessage(t('[Lynx Liquid] pkexec (Polkit) is required to write to the VSCode directory. Install it and try again.'));
     _installing = false; return;
   }
 
@@ -118,7 +118,7 @@ export async function install(context: vscode.ExtensionContext): Promise<void> {
     } catch {}
 
     void vscode.window.showInformationMessage(
-      t('lynx.liquid.install.success.linux'), { title: t('lynx.liquid.btn.restart') }
+      t('✔️ Linux transparency effect installed. 🔄 Restart VSCode to activate it.'), { title: t('Restart now') }
     ).then(msg => { if (msg) { void promptRestart(); } });
   } catch (error) {
     writer.cleanup();
@@ -163,7 +163,7 @@ export async function uninstall(context: vscode.ExtensionContext): Promise<void>
     await context.globalState.update('lynxLiquidInstalled', false);
 
     void vscode.window.showInformationMessage(
-      t('lynx.liquid.uninstall.success.linux'), { title: t('lynx.liquid.btn.restart') }
+      t('Transparency effect removed. 🔄 Restart VSCode.'), { title: t('Restart now') }
     ).then(msg => { if (msg) { void promptRestart(); } });
   } catch (error) {
     writer.cleanup();

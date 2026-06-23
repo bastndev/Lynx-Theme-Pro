@@ -55,6 +55,7 @@
   },
 
   "main": "./dist/themes/liquid-theme/liquid-theme.js",
+  "l10n": "./l10n",
   "activationEvents": [
     "onStartupFinished"
   ],

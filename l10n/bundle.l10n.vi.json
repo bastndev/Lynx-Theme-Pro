@@ -1,0 +1,21 @@
+{
+  "[Lynx Liquid] Error: {0}": "[Lynx Liquid] Lỗi: {0}",
+  "[Lynx Liquid] No write permissions: {0}": "[Lynx Liquid] Không có quyền ghi: {0}",
+  "[Lynx Liquid] Unexpected error: {0}": "[Lynx Liquid] Lỗi không xác định: {0}",
+  "[Lynx Liquid] Installation failed: {0}": "[Lynx Liquid] Cài đặt thất bại: {0}",
+  "[Lynx Liquid] Uninstallation failed: {0}": "[Lynx Liquid] Gỡ cài đặt thất bại: {0}",
+  "✔️ macOS Vibrancy effect installed. 🔄 Restart VSCode to activate it.": "✔️ Đã cài đặt hiệu ứng Vibrancy cho macOS. 🔄 Khởi động lại VSCode để kích hoạt.",
+  "✔️ Linux transparency effect installed. 🔄 Restart VSCode to activate it.": "✔️ Đã cài đặt hiệu ứng trong suốt cho Linux. 🔄 Khởi động lại VSCode để kích hoạt.",
+  "✔️ Windows Transparent effect installed. 🔄 Restart VSCode to activate it.": "✔️ Đã cài đặt hiệu ứng trong suốt cho Windows. 🔄 Khởi động lại VSCode để kích hoạt.",
+  "macOS Vibrancy effect removed. 🔄 Restart VSCode.": "Đã gỡ bỏ hiệu ứng Vibrancy cho macOS. 🔄 Khởi động lại VSCode.",
+  "Transparency effect removed. 🔄 Restart VSCode.": "Đã gỡ bỏ hiệu ứng trong suốt. 🔄 Khởi động lại VSCode.",
+  "Windows Transparent effect removed. 🔄 Restart VSCode.": "Đã gỡ bỏ hiệu ứng trong suốt cho Windows. 🔄 Khởi động lại VSCode.",
+  "[Lynx Theme Pro] Administrator permissions are required to apply the vibrancy effect on macOS. You will be prompted for your password.": "[Lynx Theme Pro] Cần có quyền quản trị để áp dụng hiệu ứng vibrancy trên macOS. Bạn sẽ được yêu cầu nhập mật khẩu.",
+  "Yes, continue": "Có, tiếp tục",
+  "Cancel": "Hủy",
+  "Restart now": "Khởi động lại ngay",
+  "[Lynx Liquid] VSCode files not found. Editor: {0}. Detail: {1}": "[Lynx Liquid] Không tìm thấy tệp VSCode. Trình chỉnh sửa: {0}. Chi tiết: {1}",
+  "[Lynx Liquid] VSCode files not found. Editor: {0}. If you use a VSCode fork, open an issue. Detail: {1}": "[Lynx Liquid] Không tìm thấy tệp VSCode. Trình chỉnh sửa: {0}. Nếu bạn sử dụng một bản phân nhánh của VSCode, hãy mở một issue. Chi tiết: {1}",
+  "[Lynx Liquid] {0} not supported — install VSCode as .deb to use this effect.": "[Lynx Liquid] {0} không được hỗ trợ — hãy cài đặt VSCode dưới dạng .deb để sử dụng hiệu ứng này.",
+  "[Lynx Liquid] pkexec (Polkit) is required to write to the VSCode directory. Install it and try again.": "[Lynx Liquid] Yêu cầu pkexec (Polkit) để ghi vào thư mục VSCode. Hãy cài đặt nó và thử lại."
+}

@@ -1,5 +1,4 @@
 import * as vscode from 'vscode';
-import * as l10n from './utils/l10n';
 import {
   applyPendingColorCustomizations, cleanupLiquidResidue,
 } from './utils/platform-shared';
@@ -44,7 +43,6 @@ function isLiquidThemeActive() {
  * Called when VSCode finishes loading (onStartupFinished).
  */
 export function activate(context: vscode.ExtensionContext) {
-  l10n.init(context);
   console.log('[Lynx Liquid] Extension active — waiting for liquid theme selection.');
 
   const handler = getPlatformHandler();

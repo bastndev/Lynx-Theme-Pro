@@ -1,28 +1,4 @@
 {
   "extension.displayName": "Lynx Theme Pro + (Biểu tượng)",
-  "extension.description": "8 chủ đề tuyệt đẹp + 3 bộ biểu tượng cho VS Code, Cursor, Windsurf & hơn thế nữa. Tối, Sáng, Ban đêm, Ghibli, Fury, Kiro, NVIM & Làm mờ. Giảm mỏi mắt và tăng năng suất lập trình của bạn.",
-
-  "lynx.liquid.error.generic": "[Lynx Liquid] Lỗi: {0}",
-  "lynx.liquid.error.noWrite": "[Lynx Liquid] Không có quyền ghi: {0}",
-  "lynx.liquid.error.unexpected": "[Lynx Liquid] Lỗi không xác định: {0}",
-  "lynx.liquid.error.installFailed": "[Lynx Liquid] Cài đặt thất bại: {0}",
-  "lynx.liquid.error.uninstallFailed": "[Lynx Liquid] Gỡ cài đặt thất bại: {0}",
-  "lynx.liquid.install.success.mac": "✔️ Đã cài đặt hiệu ứng Vibrancy cho macOS. 🔄 Khởi động lại VSCode để kích hoạt.",
-  "lynx.liquid.install.success.linux": "✔️ Đã cài đặt hiệu ứng trong suốt cho Linux. 🔄 Khởi động lại VSCode để kích hoạt.",
-  "lynx.liquid.install.success.win": "✔️ Đã cài đặt hiệu ứng trong suốt cho Windows. 🔄 Khởi động lại VSCode để kích hoạt.",
-  "lynx.liquid.uninstall.success.mac": "Đã gỡ bỏ hiệu ứng Vibrancy cho macOS. 🔄 Khởi động lại VSCode.",
-  "lynx.liquid.uninstall.success.linux": "Đã gỡ bỏ hiệu ứng trong suốt. 🔄 Khởi động lại VSCode.",
-  "lynx.liquid.uninstall.success.win": "Đã gỡ bỏ hiệu ứng trong suốt cho Windows. 🔄 Khởi động lại VSCode.",
-  "lynx.liquid.prompt.mac": "[Lynx Theme Pro] Cần có quyền quản trị để áp dụng hiệu ứng vibrancy trên macOS. Bạn sẽ được yêu cầu nhập mật khẩu.",
-  "lynx.liquid.prompt.linux": "[Lynx Theme Pro Liquid] Cần có quyền quản trị để áp dụng hiệu ứng trong suốt. Tiếp tục?",
-  "lynx.liquid.prompt.win": "[Lynx Theme Pro] Cần có quyền quản trị để sửa đổi cài đặt VSCode trong C:\\Program Files. Một thông báo UAC sẽ xuất hiện.",
-  "lynx.liquid.btn.continue": "Có, tiếp tục",
-  "lynx.liquid.btn.cancel": "Hủy",
-  "lynx.liquid.btn.restart": "Khởi động lại ngay",
-  "lynx.liquid.btn.download": "📥 Tải xuống .deb",
-  "lynx.liquid.error.notFound": "[Lynx Liquid] Không tìm thấy tệp VSCode. Trình chỉnh sửa: {0}. Chi tiết: {1}",
-  "lynx.liquid.error.linux.notFound": "[Lynx Liquid] Không tìm thấy tệp VSCode. Trình chỉnh sửa: {0}. Nếu bạn sử dụng một bản phân nhánh của VSCode, hãy mở một issue. Chi tiết: {1}",
-  "lynx.liquid.error.linux.snapFlatpak": "[Lynx Liquid] {0} không được hỗ trợ — hãy cài đặt VSCode dưới dạng .deb để sử dụng hiệu ứng này.",
-  "lynx.liquid.error.linux.noElevate": "[Lynx Liquid] Không thể nâng cấp quyền trong phiên này. Hãy khởi động lại VSCode bình thường và thử lại.",
-  "lynx.liquid.error.linux.noPkexec": "[Lynx Liquid] Yêu cầu pkexec (Polkit) để ghi vào thư mục VSCode. Hãy cài đặt nó và thử lại."
+  "extension.description": "8 chủ đề tuyệt đẹp + 3 bộ biểu tượng cho VS Code, Cursor, Windsurf & hơn thế nữa. Tối, Sáng, Ban đêm, Ghibli, Fury, Kiro, NVIM & Làm mờ. Giảm mỏi mắt và tăng năng suất lập trình của bạn."
 }
