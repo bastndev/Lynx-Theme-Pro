@@ -2,7 +2,7 @@
   "name": "lynx-theme",
   "displayName": "%extension.displayName%",
   "description": "%extension.description%",
-  "version": "5.3.3",
+  "version": "5.3.4",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
@@ -40,13 +40,13 @@
   "homepage": "https://github.com/bastndev/Lynx-Theme-Pro#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bastndev/Lynx-Theme-Pro"
+    "url": "git+https://github.com/bastndev/Lynx-Theme-Pro.git"
   },
   "bugs": {
     "url": "https://github.com/bastndev/Lynx-Theme-Pro/issues/new"
   },
   "author": {
-    "name": "Gohit Bastian",
+    "name": "Gohit (X) Bastian",
     "email": "bastndev@gohit.xyz",
     "url": "https://www.gohit.xyz/me"
   },
@@ -54,11 +54,9 @@
     "url": "https://github.com/sponsors/bastndev"
   },
 
-  "main": "./dist/themes/liquid-theme/liquid-theme.js",
   "l10n": "./l10n",
-  "activationEvents": [
-    "onStartupFinished"
-  ],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./dist/themes/liquid-theme/liquid-theme.js",
 
   "contributes": {
     "themes": [
