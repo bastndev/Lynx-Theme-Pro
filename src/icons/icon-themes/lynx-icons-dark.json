@@ -3711,6 +3711,12 @@
     "folder-r-open": {
       "iconPath": "../../assets/svg/dark/folders/folder-r-open.svg"
     },
+    "folder-sections": {
+      "iconPath": "../../assets/svg/dark/folders/folder-sections.svg"
+    },
+    "folder-sections-open": {
+      "iconPath": "../../assets/svg/dark/folders/folder-sections-open.svg"
+    },
     "folder-skills": {
       "iconPath": "../../assets/svg/dark/folders/folder-skills.svg"
     },
@@ -5266,7 +5272,6 @@
     ".modding": "folder-plugin",
     "_modding": "folder-plugin",
     "__modding__": "folder-plugin",
-    "extension": "folder-plugin",
     ".extension": "folder-plugin",
     "_extension": "folder-plugin",
     "__extension__": "folder-plugin",
@@ -5942,7 +5947,6 @@
     ".changeset": "folder-changesets",
     "_changeset": "folder-changesets",
     "__changeset__": "folder-changesets",
-    "package": "folder-packages",
     ".package": "folder-packages",
     "_package": "folder-packages",
     "__package__": "folder-packages",
@@ -7220,7 +7224,10 @@
     ".skills": "folder-skills",
     "_skills": "folder-skills",
     "__skills__": "folder-skills",
-    "skill": "folder-skills"
+    "sections": "folder-sections",
+    "skill": "folder",
+    "package": "folder",
+    "extension": "folder"
   },
   "folderNamesExpanded": {
     ".f1": "folder-f1-open",
@@ -8575,7 +8582,6 @@
     ".modding": "folder-plugin-open",
     "_modding": "folder-plugin-open",
     "__modding__": "folder-plugin-open",
-    "extension": "folder-plugin-open",
     ".extension": "folder-plugin-open",
     "_extension": "folder-plugin-open",
     "__extension__": "folder-plugin-open",
@@ -9251,7 +9257,6 @@
     ".changeset": "folder-changesets-open",
     "_changeset": "folder-changesets-open",
     "__changeset__": "folder-changesets-open",
-    "package": "folder-packages-open",
     ".package": "folder-packages-open",
     "_package": "folder-packages-open",
     "__package__": "folder-packages-open",
@@ -10529,7 +10534,10 @@
     ".skills": "folder-skills-open",
     "_skills": "folder-skills-open",
     "__skills__": "folder-skills-open",
-    "skill": "folder-skills-open"
+    "sections": "folder-sections-open",
+    "skill": "folder-open",
+    "package": "folder-open",
+    "extension": "folder-open"
   },
   "rootFolderNames": {},
   "rootFolderNamesExpanded": {},
