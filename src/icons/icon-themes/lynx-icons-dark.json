@@ -3711,6 +3711,12 @@
     "folder-r-open": {
       "iconPath": "../../assets/svg/dark/folders/folder-r-open.svg"
     },
+    "folder-sections": {
+      "iconPath": "../../assets/svg/dark/folders/folder-sections.svg"
+    },
+    "folder-sections-open": {
+      "iconPath": "../../assets/svg/dark/folders/folder-sections-open.svg"
+    },
     "folder-skills": {
       "iconPath": "../../assets/svg/dark/folders/folder-skills.svg"
     },
@@ -7218,6 +7224,7 @@
     ".skills": "folder-skills",
     "_skills": "folder-skills",
     "__skills__": "folder-skills",
+    "sections": "folder-sections",
     "skill": "folder",
     "package": "folder",
     "extension": "folder"
@@ -10527,6 +10534,7 @@
     ".skills": "folder-skills-open",
     "_skills": "folder-skills-open",
     "__skills__": "folder-skills-open",
+    "sections": "folder-sections-open",
     "skill": "folder-open",
     "package": "folder-open",
     "extension": "folder-open"
