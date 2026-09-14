@@ -11680,6 +11680,7 @@
     "icon.svg": "icon-png",
     "icon.ico": "icon-png",
     "global.css": "global-css",
+    "globals.css": "global-css",
     "main.lynx.bundle": "lynx",
     "lynx.config.ts": "lynx-config-file",
     ".pug-lintrc": "pug",
