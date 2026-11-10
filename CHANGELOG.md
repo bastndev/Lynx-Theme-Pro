@@ -19,7 +19,13 @@ A complete and versatile theme collection designed for optimal coding experience
 Following VS Code best practices, Lynx Theme Pro uses semantic versioning for all releases.
 
 <br>
-<!-- --- -->\
+<!-- --- -->
+
+---
+## [5.3.8] - 2026-11-09
+
+- ADD new icon for ".atmignore"
+
 
 ---
 ## [5.3.6] - 2026-08-14
