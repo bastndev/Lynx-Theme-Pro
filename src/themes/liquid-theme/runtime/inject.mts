@@ -12,63 +12,131 @@ interface LynxLiquidRuntimeConfig {
 }
 
 const app = global.lynx_liquid_plugin as LynxLiquidRuntimeConfig | undefined;
+const windowHandlers = new WeakMap<Electron.BrowserWindow, (transparent: boolean) => void>();
+
+function isWorkbenchURL(url: string): boolean {
+  try {
+    return /\/workbench(?:\.esm)?\.html$/.test(new URL(url).pathname);
+  } catch {
+    return false;
+  }
+}
 
 if (!app) {
   console.error('[Lynx Liquid Runtime] Extension config not found.');
 } else {
   electron.app.on('browser-window-created', (_event: unknown, window: Electron.BrowserWindow) => {
-    const methods    = transparencyMethods(window);
-    const hackMethod = app.config?.preventFlash ? 'overwrite' : 'interval';
-    const effects    = methods[hackMethod];
-
-    window.on('closed', () => effects.uninstall());
-
-    window.webContents.on('dom-ready', () => {
-      const url = window.webContents.getURL();
-      const isWorkbench = url.includes('workbench.html') || url.includes('workbench.esm.html');
-      if (!isWorkbench) {return;}
-
-      if (app.os === 'macos' && app.vibrancyType) {
-        window.setBackgroundColor('#00000000');
-        window.setVibrancy(app.vibrancyType as any);
-        const b = window.getBounds();
-        window.setBounds({ width: b.width + 1 });
-        window.setBounds({ width: b.width });
-        effects.install();
-        void injectStyles(window);
-      } else {
-        // Liquid glass: prevent full transparency flash by setting dark background
-        // wait for CSS to load, then enable true transparency
-        window.setBackgroundColor('#0c1118');
-        void injectStyles(window).then(() => {
-          window.setBackgroundColor('#00000000');
-          effects.install();
-        });
-      }
-    });
+    trackWindow(window);
   });
 }
 
-function buildStyleHTML(): string {
-  const css = app?.themeCSS ?? '';
-  return `<style id="lynx-liquid-theme-css">${css}</style>`;
-}
+function trackWindow(window: Electron.BrowserWindow): (transparent: boolean) => void {
+  const existing = windowHandlers.get(window);
+  if (existing) { return existing; }
 
-function injectStyles(window: Electron.BrowserWindow): Promise<void> {
-  const styleHTML = buildStyleHTML();
-  return window.webContents.executeJavaScript(`
-    (function() {
-      try {
-        const ttp = window.trustedTypes
-          ? window.trustedTypes.createPolicy("LynxLiquidTheme", { createHTML: (v) => v })
-          : null;
-        const existing = document.getElementById('lynx-liquid-style-root');
-        if (existing) existing.remove();
-        const container = document.createElement('div');
-        container.id = 'lynx-liquid-style-root';
-        container.innerHTML = ttp ? ttp.createHTML(${JSON.stringify(styleHTML)}) : ${JSON.stringify(styleHTML)};
-        document.body.appendChild(container);
-      } catch (e) { console.error(e); }
-    })();
-  `).then(() => undefined).catch(e => console.error(e));
+  const contents = window.webContents;
+  const methods = transparencyMethods(window);
+  const effects = methods[app?.config?.preventFlash ? 'overwrite' : 'interval'];
+  let auxiliary = false;
+  let transparentAtCreation = true;
+  let documentVersion = 0;
+  let applying = false;
+  let styled = false;
+  let attempts = 0;
+  let retryTimer: NodeJS.Timeout | undefined;
+
+  const isAlive = () => !window.isDestroyed() && !contents.isDestroyed();
+
+  function resetDocument(): void {
+    documentVersion++;
+    clearTimeout(retryTimer);
+    retryTimer = undefined;
+    attempts = 0;
+    applying = false;
+    styled = false;
+    effects.uninstall();
+  }
+
+  async function applyStyles(): Promise<void> {
+    if (!app || !isAlive() || applying || styled) { return; }
+
+    const mainWorkbench = isWorkbenchURL(contents.getURL());
+    if (!mainWorkbench && !(auxiliary && contents.getURL() === 'about:blank')) { return; }
+
+    clearTimeout(retryTimer);
+    retryTimer = undefined;
+    const version = documentVersion;
+    const isCurrent = () => isAlive() && version === documentVersion;
+    applying = true;
+
+    try {
+      if (!mainWorkbench) {
+        // The opener builds an auxiliary editor's DOM after its about:blank window opens.
+        const hasEditor = await contents.executeJavaScript(
+          "Boolean(document.querySelector('.monaco-workbench .part.editor'))"
+        );
+        if (!isCurrent()) { return; }
+        if (!hasEditor) {
+          if (++attempts < 50) {
+            retryTimer = setTimeout(() => {
+              retryTimer = undefined;
+              void applyStyles();
+            }, 100);
+          }
+          return;
+        }
+        if (app.os !== 'macos' && !transparentAtCreation) {
+          console.warn('[Lynx Liquid Runtime] Floating editor was created without native transparency. Reinstall the Liquid effect and restart the editor.');
+        }
+      }
+
+      // Keep the dark loading background until CSS injection succeeds.
+      window.setBackgroundColor('#0c1118');
+      const cssKey = await contents.insertCSS(app.themeCSS);
+      if (!isCurrent()) {
+        if (isAlive()) { await contents.removeInsertedCSS(cssKey); }
+        return;
+      }
+
+      window.setBackgroundColor('#00000000');
+      if (app.os === 'macos' && app.vibrancyType) {
+        window.setVibrancy(app.vibrancyType);
+        const b = window.getBounds();
+        window.setBounds({ width: b.width + 1 });
+        window.setBounds({ width: b.width });
+      }
+      effects.install();
+      styled = true;
+    } catch (error: unknown) {
+      if (isCurrent()) { console.error('[Lynx Liquid Runtime] Failed to apply glass styles:', error); }
+    } finally {
+      if (version === documentVersion) { applying = false; }
+    }
+  }
+
+  const markAuxiliary = (transparent: boolean) => {
+    auxiliary = true;
+    transparentAtCreation = transparent;
+    // did-create-window may arrive after the child's initial dom-ready event.
+    void applyStyles();
+  };
+  windowHandlers.set(window, markAuxiliary);
+
+  contents.on('did-create-window', (child, details) => {
+    if (!isAlive() || details.url !== 'about:blank') { return; }
+    const url = contents.getURL();
+    if (!isWorkbenchURL(url) && !(auxiliary && styled && url === 'about:blank')) { return; }
+
+    trackWindow(child)(details.options.transparent === true);
+  });
+  contents.on('did-start-navigation', (_event, _url, isInPlace, isMainFrame) => {
+    if (isMainFrame && !isInPlace) { resetDocument(); }
+  });
+  contents.on('dom-ready', () => { void applyStyles(); });
+  window.on('closed', () => {
+    resetDocument();
+    windowHandlers.delete(window);
+  });
+
+  return markAuxiliary;
 }

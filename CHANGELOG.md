@@ -22,6 +22,17 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 <!-- --- -->
 
 ---
+## [5.3.8] - 2026-11-09
+
+- ADD new icon for ".atmignore"
+- Better glass theme
+
+
+---
+## [5.3.6] - 2026-08-14
+- **Lynx-cons-dark**: add new icon to `globals.css`.
+
+---
 ## [5.3.5] - 2026-06-20
 - **Lynx-cons-dark**: add icon and delete. skill, package, extension"/s".
 

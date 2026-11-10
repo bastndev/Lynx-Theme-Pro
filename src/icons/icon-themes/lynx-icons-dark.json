@@ -3917,6 +3917,9 @@
     },
     "typespec": {
       "iconPath": "../../assets/svg/dark/files/typedoc.svg"
+    },
+    "atmignore": {
+      "iconPath": "../../assets/svg/dark/files/atm.svg"
     }
   },
   "folderNames": {
@@ -11668,6 +11671,7 @@
     "tsp": "typespec"
   },
   "fileNames": {
+    ".atmignore": "atmignore",
     "GRAPH_REPORT.md": "f1",
     "main.ts": "main-ts",
     "skills-lock.json": "skill-file",
@@ -11680,6 +11684,7 @@
     "icon.svg": "icon-png",
     "icon.ico": "icon-png",
     "global.css": "global-css",
+    "globals.css": "global-css",
     "main.lynx.bundle": "lynx",
     "lynx.config.ts": "lynx-config-file",
     ".pug-lintrc": "pug",

@@ -81,15 +81,15 @@ export async function install(context: vscode.ExtensionContext): Promise<void> {
     await writer.mkdir(runtimeDir);
     await writer.copyDir(runtimeSrcDir, runtimeDir);
 
-    await writer.writeFile(
-      ElectronJSFile,
-      injectElectronOptionsMacOS(await fsPromises.readFile(ElectronJSFile, 'utf-8')),
-      'utf-8'
-    );
+    const electronJS = injectElectronOptionsMacOS(await fsPromises.readFile(ElectronJSFile, 'utf-8'));
+    if (ElectronJSFile !== JSFile) {
+      await writer.writeFile(ElectronJSFile, electronJS, 'utf-8');
+    }
 
     const themeCSS = buildThemeCSSMac(__dirname);
     const mainJS   = generateNewJS(
-      await fsPromises.readFile(JSFile, 'utf-8'),
+      // Preserve both patches in one write when elevation stages a shared main.js.
+      ElectronJSFile === JSFile ? electronJS : await fsPromises.readFile(JSFile, 'utf-8'),
       __filename,
       { os: 'macos', vibrancyType: MACOS_VIBRANCY_TYPE, themeCSS, config: { refreshInterval: 1000, preventFlash: true } },
       runtimeEntry,

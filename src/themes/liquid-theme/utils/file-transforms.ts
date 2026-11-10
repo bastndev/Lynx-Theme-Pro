@@ -52,8 +52,8 @@ export function removeJSMarkers(js: string): RemoveMarkersResult {
 // ─── BrowserWindow options — Linux / Windows ──────────────────────────────────
 
 export function injectElectronOptions(electronJS: string): string {
-  if (electronJS.includes('frame:false,')) {return electronJS;}
-  return electronJS.replace(
+  // Main and auxiliary windows share these defaults; unrelated frame options are not our marker.
+  return removeElectronOptions(electronJS).replace(
     /experimentalDarkMode/g,
     'frame:false,transparent:true,experimentalDarkMode'
   );
