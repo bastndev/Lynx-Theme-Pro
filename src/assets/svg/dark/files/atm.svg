@@ -10,7 +10,7 @@
   </defs>
 
   <!-- Character scaled down 5% and centered -->
-  <g transform="translate(4.55 4.5) scale(0.95)">
+  <g transform="translate(2.73 2.7) scale(0.97)">
 
     <!-- Outer character silhouette -->
     <path id="ghost" d="M 90.2,36.5
