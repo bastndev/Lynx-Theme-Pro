@@ -25,6 +25,7 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 ## [5.3.8] - 2026-11-09
 
 - ADD new icon for ".atmignore"
+- Better glass theme
 
 
 ---
