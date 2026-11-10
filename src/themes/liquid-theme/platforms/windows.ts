@@ -52,15 +52,15 @@ export async function install(context: vscode.ExtensionContext): Promise<void> {
     await writer.mkdir(runtimeDir);
     await writer.copyDir(runtimeSrcDir, runtimeDir);
 
-    await writer.writeFile(
-      ElectronJSFile,
-      injectElectronOptions(await fsPromises.readFile(ElectronJSFile, 'utf-8')),
-      'utf-8'
-    );
+    const electronJS = injectElectronOptions(await fsPromises.readFile(ElectronJSFile, 'utf-8'));
+    if (ElectronJSFile !== JSFile) {
+      await writer.writeFile(ElectronJSFile, electronJS, 'utf-8');
+    }
 
     const themeCSS = buildThemeCSS(__dirname);
     const mainJS   = generateNewJS(
-      await fsPromises.readFile(JSFile, 'utf-8'),
+      // Preserve both patches in one write when elevation stages a shared main.js.
+      ElectronJSFile === JSFile ? electronJS : await fsPromises.readFile(JSFile, 'utf-8'),
       __filename,
       { os: 'windows', themeCSS, config: { refreshInterval: 1000, preventFlash: true } },
       runtimeEntry,
