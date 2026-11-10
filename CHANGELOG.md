@@ -19,7 +19,11 @@ A complete and versatile theme collection designed for optimal coding experience
 Following VS Code best practices, Lynx Theme Pro uses semantic versioning for all releases.
 
 <br>
-<!-- --- -->
+<!-- --- -->\
+
+---
+## [5.3.6] - 2026-08-14
+- **Lynx-cons-dark**: add new icon to `globals.css`.
 
 ---
 ## [5.3.5] - 2026-06-20
