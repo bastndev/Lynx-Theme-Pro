@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="480" viewBox="29 30 124 120">
+  <defs>
+    <linearGradient id="body" x1="0" x2="0.68" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.46" stop-color="#fafafb"/>
+      <stop offset="1" stop-color="#ededf0"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer character silhouette, without the dark cloud background -->
+  <path id="ghost" d="M 90.2,36.5
+    C 69.9,35.9 55.1,47.8 48.4,64.5
+    C 44.9,73.2 44.2,82.3 44.0,91.1
+    C 40.8,97.4 32.9,106.0 32.9,113.5
+    C 31.8,122.3 37.1,125.5 44.5,125.0
+    C 47.7,124.7 50.1,123.1 53.1,121.5
+    C 57.7,129.8 64.9,142.4 73.6,145.2
+    C 79.1,147.4 83.6,142.4 85.8,137.9
+    C 87.2,135.0 88.0,131.7 88.7,129.5
+    C 92.0,129.3 95.0,129.3 98.6,129.4
+    C 99.6,134.7 101.7,141.2 106.3,143.4
+    C 113.1,147.1 120.6,140.0 125.1,133.5
+    C 128.1,129.4 130.3,124.8 131.8,121.7
+    C 135.6,125.2 141.2,126.7 145.6,122.8
+    C 151.1,118.9 148.9,110.3 145.7,103.3
+    C 143.8,98.6 140.9,93.3 139.4,90.4
+    C 139.8,69.1 129.9,49.3 112.4,40.4
+    C 105.3,37.1 97.6,36.0 90.2,36.5 Z"
+    fill="url(#body)" stroke="#161616" stroke-width="3.1" stroke-linejoin="round"/>
+  <!-- Subtle contour and folds retained from the original illustration -->
+  <path d="M 54.4,120.3 C 54.7,115.2 55.7,112.3 58.5,109.8" fill="none" stroke="#d4d4d8" stroke-width="1.3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 128.6,117.4 C 130.0,116.8 131.4,118.0 131.9,120.2" fill="none" stroke="#d3d3d7" stroke-width="1.2" stroke-linecap="round" opacity="0.65"/>
+  <path d="M 75.3,123.6 C 80.7,127.4 85.7,128.0 88.4,127.6 M 98.9,127.7 C 105.4,127.8 110.6,126.0 114.2,122.0" fill="none" stroke="#d9d9dd" stroke-width="1.15" stroke-linecap="round" opacity="0.63"/>
+  <!-- Eyes -->
+  <ellipse cx="77.7" cy="81.9" rx="7.9" ry="11.1" transform="rotate(-10 77.7 81.9)" fill="#050505"/>
+  <ellipse cx="115.0" cy="74.1" rx="6.5" ry="10.8" transform="rotate(-9 115 74.1)" fill="#050505"/>
+  <!-- Cheerful small smile -->
+  <path d="M 95.2,90.4
+    C 97.2,87.7 99.1,90.1 100.4,91.6
+    C 101.8,93.1 102.5,93.5 103.6,92.0
+    C 105.3,90.2 106.8,88.2 108.6,89.0
+    C 110.6,91.0 107.4,95.0 104.6,96.7
+    C 100.4,99.0 95.6,95.8 95.2,92.8 Z" fill="#050505"/>
+</svg>

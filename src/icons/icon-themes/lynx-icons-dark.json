@@ -3917,6 +3917,9 @@
     },
     "typespec": {
       "iconPath": "../../assets/svg/dark/files/typedoc.svg"
+    },
+    "atmignore": {
+      "iconPath": "../../assets/svg/dark/files/atm.svg"
     }
   },
   "folderNames": {
@@ -11668,6 +11671,7 @@
     "tsp": "typespec"
   },
   "fileNames": {
+    ".atmignore": "atmignore",
     "GRAPH_REPORT.md": "f1",
     "main.ts": "main-ts",
     "skills-lock.json": "skill-file",
