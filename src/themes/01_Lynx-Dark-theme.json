@@ -15,7 +15,7 @@
     "commandCenter.border":                  "#1a3d26",    // - Command Center border
     "commandCenter.activeBackground":        "#0d1a10",    // - Command Center active bg
 
-    // --- -- - Menu Click & selectt
+    // --- -- - Menu Click & select
     "menu.background":                       "#0b1410",    // - Menu bg
     "menu.foreground":                       "#d4ead8",    // - Menu text
     "menu.border":                           "#1a3d26",    // - Border line
