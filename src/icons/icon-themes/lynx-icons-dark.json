@@ -30,6 +30,9 @@
     "toml-tool": {
       "iconPath": "../../assets/svg/dark/files/toml-tool.svg"
     },
+    "toml-r": {
+      "iconPath": "../../assets/svg/dark/files/toml-r.svg"
+    },
     "toml": {
       "iconPath": "../../assets/svg/dark/files/toml.svg"
     },
