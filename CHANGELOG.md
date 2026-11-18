@@ -21,6 +21,20 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 <br>
 <!-- --- -->
 
+## [5.4.0] - 11/18/2026
+
+### Rust support 🦀
+
+- **TOML syntax colors**: all 8 themes now color `.toml` files (`Cargo.toml`, `clippy.toml`, `rustfmt.toml`, etc.). Each part — `[table]`, `[[array]]` tables, keys, strings, numbers, booleans, dates, escapes, and punctuation — gets a color from that theme's own palette.
+  - Requires the **Even Better TOML** extension (`tamasfe.even-better-toml`). VS Code has no built-in TOML support, so without it `.toml` files stay plain text.
+- **New Rust file icons (Style A)**: `Cargo.toml`, `Cargo.lock`, `clippy.toml`, `rustfmt.toml`, and `rust-toolchain.toml`.
+- **New Rust folder icons (Style A)**: `.cargo`, `crates`, `brand`, and `packaging`.
+
+### Fixed
+
+- **Style A**: `.clauderc`, `claude.json`, `claude.config.js`, `claude.config.json`, and `.claude.json` now show the Claude icon (previously no icon).
+- **Style C**: `.snap` files now show the camera icon (previously no icon), and corrected the zip icon paths.
+
 ---
 ## [5.3.8] - 2026-11-09
 
