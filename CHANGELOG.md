@@ -21,6 +21,8 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 <br>
 <!-- --- -->
 
+## [5.4.0] - 2026-11-18
+
 ---
 ## [5.3.8] - 2026-11-09
 
