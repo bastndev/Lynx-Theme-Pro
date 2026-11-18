@@ -2262,6 +2262,18 @@
     "folder-packaging-open": {
       "iconPath": "../../assets/svg/dark/folders/folder-packaging-open.svg"
     },
+    "folder-crates": {
+      "iconPath": "../../assets/svg/dark/folders/folder-crates.svg"
+    },
+    "folder-crates-open": {
+      "iconPath": "../../assets/svg/dark/folders/folder-crates-open.svg"
+    },
+    "folder-brand": {
+      "iconPath": "../../assets/svg/dark/folders/folder-brand.svg"
+    },
+    "folder-brand-open": {
+      "iconPath": "../../assets/svg/dark/folders/folder-brand-open.svg"
+    },
     "folder-cargo": {
       "iconPath": "../../assets/svg/dark/folders/folder-cargo.svg"
     },
@@ -3950,6 +3962,8 @@
     }
   },
   "folderNames": {
+    "brand": "folder-brand",
+    "crates": "folder-crates",
     "packaging": "folder-packaging",
     ".cargo": "folder-cargo",
     ".f1": "folder-f1",
@@ -7262,6 +7276,8 @@
     "extension": "folder"
   },
   "folderNamesExpanded": {
+    "brand": "folder-brand-open",
+    "crates": "folder-crates-open",
     "packaging": "folder-packaging-open",
     ".cargo": "folder-cargo-open",
     ".f1": "folder-f1-open",
