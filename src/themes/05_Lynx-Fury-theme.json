@@ -525,7 +525,10 @@
     // --- Special
     "macro": { "foreground": "#ff8a1d", "fontStyle": "bold italic" },
     "decorator": { "foreground": "#C4547A", "fontStyle": "bold" },
-    "label": { "foreground": "#ff8a1d" }
+    "label": { "foreground": "#ff8a1d" },
+    // --- TOML (Even Better TOML, when "evenBetterToml.semanticTokens" is on)
+    "tomlTableKey": "#FF7A00",
+    "tomlArrayKey": "#D87093"
   },
 
   "tokenColors": [
@@ -1162,6 +1165,109 @@
       "scope": ["entity.name.tag.yaml"],
       "settings": {
         "foreground": "#E07A8A"
+      }
+    },
+
+    // ===== TOML SPECIFIC (scopes from Even Better TOML / taplo grammar) =====
+    {
+      "name": "TOML Table Name — [table]",
+      "scope": ["support.type.property-name.table.toml"],
+      "settings": {
+        "foreground": "#FF7A00",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "TOML Array of Tables Name — [[table]]",
+      "scope": ["support.type.property-name.array.toml"],
+      "settings": {
+        "foreground": "#D87093",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "TOML Key",
+      "scope": ["support.type.property-name.toml"],
+      "settings": {
+        "foreground": "#E07A8A"
+      }
+    },
+    {
+      "name": "TOML String",
+      "scope": [
+        "string.quoted.single.basic.line.toml",
+        "string.quoted.single.literal.line.toml",
+        "string.quoted.triple.basic.block.toml",
+        "string.quoted.triple.literal.block.toml"
+      ],
+      "settings": {
+        "foreground": "#88C0D0"
+      }
+    },
+    {
+      "name": "TOML Number",
+      "scope": [
+        "constant.numeric.integer.toml",
+        "constant.numeric.float.toml",
+        "constant.numeric.hex.toml",
+        "constant.numeric.oct.toml",
+        "constant.numeric.bin.toml",
+        "constant.numeric.inf.toml",
+        "constant.numeric.nan.toml"
+      ],
+      "settings": {
+        "foreground": "#E5D08B"
+      }
+    },
+    {
+      "name": "TOML Boolean",
+      "scope": ["constant.language.boolean.toml"],
+      "settings": {
+        "foreground": "#D87093",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "TOML Date & Time",
+      "scope": [
+        "constant.other.time.datetime.offset.toml",
+        "constant.other.time.datetime.local.toml",
+        "constant.other.time.date.toml",
+        "constant.other.time.time.toml"
+      ],
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "TOML Escape",
+      "scope": ["constant.character.escape.toml"],
+      "settings": {
+        "foreground": "#B48EAD"
+      }
+    },
+    {
+      "name": "TOML Brackets, Dots, Commas & Equals",
+      "scope": [
+        "punctuation.definition.table.toml",
+        "punctuation.definition.array.table.toml",
+        "punctuation.definition.table.inline.toml",
+        "punctuation.definition.array.toml",
+        "punctuation.separator.dot.toml",
+        "punctuation.separator.array.toml",
+        "punctuation.separator.table.inline.toml",
+        "punctuation.eq.toml"
+      ],
+      "settings": {
+        "foreground": "#9A9A9A"
+      }
+    },
+    {
+      "name": "TOML Schema Directive — #:schema",
+      "scope": ["meta.preprocessor.toml"],
+      "settings": {
+        "foreground": "#B48EAD",
+        "fontStyle": "italic"
       }
     },
     
