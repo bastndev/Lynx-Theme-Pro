@@ -27,6 +27,9 @@
     "cargo-lock2": {
       "iconPath": "../../assets/svg/dark/files/cargolock.svg"
     },
+    "toml-tool": {
+      "iconPath": "../../assets/svg/dark/files/toml-tool.svg"
+    },
     "toml": {
       "iconPath": "../../assets/svg/dark/files/toml.svg"
     },
@@ -11685,6 +11688,8 @@
     "tsp": "typespec"
   },
   "fileNames": {
+    "rustfmt.toml": "toml-r",
+    "rust-toolchain.toml": "toml-tool",
     "Cargo.toml": "cargo-toml",
     "Cargo.lock": "cargo-lock2",
     ".atmignore": "atmignore",
