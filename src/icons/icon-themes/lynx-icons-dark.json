@@ -13861,11 +13861,11 @@
     "beancount": "beancount",
     "ahk2": "ahk2",
     "gnuplot": "gnuplot",
-    ".clauderc": "file-claude",
-    "claude.json": "file-claude",
-    "claude.config.js": "file-claude",
-    "claude.config.json": "file-claude",
-    ".claude.json": "file-claude"
+    ".clauderc": "claude",
+    "claude.json": "claude",
+    "claude.config.js": "claude",
+    "claude.config.json": "claude",
+    ".claude.json": "claude"
   },
   "light": {
     "fileExtensions": {

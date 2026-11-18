@@ -35,7 +35,10 @@
       "iconPath": "../../assets/svg/gray/files/book_dark.svg"
     },
     "_zip_dark": {
-      "iconPath": "../../icon-themes/dark/zip.svg"
+      "iconPath": "../../assets/svg/dark/files/zip.svg"
+    },
+    "_camera_dark": {
+      "iconPath": "../../assets/svg/gray/files/camera_dark.svg"
     },
     "_image_dark": {
       "iconPath": "../../assets/svg/gray/files/image_dark.svg"
@@ -86,7 +89,10 @@
       "iconPath": "../../assets/svg/gray/files/book_light.svg"
     },
     "_zip_light": {
-      "iconPath": "../../icon-themes/light/zip.svg"
+      "iconPath": "../../assets/svg/light/files/zip.svg"
+    },
+    "_camera_light": {
+      "iconPath": "../../assets/svg/gray/files/camera_light.svg"
     },
     "_image_light": {
       "iconPath": "../../assets/svg/gray/files/image_light.svg"
