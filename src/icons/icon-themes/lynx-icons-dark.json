@@ -39,6 +39,9 @@
     "toml_light": {
       "iconPath": "../../assets/svg/dark/files/toml_light.svg"
     },
+    "toml-lints": {
+      "iconPath": "../../assets/svg/dark/files/toml-lints.svg"
+    },
     "diff": {
       "iconPath": "../../assets/svg/dark/files/diff.svg"
     },
@@ -11691,6 +11694,7 @@
     "tsp": "typespec"
   },
   "fileNames": {
+    "clippy.toml": "toml-lints",
     "rustfmt.toml": "toml-r",
     "rust-toolchain.toml": "toml-tool",
     "Cargo.toml": "cargo-toml",
