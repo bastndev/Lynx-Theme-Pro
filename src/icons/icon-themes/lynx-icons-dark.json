@@ -2241,6 +2241,12 @@
     "folder-color-open": {
       "iconPath": "../../assets/svg/dark/folders/folder-color-open.svg"
     },
+    "folder-cargo": {
+      "iconPath": "../../assets/svg/dark/folders/folder-cargo.svg"
+    },
+    "folder-cargo-open": {
+      "iconPath": "../../assets/svg/dark/folders/folder-cargo-open.svg"
+    },
     "folder-webpack": {
       "iconPath": "../../assets/svg/dark/folders/folder-webpack.svg"
     },
@@ -3923,6 +3929,7 @@
     }
   },
   "folderNames": {
+    ".cargo": "folder-cargo",
     ".f1": "folder-f1",
     ".codex": "folder-codex",
     ".opencode": "folder-robot",
@@ -7233,6 +7240,7 @@
     "extension": "folder"
   },
   "folderNamesExpanded": {
+    ".cargo": "folder-cargo-open",
     ".f1": "folder-f1-open",
     ".codex": "folder-codex-open",
     ".opencode": "folder-robot-open",
