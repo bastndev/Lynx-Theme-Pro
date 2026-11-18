@@ -21,6 +21,12 @@
     "settings": {
       "iconPath": "../../assets/svg/dark/files/settings.svg"
     },
+    "cargo-toml": {
+      "iconPath": "../../assets/svg/dark/files/cargo.svg"
+    },
+    "cargo-lock2": {
+      "iconPath": "../../assets/svg/dark/files/cargolock.svg"
+    },
     "toml": {
       "iconPath": "../../assets/svg/dark/files/toml.svg"
     },
@@ -11679,6 +11685,8 @@
     "tsp": "typespec"
   },
   "fileNames": {
+    "Cargo.toml": "cargo-toml",
+    "Cargo.lock": "cargo-lock2",
     ".atmignore": "atmignore",
     "GRAPH_REPORT.md": "f1",
     "main.ts": "main-ts",
